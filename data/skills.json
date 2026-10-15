@@ -1,0 +1,134 @@
+{
+  "The Eye of the United Dragon": {
+    "name": "The Eye of the United Dragon",
+    "text": "You can use this Skill's second and third effects once per Duel if your Deck contains a total of 15 or more \"Dark Magician\" and/or cards that mention it.\n1:Activated at the beginning of the Duel. If you are going first, during the first turn, your opponent will take no effect damage from your effects.\n2: Shuffle 1 card from your hand into your Deck. Play 1 \"Timaeus the United Dragon\" from your hand, then add a total of 2 cards among \"Dark Magician\" and/or a card(s) that mentions it from your Deck to your hand.\n3: If you control a \"Dark Magician\", or your opponent controls a monster, play 1 \"Dark Magician\" or \"Dark Magician Girl\" that has a different name than the monsters you control from your Deck in face-down Defense Position (its battle position can be changed), then add 1 \"The Eye of Timaeus\" from outside your Deck to your hand.",
+    "source": "Skill Trader",
+    "characters": [
+      {
+        "name": "Yami Yugi",
+        "how": "Skill Exchange Trader"
+      }
+    ]
+  },
+  "Mathmech Slicer": {
+    "name": "Mathmech Slicer",
+    "text": "You can only use this Skill's second effect once per turn.\n1: At the beginning of the Duel, add 2 \"Primathmech Alembertian\" and 3 \"Mathmech Circular\" from outside your Deck to your Deck or Extra Deck. During this Duel, you cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters, except \"Mathmech\" monsters, any effect damage your cards would inflict to your opponent becomes 0, and if your \"Mathmech\" Synchro Monster attacks a Defense Position monster, and the attacking monster's ATK is higher than the defense of the target, inflict battle damage equal to the difference between the attacking monster's ATK and the target's DEF.\n2: Reveal 1 \"Mathmech\" Tuner from your hand and send 1 card from your hand or field to the Graveyard, then add 2 \"Mathmech\" monsters from your Deck to your hand. If it is turn 2 onward, you can also set 1 \"Mathmech\" Spell/Trap Card from your hand or Deck. (This card can be activated the same turn.)",
+    "source": "Skill Trader",
+    "characters": []
+  },
+  "Precious Cards of the Dark": {
+    "name": "Precious Cards of the Dark",
+    "text": "You can use this Skill's first effect once per turn and up to twice per Duel if your Deck contains 6 or more DARK monsters.\n1: During your Main Phase, place 1 card from your hand on the bottom of your Deck or send it to the Graveyard, then draw 2 cards. If it is the first turn of the player going second, draw 1 additional card.",
+    "source": null,
+    "characters": [
+      {
+        "name": "Yami Yugi",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Joey Wheeler",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Yugi Muto",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Yami Bakura",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Bandit Keith",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Arkana",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Bonz",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Yugi Muto (DSOD)",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Joey Wheeler (DSOD)",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Bakura (DSOD)",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Zane Truesdale",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Aster Phoenix",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Yubel",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Jack Atlas",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Crow Hogan",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Dark Signer Kalin Kessler",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Kalin Kessler",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Primo",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Paradox",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Quattro",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Yuri",
+        "how": "Level 13"
+      },
+      {
+        "name": "Yuto",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Sylvio Sawatari",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Declan Akaba",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Shay Obsidian",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Varis",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Akira Zaizen",
+        "how": "Drop"
+      }
+    ]
+  }
+}

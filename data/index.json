@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-14T21:01:50.773Z",
+  "dataFetchedAt": "2026-10-13T19:19:55.983Z",
+  "decks": [
+    {
+      "slug": "dark-magician",
+      "name": "Dark Magician",
+      "status": "verified",
+      "updated": "2026-10-14",
+      "skill": "The Eye of the United Dragon",
+      "scenarios": 2,
+      "stats": {
+        "decks": 34,
+        "totalDecks": 830,
+        "share": 0.04096385542168675,
+        "tiers": {},
+        "commonTier": null
+      }
+    },
+    {
+      "slug": "mathmech",
+      "name": "Mathmech",
+      "status": "verified",
+      "updated": "2026-10-13",
+      "skill": "Mathmech Slicer",
+      "scenarios": 3,
+      "stats": {
+        "decks": 46,
+        "totalDecks": 830,
+        "share": 0.05542168674698795,
+        "tiers": {},
+        "commonTier": null
+      }
+    },
+    {
+      "slug": "memento",
+      "name": "Memento",
+      "status": "verified",
+      "updated": "2026-10-14",
+      "skill": "Precious Cards of the Dark",
+      "scenarios": 2,
+      "stats": {
+        "decks": 37,
+        "totalDecks": 830,
+        "share": 0.04457831325301205,
+        "tiers": {
+          "1": 37
+        },
+        "commonTier": 1
+      }
+    }
+  ]
+}

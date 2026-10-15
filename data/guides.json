@@ -1,0 +1,3724 @@
+{
+  "dark-magician": {
+    "deck": "Dark Magician",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-14",
+    "skill": {
+      "name": "The Eye of the United Dragon",
+      "enablerCards": [
+        "Timaeus the United Dragon",
+        "Illusion of Chaos",
+        "Preparation of Rites"
+      ],
+      "trigger": "Effect 1 happens once at the start of the duel (nothing for you to do). Effects 2 and 3 can each be used once per duel, and only if your deck holds 15 or more Dark Magician cards and cards that mention it.",
+      "enabler": "Effect 2 needs Timaeus the United Dragon in your hand: shuffle 1 other card from your hand into your deck, Timaeus is played from your hand, and you add 2 Dark Magician cards. Illusion of Chaos and Preparation of Rites (which searches Illusion of Chaos) are ways to get Timaeus. Effect 3 needs you to control \"Dark Magician\" or your opponent to control a monster: it plays Dark Magician or Dark Magician Girl from your deck face-down and gives you The Eye of Timaeus.",
+      "adds": [
+        {
+          "card": "The Eye of Timaeus",
+          "copies": 1,
+          "note": "Added to your hand from outside your deck when you use effect 3."
+        }
+      ]
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "Dark Magician combo and replays (English)",
+        "creator": "PaeppTricks",
+        "language": "English",
+        "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g"
+      }
+    ],
+    "gamePlan": "Everything starts from Timaeus the United Dragon: if you hold it (or Illusion of Chaos or Preparation of Rites to fetch it) the skill turns the hand into a full combo, which the creator calls a one-card combo. Play Magician's Rod, use Illusion Magic to bring Dark Magician cards to your hand, fuse the Dragon Knight, use the skill's second effect for The Dark Magicians, and keep the extra cards for later. You finish with a monster that negates, one that flips opposing monsters face-down, two Magician Navigations in the Graveyard that negate Spells and Traps, and The Gaze of Timaeus ready to bring Red-Eyes Dark Dragoon in on the opponent's turn. If you miss Dark Magical Curtain, play extra Magician's Rod and Preparation of Rites; with only one Curtain you are still fine, because the combo searches it.",
+    "strengths": [
+      "A one-card combo: with Timaeus (or a way to get it) in hand the skill builds the rest.",
+      "Soul Servant, Dark Magical Circle and Illusion of Chaos let you put cards back in your deck, so the combo is hard to brick.",
+      "It ends with several negates and a monster that resists the opponent's effects, and the creator rates it as good enough for King of Games."
+    ],
+    "weaknesses": [
+      "Hand traps (D.D. Crow on the Graveyard, Droll & Lock Bird) can cut parts of the combo; keep a second Soul Servant as a safety net.",
+      "The order matters: the Dragon Knight goes in a main Monster Zone and The Dark Magicians in the Extra Monster Zone.",
+      "It is based on one creator's video and his own replays, and the opponents' answers in the replays vary."
+    ],
+    "cards": [
+      {
+        "name": "Timaeus the United Dragon",
+        "role": "starter",
+        "copies": 3,
+        "note": "The card that turns on the skill: it needs to be in your hand for effect 2, and its own effect fuses the Dragon Knight."
+      },
+      {
+        "name": "Illusion of Chaos",
+        "role": "starter",
+        "copies": 3,
+        "note": "Reveal it to add Timaeus (or Dark Magician) from your deck; it stays in your hand and can negate an effect on the opponent's turn."
+      },
+      {
+        "name": "Preparation of Rites",
+        "role": "starter",
+        "copies": 2,
+        "note": "A cheap Spell that searches Illusion of Chaos without using your Normal Summon."
+      },
+      {
+        "name": "Magician's Rod",
+        "role": "extender",
+        "copies": 1,
+        "note": "Normal Summon it to search a Spell/Trap that names Dark Magician; the skill can add it."
+      },
+      {
+        "name": "Soul Servant",
+        "role": "extender",
+        "copies": 3,
+        "note": "Puts a Dark Magician card on top of your deck, and later draws cards from the Graveyard."
+      },
+      {
+        "name": "Summoner Monk",
+        "role": "extender",
+        "copies": 1,
+        "note": "Discards a Spell to Special Summon any Level 4 monster from your deck, which gives you Xyz material."
+      },
+      {
+        "name": "Chronicle Sorceress",
+        "role": "extender",
+        "copies": 1,
+        "note": "Sends a Dark Magician card from your deck to the Graveyard once a DARK monster is there."
+      },
+      {
+        "name": "Dark Magical Circle",
+        "role": "removal",
+        "copies": 1,
+        "note": "Banishes an opponent's card each time a Dark Magician is summoned."
+      },
+      {
+        "name": "Dark Magical Curtain",
+        "role": "payoff",
+        "copies": 3,
+        "note": "Summons a Dark Magician for you (and a DARK Spellcaster for the opponent) and searches The Gaze of Timaeus or another Dark Magician Spell/Trap.",
+        "substitutes": [
+          {
+            "name": "Magician's Rod",
+            "why": "The creator says that if you miss Dark Magical Curtain you can play more copies of Rod: it is free to play, and its search finds Soul Servant and other Dark Magician Spells and Traps."
+          },
+          {
+            "name": "Preparation of Rites",
+            "why": "Another cheap Spell the creator adds in place of missing Curtains: it searches Illusion of Chaos without using your Normal Summon, which is the way into Timaeus and the skill."
+          }
+        ]
+      },
+      {
+        "name": "Dark Magician",
+        "role": "extender",
+        "copies": 3,
+        "note": "The main monster; Illusion Magic and Eternal Soul bring it back."
+      },
+      {
+        "name": "Dark Magician Girl",
+        "role": "extender",
+        "copies": 1,
+        "note": "The skill's effect 3 can play her face-down; she is a material for The Dark Magicians."
+      },
+      {
+        "name": "Illusion Magic",
+        "role": "extender",
+        "copies": 1,
+        "note": "Tribute a Spellcaster to add 2 Dark Magicians from your deck or Graveyard."
+      },
+      {
+        "name": "Magician Navigation",
+        "role": "removal",
+        "copies": 2,
+        "note": "Summons Dark Magician and a Level 7 or lower DARK Spellcaster; from the Graveyard it negates a Spell/Trap on the opponent's turn."
+      },
+      {
+        "name": "Magicians' Combination",
+        "role": "removal",
+        "copies": 1,
+        "note": "Tribute a Dark Magician or Dark Magician Girl to negate something and replace her with the other."
+      },
+      {
+        "name": "The Gaze of Timaeus",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion Summons Red-Eyes Dark Dragoon on the opponent's turn for another negate."
+      },
+      {
+        "name": "Magician's Salvation",
+        "role": "extender",
+        "copies": 1,
+        "note": "Sets Eternal Soul and revives a Dark Magician or Dark Magician Girl each time one is summoned."
+      },
+      {
+        "name": "Eternal Soul",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Your Dark Magicians in the Monster Zone become unaffected by the opponent's card effects."
+      },
+      {
+        "name": "Photon Jumper",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "When the opponent attacks it comes out of your hand and protects you; it also adds a Photon Spell/Trap."
+      },
+      {
+        "name": "Dark Magician the Dragon Knight",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion of Dark Magician plus a Dragon; counts as Dark Magician and protects your Spells and Traps."
+      },
+      {
+        "name": "The Dark Magicians",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fusion monster that draws when a Spell/Trap is activated; the skill's Eye makes it."
+      },
+      {
+        "name": "Dark Magician of Destruction",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion that searches another Dark Magician card; summon it by banishing a Level 6+ DARK Spellcaster after a Spell/Trap is activated."
+      },
+      {
+        "name": "Number 90: Galaxy-Eyes Photon Lord",
+        "role": "removal",
+        "copies": 1,
+        "note": "Xyz monster (Level 8) that negates an opponent's monster effect."
+      },
+      {
+        "name": "Evilswarm Nightmare",
+        "role": "removal",
+        "copies": 1,
+        "note": "Xyz monster (two Level 4 DARK) that flips an opponent's Special Summoned monster face-down."
+      },
+      {
+        "name": "Red-Eyes Dark Dragoon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion monster brought out by The Gaze of Timaeus; it negates one activation and cannot be destroyed or targeted by effects."
+      },
+      {
+        "name": "Master of Chaos",
+        "role": "removal",
+        "copies": 1,
+        "note": "Fusion monster that tributes a LIGHT and a DARK monster to banish the opponent's monsters."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Timaeus the United Dragon",
+        "partners": [
+          {
+            "name": "Dark Magician the Dragon Knight",
+            "reason": "Timaeus's own effect Fuses Dark Magician and Timaeus into the Dragon Knight, which counts as Dark Magician and turns on the skill's effect 3.",
+            "link": "fuses into"
+          },
+          {
+            "name": "Illusion of Chaos",
+            "reason": "Illusion of Chaos is a way to put Timaeus in your hand when you did not draw it.",
+            "link": "is fetched by"
+          }
+        ]
+      },
+      {
+        "card": "Magician's Rod",
+        "partners": [
+          {
+            "name": "Soul Servant",
+            "reason": "Rod searches Soul Servant when it is Normal Summoned, and Soul Servant keeps the combo going.",
+            "link": "searches"
+          },
+          {
+            "name": "Illusion Magic",
+            "reason": "Illusion Magic needs to tribute a Spellcaster, and Rod is a free one after its search.",
+            "link": "is tributed for"
+          }
+        ]
+      },
+      {
+        "card": "Soul Servant",
+        "partners": [
+          {
+            "name": "Magician Navigation",
+            "reason": "Soul Servant puts Magician Navigation on top of your deck, and The Dark Magicians then draws it and activates it the same turn.",
+            "link": "sets up"
+          }
+        ]
+      },
+      {
+        "card": "The Eye of Timaeus",
+        "partners": [
+          {
+            "name": "The Dark Magicians",
+            "reason": "The Eye of Timaeus (added by the skill's effect 3) fuses the face-down Dark Magician Girl into The Dark Magicians for free.",
+            "link": "fuses into"
+          }
+        ]
+      },
+      {
+        "card": "Dark Magician of Destruction",
+        "partners": [
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "reason": "Dark Magician of Destruction and The Dark Magicians are both Level 8, so together they become the Xyz monster Number 90.",
+            "link": "Xyz material for"
+          }
+        ]
+      },
+      {
+        "card": "Summoner Monk",
+        "partners": [
+          {
+            "name": "Chronicle Sorceress",
+            "reason": "Summoner Monk discards a Spell to Special Summon Chronicle Sorceress, which sends a second Navigation to the Graveyard.",
+            "link": "summons"
+          },
+          {
+            "name": "Evilswarm Nightmare",
+            "reason": "Monk and Sorceress are two Level 4 DARK monsters, exactly what Evilswarm Nightmare needs as Xyz material.",
+            "link": "Xyz material for"
+          }
+        ]
+      },
+      {
+        "card": "Dark Magical Curtain",
+        "partners": [
+          {
+            "name": "The Gaze of Timaeus",
+            "reason": "Curtain Special Summons Dark Magician, so you can search The Gaze of Timaeus, which brings Red-Eyes Dark Dragoon on the opponent's turn.",
+            "link": "searches"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "one-card-combo",
+        "title": "Turn 1: with Timaeus (or Illusion of Chaos) in your hand, build the full negate board",
+        "hand": [
+          "Illusion of Chaos"
+        ],
+        "requires": {
+          "turn": "first",
+          "anyOf": [
+            {
+              "label": "Timaeus the United Dragon, or a way to fetch it (Illusion of Chaos or Preparation of Rites)",
+              "cards": [
+                "Timaeus the United Dragon",
+                "Illusion of Chaos",
+                "Preparation of Rites"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Uses effect 2 right away (it plays Timaeus) and effect 3 once Dragon Knight is on the field."
+        },
+        "start": {
+          "hand": [
+            "Magician's Rod",
+            "Magician Navigation",
+            "Illusion of Chaos",
+            "Dark Magician Girl"
+          ],
+          "note": "The creator's starting hand. Yours will differ: any hand that gets Timaeus into your hand works, and without Magician's Rod the skill adds Rod and Illusion Magic instead."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Illusion of Chaos",
+            "action": "activate",
+            "reason": "Reveal Illusion of Chaos from your hand (it stays in your hand) to add Timaeus the United Dragon from your deck, then put 1 card from your hand on top of your deck. Put away a card you do not need for this line (here, Magician Navigation). Illusion of Chaos is only the way to get Timaeus: any other way to get it into your hand works too.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "7:10"
+            },
+            "moves": [
+              {
+                "card": "Timaeus the United Dragon",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Magician Navigation",
+                "from": "hand",
+                "to": "deck"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "The Eye of the United Dragon",
+            "when": "Right after you have Timaeus the United Dragon in your hand",
+            "needs": "Timaeus the United Dragon in your hand, and 1 card from your hand to shuffle into your deck (the creator shuffles Dark Magician Girl).",
+            "gives": "Timaeus is played from your hand for free, and you add 2 cards that are Dark Magician or mention it. With Magician's Rod already in your hand, take Illusion Magic and Soul Servant; without Rod, take Rod and Illusion Magic.",
+            "used": true,
+            "reason": "This is the skill's effect 2, the heart of the deck: it puts Timaeus on the field without spending your Normal Summon and finds the next two combo cards.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "7:33"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician Girl",
+                "from": "hand",
+                "to": "deck"
+              },
+              {
+                "card": "Timaeus the United Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Illusion Magic",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Soul Servant",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Magician's Rod",
+            "action": "normal-summon",
+            "reason": "Normal Summon Magician's Rod and search a Spell/Trap that names Dark Magician. The creator takes a second Soul Servant, because he wants one to discard to Summoner Monk later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "7:47"
+            },
+            "moves": [
+              {
+                "card": "Magician's Rod",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Soul Servant",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Illusion Magic",
+            "action": "activate",
+            "reason": "Tribute Magician's Rod (a Spellcaster) to add 2 copies of Dark Magician from your deck to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "8:17"
+            },
+            "moves": [
+              {
+                "card": "Illusion Magic",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Magician's Rod",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Timaeus the United Dragon",
+            "action": "activate",
+            "reason": "Use Timaeus's effect to Fusion Summon Dark Magician the Dragon Knight: Dark Magician from your hand plus Timaeus (a Dragon) as the materials. Put the Dragon Knight in a MAIN Monster Zone, not the Extra Monster Zone: the next steps need the Extra Monster Zone free. The Dragon Knight is treated as Dark Magician, which turns on the skill's effect 3, and it protects your Spells and Traps from the opponent's effects.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "8:20"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician the Dragon Knight",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Timaeus the United Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "The Eye of the United Dragon",
+            "when": "Once you control Dark Magician the Dragon Knight (it counts as Dark Magician)",
+            "needs": "A \"Dark Magician\" on your side of the field (the Dragon Knight counts).",
+            "gives": "Play Dark Magician Girl from your deck face-down, and add The Eye of Timaeus to your hand from outside your deck.",
+            "used": true,
+            "reason": "This is the skill's effect 3: it gives you Dark Magician Girl as fusion material and a free fusion Spell, both without using up any cards from your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "8:36"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician Girl",
+                "from": "deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "The Eye of Timaeus",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Eye of Timaeus",
+            "action": "activate",
+            "reason": "Use The Eye of Timaeus on the face-down Dark Magician Girl to Fusion Summon The Dark Magicians. Put it in the EXTRA Monster Zone (the creator stresses this): that is where it waits before it becomes the Xyz monster later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "8:45"
+            },
+            "moves": [
+              {
+                "card": "The Eye of Timaeus",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician Girl",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Dark Magicians",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Soul Servant",
+            "action": "activate",
+            "reason": "Activate Soul Servant to put Magician Navigation (a Dark Magician card) on top of your deck. Because you activated a Spell, The Dark Magicians can draw 1 card, and it draws that Navigation. A Trap you draw this way can be activated the same turn. In the replay the opponent banished this Soul Servant from the Graveyard with D.D. Crow, which does not matter because you hold a second copy.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "8:58"
+            },
+            "moves": [
+              {
+                "card": "Soul Servant",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Magician Navigation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Magician Navigation",
+            "action": "activate",
+            "reason": "Activate Magician Navigation: Special Summon Dark Magician from your hand, then Special Summon Summoner Monk (a Level 4 DARK Spellcaster) from your deck. Navigation will sit in your Graveyard to negate a Spell or Trap on the opponent's turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "9:27"
+            },
+            "moves": [
+              {
+                "card": "Magician Navigation",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Summoner Monk",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dark Magician of Destruction",
+            "action": "special-summon",
+            "reason": "You have activated a Spell/Trap this turn, so you can Special Summon Dark Magician of Destruction from your Extra Deck by banishing a Level 6 or higher DARK Spellcaster you control (the Dark Magician). Its search adds Dark Magical Curtain.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "9:37"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician",
+                "from": "monster-zone",
+                "to": "banished"
+              },
+              {
+                "card": "Dark Magician of Destruction",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Dark Magical Curtain",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 90: Galaxy-Eyes Photon Lord",
+            "action": "special-summon",
+            "reason": "Dark Magician of Destruction and The Dark Magicians are both Level 8, so Xyz Summon Number 90: Galaxy-Eyes Photon Lord with them. It will negate a monster effect on the opponent's turn and it takes The Dark Magicians' place in the Extra Monster Zone.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "9:52"
+            },
+            "moves": [
+              {
+                "card": "Number 90: Galaxy-Eyes Photon Lord",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "The Dark Magicians",
+                "from": "extra-monster-zone",
+                "to": "overlay",
+                "under": "Number 90: Galaxy-Eyes Photon Lord"
+              },
+              {
+                "card": "Dark Magician of Destruction",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 90: Galaxy-Eyes Photon Lord"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Summoner Monk",
+            "action": "activate",
+            "reason": "Summoner Monk discards a Spell (the spare Soul Servant) to Special Summon a Level 4 monster from your deck: take Chronicle Sorceress. The summoned monster cannot attack, which does not matter here.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "10:00"
+            },
+            "moves": [
+              {
+                "card": "Soul Servant",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Chronicle Sorceress",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Chronicle Sorceress",
+            "action": "activate",
+            "reason": "Dark Magician is in your Graveyard and it is DARK, so Chronicle Sorceress can send 1 Dark Magician card from your deck to the Graveyard. Send the second Magician Navigation: it is a second Spell/Trap negate waiting for the opponent's turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "10:09"
+            },
+            "moves": [
+              {
+                "card": "Magician Navigation",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Evilswarm Nightmare",
+            "action": "special-summon",
+            "reason": "Summoner Monk and Chronicle Sorceress are two Level 4 DARK monsters, so Xyz Summon Evilswarm Nightmare. It can flip a monster the opponent Special Summons face-down. This is the creator's favourite, but the two Level 4 monsters can become any other Level 4 DARK Xyz or Link monster you prefer.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "11:19"
+            },
+            "moves": [
+              {
+                "card": "Evilswarm Nightmare",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Summoner Monk",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Evilswarm Nightmare"
+              },
+              {
+                "card": "Chronicle Sorceress",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Evilswarm Nightmare"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dark Magical Curtain",
+            "action": "activate",
+            "reason": "Activate Dark Magical Curtain: you Special Summon a Dark Magician from your deck (the opponent also gets to Special Summon a DARK Spellcaster, and neither side can use those monsters' effects this turn). Because it is a real Dark Magician you add a Spell/Trap that mentions it: The Gaze of Timaeus.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "11:35"
+            },
+            "moves": [
+              {
+                "card": "Dark Magical Curtain",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "The Gaze of Timaeus",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Soul Servant",
+            "action": "activate",
+            "reason": "Banish the Soul Servant in your Graveyard to draw cards equal to the number of different Dark Magician and Dark Magician Girl cards on the field and in the Graveyards (here 2: Dark Magician and Dark Magician Girl). Your deck is thin by now, so you are likely to draw useful cards.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "12:20"
+            },
+            "moves": [
+              {
+                "card": "Soul Servant",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Magician's Salvation",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Magician's Salvation",
+            "action": "activate",
+            "reason": "The creator happened to draw Magician's Salvation; activating it also Sets Eternal Soul directly from your deck. Eternal Soul makes your Dark Magicians unaffected by the opponent's card effects once it is face-up. This step depends on your draws: with other cards, this part is your own choice.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "12:34"
+            },
+            "moves": [
+              {
+                "card": "Magician's Salvation",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Eternal Soul",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Gaze of Timaeus",
+            "action": "set",
+            "reason": "Set The Gaze of Timaeus. During the opponent's turn it Fusion Summons Red-Eyes Dark Dragoon (using the Dark Magician on your field), which negates one more activation. The creator sums up the finished turn: 1 monster effect negate, 2 face-down flips, 2 Spell/Trap negates and 1 negate of anything.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "13:04"
+            },
+            "moves": [
+              {
+                "card": "The Gaze of Timaeus",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Chain the Rod search and the other searches in response to anything the opponent plays, so a hand trap cannot cancel the rest. Keep Magician Navigation in the Graveyard for the opponent's turn: it banishes itself to negate a Spell/Trap. Put the Dragon Knight in a main Monster Zone and The Dark Magicians in the Extra Monster Zone.",
+        "endBoard": "Number 90: Galaxy-Eyes Photon Lord (negates a monster effect), Evilswarm Nightmare (flips Special Summoned monsters face-down), Dark Magician the Dragon Knight (protects your Spells/Traps) and a Dark Magician, with Eternal Soul and The Gaze of Timaeus set and two Magician Navigations in the Graveyard (two Spell/Trap negates). The Gaze brings Red-Eyes Dark Dragoon on the opponent's turn for one more negate.",
+        "weakSpots": "D.D. Crow can banish a Soul Servant from the Graveyard (keep a second one); Droll & Lock Bird stops searches and draws, so chain them early; if the opponent removes the Dark Magician on your field, The Gaze and Eternal Soul get weaker. The creator says that going second the skill's effect 3 gives you a free Dark Magician or Dark Magician Girl and the combo changes."
+      },
+      {
+        "id": "going-second",
+        "title": "Going second: use the skill to get Red-Eyes Dark Dragoon out first, then build the Dragon Knight",
+        "hand": [
+          "Timaeus the United Dragon"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Timaeus the United Dragon"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Uses effect 3 first (free Dark Magician and The Eye of Timaeus), then effect 2 for Timaeus, Magician's Rod and Illusion Magic."
+        },
+        "start": {
+          "hand": [
+            "Dark Magical Curtain",
+            "Timaeus the United Dragon",
+            "Dark Magical Curtain",
+            "Photon Jumper",
+            "Dark Magical Curtain"
+          ],
+          "note": "The creator's hand in his first going-second replay: three Dark Magical Curtains, Timaeus the United Dragon and Photon Jumper. Yours will differ: the line works with any hand that keeps Timaeus, and the opponent's plays decide what you can finish."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "The Eye of the United Dragon",
+            "when": "First thing in your turn, as soon as the opponent controls a monster (going second, this is almost always true)",
+            "needs": "Your opponent controls a monster (or you control a \"Dark Magician\").",
+            "gives": "Play 1 Dark Magician from your deck, and add The Eye of Timaeus to your hand from outside your deck.",
+            "used": true,
+            "reason": "This is the skill's effect 3, used first when you go second: it gives you a Dark Magician on the field and The Eye of Timaeus for free, so you can bring out Red-Eyes Dark Dragoon before the opponent's turn comes.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "14:58"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "The Eye of Timaeus",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Eye of Timaeus",
+            "action": "activate",
+            "reason": "Use The Eye of Timaeus on the Dark Magician to Fusion Summon Red-Eyes Dark Dragoon (the Eye counts as a Dragon here). Dragoon cannot be destroyed or targeted by effects, can destroy an opponent's monster, and can negate one activation (it discards 1 card). The creator wants it out first because the opponent can use hand traps or draw effects against the rest of the turn. The Extra Monster Zone is a good place for it.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "15:05"
+            },
+            "moves": [
+              {
+                "card": "The Eye of Timaeus",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Dark Dragoon",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "The Eye of the United Dragon",
+            "when": "Right after Dragoon is out, while you still hold Timaeus the United Dragon",
+            "needs": "Timaeus the United Dragon in your hand, and 1 card from your hand to shuffle into your deck (a spare Dark Magical Curtain here).",
+            "gives": "Timaeus is played from your hand, and you add Magician's Rod and Illusion Magic to your hand.",
+            "used": true,
+            "reason": "This is the skill's effect 2. With three Curtains in the starting hand, shuffling one back costs you nothing.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "15:26"
+            },
+            "moves": [
+              {
+                "card": "Dark Magical Curtain",
+                "from": "hand",
+                "to": "deck"
+              },
+              {
+                "card": "Timaeus the United Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Magician's Rod",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Illusion Magic",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Magician's Rod",
+            "action": "normal-summon",
+            "reason": "Normal Summon Magician's Rod and search a Spell/Trap that names Dark Magician: Soul Servant.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "15:28"
+            },
+            "moves": [
+              {
+                "card": "Magician's Rod",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Soul Servant",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Illusion Magic",
+            "action": "activate",
+            "reason": "Tribute Magician's Rod (a Spellcaster) to add 2 copies of Dark Magician from your deck to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "15:32"
+            },
+            "moves": [
+              {
+                "card": "Illusion Magic",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Magician's Rod",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Soul Servant",
+            "action": "activate",
+            "reason": "Activate Soul Servant to put Dark Magical Circle on top of your deck, then banish Soul Servant from the Graveyard right away to draw 1 card (the number of different Dark Magician cards on the field and in the Graveyards: here just Dark Magician). You draw the Circle.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "15:44"
+            },
+            "moves": [
+              {
+                "card": "Soul Servant",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Soul Servant",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Dark Magical Circle",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dark Magical Circle",
+            "action": "activate",
+            "reason": "Activate Dark Magical Circle: look at the top 3 cards of your deck and add a Dark Magician card or a Spell/Trap that mentions it; the creator finds Eternal Soul. Each time a Dark Magician is summoned the Circle can banish a card the opponent controls.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "15:48"
+            },
+            "moves": [
+              {
+                "card": "Dark Magical Circle",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Eternal Soul",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Timaeus the United Dragon",
+            "action": "activate",
+            "reason": "Use Timaeus's effect again: Fusion Summon Dark Magician the Dragon Knight from a Dark Magician in your hand and Timaeus. It counts as a Dark Magician, so the Circle triggers and banishes an opponent's card (the creator banished a Pentest here; pick the card that hurts you most). It also protects your Spells and Traps.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "15:55"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician the Dragon Knight",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Timaeus the United Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Eternal Soul",
+            "action": "set",
+            "reason": "Set Eternal Soul. Once it is face-up, your Dark Magicians are unaffected by the opponent's card effects, and on the opponent's turn it can bring a Dark Magician back from your hand or Graveyard. Keep the other Dark Magician and the spare Curtains in your hand for the next turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+              "timestamp": "16:00"
+            },
+            "moves": [
+              {
+                "card": "Eternal Soul",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Bring Dragoon out first and keep it for the opponent's turn: it is the card that negates what the opponent does next. In the replay the opponent used D.D. Crow, Mascarena and a draw effect during the turn, and the creator used Dragoon to negate the draw.",
+        "endBoard": "Red-Eyes Dark Dragoon and Dark Magician the Dragon Knight on the field, Dark Magical Circle face-up and Eternal Soul set, with a Dark Magician and two Dark Magical Curtains still in your hand for the next turn.",
+        "weakSpots": "The opponent can answer Dragoon with a hand trap or a board wipe, and the steps after step 2 depend on what the opponent does; the creator himself made mistakes in this game (banishing the wrong card with the Circle). Treat this as a model of what to aim for, not as a line you can always finish."
+      }
+    ]
+  },
+  "mathmech": {
+    "deck": "Mathmech",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-13",
+    "skill": {
+      "name": "Mathmech Slicer",
+      "enablerCards": [
+        "Mathmech Sigma",
+        "Mathmech Diameter",
+        "Mathmech Nabla",
+        "Cynet Mining"
+      ],
+      "trigger": "Effect 1 happens once, at the start of the duel (it adds 2 Primathmech Alembertian and 3 Mathmech Circular to your deck). Effect 2 is the one you use every turn, but only once per turn.",
+      "enabler": "A Level 4 Mathmech Tuner in your hand (Mathmech Sigma, Diameter or Nabla), or Cynet Mining to fetch one. Effect 2: reveal that Tuner, send 1 card from your hand or field to the Graveyard, then add 2 Mathmech monsters from your deck to your hand. From turn 2 on you can also set 1 Mathmech Spell/Trap from your hand or deck.",
+      "adds": [
+        {
+          "card": "Primathmech Alembertian",
+          "copies": 2,
+          "note": "Added to your Deck or Extra Deck at the start of the duel."
+        },
+        {
+          "card": "Mathmech Circular",
+          "copies": 3,
+          "note": "Added to your Deck or Extra Deck at the start of the duel."
+        }
+      ]
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "How to play Mathmech in Duel Links (English deck guide)",
+        "creator": "Mekklord",
+        "language": "English",
+        "url": "https://www.youtube.com/watch?v=t-_1uh5nU90"
+      },
+      {
+        "title": "Mathmech replay guide (Portuguese)",
+        "creator": "Ignister",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=zkuwtZa28YY"
+      }
+    ],
+    "gamePlan": "Open with a Level 4 Mathmech Tuner (a small monster that lets you Synchro Summon) and use the skill to put the key monsters in your hand. Chain extra summons (an extender is a card that lets you summon more monsters) into Xyz and Link monsters (Xyz and Link are special monsters that live in the Extra Deck) that search, remove the opponent's cards, and draw. Finish with Geomathmech Final Sigma, a Level 12 monster that hits for double damage. When you search with the skill, take Circular and Diameter first, then Sigma, then Addition and Subtraction: keeping Sigma in your hand is safer than leaving it in the Graveyard, because a hand trap (a card the opponent plays from their hand) can stop it coming back, and Addition and Subtraction summon themselves from your hand, so they keep your follow-up going if you get interrupted. Because the skill gets you to your combo pieces, the rest of your deck goes to tech cards: hand traps and board breakers (cards that clear the opponent's board). Always check this guide's sources: the creators disagree on small details, and both mention a banlist change was coming when they recorded.",
+    "strengths": [
+      "Out-resources opponents: the skill keeps adding monsters every turn, so you do not run out of cards early.",
+      "Several searches and a draw happen before the opponent can respond, which dodges some hand traps.",
+      "From turn 2 you can set a Mathmech trap and end the duel with Geomathmech Final Sigma."
+    ],
+    "weaknesses": [
+      "Hand traps still hurt: D.D. Crow on the targets of Splash Mage's revive is very bad, and you are only protected against Effect Veiler and Infinite Impermanence for a short part of the combo.",
+      "In a long game the top decks (Vaalmonica, Branded, Snake-Eye) generate more resources than you do.",
+      "The deck leans heavily on tech cards, so a bad draw of tech cards makes it much weaker.",
+      "The Portuguese creator (Ignister) advises against building it right now because a banlist change and new decks were expected; check the current list before you spend gems."
+    ],
+    "cards": [
+      {
+        "name": "Mathmech Sigma",
+        "role": "starter",
+        "copies": 3,
+        "note": "A Tuner that lets you use the skill; it revives itself but is banished when it leaves the field."
+      },
+      {
+        "name": "Mathmech Diameter",
+        "role": "starter",
+        "copies": 3,
+        "note": "A Tuner. When Normal Summoned it revives a Level 4 Cyberse monster; used as Xyz or Synchro material it gives that monster a negate."
+      },
+      {
+        "name": "Mathmech Nabla",
+        "role": "starter",
+        "copies": 3,
+        "note": "A Tuner. Tribute a Cyberse monster to bring any Mathmech from your deck.",
+        "substitutes": [
+          {
+            "name": "Mathmech Sigma",
+            "why": "Any Level 4 Mathmech Tuner turns the skill on, so Sigma starts the same line; the creator counts 6 to 9 Tuners in the deck for this reason."
+          },
+          {
+            "name": "Mathmech Diameter",
+            "why": "Also a Level 4 Mathmech Tuner, so it can open the line; it even gives the Xyz monster a negate when used as material."
+          }
+        ]
+      },
+      {
+        "name": "Cynet Mining",
+        "role": "starter",
+        "copies": 2,
+        "note": "Discard a card to fetch a Level 4 or lower Cyberse monster, such as a Tuner for the skill.",
+        "substitutes": [
+          {
+            "name": "Mathmech Sigma",
+            "why": "If you have no Cynet Mining, a Tuner already in your hand does its job: it is a Level 4 Tuner that turns the skill on."
+          }
+        ]
+      },
+      {
+        "name": "Primathmech Alembertian",
+        "role": "starter",
+        "note": "Added by the skill, not in the main deck. Xyz monster that searches a Mathmech card."
+      },
+      {
+        "name": "Mathmech Circular",
+        "role": "payoff",
+        "note": "Added by the skill, not in the main deck. Summons itself and searches a Mathmech Spell/Trap each time you summon a Mathmech."
+      },
+      {
+        "name": "Mathmech Addition",
+        "role": "extender",
+        "copies": 1,
+        "note": "Special Summons itself from your hand."
+      },
+      {
+        "name": "Mathmech Subtraction",
+        "role": "extender",
+        "copies": 1,
+        "note": "Like Addition but it lowers a monster's ATK; it is FIRE, so Bystial cannot banish it."
+      },
+      {
+        "name": "Mathmech Equation",
+        "role": "extender",
+        "copies": 1,
+        "note": "A Spell that revives a Mathmech monster."
+      },
+      {
+        "name": "Mathmech Multiplication",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Raises a Level 4 Cyberse monster to Level 8 and doubles ATK when sent to the Graveyard."
+      },
+      {
+        "name": "Geomathmech Final Sigma",
+        "role": "payoff",
+        "copies": 2,
+        "note": "The Level 12 finisher: unaffected by most effects and deals double battle damage in the Extra Monster Zone."
+      },
+      {
+        "name": "Splash Mage",
+        "role": "extender",
+        "copies": 1,
+        "note": "A Link monster that revives a Cyberse monster."
+      },
+      {
+        "name": "Decode Talker Heatsoul",
+        "role": "extender",
+        "copies": 1,
+        "note": "A Link monster: pay 1000 LP to draw."
+      },
+      {
+        "name": "Primathmech Laplacian",
+        "role": "removal",
+        "copies": 2,
+        "note": "Xyz monster that sends cards from the opponent's hand and field to the Graveyard."
+      },
+      {
+        "name": "Mathmech Superfactorial",
+        "role": "removal",
+        "copies": 1,
+        "note": "A Trap that revives up to 3 Mathmech monsters and Xyz or Synchro Summons, even on the opponent's turn."
+      },
+      {
+        "name": "Mathmech Induction",
+        "role": "removal",
+        "copies": 1,
+        "note": "A Trap that can destroy a card."
+      },
+      {
+        "name": "S-Force Justify",
+        "role": "removal",
+        "copies": 1,
+        "note": "A Link monster that negates a monster's effects."
+      },
+      {
+        "name": "Forbidden Droplet",
+        "role": "removal",
+        "copies": 3,
+        "note": "A board breaker: halves ATK and negates effects."
+      },
+      {
+        "name": "Book of Eclipse",
+        "role": "removal",
+        "copies": 3,
+        "note": "A board breaker that turns monsters face-down."
+      },
+      {
+        "name": "Artifact Lancea",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Stops both players from banishing cards for the turn."
+      },
+      {
+        "name": "Effect Veiler",
+        "role": "hand-trap",
+        "copies": 3
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 2
+      },
+      {
+        "name": "Infinite Impermanence",
+        "role": "hand-trap",
+        "note": "Both creators run it: it is a hand trap, a board breaker and a normal trap in one."
+      },
+      {
+        "name": "Number 60: Dugares the Timeless",
+        "role": "extender",
+        "copies": 1,
+        "note": "An Xyz monster whose effect can draw 2 cards (it skips your next Draw Phase)."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Mathmech Circular",
+        "partners": [
+          {
+            "name": "Mathmech Sigma",
+            "reason": "Circular summons itself by sending a Mathmech from your deck to the Graveyard; Sigma is the usual choice because it can then bring itself back.",
+            "link": "sends to the Graveyard"
+          },
+          {
+            "name": "Mathmech Superfactorial",
+            "reason": "Each time you summon a Mathmech while Circular is on the field, Circular can add a Mathmech Spell/Trap, usually Superfactorial.",
+            "link": "adds to your hand"
+          }
+        ]
+      },
+      {
+        "card": "Mathmech Diameter",
+        "partners": [
+          {
+            "name": "Primathmech Alembertian",
+            "reason": "If you use Diameter as material for an Xyz or Synchro Mathmech monster, that monster can negate one effect on the turn it was summoned.",
+            "link": "material, gives a negate"
+          },
+          {
+            "name": "Primathmech Laplacian",
+            "reason": "The same negate works on Laplacian, which is why the creators put Diameter inside it.",
+            "link": "material, gives a negate"
+          }
+        ]
+      },
+      {
+        "card": "Primathmech Alembertian",
+        "partners": [
+          {
+            "name": "Mathmech Equation",
+            "reason": "Detach 2 materials to add any Mathmech card from your deck; the creators usually take Equation or Superfactorial.",
+            "link": "detach 2, adds to hand"
+          }
+        ]
+      },
+      {
+        "card": "Mathmech Superfactorial",
+        "partners": [
+          {
+            "name": "Primathmech Laplacian",
+            "reason": "Superfactorial brings back up to 3 Mathmech monsters and Xyz Summons right away, so you get Laplacian and its card removal on the opponent's turn.",
+            "link": "revives, then Xyz Summon"
+          }
+        ]
+      },
+      {
+        "card": "Mathmech Nabla",
+        "partners": [
+          {
+            "name": "Mathmech Multiplication",
+            "reason": "Nabla tributes a Cyberse monster to bring Multiplication from your deck; Multiplication raises a Level 4 monster to Level 8, so Nabla (Level 4) plus that monster make the Level 12 needed for Final Sigma.",
+            "link": "tributes, summons from Deck"
+          }
+        ]
+      },
+      {
+        "card": "Splash Mage",
+        "partners": [
+          {
+            "name": "Decode Talker Heatsoul",
+            "reason": "Splash Mage revives a Mathmech monster, and then that monster plus Splash Mage are Link material for Heatsoul, which draws.",
+            "link": "revives, then Link material"
+          }
+        ]
+      },
+      {
+        "card": "Cynet Mining",
+        "partners": [
+          {
+            "name": "Mathmech Sigma",
+            "reason": "Cynet Mining fetches a Level 4 Tuner such as Sigma, which is how you switch the skill on when your hand has no Tuner.",
+            "link": "searches your Deck"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "opening-tuner",
+        "title": "Turn 1: you open with a Level 4 Tuner (example: Nabla)",
+        "hand": [
+          "Mathmech Nabla"
+        ],
+        "requires": {
+          "anyOf": [
+            {
+              "label": "a Level 4 Mathmech Tuner (Sigma, Diameter or Nabla)",
+              "cards": [
+                "Mathmech Sigma",
+                "Mathmech Diameter",
+                "Mathmech Nabla"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill is step 1: it fetches Circular and Diameter, and you use it again next turn if you kept a Tuner."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "First thing in your turn, before you summon anything",
+            "needs": "Reveal a Level 4 Mathmech Tuner from your hand (Nabla here) and send 1 card from your hand to the Graveyard; choose a Mathmech monster you would like to bring back later.",
+            "gives": "Adds Mathmech Circular and Mathmech Diameter to your hand.",
+            "used": true,
+            "reason": "The skill hands you the two key monsters for free.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "12:10"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Subtraction",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Sigma from your deck to the Graveyard to Special Summon Circular from your hand (afterwards you can only attack with 1 monster this turn). Sigma in the Graveyard can come back later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "12:26"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "When Diameter is Normal Summoned, revive a Level 4 Cyberse monster (any Level 4 Mathmech Tuner or extender) from the Graveyard; the revived monster cannot use its own effects. Circular can now search, but do not use it yet.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "12:42"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "special-summon",
+            "reason": "Xyz Summon it with Diameter and the monster you just revived (two Level 4 monsters). Do not use Circular as material, because Circular is needed for its search.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "12:56"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Detach 2 materials to add 1 Mathmech card from your deck. If you already hold an extender (Equation, Subtraction or Addition), take Mathmech Induction; if you hold none, take an extender, preferably Addition or Subtraction because they work better against D.D. Crow.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "13:04"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Addition",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "Use Circular's search together with Alembertian's: add Mathmech Superfactorial. Both effects trigger from the same Xyz Summon and go on one chain, so Droll & Lock Bird (which can only answer after a card is added) cannot stop either one; and Diameter inside Alembertian gives it a negate against Effect Veiler or Infinite Impermanence.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "13:12"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute Alembertian to Special Summon a Level 4 Mathmech monster from your hand or Graveyard, for example Diameter again.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "14:05"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Sigma",
+            "action": "special-summon",
+            "reason": "With no monster in your Extra Monster Zone you can bring Sigma back from the Graveyard. It is banished if it leaves the field, but both creators say using it as Xyz material first is fine.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "14:15"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Laplacian",
+            "action": "special-summon",
+            "reason": "Xyz Summon it with 3 Level 4 monsters. On summon, detach up to 3 materials to send a random card from the opponent's hand, a monster, and a Spell/Trap they control to the Graveyard (one effect per material).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "14:21"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Laplacian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Addition",
+            "action": "special-summon",
+            "reason": "Special Summon this extender from your hand. It raises a monster's ATK by 1000 and limits your Extra Deck summons to Cyberse monsters for the turn, which is fine for the next steps.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "14:34"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Addition",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Splash Mage",
+            "action": "special-summon",
+            "reason": "Link Summon it with 2 Cyberse monsters (Addition and Laplacian). Splash Mage then revives a Cyberse monster from the Graveyard in Defense Position: choose one that is not LIGHT or DARK, because Bystial can banish those in response (Multiplication and Division are EARTH, Addition and Subtraction are FIRE).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "14:38"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Addition",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Primathmech Laplacian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Splash Mage",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Decode Talker Heatsoul",
+            "action": "special-summon",
+            "reason": "Link Summon it with Splash Mage and the monster you just revived (2 Cyberse monsters with different Attributes). Pay 1000 LP to draw 1 card.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "15:04"
+            },
+            "moves": [
+              {
+                "card": "Splash Mage",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Decode Talker Heatsoul",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Superfactorial",
+            "action": "set",
+            "reason": "Set Superfactorial and any other back-row card you searched, then pass. On the opponent's turn Superfactorial can bring back up to 3 Mathmech monsters with different names and Xyz Summon Laplacian again, removing more of their cards.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=t-_1uh5nU90",
+              "timestamp": "15:10"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Never use Circular's search before Alembertian's: activate Alembertian's search first and Circular's straight after, so one Droll & Lock Bird cannot stop both.",
+        "endBoard": "Decode Talker Heatsoul on the field (it can draw on your next draw phase and, once your LP are 2000 or less, tag out into S-Force Justify) with Superfactorial set; Laplacian is ready to come back from your Extra Deck on the opponent's turn.",
+        "weakSpots": "D.D. Crow in response to Splash Mage's revive targets ruins the line; Bystial can banish a LIGHT or DARK revive target; Effect Veiler or Infinite Impermanence early in the turn, before Diameter is in the Xyz, can cut the combo short.",
+        "start": {
+          "hand": [
+            "Mathmech Nabla",
+            "Mathmech Subtraction",
+            "Droll & Lock Bird",
+            "Forbidden Droplet"
+          ],
+          "note": "Example hand. Yours will differ: any Level 4 Mathmech Tuner works as the first card, and the card you send to the Graveyard is your choice (the creator suggests a Mathmech monster you want to bring back later)."
+        }
+      },
+      {
+        "id": "circular-no-tuner",
+        "title": "Turn 1: you hold Circular but no Tuner (the skill is off until you find one)",
+        "hand": [
+          "Mathmech Circular"
+        ],
+        "requires": {
+          "hand": [
+            "Mathmech Circular"
+          ],
+          "without": [
+            {
+              "label": "a Level 4 Mathmech Tuner",
+              "cards": [
+                "Mathmech Sigma",
+                "Mathmech Diameter",
+                "Mathmech Nabla"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "You cannot use the skill at the start. You find a Tuner first, then use it midway (step 6)."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Sigma from your deck to the Graveyard to Special Summon Circular from your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "12:42"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Sigma",
+            "action": "special-summon",
+            "reason": "You control nothing in the Extra Monster Zone, so Sigma can Special Summon itself from the Graveyard (it will be banished when it leaves the field). This summon also triggers Circular.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "12:50"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "Circular's trigger adds a Mathmech Spell/Trap from your deck: take Mathmech Superfactorial.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:02"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "special-summon",
+            "reason": "Xyz Summon it with two Level 4 monsters, Sigma included (Circular is the other one). Both creators say Sigma is not banished when it is used as Xyz material.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:14"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Detach 2 materials to add 1 Mathmech card. Take Mathmech Diameter, a Tuner, so that you can finally switch the skill on.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:25"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Circular",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "Right after Alembertian's search, before you Normal Summon",
+            "needs": "Reveal Mathmech Diameter and send 1 card from your hand to the Graveyard (the creator discards Forbidden Droplet, since this line does not need it).",
+            "gives": "Adds 2 Mathmech monsters to your hand. The creator takes Mathmech Nabla and a monster that summons itself, such as Addition.",
+            "used": true,
+            "reason": "Now that you have a Tuner, the skill refills your hand with extra monsters.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:36"
+            },
+            "moves": [
+              {
+                "card": "Forbidden Droplet",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Addition",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "Normal Summon Diameter to revive a Level 4 Cyberse monster from the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "14:19"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute Alembertian to Special Summon Mathmech Sigma back from the Graveyard (Sigma went there when it was detached in step 5). Now Diameter, Circular and Sigma are all on the field.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "14:32"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon it with Diameter (the Tuner) plus Circular and Sigma as the non-Tuners: Level 4 + 4 + 4 = 12. Sigma's own text lets it count as a non-Tuner when it is used for a Mathmech Synchro Summon.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "14:38"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Use Circular's search as soon as Sigma is summoned (step 3), before you make Alembertian. Keep Nabla in your hand instead of summoning it: it is your Tuner for next turn's skill, and the creator says to leave it there.",
+        "endBoard": "Geomathmech Final Sigma (Level 12) in the Extra Monster Zone, with Nabla still in your hand to switch the skill on next turn and Superfactorial in your hand.",
+        "weakSpots": "The line spends your Tuner-free start on Circular, so one hand trap against Circular's Special Summon or against Alembertian slows the whole combo; and you cannot use the skill until step 6.",
+        "start": {
+          "hand": [
+            "Mathmech Circular",
+            "Forbidden Droplet",
+            "Effect Veiler",
+            "Artifact Lancea"
+          ],
+          "note": "Example hand. Yours will differ: the creator sends Forbidden Droplet to the skill because this line does not need it."
+        }
+      },
+      {
+        "id": "finish-final-sigma",
+        "title": "Finish: with Alembertian and one other monster on your field and Nabla in your Graveyard, build Final Sigma and attack with it",
+        "hand": [],
+        "requires": {
+          "board": "Primathmech Alembertian and one other monster (the creator uses Number 60: Dugares the Timeless) on your field, and Mathmech Nabla in your Graveyard"
+        },
+        "skillPlan": {
+          "uses": false,
+          "note": "This finish does not use the skill. If you still hold a Tuner on turn 2 or later, use the skill first to set Superfactorial."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute a monster to Special Summon a Level 4 Mathmech monster from your hand or Graveyard: bring Mathmech Nabla back from the Graveyard. The creator tributes Number 60: Dugares the Timeless here.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:38"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Tribute Alembertian (a Cyberse monster) to Special Summon Mathmech Multiplication from your deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:45"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Multiplication",
+            "action": "activate",
+            "reason": "Target Multiplication itself (a Level 4 Cyberse monster you control): its Level becomes 8 until the end of the turn. Nabla (Level 4, a Tuner) plus a Level 8 monster make Level 12.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:05"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon it with Nabla (Tuner) and Multiplication (non-Tuner, Level 8). In the Extra Monster Zone it is unaffected by effects other than Mathmech cards and deals double battle damage.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:12"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Nabla was sent to the Graveyard as Synchro material: target Final Sigma in the Extra Monster Zone, and it can make up to 2 attacks on monsters this turn. These Graveyard effects only work because a Cyberse monster is in the Extra Monster Zone.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:20"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Multiplication",
+            "action": "activate",
+            "reason": "Multiplication was also sent to the Graveyard: target Final Sigma in the Extra Monster Zone and its ATK is doubled until the end of the turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:37"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "attack",
+            "reason": "Attack with the doubled ATK. Nabla's extra attack is for attacks on monsters (up to 2), and the double battle damage applies when Final Sigma battles a monster. If you used Circular's Special Summon this turn you can only attack with 1 monster, which is fine here because Final Sigma is the only one that matters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:47"
+            },
+            "moves": []
+          }
+        ],
+        "chainNotes": "Activate Nabla's and Multiplication's Graveyard effects once Final Sigma is in the Extra Monster Zone, because they need a Cyberse monster there.",
+        "endBoard": "Geomathmech Final Sigma with doubled ATK, able to attack monsters up to twice and deal double battle damage, often enough to win on its own.",
+        "weakSpots": "A negate or removal on Alembertian's tribute effect, or Bystial banishing Nabla or Multiplication from the Graveyard, breaks the line.",
+        "start": {
+          "extra-monster-zone": [
+            "Primathmech Alembertian",
+            "Number 60: Dugares the Timeless"
+          ],
+          "graveyard": [
+            "Mathmech Nabla"
+          ],
+          "note": "Example board from the Portuguese creator's replay: Number 60: Dugares the Timeless is the monster that gets tributed. Yours will differ."
+        }
+      }
+    ]
+  },
+  "memento": {
+    "deck": "Memento",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-14",
+    "skill": {
+      "name": "Precious Cards of the Dark",
+      "enablerCards": [],
+      "trigger": "Needs 6 or more DARK monsters in your deck, which every Memento list has. You can use it once per turn and twice per duel.",
+      "enabler": "No special card is needed. During your Main Phase put 1 card from your hand on the bottom of your deck or send it to the Graveyard, then draw 2 cards (3 if it is the first turn of the player going second). Sending a card to the Graveyard is good in this deck, and the creator says Mementotlan Ghattic is the best card to put back.",
+      "adds": []
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "Curso completo de Memento (Portuguese deck course and replays)",
+        "creator": "Sorem",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q"
+      }
+    ],
+    "gamePlan": "Memento is a combo deck: almost every card destroys or sends another, and each destruction triggers more effects. The goal is a field that is hard to break and a Mementoal Tecuhtlica - Combined Creation (5000 ATK) that you can bring back every turn. Start with a starter (Mementotlan Angwitch, Mementotlan Dark Blade or Mementotlan Tatsunootoshigo), use Mementotlan Fusion to make Mementomictlan Tecuhtlica - Creation King, destroy it for its effects, and finish with Combined Creation, Lyrilusc - Assembled Nightingale (a protective Xyz monster) and I:P Masquerena (a Link monster that turns into your negate on the opponent's turn). The creator says the deck has many lines and this video shows only the simplest; learn this one first, then add others from other creators. Do not pick up the deck and expect to master it quickly: the creator practised for more than 4 hours and still did not learn every play.",
+    "strengths": [
+      "It fills your hand and Graveyard so fast that you can have 10 cards in hand by the end of the combo.",
+      "Almost everything protects itself: monsters come back from the Graveyard, and Lyrilusc - Assembled Nightingale makes sure you cannot lose the first turn.",
+      "On the opponent's turn you have several answers at once: Forbidden Droplet, Fracture Dance, Cranium Burst and I:P Masquerena into S:P Little Knight.",
+      "The creator says it has an answer to every kind of play and a clear way to win with Combined Creation attacking directly."
+    ],
+    "weaknesses": [
+      "It is complex: you can lose games by playing the combo wrong or by running out of time while you learn.",
+      "D.D. Crow on Mementotlan Ghattic (or Bystial on a LIGHT or DARK Memento) ruins the main line, and Combined Creation is best protected in hand.",
+      "Combined Creation can be hit by a negate, a Dark Ruler No More or a banish; the creator says the only monster effect that matters to negate on his turn is Mementotlan Tatsunootoshigo, Dark Blade or Angwitch.",
+      "The deck leans on tech cards (hand traps, selection-box cards) that depend on what you own."
+    ],
+    "cards": [
+      {
+        "name": "Mementotlan Angwitch",
+        "role": "starter",
+        "copies": 2,
+        "note": "The best starter of the deck: adds any Memento monster from your deck and can revive a small one by destroying another.",
+        "substitutes": [
+          {
+            "name": "Mementotlan Dark Blade",
+            "why": "The creator says that if you do not own 3 Angwitch you can run a third Dark Blade in its place: it does a similar job (destroy a Memento, bring a small one out) and starts the combo too. If you own only 1 Angwitch, add the extra Dark Blade and another trap or Step card; he says that is fine."
+          }
+        ]
+      },
+      {
+        "name": "Mementotlan Tatsunootoshigo",
+        "role": "starter",
+        "copies": 3,
+        "note": "The best starter in the creator's line: it Special Summons itself, destroys itself and sends 2 monsters to the Graveyard. Angwitch can fetch it."
+      },
+      {
+        "name": "Mementotlan Dark Blade",
+        "role": "starter",
+        "copies": 2,
+        "note": "Starter that destroys a Memento to bring another out; its other effect destroys a Spell or Trap."
+      },
+      {
+        "name": "Mementotlan Ghattic",
+        "role": "extender",
+        "copies": 1,
+        "note": "Comes out of the Graveyard when sent there by a Memento monster; returns a Memento card to your hand. The best card to put back with the skill."
+      },
+      {
+        "name": "Mementotlan Shleepy",
+        "role": "extender",
+        "copies": 2,
+        "note": "Special Summons itself after a Memento monster is destroyed and makes the Fusion monster."
+      },
+      {
+        "name": "Mementotlan Mace",
+        "role": "extender",
+        "copies": 1,
+        "note": "Destroys a Memento to search any Memento card (usually Fusion or a Trap). It is also a Level 1 material for the Xyz monster."
+      },
+      {
+        "name": "Mementotlan Goblin",
+        "role": "extender",
+        "copies": 1,
+        "note": "Sends 2 Memento cards to the Graveyard, and protects your Memento from targeting when you control Combined Creation. Level 1 material for the Xyz monster."
+      },
+      {
+        "name": "Mementotlan Akihiron",
+        "role": "extender",
+        "copies": 1,
+        "note": "Comes back whenever a Memento is destroyed; lets Level 9+ Memento monsters attack directly and recovers a banished card."
+      },
+      {
+        "name": "Mementotlan-Horned Dragon",
+        "role": "extender",
+        "copies": 1,
+        "note": "Special Summons itself from your hand with 3 Memento names in the Graveyard; when destroyed it destroys more cards."
+      },
+      {
+        "name": "Mementotlan Fusion",
+        "role": "extender",
+        "copies": 3,
+        "note": "Quick-Play Spell that Fusion Summons using monsters from hand and field; if a Memento was destroyed this turn it can also use ones in the Graveyard."
+      },
+      {
+        "name": "Mementotlan Bone Party",
+        "role": "extender",
+        "copies": 3,
+        "note": "Swaps a Memento in your hand or on the field for another one from your deck."
+      },
+      {
+        "name": "Mementomictlan",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Field Spell: your Memento monsters are protected in battle, destroyed ones come back, and it sets a Memento Spell/Trap each end phase."
+      },
+      {
+        "name": "Mementoal Tecuhtlica - Combined Creation",
+        "role": "payoff",
+        "copies": 1,
+        "note": "The boss: 5000 ATK, Level 11. It is Special Summoned by shuffling 5 Memento with different names back to the deck. Bring it out last."
+      },
+      {
+        "name": "Mementotlan Fracture Dance",
+        "role": "removal",
+        "copies": 1,
+        "note": "Trap that destroys 1 card (2 if you control Combined Creation); from the Graveyard it makes the opponent's monsters lose ATK."
+      },
+      {
+        "name": "Mementotlan Cranium Burst",
+        "role": "removal",
+        "copies": 1,
+        "note": "Continuous Trap that makes the opponent attack your strongest Memento and lets Combined Creation negate monster effects up to 5 times a turn."
+      },
+      {
+        "name": "Forbidden Droplet",
+        "role": "removal",
+        "copies": 3,
+        "note": "The best hand trap of the format according to the creator: a global negate that makes the opponent unable to respond. He plays 3."
+      },
+      {
+        "name": "Mulcharmy Fuwalos",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Draws cards when the opponent summons; the creator would play a third if he had it.",
+        "substitutes": [
+          {
+            "name": "Droll & Lock Bird",
+            "why": "Another hand trap that the creator already runs: it stops the opponent from searching. He warns against playing it together with Fuwalos in the same turn, because Fuwalos wants to draw and Droll stops both players from drawing."
+          },
+          {
+            "name": "D.D. Crow",
+            "why": "The creator lists it among the cards you can put in these slots: it banishes a card from the Graveyard, which is the best answer to the opponent's own Graveyard effects."
+          },
+          {
+            "name": "Effect Veiler",
+            "why": "Also listed by the creator as a valid hand trap for these slots: use the best hand traps you own."
+          },
+          {
+            "name": "Ghost Belle & Haunted Mansion",
+            "why": "Listed by the creator as a valid hand trap for these slots."
+          },
+          {
+            "name": "Ghost Ogre & Snow Rabbit",
+            "why": "Listed by the creator as a valid hand trap for these slots."
+          }
+        ]
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Stops searches and draws outside the Draw Phase; keep it away from the same turn as Fuwalos."
+      },
+      {
+        "name": "Mementotlan Twin Dragon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Essential Extra Deck card: Fusion Summoned by Shleepy, it adds 2 Memento monsters and revives one when destroyed."
+      },
+      {
+        "name": "Mementomictlan Tecuhtlica - Creation King",
+        "role": "payoff",
+        "copies": 2,
+        "note": "The other essential Extra Deck card: sends 3 Memento cards to the Graveyard when Fusion Summoned and can fetch the Field Spell from the Graveyard."
+      },
+      {
+        "name": "Lyrilusc - Assembled Nightingale",
+        "role": "removal",
+        "copies": 1,
+        "note": "Rank 1 Xyz made from two Level 1 Memento monsters: it protects your Lyrilusc monsters and you from battle damage on the opponent's Draw Phase.",
+        "substitutes": [
+          {
+            "name": "Abyss Dweller",
+            "why": "Many players use Abyss Dweller instead (two Level 4 Dark Blades make it): on the opponent's turn it stops all Graveyard effects. It is harder because you need two Level 4 monsters."
+          }
+        ]
+      },
+      {
+        "name": "I:P Masquerena",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link 2 that turns into a Link monster on the opponent's turn and protects it from destruction."
+      },
+      {
+        "name": "S:P Little Knight",
+        "role": "removal",
+        "copies": 1,
+        "note": "Banishes 1 card (or 2 monsters) on the opponent's turn; the creator links it from I:P Masquerena.",
+        "substitutes": [
+          {
+            "name": "Knightmare Unicorn",
+            "why": "A worse but working replacement: it shuffles 1 card but you must discard a card to use it. The creator says it is not the best but it does the job."
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "why": "Another option from I:P Masquerena: it negates every face-up monster the opponent controls, but you need 4 effect monsters (it can use one of the opponent's)."
+          }
+        ]
+      },
+      {
+        "name": "Guardian Chimera",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion monster that destroys the opponent's monsters and draws cards, depending on how many materials come from hand or field.",
+        "substitutes": [
+          {
+            "name": "Mementomictlan Tecuhtlica - Creation King",
+            "why": "If you do not own this selection-box card, the creator says you can put a third Creation King in its place."
+          }
+        ]
+      },
+      {
+        "name": "Predaplant Dragostapelia",
+        "role": "removal",
+        "copies": 1,
+        "note": "Fusion monster that puts a predator counter on an opponent's monster, stopping its effects."
+      },
+      {
+        "name": "Underworld Goddess of the Closed World",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link 5 that negates every face-up monster effect for good and negates graveyard summons."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Mementotlan Tatsunootoshigo",
+        "partners": [
+          {
+            "name": "Mementotlan Ghattic",
+            "reason": "Tatsunootoshigo sends Ghattic to the Graveyard with a Memento effect, so Ghattic Special Summons itself.",
+            "link": "sends to the Graveyard"
+          },
+          {
+            "name": "Mementotlan Shleepy",
+            "reason": "Tatsunootoshigo sends Shleepy to the Graveyard; Ghattic returns it to your hand so Shleepy can Fusion Summon.",
+            "link": "sends to the Graveyard"
+          }
+        ]
+      },
+      {
+        "card": "Mementotlan Shleepy",
+        "partners": [
+          {
+            "name": "Mementotlan Twin Dragon",
+            "reason": "Shleepy and Ghattic are the two Memento monsters that Fusion Summon Twin Dragon, which fetches Combined Creation.",
+            "link": "Fusion Summons"
+          }
+        ]
+      },
+      {
+        "card": "Mementotlan Dark Blade",
+        "partners": [
+          {
+            "name": "Mementotlan Mace",
+            "reason": "Dark Blade destroys a Memento to bring Mace from the deck; Mace then destroys Dark Blade to search a Memento card.",
+            "link": "summons"
+          }
+        ]
+      },
+      {
+        "card": "Mementotlan Mace",
+        "partners": [
+          {
+            "name": "Mementotlan Fusion",
+            "reason": "Mace searches Mementotlan Fusion when you do not already hold it, which keeps the combo going.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Mementotlan Fusion",
+        "partners": [
+          {
+            "name": "Mementomictlan Tecuhtlica - Creation King",
+            "reason": "Fusion Summons Creation King with a monster from your hand and Twin Dragon and Dark Blade from the Graveyard.",
+            "link": "Fusion Summons"
+          }
+        ]
+      },
+      {
+        "card": "Mementomictlan Tecuhtlica - Creation King",
+        "partners": [
+          {
+            "name": "Mementomictlan",
+            "reason": "Creation King in the Graveyard can be banished to add the Field Spell to your hand, so you do not need to search it early.",
+            "link": "adds to your hand"
+          }
+        ]
+      },
+      {
+        "card": "Mementotlan Akihiron",
+        "partners": [
+          {
+            "name": "Mementoal Tecuhtlica - Combined Creation",
+            "reason": "Akihiron lets Level 9+ Memento monsters attack directly, which is how Combined Creation ends the duel.",
+            "link": "lets it attack directly"
+          }
+        ]
+      },
+      {
+        "card": "Lyrilusc - Assembled Nightingale",
+        "partners": [
+          {
+            "name": "Mementotlan Goblin",
+            "reason": "Goblin and Mace are the two Level 1 monsters that Xyz Summon Lyrilusc - Assembled Nightingale.",
+            "link": "Xyz material for"
+          }
+        ]
+      },
+      {
+        "card": "I:P Masquerena",
+        "partners": [
+          {
+            "name": "S:P Little Knight",
+            "reason": "I:P Masquerena becomes S:P Little Knight on the opponent's turn and banishes a card.",
+            "link": "turns into"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "tatsunootoshigo-start",
+        "title": "Turn 1 with Tatsunootoshigo in your hand: build Combined Creation and a protected field",
+        "hand": [
+          "Mementotlan Tatsunootoshigo"
+        ],
+        "requires": {
+          "hand": [
+            "Mementotlan Tatsunootoshigo"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill is step 1: it replaces a card from your hand with 2 new cards. In the replay he put Bone Party back."
+        },
+        "start": {
+          "hand": [
+            "Mementotlan Tatsunootoshigo",
+            "Mementotlan Cranium Burst",
+            "Mementotlan Shleepy",
+            "Mementotlan Bone Party"
+          ],
+          "note": "The creator's opening hand (Tatsunootoshigo, Cranium Burst, Shleepy and Bone Party). Yours will differ: the same line works with other cards, and with Angwitch or Dark Blade you search or replace Tatsunootoshigo instead."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Precious Cards of the Dark",
+            "when": "Right at the start of your Main Phase",
+            "needs": "Any 1 card from your hand to put on the bottom of your deck (or send to the Graveyard). The creator returns Mementotlan Bone Party, because he can fetch it back later.",
+            "gives": "You draw 2 cards (3 if you are the second player on the first turn). Here you draw Mementotlan Goblin and Mementotlan Fracture Dance.",
+            "used": true,
+            "reason": "The skill turns a clumsy card into 2 new ones. The creator says that in this deck sending cards to the Graveyard is good too, and that it is best to send back a duplicate Level 1 or Level 3 monster.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:02"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Bone Party",
+                "from": "hand",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Goblin",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mementotlan Fracture Dance",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Tatsunootoshigo",
+            "action": "special-summon",
+            "reason": "Special Summon Mementotlan Tatsunootoshigo from your hand. You can do this when you control no face-up monsters except Memento monsters, so do it before anything else is on your side of the field.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:07"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Tatsunootoshigo",
+            "action": "activate",
+            "reason": "Destroy Tatsunootoshigo itself, then send Memento monsters with different names from your deck to the Graveyard, with Levels adding up to at most its own Level 5. In this line always send Mementotlan Ghattic (Level 2) and Mementotlan Shleepy (Level 3). Destroying a Memento monster this turn is what lets Shleepy come out later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:08"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Ghattic",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Ghattic",
+            "action": "special-summon",
+            "reason": "Ghattic was sent to the Graveyard by a Memento monster's effect, so it Special Summons itself. Then its effect adds a Memento card from your Graveyard to your hand: take Shleepy back.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:17"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Ghattic",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Shleepy",
+            "action": "special-summon",
+            "reason": "A Memento monster was destroyed this turn, so Shleepy can Special Summon itself from your hand. When it is summoned it Fusion Summons a Memento Fusion monster using monsters from your hand or field: Mementotlan Twin Dragon, with Shleepy and Ghattic as the materials.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:22"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mementotlan Twin Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Ghattic",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Twin Dragon",
+            "action": "activate",
+            "reason": "Because it was Fusion Summoned, Twin Dragon destroys itself and adds up to 2 Memento monsters with different names from your deck to your hand: Mementoal Tecuhtlica - Combined Creation (your boss monster, kept in hand where a Dark Ruler No More or a hand trap cannot hit it) and Mementotlan Dark Blade.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:28"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Twin Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementoal Tecuhtlica - Combined Creation",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Twin Dragon",
+            "action": "special-summon",
+            "reason": "Twin Dragon was destroyed, so it Special Summons a Level 6 or lower Memento monster from the Graveyard: Ghattic comes back.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:43"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Ghattic",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Dark Blade",
+            "action": "normal-summon",
+            "reason": "Normal Summon Mementotlan Dark Blade. This is your only Normal Summon of the turn, so you cannot also search it with Tatsunootoshigo if you want it in hand later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:45"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Dark Blade",
+            "action": "activate",
+            "reason": "Dark Blade destroys a Memento monster you control (Ghattic) to Special Summon a Level 3 or lower Memento monster from your deck: Mementotlan Mace.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:49"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Ghattic",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Mace",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Mace",
+            "action": "activate",
+            "reason": "Mace destroys a Memento monster you control (Dark Blade) and adds any Memento card from your deck to your hand: take Mementotlan Fusion. If you already hold Fusion, search something else here.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:53"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Fusion",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Fusion",
+            "action": "activate",
+            "reason": "Activate Mementotlan Fusion: Fusion Summon Mementomictlan Tecuhtlica - Creation King (Level 9) using Mementotlan Goblin from your hand and, because a Memento monster was destroyed this turn, Twin Dragon and Dark Blade from your Graveyard as extra materials (they go back to the Extra Deck and the deck).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "46:58"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Fusion",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Goblin",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Twin Dragon",
+                "from": "graveyard",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementomictlan Tecuhtlica - Creation King",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementomictlan Tecuhtlica - Creation King",
+            "action": "activate",
+            "reason": "Because Creation King was Fusion Summoned it sends 3 Memento cards from your deck or Extra Deck to the Graveyard: Mementotlan Dark Blade, Mementotlan Angwitch and Mementotlan Akihiron. These are all monsters you want in the Graveyard for later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "47:10"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Akihiron",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Fusion",
+            "action": "activate",
+            "reason": "Banish Mementotlan Fusion from your Graveyard to destroy Creation King (a Memento monster you control), and add a Memento Spell/Trap to your hand: Mementotlan Bone Party. In the creator's words, the destroyed Creation King has already done its work and the destruction triggers more effects below.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "47:25"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Fusion",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Mementomictlan Tecuhtlica - Creation King",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Bone Party",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Akihiron",
+            "action": "special-summon",
+            "reason": "A Memento monster you controlled was destroyed, so Mementotlan Akihiron Special Summons itself from the Graveyard. While it is on the field your Level 9 or higher Memento monsters can attack directly (the key to this deck's one-turn kills).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "47:32"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Akihiron",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementomictlan Tecuhtlica - Creation King",
+            "action": "activate",
+            "reason": "Banish Creation King from the Graveyard to add the Field Spell Mementomictlan to your hand. Because it waits in the Graveyard you do not need to rush to search the field.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "47:36"
+            },
+            "moves": [
+              {
+                "card": "Mementomictlan Tecuhtlica - Creation King",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Mementomictlan",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementomictlan",
+            "action": "activate",
+            "reason": "Activate the Field Spell Mementomictlan. Your Memento monsters are protected from trap responses in battle, destroyed ones can come back, and each end phase it sets a Memento Spell/Trap from the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "47:40"
+            },
+            "moves": [
+              {
+                "card": "Mementomictlan",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Bone Party",
+            "action": "activate",
+            "reason": "Activate Mementotlan Bone Party: destroy Akihiron and Special Summon a Memento monster with another name from your deck in Defense Position: Mementotlan Angwitch. Every destruction now sets off more effects.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "47:42"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Bone Party",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Akihiron",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Angwitch",
+            "action": "chain",
+            "reason": "Three effects trigger at once, so line them up as one chain: Angwitch adds a Memento monster from your deck (take Mementotlan-Horned Dragon); Akihiron adds a banished Memento card to your hand (take Mementotlan Fusion back); and the Field Spell Special Summons Mementotlan Goblin from the Graveyard to replace the destroyed Akihiron.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "47:45"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan-Horned Dragon",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mementotlan Fusion",
+                "from": "banished",
+                "to": "hand"
+              },
+              {
+                "card": "Mementotlan Goblin",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Lyrilusc - Assembled Nightingale",
+            "action": "special-summon",
+            "reason": "Goblin and Mace are two Level 1 monsters, so Xyz Summon Lyrilusc - Assembled Nightingale (Rank 1). On the opponent's draw you can detach a material to protect your Lyrilusc monsters, and you take no battle damage that turn. This is the creator's insurance against a bad turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "48:07"
+            },
+            "moves": [
+              {
+                "card": "Lyrilusc - Assembled Nightingale",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mementotlan Goblin",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Lyrilusc - Assembled Nightingale"
+              },
+              {
+                "card": "Mementotlan Mace",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Lyrilusc - Assembled Nightingale"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan-Horned Dragon",
+            "action": "special-summon",
+            "reason": "You now have 3 or more Memento monsters with different names in the Graveyard, so Mementotlan-Horned Dragon Special Summons itself from your hand. Its destruction would also take down 2 of the opponent's cards.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "48:12"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan-Horned Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "I:P Masquerena",
+            "action": "special-summon",
+            "reason": "Link Summon I:P Masquerena using Angwitch and Horned Dragon. On the opponent's turn you can use it to Link Summon S:P Little Knight (or a Knightmare Unicorn or Underworld Goddess of the Closed World) and remove a card.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "48:14"
+            },
+            "moves": [
+              {
+                "card": "I:P Masquerena",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan-Horned Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementoal Tecuhtlica - Combined Creation",
+            "action": "special-summon",
+            "reason": "Special Summon Mementoal Tecuhtlica - Combined Creation (Level 11, 5000 ATK) by shuffling 5 Memento monsters with different names from your hand and Graveyard into the deck: Horned Dragon, Dark Blade, Angwitch, Tatsunootoshigo and Shleepy. With Akihiron gone you can no longer attack directly this turn, but you are building the opponent's-turn defence.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "48:18"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan-Horned Dragon",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementoal Tecuhtlica - Combined Creation",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Cranium Burst",
+            "action": "set",
+            "reason": "Set Cranium Burst, Fracture Dance and Mementotlan Fusion (your hand still holds one card). Combined Creation lets Cranium Burst negate monster effects 5 times by lowering its ATK, Fracture Dance destroys 2 cards, and Fusion can answer the opponent's turn. If you hold Forbidden Droplet, keep it in hand instead of setting Fusion.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "48:28"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Cranium Burst",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Mementotlan Fracture Dance",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Mementotlan Fusion",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Keep Forbidden Droplet in hand if you have it and set the remaining Spell/Trap cards. Do not summon Combined Creation if it is in your hand together with Creation King and you have fewer than 3 different Memento monsters in the Graveyard. Mementotlan Shleepy and Mementotlan Ghattic are the cards you want to be hit by the opponent least, so the creator advises adapting if D.D. Crow lands on Ghattic.",
+        "endBoard": "Mementoal Tecuhtlica - Combined Creation (5000 ATK) and Lyrilusc - Assembled Nightingale on the field with I:P Masquerena in the Extra Monster Zone, Mementomictlan active and Cranium Burst, Fracture Dance and Mementotlan Fusion set. One Shleepy stays in your hand.",
+        "weakSpots": "D.D. Crow on Mementotlan Ghattic breaks this line (you must find another route); a negate on the Fusion Summons or on Combined Creation's Special Summon slows you; and Combined Creation is not worth negating on the opponent's turn because its effect only revives a Memento, which is why the creator says to negate his starters instead."
+      },
+      {
+        "id": "angwitch-start",
+        "title": "Turn 1 with Angwitch (and no Tatsunootoshigo): fetch it, and keep going when D.D. Crow banishes Ghattic",
+        "hand": [
+          "Mementotlan Angwitch"
+        ],
+        "requires": {
+          "hand": [
+            "Mementotlan Angwitch"
+          ],
+          "without": [
+            {
+              "label": "Tatsunootoshigo in your hand (use the first line instead)",
+              "cards": [
+                "Mementotlan Tatsunootoshigo"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill is step 1: it replaces a card in your hand with 2 new cards, here a second Angwitch and Shleepy."
+        },
+        "start": {
+          "hand": [
+            "Mementotlan Fusion",
+            "Mementotlan Angwitch",
+            "Mementotlan Bone Party",
+            "Mementotlan-Horned Dragon"
+          ],
+          "note": "The creator's opening hand (Fusion, Angwitch, Bone Party and Horned Dragon). Yours will differ: any hand with Angwitch can start this way. Putting Bone Party back is his choice, because he can fetch it again later."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Precious Cards of the Dark",
+            "when": "Right at the start of your Main Phase",
+            "needs": "Any 1 card from your hand to put on the bottom of your deck. The creator returns Mementotlan Bone Party.",
+            "gives": "You draw 2 cards (here Mementotlan Shleepy and a second Mementotlan Angwitch).",
+            "used": true,
+            "reason": "The creator did not have Tatsunootoshigo in this hand, so the skill is used to look for another way into the combo: here it gives a second Angwitch.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:07"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Bone Party",
+                "from": "hand",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Angwitch",
+            "action": "normal-summon",
+            "reason": "Normal Summon Mementotlan Angwitch and use its effect to add a Memento monster from your deck to your hand: take Mementotlan Tatsunootoshigo, your best starter. This is how you start the combo when you did not open with it.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:13"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Tatsunootoshigo",
+            "action": "special-summon",
+            "reason": "Special Summon Mementotlan Tatsunootoshigo from your hand (you control no face-up monsters except Memento monsters).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:18"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Tatsunootoshigo",
+            "action": "activate",
+            "reason": "Destroy Tatsunootoshigo itself and send Mementotlan Ghattic and Mementotlan Shleepy from your deck to the Graveyard (Levels 2 and 3 add up to its Level 5).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:20"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Ghattic",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Ghattic",
+            "action": "special-summon",
+            "reason": "Ghattic was sent by a Memento effect, so it tries to Special Summon itself. In this replay the opponent answers with D.D. Crow, which banishes Ghattic from the Graveyard. This is the deck's worst answer, and the creator says you must be ready to continue without Ghattic.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:27"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Ghattic",
+                "from": "graveyard",
+                "to": "banished"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Fusion",
+            "action": "activate",
+            "reason": "With Ghattic gone, use Mementotlan Fusion right away: Fusion Summon Mementotlan Twin Dragon with a second Mementotlan Angwitch from your hand and Mementotlan Tatsunootoshigo from your Graveyard (shuffled back into the deck, because a Memento monster was destroyed this turn).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:32"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Fusion",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Twin Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Twin Dragon",
+            "action": "activate",
+            "reason": "Twin Dragon destroys itself and adds up to 2 Memento monsters with different names from your deck to your hand: Mementoal Tecuhtlica - Combined Creation and Mementotlan Tatsunootoshigo again.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:43"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Twin Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementoal Tecuhtlica - Combined Creation",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Twin Dragon",
+            "action": "special-summon",
+            "reason": "Because Twin Dragon was destroyed, Special Summon a Level 6 or lower Memento monster from the Graveyard. Ghattic is banished, so take Mementotlan Shleepy.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "51:59"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Shleepy",
+            "action": "activate",
+            "reason": "Shleepy Fusion Summons Mementomictlan Tecuhtlica - Creation King using itself from the field plus Mementotlan Tatsunootoshigo and Combined Creation from your hand. Putting Combined Creation in the Graveyard is deliberate: it Special Summons itself from there at the end of the turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:01"
+            },
+            "moves": [
+              {
+                "card": "Mementomictlan Tecuhtlica - Creation King",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mementotlan Shleepy",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementoal Tecuhtlica - Combined Creation",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementomictlan Tecuhtlica - Creation King",
+            "action": "activate",
+            "reason": "Creation King sends 3 Memento cards from your deck to the Graveyard: Mementotlan Fracture Dance, Mementotlan Mace and Mementotlan Akihiron. Fracture Dance is sent on purpose: the Field Spell sets it again at the end of the turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:09"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Fracture Dance",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Mace",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Akihiron",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Angwitch",
+            "action": "activate",
+            "reason": "Angwitch destroys itself to Special Summon a Level 2 or lower Memento monster from the Graveyard: Mementotlan Mace (the one Creation King just sent).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:14"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Mace",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Akihiron",
+            "action": "special-summon",
+            "reason": "Angwitch was destroyed, so Mementotlan Akihiron Special Summons itself from the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:20"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Akihiron",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Mace",
+            "action": "activate",
+            "reason": "Mace destroys Creation King (a Memento monster you control) and adds a Memento card from your deck to your hand: take Mementotlan Goblin.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:26"
+            },
+            "moves": [
+              {
+                "card": "Mementomictlan Tecuhtlica - Creation King",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Goblin",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementomictlan Tecuhtlica - Creation King",
+            "action": "activate",
+            "reason": "Banish Creation King from the Graveyard to add the Field Spell Mementomictlan to your hand, then activate it.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:33"
+            },
+            "moves": [
+              {
+                "card": "Mementomictlan Tecuhtlica - Creation King",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Mementomictlan",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mementomictlan",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Fusion",
+            "action": "activate",
+            "reason": "Banish Mementotlan Fusion from the Graveyard to destroy Akihiron and add a Memento Spell/Trap to your hand: Mementotlan Bone Party.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:41"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Fusion",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Mementotlan Akihiron",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Bone Party",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Akihiron",
+            "action": "chain",
+            "reason": "Two effects trigger because Akihiron was destroyed: Akihiron adds Mementotlan Fusion back from the banished zone, and the Field Spell Special Summons Mementotlan Angwitch from the Graveyard to replace it. Angwitch cannot search again, because it already did this turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:48"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Fusion",
+                "from": "banished",
+                "to": "hand"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Bone Party",
+            "action": "activate",
+            "reason": "Activate Mementotlan Bone Party: destroy Angwitch and Special Summon Mementotlan Dark Blade from your deck in Defense Position. Mementotlan-Horned Dragon can then Special Summon itself from your hand, because 3 Memento monsters with different names are in the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "52:56"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Bone Party",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mementotlan-Horned Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "I:P Masquerena",
+            "action": "special-summon",
+            "reason": "Link Summon I:P Masquerena using Dark Blade and Horned Dragon. It will turn into your negate on the opponent's turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "53:05"
+            },
+            "moves": [
+              {
+                "card": "I:P Masquerena",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mementotlan-Horned Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementoal Tecuhtlica - Combined Creation",
+            "action": "special-summon",
+            "reason": "Special Summon Mementoal Tecuhtlica - Combined Creation from your Graveyard by shuffling 5 Memento monsters with different names back: Horned Dragon, Twin Dragon (back to the Extra Deck), Tatsunootoshigo, Angwitch and Dark Blade.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "53:11"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan-Horned Dragon",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Twin Dragon",
+                "from": "graveyard",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mementotlan Tatsunootoshigo",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Angwitch",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementotlan Dark Blade",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Mementoal Tecuhtlica - Combined Creation",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mementotlan Fusion",
+            "action": "set",
+            "reason": "Set Mementotlan Fusion. At the end of the turn the Field Spell also sets Mementotlan Fracture Dance from the Graveyard for you, so you end with 2 Traps/Quick-Play cards ready for the opponent's turn. Keep Mementotlan Goblin in hand: with Combined Creation on the field it can discard itself to stop the opponent from targeting your Memento monsters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+              "timestamp": "53:19"
+            },
+            "moves": [
+              {
+                "card": "Mementotlan Fusion",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Mementotlan Fracture Dance",
+                "from": "graveyard",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "In this replay the opponent plays D.D. Crow on Ghattic. If it happens, do not stop: the creator uses Mementotlan Fusion at once and relies on Twin Dragon and Shleepy, which do not need Ghattic. Keep Combined Creation in the Graveyard until the last step, where it Special Summons itself.",
+        "endBoard": "Combined Creation and Mementotlan Mace on the field with I:P Masquerena in the Extra Monster Zone, Mementomictlan active and Mementotlan Fusion and Mementotlan Fracture Dance set. Shleepy and Goblin stay in your hand.",
+        "weakSpots": "D.D. Crow on Ghattic makes this line one step longer but the creator still finishes it; a hand trap on Angwitch's search or on the first Fusion stops it earlier, so the creator keeps Tatsunootoshigo as the preferred start."
+      }
+    ]
+  }
+}

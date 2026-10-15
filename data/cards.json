@@ -1,0 +1,2957 @@
+{
+  "Angel O7": {
+    "name": "Angel O7",
+    "pt": "Anjo 07",
+    "image": "img/cards/angel-o7.jpg",
+    "type": "Monster",
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2500,
+    "def": 1500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When this card is Tribute Summoned, it gains the following effect: ● The effects of Effect Monsters cannot be activated.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Valkyrie's Rage",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/valkyries-rage/"
+      }
+    ]
+  },
+  "Bystial Magnamhut": {
+    "name": "Bystial Magnamhut",
+    "pt": null,
+    "image": "img/cards/bystial-magnamhut.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 6,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can target 1 LIGHT or DARK monster in either GY; banish it, and if you do, Special Summon this card from your hand. This is a Quick Effect if your opponent controls a monster. If this card is Special Summoned: You can activate this effect; during the End Phase of this turn, add 1 Dragon monster from your Deck or GY to your hand, except \"Bystial Magnamhut\". You can only use each effect of \"Bystial Magnamhut\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Shadow Eyes",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/shadow-eyes/"
+      }
+    ]
+  },
+  "Chronicle Sorceress": {
+    "name": "Chronicle Sorceress",
+    "pt": null,
+    "image": "img/cards/chronicle-sorceress.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1250,
+    "def": 1250,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can activate 1 of these effects based on the Attributes in your GY;\r\n● LIGHT: Send 1 \"Blue-Eyes White Dragon\" or 1 card that mentions it from your Deck to the GY, except \"Chronicle Sorceress\".\r\n● DARK: Send 1 \"Dark Magician\" or 1 card that mentions it from your Deck to the GY, except \"Chronicle Sorceress\".\r\nYou can only use this effect of \"Chronicle Sorceress\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Magician's Chronicle",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/magicians-chronicle/"
+      }
+    ]
+  },
+  "Dark Magic Attack": {
+    "name": "Dark Magic Attack",
+    "pt": "Ataque da Magia Negra",
+    "image": "img/cards/dark-magic-attack.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "If you control \"Dark Magician\": Destroy all Spells and Traps your opponent controls.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Yami Yugi",
+        "level": "Level 14",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-yugi/"
+      },
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Card Flipper Campaign",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      }
+    ]
+  },
+  "Dark Magical Circle": {
+    "name": "Dark Magical Circle",
+    "pt": "Círculo Mágico Negro",
+    "image": "img/cards/dark-magical-circle.jpg",
+    "type": "Spell",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "When this card is activated: Look at the top 3 cards of your Deck, then you can reveal 1 \"Dark Magician\" or 1 Spell/Trap that specifically lists the card \"Dark Magician\" in its text, among them, and add it to your hand, also place the remaining cards on top of your Deck in any order. If \"Dark Magician\" is Normal or Special Summoned to your field (except during the Damage Step): You can target 1 card your opponent controls; banish it. You can only use each effect of \"Dark Magical Circle\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Horizon",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/future-horizon/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.05",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Secret of Magicians",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/secrets-of-magicians/"
+      },
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Yugi",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-yugi/"
+      }
+    ]
+  },
+  "Dark Magical Curtain": {
+    "name": "Dark Magical Curtain",
+    "pt": null,
+    "image": "img/cards/dark-magical-curtain.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Each player can Special Summon 1 DARK Spellcaster monster from their hand or Deck (but neither player can activate their effects this turn), then if you Special Summoned a monster whose original name is \"Dark Magician\" or \"Dark Magician Girl\", you can add 1 Spell/Trap that mentions \"Dark Magician\" from your Deck to your hand, except \"Dark Magical Curtain\". You can only activate 1 \"Dark Magical Curtain\" per turn.",
+    "obtain": []
+  },
+  "Dark Magician": {
+    "name": "Dark Magician",
+    "pt": "Mago Negro",
+    "image": "img/cards/dark-magician.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 7,
+    "atk": 2500,
+    "def": 2100,
+    "monsterType": [
+      "Normal"
+    ],
+    "text": "The ultimate wizard in terms of attack and defense.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Yugi Muto (DSOD)",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yugi-muto-dsod/"
+      },
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Event Special Packs",
+        "url": null
+      }
+    ]
+  },
+  "Dark Magician Girl": {
+    "name": "Dark Magician Girl",
+    "pt": "Pequena Maga Negra",
+    "image": "img/cards/dark-magician-girl.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 6,
+    "atk": 2000,
+    "def": 1700,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Gains 300 ATK for every \"Dark Magician\" or \"Magician of Black Chaos\" in the GYs.",
+    "obtain": []
+  },
+  "Dark Magician of Destruction": {
+    "name": "Dark Magician of Destruction",
+    "pt": null,
+    "image": "img/cards/dark-magician-of-destruction.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2800,
+    "def": 2600,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Dark Magician\" + 1 LIGHT or DARK monster\nMust be either Fusion Summoned, or Special Summoned (from your Extra Deck) during the turn a Spell Card or effect is activated, by banishing 1 Level 6 or higher DARK Spellcaster monster you control as material. You can only Special Summon \"Dark Magician of Destruction\" once per turn this way, no matter which method you use. This card's name becomes \"Dark Magician\" while on the field or in the GY. If this card is Special Summoned: You can add 1 \"Dark Magician\" or 1 card that mentions it from your Deck to your hand.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "10th Anniversary DM, GX & 5D's Event Rush Campaign",
+        "url": null
+      }
+    ]
+  },
+  "Dark Magician the Dragon Knight": {
+    "name": "Dark Magician the Dragon Knight",
+    "pt": "Mago Negro, o Cavaleiro Dragão",
+    "image": "img/cards/dark-magician-the-dragon-knight.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Dark Magician\" + 1 Dragon monster\r\nThis card's name becomes \"Dark Magician\" while on the field or in the GY. Your opponent cannot target Spells/Traps you control with card effects, also they cannot be destroyed by your opponent's card effects.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Zodiac Destiny",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/zodiac-shot/"
+      },
+      {
+        "kind": "set",
+        "name": "Dark Magician the Magician of Black Magic",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/dark-magician-the-magicain-of-black-magic/"
+      }
+    ]
+  },
+  "Dark Paladin": {
+    "name": "Dark Paladin",
+    "pt": "Paladino Negro",
+    "image": "img/cards/dark-paladin.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2900,
+    "def": 2400,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Dark Magician\" + \"Buster Blader\"\r\nMust be Fusion Summoned. When a Spell Card is activated (Quick Effect): You can discard 1 card; negate the activation, and if you do, destroy it. This card must be face-up on the field to activate and to resolve this effect. Gains 500 ATK for each Dragon monster on the field and in the GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Crimson Kingdom",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/crimson-kingdom/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Droll & Lock Bird": {
+    "name": "Droll & Lock Bird",
+    "pt": "Droll & Pássaro Fechadura",
+    "image": "img/cards/droll-lock-bird.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "WIND",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
+    "obtain": []
+  },
+  "Eternal Soul": {
+    "name": "Eternal Soul",
+    "pt": "Alma Eterna",
+    "image": "img/cards/eternal-soul.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Every \"Dark Magician\" in your Monster Zone is unaffected by your opponent's card effects. If this face-up card leaves the field: Destroy all monsters you control. You can only use the following effect of \"Eternal Soul\" once per turn. You can activate 1 of these effects;\r\n● Special Summon 1 \"Dark Magician\" from your hand or GY.\r\n● Add 1 \"Dark Magic Attack\" or \"Thousand Knives\" from your Deck to your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Link Revolution",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/link-revolution/"
+      },
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      }
+    ]
+  },
+  "Evilswarm Nightmare": {
+    "name": "Evilswarm Nightmare",
+    "pt": "Hordeum Maligno Pesadelo",
+    "image": "img/cards/evilswarm-nightmare.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 950,
+    "def": 1950,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 4 DARK monsters\r\nWhen your opponent Special Summons a monster(s) (except during the Damage Step): You can detach 1 material from this card; change that Special Summoned monster(s) to face-down Defense Position.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Fantastic Arc",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/fantastic-arc/"
+      }
+    ]
+  },
+  "Forbidden Droplet": {
+    "name": "Forbidden Droplet",
+    "pt": "Gota Proibida",
+    "image": "img/cards/forbidden-droplet.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Send any number of other cards from your hand and/or field to the GY; choose that many Effect Monsters your opponent controls, and until the end of this turn, their ATK is halved, also their effects are negated. In response to this card's activation, your opponent cannot activate cards, or the effects of cards, with the same original type (Monster/Spell/Trap) as the cards sent to the GY to activate this card. You can only activate 1 \"Forbidden Droplet\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Rainbow Overdrive",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/rainbow-overdrive/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
+      }
+    ]
+  },
+  "Ghost Belle & Haunted Mansion": {
+    "name": "Ghost Belle & Haunted Mansion",
+    "pt": "Fantasma Belle & Mansão Assombrada",
+    "image": "img/cards/ghost-belle-haunted-mansion.jpg",
+    "type": "Monster",
+    "race": "Zombie",
+    "attribute": "EARTH",
+    "level": 3,
+    "atk": 0,
+    "def": 1800,
+    "monsterType": [
+      "Effect",
+      "Tuner"
+    ],
+    "text": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that activation.\r\n● Add a card(s) from the GY to the hand, Deck, and/or Extra Deck.\r\n● Special Summon a Monster Card(s) from the GY.\r\n● Banish a card(s) from the GY.\r\nYou can only use this effect of \"Ghost Belle & Haunted Mansion\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      }
+    ]
+  },
+  "Ghost Ogre & Snow Rabbit": {
+    "name": "Ghost Ogre & Snow Rabbit",
+    "pt": "Ogro Fantasma & Coelho da Neve",
+    "image": "img/cards/ghost-ogre-snow-rabbit.jpg",
+    "type": "Monster",
+    "race": "Psychic",
+    "attribute": "LIGHT",
+    "level": 3,
+    "atk": 0,
+    "def": 1800,
+    "monsterType": [
+      "Tuner",
+      "Effect"
+    ],
+    "text": "When a monster on the field activates its effect, or when a Spell/Trap that is already face-up on the field activates its effect (Quick Effect): You can send this card from your hand or field to the GY; destroy that card on the field. You can only use this effect of \"Ghost Ogre & Snow Rabbit\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "I:P Masquerena": {
+    "name": "I:P Masquerena",
+    "pt": "I:P Mascarena",
+    "image": "img/cards/i-p-masquerena.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 800,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 non-Link Monsters\r\nDuring your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster using materials you control, including this card. You can only use this effect of \"I:P Masquerena\" once per turn. A Link Monster that used this card as material cannot be destroyed by your opponent's card effects.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Illusion Magic": {
+    "name": "Illusion Magic",
+    "pt": "Mágica de Ilusão",
+    "image": "img/cards/illusion-magic.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Tribute 1 Spellcaster monster; add up to 2 copies of \"Dark Magician\" from your Deck and/or GY to your hand. You can only activate 1 \"Illusion Magic\" per turn.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Arkana",
+        "level": "Level 25",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/arkana/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Yugi",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-yugi/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Illusion of Chaos": {
+    "name": "Illusion of Chaos",
+    "pt": "Ilusão do Caos",
+    "image": "img/cards/illusion-of-chaos.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 7,
+    "atk": 2100,
+    "def": 2500,
+    "monsterType": [
+      "Ritual",
+      "Effect"
+    ],
+    "text": "You can Ritual Summon this card with \"Chaos Form\". You can reveal this card in your hand; add 1 \"Dark Magician\", or 1 non-Ritual Monster that specifically lists that card in its text, from your Deck to your hand, then place 1 card from your hand on top of the Deck. When your opponent activates a monster effect (Quick Effect): You can return this card to the hand, and if you do, Special Summon 1 \"Dark Magician\" from your GY, and if you do that, negate that activated effect. You can only use each effect of \"Illusion of Chaos\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Lava Golem": {
+    "name": "Lava Golem",
+    "pt": "Golem de Lava",
+    "image": "img/cards/lava-golem.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "FIRE",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) to your opponent's field by Tributing 2 monsters they control. You cannot Normal Summon/Set the turn you Special Summon this card. Once per turn, during your Standby Phase: Take 500 damage.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Yami Marik",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-marik/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Marik",
+        "level": "Drop",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-marik/"
+      },
+      {
+        "kind": "other",
+        "name": "Yami Marik Returns Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      }
+    ]
+  },
+  "Magician Navigation": {
+    "name": "Magician Navigation",
+    "pt": "Navegação do Mago",
+    "image": "img/cards/magician-navigation.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Special Summon 1 \"Dark Magician\" from your hand, then Special Summon 1 Level 7 or lower DARK Spellcaster monster from your Deck. If you control \"Dark Magician\", except the turn this card was sent to the GY: You can banish this card from your GY, then target 1 face-up Spell/Trap your opponent controls; negate its effects until the end of this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.03",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-03/"
+      },
+      {
+        "kind": "set",
+        "name": "Guardians of Rock",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/guardians-of-rock/"
+      },
+      {
+        "kind": "set",
+        "name": "Sword of Paladin",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/sword-of-paladin/"
+      },
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Yugi",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-yugi/"
+      }
+    ]
+  },
+  "Magician's Rod": {
+    "name": "Magician's Rod",
+    "pt": "Bastão do Mago",
+    "image": "img/cards/magician-s-rod.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 3,
+    "atk": 1600,
+    "def": 100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When this card is Normal Summoned: You can add 1 Spell/Trap from your Deck to your hand, that specifically lists the card \"Dark Magician\" in its text. During your opponent's turn, if you activate a Spell/Trap Card or effect while this card is in your GY (except during the Damage Step): You can Tribute 1 Spellcaster monster; add this card to your hand. You can only use each effect of \"Magician's Rod\" once per turn.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Arkana",
+        "level": "Level 23",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/arkana/"
+      },
+      {
+        "kind": "character",
+        "name": "Arkana",
+        "level": "Level 38",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/arkana/"
+      },
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Bingo Missions Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Yugi",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-yugi/"
+      }
+    ]
+  },
+  "Magician's Salvation": {
+    "name": "Magician's Salvation",
+    "pt": null,
+    "image": "img/cards/magician-s-salvation.jpg",
+    "type": "Spell",
+    "race": "Field",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "When this card is activated: You can Set 1 \"Eternal Soul\" directly from your Deck. If you Normal or Special Summon \"Dark Magician\" or \"Dark Magician Girl\" (except during the Damage Step): You can target 1 of those monsters; Special Summon 1 \"Dark Magician\" or \"Dark Magician Girl\" from your GY, with a different name than that monster. You can only use this effect of \"Magician's Salvation\" once per turn. You can only activate 1 \"Magician's Salvation\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      }
+    ]
+  },
+  "Magicians' Combination": {
+    "name": "Magicians' Combination",
+    "pt": "Combinação dos Magos",
+    "image": "img/cards/magicians-combination.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Once per turn, when a card or effect is activated (except during the Damage Step): You can Tribute 1 \"Dark Magician\" or 1 \"Dark Magician Girl\"; Special Summon 1 \"Dark Magician\" or 1 \"Dark Magician Girl\" from your hand or GY, with a different name from the Tributed monster, and if you do, negate that activated effect. If this face-up card is sent from the Spell & Trap Zone to the GY: You can destroy 1 card on the field.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Magician's Chronicle",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/magicians-chronicle/"
+      },
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      }
+    ]
+  },
+  "Magicians' Souls": {
+    "name": "Magicians' Souls",
+    "pt": "Almas dos Magos",
+    "image": "img/cards/magicians-souls.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can send up to 2 Spells/Traps from your hand and/or field to the GY; draw that many cards. If this card is in your hand: You can send 1 Level 6 or higher Spellcaster monster from your Deck to the GY, then activate 1 of these effects;\r\n● Special Summon this card.\r\n● Send this card to the GY, then, you can Special Summon 1 \"Dark Magician\" or 1 \"Dark Magician Girl\" from your GY.\r\nYou can only use each effect of \"Magicians' Souls\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Master of Chaos": {
+    "name": "Master of Chaos",
+    "pt": "Mestre do Caos",
+    "image": "img/cards/master-of-chaos.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Dark Magician\" + 1 \"Chaos\" or \"Black Luster Soldier\" Ritual Monster\r\nIf this card is Fusion Summoned: You can target 1 LIGHT or DARK monster in your GY; Special Summon it. You can Tribute 1 LIGHT and 1 DARK monster; banish all monsters your opponent controls. If this Fusion Summoned card is destroyed by battle or card effect: You can target 1 Spell in your GY; add it to your hand. You can only use each effect of \"Master of Chaos\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Mulcharmy Fuwalos": {
+    "name": "Mulcharmy Fuwalos",
+    "pt": null,
+    "image": "img/cards/mulcharmy-fuwalos.jpg",
+    "type": "Monster",
+    "race": "Winged Beast",
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 100,
+    "def": 600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n● Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Nibiru, the Primal Being": {
+    "name": "Nibiru, the Primal Being",
+    "pt": "Nibiru, o Ser Primitivo",
+    "image": "img/cards/nibiru-the-primal-being.jpg",
+    "type": "Monster",
+    "race": "Rock",
+    "attribute": "LIGHT",
+    "level": 11,
+    "atk": 3000,
+    "def": 600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini: Vol. 06",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Number 68: Sanaphond the Sky Prison": {
+    "name": "Number 68: Sanaphond the Sky Prison",
+    "pt": "Número 68: Sanaphond, a Prisão Celeste",
+    "image": "img/cards/number-68-sanaphond-the-sky-prison.jpg",
+    "type": "Monster",
+    "race": "Rock",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2100,
+    "def": 2700,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 8 monsters\nGains 100 ATK and DEF for each monster in the GYs. Once per turn: You can detach 1 material from this card; until the end of your opponent's next turn, this card cannot be destroyed by card effects, also neither player can Special Summon monsters from the GYs.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Infinite Ray",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/infinite-ray/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.03",
+        "boxType": "Selection Box Mini",
+        "amount": 7,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-03/"
+      },
+      {
+        "kind": "set",
+        "name": "Fantastic Arc",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/fantastic-arc/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "set",
+        "name": "Wing of Genesis",
+        "boxType": "Mini Box",
+        "amount": 7,
+        "url": "https://www.duellinksmeta.com/sets/wing-of-genesis/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Number 90: Galaxy-Eyes Photon Lord": {
+    "name": "Number 90: Galaxy-Eyes Photon Lord",
+    "pt": "Número 90: Senhor de Fóton de Olhos das Galáxias",
+    "image": "img/cards/number-90-galaxy-eyes-photon-lord.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2500,
+    "def": 3000,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 8 monsters\nIf this card has a \"Photon\" card as material, it cannot be destroyed by card effects. You can only use each of the following effects of \"Number 90: Galaxy-Eyes Photon Lord\" once per turn.\n● When an opponent's monster activates its effect (Quick Effect): You can detach 1 material from this card; negate that monster's effect, and if the detached material was a \"Galaxy\" card, destroy that card.\n● During your opponent's turn (Quick Effect): You can take 1 \"Photon\" or \"Galaxy\" card from your Deck, and either add it to your hand or attach it to this card as material.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "Photon Jumper": {
+    "name": "Photon Jumper",
+    "pt": null,
+    "image": "img/cards/photon-jumper.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When an opponent's monster declares an attack: You can activate this effect; skip your next Battle Phase, also Special Summon this card from your hand, then end this Battle Phase. If this card is sent to the GY: You can add 1 \"Photon\" or \"Galaxy\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Photon Jumper\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Prime of Stream",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/prime-of-stream/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Preparation of Rites": {
+    "name": "Preparation of Rites",
+    "pt": "Preparação de Ritos",
+    "image": "img/cards/preparation-of-rites.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Add 1 Level 7 or lower Ritual Monster from your Deck to your hand, then you can add 1 Ritual Spell from your GY to your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Zillion Thunder",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/zillion-thunder/"
+      },
+      {
+        "kind": "set",
+        "name": "Ritual Territory",
+        "boxType": "Deck Build Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/deck-build-box-ritual-territory/"
+      }
+    ]
+  },
+  "Red-Eyes Dark Dragoon": {
+    "name": "Red-Eyes Dark Dragoon",
+    "pt": "Dragoon Negro de Olhos Vermelhos",
+    "image": "img/cards/red-eyes-dark-dragoon.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Dark Magician\" + \"Red-Eyes Black Dragon\" or 1 Dragon Effect Monster\nCannot be destroyed by card effects. Neither player can target this card with card effects. During your Main Phase: You can destroy 1 monster your opponent controls, and if you do, inflict damage to your opponent equal to half that monster's original ATK. You can use this effect a number of times per turn up to the number of Normal Monsters used as Fusion Material for this card. Once per turn, when a card or effect is activated (Quick Effect): You can discard 1 card; negate the activation, and if you do, destroy that card, and if you do that, this card gains 1000 ATK.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "S:P Little Knight": {
+    "name": "S:P Little Knight",
+    "pt": null,
+    "image": "img/cards/s-p-little-knight.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 1600,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 Effect Monsters\nIf this card is Link Summoned using a Fusion, Synchro, Xyz, or Link Monster as material: You can target 1 card on the field or in either GY; banish it, also your monsters cannot attack directly this turn. When your opponent activates a card or effect (Quick Effect): You can target 2 face-up monsters on the field, including a monster you control; banish both until the End Phase. You can only use each effect of \"S:P Little Knight\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Secrets of Dark Magic": {
+    "name": "Secrets of Dark Magic",
+    "pt": "Segredos da Magia Negra",
+    "image": "img/cards/secrets-of-dark-magic.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Activate 1 of the following effects.\r\n● Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field, including \"Dark Magician\" or \"Dark Magician Girl\", as Fusion Material.\r\n● Ritual Summon 1 Ritual Monster from your hand, by Tributing monsters from your hand or field, including \"Dark Magician\" or \"Dark Magician Girl\", whose total Levels equal or exceed the Level of the Ritual Monster.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Secret of Magicians",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/secrets-of-magicians/"
+      }
+    ]
+  },
+  "Soul Servant": {
+    "name": "Soul Servant",
+    "pt": "Servo da Alma",
+    "image": "img/cards/soul-servant.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Place 1 card on top of the Deck from your hand, Deck, or GY, that is \"Dark Magician\" or specifically lists \"Dark Magician\" or \"Dark Magician Girl\" in its text, except \"Soul Servant\". During your Main Phase: You can banish this card from your GY; draw cards equal to the number of \"Palladium\" monsters, \"Dark Magician\", and/or \"Dark Magician Girl\", with different names, on the field and in the GYs. You can only use this effect of \"Soul Servant\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Soul Servant",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/soul-servant/"
+      }
+    ]
+  },
+  "Summoner Monk": {
+    "name": "Summoner Monk",
+    "pt": "Monge Invocador",
+    "image": "img/cards/summoner-monk.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 800,
+    "def": 1600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "While this card is face-up on the field, it cannot be Tributed. If this card is Normal or Flip Summoned: Change this card to Defense Position. Once per turn: You can discard 1 Spell; Special Summon 1 Level 4 monster from your Deck, but that monster cannot attack this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Lord of Borrel",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/lord-of-borrel/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 05",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-05/"
+      }
+    ]
+  },
+  "Super Starslayer TY-PHON - Sky Crisis": {
+    "name": "Super Starslayer TY-PHON - Sky Crisis",
+    "pt": null,
+    "image": "img/cards/super-starslayer-ty-phon-sky-crisis.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 12,
+    "atk": 2900,
+    "def": 2900,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 12 monsters\nDuring the turn, or turn after, your opponent Special Summoned 2 or more monsters from the Extra Deck, you can also Xyz Summon this card by using 1 monster you control with the highest ATK (your choice, if tied). (Transfer its materials to this card.) If you do, you cannot Normal or Special Summon monsters for the rest of this turn. While this Xyz Summoned monster is on the field, neither player can activate the effects of monsters with 3000 or more ATK. Once per turn: You can detach 1 material from this card; return 1 monster from the field to the hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      }
+    ]
+  },
+  "The Dark Magicians": {
+    "name": "The Dark Magicians",
+    "pt": "Os Magos Negros",
+    "image": "img/cards/the-dark-magicians.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2800,
+    "def": 2300,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Dark Magician\" or \"Dark Magician Girl\" + 1 Spellcaster monster\r\nOnce per turn, if a Spell/Trap Card or effect is activated (except during the Damage Step): You can draw 1 card, then if it was a Spell/Trap, you can Set it, and if it was a Trap or Quick-Play Spell, you can activate it this turn. If this card is destroyed: You can Special Summon both 1 \"Dark Magician\" and 1 \"Dark Magician Girl\" from your hand, Deck, and/or GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Secret of Magicians",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/secrets-of-magicians/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Dark Magician the Magician of Black Magic",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/dark-magician-the-magicain-of-black-magic/"
+      }
+    ]
+  },
+  "The Eye of Timaeus": {
+    "name": "The Eye of Timaeus",
+    "pt": "O Olho de Timaeus",
+    "image": "img/cards/the-eye-of-timaeus.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "(This card is also always treated as \"Legendary Dragon Timaeus\".)\nTarget 1 \"Dark Magician\" monster you control; Fusion Summon 1 Fusion Monster from your Extra Deck that lists that monster on the field as Fusion Material, using it as the Fusion Material. You can only activate 1 \"The Eye of Timaeus\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Guardians of Rock",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/guardians-of-rock/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "The Gaze of Timaeus": {
+    "name": "The Gaze of Timaeus",
+    "pt": null,
+    "image": "img/cards/the-gaze-of-timaeus.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 \"Dark Magician\" or \"Dark Magician Girl\" in your field or GY; Fusion Summon 1 Fusion Monster from your Extra Deck that mentions that monster as material, by shuffling it into the Deck as material (this is treated as a Fusion Summon with \"The Eye of Timaeus\"), but banish it during the End Phase of the next turn. You can only activate 1 \"The Gaze of Timaeus\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Timaeus the United Dragon": {
+    "name": "Timaeus the United Dragon",
+    "pt": "Timaeus, o Dragão Unido",
+    "image": "img/cards/timaeus-the-united-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2800,
+    "def": 1800,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can send 1 Spellcaster monster, or 1 Spell/Trap that mentions \"Dark Magician\", from your hand or face-up field to the GY; Special Summon this card from your hand. During your Main Phase: You can Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as material, including a Spellcaster monster. You can only use each effect of \"Timaeus the United Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Zodiac Destiny",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/zodiac-shot/"
+      }
+    ]
+  },
+  "Underworld Goddess of the Closed World": {
+    "name": "Underworld Goddess of the Closed World",
+    "pt": "Deusa do Submundo do Mundo Fechado",
+    "image": "img/cards/underworld-goddess-of-the-closed-world.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "LIGHT",
+    "level": null,
+    "atk": 3000,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "4+ Effect Monsters\r\nYou can also use 1 monster your opponent controls as material to Link Summon this card. If this card is Link Summoned: You can negate the effects of all face-up monsters your opponent currently controls. This Link Summoned card is unaffected by your opponent's activated effects, unless they target this card. Once per turn, when your opponent activates a card or effect that Special Summons a monster(s) from the GY (Quick Effect): You can negate the activation.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.08",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-08/"
+      },
+      {
+        "kind": "set",
+        "name": "Predator of the Abyss",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/predator-of-the-abyss/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
+      }
+    ]
+  },
+  "Witch of the Black Forest": {
+    "name": "Witch of the Black Forest",
+    "pt": "Bruxa da Floresta Negra",
+    "image": "img/cards/witch-of-the-black-forest.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1100,
+    "def": 1200,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If this card is sent from the field to the GY: Add 1 monster with 1500 or less DEF from your Deck to your hand, but you cannot activate cards, or the effects of cards, with that name for the rest of this turn. You can only use this effect of \"Witch of the Black Forest\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Antinomic Theory",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/antinomic-theory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.02",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-02/"
+      }
+    ]
+  },
+  "Artifact Lancea": {
+    "name": "Artifact Lancea",
+    "pt": "Artefato Lança do Destino",
+    "image": "img/cards/artifact-lancea.jpg",
+    "type": "Monster",
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 1700,
+    "def": 2300,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can Set this card from your hand to your Spell & Trap Zone as a Spell. During your opponent's turn, if this Set card in the Spell & Trap Zone is destroyed and sent to your GY: Special Summon it. During your opponent's turn (Quick Effect): You can Tribute this card from your hand or face-up field; neither player can banish cards for the rest of this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Horizon",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/future-horizon/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.04",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-04/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      }
+    ]
+  },
+  "Book of Eclipse": {
+    "name": "Book of Eclipse",
+    "pt": "Livro do Eclipse",
+    "image": "img/cards/book-of-eclipse.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Change all face-up monsters on the field to face-down Defense Position. During the End Phase of this turn, change as many face-down Defense Position monsters your opponent controls as possible to face-up Defense Position, then your opponent draws cards equal to the number of monsters changed face-up by this effect.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Majestic Magic",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/majestic-magic/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
+      }
+    ]
+  },
+  "Cyberse Wicckid": {
+    "name": "Cyberse Wicckid",
+    "pt": "Wiccaroto Ciberso",
+    "image": "img/cards/cyberse-wicckid.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 800,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 Cyberse monsters\r\nThis Link Summoned card cannot be destroyed by battle or card effects. Cyberse monsters this card points to cannot be destroyed by card effects. If a monster(s) is Special Summoned to a zone(s) this card points to while you control this monster (except during the Damage Step): You can banish 1 Cyberse monster from your GY; add 1 Cyberse Tuner from your Deck to your hand. You can only use this effect of \"Cyberse Wicckid\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Tachyon of Galaxy",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/tachyon-of-galaxy/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 7,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Cynet Mining": {
+    "name": "Cynet Mining",
+    "pt": "Mineração Cinet",
+    "image": "img/cards/cynet-mining.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Send 1 card from your hand to the GY; add 1 Level 4 or lower Cyberse monster from your Deck to your hand. You can only activate 1 \"Cynet Mining\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Link Revolution",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/link-revolution/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Cynet Raging",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cynet-raging/"
+      }
+    ]
+  },
+  "Decode Talker Heatsoul": {
+    "name": "Decode Talker Heatsoul",
+    "pt": "Decodificar Transmissor Almardente",
+    "image": "img/cards/decode-talker-heatsoul.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "FIRE",
+    "level": null,
+    "atk": 2300,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2+ Cyberse monsters with different Attributes\r\nGains 500 ATK for each monster it points to. (Quick Effect): You can pay 1000 LP; draw 1 card, then if your LP are 2000 or less, you can banish this card from the field, and if you do, Special Summon 1 Link-3 or lower Cyberse monster from your Extra Deck, except \"Decode Talker Heatsoul\". You can only use this effect of \"Decode Talker Heatsoul\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Savage Shot",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/savage-shot/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Effect Veiler": {
+    "name": "Effect Veiler",
+    "pt": "Ocultador de Efeitos",
+    "image": "img/cards/effect-veiler.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect",
+      "Tuner"
+    ],
+    "text": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Deep Emotion",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/deep-emotion/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini: Vol. 06",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Evilswarm Exciton Knight": {
+    "name": "Evilswarm Exciton Knight",
+    "pt": "Hordeum Maligno Cavaleiro Exciton",
+    "image": "img/cards/evilswarm-exciton-knight.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1900,
+    "def": 0,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 4 monsters\r\nOnce per chain, during your Main Phase or your opponent's Battle Phase, if your opponent has more total cards in their hand and field than you do (Quick Effect): You can detach 1 material from this card; destroy all other cards on the field, also your opponent takes no further damage this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 05",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-05/"
+      },
+      {
+        "kind": "set",
+        "name": "Scream of Resistance",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/scream-of-resistance/"
+      }
+    ]
+  },
+  "Firewall Dragon Darkfluid": {
+    "name": "Firewall Dragon Darkfluid",
+    "pt": "Dragão Firewall Fluido Negro",
+    "image": "img/cards/firewall-dragon-darkfluid.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 3000,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "3+ Effect Monsters\r\nIf this card is Link Summoned: You can place counters on this card equal to the number of different types of Cyberse monsters in your GY (Ritual, Fusion, Synchro, Xyz). This card gains 2500 ATK for each counter on it during the Battle Phase only. When your opponent activates a monster effect (Quick Effect): You can remove 1 counter from this card; negate the activation, also, if this effect was activated between this card's attack declaration and the end of the Damage Step, this card can make another attack in a row.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      }
+    ]
+  },
+  "Geomathmech Final Sigma": {
+    "name": "Geomathmech Final Sigma",
+    "pt": "Geomechamático Sigma Final",
+    "image": "img/cards/geomathmech-final-sigma.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "FIRE",
+    "level": 12,
+    "atk": 3000,
+    "def": 0,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\r\nUnaffected by card effects, except \"Mathmech\" cards, while in the Extra Monster Zone. If this card in the Extra Monster Zone battles an opponent's monster, any battle damage it inflicts to your opponent is doubled. If this card is destroyed by battle, or if this card in its owner's possession is destroyed by an opponent's card effect: You can add 1 \"Mathmech\" card from your Deck to your hand. You can only use this effect of \"Geomathmech Final Sigma\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Geomathmech Magma": {
+    "name": "Geomathmech Magma",
+    "pt": "Geomechamático Magma",
+    "image": "img/cards/geomathmech-magma.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "FIRE",
+    "level": 8,
+    "atk": 2500,
+    "def": 0,
+    "monsterType": [
+      "Synchro",
+      "Tuner",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\r\nWhen this card destroys a monster by battle: You can target up to 2 cards your opponent controls; destroy them. If this card is destroyed by battle, or if this card in its owner's possession is destroyed by an opponent's card effect: You can add 1 \"Mathmech\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Geomathmech Magma\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Chronicle of Glory",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/chronicle-of-glory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Super Mini Vol. 02",
+        "boxType": "Selection Box Super Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      }
+    ]
+  },
+  "Infinite Impermanence": {
+    "name": "Infinite Impermanence",
+    "pt": "Impermanência Infinita",
+    "image": "img/cards/infinite-impermanence.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      }
+    ]
+  },
+  "Mathmech Addition": {
+    "name": "Mathmech Addition",
+    "pt": "Mechamático Adição",
+    "image": "img/cards/mathmech-addition.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "FIRE",
+    "level": 4,
+    "atk": 1000,
+    "def": 1000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can target 1 face-up monster on the field; you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Cyberse monsters, also Special Summon this card from your hand (but it cannot attack this turn), and if you do, the targeted monster gains 1000 ATK until the end of this turn. You can only use this effect of \"Mathmech Addition\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Chronicle of Glory",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/chronicle-of-glory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Super Mini Vol. 02",
+        "boxType": "Selection Box Super Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      }
+    ]
+  },
+  "Mathmech Billionblade Nayuta": {
+    "name": "Mathmech Billionblade Nayuta",
+    "pt": "Bilholâmina Nayuta Mechamática",
+    "image": "img/cards/mathmech-billionblade-nayuta.jpg",
+    "type": "Spell",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Equip only to a Cyberse monster. If the equipped monster battles an opponent's monster, during damage calculation: You can send 1 \"Mathmech\" monster from your Deck to the GY; the equipped monster gains ATK equal to the sent monster's ATK, until the end of this turn (even if this card leaves the field). If this card is sent from the Spell & Trap Zone to the GY: You can target 1 \"Mathmech\" card in your GY, except \"Mathmech Billionblade Nayuta\"; add it to your hand. You can only use each effect of \"Mathmech Billionblade Nayuta\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Chronicle of Glory",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/sets/chronicle-of-glory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Super Mini Vol. 02",
+        "boxType": "Selection Box Super Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      },
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Mathmech Circular": {
+    "name": "Mathmech Circular",
+    "pt": "Mechamático Circular",
+    "image": "img/cards/mathmech-circular.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1500,
+    "def": 1500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can send 1 \"Mathmech\" monster, except \"Mathmech Circular\", from your Deck to your GY; Special Summon this card from your hand, also you can only attack with 1 monster for the rest of this turn. If a \"Mathmech\" monster is Normal or Special Summoned to your field while you control this monster (except during the Damage Step): You can add 1 \"Mathmech\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Mathmech Circular\" once per turn.",
+    "obtain": []
+  },
+  "Mathmech Diameter": {
+    "name": "Mathmech Diameter",
+    "pt": "Mechamático Diâmetro",
+    "image": "img/cards/mathmech-diameter.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1000,
+    "def": 1500,
+    "monsterType": [
+      "Tuner",
+      "Effect"
+    ],
+    "text": "When this card is Normal Summoned: You can target 1 Level 4 Cyberse monster in your GY; Special Summon it, but it cannot activate its effects. A \"Mathmech\" monster that was Synchro or Xyz Summoned using this card on the field as material gains the following effect.\r\n● Once per turn, during the turn this card was Special Summoned, when your opponent activates a card or effect (Quick Effect): You can negate that effect.\r\nYou can only use each effect of \"Mathmech Diameter\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Mathmech Equation": {
+    "name": "Mathmech Equation",
+    "pt": "Equação Mechamática",
+    "image": "img/cards/mathmech-equation.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 \"Mathmech\" monster in your GY; Special Summon it, and if you do, it gains 1000 ATK until the end of this turn. You can only activate 1 \"Mathmech Equation\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Chronicle of Glory",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/sets/chronicle-of-glory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Super Mini Vol. 02",
+        "boxType": "Selection Box Super Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      },
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Mathmech Induction": {
+    "name": "Mathmech Induction",
+    "pt": "Indução Mechamática",
+    "image": "img/cards/mathmech-induction.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "All Cyberse monsters you control gain 500 ATK. If you control a \"Mathmech\" monster: You can send this face-up card from the field to the GY, then target 1 card your opponent controls; destroy it. You can only use this effect of \"Mathmech Induction\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Chronicle of Glory",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/chronicle-of-glory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Super Mini Vol. 02",
+        "boxType": "Selection Box Super Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      }
+    ]
+  },
+  "Mathmech Multiplication": {
+    "name": "Mathmech Multiplication",
+    "pt": "Mechamático Multiplicação",
+    "image": "img/cards/mathmech-multiplication.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 500,
+    "def": 2000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can target 1 Level 4 Cyberse monster you control; its Level becomes 8 until the end of this turn. If this card is sent to the GY: You can target 1 Cyberse monster you control in the Extra Monster Zone; its ATK becomes doubled until the end of this turn. You can only use each effect of \"Mathmech Multiplication\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Mathmech Nabla": {
+    "name": "Mathmech Nabla",
+    "pt": "Mechamático Nabla",
+    "image": "img/cards/mathmech-nabla.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1000,
+    "def": 1500,
+    "monsterType": [
+      "Tuner",
+      "Effect"
+    ],
+    "text": "You can Tribute 1 Cyberse monster; Special Summon 1 \"Mathmech\" monster from your Deck. If this card is sent to the GY: You can target 1 Cyberse monster you control in the Extra Monster Zone; it can make up to 2 attacks on monsters during each Battle Phase this turn. You can only use each effect of \"Mathmech Nabla\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Mathmech Sigma": {
+    "name": "Mathmech Sigma",
+    "pt": "Mechamático Sigma",
+    "image": "img/cards/mathmech-sigma.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1000,
+    "def": 1500,
+    "monsterType": [
+      "Tuner",
+      "Effect"
+    ],
+    "text": "If you control no monsters in the Extra Monster Zone, while this card is in your hand or GY: You can Special Summon this card, but banish it when it leaves the field, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Cyberse monsters. You can only use this effect of \"Mathmech Sigma\" once per turn. If this card you control is used as Synchro Material for a \"Mathmech\" monster, you can treat it as a non-Tuner.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Mathmech Subtraction": {
+    "name": "Mathmech Subtraction",
+    "pt": "Mechamático Subtração",
+    "image": "img/cards/mathmech-subtraction.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "FIRE",
+    "level": 4,
+    "atk": 1000,
+    "def": 1000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can target 1 face-up monster on the field; you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Cyberse monsters, also Special Summon this card from your hand (but it cannot attack this turn), and if you do, the targeted monster loses 1000 ATK until the end of this turn. You can only use this effect of \"Mathmech Subtraction\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Chronicle of Glory",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/chronicle-of-glory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Super Mini Vol. 02",
+        "boxType": "Selection Box Super Mini",
+        "amount": 5,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      },
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Mathmech Superfactorial": {
+    "name": "Mathmech Superfactorial",
+    "pt": "Superfatorial Mechamático",
+    "image": "img/cards/mathmech-superfactorial.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target up to 3 \"Mathmech\" monsters in your GY with different names, then activate 1 of these effects;\r\n● Special Summon them, but their effects are negated, then, immediately after this effect resolves, Synchro Summon 1 \"Mathmech\" Synchro Monster using only those monsters, and shuffle the materials into the Deck instead of sending them to the GY.\r\n● Special Summon them, but their effects are negated, then, immediately after this effect resolves, Xyz Summon 1 \"Mathmech\" Xyz Monster using only those monsters.\r\nYou can only activate 1 \"Mathmech Superfactorial\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Number 60: Dugares the Timeless": {
+    "name": "Number 60: Dugares the Timeless",
+    "pt": "Número 60: Dugares, o Atemporal",
+    "image": "img/cards/number-60-dugares-the-timeless.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "FIRE",
+    "level": 4,
+    "atk": 1200,
+    "def": 1200,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 4 monsters\r\nYou can detach 2 materials from this card, then activate 1 of the following effects;\r\n● Skip your next Draw Phase, also draw 2 cards, then discard 1 card.\r\n● Skip your next Main Phase 1, also Special Summon 1 monster from your GY in Defense Position.\r\n● Skip the Battle Phase of your next turn, also double the ATK of 1 monster you control until the end of this turn.\r\nYou can only use this effect of \"Number 60: Dugares the Timeless\" once per turn.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Marin",
+        "level": "Level 10",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/marin/"
+      },
+      {
+        "kind": "character",
+        "name": "Marin",
+        "level": "Level 21",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/marin/"
+      },
+      {
+        "kind": "character",
+        "name": "Marin",
+        "level": "Level 35",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/marin/"
+      }
+    ]
+  },
+  "Primathmech Alembertian": {
+    "name": "Primathmech Alembertian",
+    "pt": "Primechamático Alembertiano",
+    "image": "img/cards/primathmech-alembertian.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 2000,
+    "def": 0,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2+ Level 4 monsters\r\nYou can Tribute 1 monster; Special Summon 1 Level 4 \"Mathmech\" monster from your hand or GY. If this card is Xyz Summoned: You can detach 2 to 4 materials from this card, then activate the appropriate effect;\r\n● 2: Add 1 \"Mathmech\" card from your Deck to your hand.\r\n● 3: Add 1 Level 4 monster from your Deck to your hand.\r\n● 4: Add 1 Spell/Trap from your Deck to your hand.\r\nYou can only use each effect of \"Primathmech Alembertian\" once per turn.",
+    "obtain": []
+  },
+  "Primathmech Laplacian": {
+    "name": "Primathmech Laplacian",
+    "pt": "Primechamático Laplaciano",
+    "image": "img/cards/primathmech-laplacian.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 2000,
+    "def": 0,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "3 Level 4 monsters \n If a \"Mathmech\" card(s) you control would be destroyed by card effect, you can detach 1 material from this card instead. If this card is Xyz Summoned: You can detach up to 3 materials from it, then choose that many effects (you cannot choose the same effect twice, and you resolve them in the listed order, skipping any that were not chosen);\n● Send 1 random card from your opponent's hand to the GY. ● Send 1 monster your opponent controls to the GY. ● Send 1 Spell/Trap your opponent controls to the GY.\nYou can only use this effect of \"Primathmech Laplacian\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "S-Force Justify": {
+    "name": "S-Force Justify",
+    "pt": "Força-S Justify",
+    "image": "img/cards/s-force-justify.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "LIGHT",
+    "level": null,
+    "atk": 2600,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "3 Effect Monsters, including an \"S-Force\" monster\r\nYou cannot Summon/Set monsters to a zone(s) this card points to. (Quick Effect): You can target 1 face-up Effect Monster your opponent controls; negate its effects until the end of this turn, then you can move that opponent's monster to their Monster Zone this card points to. You can only use this effect of \"S-Force Justify\" once per turn. At the start of the Damage Step, if this card attacks: You can banish all monsters this card points to.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Solflare Lightning",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/solflare-lightning/"
+      }
+    ]
+  },
+  "Skull Meister": {
+    "name": "Skull Meister",
+    "pt": "Amo Caveira",
+    "image": "img/cards/skull-meister.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1700,
+    "def": 400,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When a card effect is activated in your opponent's GY (Quick Effect): You can send this card from your hand to the GY; negate that effect.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Choose Your Gift Campaign Ticket",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "D. D. Tower: Dark Dimension Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Declan Akaba Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Event Special Packs",
+        "url": null
+      }
+    ]
+  },
+  "Splash Mage": {
+    "name": "Splash Mage",
+    "pt": "Mago do Esguicho",
+    "image": "img/cards/splash-mage.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "WATER",
+    "level": null,
+    "atk": 1100,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 Cyberse monsters\r\nYou can target 1 Cyberse monster in your GY; Special Summon it in Defense Position, but negate its effects, also you cannot Special Summon monsters for the rest of this turn, except Cyberse monsters. You can only use this effect of \"Splash Mage\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Savage Shot",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/savage-shot/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Topologic Trisbaena": {
+    "name": "Topologic Trisbaena",
+    "pt": "Trisbena Topológica",
+    "image": "img/cards/topologic-trisbaena.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 2500,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2+ Effect Monsters\nIf a monster(s) is Special Summoned to a zone(s) this card points to: Banish as many of those monster(s) as possible, also as many Spells/Traps on the field as possible, and if you do, inflict 250 damage to your opponent for each of their cards banished by this effect.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Savage Shot",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/savage-shot/"
+      }
+    ]
+  },
+  "Abyss Dweller": {
+    "name": "Abyss Dweller",
+    "pt": "Habitante do Abismo",
+    "image": "img/cards/abyss-dweller.jpg",
+    "type": "Monster",
+    "race": "Sea Serpent",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1700,
+    "def": 1400,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 4 monsters\nWhile this card has a material attached that was originally WATER, all WATER monsters you control gain 500 ATK. Once per turn (Quick Effect): You can detach 1 material from this card; your opponent cannot activate any card effects in their GY this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Photon of Galaxy",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/photon-of-galaxy/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.03",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-03/"
+      }
+    ]
+  },
+  "Artemis, the Magistus Moon Maiden": {
+    "name": "Artemis, the Magistus Moon Maiden",
+    "pt": "Artemis, a Donzela da Lua Magistus",
+    "image": "img/cards/artemis-the-magistus-moon-maiden.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": null,
+    "atk": 800,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "1 Level 4 or lower Spellcaster monster\r\nIf another \"Magistus\" monster(s) is Normal or Special Summoned while you control this monster (except during the Damage Step): You can target 1 of those monsters; equip this card you control to it. While this card is equipped to a monster: You can add 1 \"Magistus\" monster from your Deck to your hand. You can only use each effect of \"Artemis, the Magistus Moon Maiden\" once per turn. You can only Special Summon \"Artemis, the Magistus Moon Maiden\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Ancient Records",
+        "boxType": "Pickup Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/pickup-box-ancient-records/"
+      },
+      {
+        "kind": "set",
+        "name": "Solflare Lightning",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/solflare-lightning/"
+      }
+    ]
+  },
+  "D.D. Crow": {
+    "name": "D.D. Crow",
+    "pt": "D.D. Corvo",
+    "image": "img/cards/d-d-crow.jpg",
+    "type": "Monster",
+    "race": "Winged Beast",
+    "attribute": "DARK",
+    "level": 1,
+    "atk": 100,
+    "def": 100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "(Quick Effect): You can discard this card to the GY, then target 1 card in your opponent's GY; banish that target.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Shining Hope",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/shining-hope/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.05",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Ancient Records",
+        "boxType": "Pickup Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/pickup-box-ancient-records/"
+      }
+    ]
+  },
+  "Guardian Chimera": {
+    "name": "Guardian Chimera",
+    "pt": "Guardião Quimera",
+    "image": "img/cards/guardian-chimera.jpg",
+    "type": "Monster",
+    "race": "Beast",
+    "attribute": "DARK",
+    "level": 9,
+    "atk": 3300,
+    "def": 3300,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "3 monsters with different names\r\nMust first be Fusion Summoned using only Fusion Materials from your hand and field, with at least 1 monster from each. If this card is Fusion Summoned by a Spell Card or effect: You can draw cards equal to the number of cards used as material from the hand, and if you do, destroy cards your opponent controls equal to the number of cards used as material from the field. You can only use this effect of \"Guardian Chimera\" once per turn. While \"Polymerization\" is in your GY, your opponent cannot target this card with card effects.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Hey, Trunade!": {
+    "name": "Hey, Trunade!",
+    "pt": "Ei, Trunade!",
+    "image": "img/cards/hey-trunade.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Return all Set Spells and Traps on the field to the hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Rampage of the Forest",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/rampage-of-the-forest/"
+      }
+    ]
+  },
+  "Knightmare Phoenix": {
+    "name": "Knightmare Phoenix",
+    "pt": "Cavaleira do Pesadelo Fênix",
+    "image": "img/cards/knightmare-phoenix.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "FIRE",
+    "level": null,
+    "atk": 1900,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 Spell/Trap your opponent controls; destroy it, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Phoenix\" once per turn. Co-linked monsters you control cannot be destroyed by battle.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Circuit",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/future-circuit/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
+      }
+    ]
+  },
+  "Knightmare Unicorn": {
+    "name": "Knightmare Unicorn",
+    "pt": "Cavaleiro do Pesadelo Unicórnio",
+    "image": "img/cards/knightmare-unicorn.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 2200,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2+ monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 card on the field; shuffle it into the Deck, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Unicorn\" once per turn. While any co-linked \"Knightmare\" monsters are on the field, for your normal draw in your Draw Phase, draw 1 card for each different card name among those co-linked \"Knightmare\" monsters, instead of drawing just 1 card.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Circuit",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/future-circuit/"
+      },
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
+      }
+    ]
+  },
+  "Lyrilusc - Assembled Nightingale": {
+    "name": "Lyrilusc - Assembled Nightingale",
+    "pt": "Lirilusc - Rouxinol Construído",
+    "image": "img/cards/lyrilusc-assembled-nightingale.jpg",
+    "type": "Monster",
+    "race": "Winged Beast",
+    "attribute": "WIND",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 or more Level 1 monsters\nThis card gains 200 ATK for each Xyz Material attached to it. This card can attack directly. While this card has Xyz Material, it can attack a number of times each Battle Phase, up to the number of Xyz Materials attached to it. Once per turn, during either player's turn: You can detach 1 Xyz Material from this card; until the end of this turn, \"Lyrilusc\" monsters you control cannot be destroyed by battle or card effects, also you take no battle damage.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Lulu Obsidian",
+        "level": "Level 14",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/lulu-obsidian/"
+      }
+    ]
+  },
+  "Mementoal Tecuhtlica - Combined Creation": {
+    "name": "Mementoal Tecuhtlica - Combined Creation",
+    "pt": null,
+    "image": "img/cards/mementoal-tecuhtlica-combined-creation.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "EARTH",
+    "level": 11,
+    "atk": 5000,
+    "def": 5000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand or GY) by shuffling 5 other \"Memento\" monsters with different names from your hand and/or GY into the Deck/Extra Deck. While you control no other monsters, this card can attack all monsters your opponent controls, once each. Once per turn, if your opponent activates a card or effect (except during the Damage Step): You can Special Summon 1 \"Memento\" monster from your hand or GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementomictlan": {
+    "name": "Mementomictlan",
+    "pt": null,
+    "image": "img/cards/mementomictlan.jpg",
+    "type": "Spell",
+    "race": "Field",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "If your \"Memento\" monster battles, your opponent cannot activate any Spell/Trap Cards until the end of the Damage Step. If a monster(s) you control is destroyed by battle or card effect: You can target 1 of those monsters; Special Summon 1 \"Memento\" monster with a lower Level from your hand or GY. You can only use this effect of \"Mementomictlan\" once per turn. Once per turn, during your End Phase: You can target 1 \"Memento\" Spell/Trap in your GY; Set it.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementomictlan Tecuhtlica - Creation King": {
+    "name": "Mementomictlan Tecuhtlica - Creation King",
+    "pt": null,
+    "image": "img/cards/mementomictlan-tecuhtlica-creation-king.jpg",
+    "type": "Monster",
+    "race": "Illusion",
+    "attribute": "EARTH",
+    "level": 9,
+    "atk": 3000,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "3 \"Memento\" monsters\nYou can banish this card from your GY; add 1 \"Mementomictlan\" from your Deck to your hand. You cannot activate the following effects of \"Mementomictlan Tecuhtlica - Creation King\" in the same Chain. If this card is Fusion Summoned: You can send 3 \"Memento\" cards from your Deck and/or Extra Deck to the GY. (Quick Effect): You can target an equal number of \"Memento\" monsters you control and cards your opponent controls; destroy them. You can only use each effect of \"Mementomictlan Tecuhtlica - Creation King\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Akihiron": {
+    "name": "Mementotlan Akihiron",
+    "pt": null,
+    "image": "img/cards/mementotlan-akihiron.jpg",
+    "type": "Monster",
+    "race": "Aqua",
+    "attribute": "WATER",
+    "level": 5,
+    "atk": 1700,
+    "def": 1400,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If this card is Normal or Special Summoned: You can activate this effect; this turn, Level 9 or higher \"Memento\" monsters can attack directly. If this card is destroyed by card effect: You can target 1 of your other \"Memento\" cards that is banished or in your GY; add it to your hand. If a \"Memento\" monster(s) in your hand and/or face-up field is destroyed by battle or card effect, while this card is in your GY: You can Special Summon this card. You can only use each effect of \"Mementotlan Akihiron\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Angwitch": {
+    "name": "Mementotlan Angwitch",
+    "pt": null,
+    "image": "img/cards/mementotlan-angwitch.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 3,
+    "atk": 800,
+    "def": 1000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If this card is Normal or Special Summoned: You can add 1 \"Memento\" monster from your Deck to your hand, except \"Mementotlan Angwitch\". You can target 1 Level 2 or lower \"Memento\" monster in your GY; destroy 1 \"Memento\" monster you control, and if you do, Special Summon the targeted monster. You can only use each effect of \"Mementotlan Angwitch\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Bone Party": {
+    "name": "Mementotlan Bone Party",
+    "pt": null,
+    "image": "img/cards/mementotlan-bone-party.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Destroy 1 \"Memento\" monster in your hand or face-up field, take 1 \"Memento\" monster from your Deck with a different name, and either add it to your hand or Special Summon it in Defense Position. During your Main Phase: You can banish this card from your GY, then target 1 \"Memento\" monster you control; if it attacks a Defense Position monster this turn, inflict piercing battle damage to your opponent. You can only use each effect of \"Mementotlan Bone Party\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Cranium Burst": {
+    "name": "Mementotlan Cranium Burst",
+    "pt": null,
+    "image": "img/cards/mementotlan-cranium-burst.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "While you control a \"Memento\" monster, your opponent's monsters that can attack must attack the \"Memento\" monster you control with the highest ATK (their choice, if tied). When your opponent activates a monster effect on the field (except during the Damage Step): You can target 1 \"Mementoal Tecuhtlica - Combined Creation\" you control; it loses exactly 1000 ATK/DEF, and if it does, negate that activated effect. You can only activate this effect of \"Mementotlan Cranium Burst\" once per Chain.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Dark Blade": {
+    "name": "Mementotlan Dark Blade",
+    "pt": null,
+    "image": "img/cards/mementotlan-dark-blade.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1800,
+    "def": 1500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If this card is Normal or Special Summoned: You can discard 1 \"Memento\" card, then target 1 Spell/Trap your opponent controls; destroy it. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and if you do, Special Summon 1 Level 3 or lower \"Memento\" monster from your Deck. You can only use each effect of \"Mementotlan Dark Blade\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Fracture Dance": {
+    "name": "Mementotlan Fracture Dance",
+    "pt": null,
+    "image": "img/cards/mementotlan-fracture-dance.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "If you control a \"Memento\" monster: Target 1 card on the field; destroy it, then, if you control \"Mementoal Tecuhtlica - Combined Creation\", you can destroy 1 more card on the field. When an attack is declared involving your \"Memento\" monster and an opponent's monster: You can banish this card from your GY; all monsters your opponent currently controls lose 1000 ATK until the end of this turn. You can only use each effect of \"Mementotlan Fracture Dance\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Fusion": {
+    "name": "Mementotlan Fusion",
+    "pt": null,
+    "image": "img/cards/mementotlan-fusion.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "During the Main Phase: Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as material, including a \"Memento\" monster. If a monster(s) in your possession was destroyed by card effect this turn, you can also shuffle \"Memento\" monsters from your GY into the Deck as material. During your Main Phase: You can banish this card from your GY; destroy 1 monster you control, and if you do, add 1 \"Memento\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Mementotlan Fusion\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Ghattic": {
+    "name": "Mementotlan Ghattic",
+    "pt": null,
+    "image": "img/cards/mementotlan-ghattic.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 2,
+    "atk": 550,
+    "def": 400,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If this card is Normal or Special Summoned: You can target 1 \"Memento\" card in your GY, except \"Mementotlan Ghattic\"; add it to your hand. If this card is sent to the GY by a \"Memento\" monster's effect: You can Special Summon this card. You can only use each effect of \"Mementotlan Ghattic\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Goblin": {
+    "name": "Mementotlan Goblin",
+    "pt": null,
+    "image": "img/cards/mementotlan-goblin.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 1,
+    "atk": 400,
+    "def": 400,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "During the Main Phase, if you control \"Mementoal Tecuhtlica - Combined Creation\" (Quick Effect): You can discard this card; for the rest of this turn, your opponent cannot target \"Memento\" monsters you control with card effects. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and if you do, send up to 2 \"Memento\" cards with different names from each other from your Deck to the GY, except \"Mementotlan Goblin\". You can only use each effect of \"Mementotlan Goblin\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Mace": {
+    "name": "Mementotlan Mace",
+    "pt": null,
+    "image": "img/cards/mementotlan-mace.jpg",
+    "type": "Monster",
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "level": 1,
+    "atk": 400,
+    "def": 300,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "During your opponent's Main Phase, if you control \"Mementoal Tecuhtlica - Combined Creation\" (Quick Effect): You can discard this card, then target 1 face-up monster your opponent controls; take control of it until the End Phase. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and if you do, add 1 \"Memento\" card from your Deck to your hand, except \"Mementotlan Mace\". You can only use each effect of \"Mementotlan Mace\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Shleepy": {
+    "name": "Mementotlan Shleepy",
+    "pt": null,
+    "image": "img/cards/mementotlan-shleepy.jpg",
+    "type": "Monster",
+    "race": "Beast",
+    "attribute": "EARTH",
+    "level": 3,
+    "atk": 800,
+    "def": 1000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "During the turn a monster(s) in your possession was destroyed by card effect (Quick Effect): You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can Fusion Summon 1 \"Memento\" Fusion Monster from your Extra Deck, using monsters from your hand or field. If this card is destroyed by battle or card effect: You can send 1 \"Memento\" card from your Deck to the GY, except \"Mementotlan Shleepy\". You can only use each effect of \"Mementotlan Shleepy\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Tatsunootoshigo": {
+    "name": "Mementotlan Tatsunootoshigo",
+    "pt": null,
+    "image": "img/cards/mementotlan-tatsunootoshigo.jpg",
+    "type": "Monster",
+    "race": "Beast",
+    "attribute": "EARTH",
+    "level": 5,
+    "atk": 1350,
+    "def": 1600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you do not control any face-up monsters, other than \"Memento\" monsters: You can Special Summon this card from your hand. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and send any number of \"Memento\" monster(s) (with different names) from your Deck to the GY whose total Levels are less than or equal to the destroyed monster's original Level. You can only use each effect of \"Mementotlan Tatsunootoshigo\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan Twin Dragon": {
+    "name": "Mementotlan Twin Dragon",
+    "pt": null,
+    "image": "img/cards/mementotlan-twin-dragon.jpg",
+    "type": "Monster",
+    "race": "Thunder",
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2800,
+    "def": 2100,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "2 \"Memento\" monsters\nAny monster destroyed by battle with your \"Memento\" monster is banished. You can only use each of the following effects of \"Mementotlan Twin Dragon\" once per turn. If this card is Fusion Summoned: You can destroy 1 \"Memento\" monster in your hand or face-up field, and if you do, add up to 2 \"Memento\" monsters with different names from your Deck to your hand. If this Fusion Summoned card is destroyed: You can Special Summon 1 Level 6 or lower \"Memento\" monster from your GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Mementotlan-Horned Dragon": {
+    "name": "Mementotlan-Horned Dragon",
+    "pt": null,
+    "image": "img/cards/mementotlan-horned-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2850,
+    "def": 2350,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you have 3 or more \"Memento\" monsters with different names in your GY, you can Special Summon this card (from your hand). You can only Special Summon \"Mementotlan-Horned Dragon\" once per turn this way. If this card on the field is destroyed by card effect: You can target 3 face-up cards on the field, including a \"Memento\" card you control; destroy them. You can only use this effect of \"Mementotlan-Horned Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Predaplant Dragostapelia": {
+    "name": "Predaplant Dragostapelia",
+    "pt": "Predaplanta Dragostapelia",
+    "image": "img/cards/predaplant-dragostapelia.jpg",
+    "type": "Monster",
+    "race": "Plant",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2700,
+    "def": 1900,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "1 Fusion Monster + 1 DARK monster\r\nOnce per turn (Quick Effect): You can target 1 face-up monster your opponent controls; place 1 Predator Counter on it, and if it is Level 2 or higher, it becomes Level 1 as long as it has a Predator Counter. Negate the activated effects of your opponent's monsters that have Predator Counters.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Yuri Raid Event",
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Yuri",
+        "level": "Drop",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yuri/"
+      }
+    ]
+  }
+}
