@@ -11,6 +11,12 @@ function check(requires, hand) {
   return { missing, blockedBy };
 }
 
+// Does this hand satisfy a play line's requirement? (A line with a `board` requirement has no hand condition.)
+export function handFits(requires, hand) {
+  const { missing, blockedBy } = check(requires, hand);
+  return missing.length === 0 && blockedBy.length === 0;
+}
+
 // matches: lines that fit the hand, most specific first.
 // near: lines that do not fit, closest first, with what is missing or in the way.
 // boards: lines that start from a board state; they are never matched from a hand.

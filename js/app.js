@@ -14,11 +14,15 @@ import { stepIndex, uniqueNames } from './card-nav.js';
 import { renderCollectionPage, renderResults } from './views-collection.js';
 import { renderBuildPage } from './views-build.js';
 import { renderOtherDeck } from './views-other-deck.js';
+import { addCard, cleanVersions, createVersion, deleteVersion, duplicateVersion, loadVersions, renameVersion, saveVersions, setCardCount, upsertVersion } from './versions.js';
+import { renderVersionResults } from './views-myversion.js';
 
 const app = document.getElementById('app');
 const dialog = document.getElementById('card-dialog');
 const hands = new Map(); // deck slug -> card names the user picked in the hand picker
 let owned = loadCollection();
+let versions = loadVersions(); // { deckSlug: [version, ...] }, saved in this browser
+const verState = new Map(); // deck slug -> { id: active version id, query: search text }
 requestPersistence(); // ask the browser to keep this site's storage; harmless if it says no
 let ownMsg = ''; // one-line result of the last save, import or export, shown once
 let ownMsgKind = 'ok'; // 'ok' or 'warn': how the message is styled
@@ -38,8 +42,16 @@ const pageCtx = () => ({
   ownMsg,
   ownMsgKind,
   backupNote: backupNudge(loadBackupMeta()),
+  versions,
+  verState: verState.get(currentSlug ?? ''),
 });
-const onCollectionPage = () => ['collection', 'build', 'other'].includes(parseRoute(location.hash).name);
+// The pages that wait for the extra card data (search index, other decks, extra cards).
+const needsExtra = (route) => ['collection', 'build', 'other'].includes(route.name) || (route.name === 'deck' && route.tab === 'myversion');
+// A page that uses the extra data. The handlers that test it also accept `currentSlug`, which is set on every
+// deck page, so adding the My version tab here changes nothing for them: off a deck page it still means
+// "a page without a guide context" (collection, build, other deck).
+const onCollectionPage = () => needsExtra(parseRoute(location.hash));
+const activeVersionId = () => verState.get(currentSlug)?.id ?? versions[currentSlug]?.[0]?.id;
 
 const handFor = (slug) => {
   if (!hands.has(slug)) hands.set(slug, []);
@@ -50,13 +62,22 @@ function notFound() {
   return '<section><h1>Page not found</h1><p><a href="#/">Back to the decks</a></p></section>';
 }
 
+// Highlights the sidebar link of the section being shown.
+const NAV_OF = { decks: 'decks', deck: 'decks', other: 'collection', collection: 'collection', build: 'build', glossary: 'glossary' };
+function markNav(routeName) {
+  for (const a of document.querySelectorAll('.side-nav a')) {
+    if (a.dataset.nav === NAV_OF[routeName]) a.setAttribute('aria-current', 'page');
+    else a.removeAttribute('aria-current');
+  }
+}
+
 function render({ keepScroll = false } = {}) {
   const route = parseRoute(location.hash);
   const scroll = window.scrollY;
   currentSlug = null;
   let title = 'Duel Links Coach';
 
-  if (['collection', 'build', 'other'].includes(route.name) && !extra) {
+  if (needsExtra(route) && !extra) {
     app.innerHTML = '<p class="muted">Loading the card data…</p>';
     // One load at a time; when it lands, only touch the page if the user is still on a page that needs it.
     extraPromise ??= loadExtra().then(
@@ -89,12 +110,13 @@ function render({ keepScroll = false } = {}) {
   } else if (route.name === 'deck' && Object.hasOwn(data.guides, route.slug)) {
     const guide = data.guides[route.slug];
     currentSlug = route.slug;
-    app.innerHTML = renderDeckPage(guide, { ...data, owned, ownMsg, ownMsgKind, backupNote: backupNudge(loadBackupMeta()) }, route, handFor(route.slug), chosenLists.get(route.slug), turns.get(route.slug) ?? 'first');
+    app.innerHTML = renderDeckPage(guide, pageCtx(), route, handFor(route.slug), chosenLists.get(route.slug), turns.get(route.slug) ?? 'first');
     title = `${guide.deck} · Duel Links Coach`;
   } else {
     app.innerHTML = notFound();
   }
   document.title = title;
+  markNav(route.name);
 
   if (keepScroll) window.scrollTo(0, scroll);
   else if (route.anchor && document.getElementById(`sc-${route.anchor}`)) document.getElementById(`sc-${route.anchor}`).scrollIntoView();
@@ -131,8 +153,9 @@ function cardSequence(button) {
 function showCard() {
   const name = cardSeq.names[cardSeq.index];
   const nav = cardSeq.names.length > 1 ? { index: cardSeq.index, total: cardSeq.names.length } : null;
+  // On a deck page, a card added from the search may exist only in the extra card data: use it once loaded.
   dialog.innerHTML = currentSlug
-    ? renderCardDialog(name, data.guides[currentSlug], data, currentSlug, nav)
+    ? renderCardDialog(name, data.guides[currentSlug], extra ? pageCtx() : data, currentSlug, nav)
     : renderCardDialog(name, null, pageCtx(), undefined, nav);
   dialog.scrollTop = 0;
   if (!dialog.open) dialog.showModal();
@@ -187,12 +210,12 @@ document.addEventListener('click', (event) => {
     return;
   }
   if (event.target.closest('[data-own-export]') && (currentSlug || onCollectionPage())) {
-    const url = URL.createObjectURL(new Blob([exportCollection(owned)], { type: 'application/json' }));
+    const url = URL.createObjectURL(new Blob([exportCollection(owned, versions)], { type: 'application/json' }));
     const a = Object.assign(document.createElement('a'), { href: url, download: 'duel-links-collection.json' });
     a.click();
     noteExport();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
-    ownMsg = exportMessage(owned);
+    ownMsg = exportMessage(owned, versions);
     ownMsgKind = 'ok';
     render({ keepScroll: true });
     ownMsg = '';
@@ -214,6 +237,86 @@ document.addEventListener('click', (event) => {
     noteChange();
     render({ keepScroll: true });
     ownMsg = '';
+    return;
+  }
+  // ---- My version ----
+  const verSlug = currentSlug;
+  const activeVersion = () => {
+    const list = versions[verSlug] ?? [];
+    return list.find((v) => v.id === verState.get(verSlug)?.id) ?? list[0] ?? null;
+  };
+  const saveVersionsAndRender = () => {
+    ownMsg = saveWarning(saveVersions(versions));
+    ownMsgKind = ownMsg ? 'warn' : 'ok';
+    noteChange();
+    render({ keepScroll: true });
+    ownMsg = '';
+    ownMsgKind = 'ok';
+  };
+  const chooseVersion = (id) => verState.set(verSlug, { id, query: verState.get(verSlug)?.query ?? '' });
+  if (verSlug && event.target.closest('[data-ver-new]')) {
+    const lists = data.decklists?.[verSlug];
+    const base = lists?.lists.find((l) => l.id === (chosenLists.get(verSlug) ?? lists.defaultId)) ?? lists?.lists[0];
+    if (!base) return;
+    const name = prompt('Name for your new version:', `My version ${(versions[verSlug]?.length ?? 0) + 1}`);
+    if (name === null) return;
+    const v = createVersion(base, name);
+    versions = upsertVersion(versions, verSlug, v);
+    chooseVersion(v.id);
+    saveVersionsAndRender();
+    return;
+  }
+  const verPick = verSlug && event.target.closest('[data-ver-pick]');
+  if (verPick) {
+    chooseVersion(verPick.dataset.verPick);
+    render({ keepScroll: true });
+    return;
+  }
+  if (verSlug && event.target.closest('[data-ver-dup]')) {
+    const v = activeVersion();
+    if (!v) return;
+    const copy = duplicateVersion(v);
+    versions = upsertVersion(versions, verSlug, copy);
+    chooseVersion(copy.id);
+    saveVersionsAndRender();
+    return;
+  }
+  if (verSlug && event.target.closest('[data-ver-rename]')) {
+    const v = activeVersion();
+    if (!v) return;
+    const name = prompt('New name for this version:', v.name);
+    if (name === null) return;
+    versions = upsertVersion(versions, verSlug, renameVersion(v, name));
+    saveVersionsAndRender();
+    return;
+  }
+  if (verSlug && event.target.closest('[data-ver-del]')) {
+    const v = activeVersion();
+    if (!v || !confirm(`Delete "${v.name}"? Export your collection first if you want a copy.`)) return;
+    versions = deleteVersion(versions, verSlug, v.id);
+    verState.delete(verSlug);
+    saveVersionsAndRender();
+    return;
+  }
+  const verCount = verSlug && event.target.closest('[data-ver-count]');
+  if (verCount) {
+    const v = activeVersion();
+    if (!v) return;
+    const section = verCount.dataset.section === 'extra' ? 'extra' : 'main';
+    const name = verCount.dataset.verCount;
+    const now = v[section].find((e) => e.name === name)?.count ?? 0;
+    versions = upsertVersion(versions, verSlug, setCardCount(v, section, name, now + Number(verCount.dataset.delta)));
+    saveVersionsAndRender();
+    document.querySelector(`[data-ver-count="${CSS.escape(name)}"][data-section="${section}"][data-delta="${verCount.dataset.delta}"]:not([disabled])`)?.focus({ preventScroll: true });
+    return;
+  }
+  const verAdd = verSlug && event.target.closest('[data-ver-add]');
+  if (verAdd) {
+    const v = activeVersion();
+    if (!v) return;
+    const section = verAdd.dataset.section === 'extra' ? 'extra' : 'main';
+    versions = upsertVersion(versions, verSlug, addCard(v, section, verAdd.dataset.verAdd));
+    saveVersionsAndRender();
     return;
   }
   const turnPick = event.target.closest('[data-turn]');
@@ -263,8 +366,15 @@ dialog.addEventListener('click', (event) => {
   if (event.target.closest('a[href^="#/"]')) dialog.close();
 });
 
-// Typing in the collection search only redraws the results, so the box keeps its focus.
+// Typing in the collection search (or the My version card search) only redraws the results, so the box keeps its focus.
 document.addEventListener('input', (event) => {
+  const verBox = event.target.closest?.('#ver-search');
+  if (verBox && currentSlug) {
+    verState.set(currentSlug, { id: activeVersionId(), query: verBox.value });
+    const results = document.getElementById('ver-results');
+    if (results) results.innerHTML = renderVersionResults(pageCtx());
+    return;
+  }
   const box = event.target.closest?.('#collection-search');
   if (!box) return;
   collectionQuery = box.value;
@@ -291,9 +401,11 @@ document.addEventListener('change', async (event) => {
   input.value = '';
   if (result.ok) {
     owned = result.owned;
+    if (result.versions) versions = cleanVersions(result.versions);
+    const savedVersions = result.versions ? saveVersions(versions) : true;
     const saved = saveCollection(owned);
-    ownMsg = saved ? importMessage(owned) : saveWarning(false);
-    ownMsgKind = saved ? 'ok' : 'warn';
+    ownMsg = saved && savedVersions ? importMessage(owned, result.versions ? versions : undefined) : saveWarning(false);
+    ownMsgKind = saved && savedVersions ? 'ok' : 'warn';
   } else {
     ownMsg = result.error;
     ownMsgKind = 'warn';

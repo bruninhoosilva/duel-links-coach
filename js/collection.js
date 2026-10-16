@@ -88,12 +88,15 @@ export function listProgress(list, owned = {}) {
   return { cards: need.size, cardsDone, copiesHave, copiesNeed, unknown };
 }
 
-// A small file you can save and load on another device.
-export function exportCollection(owned) {
-  return JSON.stringify({ app: 'duel-links-coach', version: 1, owned: clean(owned) }, null, 2);
+// A small file you can save and load on another device. `versions` (your deck versions) is optional.
+export function exportCollection(owned, versions = {}) {
+  const file = { app: 'duel-links-coach', version: 1, owned: clean(owned) };
+  if (versions && Object.keys(versions).length > 0) file.versions = versions;
+  return JSON.stringify(file, null, 2);
 }
 
-// Read an exported file. Returns { ok: true, owned } or { ok: false, error }.
+// Read an exported file. Returns { ok: true, owned, versions } (versions is the raw object or null; the caller
+// cleans it) or { ok: false, error }.
 export function parseCollection(text) {
   let data;
   try {
@@ -104,7 +107,8 @@ export function parseCollection(text) {
   if (!data || typeof data !== 'object' || data.app !== 'duel-links-coach' || typeof data.owned !== 'object' || data.owned === null) {
     return { ok: false, error: 'That file was not exported from Duel Links Coach.' };
   }
-  return { ok: true, owned: clean(data.owned) };
+  const versions = data.versions && typeof data.versions === 'object' && !Array.isArray(data.versions) ? data.versions : null;
+  return { ok: true, owned: clean(data.owned), versions };
 }
 
 // ---- Backup bookkeeping and persistence ----
@@ -182,8 +186,14 @@ function describeCounts({ owns, copies, none }) {
   return parts.join(' and ');
 }
 
-export const exportMessage = (owned) =>
-  `Saved duel-links-collection.json with ${describeCounts(collectionCounts(owned))}. Keep the file somewhere safe: "Import a collection" loads it again, on this device or another.`;
+const countVersions = (versions) => Object.values(versions ?? {}).reduce((n, list) => n + (Array.isArray(list) ? list.length : 0), 0);
+const versionsPart = (versions) => {
+  const n = countVersions(versions);
+  return n ? ` and ${plural(n, 'version', 'versions')} of your decks` : '';
+};
 
-export const importMessage = (owned) =>
-  `Imported ${describeCounts(collectionCounts(owned))}. This replaced the collection you had before.`;
+export const exportMessage = (owned, versions) =>
+  `Saved duel-links-collection.json with ${describeCounts(collectionCounts(owned))}${versionsPart(versions)}. Keep the file somewhere safe: "Import a collection" loads it again, on this device or another.`;
+
+export const importMessage = (owned, versions) =>
+  `Imported ${describeCounts(collectionCounts(owned))}${versionsPart(versions)}. This replaced what you had before.`;

@@ -4,8 +4,9 @@ import { renderCards, renderOverview, renderPlay, renderSynergies } from './view
 import { renderPicker } from './views-picker.js';
 import { renderDeckLists } from './views-decklists.js';
 import { renderOptions } from './views-options.js';
+import { renderMyVersion } from './views-myversion.js';
 
-const TAB_LABELS = { overview: 'Overview', lists: 'Deck lists', cards: 'Cards', synergies: 'Synergies', options: 'Alternatives', play: 'Play guide', picker: 'Hand picker' };
+const TAB_LABELS = { overview: 'Overview', lists: 'Deck lists', myversion: 'My version', cards: 'Cards', synergies: 'Synergies', options: 'Alternatives', play: 'Play guide', picker: 'Hand picker' };
 
 export function renderDeckPage(guide, ctx, route, hand, listId, turn = 'first') {
   const tabs = Object.entries(TAB_LABELS)
@@ -17,6 +18,7 @@ export function renderDeckPage(guide, ctx, route, hand, listId, turn = 'first') 
   const builders = {
     overview: () => renderOverview(guide, ctx),
     lists: () => renderDeckLists(guide, ctx, route.slug, listId),
+    myversion: () => renderMyVersion(guide, ctx, route.slug),
     cards: () => renderCards(guide, ctx),
     synergies: () => renderSynergies(guide, ctx),
     options: () => renderOptions(guide, ctx),

@@ -5,18 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Duel Links Coach</title>
   <meta name="description" content="Plain-language Duel Links deck guides: which cards work together and what order to play them in.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0f24">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#/">Duel Links Coach</a>
-    <nav aria-label="Main"><a href="#/">Decks</a><a href="#/collection">My collection</a><a href="#/build">What can I build?</a><a href="#/glossary">Glossary</a></nav>
-  </header>
-  <main id="app" tabindex="-1"><p class="muted">Loading the guides…</p></main>
-  <dialog id="card-dialog" aria-labelledby="card-dialog-title"></dialog>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">◆</span><span class="brand-name">Duel Links <b>Coach</b></span></a>
+      <nav class="side-nav" aria-label="Main">
+        <a href="#/" data-nav="decks"><span class="nav-ico" aria-hidden="true">♠</span>Decks</a>
+        <a href="#/collection" data-nav="collection"><span class="nav-ico" aria-hidden="true">▣</span>My collection</a>
+        <a href="#/build" data-nav="build"><span class="nav-ico" aria-hidden="true">⚒</span>What can I build?</a>
+        <a href="#/glossary" data-nav="glossary"><span class="nav-ico" aria-hidden="true">?</span>Glossary</a>
+      </nav>
+    </header>
+    <div class="content">
+      <main id="app" tabindex="-1"><p class="muted">Loading the guides…</p></main>
   <footer class="site-footer">
     <p>Unofficial fan tool, not affiliated with Konami. Yu-Gi-Oh! card names, text and artwork belong to Konami and are shown here only as a reference for the guides. Card text and deck statistics come from Duel Links Meta; card pictures come from YGOPRODeck. Each guide is written in our own words from the creators' videos (credited on the deck page) and checked against the card text.</p>
   </footer>
+    </div>
+  </div>
+  <dialog id="card-dialog" aria-labelledby="card-dialog-title"></dialog>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>

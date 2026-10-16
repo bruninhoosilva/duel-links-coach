@@ -9,9 +9,9 @@ export const fold = (s) =>
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
 
-// rows: the site's allcards.json, [name, pt, rarity, type, image] per card (image is '' when we have no picture).
+// rows: the site's allcards.json, [name, pt, rarity, type, image, extra] per card (image is '' when we have no picture; extra is 1 for Extra Deck cards).
 export const buildSearchIndex = (rows) =>
-  rows.map(([name, pt, rarity, type, image]) => ({ name, pt: pt || null, rarity: rarity || null, type: type || null, image: image || null, key: fold(name), ptKey: pt ? fold(pt) : '' }));
+  rows.map(([name, pt, rarity, type, image, extra]) => ({ name, pt: pt || null, rarity: rarity || null, type: type || null, image: image || null, extra: Boolean(extra), key: fold(name), ptKey: pt ? fold(pt) : '' }));
 
 const rank = (c, q, words) => {
   const keys = [c.key, c.ptKey].filter(Boolean);

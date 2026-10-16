@@ -1,4 +1,4 @@
-export const TABS = ['overview', 'lists', 'cards', 'synergies', 'options', 'play', 'picker'];
+export const TABS = ['overview', 'lists', 'myversion', 'cards', 'synergies', 'options', 'play', 'picker'];
 
 export function parseRoute(hash) {
   const path = String(hash ?? '').replace(/^#\/?/, '').split('?')[0];

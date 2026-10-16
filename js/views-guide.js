@@ -12,24 +12,29 @@ export function renderOverview(guide, ctx) {
     )
     .join('');
   return `
+    <section class="glance" aria-label="At a glance">
+      <div class="glance-tile"><span class="glance-label">Skill</span><strong>${esc(guide.skill.name)}</strong></div>
+      <div class="glance-tile"><span class="glance-label">When it works</span>${esc(guide.skill.trigger)}</div>
+      <div class="glance-tile"><span class="glance-label">What you need</span>${esc(guide.skill.enabler)}</div>
+    </section>
     <section class="panel">
-      <details open>
-        <summary><strong>Skill: ${esc(guide.skill.name)}</strong></summary>
+      <details>
+        <summary><strong>Skill text and how to get it</strong></summary>
         <blockquote class="skill-text">${esc(skillText)}</blockquote>
-        <p><strong>When it works:</strong> ${esc(guide.skill.trigger)}</p>
-        <p><strong>What you need:</strong> ${esc(guide.skill.enabler)}</p>
         ${describeSkillSource(ctx.skills[guide.skill.name]) ? `<p><strong>How to get this skill:</strong> ${describeSkillSource(ctx.skills[guide.skill.name])}</p>` : ''}
       </details>
     </section>
     <section><h2>Game plan</h2><p>${esc(guide.gamePlan)}</p></section>
     <div class="two-col">
-      <section><h2>Strengths</h2>${list(guide.strengths ?? [])}</section>
-      <section><h2>Weaknesses</h2>${list(guide.weaknesses ?? [])}</section>
+      <section class="pros"><h2>Strengths</h2>${list(guide.strengths ?? [])}</section>
+      <section class="cons"><h2>Weaknesses</h2>${list(guide.weaknesses ?? [])}</section>
     </div>
-    <section>
-      <h2>Where this guide comes from</h2>
-      <p class="muted">Written in our own words from these videos, then checked against the real card text.</p>
-      <ul>${sources}</ul>
+    <section class="panel">
+      <details>
+        <summary><strong>Where this guide comes from</strong></summary>
+        <p class="muted">Written in our own words from these videos, then checked against the real card text.</p>
+        <ul>${sources}</ul>
+      </details>
     </section>`;
 }
 
