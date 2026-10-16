@@ -170,3 +170,30 @@ dialog::backdrop { background: rgba(0, 0, 0, .45); }
   .own-btn { width: 2rem; height: 2rem; }
   .own-n { min-width: 1.6rem; font-size: .8rem; }
 }
+.own-import { cursor: pointer; }
+.linklike:disabled { opacity: .4; cursor: default; text-decoration: none; }
+
+.own-tools { margin-top: .4rem; display: flex; flex-wrap: wrap; gap: .4rem .9rem; align-items: center; }
+.backup-note { margin: .4rem 0 0; padding: .4rem .6rem; border-left: 3px solid var(--warn); background: var(--chip); }
+.own-n.unknown { color: var(--muted); }
+.coll-search input { width: 100%; padding: .65rem .8rem; font: inherit; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); }
+.coll-list { list-style: none; padding: 0; margin: .6rem 0; display: grid; gap: .4rem; }
+.coll-row { display: flex; align-items: center; gap: .7rem; padding: .4rem .6rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.coll-row .thumb { flex: none; }
+.coll-name { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.coll-pt { display: block; }
+.build-list { list-style: none; padding: 0; margin: .6rem 0; display: grid; gap: .6rem; }
+.build-row { padding: .7rem .9rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.build-row p { margin: .3rem 0 0; }
+.bar { height: .6rem; margin-top: .4rem; border-radius: 999px; background: var(--chip); overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--ok); }
+@media (max-width: 640px) { .coll-row { gap: .4rem; padding: .4rem; } }
+.own-status { margin: .5rem 0 0; padding: .5rem .7rem; border-left: 4px solid var(--ok); border-radius: 4px; background: var(--chip); font-size: .9rem; }
+.own-status.warn { border-left-color: var(--warn); }
+.dialog-bar { position: sticky; top: -1.1rem; z-index: 2; display: flex; align-items: center; gap: .5rem; margin: -1.1rem -1.25rem .6rem; padding: .5rem .75rem; background: var(--surface); border-bottom: 1px solid var(--line); }
+.dialog-count { min-width: 4.2rem; text-align: center; font-size: .9rem; color: var(--muted); }
+.dialog-step, .dialog-x { width: 2.4rem; height: 2.4rem; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--chip); color: var(--text); font: inherit; font-size: 1.5rem; line-height: 1; cursor: pointer; }
+.dialog-x-form { margin: 0 0 0 auto; }
+.dialog-x { font-size: 1.4rem; }
+.dialog-step:hover, .dialog-x:hover { border-color: var(--accent); }
+.card-art { margin-top: .25rem; }

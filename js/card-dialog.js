@@ -3,11 +3,22 @@ import { deckHref } from './router.js';
 
 const closeForm = '<form method="dialog" class="dialog-close"><button class="button">Close</button></form>';
 
-export function renderCardDialog(name, guide, ctx, slug) {
-  const card = ctx.cards[name];
-  if (!card) return `<h2 id="card-dialog-title">${esc(name)}</h2><p>No card data.</p>${closeForm}`;
+// A bar that stays at the top while the pop-up scrolls: previous / counter / next, and a close X.
+// nav: { index, total } when there are other cards to move to, otherwise null.
+function topBar(nav) {
+  const steps = nav
+    ? `<button type="button" class="dialog-step" data-card-step="-1" aria-label="Previous card">‹</button><span class="dialog-count" aria-live="polite">${nav.index + 1} / ${nav.total}</span><button type="button" class="dialog-step" data-card-step="1" aria-label="Next card">›</button>`
+    : '<span></span>';
+  return `<div class="dialog-bar">${steps}<form method="dialog" class="dialog-x-form"><button class="dialog-x" aria-label="Close">×</button></form></div>`;
+}
 
-  const kind = [card.type, ...(card.monsterType ?? [])].filter(Boolean).join(' · ');
+export function renderCardDialog(name, guide, ctx, slug, nav = null) {
+  const hasGuide = Boolean(guide);
+  guide = guide ?? {};
+  const card = ctx.cards[name];
+  if (!card) return `${topBar(nav)}<h2 id="card-dialog-title">${esc(name)}</h2><p>No card data.</p>${closeForm}`;
+
+  const kind = [card.type, ...(card.monsterType ?? []), card.rarity].filter(Boolean).join(' · ');
   const stats = [
     card.level != null ? `Level ${card.level}` : null,
     card.attribute,
@@ -21,7 +32,7 @@ export function renderCardDialog(name, guide, ctx, slug) {
   const entry = (guide.cards ?? []).find((c) => c.name === name);
   const role = entry ? `<p><strong>Role in this deck:</strong> ${esc(ROLE_LABELS[entry.role] ?? entry.role)}${entry.copies ? `, typically x${entry.copies}` : ''}</p>` : '';
 
-  const uncovered = entry ? '' : '<p class="muted small">This card is in recent lists, but this guide does not cover it yet.</p>';
+  const uncovered = entry || !hasGuide ? '' : '<p class="muted small">This card is in recent lists, but this guide does not cover it yet.</p>';
 
   const partners = [];
   for (const s of guide.synergies ?? []) {
@@ -52,10 +63,11 @@ export function renderCardDialog(name, guide, ctx, slug) {
     : '';
 
   return `
+    ${topBar(nav)}
     ${card.image ? `<img class="card-art" src="${esc(card.image)}" alt="Artwork of ${esc(card.name)}" width="177" height="254">` : ''}
     <h2 id="card-dialog-title">${esc(card.name)}</h2>
     ${card.pt ? `<p class="muted">${esc(card.pt)}</p>` : ''}
     <p class="muted">${esc(kind)}${kind && stats ? '<br>' : ''}${esc(stats)}</p>
-    <blockquote class="skill-text">${esc(card.text)}</blockquote>
+    ${card.text ? `<blockquote class="skill-text">${esc(card.text)}</blockquote>` : '<p class="muted small">Card text is not loaded for this card.</p>'}
     ${role}${uncovered}${getIt}${subs}${standsInHtml}${works}${usedHtml}${closeForm}`;
 }
