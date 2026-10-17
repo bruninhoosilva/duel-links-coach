@@ -1080,6 +1080,950 @@
       }
     ]
   },
+  "horus": {
+    "deck": "Horus",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-16",
+    "skill": {
+      "name": "Precious Cards of the Dark",
+      "enablerCards": [],
+      "trigger": "Needs 6 or more DARK monsters in your deck: Imsety x3 and D.D. Crow x3 are exactly 6, so do not swap a D.D. Crow for a card that is not DARK. You can use it once per turn and twice per duel.",
+      "enabler": "No special card is needed. During your Main Phase put 1 card from your hand on the bottom of your deck or send it to the Graveyard, then draw 2 cards (3 if it is the first turn of the player going second). The deck has no way to search, so the skill is what gives it consistency.",
+      "adds": []
+    },
+    "sideSkills": [
+      {
+        "name": "Precious Cards of the Wind",
+        "reason": "The creator says you can also use the Wind version: Hapi, 2 Mulcharmy Fuwalos and 3 Droll & Lock Bird are 6 WIND monsters. He picked the Dark one because not everyone owns the Wind cards. There is also a version with Galaxy Photon that he found more annoying."
+      },
+      {
+        "name": "Precious Cards of the Light",
+        "reason": "The creator says you can also use the Light version of the skill. It needs 6 LIGHT monsters in the deck, which this list does not have, so you would have to change the deck. The Galaxy Photon version, which mixes in LIGHT cards, is the one he found more annoying and did not want to play."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Curso completo de Horus (Portuguese deck course and replays)",
+        "creator": "Sorem",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU"
+      }
+    ],
+    "gamePlan": "Horus is a very simple, bread-and-butter deck for the beginner: you play Spells that send your Horus monsters to the Graveyard, and they come back on their own while you control King's Sarcophagus. Start with Imsety, Walls of the Imperial Tomb or King's Sarcophagus, fill the field with Level 8 monsters, make Coach King Giantrainer (draw cards), then I:P Masquerena, and keep a Set Canopic Protector so you can bring a monster back and Link Summon on the opponent's turn. Each Horus monster also does something when the opponent removes one of your cards, so baiting their interaction is the plan. About half of the main deck is staples (hand traps and Kaijus), and the Extra Deck is the expensive part.",
+    "strengths": [
+      "It is easy to play: the line is nearly the same every time and does not have long branches.",
+      "Your Horus monsters are protected from effects that do not target them and come back from the Graveyard, so it is hard to stop with one interruption.",
+      "Canopic Protector gives you plays on the opponent's turn, and the deck draws a lot of cards.",
+      "It is very strong in the current ranked meta and reaches King of Games easily."
+    ],
+    "weaknesses": [
+      "Only 9 real starters, so hands without Imsety, Walls or King's Sarcophagus brick.",
+      "Spell and Trap removal (Cosmic Cyclone, Mystical Space Typhoon) hits King's Sarcophagus and Canopic Protector, which are continuous cards that fail if destroyed while activating.",
+      "The Extra Deck is expensive: several Rank 8s, I:P Masquerena and S:P Little Knight come from bundles or are hard to get.",
+      "Horus the Black Flame Deity is hard to time: the opponent must remove one of your cards first, and it clears your own field."
+    ],
+    "cards": [
+      {
+        "name": "Imsety, Glory of Horus",
+        "role": "starter",
+        "copies": 3,
+        "note": "The main starter. From the Graveyard it Special Summons itself while you control King's Sarcophagus. Discard it and 1 more card from your hand to add King's Sarcophagus from the deck and draw 1. When the opponent removes one of your cards it sends a card from the field to the Graveyard without targeting."
+      },
+      {
+        "name": "King's Sarcophagus",
+        "role": "starter",
+        "copies": 3,
+        "note": "The most important card of the deck. Your Horus monsters cannot be destroyed by effects that do not target them. Send 1 card from your hand to send a Horus monster from your deck to the Graveyard (up to 4 times per turn), and once per turn a Horus monster that battles can send the opponent's monster to the Graveyard."
+      },
+      {
+        "name": "Walls of the Imperial Tomb",
+        "role": "starter",
+        "copies": 3,
+        "note": "Field Spell that counts as King's Sarcophagus, so you effectively run 6. It adds a Horus monster from your deck to your hand (you put 1 card on the bottom of the deck) and draws 1 card whenever Horus the Black Flame Deity activates."
+      },
+      {
+        "name": "Hapi, Guidance of Horus",
+        "role": "extender",
+        "copies": 1,
+        "note": "Horus monster that Special Summons itself from the Graveyard. When one of your cards is removed by the opponent it adds or shuffles back 2 cards from the Graveyard or banished pile. Part of the Selection Box.",
+        "substitutes": [
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "why": "The creator says you can play without the Selection Box cards and put another Qebehsenuef or another Horus in their place. You still play, but the turn-one line he shows needs all four Horus monsters from the Graveyard, so it becomes weaker."
+          }
+        ]
+      },
+      {
+        "name": "Duamutef, Blessing of Horus",
+        "role": "extender",
+        "copies": 1,
+        "note": "Horus monster that Special Summons itself from the Graveyard. It gets 1200 ATK/DEF for each Horus monster you control, and when the opponent removes one of your cards you draw 1 card for each differently named monster in your Main Monster Zone."
+      },
+      {
+        "name": "Qebehsenuef, Protection of Horus",
+        "role": "extender",
+        "copies": 1,
+        "note": "Horus monster that Special Summons itself from the Graveyard. When the opponent removes one of your cards it makes your Horus monsters untargetable by attacks and effects for the turn.",
+        "substitutes": [
+          {
+            "name": "Horus the Black Flame Deity",
+            "why": "The creator says a spare slot can hold another Horus monster. A second copy cannot be used if the first one is already on the field, but it is a good discard for King's Sarcophagus and Canopic Protector."
+          }
+        ]
+      },
+      {
+        "name": "Horus the Black Flame Deity",
+        "role": "payoff",
+        "copies": 1,
+        "note": "The boss. It never comes back from the Graveyard, so keep it in your hand. With a Horus monster and King's Sarcophagus you reveal it to send a card from your hand or field and a card from the field to the Graveyard. If one of your Horus monsters or your King's Sarcophagus is removed by the opponent it Special Summons itself and can send every other monster to the Graveyard, yours included."
+      },
+      {
+        "name": "Canopic Protector",
+        "role": "extender",
+        "copies": 3,
+        "note": "Continuous Trap and the best card to discard. Once per chain, when the opponent activates something, it Special Summons a Horus monster from your hand or Graveyard. When it is sent to the Graveyard it Sets itself again (banished when it leaves the field). Activate it first when you have several effects to chain."
+      },
+      {
+        "name": "Soul Servant",
+        "role": "extender",
+        "copies": 1,
+        "note": "Quick-Play Spell that Dark Magician of Destruction searches. Discard it with King's Sarcophagus, then banish it from the Graveyard to draw 1 card for each differently named Dark Magician or Palladium monster on the field and in the Graveyards."
+      },
+      {
+        "name": "D.D. Crow",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Free hand trap from the structure deck. It also counts as one of the 6 DARK monsters the skill needs.",
+        "substitutes": [
+          {
+            "name": "Witch of the Black Forest",
+            "why": "Some players use her as their Normal Summon to search Droll & Lock Bird or D.D. Crow (her search takes a monster with low DEF, and she is DARK too, so the skill still counts her). The creator tried the idea and did not find it interesting, because this deck already draws a lot of cards, so treat it as an option, not a recommendation."
+          }
+        ]
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "One of the best hand traps right now: it stops the opponent's search turn, and Horus draws a lot of cards. The creator says that if he owned 3 he would play 3, and that it is best when you go second.",
+        "substitutes": [
+          {
+            "name": "Effect Veiler",
+            "why": "The creator says you can put Effect Veiler or any hand traps you own in the free staple slots. Effect Veiler negates one monster effect instead of stopping searches."
+          }
+        ]
+      },
+      {
+        "name": "Mulcharmy Fuwalos",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Hand trap that draws a card each time the opponent Special Summons from the Deck or Extra Deck. It is one of the 6 WIND monsters that let you use the Wind version of the skill.",
+        "substitutes": [
+          {
+            "name": "Effect Veiler",
+            "why": "Effect Veiler is a free hand trap that stops one monster effect. The creator says to fill the staple slots with the hand traps you own."
+          },
+          {
+            "name": "Powersink Stone",
+            "why": "The creator says there are safer, more stalling versions of the deck that put some traps in place of hand traps, for example this other Continuous Trap (it shuts down monster effects once 2 monster effects have been activated). Meta lists also run it."
+          }
+        ]
+      },
+      {
+        "name": "Nibiru, the Primal Being",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Stops decks that make many Special Summons (including Horus itself): you will not lose to one interruption because Canopic Protector keeps bringing monsters back. If you brick too often, the creator says you can cut the Nibirus and the Droll & Lock Birds and play more engine cards, which makes the deck easier to play.",
+        "substitutes": [
+          {
+            "name": "Book of Moon",
+            "why": "The creator says the stall versions of the deck run Book of Moon and other traps instead of some hand traps. His own version keeps the hand traps because they work on turn one and turn two."
+          },
+          {
+            "name": "Powersink Stone",
+            "why": "Same idea: a Continuous Trap in the stall version instead of a hand trap, which is safer when you go second."
+          }
+        ]
+      },
+      {
+        "name": "Lava Golem",
+        "role": "removal",
+        "copies": 3,
+        "note": "Kaiju-style card that removes two monsters from the opponent's field. You do not need your Normal Summon in this deck. The creator says Kaijus are needed because many cards are unaffected by everything else, and that you can also use the free one-tribute Kaijus from the tickets if you do not own Lava Golem."
+      },
+      {
+        "name": "Dark Magician of Destruction",
+        "role": "extender",
+        "copies": 1,
+        "note": "Special Summon it by banishing Imsety (Level 8 DARK Spellcaster) in a turn you activated a Spell, then search Soul Servant. It also counts as a Dark Magician for Soul Servant's draw."
+      },
+      {
+        "name": "Coach King Giantrainer",
+        "role": "extender",
+        "copies": 1,
+        "note": "Rank 8 Xyz made from 3 Level 8 monsters. Detach a material to draw a card and deal 400 damage if it is a monster. It is the first Xyz of turn one and fills your hand. You cannot attack the turn you use it."
+      },
+      {
+        "name": "I:P Masquerena",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 made from Coach King plus a fourth monster. It makes your Link monsters safe from effect destruction and lets you Link Summon on the opponent's turn. The creator understands players who do not own it: the deck is still playable without it, only harder."
+      },
+      {
+        "name": "S:P Little Knight",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Link-2 made on the opponent's turn with I:P Masquerena. If it uses an Extra Deck monster as material, it banishes a card on the field or in a Graveyard. It also banishes two face-up monsters in response to the opponent's effect.",
+        "substitutes": [
+          {
+            "name": "Knightmare Unicorn",
+            "why": "The creator says Knightmare Unicorn is fine if you do not own S:P Little Knight, but S:P is much stronger. Unicorn is a Link-3: you send 1 card from your hand to the Graveyard and return a card from the opponent's field to their deck."
+          }
+        ]
+      },
+      {
+        "name": "Underworld Goddess of the Closed World",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Link-5 made with the opponent's monster as one material. It negates the effects of the opponent's face-up monsters and negates a Special Summon from the Graveyard once per turn."
+      },
+      {
+        "name": "Knightmare Phoenix",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link-2 that discards a card to destroy a Spell or Trap, a good answer now that Sarcophagus decks are popular. The creator hesitated between this and Number 38.",
+        "substitutes": [
+          {
+            "name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+            "why": "The creator says it is a matter of preference. Number 38 is a Rank 8 that negates and steals a Spell the opponent activates, so it is more passive."
+          }
+        ]
+      },
+      {
+        "name": "Dingirsu, the Orcust of the Evening Star",
+        "role": "removal",
+        "copies": 1,
+        "note": "One of the best Rank 8s. When it is Special Summoned it sends a card from the opponent's field to the Graveyard, and it can detach a material instead of your card being destroyed, which protects King's Sarcophagus and Canopic Protector. If you do not own it, the creator says to use the best Rank 8 you have."
+      },
+      {
+        "name": "Number 90: Galaxy-Eyes Photon Lord",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Rank 8 that negates a monster effect once per turn by detaching a material. Easy to get from several places. If you do not own it, the creator says to use the best Rank 8 you have."
+      },
+      {
+        "name": "Number 68: Sanaphond the Sky Prison",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Rank 8 that, until the end of the opponent's next turn, cannot be destroyed by effects and stops both players from Special Summoning from the Graveyard. Make it the last thing you do in your turn: it hurts Memento, Horus, Branded and Snake-Eye, but also you. If you do not own it, use the best Rank 8 you have."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "King's Sarcophagus",
+        "partners": [
+          {
+            "name": "Imsety, Glory of Horus",
+            "reason": "King's Sarcophagus sends Imsety to the Graveyard (as a discard cost or from the deck) and Imsety Special Summons itself from there while you control it.",
+            "link": "sends to the Graveyard"
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "reason": "Same engine: Sarcophagus sends Hapi to the Graveyard and Hapi comes back by itself.",
+            "link": "sends to the Graveyard"
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "reason": "Same engine: Sarcophagus sends Duamutef to the Graveyard and Duamutef comes back by itself.",
+            "link": "sends to the Graveyard"
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "reason": "Same engine: Sarcophagus sends Qebehsenuef to the Graveyard and Qebehsenuef comes back by itself.",
+            "link": "sends to the Graveyard"
+          }
+        ]
+      },
+      {
+        "card": "Walls of the Imperial Tomb",
+        "partners": [
+          {
+            "name": "King's Sarcophagus",
+            "reason": "While Walls of the Imperial Tomb is in the Field Zone its name is King's Sarcophagus, so every Horus monster can come back from the Graveyard.",
+            "link": "counts as"
+          }
+        ]
+      },
+      {
+        "card": "Imsety, Glory of Horus",
+        "partners": [
+          {
+            "name": "King's Sarcophagus",
+            "reason": "Imsety discards 2 cards from your hand to add King's Sarcophagus from the deck and draw a card.",
+            "link": "adds"
+          },
+          {
+            "name": "Dark Magician of Destruction",
+            "reason": "Imsety is a Level 8 DARK Spellcaster, so it is banished to Special Summon Dark Magician of Destruction in the turn you activated a Spell.",
+            "link": "is banished for"
+          }
+        ]
+      },
+      {
+        "card": "Dark Magician of Destruction",
+        "partners": [
+          {
+            "name": "Soul Servant",
+            "reason": "When Dark Magician of Destruction is Special Summoned it adds Soul Servant, the card that draws for the Sarcophagus discard.",
+            "link": "searches"
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "reason": "Dark Magician of Destruction is a Level 8 monster: with Duamutef and Hapi it is one of the 3 materials of Coach King Giantrainer.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Soul Servant",
+        "partners": [
+          {
+            "name": "King's Sarcophagus",
+            "reason": "You cannot use Soul Servant from your hand, so discard it with King's Sarcophagus; then banish it from the Graveyard to draw.",
+            "link": "discarded by"
+          }
+        ]
+      },
+      {
+        "card": "Canopic Protector",
+        "partners": [
+          {
+            "name": "King's Sarcophagus",
+            "reason": "Discard Canopic Protector with King's Sarcophagus or Imsety: when it is sent to the Graveyard it Sets itself again and can Special Summon a Horus monster on the opponent's turn.",
+            "link": "is discarded to"
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "reason": "Canopic Protector can Special Summon even Horus the Black Flame Deity from your hand on the opponent's turn.",
+            "link": "Special Summons"
+          }
+        ]
+      },
+      {
+        "card": "Coach King Giantrainer",
+        "partners": [
+          {
+            "name": "I:P Masquerena",
+            "reason": "Coach King plus a fourth monster (for example Qebehsenuef) is the material for I:P Masquerena.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "I:P Masquerena",
+        "partners": [
+          {
+            "name": "S:P Little Knight",
+            "reason": "On the opponent's turn I:P Masquerena Link Summons S:P Little Knight right after Canopic Protector brings a monster back.",
+            "link": "Link Summons"
+          }
+        ]
+      },
+      {
+        "card": "Horus the Black Flame Deity",
+        "partners": [
+          {
+            "name": "King's Sarcophagus",
+            "reason": "Horus the Black Flame Deity needs a Horus monster and King's Sarcophagus on your field to send a card for you.",
+            "link": "needs"
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "reason": "When Horus the Black Flame Deity activates, Walls of the Imperial Tomb lets you draw a card.",
+            "link": "draws"
+          }
+        ]
+      },
+      {
+        "card": "Dingirsu, the Orcust of the Evening Star",
+        "partners": [
+          {
+            "name": "Knightmare Phoenix",
+            "reason": "Dingirsu's protection (detach a material instead of destruction) keeps your key Spells and Traps on the field.",
+            "link": "protects"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "imsety-walls-turn1",
+        "title": "Turn 1 with Imsety and Walls of the Imperial Tomb: Coach King, I:P Masquerena and a Set Canopic Protector",
+        "hand": [
+          "Imsety, Glory of Horus",
+          "Walls of the Imperial Tomb"
+        ],
+        "requires": {
+          "turn": "first",
+          "anyOf": [
+            {
+              "label": "Imsety, Walls of the Imperial Tomb or King's Sarcophagus",
+              "cards": [
+                "Imsety, Glory of Horus",
+                "Walls of the Imperial Tomb",
+                "King's Sarcophagus"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill is step 1: it puts a card from your hand on the bottom of the deck (or in the Graveyard) and draws 2 (3 if you go second). In the replay he put Lava Golem back and drew Walls of the Imperial Tomb and Imsety."
+        },
+        "start": {
+          "hand": [
+            "Lava Golem",
+            "Canopic Protector",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The creator's opening hand: Lava Golem, Canopic Protector and two cards that do not matter for this line. Yours will differ: any hand with Imsety, Walls of the Imperial Tomb or King's Sarcophagus starts the same way."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Precious Cards of the Dark",
+            "when": "Right at the start of your Main Phase",
+            "needs": "Any 1 card from your hand to put on the bottom of your deck. The creator returns Lava Golem, because you do not need a Normal Summon in this deck.",
+            "gives": "You draw 2 cards. Here he draws Walls of the Imperial Tomb and Imsety.",
+            "used": true,
+            "reason": "The skill turns a card you do not need into 2 new cards and finds the starters. Without a skill the deck depends only on its 9 starters, so use it every time it is available.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:05"
+            },
+            "moves": [
+              {
+                "card": "Lava Golem",
+                "from": "hand",
+                "to": "deck"
+              },
+              {
+                "card": "Walls of the Imperial Tomb",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Imsety, Glory of Horus",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Walls of the Imperial Tomb",
+            "action": "activate",
+            "reason": "Activate Walls of the Imperial Tomb in the Field Zone. Its name becomes King's Sarcophagus, so your Horus monsters can already come back from the Graveyard later.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:10"
+            },
+            "moves": [
+              {
+                "card": "Walls of the Imperial Tomb",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Imsety, Glory of Horus",
+            "action": "activate",
+            "reason": "In your hand, discard Imsety and Canopic Protector to add King's Sarcophagus from your deck, then draw 1 card (here Duamutef). Imsety goes to the Graveyard, where it can Special Summon itself later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:14"
+            },
+            "moves": [
+              {
+                "card": "Imsety, Glory of Horus",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Canopic Protector",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "King's Sarcophagus",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Duamutef, Blessing of Horus",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Canopic Protector",
+            "action": "set",
+            "reason": "Canopic Protector was sent to the Graveyard, so you can Set it again. It is banished when it leaves the field, but it will answer the opponent's turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:20"
+            },
+            "moves": [
+              {
+                "card": "Canopic Protector",
+                "from": "graveyard",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "King's Sarcophagus",
+            "action": "activate",
+            "reason": "Activate the King's Sarcophagus you added. You now control two (this one and the Walls), which the opponent did not expect.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:21"
+            },
+            "moves": [
+              {
+                "card": "King's Sarcophagus",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "King's Sarcophagus",
+            "action": "activate",
+            "reason": "Use King's Sarcophagus: discard Duamutef and send Qebehsenuef from your deck to the Graveyard. Both can come back by themselves later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:22"
+            },
+            "moves": [
+              {
+                "card": "Duamutef, Blessing of Horus",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Qebehsenuef, Protection of Horus",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Imsety, Glory of Horus",
+            "action": "special-summon",
+            "reason": "Special Summon Imsety from the Graveyard (you control King's Sarcophagus). You can do this once per turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:24"
+            },
+            "moves": [
+              {
+                "card": "Imsety, Glory of Horus",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dark Magician of Destruction",
+            "action": "special-summon",
+            "reason": "In a turn you activated a Spell, banish Imsety (Level 8 DARK Spellcaster) to Special Summon Dark Magician of Destruction from the Extra Deck, then search Soul Servant.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:27"
+            },
+            "moves": [
+              {
+                "card": "Imsety, Glory of Horus",
+                "from": "monster-zone",
+                "to": "banished"
+              },
+              {
+                "card": "Dark Magician of Destruction",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Soul Servant",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "King's Sarcophagus",
+            "action": "activate",
+            "reason": "Use King's Sarcophagus again: discard Soul Servant and send Hapi from your deck to the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:29"
+            },
+            "moves": [
+              {
+                "card": "Soul Servant",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Hapi, Guidance of Horus",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Soul Servant",
+            "action": "activate",
+            "reason": "Banish Soul Servant from the Graveyard to draw 1 card (Dark Magician of Destruction counts as a Dark Magician). Here he draws another Canopic Protector, which he keeps in his hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:33"
+            },
+            "moves": [
+              {
+                "card": "Soul Servant",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Canopic Protector",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Duamutef, Blessing of Horus",
+            "action": "special-summon",
+            "reason": "Special Summon Duamutef from the Graveyard (once per turn, you control King's Sarcophagus).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:41"
+            },
+            "moves": [
+              {
+                "card": "Duamutef, Blessing of Horus",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Hapi, Guidance of Horus",
+            "action": "special-summon",
+            "reason": "Special Summon Hapi from the Graveyard. You now have three Level 8 monsters: Dark Magician of Destruction, Duamutef and Hapi.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:42"
+            },
+            "moves": [
+              {
+                "card": "Hapi, Guidance of Horus",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Coach King Giantrainer",
+            "action": "special-summon",
+            "reason": "Xyz Summon Coach King Giantrainer with the three Level 8 monsters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:45"
+            },
+            "moves": [
+              {
+                "card": "Coach King Giantrainer",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Dark Magician of Destruction",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Coach King Giantrainer"
+              },
+              {
+                "card": "Duamutef, Blessing of Horus",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Coach King Giantrainer"
+              },
+              {
+                "card": "Hapi, Guidance of Horus",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Coach King Giantrainer"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Coach King Giantrainer",
+            "action": "activate",
+            "reason": "Detach all three materials one by one: each time you draw 1 card and, if it is a monster, the opponent takes 400 damage. In the replay he drew three monsters (1200 damage). You cannot attack this turn, which is fine because the point is to fill your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "39:47"
+            },
+            "moves": [
+              {
+                "card": "Duamutef, Blessing of Horus",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Coach King Giantrainer"
+              },
+              {
+                "card": "Hapi, Guidance of Horus",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Coach King Giantrainer"
+              },
+              {
+                "card": "Dark Magician of Destruction",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Coach King Giantrainer"
+              },
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Qebehsenuef, Protection of Horus",
+            "action": "special-summon",
+            "reason": "Special Summon Qebehsenuef from the Graveyard. He has not been summoned this turn yet, so he is your fourth monster.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "40:00"
+            },
+            "moves": [
+              {
+                "card": "Qebehsenuef, Protection of Horus",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "I:P Masquerena",
+            "action": "special-summon",
+            "reason": "Link Summon I:P Masquerena with Coach King and Qebehsenuef. It protects Link monsters made from it and lets you Link Summon on the opponent's turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "40:02"
+            },
+            "moves": [
+              {
+                "card": "I:P Masquerena",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Coach King Giantrainer",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Qebehsenuef, Protection of Horus",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Walls of the Imperial Tomb",
+            "action": "activate",
+            "reason": "Last, use Walls of the Imperial Tomb to add Imsety from your deck to your hand and put 1 card from your hand on the bottom of your deck. The creator says this is why he had no Horus in hand to protect the board; with Horus in your hand, keep it instead.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "40:10"
+            },
+            "moves": [
+              {
+                "card": "Imsety, Glory of Horus",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Unknown card",
+                "from": "hand",
+                "to": "deck"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Always activate Canopic Protector first when you have several effects to chain, because it only works in response to the opponent's activation. Horus the Black Flame Deity never returns from the Graveyard, so do not discard it. Cards of your own that do not target can be destroyed only if the opponent targets them: King's Sarcophagus protects Horus monsters, but not the Spell itself, so a Spell/Trap destroyer is your biggest enemy.",
+        "endBoard": "I:P Masquerena in the Extra Monster Zone, Walls of the Imperial Tomb, King's Sarcophagus and a Set Canopic Protector in the Spell/Trap zone, Imsety and Canopic Protector in your hand, and about 1200 damage already dealt with Coach King.",
+        "weakSpots": "Cosmic Cyclone, Mystical Space Typhoon and other Spell/Trap removal on King's Sarcophagus or Canopic Protector slow you down; a Canopic Protector destroyed while it is activating does not resolve. A hand with no starter (the deck has only 9) will brick, and a negate on King's Sarcophagus or Imsety early breaks the line."
+      },
+      {
+        "id": "opponents-turn",
+        "title": "The opponent's turn after that line: Canopic Protector, S:P Little Knight and Horus the Black Flame Deity",
+        "hand": [
+          "Canopic Protector"
+        ],
+        "requires": {
+          "board": "You finished the turn-one line above: I:P Masquerena on the field, Canopic Protector Set and King's Sarcophagus on the field."
+        },
+        "skillPlan": {
+          "uses": false,
+          "note": "The skill is not used: this is the opponent's turn."
+        },
+        "start": {
+          "hand": [
+            "Horus the Black Flame Deity",
+            "Imsety, Glory of Horus",
+            "Canopic Protector"
+          ],
+          "graveyard": [
+            "Duamutef, Blessing of Horus",
+            "Hapi, Guidance of Horus",
+            "Coach King Giantrainer",
+            "Qebehsenuef, Protection of Horus",
+            "Dark Magician of Destruction"
+          ],
+          "spell-trap-zone": [
+            "Walls of the Imperial Tomb",
+            "Canopic Protector",
+            "King's Sarcophagus"
+          ],
+          "extra-monster-zone": [
+            "I:P Masquerena"
+          ],
+          "note": "The board after the first line, with Horus the Black Flame Deity in your hand (the creator says to keep it there when you can). In the replay the opponent gave up on his turn."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Canopic Protector",
+            "action": "chain",
+            "reason": "The opponent activates a card or effect. In response, Canopic Protector Special Summons a Horus monster from your Graveyard (here Duamutef). It works once per chain, so always do this before anything else.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "40:20"
+            },
+            "moves": [
+              {
+                "card": "Duamutef, Blessing of Horus",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "I:P Masquerena",
+            "action": "activate",
+            "reason": "During the opponent's Main Phase, I:P Masquerena Link Summons S:P Little Knight using itself and Duamutef. S:P uses an Extra Deck monster as material, so it banishes a card on the field or in a Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "40:46"
+            },
+            "moves": [
+              {
+                "card": "S:P Little Knight",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "I:P Masquerena",
+                "from": "extra-monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Duamutef, Blessing of Horus",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Horus the Black Flame Deity",
+            "action": "chain",
+            "reason": "If the opponent removes your King's Sarcophagus or a Horus monster, Horus the Black Flame Deity Special Summons itself from your hand and can send all other monsters on the field to the Graveyard. Spend your other resources first, because it also clears your own field.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+              "timestamp": "11:15"
+            },
+            "moves": [
+              {
+                "card": "Horus the Black Flame Deity",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator says that when the opponent keeps summoning a monster on their turn you can banish it again and again as long as you have effects left (Nibiru in hand, D.D. Crow, Lava Golem to return). Make Number 68 as the last thing you do on your own turn if the opponent plays from the Graveyard.",
+        "endBoard": "S:P Little Knight in the Extra Monster Zone with Horus the Black Flame Deity on the field, King's Sarcophagus and Walls of the Imperial Tomb still in play and one opponent card banished.",
+        "weakSpots": "S:P Little Knight can only banish when it uses an Extra Deck monster as material; Horus the Black Flame Deity clears your own monsters too. The opponent has to remove one of your cards first for Horus the Black Flame Deity to appear, so it is hard to time."
+      }
+    ]
+  },
   "mathmech": {
     "deck": "Mathmech",
     "format": "speed",

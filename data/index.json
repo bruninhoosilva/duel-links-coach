@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:40:31.551Z",
+  "generatedAt": "2026-10-17T10:51:05.881Z",
   "dataFetchedAt": "2026-10-13T19:19:55.983Z",
   "decks": [
     {
@@ -15,6 +15,23 @@
         "share": 0.04096385542168675,
         "tiers": {},
         "commonTier": null
+      }
+    },
+    {
+      "slug": "horus",
+      "name": "Horus",
+      "status": "verified",
+      "updated": "2026-10-16",
+      "skill": "Precious Cards of the Dark",
+      "scenarios": 2,
+      "stats": {
+        "decks": 41,
+        "totalDecks": 830,
+        "share": 0.04939759036144578,
+        "tiers": {
+          "3": 41
+        },
+        "commonTier": 3
       }
     },
     {

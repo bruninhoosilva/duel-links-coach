@@ -746,6 +746,685 @@
       }
     ]
   },
+  "horus": {
+    "defaultId": "6ac58de29b9b03b503967ed6",
+    "lists": [
+      {
+        "id": "6ac58de29b9b03b503967ed6",
+        "author": "Ani",
+        "event": "King of Games",
+        "created": "2026-10-07",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/ani/IoXGQ/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 3
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 2
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Powersink Stone",
+            "count": 2
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 29,
+        "extraSize": 9,
+        "distance": 4.5
+      },
+      {
+        "id": "6ac6c5b9fd11240585454aff",
+        "author": "Mk_masry123",
+        "event": "King of Games",
+        "created": "2026-10-07",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/mk_masry123/Bhgi7/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 2
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Bystial Druiswurm",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 5
+      },
+      {
+        "id": "6ac44410576d303d94839dc9",
+        "author": "SHUSHU",
+        "event": null,
+        "created": "2026-10-06",
+        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/193/horus/shushu/BoN_X/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 3
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Powersink Stone",
+            "count": 2
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 5
+      },
+      {
+        "id": "6ac32c47e088628c328cbf14",
+        "author": "Broskue",
+        "event": "King of Games",
+        "created": "2026-10-05",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/broskue/2Vbb9/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Lava Golem",
+            "count": 2
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 2
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 2
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "World Gears of Theurlogical Demiurgy",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 5
+      },
+      {
+        "id": "6acd6365a5fefa0d3314121b",
+        "author": "MTB8",
+        "event": null,
+        "created": "2026-10-12",
+        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/197/horus/mtb8/a-cJn/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Lava Golem",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician Girl",
+            "count": 1
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 3
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 2
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 6
+      },
+      {
+        "id": "6acaf976212f27819bc64304",
+        "author": "Stoic Revanchist",
+        "event": "King of Games",
+        "created": "2026-10-11",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/stoic-revanchist/8PnW8/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 2
+          },
+          {
+            "name": "Ghost Belle & Haunted Mansion",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 2
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Bystial Druiswurm",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 2
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "World Gears of Theurlogical Demiurgy",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 6.5
+      }
+    ]
+  },
   "mathmech": {
     "defaultId": "6abbd062ae6bd9f8b1fd016e",
     "lists": [

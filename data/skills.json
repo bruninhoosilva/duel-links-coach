@@ -10,12 +10,6 @@
       }
     ]
   },
-  "Mathmech Slicer": {
-    "name": "Mathmech Slicer",
-    "text": "You can only use this Skill's second effect once per turn.\n1: At the beginning of the Duel, add 2 \"Primathmech Alembertian\" and 3 \"Mathmech Circular\" from outside your Deck to your Deck or Extra Deck. During this Duel, you cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters, except \"Mathmech\" monsters, any effect damage your cards would inflict to your opponent becomes 0, and if your \"Mathmech\" Synchro Monster attacks a Defense Position monster, and the attacking monster's ATK is higher than the defense of the target, inflict battle damage equal to the difference between the attacking monster's ATK and the target's DEF.\n2: Reveal 1 \"Mathmech\" Tuner from your hand and send 1 card from your hand or field to the Graveyard, then add 2 \"Mathmech\" monsters from your Deck to your hand. If it is turn 2 onward, you can also set 1 \"Mathmech\" Spell/Trap Card from your hand or Deck. (This card can be activated the same turn.)",
-    "source": "Skill Trader",
-    "characters": []
-  },
   "Precious Cards of the Dark": {
     "name": "Precious Cards of the Dark",
     "text": "You can use this Skill's first effect once per turn and up to twice per Duel if your Deck contains 6 or more DARK monsters.\n1: During your Main Phase, place 1 card from your hand on the bottom of your Deck or send it to the Graveyard, then draw 2 cards. If it is the first turn of the player going second, draw 1 additional card.",
@@ -130,5 +124,11 @@
         "how": "Drop"
       }
     ]
+  },
+  "Mathmech Slicer": {
+    "name": "Mathmech Slicer",
+    "text": "You can only use this Skill's second effect once per turn.\n1: At the beginning of the Duel, add 2 \"Primathmech Alembertian\" and 3 \"Mathmech Circular\" from outside your Deck to your Deck or Extra Deck. During this Duel, you cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters, except \"Mathmech\" monsters, any effect damage your cards would inflict to your opponent becomes 0, and if your \"Mathmech\" Synchro Monster attacks a Defense Position monster, and the attacking monster's ATK is higher than the defense of the target, inflict battle damage equal to the difference between the attacking monster's ATK and the target's DEF.\n2: Reveal 1 \"Mathmech\" Tuner from your hand and send 1 card from your hand or field to the Graveyard, then add 2 \"Mathmech\" monsters from your Deck to your hand. If it is turn 2 onward, you can also set 1 \"Mathmech\" Spell/Trap Card from your hand or Deck. (This card can be activated the same turn.)",
+    "source": "Skill Trader",
+    "characters": []
   }
 }

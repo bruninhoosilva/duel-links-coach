@@ -1376,6 +1376,664 @@
       }
     ]
   },
+  "Book of Moon": {
+    "name": "Book of Moon",
+    "pt": "Livro da Lua",
+    "image": "img/cards/book-of-moon.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 face-up monster on the field; change that target to face-down Defense Position.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.04",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-04/"
+      },
+      {
+        "kind": "set",
+        "name": "Chaotic Soldiers",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/chaotic-soldiers/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "character",
+        "name": "Yusei Fudo",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yusei-fudo/"
+      },
+      {
+        "kind": "character",
+        "name": "Jack Atlas",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jack-atlas/"
+      },
+      {
+        "kind": "character",
+        "name": "Reginald \"Shark\" Kastle",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/reginald-shark-kastle/"
+      },
+      {
+        "kind": "character",
+        "name": "Crow Hogan",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/crow-hogan/"
+      },
+      {
+        "kind": "character",
+        "name": "Kite Tenjo",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/kite-tenjo/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Bakura",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-bakura/"
+      },
+      {
+        "kind": "character",
+        "name": "Aster Phoenix",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/aster-phoenix/"
+      }
+    ]
+  },
+  "Bystial Druiswurm": {
+    "name": "Bystial Druiswurm",
+    "pt": null,
+    "image": "img/cards/bystial-druiswurm.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 6,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can target 1 LIGHT or DARK monster in either GY; banish it, and if you do, Special Summon this card from your hand. This is a Quick Effect if your opponent controls a monster. If this card is sent from the field to the GY: You can target 1 Special Summoned monster your opponent controls; send it to the GY. You can only use each effect of \"Bystial Druiswurm\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Shadow Eyes",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/shadow-eyes/"
+      }
+    ]
+  },
+  "Canopic Protector": {
+    "name": "Canopic Protector",
+    "pt": null,
+    "image": "img/cards/canopic-protector.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Once per Chain, when your opponent activates a card or effect: You can Special Summon 1 \"Horus\" monster from your hand or GY, but for the rest of this turn, you cannot Special Summon monsters with the same original name by the effect of \"Canopic Protector\". If this card is sent from the hand or field to the GY: You can Set this card, but banish it when it leaves the field. You can only use this effect of \"Canopic Protector\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Coach King Giantrainer": {
+    "name": "Coach King Giantrainer",
+    "pt": "Rei Técnico Treinador de Gigante",
+    "image": "img/cards/coach-king-giantrainer.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "FIRE",
+    "level": 8,
+    "atk": 2800,
+    "def": 2000,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "3 Level 8 monsters\nYou can detach 1 Xyz Material from this card; draw 1 card and show it, then if it was a monster, inflict 400 damage to your opponent. You cannot conduct your Battle Phase the turn you activate this effect. You can only use this effect of \"Coach King Giantrainer\" up to thrice per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.05",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Link Revolution",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/link-revolution/"
+      }
+    ]
+  },
+  "D.D. Crow": {
+    "name": "D.D. Crow",
+    "pt": "D.D. Corvo",
+    "image": "img/cards/d-d-crow.jpg",
+    "type": "Monster",
+    "race": "Winged Beast",
+    "attribute": "DARK",
+    "level": 1,
+    "atk": 100,
+    "def": 100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "(Quick Effect): You can discard this card to the GY, then target 1 card in your opponent's GY; banish that target.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Shining Hope",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/shining-hope/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.05",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Ancient Records",
+        "boxType": "Pickup Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/pickup-box-ancient-records/"
+      }
+    ]
+  },
+  "Dingirsu, the Orcust of the Evening Star": {
+    "name": "Dingirsu, the Orcust of the Evening Star",
+    "pt": "Dingirsu, o Orcust da Estrela da Noite",
+    "image": "img/cards/dingirsu-the-orcust-of-the-evening-star.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2600,
+    "def": 2100,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 8 monsters\r\nYou can only Special Summon \"Dingirsu, the Orcust of the Evening Star(s)\" once per turn. You can also Xyz Summon this card by using an \"Orcust\" Link Monster you control as material. If a card(s) you control would be destroyed by battle or card effect, you can detach 1 material from this card instead. If this card is Special Summoned: You can activate 1 of these effects;\r\n● Send 1 card your opponent controls to the GY.\r\n● Attach 1 of your banished Machine monsters to this card as material.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "set",
+        "name": "Solflare Lightning",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/solflare-lightning/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      }
+    ]
+  },
+  "Duamutef, Blessing of Horus": {
+    "name": "Duamutef, Blessing of Horus",
+    "pt": null,
+    "image": "img/cards/duamutef-blessing-of-horus.jpg",
+    "type": "Monster",
+    "race": "Beast",
+    "attribute": "WATER",
+    "level": 8,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you control \"King's Sarcophagus\", you can Special Summon this card (from your GY). You can only Special Summon \"Duamutef, Blessing of Horus\" once per turn this way. Gains 1200 ATK/DEF for each \"Horus\" monster you control. If another card(s) you control leaves the field by an opponent's card effect, while this card is in your Monster Zone (except during the Damage Step): You can draw cards equal to the number of monsters with different names in your Main Monster Zone. You can only use this effect of \"Duamutef, Blessing of Horus\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Effect Veiler": {
+    "name": "Effect Veiler",
+    "pt": "Ocultador de Efeitos",
+    "image": "img/cards/effect-veiler.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect",
+      "Tuner"
+    ],
+    "text": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Deep Emotion",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/deep-emotion/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini: Vol. 06",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Hapi, Guidance of Horus": {
+    "name": "Hapi, Guidance of Horus",
+    "pt": null,
+    "image": "img/cards/hapi-guidance-of-horus.jpg",
+    "type": "Monster",
+    "race": "Beast-Warrior",
+    "attribute": "WIND",
+    "level": 8,
+    "atk": 2400,
+    "def": 1600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you control \"King's Sarcophagus\", you can Special Summon this card (from your GY). You can only Special Summon \"Hapi, Guidance of Horus\" once per turn this way. If another card(s) you control leaves the field by an opponent's card effect, while this card is in your Monster Zone (except during the Damage Step): You can target 2 cards that are banished and/or in the GYs; either add both to the hand or shuffle both into the Deck. You can only use this effect of \"Hapi, Guidance of Horus\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      }
+    ]
+  },
+  "Horus the Black Flame Deity": {
+    "name": "Horus the Black Flame Deity",
+    "pt": null,
+    "image": "img/cards/horus-the-black-flame-deity.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "FIRE",
+    "level": 8,
+    "atk": 3000,
+    "def": 1800,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you control a \"Horus\" monster and \"King's Sarcophagus\": You can reveal this card in your hand, then send 1 card from your hand or field to the GY; send 1 card on the field to the GY. If a face-up \"Horus\" monster(s) you control, except \"Horus the Black Flame Deity\", or a face-up \"King's Sarcophagus\" you control, leaves the field by an opponent's card effect (except during the Damage Step): You can Special Summon this card from your hand, then you can send all other monsters on the field to the GY. You can only use each effect of \"Horus the Black Flame Deity\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Imsety, Glory of Horus": {
+    "name": "Imsety, Glory of Horus",
+    "pt": null,
+    "image": "img/cards/imsety-glory-of-horus.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 3000,
+    "def": 1800,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you control \"King's Sarcophagus\", you can Special Summon this card (from your GY). You can only Special Summon \"Imsety, Glory of Horus\" once per turn this way. You can only use each of the following effects of \"Imsety, Glory of Horus\" once per turn. You can send 2 cards from your hand to the GY, including this card; add 1 \"King's Sarcophagus\" from your Deck to your hand, then you can draw 1 card. If another card(s) you control leaves the field by an opponent's card effect, while this card is in your Monster Zone (except during the Damage Step): You can send 1 card on the field to the GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      },
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Infinite Impermanence": {
+    "name": "Infinite Impermanence",
+    "pt": "Impermanência Infinita",
+    "image": "img/cards/infinite-impermanence.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      }
+    ]
+  },
+  "King's Sarcophagus": {
+    "name": "King's Sarcophagus",
+    "pt": null,
+    "image": "img/cards/king-s-sarcophagus.jpg",
+    "type": "Spell",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "\"Horus\" monsters you control cannot be destroyed by card effects that do not target them. You can send 1 card from your hand to the GY; send 1 \"Horus\" monster from your Deck to the GY. You can only use this effect of \"King's Sarcophagus\" up to four times per turn. Once per turn, at the start of the Damage Step, if your \"Horus\" monster battles an opponent's monster: You can send that opponent's monster to the GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      },
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Knightmare Phoenix": {
+    "name": "Knightmare Phoenix",
+    "pt": "Cavaleira do Pesadelo Fênix",
+    "image": "img/cards/knightmare-phoenix.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "FIRE",
+    "level": null,
+    "atk": 1900,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 Spell/Trap your opponent controls; destroy it, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Phoenix\" once per turn. Co-linked monsters you control cannot be destroyed by battle.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Circuit",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/future-circuit/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
+      }
+    ]
+  },
+  "Knightmare Unicorn": {
+    "name": "Knightmare Unicorn",
+    "pt": "Cavaleiro do Pesadelo Unicórnio",
+    "image": "img/cards/knightmare-unicorn.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 2200,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2+ monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 card on the field; shuffle it into the Deck, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Unicorn\" once per turn. While any co-linked \"Knightmare\" monsters are on the field, for your normal draw in your Draw Phase, draw 1 card for each different card name among those co-linked \"Knightmare\" monsters, instead of drawing just 1 card.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Circuit",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/future-circuit/"
+      },
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
+      }
+    ]
+  },
+  "Number 38: Hope Harbinger Dragon Titanic Galaxy": {
+    "name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+    "pt": "Número 38: Dragão Titã da Galáxia Arauto da Esperança",
+    "image": "img/cards/number-38-hope-harbinger-dragon-titanic-galaxy.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 8 monsters\nOnce per turn, when a Spell Card or effect is activated on the field (Quick Effect): You can negate that effect, and if you do, attach that card to this card as material. When an opponent's monster declares an attack: You can detach 1 material from this card; change the attack target to this card and perform damage calculation. If a face-up Xyz Monster(s) you control is destroyed by battle or card effect: You can target 1 face-up Xyz Monster you control; it gains ATK equal to 1 of those destroyed monster's original ATK.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "Powersink Stone": {
+    "name": "Powersink Stone",
+    "pt": null,
+    "image": "img/cards/powersink-stone.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Each time a monster effect is activated, place 1 Spellstone Counter on this card (max. 2). While this card has 2 Spellstone Counters, face-up monsters on the field cannot activate their effects, and their effects are negated. During each End Phase, remove all Spellstone Counters on this card.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Ranked Duels Ticket",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Gift Campaign",
+        "url": null
+      }
+    ]
+  },
+  "Qebehsenuef, Protection of Horus": {
+    "name": "Qebehsenuef, Protection of Horus",
+    "pt": null,
+    "image": "img/cards/qebehsenuef-protection-of-horus.jpg",
+    "type": "Monster",
+    "race": "Winged Beast",
+    "attribute": "EARTH",
+    "level": 8,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you control \"King's Sarcophagus\", you can Special Summon this card (from your GY). You can only Special Summon \"Qebehsenuef, Protection of Horus\" once per turn this way. If another card(s) you control leaves the field by an opponent's card effect, while this card is in your Monster Zone (except during the Damage Step): You can activate this effect; this turn, your opponent's monsters cannot target \"Horus\" monsters for attacks, also your opponent cannot target \"Horus\" monsters on the field with card effects. You can only use this effect of \"Qebehsenuef, Protection of Horus\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Walls of the Imperial Tomb": {
+    "name": "Walls of the Imperial Tomb",
+    "pt": null,
+    "image": "img/cards/walls-of-the-imperial-tomb.jpg",
+    "type": "Spell",
+    "race": "Field",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "This card's name becomes \"King's Sarcophagus\" while in the Field Zone. During your Main Phase: You can add 1 \"Horus\" monster from your Deck to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of \"Walls of the Imperial Tomb\" once per turn. If you activate the effect of \"Horus the Black Flame Deity\": You can draw 1 card.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "World Gears of Theurlogical Demiurgy": {
+    "name": "World Gears of Theurlogical Demiurgy",
+    "pt": "Mecanismo Mundial da Teurlógica Demiúrgica",
+    "image": "img/cards/world-gears-of-theurlogical-demiurgy.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 3500,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "3 Level 5 or higher monsters\r\nCannot be used as Link Material. This Link Summoned card is unaffected by other monsters' effects. You can only use each of the following effects of \"World Gears of Theurlogical Demiurgy\" once per turn.\r\n● During your Main Phase, if you control this card that was Link Summoned using 3 monsters that had 3 different Types and Attributes on the field: You can destroy all other cards on the field.\r\n● If your opponent Special Summons a monster(s) from the Extra Deck (except during the Damage Step): You can Special Summon 1 \"World Legacy\" monster from your Deck.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Deep Emotion",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/deep-emotion/"
+      }
+    ]
+  },
   "Artifact Lancea": {
     "name": "Artifact Lancea",
     "pt": "Artefato Lança do Destino",
@@ -1557,50 +2215,6 @@
       }
     ]
   },
-  "Effect Veiler": {
-    "name": "Effect Veiler",
-    "pt": "Ocultador de Efeitos",
-    "image": "img/cards/effect-veiler.jpg",
-    "type": "Monster",
-    "race": "Spellcaster",
-    "attribute": "LIGHT",
-    "level": 1,
-    "atk": 0,
-    "def": 0,
-    "monsterType": [
-      "Effect",
-      "Tuner"
-    ],
-    "text": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Deep Emotion",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/deep-emotion/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Mini: Vol. 06",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 02",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
-      },
-      {
-        "kind": "other",
-        "name": "Character Deck Respect Orb Exchange",
-        "url": null
-      }
-    ]
-  },
   "Evilswarm Exciton Knight": {
     "name": "Evilswarm Exciton Knight",
     "pt": "Hordeum Maligno Cavaleiro Exciton",
@@ -1716,28 +2330,6 @@
         "boxType": "Selection Box Super Mini",
         "amount": 1,
         "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
-      }
-    ]
-  },
-  "Infinite Impermanence": {
-    "name": "Infinite Impermanence",
-    "pt": "Impermanência Infinita",
-    "image": "img/cards/infinite-impermanence.jpg",
-    "type": "Trap",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "monsterType": [],
-    "text": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Selection Box Mini Vol.07",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
       }
     ]
   },
@@ -2326,51 +2918,6 @@
       }
     ]
   },
-  "D.D. Crow": {
-    "name": "D.D. Crow",
-    "pt": "D.D. Corvo",
-    "image": "img/cards/d-d-crow.jpg",
-    "type": "Monster",
-    "race": "Winged Beast",
-    "attribute": "DARK",
-    "level": 1,
-    "atk": 100,
-    "def": 100,
-    "monsterType": [
-      "Effect"
-    ],
-    "text": "(Quick Effect): You can discard this card to the GY, then target 1 card in your opponent's GY; banish that target.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Shining Hope",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/shining-hope/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Vol.05",
-        "boxType": "Selection Box",
-        "amount": 1,
-        "url": null
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 01",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
-      },
-      {
-        "kind": "set",
-        "name": "Ancient Records",
-        "boxType": "Pickup Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/pickup-box-ancient-records/"
-      }
-    ]
-  },
   "Guardian Chimera": {
     "name": "Guardian Chimera",
     "pt": "Guardião Quimera",
@@ -2415,89 +2962,6 @@
         "boxType": "Mini Box",
         "amount": 1,
         "url": "https://www.duellinksmeta.com/sets/rampage-of-the-forest/"
-      }
-    ]
-  },
-  "Knightmare Phoenix": {
-    "name": "Knightmare Phoenix",
-    "pt": "Cavaleira do Pesadelo Fênix",
-    "image": "img/cards/knightmare-phoenix.jpg",
-    "type": "Monster",
-    "race": "Fiend",
-    "attribute": "FIRE",
-    "level": null,
-    "atk": 1900,
-    "def": null,
-    "monsterType": [
-      "Link",
-      "Effect"
-    ],
-    "text": "2 monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 Spell/Trap your opponent controls; destroy it, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Phoenix\" once per turn. Co-linked monsters you control cannot be destroyed by battle.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Future Circuit",
-        "boxType": "Main Box",
-        "amount": 2,
-        "url": "https://www.duellinksmeta.com/sets/future-circuit/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 01",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-1/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 02",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Vol.07",
-        "boxType": "Selection Box",
-        "amount": 2,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
-      }
-    ]
-  },
-  "Knightmare Unicorn": {
-    "name": "Knightmare Unicorn",
-    "pt": "Cavaleiro do Pesadelo Unicórnio",
-    "image": "img/cards/knightmare-unicorn.jpg",
-    "type": "Monster",
-    "race": "Fiend",
-    "attribute": "DARK",
-    "level": null,
-    "atk": 2200,
-    "def": null,
-    "monsterType": [
-      "Link",
-      "Effect"
-    ],
-    "text": "2+ monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 card on the field; shuffle it into the Deck, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Unicorn\" once per turn. While any co-linked \"Knightmare\" monsters are on the field, for your normal draw in your Draw Phase, draw 1 card for each different card name among those co-linked \"Knightmare\" monsters, instead of drawing just 1 card.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Future Circuit",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/future-circuit/"
-      },
-      {
-        "kind": "other",
-        "name": "Special Set",
-        "url": null
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Vol.07",
-        "boxType": "Selection Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
       }
     ]
   },

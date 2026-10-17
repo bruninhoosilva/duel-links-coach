@@ -27,5 +27,17 @@ export function renderOptions(guide, ctx) {
     </section>`,
     )
     .join('');
-  return `<p class="muted">You do not need every card in the list. If you are missing one, these are the swaps the creators recommend, and why they work. Tap a card to read its text.</p>${blocks || '<p>No alternatives listed yet for this deck.</p>'}`;
+  const skills = (guide.sideSkills ?? [])
+    .map((s) => {
+      const text = ctx.skills?.[s.name]?.text;
+      return `
+    <section class="panel">
+      <h2>Other skill: ${esc(s.name)}</h2>
+      ${text ? `<blockquote class="skill-text">${esc(text)}</blockquote>` : ''}
+      <p>${esc(s.reason)}</p>
+    </section>`;
+    })
+    .join('');
+  const all = blocks + skills;
+  return `<p class="muted">You do not need every card in the list. If you are missing one, these are the swaps the creators recommend, and why they work. Tap a card to read its text.</p>${all || '<p>No alternatives listed yet for this deck.</p>'}`;
 }
