@@ -319,3 +319,11 @@ main p, main li, main dd { max-width: 78ch; }
 .deck-card:hover .deck-art img { transform: translateY(-3px) rotate(-1.5deg); box-shadow: 0 12px 26px rgba(0, 0, 0, .6), 0 0 22px rgba(240, 195, 90, .4); }
 .deck-art-name { display: block; margin-top: .4rem; }
 @media (max-width: 420px) { .deck-card.has-art { grid-template-columns: minmax(0, 1fr) 92px; } .deck-art img { width: 92px; } }
+
+/* Alternatives tab: two builds side by side */
+.build-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .8rem; margin: .8rem 0 1rem; }
+.build-card { padding: .6rem .9rem; border: 1px solid var(--line-gold); border-radius: var(--radius); background: rgba(255, 255, 255, .04); }
+.build-card h3 { margin: .1rem 0 .3rem; color: var(--gold-hi); font-size: 1rem; }
+.builds-table th, .builds-table td { vertical-align: top; }
+.builds-table thead th { color: var(--gold-hi); text-transform: none; letter-spacing: 0; font-size: .9rem; }
+.builds-table tbody th { color: var(--text); font-size: .95rem; text-transform: none; letter-spacing: 0; text-align: left; white-space: nowrap; }

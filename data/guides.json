@@ -6115,5 +6115,967 @@
         }
       ]
     }
+  },
+  "shining-sarcophagus": {
+    "deck": "Shining Sarcophagus",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-19",
+    "featuredCard": "Silent Magician Zero",
+    "skill": {
+      "name": "Light the Way to the Future",
+      "enablerCards": [],
+      "trigger": "Effects 2 and 3 can be used once per Duel. The first effect only turns your own effect damage to 0 (except for cards that mention Shining Sarcophagus). To use effect 2 you need to reveal a Spellcaster that mentions Shining Sarcophagus, so keep several in the deck: Silent Magician Zero ×3, Dark Magician Girl ×2 and Dark Magician.",
+      "enabler": "Effect 2: reveal 1 Spellcaster monster that mentions Shining Sarcophagus from your hand, then add up to 2 cards from your deck, choosing from Shining Sarcophagus and monsters that mention it. If only your opponent controls a card, you can also play Silent Swordsman Zero from your hand or deck. Effect 3 (turn 2 onward): send Silent Swordsman Zero from your field to the Graveyard, play Silent Swordsman LV7 face-down in Defense Position from outside your deck, and add Silent Sword Slash if you control the Sarcophagus.",
+      "adds": [
+        {
+          "card": "Silent Swordsman LV7",
+          "copies": 1,
+          "note": "Played face-down in Defense Position by effect 3 from turn 2, in place of Silent Swordsman Zero."
+        },
+        {
+          "card": "Silent Sword Slash",
+          "copies": 1,
+          "note": "Added to your hand by effect 3 while you control Shining Sarcophagus: it gives a Silent Swordsman 1500 ATK/DEF and makes it unaffected by the opponent's effects, and it cannot be negated."
+        }
+      ]
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "Rei dos Jogos: Aprenda a jogar de Shining Sarcophagus (King of Games build, Portuguese)",
+        "creator": "IgnisterPRC",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=fCuEitOx4QI"
+      },
+      {
+        "title": "Curso completo de Sarcófago Brilhante (full course and replays, Portuguese)",
+        "creator": "Sorem",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=-d1xN63HXFg"
+      }
+    ],
+    "gamePlan": "Shining Sarcophagus is a stalling and spell-based deck built around a Continuous Spell that monster effects cannot destroy. You reveal a Spellcaster (like Silent Magician Zero) for the skill, add the Sarcophagus and a monster that works with it, and then use cards that mention the Sarcophagus: Dark Magician and Gandora-G Special Summon themselves from your hand while it is on the field, Gadget Trio and Dark Magician Girl search it, and the Silent monsters grow and negate. The cards give you negates (Silent Magician Zero, Turn Silence, I:P Masquerena into S:P Little Knight, Number 90) while you hold the field. There are two builds from two videos: Build 1 (IgnisterPRC) opens with more search cards and Mulcharmy hand traps, and Build 2 (Sorem) leans on Dark Magician and Gandora-G with Lava Golem and Droll & Lock Bird. The Alternatives tab shows what changes and which cards you can swap.",
+    "strengths": [
+      "The Sarcophagus cannot be destroyed by monster effects, and the Silent monsters negate effects that target it.",
+      "Plenty of negates and answers on both turns: spell negates, monster negates, hand traps and a Link chain into S:P Little Knight.",
+      "Both builds are easy to play and need few expensive cards: the structure decks give you most of the Spellcasters.",
+      "Gandora-G can clear the whole field in a turn when you need it, and the deck can still hit King of Games."
+    ],
+    "weaknesses": [
+      "Spell/Trap removal on Shining Sarcophagus slows the whole deck, so keep a spare copy in hand as bait.",
+      "The skill needs a Spellcaster that mentions the Sarcophagus in your opening hand; Gandora-G and Dark Magician alone do not start it.",
+      "Several cards are situational (Dark Magical Curtain, Turn Silence), and a hand with too many of them can brick.",
+      "A Droll & Lock Bird on your first search stops the second one, and many decks play it right now."
+    ],
+    "cards": [
+      {
+        "name": "Shining Sarcophagus",
+        "role": "starter",
+        "copies": 3,
+        "note": "The card the whole deck is named after: a Continuous Spell that monster effects cannot destroy. Once per turn in your Main Phase it adds a card that mentions it, and when the opponent Special Summons from the Graveyard you discard a Spell to send that monster to the Graveyard. Build 1 plays 3, Build 2 plays 2."
+      },
+      {
+        "name": "Silent Magician Zero",
+        "role": "starter",
+        "copies": 3,
+        "note": "Spellcaster that you reveal for the skill. It gains Levels (and 500 ATK per Level) when the opponent draws, and negates a Spell the opponent activates while you control Shining Sarcophagus. Both builds play 3. Build 1 says you could run fewer, but three are easier to find with the skill."
+      },
+      {
+        "name": "Silent Swordsman Zero",
+        "role": "extender",
+        "copies": 2,
+        "note": "Warrior that grows each Standby Phase and negates an effect that targets Shining Sarcophagus or a monster that mentions it. The skill can play it for free when only your opponent controls a card. Build 1 plays 2, Build 2 plays 1."
+      },
+      {
+        "name": "Dark Magician the Magician of Black Magic",
+        "role": "starter",
+        "copies": 1,
+        "note": "Special Summon it from your hand while Shining Sarcophagus is on the field. Its name is \"Dark Magician\" on the field, and if an effect destroys it while a Level 5 or higher monster is on the field it comes back and Sets a Spell/Trap that mentions Dark Magician. Build 1 plays 1, Build 2 plays 3, because it is a main piece of its Gandora line."
+      },
+      {
+        "name": "Dark Magician Girl the Magician's Apprentice",
+        "role": "starter",
+        "copies": 2,
+        "note": "Special Summon it from your hand by discarding a card, and when it is summoned it adds Shining Sarcophagus. It gains 300 ATK for each monster that mentions the Sarcophagus in the Graveyards. Both builds play 2."
+      },
+      {
+        "name": "Gandora-G the Dragon of Destruction",
+        "role": "payoff",
+        "copies": 2,
+        "note": "The boss. With Shining Sarcophagus on your side it Special Summons itself from your hand, and by paying half your Life Points it destroys and banishes every other card (the Sarcophagus is safe from monster effects), then Special Summons a Level 7 or lower monster that mentions the Sarcophagus with extra Levels. Both builds play 2. Build 1 says that with only one Gandora you can still play, because extra copies can brick."
+      },
+      {
+        "name": "Gadget Trio",
+        "role": "starter",
+        "copies": 3,
+        "note": "Machine you Normal Summon: it adds Shining Sarcophagus or a Spell/Trap that mentions it, and when destroyed it Sets Stronghold the Hidden Fortress. Build 1 plays 3 and uses it as the Normal Summon, Build 2 plays only 1."
+      },
+      {
+        "name": "Future Silence",
+        "role": "starter",
+        "copies": 3,
+        "note": "Quick-Play Spell that adds a monster that mentions the Sarcophagus. In the Battle Phase with a Sarcophagus and a monster that mentions it, both players draw up to 6 cards. Both builds play 3."
+      },
+      {
+        "name": "Turn Silence",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Quick-Play Spell that raises a monster's Level by 3 and, if you chain it to the opponent's monster effect with the Sarcophagus and a monster that mentions it, negates that effect. From the Graveyard it can end the Battle Phase. Build 1 plays 1, Build 2 plays 2."
+      },
+      {
+        "name": "The Gaze of Timaeus",
+        "role": "extender",
+        "copies": 1,
+        "note": "Quick-Play Spell that Fusion Summons by shuffling Dark Magician or Dark Magician Girl into the deck (it is treated as The Eye of Timaeus), but the monster is banished at the end of the next turn. Both builds play 1."
+      },
+      {
+        "name": "Ties That Bind",
+        "role": "extender",
+        "copies": 1,
+        "note": "With Shining Sarcophagus and a monster that mentions it, Special Summon up to 2 Level 4 or lower monsters with different names that mention it. After it resolves you cannot Special Summon from the Extra Deck this turn, so do your Extra Deck summons first. Only Build 1 plays it."
+      },
+      {
+        "name": "Dark Magical Curtain",
+        "role": "extender",
+        "copies": 1,
+        "note": "Quick-Play Spell. Only Build 2 plays it. Build 1 says it is too specific and did not like it, and took it out of the deck. Build 2 uses it with Dark Magician for a Dark Magician Spell/Trap.",
+        "substitutes": [
+          {
+            "name": "Forbidden Droplet",
+            "why": "Build 1 says he would rather put a Forbidden Droplet, a Book of Moon or an Effect Veiler in this slot: the Curtain is too specific and the other cards are more useful turn after turn."
+          },
+          {
+            "name": "Book of Moon",
+            "why": "Same advice as the Droplet: a Book of Moon is a general interaction, and the Curtain depends on a very specific line."
+          },
+          {
+            "name": "Effect Veiler",
+            "why": "Effect Veiler is another general hand trap that the creator of Build 1 prefers to the Curtain."
+          }
+        ]
+      },
+      {
+        "name": "Mulcharmy Fuwalos",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Hand trap that draws a card each time the opponent Special Summons from the Deck or Extra Deck. Only Build 1 plays it. The creator says you do not need to copy his hand traps: he used what was available on his account."
+      },
+      {
+        "name": "Mulcharmy Purulia",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Hand trap that draws a card each time the opponent Summons a monster from the hand. Only Build 1 plays it, 3 copies."
+      },
+      {
+        "name": "Nibiru, the Primal Being",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Stops decks that make many Summons in one turn. Build 1 plays 3, Build 2 plays 1."
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Hand trap that stops the opponent's search turn. Only Build 2 plays it (2 copies). Build 2 calls it the best card to hold back decks that search a lot."
+      },
+      {
+        "name": "D.D. Crow",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Free hand trap from the structure deck that banishes a card from a Graveyard. Only Build 2 plays it (1 copy)."
+      },
+      {
+        "name": "Lava Golem",
+        "role": "removal",
+        "copies": 3,
+        "note": "Build 2 plays 3 Lava Golem to remove two monsters of the opponent from turn two onward, since your own Normal Summon is not needed. Build 2 says one-tribute Kaijus are a trade: Lava Golem is stronger, but it costs you 1000 damage each turn, and the Kaijus do not. Build 1 does not play it."
+      },
+      {
+        "name": "Witch of the Black Forest",
+        "role": "extender",
+        "copies": 1,
+        "note": "Only Build 2 plays 1 Witch of the Black Forest, as its Normal Summon: when it goes to the Graveyard it adds a monster with 1500 or less DEF (here Droll & Lock Bird, D.D. Crow or Gadget Trio)."
+      },
+      {
+        "name": "Photon Jumper",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Only Build 2 plays 1 Photon Jumper: when the opponent's monster attacks, it ends the Battle Phase, and in the Graveyard it adds a Photon or Galaxy Spell/Trap (for Number 90)."
+      },
+      {
+        "name": "Dark Magician of Destruction",
+        "role": "extender",
+        "copies": 1,
+        "note": "Special Summoned from the Extra Deck in a turn you activated a Spell, by banishing a Level 6 or higher DARK Spellcaster (like Dark Magician Girl). Its name becomes Dark Magician, and it adds Dark Magician or a card that mentions it, such as The Eye of Timaeus or the Curtain. Both builds play it."
+      },
+      {
+        "name": "Red-Eyes Dark Dragoon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion Summoned with The Gaze of Timaeus. It cannot be destroyed by effects or targeted and can negate. Both builds play it."
+      },
+      {
+        "name": "Timaeus the United Magical Dragon",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fusion Monster that Build 1 makes with The Eye of Timaeus. Only Build 1 plays it, in the slot where Build 2 plays Dingirsu and Number 68."
+      },
+      {
+        "name": "Chaos Angel",
+        "role": "removal",
+        "copies": 1,
+        "note": "Synchro you can make with the Level 4 monsters, treating a DARK monster as a Tuner. When Special Summoned it banishes a card, and it gains protections from the Attributes of its materials. Both builds play it."
+      },
+      {
+        "name": "Super Starslayer TY-PHON - Sky Crisis",
+        "role": "removal",
+        "copies": 1,
+        "note": "Rank 12 Xyz that Build 1 used as a last board breaker against a huge board. Only Build 1 plays it, and the creator says you may not need it."
+      },
+      {
+        "name": "Number 90: Galaxy-Eyes Photon Lord",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Rank 8 that negates a monster effect by detaching a material. Both builds play it, and the creator of Build 2 says it is the best generic monster negate."
+      },
+      {
+        "name": "Number 68: Sanaphond the Sky Prison",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Rank 8 that, once you detach a material, cannot be destroyed by card effects and stops both players from Special Summoning from the Graveyard until the end of the opponent's next turn. Only Build 2 plays it, because many decks (Horus, Memento, Branded, Snake-Eye) summon from the Graveyard."
+      },
+      {
+        "name": "Dingirsu, the Orcust of the Evening Star",
+        "role": "removal",
+        "copies": 1,
+        "note": "Rank 8 that sends a card of the opponent's to the Graveyard when it is Special Summoned, without targeting, and protects your cards by detaching a material. Only Build 2 plays it."
+      },
+      {
+        "name": "I:P Masquerena",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 made with two non-Link monsters. On the opponent's Main Phase it can Link Summon again, for example S:P Little Knight, and the Link monster made with it cannot be destroyed by the opponent's effects. Both builds play it."
+      },
+      {
+        "name": "S:P Little Knight",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link-2 made with I:P Masquerena, which banishes a card and can banish two monsters in response to an effect. Both builds play it.",
+        "substitutes": [
+          {
+            "name": "Knightmare Unicorn",
+            "why": "Both creators say that if you do not own S:P Little Knight you can use Knightmare Unicorn: it is also made with I:P, and it returns a monster on the opponent's field to their deck, but S:P is much stronger."
+          }
+        ]
+      },
+      {
+        "name": "Underworld Goddess of the Closed World",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Link-5 made with the opponent's monster as material. It negates the effects of the opponent's face-up monsters and negates a Special Summon from the Graveyard. Both builds play it."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Shining Sarcophagus",
+        "partners": [
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "reason": "Dark Magician the Magician of Black Magic can only Special Summon itself from your hand while Shining Sarcophagus is on the field.",
+            "link": "lets you summon"
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "reason": "Gandora-G Special Summons itself from your hand only if you control Shining Sarcophagus, and the Sarcophagus is not destroyed by its effect.",
+            "link": "lets you summon"
+          },
+          {
+            "name": "Silent Magician Zero",
+            "reason": "Silent Magician Zero negates a Spell the opponent activates only while you control Shining Sarcophagus.",
+            "link": "turns on"
+          }
+        ]
+      },
+      {
+        "card": "Dark Magician Girl the Magician's Apprentice",
+        "partners": [
+          {
+            "name": "Shining Sarcophagus",
+            "reason": "When Dark Magician Girl the Magician's Apprentice is summoned it adds Shining Sarcophagus, so a second copy of the Sarcophagus is easy to find.",
+            "link": "searches"
+          },
+          {
+            "name": "Dark Magician of Destruction",
+            "reason": "Dark Magician Girl is a Level 6 DARK Spellcaster: banish it to Special Summon Dark Magician of Destruction.",
+            "link": "is banished for"
+          }
+        ]
+      },
+      {
+        "card": "Gadget Trio",
+        "partners": [
+          {
+            "name": "Shining Sarcophagus",
+            "reason": "Gadget Trio adds Shining Sarcophagus or a Spell/Trap that mentions it when it is Normal or Special Summoned.",
+            "link": "searches"
+          },
+          {
+            "name": "Ties That Bind",
+            "reason": "Gadget Trio can add Ties That Bind, which needs a monster that mentions the Sarcophagus already on your field.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Gandora-G the Dragon of Destruction",
+        "partners": [
+          {
+            "name": "Gadget Trio",
+            "reason": "Gandora-G Special Summons a Level 7 or lower monster that mentions the Sarcophagus from the deck, and raises its Level by the number of cards destroyed; Gadget Trio is a good target because it searches.",
+            "link": "summons"
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "reason": "If Gandora-G destroys Dark Magician the Magician of Black Magic while a Level 5 or higher monster is on the field, Dark Magician can return and Set a Spell/Trap that mentions Dark Magician.",
+            "link": "destroys"
+          }
+        ]
+      },
+      {
+        "card": "Dark Magician of Destruction",
+        "partners": [
+          {
+            "name": "Dark Magical Curtain",
+            "reason": "Dark Magician of Destruction can add a card that mentions Dark Magician, such as Dark Magical Curtain in Build 2 or The Eye of Timaeus.",
+            "link": "searches"
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "reason": "Dark Magician of Destruction is Level 8, so with another Level 8 monster it makes Number 90.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "I:P Masquerena",
+        "partners": [
+          {
+            "name": "S:P Little Knight",
+            "reason": "I:P Masquerena Link Summons S:P Little Knight (or Knightmare Unicorn) in the opponent's Main Phase, so it comes out when the opponent has just used an effect.",
+            "link": "Link Summons"
+          }
+        ]
+      },
+      {
+        "card": "Future Silence",
+        "partners": [
+          {
+            "name": "Silent Magician Zero",
+            "reason": "Future Silence adds a monster that mentions the Sarcophagus, like Silent Magician Zero, and in the Battle Phase makes both players draw, which raises the Level of Silent Magician Zero.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Turn Silence",
+        "partners": [
+          {
+            "name": "Silent Magician Zero",
+            "reason": "Turn Silence raises a monster's Level by 3: on Silent Magician Zero or Silent Swordsman Zero that is also 1500 more ATK, and chained to an opponent's monster effect it negates it.",
+            "link": "raises the Level of"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "build1-gadget-start",
+        "title": "Build 1 (IgnisterPRC): Dark Magician Girl, Gadget Trio and Dark Magician of Destruction on turn 1",
+        "hand": [
+          "Dark Magician Girl the Magician's Apprentice",
+          "Gadget Trio"
+        ],
+        "requires": {
+          "turn": "first",
+          "anyOf": [
+            {
+              "label": "A Spellcaster that mentions Shining Sarcophagus to reveal, or Gadget Trio",
+              "cards": [
+                "Dark Magician Girl the Magician's Apprentice",
+                "Silent Magician Zero",
+                "Dark Magician the Magician of Black Magic",
+                "Gadget Trio"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's second effect is step 1: reveal a Spellcaster that mentions Shining Sarcophagus, then add up to 2 cards from Shining Sarcophagus and monsters that mention it. If only your opponent controls a card, you can also play Silent Swordsman Zero. Effects 2 and 3 can be used once per Duel. The creator says the skill is only usable on a Spellcaster, and 15 cards in the deck can start the combo."
+        },
+        "start": {
+          "hand": [
+            "Dark Magician Girl the Magician's Apprentice",
+            "Mulcharmy Fuwalos",
+            "Mulcharmy Fuwalos",
+            "Gadget Trio"
+          ],
+          "note": "An example hand for the line the creator explains: Dark Magician Girl, 2 Mulcharmy Fuwalos (one is spare to discard) and Gadget Trio. Yours will differ: any hand with a Spellcaster that mentions Shining Sarcophagus starts it. This is the creator's explained core line, not a replay of one duel, so treat the order as a guide."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Light the Way to the Future",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal a Spellcaster monster that mentions Shining Sarcophagus from your hand. Here Dark Magician Girl the Magician's Apprentice.",
+            "gives": "Add up to 2 cards from your deck: Shining Sarcophagus and a monster that mentions it (here Silent Magician Zero).",
+            "used": true,
+            "reason": "It gets you the Sarcophagus and a monster that works with it, so you do not depend on drawing them. The skill is much better with three Silent Magician Zero in the deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+              "timestamp": "6:50"
+            },
+            "moves": [
+              {
+                "card": "Shining Sarcophagus",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Silent Magician Zero",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dark Magician Girl the Magician's Apprentice",
+            "action": "special-summon",
+            "reason": "Special Summon Dark Magician Girl from your hand by discarding a card (here the spare Mulcharmy Fuwalos). When she is summoned she adds a second Shining Sarcophagus.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+              "timestamp": "8:21"
+            },
+            "moves": [
+              {
+                "card": "Mulcharmy Fuwalos",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician Girl the Magician's Apprentice",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Shining Sarcophagus",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Shining Sarcophagus",
+            "action": "activate",
+            "reason": "Activate Shining Sarcophagus. Now Silent Magician Zero, Silent Swordsman Zero, Gandora-G and Dark Magician the Magician of Black Magic can use their effects. The second copy stays in your hand as bait for Spell/Trap removal.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+              "timestamp": "8:36"
+            },
+            "moves": [
+              {
+                "card": "Shining Sarcophagus",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Shining Sarcophagus",
+            "action": "activate",
+            "reason": "In your Main Phase, use the Sarcophagus to add a card that mentions it from your deck: here Turn Silence, a Quick-Play Spell that negates a monster effect later.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+              "timestamp": "8:44"
+            },
+            "moves": [
+              {
+                "card": "Turn Silence",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Gadget Trio",
+            "action": "normal-summon",
+            "reason": "Normal Summon Gadget Trio and add Ties That Bind (a Spell/Trap that mentions the Sarcophagus).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+              "timestamp": "9:20"
+            },
+            "moves": [
+              {
+                "card": "Gadget Trio",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Ties That Bind",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dark Magician of Destruction",
+            "action": "special-summon",
+            "reason": "You activated a Spell this turn, so banish Dark Magician Girl (Level 6 DARK Spellcaster) to Special Summon Dark Magician of Destruction from the Extra Deck, and add The Eye of Timaeus or a card that mentions Dark Magician. Its name is Dark Magician on the field.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+              "timestamp": "9:46"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician Girl the Magician's Apprentice",
+                "from": "monster-zone",
+                "to": "banished"
+              },
+              {
+                "card": "Dark Magician of Destruction",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "From here the creator makes I:P Masquerena with two non-Link monsters, then uses Ties That Bind to put Silent Magician Zero and Silent Swordsman Zero on the field and keeps S:P Little Knight for the opponent's turn (I:P Link Summons it in response). Do your Extra Deck summons first: Ties That Bind stops Extra Deck Special Summons for the rest of the turn. Keep Turn Silence and Future Silence in hand to answer a Spell or a monster effect.",
+        "endBoard": "Dark Magician of Destruction and Gadget Trio on the field with Shining Sarcophagus active, and Turn Silence, Ties That Bind and a second Sarcophagus in your hand: the creator then ends with I:P Masquerena, the Silent monsters and about six interactions.",
+        "weakSpots": "A hand without a Spellcaster that mentions the Sarcophagus cannot use the skill. Spell/Trap removal on Shining Sarcophagus stops the whole engine, which is why the creator keeps a spare copy. A hand-trap on Gadget Trio or Dark Magician Girl slows the search."
+      },
+      {
+        "id": "build2-gandora-line",
+        "title": "Build 2 (Sorem): Shining Sarcophagus, Dark Magician and Gandora-G on turn 1",
+        "hand": [
+          "Silent Magician Zero",
+          "Gandora-G the Dragon of Destruction"
+        ],
+        "requires": {
+          "turn": "first",
+          "anyOf": [
+            {
+              "label": "Silent Magician Zero, Dark Magician Girl or Dark Magician to reveal, or Gandora-G",
+              "cards": [
+                "Silent Magician Zero",
+                "Dark Magician Girl the Magician's Apprentice",
+                "Dark Magician the Magician of Black Magic",
+                "Gandora-G the Dragon of Destruction"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's second effect is step 1: reveal a Spellcaster that mentions Shining Sarcophagus, then add up to 2 cards from Shining Sarcophagus and monsters that mention it. If only your opponent controls a card, you can also play Silent Swordsman Zero. Effects 2 and 3 can be used once per Duel. In the replay he reveals Silent Magician Zero."
+        },
+        "start": {
+          "hand": [
+            "Silent Magician Zero",
+            "Gandora-G the Dragon of Destruction",
+            "Future Silence",
+            "Unknown card"
+          ],
+          "note": "An example hand for the line the creator explains: Silent Magician Zero, Gandora-G and Future Silence, plus one other card. Yours will differ. This is the creator's explained core line, not a replay of one duel, so treat the order as a guide."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Light the Way to the Future",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal a Spellcaster monster that mentions Shining Sarcophagus from your hand. Here Silent Magician Zero.",
+            "gives": "Add up to 2 cards from your deck: Shining Sarcophagus and Dark Magician the Magician of Black Magic.",
+            "used": true,
+            "reason": "You add the Sarcophagus and the monster that enables the Gandora line. The creator says that Silent Magician Zero is the best card to start with, because the skill needs to reveal a Spellcaster and she does not need to be searched.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+              "timestamp": "36:03"
+            },
+            "moves": [
+              {
+                "card": "Shining Sarcophagus",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Dark Magician the Magician of Black Magic",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Shining Sarcophagus",
+            "action": "activate",
+            "reason": "Activate Shining Sarcophagus first. Dark Magician and Gandora-G can only Special Summon themselves from your hand while it is on the field.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+              "timestamp": "36:30"
+            },
+            "moves": [
+              {
+                "card": "Shining Sarcophagus",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dark Magician the Magician of Black Magic",
+            "action": "special-summon",
+            "reason": "Special Summon Dark Magician the Magician of Black Magic from your hand. It will be destroyed by Gandora-G and come back with a Level 5 or higher monster on the field.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+              "timestamp": "36:36"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician the Magician of Black Magic",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Gandora-G the Dragon of Destruction",
+            "action": "special-summon",
+            "reason": "Special Summon Gandora-G from your hand (you control the Sarcophagus).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+              "timestamp": "36:39"
+            },
+            "moves": [
+              {
+                "card": "Gandora-G the Dragon of Destruction",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Gandora-G the Dragon of Destruction",
+            "action": "activate",
+            "reason": "Pay half your Life Points: Gandora-G destroys and banishes every other card it can (the Sarcophagus is safe from monster effects), then Special Summons Gadget Trio from your deck with its Level raised by the number of destroyed cards. Dark Magician is the card that is destroyed here.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+              "timestamp": "36:44"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician the Magician of Black Magic",
+                "from": "monster-zone",
+                "to": "banished"
+              },
+              {
+                "card": "Gadget Trio",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Gadget Trio",
+            "action": "activate",
+            "reason": "Gadget Trio adds a card that mentions the Sarcophagus: here the next Future Silence, so you hold two in hand for the opponent's turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+              "timestamp": "37:15"
+            },
+            "moves": [
+              {
+                "card": "Future Silence",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator says that when the opponent summons a monster from the Graveyard, the Sarcophagus can send it back (discard a Spell). In the next steps of his line he uses Dark Magician of Destruction (banishing a Level 6+ DARK Spellcaster) to add Dark Magical Curtain, then makes Number 90 with the Level 8 monsters, I:P Masquerena and S:P Little Knight. Keep your hand traps for the opponent's turn, since this build has fewer starters than Build 1.",
+        "endBoard": "Gandora-G and Gadget Trio on the field with Shining Sarcophagus active, and two Future Silence in your hand: the creator continues with Dark Magician of Destruction, Number 90, I:P Masquerena and S:P Little Knight for several interactions on the opponent's turn.",
+        "weakSpots": "This line pays half your Life Points and destroys your own board, so it is risky against decks that punish a low Life Point total. With only 1 Gadget Trio and 2 Sarcophagus, Build 2 depends more on drawing Dark Magician or Gandora-G, and it bricks if the first card is Dark Magician Girl alone."
+      }
+    ],
+    "videoLists": [
+      {
+        "id": "ignister",
+        "label": "Build 1: IgnisterPRC, King of Games",
+        "creator": "IgnisterPRC",
+        "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Purulia",
+            "count": 3
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 3
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Turn Silence",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Ties That Bind",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Timaeus the United Magical Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "sorem",
+        "label": "Build 2: Sorem, full course",
+        "creator": "Sorem",
+        "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 1
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 1
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 3
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "buildDifferences": [
+      {
+        "topic": "How it opens",
+        "a": "Gadget Trio ×3 and Dark Magician Girl ×2 are the engine: 15 starters, so most hands can reveal a Spellcaster, add the Sarcophagus and search more.",
+        "b": "Dark Magician ×3 and Gandora-G ×2 are the engine: fewer search cards (Gadget Trio ×1), so the deck leans on the Gandora line and on Witch of the Black Forest.",
+        "why": "Build 1 is steadier from the first turn. Build 2 hits harder when it draws Dark Magician and Gandora-G together."
+      },
+      {
+        "topic": "Hand traps and removal",
+        "a": "Mulcharmy Fuwalos ×2, Mulcharmy Purulia ×3 and Nibiru ×3. The creator says he used what was on his account, so you can swap them.",
+        "b": "Droll & Lock Bird ×2, D.D. Crow ×1, Nibiru ×1, Photon Jumper ×1 and Lava Golem ×3 for turn two.",
+        "why": "Build 2 has more ways to remove cards on turn two (Lava Golem), and Droll & Lock Bird stops decks that search. Build 1 draws cards off the opponent's summons."
+      },
+      {
+        "topic": "Spells",
+        "a": "Shining Sarcophagus ×3, Turn Silence ×1, Future Silence ×3, Ties That Bind ×1 and The Gaze of Timaeus ×1.",
+        "b": "Shining Sarcophagus ×2, Turn Silence ×2, Future Silence ×3, Dark Magical Curtain ×1 and The Gaze of Timaeus ×1.",
+        "why": "Build 1 sees the Sarcophagus more often and can summon two Level 4 monsters at once with Ties That Bind. Build 2 plays a second Turn Silence for an extra negate."
+      },
+      {
+        "topic": "Extra Deck",
+        "a": "Timaeus the United Magical Dragon and Super Starslayer TY-PHON, a board breaker for a huge opponent field.",
+        "b": "Dingirsu and Number 68: Sanaphond the Sky Prison, which stops Special Summons from the Graveyard.",
+        "why": "Build 2 is stronger against Horus, Memento, Branded and Snake-Eye. Build 1 has more ways to break a board. The other 7 Extra Deck cards are the same."
+      },
+      {
+        "topic": "Price and cards you need",
+        "a": "Needs Gadget Trio ×3 and the Mulcharmy hand traps. The creator says you can swap S:P Little Knight for Knightmare Unicorn and that his hand traps are only what he had.",
+        "b": "Needs 3 Dark Magician the Magician of Black Magic and Lava Golem ×3. The creator says that without S:P Little Knight or the Selection Box you can still play.",
+        "why": "Check which cards you already own before you choose: the Alternatives below show the cards each creator says you can swap."
+      }
+    ]
   }
 }

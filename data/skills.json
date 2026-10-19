@@ -141,5 +141,16 @@
         "how": "Skill Exchange Trader"
       }
     ]
+  },
+  "Light the Way to the Future": {
+    "name": "Light the Way to the Future",
+    "text": "You can only use this Skill's second and third effects once per Duel.\n1: Any effect damage your cards would inflict to your opponent becomes 0, except for effect damage from cards that mention \"Shining Sarcophagus\".\n2: Reveal 1 Spellcaster monster that mentions \"Shining Sarcophagus\" from your hand. Add up to 2 cards from your Deck to your hand, choosing from \"Shining Sarcophagus\" and monsters that mention it. If only your opponent controls a card, you can also play 1 \"Silent Swordsman Zero\" from your hand or Deck.\n3: From turn 2 onward, send 1 \"Silent Swordsman Zero\" from your field to the Graveyard, then play 1 \"Silent Swordsman LV7\" from outside of your Deck in face-down Defense Position. (Its battle position can be changed.) If you control \"Shining Sarcophagus\", add 1 \"Silent Sword Slash\" from outside of your Deck to your hand.",
+    "source": null,
+    "characters": [
+      {
+        "name": "Yugi Muto",
+        "how": "Skill Exchange Trader"
+      }
+    ]
   }
 }

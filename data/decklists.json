@@ -3750,5 +3750,958 @@
         "distance": 34.5
       }
     ]
+  },
+  "shining-sarcophagus": {
+    "defaultId": "video-ignister",
+    "lists": [
+      {
+        "id": "video-ignister",
+        "video": true,
+        "label": "Build 1: IgnisterPRC, King of Games",
+        "author": "IgnisterPRC",
+        "event": "Video list",
+        "created": "2026-10-19",
+        "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Purulia",
+            "count": 3
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 3
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Turn Silence",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Ties That Bind",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Timaeus the United Magical Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "video-sorem",
+        "video": true,
+        "label": "Build 2: Sorem, full course",
+        "author": "Sorem",
+        "event": "Video list",
+        "created": "2026-10-19",
+        "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 1
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 1
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 3
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "6acd24428ed6b767e01624a0",
+        "author": "espeon685",
+        "event": "King of Games",
+        "created": "2026-10-12",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/espeon685/IoW0F/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 3
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Archfiend's Advent",
+            "count": 1
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 2
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 4
+      },
+      {
+        "id": "6aca0dc41b220e25c410f71a",
+        "author": "Nawaf",
+        "event": "King of Games",
+        "created": "2026-10-10",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/nawaf/RGKpe/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 4.5
+      },
+      {
+        "id": "6acd3df1fecc8defae8b595d",
+        "author": "Seby",
+        "event": "King of Games",
+        "created": "2026-10-12",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/seby/WdAgQ/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 1
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 6.5
+      },
+      {
+        "id": "6abdca78260d78087e4724be",
+        "author": "macopin",
+        "event": null,
+        "created": "2026-09-30",
+        "url": "https://www.duellinksmeta.com/duel-links-grand-prix/156/shining-sarcophagus/macopin/dXliz/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Archfiend's Advent",
+            "count": 1
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 1
+          },
+          {
+            "name": "Retaliating \"C\"",
+            "count": 1
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Turn Silence",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Divine Dragon Knight Felgrand",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 7
+      },
+      {
+        "id": "6aca7773c419fe4c41f8a3e2",
+        "author": "🌆⥉⥉ 𝕻𝖊𝖙𝖊𝖗 𝖀𝖈𝖍𝖎𝖍𝖆",
+        "event": "King of Games",
+        "created": "2026-10-10",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/🌆⥉⥉-𝕻𝖊𝖙𝖊𝖗-𝖀𝖈𝖍𝖎𝖍𝖆/0y4g0/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 1
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Moremarshmallon",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 1
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 2
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 2
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 2
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 7.5
+      },
+      {
+        "id": "6ac67bfac2a0254f0fc275fc",
+        "author": "Reversi",
+        "event": "King of Games",
+        "created": "2026-10-07",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/reversi/0oHVf/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 3
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 1
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 2
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 7.5
+      }
+    ]
   }
 }

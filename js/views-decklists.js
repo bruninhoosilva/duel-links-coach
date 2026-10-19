@@ -3,7 +3,7 @@ import { packPlan } from './packs.js';
 import { MAX_COPIES, listProgress } from './collection.js';
 import { renderOwnTools } from './views-own.js';
 
-const listLabel = (l) => (l.video ? 'From the video' : [l.author, l.event, l.created].filter(Boolean).join(' · ')) + ` · ${l.mainSize} cards`;
+const listLabel = (l) => (l.video ? l.label ?? 'From the video' :[l.author, l.event, l.created].filter(Boolean).join(' · ')) + ` · ${l.mainSize} cards`;
 
 // options.own = false: no copy controls (cards a skill adds to the deck, which nobody owns).
 export function tile(entry, ctx, covered = true, { own: withOwn = true } = {}) {
@@ -91,9 +91,12 @@ export function renderDeckLists(guide, ctx, slug, listId) {
     ? `<p class="muted small">The creator's own list, as shown in the video that this guide follows (${esc(list.author)}, guide updated ${esc(list.created ?? '')}).${source}</p>`
     : `<p class="muted small">List by ${esc(list.author ?? 'unknown')}${list.event ? ` at ${esc(list.event)}` : ''}${list.created ? `, ${esc(list.created)}` : ''}.${source}</p>`;
 
-  const intro = data.lists.some((l) => l.video)
-    ? "The first list is the creator's own list from the video; the others are real lists from recent top decks. Each shows the cards in the quantities they play."
-    : 'Real lists from recent top decks, with the cards in the quantities they play.';
+  const videos = data.lists.filter((l) => l.video).length;
+  const intro = videos > 1
+    ? "The first lists are the creators' own lists from the videos this guide follows; the others are real lists from recent top decks. Each shows the cards in the quantities they play."
+    : videos === 1
+      ? "The first list is the creator's own list from the video; the others are real lists from recent top decks. Each shows the cards in the quantities they play."
+      : 'Real lists from recent top decks, with the cards in the quantities they play.';
   return `
     <p class="muted">${intro} Tap a card to read it. Dashed cards are not covered by this guide yet.</p>
     <div class="chips" role="group" aria-label="Choose a deck list">${picker}</div>
