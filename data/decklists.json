@@ -1,7 +1,123 @@
 {
   "dark-magician": {
-    "defaultId": "6acd6365a5fefa0d3314121d",
+    "defaultId": "video",
     "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "PaeppTricks",
+        "event": "Video list",
+        "created": "2026-10-14",
+        "url": "https://www.youtube.com/watch?v=xNSpbDRTX5g",
+        "tier": null,
+        "main": [
+          {
+            "name": "Timaeus the United Dragon",
+            "count": 3
+          },
+          {
+            "name": "Illusion of Chaos",
+            "count": 3
+          },
+          {
+            "name": "Preparation of Rites",
+            "count": 2
+          },
+          {
+            "name": "Magician's Rod",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 3
+          },
+          {
+            "name": "Summoner Monk",
+            "count": 1
+          },
+          {
+            "name": "Chronicle Sorceress",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Circle",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl",
+            "count": 1
+          },
+          {
+            "name": "Illusion Magic",
+            "count": 1
+          },
+          {
+            "name": "Magician Navigation",
+            "count": 2
+          },
+          {
+            "name": "Magicians' Combination",
+            "count": 1
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Magician's Salvation",
+            "count": 1
+          },
+          {
+            "name": "Eternal Soul",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician the Dragon Knight",
+            "count": 1
+          },
+          {
+            "name": "The Dark Magicians",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Evilswarm Nightmare",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Master of Chaos",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 7,
+        "distance": 0
+      },
       {
         "id": "6acd6365a5fefa0d3314121d",
         "author": "Camus ",
@@ -747,8 +863,116 @@
     ]
   },
   "horus": {
-    "defaultId": "6ac58de29b9b03b503967ed6",
+    "defaultId": "video",
     "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "Sorem",
+        "event": "Video list",
+        "created": "2026-10-16",
+        "url": "https://www.youtube.com/watch?v=0MqWvMDl0XU",
+        "tier": null,
+        "main": [
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 3
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 0
+      },
       {
         "id": "6ac58de29b9b03b503967ed6",
         "author": "Ani",
@@ -1993,8 +2217,128 @@
     ]
   },
   "memento": {
-    "defaultId": "6acd8e9894ed23074264ef1c",
+    "defaultId": "video",
     "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "Sorem",
+        "event": "Video list",
+        "created": "2026-10-14",
+        "url": "https://www.youtube.com/watch?v=NaqoaI6xJ9Q",
+        "tier": null,
+        "main": [
+          {
+            "name": "Mementotlan Angwitch",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Tatsunootoshigo",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Dark Blade",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Ghattic",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Shleepy",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Mace",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Goblin",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Akihiron",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan-Horned Dragon",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Fusion",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Bone Party",
+            "count": 3
+          },
+          {
+            "name": "Mementomictlan",
+            "count": 1
+          },
+          {
+            "name": "Mementoal Tecuhtlica - Combined Creation",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Fracture Dance",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Cranium Burst",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Mementotlan Twin Dragon",
+            "count": 1
+          },
+          {
+            "name": "Mementomictlan Tecuhtlica - Creation King",
+            "count": 2
+          },
+          {
+            "name": "Lyrilusc - Assembled Nightingale",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Guardian Chimera",
+            "count": 1
+          },
+          {
+            "name": "Predaplant Dragostapelia",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 0
+      },
       {
         "id": "6acd8e9894ed23074264ef1c",
         "author": "whattheheal",
@@ -2684,8 +3028,124 @@
     ]
   },
   "red-eyes": {
-    "defaultId": "6aa75fb26142771a12134646",
+    "defaultId": "video",
     "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "IgnisterPRC",
+        "event": "Video list",
+        "created": "2026-10-19",
+        "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+        "tier": null,
+        "main": [
+          {
+            "name": "Red-Eyes Black Dragon",
+            "count": 3
+          },
+          {
+            "name": "Lord of the Red",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Transmigration",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Insight",
+            "count": 2
+          },
+          {
+            "name": "Red-Eyes Black Meteor Dragon",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Spirit",
+            "count": 1
+          },
+          {
+            "name": "Aluber the Jester of Despia",
+            "count": 3
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 1
+          },
+          {
+            "name": "Branded Fusion",
+            "count": 1
+          },
+          {
+            "name": "Branded in Red",
+            "count": 1
+          },
+          {
+            "name": "Branded Regained",
+            "count": 1
+          },
+          {
+            "name": "Branded Beast",
+            "count": 1
+          },
+          {
+            "name": "The Bystial Lubellion",
+            "count": 1
+          },
+          {
+            "name": "Bystial Magnamhut",
+            "count": 1
+          },
+          {
+            "name": "Bystial Druiswurm",
+            "count": 1
+          },
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 2
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Alba-Lenatus the Abyss Dragon",
+            "count": 1
+          },
+          {
+            "name": "Guardian Chimera",
+            "count": 1
+          },
+          {
+            "name": "Khaos Starsource Dragon",
+            "count": 1
+          },
+          {
+            "name": "Despian Quaeritis",
+            "count": 1
+          },
+          {
+            "name": "Hieratic Seal of the Heavenly Spheres",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 0
+      },
       {
         "id": "6aa75fb26142771a12134646",
         "author": "max.kkxe",
