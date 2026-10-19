@@ -1,5 +1,5 @@
 import { renderMoveStrip, renderScenarioBoard } from './views-board.js';
-import { ACTION_LABELS, ROLE_HELP, ROLE_LABELS, ROLE_ORDER, cardButton, describeSkillSource, esc, timeLink } from './dom.js';
+import { ACTION_LABELS, ROLE_HELP, ROLE_LABELS, ROLE_ORDER, buildName, cardButton, describeSkillSource, esc, timeLink } from './dom.js';
 
 const list = (items) => `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>`;
 
@@ -126,8 +126,7 @@ function renderStep(step, number, hasBoard, ctx) {
 }
 
 export function renderPlay(guide, ctx = { cards: {} }) {
-  const blocks = (guide.scenarios ?? [])
-    .map((sc) => {
+  const scenarioHtml = (sc) => {
       const hasBoard = Boolean(sc.start);
       return `
     <section class="scenario" id="sc-${esc(sc.id)}">
@@ -140,7 +139,21 @@ export function renderPlay(guide, ctx = { cards: {} }) {
       <p><strong>End board:</strong> ${esc(sc.endBoard)}</p>
       ${sc.weakSpots ? `<p><strong>Weak spots:</strong> ${esc(sc.weakSpots)}</p>` : ''}
     </section>`;
+  };
+  const scenarios = guide.scenarios ?? [];
+  const intro = '<p class="muted">Follow the steps in order. A "check in game" tag means the step relies on what the creator says, so try it once before you depend on it.</p>';
+
+  // A guide built from several videos groups its play lines by build: one collapsed block per build, opened by the reader.
+  const videos = guide.videoLists ?? [];
+  const grouped = videos.length >= 2 && scenarios.some((sc) => videos.some((v) => v.id === sc.build));
+  if (!grouped) return `${intro}${scenarios.map(scenarioHtml).join('')}`;
+  const ungrouped = scenarios.filter((sc) => !videos.some((v) => v.id === sc.build));
+  const groups = videos
+    .map((v, i) => {
+      const own = scenarios.filter((sc) => sc.build === v.id);
+      if (own.length === 0) return '';
+      return `<details class="build-group" data-build="${esc(v.id)}"><summary>${esc(buildName(i, v))}</summary><div class="build-body">${own.map(scenarioHtml).join('')}</div></details>`;
     })
     .join('');
-  return `<p class="muted">Follow the steps in order. A "check in game" tag means the step relies on what the creator says, so try it once before you depend on it.</p>${blocks}`;
+  return `${intro}<p class="muted">This guide follows ${videos.length} videos. Open the build you want to play.</p>${ungrouped.map(scenarioHtml).join('')}${groups}`;
 }

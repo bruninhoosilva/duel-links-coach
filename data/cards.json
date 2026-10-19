@@ -1,4 +1,1134 @@
 {
+  "Book of Eclipse": {
+    "name": "Book of Eclipse",
+    "pt": "Livro do Eclipse",
+    "image": "img/cards/book-of-eclipse.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Change all face-up monsters on the field to face-down Defense Position. During the End Phase of this turn, change as many face-down Defense Position monsters your opponent controls as possible to face-up Defense Position, then your opponent draws cards equal to the number of monsters changed face-up by this effect.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Majestic Magic",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/majestic-magic/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
+      }
+    ]
+  },
+  "Chimeratech Fortress Dragon": {
+    "name": "Chimeratech Fortress Dragon",
+    "pt": "Dragão Fortaleza Quimeratech",
+    "image": "img/cards/chimeratech-fortress-dragon.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Cyber Dragon\" + 1+ Machine monsters\nCannot be used as Fusion Material. Must first be Special Summoned (from your Extra Deck) by sending the above cards from either field to the GY. The original ATK of this card becomes 1000 x the number of materials used for its Special Summon.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Ranked Duels Ticket",
+        "url": null
+      }
+    ]
+  },
+  "Chimeratech Megafleet Dragon": {
+    "name": "Chimeratech Megafleet Dragon",
+    "pt": "Dragão Megafrota Quimeratech",
+    "image": "img/cards/chimeratech-megafleet-dragon.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 10,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "1 \"Cyber Dragon\" monster + 1+ monsters in the Extra Monster Zone\nCannot be used as Fusion Material. Must first be Special Summoned (from your Extra Deck) by sending the above cards from either field to the GY. The original ATK of this card becomes 1200 x the number of materials used for its Special Summon.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Chimeratech Rampage Dragon": {
+    "name": "Chimeratech Rampage Dragon",
+    "pt": "Dragão Enfurecido Quimeratech",
+    "image": "img/cards/chimeratech-rampage-dragon.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 5,
+    "atk": 2100,
+    "def": 1600,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "2+ \"Cyber Dragon\" monsters\r\nA Fusion Summon of this card can only be done with the above Fusion Materials. When this card is Fusion Summoned: You can target Spells/Traps on the field, up to the number of Fusion Materials used for its Fusion Summon; destroy them. Once per turn: You can send up to 2 LIGHT Machine monsters from your Deck to the GY, and if you do, for each monster sent to the GY, this card gains 1 additional attack during each Battle Phase this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Horizon",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/future-horizon/"
+      },
+      {
+        "kind": "set",
+        "name": "Cyber Style Extreme",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cyber-style-extreme/"
+      },
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      }
+    ]
+  },
+  "Chronomaly Vimana": {
+    "name": "Chronomaly Vimana",
+    "pt": "Cronomalia Vimana",
+    "image": "img/cards/chronomaly-vimana.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 2300,
+    "def": 2600,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 5 monsters\r\nOnce per turn (Quick Effect): You can target 1 face-up monster on the field and 1 Xyz Monster or \"Chronomaly\" monster in your GY; that monster on the field gains half the ATK of that monster in the GY (until the end of this turn), then attach that monster from the GY to this card as material. Once per turn, when your opponent activates a monster effect (Quick Effect): You can detach 2 materials from this card; negate the activation.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini: Vol. 06",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "Solflare Lightning",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/solflare-lightning/"
+      }
+    ]
+  },
+  "Cyber Dragon": {
+    "name": "Cyber Dragon",
+    "pt": "Dragão Cibernético",
+    "image": "img/cards/cyber-dragon.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 2100,
+    "def": 1600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If only your opponent controls a monster, you can Special Summon this card (from your hand).",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Cybernetic Rebellion",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cybernetic-rebellion/"
+      },
+      {
+        "kind": "set",
+        "name": "Crossing Darkness",
+        "boxType": "Pickup Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/pickup-box-crossing-darkness/"
+      },
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Cyber Dragon Core": {
+    "name": "Cyber Dragon Core",
+    "pt": "Núcleo de Dragão Cibernético",
+    "image": "img/cards/cyber-dragon-core.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 2,
+    "atk": 400,
+    "def": 1500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When this card is Normal Summoned: Add 1 \"Cyber\" Spell/Trap from your Deck to your hand. If only your opponent controls a monster: You can banish this card from your GY; Special Summon 1 \"Cyber Dragon\" monster from your Deck. You can only use 1 \"Cyber Dragon Core\" effect per turn, and only once that turn. This card's name becomes \"Cyber Dragon\" while on the field or in the GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Horizon",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/future-horizon/"
+      },
+      {
+        "kind": "set",
+        "name": "Cyber Style Extreme",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cyber-style-extreme/"
+      },
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      }
+    ]
+  },
+  "Cyber Dragon Herz": {
+    "name": "Cyber Dragon Herz",
+    "pt": "Dragão Cibernético Herz",
+    "image": "img/cards/cyber-dragon-herz.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 1,
+    "atk": 100,
+    "def": 100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "This card's name becomes \"Cyber Dragon\" while on the field or in the GY. You can only use 1 of the following effects of \"Cyber Dragon Herz\" per turn, and only once that turn.\r\n● If this card is Special Summoned: You can make this card's Level become 5 until the end of this turn, also, you cannot Special Summon monsters for the rest of this turn, except Machine monsters. \r\n● If this card is sent to the GY: You can add 1 other \"Cyber Dragon\" from your Deck or GY to your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Starving Venom",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/starving-venom/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Cyber Dragon Infinity": {
+    "name": "Cyber Dragon Infinity",
+    "pt": "Dragão Cibernético do Infinito",
+    "image": "img/cards/cyber-dragon-infinity.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 6,
+    "atk": 2100,
+    "def": 1600,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "3 Level 6 LIGHT Machine monsters\r\nOnce per turn, you can also Xyz Summon \"Cyber Dragon Infinity\" by using \"Cyber Dragon Nova\" you control as material. (Transfer its materials to this card.) Gains 200 ATK for each material attached to it. Once per turn: You can target 1 face-up Attack Position monster on the field; attach it to this card as material. Once per turn, when a card or effect is activated (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, destroy it.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "Cyber Dragon Nachster": {
+    "name": "Cyber Dragon Nachster",
+    "pt": "Dragão Cibernético Nachster",
+    "image": "img/cards/cyber-dragon-nachster.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 1,
+    "atk": 200,
+    "def": 200,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "This card's name becomes \"Cyber Dragon\" while on the field or in the GY. You can discard 1 other monster; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can target 1 Machine monster with 2100 ATK or DEF in your GY; Special Summon it, also, you cannot Special Summon monsters for the rest of this turn, except Machine monsters. You can only use each effect of \"Cyber Dragon Nachster\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Cyber Style Extreme",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cyber-style-extreme/"
+      },
+      {
+        "kind": "set",
+        "name": "Crossing Darkness",
+        "boxType": "Pickup Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/pickup-box-crossing-darkness/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Cyber Dragon Nova": {
+    "name": "Cyber Dragon Nova",
+    "pt": "Dragão Cibernético Nova",
+    "image": "img/cards/cyber-dragon-nova.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 2100,
+    "def": 1600,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 5 Machine monsters\r\nOnce per turn: You can detach 1 material from this card, then target 1 \"Cyber Dragon\" in your GY; Special Summon that target. Once per turn (Quick Effect): You can banish 1 \"Cyber Dragon\" from your hand or face-up from your Monster Zone; this card gains 2100 ATK until the end of this turn. If this card in your possession is sent to your GY by your opponent's card effect: You can Special Summon 1 Machine Fusion Monster from your Extra Deck.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Cyber Style Extreme",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cyber-style-extreme/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Cyber Dragon Sieger": {
+    "name": "Cyber Dragon Sieger",
+    "pt": "Dragão Cibernético Sieger",
+    "image": "img/cards/cyber-dragon-sieger.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": null,
+    "atk": 2100,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 Machine monsters, including \"Cyber Dragon\"\nThis card's name becomes \"Cyber Dragon\" while on the field or in the GY. During each Battle Phase, if this card has not declared an attack (Quick Effect): You can target 1 Machine monster you control with 2100 or more ATK; for the rest of this turn, that monster gains 2100 ATK/DEF, also neither player takes any battle damage from attacks involving this monster. You can only use this effect of \"Cyber Dragon Sieger\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Starving Venom",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/starving-venom/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Cyber Emergency": {
+    "name": "Cyber Emergency",
+    "pt": "Emergência Cibernética",
+    "image": "img/cards/cyber-emergency.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Add 1 LIGHT Machine monster that cannot be Normal Summoned/Set, or 1 \"Cyber Dragon\" monster, from your Deck to your hand. If the activation of this card in its owner's possession was negated by your opponent's card effect and sent to your GY: You can discard 1 card; add this card to your hand. You can only activate 1 \"Cyber Emergency\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Starving Venom",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/starving-venom/"
+      },
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      }
+    ]
+  },
+  "Cyber End Dragon": {
+    "name": "Cyber End Dragon",
+    "pt": "Dragão Final Cibernético",
+    "image": "img/cards/cyber-end-dragon.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 10,
+    "atk": 4000,
+    "def": 2800,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Cyber Dragon\" + \"Cyber Dragon\" + \"Cyber Dragon\"\r\nA Fusion Summon of this card can only be done with the above Fusion Materials. If this card attacks a Defense Position monster, inflict piercing battle damage.",
+    "obtain": []
+  },
+  "Cyber Jormungardr": {
+    "name": "Cyber Jormungardr",
+    "pt": null,
+    "image": "img/cards/cyber-jormungardr.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 1000,
+    "def": 2100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Cannot be Normal Summoned/Set. Must be Special Summoned by card effect. If your opponent controls a monster: You can Special Summon this card from your hand, then take 1 \"Cyber Dragon\" from your Deck, and either Special Summon it or equip it to this card as an Equip Spell, also you cannot Special Summon for the rest of this turn, except Machine monsters. You can return 1 \"Cyber Dragon\" you control to the hand; add 1 \"Polymerization\" from your Deck or GY to your hand. You can only use each effect of \"Cyber Jormungardr\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Cyber Repair Plant": {
+    "name": "Cyber Repair Plant",
+    "pt": "Usina de Reparos Cibernética",
+    "image": "img/cards/cyber-repair-plant.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "If \"Cyber Dragon\" is in your GY: You can activate 1 of these effects. If you have 3 or more \"Cyber Dragon\" in your GY at this card's activation, you can activate both effects and resolve in sequence. You can only activate 1 \"Cyber Repair Plant\" per turn.\n● Add 1 LIGHT Machine monster from your Deck to your hand.\n● Target 1 LIGHT Machine monster in your GY; shuffle that target into your Deck.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Drop",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      },
+      {
+        "kind": "other",
+        "name": "Ex Card Trader",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Choose Your Gift Campaign Ticket",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Zane Truesdale Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with SR Tickets",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Cyber Revsystem": {
+    "name": "Cyber Revsystem",
+    "pt": "Revsistema Cibernético",
+    "image": "img/cards/cyber-revsystem.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Special Summon 1 \"Cyber Dragon\" from your hand or GY. It cannot be destroyed by card effects.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Cyber Style Extreme",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cyber-style-extreme/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Cyberdark Chimera": {
+    "name": "Cyberdark Chimera",
+    "pt": "Quimera Cibersombria",
+    "image": "img/cards/cyberdark-chimera.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 800,
+    "def": 2100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can discard 1 Spell/Trap; add 1 \"Power Bond\" from your Deck to your hand, you can only use Dragon or Machine \"Cyber\" monsters as Fusion Material this turn, also once when you Fusion Summon this turn, you can also banish monster(s) from your GY as material. If this card is sent to the GY: You can send 1 \"Cyberdark\" monster from your Deck to the GY, with a different name from the cards in your GY. You can only use each effect of \"Cyberdark Chimera\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Cyberdark Realm": {
+    "name": "Cyberdark Realm",
+    "pt": "Reino Cibersombrio",
+    "image": "img/cards/cyberdark-realm.jpg",
+    "type": "Spell",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "When this card is activated: You can add 1 \"Cyberdark\" monster from your Deck to your hand, with a different name from the cards in your GY. During your Main Phase, you can: Immediately after this effect resolves, Normal Summon 1 \"Cyberdark\" monster. You can only use the previous effect of \"Cyberdark Realm\" once per turn. If you equip a monster from your GY by the effect of a \"Cyberdark\" monster that activated when it was Normal or Special Summoned, you can equip from your opponent's GY instead. You can only activate 1 \"Cyberdark Realm\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Cyberdark Wurm": {
+    "name": "Cyberdark Wurm",
+    "pt": null,
+    "image": "img/cards/cyberdark-wurm.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 5,
+    "atk": 800,
+    "def": 2100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "This card's name becomes \"Cyber Dragon\" while on the field or in the GY. If this card is in your hand or GY, and you have another Machine \"Cyber\" monster in your field or GY: You can send 1 \"Cyber Dragon\" monster from your hand or Deck to the GY; Special Summon this card, then you can add 1 \"Cyber\" Spell/Trap from your GY to your hand. You can only use this effect of \"Cyberdark Wurm\" once per Duel.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Cyberload Fusion": {
+    "name": "Cyberload Fusion",
+    "pt": "Fusão Cibercarga",
+    "image": "img/cards/cyberload-fusion.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Fusion Summon 1 Fusion Monster from your Extra Deck that lists a \"Cyber Dragon\" monster as material, by shuffling the Fusion Materials listed on it into the Deck, from among your cards on the field and/or your face-up banished cards, but monsters you control cannot attack for the rest of this turn, except that Fusion Summoned monster. You can only activate 1 \"Cyberload Fusion\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Horizon",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/future-horizon/"
+      },
+      {
+        "kind": "set",
+        "name": "Cyber Style Extreme",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/cyber-style-extreme/"
+      },
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      }
+    ]
+  },
+  "Cybernetic Overflow": {
+    "name": "Cybernetic Overflow",
+    "pt": "Transbordamento Cibernético",
+    "image": "img/cards/cybernetic-overflow.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Banish \"Cyber Dragon(s)\" with different Levels from your hand, face-up field, and/or GY, then destroy an equal number of cards your opponent controls. If this card on the field is destroyed by card effect: Add 1 \"Cyber\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Cybernetic Overflow\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Horizon",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/future-horizon/"
+      },
+      {
+        "kind": "set",
+        "name": "Crossing Darkness",
+        "boxType": "Pickup Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/pickup-box-crossing-darkness/"
+      },
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      },
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Droll & Lock Bird": {
+    "name": "Droll & Lock Bird",
+    "pt": "Droll & Pássaro Fechadura",
+    "image": "img/cards/droll-lock-bird.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "WIND",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
+    "obtain": []
+  },
+  "Forbidden Droplet": {
+    "name": "Forbidden Droplet",
+    "pt": "Gota Proibida",
+    "image": "img/cards/forbidden-droplet.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Send any number of other cards from your hand and/or field to the GY; choose that many Effect Monsters your opponent controls, and until the end of this turn, their ATK is halved, also their effects are negated. In response to this card's activation, your opponent cannot activate cards, or the effects of cards, with the same original type (Monster/Spell/Trap) as the cards sent to the GY to activate this card. You can only activate 1 \"Forbidden Droplet\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Rainbow Overdrive",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/rainbow-overdrive/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
+      }
+    ]
+  },
+  "Galaxy Soldier": {
+    "name": "Galaxy Soldier",
+    "pt": "Soldado das Galáxias",
+    "image": "img/cards/galaxy-soldier.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 5,
+    "atk": 2000,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can send 1 other LIGHT monster from your hand to the GY; Special Summon this card from your hand in Defense Position. When this card is Special Summoned: You can add 1 \"Galaxy\" monster from your Deck to your hand. You can only use this effect of \"Galaxy Soldier\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Tachyon of Galaxy",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/tachyon-of-galaxy/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
+      }
+    ]
+  },
+  "Ghost Ogre & Snow Rabbit": {
+    "name": "Ghost Ogre & Snow Rabbit",
+    "pt": "Ogro Fantasma & Coelho da Neve",
+    "image": "img/cards/ghost-ogre-snow-rabbit.jpg",
+    "type": "Monster",
+    "race": "Psychic",
+    "attribute": "LIGHT",
+    "level": 3,
+    "atk": 0,
+    "def": 1800,
+    "monsterType": [
+      "Tuner",
+      "Effect"
+    ],
+    "text": "When a monster on the field activates its effect, or when a Spell/Trap that is already face-up on the field activates its effect (Quick Effect): You can send this card from your hand or field to the GY; destroy that card on the field. You can only use this effect of \"Ghost Ogre & Snow Rabbit\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Heosvarog the Mechanical Dawn": {
+    "name": "Heosvarog the Mechanical Dawn",
+    "pt": null,
+    "image": "img/cards/heosvarog-the-mechanical-dawn.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 0,
+    "def": 2800,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "2 LIGHT Machine monsters\nIf this card is Fusion Summoned: You can activate this effect; during the Standby Phase of the next turn, add 1 card from your GY to your hand, with an effect that Fusion Summons a monster(s). When your opponent activates a Spell/Trap Card or effect (Quick Effect): You can banish 1 face-up LIGHT Machine monster you control or 2 LIGHT Machine monsters from your GY; negate the activation. You can only use each effect of \"Heosvarog the Mechanical Dawn\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "I:P Masquerena": {
+    "name": "I:P Masquerena",
+    "pt": "I:P Mascarena",
+    "image": "img/cards/i-p-masquerena.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 800,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 non-Link Monsters\r\nDuring your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster using materials you control, including this card. You can only use this effect of \"I:P Masquerena\" once per turn. A Link Monster that used this card as material cannot be destroyed by your opponent's card effects.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Infinite Impermanence": {
+    "name": "Infinite Impermanence",
+    "pt": "Impermanência Infinita",
+    "image": "img/cards/infinite-impermanence.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      }
+    ]
+  },
+  "Jizukiru, the Star Destroying Kaiju": {
+    "name": "Jizukiru, the Star Destroying Kaiju",
+    "pt": "Jizukiru, o Kaiju Destruidor de Estrelas",
+    "image": "img/cards/jizukiru-the-star-destroying-kaiju.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 10,
+    "atk": 3300,
+    "def": 2600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control. If your opponent controls a \"Kaiju\" monster, you can Special Summon this card (from your hand) in Attack Position. You can only control 1 \"Kaiju\" monster. When a card or effect is activated that targets exactly 1 card (and no other cards) (Quick Effect): You can remove 3 Kaiju Counters from anywhere on the field; negate that effect, and if you do, you can destroy 1 card on the field.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Majestic Magic",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/majestic-magic/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
+      }
+    ]
+  },
+  "Mulcharmy Fuwalos": {
+    "name": "Mulcharmy Fuwalos",
+    "pt": null,
+    "image": "img/cards/mulcharmy-fuwalos.jpg",
+    "type": "Monster",
+    "race": "Winged Beast",
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 100,
+    "def": 600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n● Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Nibiru, the Primal Being": {
+    "name": "Nibiru, the Primal Being",
+    "pt": "Nibiru, o Ser Primitivo",
+    "image": "img/cards/nibiru-the-primal-being.jpg",
+    "type": "Monster",
+    "race": "Rock",
+    "attribute": "LIGHT",
+    "level": 11,
+    "atk": 3000,
+    "def": 600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini: Vol. 06",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Polymerization": {
+    "name": "Polymerization",
+    "pt": "Polimerização",
+    "image": "img/cards/polymerization.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Jaden/Yubel",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yubel/"
+      },
+      {
+        "kind": "character",
+        "name": "Chazz Princeton",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/chazz-princeton/"
+      },
+      {
+        "kind": "character",
+        "name": "Syrus Truesdale",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/syrus-truesdale/"
+      },
+      {
+        "kind": "character",
+        "name": "Alexis Rhodes",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/alexis-rhodes/"
+      },
+      {
+        "kind": "character",
+        "name": "Zane Truesdale",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
+      },
+      {
+        "kind": "character",
+        "name": "Joey Wheeler",
+        "level": "Level 5",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/joey-wheeler/"
+      },
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Sora Perse",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/sora-perse/"
+      },
+      {
+        "kind": "set",
+        "name": "Red-Eyes Inferno",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/red-eyes-inferno/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
+        "boxType": "Structure Deck",
+        "amount": 1,
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Aster Phoenix",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/aster-phoenix/"
+      }
+    ]
+  },
+  "Power Bond": {
+    "name": "Power Bond",
+    "pt": "Vínculo de Poder",
+    "image": "img/cards/power-bond.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Fusion Summon 1 Machine Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material, and it gains ATK equal to its original ATK. During the End Phase of the turn this card is activated, you take damage equal to the amount of ATK gained from this effect at the time of the Summon.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      }
+    ]
+  },
+  "S:P Little Knight": {
+    "name": "S:P Little Knight",
+    "pt": null,
+    "image": "img/cards/s-p-little-knight.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 1600,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 Effect Monsters\nIf this card is Link Summoned using a Fusion, Synchro, Xyz, or Link Monster as material: You can target 1 card on the field or in either GY; banish it, also your monsters cannot attack directly this turn. When your opponent activates a card or effect (Quick Effect): You can target 2 face-up monsters on the field, including a monster you control; banish both until the End Phase. You can only use each effect of \"S:P Little Knight\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Therion \"King\" Regulus": {
+    "name": "Therion \"King\" Regulus",
+    "pt": "Therion \"Rei\" Regulus",
+    "image": "img/cards/therion-king-regulus.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "EARTH",
+    "level": 8,
+    "atk": 2800,
+    "def": 1600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can only use each of the following effects of \"Therion \"King\" Regulus\" once per turn.\r\n● You can target 1 \"Therion\" monster or 1 Machine monster in your GY; Special Summon this card from your hand, and if you do, equip that monster to this card.\r\n● When your opponent activates a card or effect (Quick Effect): You can send 1 \"Therion\" Monster Card from your hand or face-up field to the GY; negate that effect.\r\nA \"Therion\" monster equipped with this card gains 700 ATK, also it can activate the 2nd effect listed above as if it were \"Therion \"King\" Regulus\".",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destroyer Phoenix",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/destroyer-phoenix/"
+      }
+    ]
+  },
   "Angel O7": {
     "name": "Angel O7",
     "pt": "Anjo 07",
@@ -311,22 +1441,6 @@
       }
     ]
   },
-  "Droll & Lock Bird": {
-    "name": "Droll & Lock Bird",
-    "pt": "Droll & Pássaro Fechadura",
-    "image": "img/cards/droll-lock-bird.jpg",
-    "type": "Monster",
-    "race": "Spellcaster",
-    "attribute": "WIND",
-    "level": 1,
-    "atk": 0,
-    "def": 0,
-    "monsterType": [
-      "Effect"
-    ],
-    "text": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
-    "obtain": []
-  },
   "Eternal Soul": {
     "name": "Eternal Soul",
     "pt": "Alma Eterna",
@@ -381,42 +1495,6 @@
       }
     ]
   },
-  "Forbidden Droplet": {
-    "name": "Forbidden Droplet",
-    "pt": "Gota Proibida",
-    "image": "img/cards/forbidden-droplet.jpg",
-    "type": "Spell",
-    "race": "Quick-Play",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "monsterType": [],
-    "text": "Send any number of other cards from your hand and/or field to the GY; choose that many Effect Monsters your opponent controls, and until the end of this turn, their ATK is halved, also their effects are negated. In response to this card's activation, your opponent cannot activate cards, or the effects of cards, with the same original type (Monster/Spell/Trap) as the cards sent to the GY to activate this card. You can only activate 1 \"Forbidden Droplet\" per turn.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Rainbow Overdrive",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/rainbow-overdrive/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Vol.07",
-        "boxType": "Selection Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-07/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box: WCS 2026",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
-      }
-    ]
-  },
   "Ghost Belle & Haunted Mansion": {
     "name": "Ghost Belle & Haunted Mansion",
     "pt": "Fantasma Belle & Mansão Assombrada",
@@ -439,56 +1517,6 @@
         "boxType": "Selection Box",
         "amount": 1,
         "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
-      }
-    ]
-  },
-  "Ghost Ogre & Snow Rabbit": {
-    "name": "Ghost Ogre & Snow Rabbit",
-    "pt": "Ogro Fantasma & Coelho da Neve",
-    "image": "img/cards/ghost-ogre-snow-rabbit.jpg",
-    "type": "Monster",
-    "race": "Psychic",
-    "attribute": "LIGHT",
-    "level": 3,
-    "atk": 0,
-    "def": 1800,
-    "monsterType": [
-      "Tuner",
-      "Effect"
-    ],
-    "text": "When a monster on the field activates its effect, or when a Spell/Trap that is already face-up on the field activates its effect (Quick Effect): You can send this card from your hand or field to the GY; destroy that card on the field. You can only use this effect of \"Ghost Ogre & Snow Rabbit\" once per turn.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Selection Box Mini Vol. 8",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
-      }
-    ]
-  },
-  "I:P Masquerena": {
-    "name": "I:P Masquerena",
-    "pt": "I:P Mascarena",
-    "image": "img/cards/i-p-masquerena.jpg",
-    "type": "Monster",
-    "race": "Cyberse",
-    "attribute": "DARK",
-    "level": null,
-    "atk": 800,
-    "def": null,
-    "monsterType": [
-      "Link",
-      "Effect"
-    ],
-    "text": "2 non-Link Monsters\r\nDuring your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster using materials you control, including this card. You can only use this effect of \"I:P Masquerena\" once per turn. A Link Monster that used this card as material cannot be destroyed by your opponent's card effects.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 04",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
       }
     ]
   },
@@ -815,68 +1843,6 @@
       }
     ]
   },
-  "Mulcharmy Fuwalos": {
-    "name": "Mulcharmy Fuwalos",
-    "pt": null,
-    "image": "img/cards/mulcharmy-fuwalos.jpg",
-    "type": "Monster",
-    "race": "Winged Beast",
-    "attribute": "WIND",
-    "level": 4,
-    "atk": 100,
-    "def": 600,
-    "monsterType": [
-      "Effect"
-    ],
-    "text": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n● Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Destruction Geas",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
-      }
-    ]
-  },
-  "Nibiru, the Primal Being": {
-    "name": "Nibiru, the Primal Being",
-    "pt": "Nibiru, o Ser Primitivo",
-    "image": "img/cards/nibiru-the-primal-being.jpg",
-    "type": "Monster",
-    "race": "Rock",
-    "attribute": "LIGHT",
-    "level": 11,
-    "atk": 3000,
-    "def": 600,
-    "monsterType": [
-      "Effect"
-    ],
-    "text": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Selection Box Mini: Vol. 06",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
-      },
-      {
-        "kind": "set",
-        "name": "The Ultimate Chaos",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 04",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
-      }
-    ]
-  },
   "Number 68: Sanaphond the Sky Prison": {
     "name": "Number 68: Sanaphond the Sky Prison",
     "pt": "Número 68: Sanaphond, a Prisão Celeste",
@@ -1048,31 +2014,6 @@
         "name": "Special Campaigns",
         "url": null
       },
-      {
-        "kind": "set",
-        "name": "Selection Box Mini Vol. 8",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
-      }
-    ]
-  },
-  "S:P Little Knight": {
-    "name": "S:P Little Knight",
-    "pt": null,
-    "image": "img/cards/s-p-little-knight.jpg",
-    "type": "Monster",
-    "race": "Warrior",
-    "attribute": "DARK",
-    "level": null,
-    "atk": 1600,
-    "def": null,
-    "monsterType": [
-      "Link",
-      "Effect"
-    ],
-    "text": "2 Effect Monsters\nIf this card is Link Summoned using a Fusion, Synchro, Xyz, or Link Monster as material: You can target 1 card on the field or in either GY; banish it, also your monsters cannot attack directly this turn. When your opponent activates a card or effect (Quick Effect): You can target 2 face-up monsters on the field, including a monster you control; banish both until the End Phase. You can only use each effect of \"S:P Little Knight\" once per turn.",
-    "obtain": [
       {
         "kind": "set",
         "name": "Selection Box Mini Vol. 8",
@@ -1776,28 +2717,6 @@
       }
     ]
   },
-  "Infinite Impermanence": {
-    "name": "Infinite Impermanence",
-    "pt": "Impermanência Infinita",
-    "image": "img/cards/infinite-impermanence.jpg",
-    "type": "Trap",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "monsterType": [],
-    "text": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Selection Box Mini Vol.07",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
-      }
-    ]
-  },
   "King's Sarcophagus": {
     "name": "King's Sarcophagus",
     "pt": null,
@@ -2076,42 +2995,6 @@
         "boxType": "Main Box",
         "amount": 3,
         "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
-      }
-    ]
-  },
-  "Book of Eclipse": {
-    "name": "Book of Eclipse",
-    "pt": "Livro do Eclipse",
-    "image": "img/cards/book-of-eclipse.jpg",
-    "type": "Spell",
-    "race": "Quick-Play",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "monsterType": [],
-    "text": "Change all face-up monsters on the field to face-down Defense Position. During the End Phase of this turn, change as many face-down Defense Position monsters your opponent controls as possible to face-up Defense Position, then your opponent draws cards equal to the number of monsters changed face-up by this effect.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Majestic Magic",
-        "boxType": "Main Box",
-        "amount": 2,
-        "url": "https://www.duellinksmeta.com/sets/majestic-magic/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Mini Vol.07",
-        "boxType": "Selection Box Mini",
-        "amount": 2,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box: WCS 2026",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-wcs2026/"
       }
     ]
   },
@@ -4250,98 +5133,6 @@
         "boxType": "Main Box",
         "amount": 3,
         "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
-      }
-    ]
-  },
-  "Polymerization": {
-    "name": "Polymerization",
-    "pt": "Polimerização",
-    "image": "img/cards/polymerization.jpg",
-    "type": "Spell",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "monsterType": [],
-    "text": "Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material.",
-    "obtain": [
-      {
-        "kind": "character",
-        "name": "Jaden/Yubel",
-        "level": "Starter Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yubel/"
-      },
-      {
-        "kind": "character",
-        "name": "Chazz Princeton",
-        "level": "Starter Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/chazz-princeton/"
-      },
-      {
-        "kind": "character",
-        "name": "Syrus Truesdale",
-        "level": "Starter Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/syrus-truesdale/"
-      },
-      {
-        "kind": "character",
-        "name": "Alexis Rhodes",
-        "level": "Starter Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/alexis-rhodes/"
-      },
-      {
-        "kind": "character",
-        "name": "Zane Truesdale",
-        "level": "Starter Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/zane-truesdale/"
-      },
-      {
-        "kind": "character",
-        "name": "Joey Wheeler",
-        "level": "Level 5",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/joey-wheeler/"
-      },
-      {
-        "kind": "other",
-        "name": "Card Trader",
-        "url": null
-      },
-      {
-        "kind": "other",
-        "name": "Acquirable with Tickets",
-        "url": null
-      },
-      {
-        "kind": "character",
-        "name": "Sora Perse",
-        "level": "Starter Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/sora-perse/"
-      },
-      {
-        "kind": "set",
-        "name": "Red-Eyes Inferno",
-        "boxType": "Structure Deck EX",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/red-eyes-inferno/"
-      },
-      {
-        "kind": "other",
-        "name": "Character Deck Respect Orb Exchange",
-        "url": null
-      },
-      {
-        "kind": "set",
-        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
-        "boxType": "Structure Deck",
-        "amount": 1,
-        "url": null
-      },
-      {
-        "kind": "character",
-        "name": "Aster Phoenix",
-        "level": "Character Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/aster-phoenix/"
       }
     ]
   },

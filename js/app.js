@@ -71,6 +71,33 @@ function markNav(routeName) {
   }
 }
 
+// The play guide of a deck built from several videos has one collapsed block per build. The ones the reader opened stay
+// open when the page is drawn again, and a link to one play line opens the build that holds it.
+const openBuilds = new Set(); // "slug|build id"
+function restoreBuilds(route) {
+  if (!currentSlug) return;
+  for (const d of app.querySelectorAll('details.build-group')) {
+    if (openBuilds.has(`${currentSlug}|${d.dataset.build}`)) d.open = true;
+  }
+  const target = route.anchor ? document.getElementById(`sc-${route.anchor}`) : null;
+  const group = target?.closest('details.build-group');
+  if (group) {
+    group.open = true;
+    openBuilds.add(`${currentSlug}|${group.dataset.build}`);
+  }
+}
+app.addEventListener(
+  'toggle',
+  (event) => {
+    const d = event.target;
+    if (!currentSlug || !d.matches?.('details.build-group')) return;
+    const key = `${currentSlug}|${d.dataset.build}`;
+    if (d.open) openBuilds.add(key);
+    else openBuilds.delete(key);
+  },
+  true,
+);
+
 function render({ keepScroll = false } = {}) {
   const route = parseRoute(location.hash);
   const scroll = window.scrollY;
@@ -117,6 +144,7 @@ function render({ keepScroll = false } = {}) {
   }
   document.title = title;
   markNav(route.name);
+  restoreBuilds(route);
 
   if (keepScroll) window.scrollTo(0, scroll);
   else if (route.anchor && document.getElementById(`sc-${route.anchor}`)) document.getElementById(`sc-${route.anchor}`).scrollIntoView();

@@ -327,3 +327,11 @@ main p, main li, main dd { max-width: 78ch; }
 .builds-table th, .builds-table td { vertical-align: top; }
 .builds-table thead th { color: var(--gold-hi); text-transform: none; letter-spacing: 0; font-size: .9rem; }
 .builds-table tbody th { color: var(--text); font-size: .95rem; text-transform: none; letter-spacing: 0; text-align: left; white-space: nowrap; }
+
+/* Play guide of a deck with several videos: one collapsed block per build */
+.build-group { margin: 1rem 0; border: 1px solid var(--line-gold); border-radius: var(--radius); background: linear-gradient(180deg, var(--surface-hi), var(--surface)); box-shadow: 0 6px 18px rgba(0, 0, 0, .3); }
+.build-group > summary { padding: .85rem 1.1rem; cursor: pointer; font-family: "Cinzel", Georgia, serif; font-size: 1.1rem; font-weight: 700; color: var(--gold-hi); }
+.build-group > summary:hover { color: var(--text); }
+.build-group[open] > summary { border-bottom: 1px solid var(--line-gold); }
+.build-body { padding: 0 1rem 1rem; }
+.build-body .scenario { margin: 1rem 0 0; }

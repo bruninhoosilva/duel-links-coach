@@ -9,6 +9,9 @@ export const slugify = (text) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
+// "Build 2 (Name of the video)": how a guide built from several videos names each build (index counts from 0).
+export const buildName = (index, video) => `Build ${index + 1} (${video.title ?? video.creator ?? 'video'})`;
+
 export function parseTimestamp(text) {
   const parts = String(text).trim().split(':').map(Number);
   if (parts.length < 2 || parts.length > 3 || parts.some((p) => !Number.isFinite(p) || p < 0)) return null;

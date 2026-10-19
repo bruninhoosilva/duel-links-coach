@@ -1,4 +1,962 @@
 {
+  "cyber-dragon": {
+    "deck": "Cyber Dragon",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-19",
+    "featuredCard": "Cyber Dragon",
+    "skill": {
+      "name": "I'll Show You Perfection!",
+      "enablerCards": [],
+      "trigger": "Effects 2 and 3 can be used once per Duel; effect 1 (at the start of your first turn it sends a Cyber Dragon from the deck to the Graveyard and sets your effect damage to 0) is automatic. For effect 2 you need Cyber Dragon or Cyber Jormungardr in your hand, so both builds play Cyber Jormungardr ×3 and several Cyber Dragons.",
+      "enabler": "Effect 2: reveal Cyber Dragon or Cyber Jormungardr from your hand, add up to 2 Level 2 or lower Cyber Dragon monsters (Core, Nachster, Herz) and Set Cybernetic Overflow from outside the deck. Effect 3 (turn 2 onward): add up to 3 Cyber Dragon from your deck and/or Graveyard, but you cannot activate Spells other than Polymerization and Power Bond until you Special Summon Cyber End Dragon.",
+      "adds": [
+        {
+          "card": "Cybernetic Overflow",
+          "copies": 1,
+          "note": "Set from outside your deck by effect 2 (even going first): it banishes Cyber Dragons with different Levels to destroy as many of the opponent's cards."
+        }
+      ]
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "Rei dos Jogos: Cyber Dragon voltou com tudo! (Portuguese deck explanation and replays)",
+        "creator": "YRalps",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M"
+      },
+      {
+        "title": "Cyber Dragon está insano! Aprenda a jogar com os novos suportes (Portuguese deck guide and replays)",
+        "creator": "IgnisterPRC",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=LgI1SkC4R4Y"
+      }
+    ],
+    "gamePlan": "Cyber Dragon is a Machine deck built around the new Cyber support: you reveal Cyber Dragon or Cyber Jormungardr for the skill, add small Cyber Dragons, and use Cyber Dragon Core, Cyberdark Realm and Cyberdark Chimera to search Power Bond, I:P Masquerena and the Rank 5 and Fusion Monsters of the Extra Deck. The goal is a board with an omni-negate (Cyber Dragon Infinity), a monster negate (Chronomaly Vimana), a spell/trap negate (Heosvarog the Mechanical Dawn) and I:P Masquerena into S:P Little Knight on the opponent's turn, with Power Bond into Cyber End Dragon (8000 ATK) as the finisher for turn 2. The guide follows two creators: Build 1 (YRalps) plays 30 cards with eight hand traps, and Build 2 (IgnisterPRC) plays 24 cards and no hand traps, in a more combo-heavy list. The Alternatives tab shows what changes.",
+    "strengths": [
+      "A very good search engine: Cyber Emergency ×3, Cyber Repair Plant ×3, Core and the skill find the pieces of the combo.",
+      "Many different interactions in the Extra Deck: an omni-negate, a monster negate, a spell/trap negate, and S:P Little Knight on the opponent's turn.",
+      "Power Bond into Cyber End Dragon gives a strong finisher with piercing damage.",
+      "It is an anime deck and the creators say it is fun and good for starters."
+    ],
+    "weaknesses": [
+      "The deck locks you into Machine monsters when you use some effects (Cyber Jormungardr, Herz, Nachster), which limits what else you can summon.",
+      "After the skill's third effect you cannot activate Spells other than Polymerization and Power Bond until Cyber End Dragon is summoned.",
+      "Power Bond costs you 4000 Life Points for Cyber End Dragon, so it is risky.",
+      "Build 2 has no hand traps, and both builds depend on the skill, which can only be used once per Duel."
+    ],
+    "cards": [
+      {
+        "name": "Cyber Dragon",
+        "role": "starter",
+        "copies": 3,
+        "note": "The namesake. If only your opponent controls a monster you can Special Summon it from your hand. Several cards in the deck count as \"Cyber Dragon\" in the Graveyard (Core, Nachster, Herz, Cyberdark Wurm), which matters for Power Bond and the skill. Build 1 plays 3, Build 2 plays 2."
+      },
+      {
+        "name": "Cyber Jormungardr",
+        "role": "starter",
+        "copies": 3,
+        "note": "Cannot be Normal Summoned. If your opponent controls a monster it Special Summons itself, then takes a Cyber Dragon from your deck and either Special Summons or equips it; and it can return a Cyber Dragon to your hand to add Polymerization. You can reveal it for the skill. Both builds play 3."
+      },
+      {
+        "name": "Cyber Dragon Core",
+        "role": "starter",
+        "copies": 2,
+        "note": "Level 2 you add with the skill. When Normal Summoned it adds a Cyber Spell/Trap, and from the Graveyard it brings a Cyber Dragon when only the opponent has a monster. Build 1 plays 2, Build 2 plays 3."
+      },
+      {
+        "name": "Cyber Dragon Nachster",
+        "role": "extender",
+        "copies": 1,
+        "note": "Special Summons itself by discarding a monster, and when it is summoned it brings back a Machine with 2100 ATK or DEF from the Graveyard (Cyber Dragon, Cyberdark Wurm or Jormungardr). The creators say it is the card that makes the turn-one combo run, so you want it in hand. Both builds play 1."
+      },
+      {
+        "name": "Cyber Dragon Herz",
+        "role": "extender",
+        "copies": 1,
+        "note": "Level 1 you can add with the skill. It becomes Level 5 when Special Summoned (for the Rank 5 Xyz) and, when sent to the Graveyard, adds another Cyber Dragon. Both builds play 1."
+      },
+      {
+        "name": "Cyberdark Wurm",
+        "role": "extender",
+        "copies": 1,
+        "note": "Once per Duel it Special Summons itself from your hand or Graveyard by sending a Cyber Dragon, then adds a Cyber Spell/Trap from your Graveyard. It counts as \"Cyber Dragon\" in the Graveyard. Both builds play 1."
+      },
+      {
+        "name": "Cyberdark Chimera",
+        "role": "starter",
+        "copies": 1,
+        "note": "Level 4 that the Realm lets you summon. It discards a Spell/Trap to add Power Bond and allows a Graveyard banish as Fusion Material this turn; sent to the Graveyard, it sends a Cyberdark monster from the deck. Both builds play 1."
+      },
+      {
+        "name": "Jizukiru, the Star Destroying Kaiju",
+        "role": "removal",
+        "copies": 1,
+        "note": "Kaiju that you can fetch with Cyber Repair Plant. It removes an opponent's monster, and fits the machine lock because it is a LIGHT Machine. Both builds play 1."
+      },
+      {
+        "name": "Cyber Emergency",
+        "role": "starter",
+        "copies": 3,
+        "note": "The consistency spell: it adds a LIGHT Machine that cannot be Normal Summoned (like Jormungardr) or a Cyber Dragon. If the opponent negates it, you can discard a card to add it back. Both builds play 3."
+      },
+      {
+        "name": "Cyber Repair Plant",
+        "role": "starter",
+        "copies": 3,
+        "note": "With a Cyber Dragon in the Graveyard it adds a LIGHT Machine monster from your deck (and, with 3 Cyber Dragons in the Graveyard, shuffles one back too). The creator of Build 2 uses it to fetch a Kaiju as a tech. Both builds play 3."
+      },
+      {
+        "name": "Cyberdark Realm",
+        "role": "extender",
+        "copies": 1,
+        "note": "Continuous Spell: when activated it adds a Cyberdark monster, and it gives you an extra Normal Summon for a Cyberdark monster. Use it to bring Cyberdark Chimera. Both builds play 1."
+      },
+      {
+        "name": "Power Bond",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion Summons a Machine Fusion Monster with its ATK doubled (Cyber End Dragon becomes 8000 ATK), but you take damage equal to the ATK gained in the End Phase. The creators call it risky: use it when the damage will not decide the duel. Both builds play 1."
+      },
+      {
+        "name": "Polymerization",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fusion for the deck, and one of the only Spells you can still activate after the skill's third effect. Cyber Jormungardr can fetch it. Both builds play 1."
+      },
+      {
+        "name": "Cyberload Fusion",
+        "role": "extender",
+        "copies": 1,
+        "note": "Quick-Play Spell that Fusion Summons a Fusion Monster that lists a Cyber Dragon by shuffling the materials from your field and banished cards, but your other monsters cannot attack. Only Build 2 plays it."
+      },
+      {
+        "name": "Cyber Revsystem",
+        "role": "extender",
+        "copies": 1,
+        "note": "Only Build 2 plays it (I identified this slot from the card on the creator's deck screen): it Special Summons a Cyber Dragon from your hand or Graveyard and it cannot be destroyed by card effects."
+      },
+      {
+        "name": "Nibiru, the Primal Being",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Stops decks that make many Summons in one turn. Only Build 1 plays it (3 copies)."
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Stops the opponent's search turn. Only Build 1 plays it (3 copies)."
+      },
+      {
+        "name": "Mulcharmy Fuwalos",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Hand trap that draws a card each time the opponent Special Summons from the Deck or Extra Deck. Only Build 1 plays it (2 copies)."
+      },
+      {
+        "name": "Cyber End Dragon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion of 3 Cyber Dragons with piercing damage. With Power Bond it has 8000 ATK, and the skill's third effect lets you use your Spells again once it is Special Summoned. Both builds play it."
+      },
+      {
+        "name": "Chimeratech Rampage Dragon",
+        "role": "removal",
+        "copies": 1,
+        "note": "Fusion of 2 or more Cyber Dragons: when Fusion Summoned it destroys Spells/Traps (up to the number of materials) and can attack several times by sending LIGHT Machines from the deck to the Graveyard. Both builds play it."
+      },
+      {
+        "name": "Chimeratech Megafleet Dragon",
+        "role": "removal",
+        "copies": 1,
+        "note": "Special Summoned from the Extra Deck by sending a Cyber Dragon and monsters in the Extra Monster Zone (yours or the opponent's). It breaks a board without the opponent being able to respond. Both builds play it, and the creator of Build 1 notes the Machine lock gets in its way."
+      },
+      {
+        "name": "Heosvarog the Mechanical Dawn",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Fusion of 2 LIGHT Machines that negates a Spell/Trap activation (banishing a LIGHT Machine or 2 from the Graveyard) and recovers a Fusion Spell on your next Standby Phase. It is a spell/trap negate for the opponent's turn. Both builds play it."
+      },
+      {
+        "name": "Cyber Dragon Infinity",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Rank 6 Xyz made with Cyber Dragon Nova: once per turn it detaches a material to negate an activation and destroy it, and it takes monsters as materials. The omni-negate of the deck. Both builds play it."
+      },
+      {
+        "name": "Cyber Dragon Nova",
+        "role": "extender",
+        "copies": 1,
+        "note": "Rank 5 Xyz made with 2 Level 5 Machines. It detaches a material to Special Summon a Cyber Dragon from the Graveyard, gains 2100 ATK when you banish a Cyber Dragon, and lets you make Cyber Dragon Infinity on top of it. Both builds play it."
+      },
+      {
+        "name": "Chronomaly Vimana",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Rank 5 Xyz that negates a monster effect by detaching 2 materials and can steal an Xyz's ATK from the Graveyard. It is the monster negate. Both builds play it."
+      },
+      {
+        "name": "I:P Masquerena",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 made with two non-Link monsters. On the opponent's turn it can Link Summon again, for example S:P Little Knight. Both builds play it."
+      },
+      {
+        "name": "S:P Little Knight",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link-2 made with I:P Masquerena on the opponent's turn: it banishes a card and can banish two monsters in response to an effect. Both builds play it."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Cyber Dragon Core",
+        "partners": [
+          {
+            "name": "Cyberdark Realm",
+            "reason": "When Cyber Dragon Core is Normal Summoned it adds a Cyber Spell/Trap, usually Cyberdark Realm.",
+            "link": "searches"
+          },
+          {
+            "name": "Cyber Dragon",
+            "reason": "Core counts as \"Cyber Dragon\" on the field and in the Graveyard, so it helps Power Bond, Cyber Repair Plant and Cyber End Dragon.",
+            "link": "counts as"
+          }
+        ]
+      },
+      {
+        "card": "Cyberdark Realm",
+        "partners": [
+          {
+            "name": "Cyberdark Chimera",
+            "reason": "Cyberdark Realm adds a Cyberdark monster and lets you Normal Summon one in addition to your normal Normal Summon: Cyberdark Chimera.",
+            "link": "summons"
+          }
+        ]
+      },
+      {
+        "card": "Cyberdark Chimera",
+        "partners": [
+          {
+            "name": "Power Bond",
+            "reason": "Cyberdark Chimera discards a Spell/Trap to add Power Bond, and lets you banish monsters from the Graveyard as Fusion Material once this turn.",
+            "link": "searches"
+          },
+          {
+            "name": "I:P Masquerena",
+            "reason": "Cyberdark Chimera and Cyber Dragon Core can be the two materials of I:P Masquerena; Chimera in the Graveyard sends a Cyberdark monster from the deck.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Cyber Jormungardr",
+        "partners": [
+          {
+            "name": "Polymerization",
+            "reason": "Cyber Jormungardr returns a Cyber Dragon to your hand to add Polymerization from your deck or Graveyard.",
+            "link": "searches"
+          },
+          {
+            "name": "Cyber Dragon",
+            "reason": "When it is Special Summoned (opponent controls a monster) it brings out a Cyber Dragon from the deck.",
+            "link": "summons"
+          }
+        ]
+      },
+      {
+        "card": "Cyber Dragon Nachster",
+        "partners": [
+          {
+            "name": "Cyberdark Wurm",
+            "reason": "Cyber Dragon Nachster brings back a Machine with 2100 ATK or DEF from the Graveyard, such as Cyberdark Wurm or Cyber Jormungardr.",
+            "link": "revives"
+          },
+          {
+            "name": "I:P Masquerena",
+            "reason": "The creator of Build 2 makes I:P Masquerena with Nachster.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Cyber Repair Plant",
+        "partners": [
+          {
+            "name": "Jizukiru, the Star Destroying Kaiju",
+            "reason": "With a Cyber Dragon in the Graveyard, Cyber Repair Plant can add any LIGHT Machine from the deck, including a Kaiju such as Jizukiru.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Power Bond",
+        "partners": [
+          {
+            "name": "Cyber End Dragon",
+            "reason": "Power Bond makes Cyber End Dragon with doubled ATK (8000), with piercing damage to finish the game, but you take the damage in the End Phase.",
+            "link": "Fusion Summons"
+          }
+        ]
+      },
+      {
+        "card": "Cyber Dragon Nova",
+        "partners": [
+          {
+            "name": "Cyber Dragon Infinity",
+            "reason": "Cyber Dragon Nova is the base for Cyber Dragon Infinity: you can Xyz Summon Infinity using Nova as material.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "I:P Masquerena",
+        "partners": [
+          {
+            "name": "S:P Little Knight",
+            "reason": "On the opponent's turn I:P Masquerena Link Summons S:P Little Knight, which banishes a card and gives two interactions.",
+            "link": "Link Summons"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "build1-core-realm",
+        "build": "yralps",
+        "title": "Turn 1 with Cyber Jormungardr: Core, Cyberdark Realm, Cyberdark Chimera and I:P Masquerena",
+        "hand": [
+          "Cyber Jormungardr",
+          "Cyber Emergency"
+        ],
+        "requires": {
+          "turn": "first",
+          "anyOf": [
+            {
+              "label": "Cyber Dragon or Cyber Jormungardr to reveal for the skill",
+              "cards": [
+                "Cyber Dragon",
+                "Cyber Jormungardr"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's second effect is step 1: reveal Cyber Dragon or Cyber Jormungardr from your hand, add up to 2 Level 2 or lower Cyber Dragon monsters from your deck (Core, Nachster or Herz), then Set Cybernetic Overflow from outside the deck (you can activate it this turn). At the start of your first turn the skill already sent 1 Cyber Dragon from your deck to the Graveyard, which turns on Cyber Repair Plant. Effect 3 (turn 2 onward) adds up to 3 Cyber Dragon from the deck and Graveyard, but then you cannot activate Spells except Polymerization and Power Bond unless you Special Summon Cyber End Dragon."
+        },
+        "start": {
+          "hand": [
+            "Cyber Jormungardr",
+            "Cyber Dragon",
+            "Cyber Emergency",
+            "Unknown card"
+          ],
+          "graveyard": [
+            "Cyber Dragon"
+          ],
+          "note": "An example hand for the line the creator explains: Cyber Jormungardr, Cyber Dragon and Cyber Emergency plus one card that does not matter; the skill already put a Cyber Dragon in the Graveyard. Yours will differ. This is the creator's explained core line, not a replay of one duel, so treat the order as a guide."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "I'll Show You Perfection!",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal Cyber Dragon or Cyber Jormungardr from your hand. Here Cyber Jormungardr.",
+            "gives": "Add up to 2 Level 2 or lower Cyber Dragon monsters from your deck (Core and Nachster), then Set Cybernetic Overflow from outside the deck, even if you go first.",
+            "used": true,
+            "reason": "It puts the two small Cyber Dragons in your hand and gives you a Set Trap that destroys cards on the opponent's turn. The creator says Core is the best to keep, because it searches.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M",
+              "timestamp": "0:50"
+            },
+            "moves": [
+              {
+                "card": "Cyber Dragon Core",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Cyber Dragon Nachster",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Cybernetic Overflow",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyber Dragon Core",
+            "action": "normal-summon",
+            "reason": "Normal Summon Cyber Dragon Core and add Cyberdark Realm (a Cyber Spell/Trap) from your deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M",
+              "timestamp": "4:39"
+            },
+            "moves": [
+              {
+                "card": "Cyber Dragon Core",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Cyberdark Realm",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyberdark Realm",
+            "action": "activate",
+            "reason": "Activate Cyberdark Realm: add Cyberdark Chimera from your deck and Normal Summon it immediately with the Realm's extra Normal Summon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M",
+              "timestamp": "4:49"
+            },
+            "moves": [
+              {
+                "card": "Cyberdark Realm",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Cyberdark Chimera",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Cyberdark Chimera",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyberdark Chimera",
+            "action": "activate",
+            "reason": "Discard Cyber Emergency to add Power Bond. After this you can only use Dragon or Machine \"Cyber\" monsters as Fusion Material this turn, but you may banish monsters from the Graveyard as material once.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M",
+              "timestamp": "5:12"
+            },
+            "moves": [
+              {
+                "card": "Cyber Emergency",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Power Bond",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "I:P Masquerena",
+            "action": "special-summon",
+            "reason": "Link Summon I:P Masquerena with Cyber Dragon Core and Cyberdark Chimera. Chimera goes to the Graveyard and sends a Cyberdark monster from your deck to the Graveyard (here Cyberdark Wurm).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M",
+              "timestamp": "6:14"
+            },
+            "moves": [
+              {
+                "card": "I:P Masquerena",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Cyber Dragon Core",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Cyberdark Chimera",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Cyberdark Wurm",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyberdark Wurm",
+            "action": "special-summon",
+            "reason": "Cyberdark Wurm (once per Duel): send a Cyber Dragon from your deck to the Graveyard to Special Summon it from the Graveyard, then add a Cyber Spell/Trap from your Graveyard (here the Cyber Emergency you discarded).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M",
+              "timestamp": "6:30"
+            },
+            "moves": [
+              {
+                "card": "Cyber Dragon",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Cyberdark Wurm",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Cyber Emergency",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "From here the creator keeps making Level 5 Machines and Rank 5 Xyz: Cyber Dragon Nova, then Cyber Dragon Infinity on top of it, plus Chronomaly Vimana, Heosvarog the Mechanical Dawn and I:P Masquerena into S:P Little Knight on the opponent's turn. That gives the omni-negate, a monster negate, a spell/trap negate and the I:P interaction (about four interactions). Power Bond into Cyber End Dragon (8000 ATK) is the finisher on turn 2, not turn 1, because of the 4000 damage.",
+        "endBoard": "I:P Masquerena in the Extra Monster Zone, Cyberdark Wurm on the field and Cybernetic Overflow and Cyberdark Realm in the Spell/Trap zone; Cyber Jormungardr, Nachster, Power Bond and Cyber Emergency in your hand for the next steps.",
+        "weakSpots": "The deck is a bit slow without the skill's search (the skill can only be used once), and a hand trap on Core or Chimera slows the line. After the skill's third effect you cannot activate Spells except Polymerization and Power Bond until you summon Cyber End Dragon. Cyber Emergency and Cyber Repair Plant are the only extra search cards, so keep them."
+      },
+      {
+        "id": "build2-repair-plant",
+        "build": "ignister",
+        "title": "Turn 1 with Cyber Repair Plant: Core, Nachster and Cyber Jormungardr",
+        "hand": [
+          "Cyber Jormungardr",
+          "Cyber Repair Plant"
+        ],
+        "requires": {
+          "turn": "first",
+          "anyOf": [
+            {
+              "label": "Cyber Dragon or Cyber Jormungardr to reveal for the skill",
+              "cards": [
+                "Cyber Dragon",
+                "Cyber Jormungardr"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's second effect is step 1: reveal Cyber Dragon or Cyber Jormungardr from your hand, add up to 2 Level 2 or lower Cyber Dragon monsters from your deck (Core, Nachster or Herz), then Set Cybernetic Overflow from outside the deck (you can activate it this turn). At the start of your first turn the skill already sent 1 Cyber Dragon from your deck to the Graveyard, which turns on Cyber Repair Plant. In the replay he reveals Cyber Jormungardr."
+        },
+        "start": {
+          "hand": [
+            "Cyber Jormungardr",
+            "Cyber Repair Plant",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "graveyard": [
+            "Cyber Dragon"
+          ],
+          "note": "An example hand for the line the creator explains: Cyber Jormungardr and Cyber Repair Plant plus two cards that do not matter; the skill already put a Cyber Dragon in the Graveyard. Yours will differ. This is the creator's explained core line, not a replay of one duel, so treat the order as a guide."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "I'll Show You Perfection!",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal Cyber Dragon or Cyber Jormungardr from your hand. Here Cyber Jormungardr.",
+            "gives": "Add up to 2 Level 2 or lower Cyber Dragon monsters from your deck (here Nachster and Herz) and Set Cybernetic Overflow.",
+            "used": true,
+            "reason": "It makes sure you have the monsters that start the combo. The creator says that you always want Nachster in hand for the line, and that with a good hand the skill also fills the Graveyard for Cyber Repair Plant.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=LgI1SkC4R4Y",
+              "timestamp": "4:22"
+            },
+            "moves": [
+              {
+                "card": "Cyber Dragon Nachster",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Cyber Dragon Herz",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Cybernetic Overflow",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyber Repair Plant",
+            "action": "activate",
+            "reason": "With a Cyber Dragon in the Graveyard (the skill put one there), Cyber Repair Plant adds a LIGHT Machine from your deck: here Cyber Dragon Core. The creator also uses it to fetch a Kaiju (Jizukiru) as his tech.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=LgI1SkC4R4Y",
+              "timestamp": "5:50"
+            },
+            "moves": [
+              {
+                "card": "Cyber Repair Plant",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Cyber Dragon Core",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyber Dragon Core",
+            "action": "normal-summon",
+            "reason": "Normal Summon Cyber Dragon Core and add Cyberdark Realm.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=LgI1SkC4R4Y",
+              "timestamp": "7:41"
+            },
+            "moves": [
+              {
+                "card": "Cyber Dragon Core",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Cyberdark Realm",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyberdark Realm",
+            "action": "activate",
+            "reason": "Activate Cyberdark Realm: add Cyberdark Chimera and Normal Summon it with the Realm's extra Normal Summon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=LgI1SkC4R4Y",
+              "timestamp": "7:53"
+            },
+            "moves": [
+              {
+                "card": "Cyberdark Realm",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Cyberdark Chimera",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Cyberdark Chimera",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Cyber Dragon Nachster",
+            "action": "special-summon",
+            "reason": "Special Summon Cyber Dragon Nachster by discarding Cyber Dragon Herz: Herz in the Graveyard adds another Cyber Dragon to your hand (here Cyber Dragon). Nachster then brings back a Machine with 2100 ATK or DEF from the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=LgI1SkC4R4Y",
+              "timestamp": "10:00"
+            },
+            "moves": [
+              {
+                "card": "Cyber Dragon Herz",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Cyber Dragon Nachster",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Cyber Dragon",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Cyber Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator then makes Cyberload Fusion and Power Bond fusions (Chimeratech Rampage Dragon, Heosvarog the Mechanical Dawn), Cyber Dragon Nova, Cyber Dragon Infinity and Chronomaly Vimana, and finishes with I:P Masquerena into S:P Little Knight on the opponent's turn. He counts about six interactions: two from S:P, the Infinity omni-negate, Vimana's monster negate and Heosvarog's spell/trap negate. Build 2 plays no hand traps, so its interaction comes entirely from the board.",
+        "endBoard": "Cyber Dragon Nachster and a revived Cyber Dragon on the field, with Cyberdark Chimera, Cyberdark Realm and Cybernetic Overflow active; the creator continues with the Extra Deck for about six interactions.",
+        "weakSpots": "With 24 cards and no hand traps, Build 2 has no answer in hand on the opponent's turn: if the board is broken, you do not have a card to stop the next play. Cyberload Fusion stops your other monsters from attacking that turn, and Power Bond costs you Life Points."
+      }
+    ],
+    "videoLists": [
+      {
+        "id": "yralps",
+        "title": "Rei dos Jogos: Cyber Dragon voltou com tudo!",
+        "creator": "YRalps",
+        "url": "https://www.youtube.com/watch?v=tbJI6Sscc4M",
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Cyber Dragon",
+            "count": 3
+          },
+          {
+            "name": "Cyber Jormungardr",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Jizukiru, the Star Destroying Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Wurm",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Core",
+            "count": 2
+          },
+          {
+            "name": "Cyber Dragon Nachster",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Chimera",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Herz",
+            "count": 1
+          },
+          {
+            "name": "Power Bond",
+            "count": 1
+          },
+          {
+            "name": "Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Cyber Emergency",
+            "count": 3
+          },
+          {
+            "name": "Cyberdark Realm",
+            "count": 1
+          },
+          {
+            "name": "Cyber Repair Plant",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Cyber End Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Rampage Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Megafleet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Heosvarog the Mechanical Dawn",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Infinity",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Nova",
+            "count": 1
+          },
+          {
+            "name": "Chronomaly Vimana",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "ignister",
+        "title": "Cyber Dragon está insano! Aprenda a jogar com os novos suportes",
+        "creator": "IgnisterPRC",
+        "url": "https://www.youtube.com/watch?v=LgI1SkC4R4Y",
+        "main": [
+          {
+            "name": "Cyber Dragon",
+            "count": 2
+          },
+          {
+            "name": "Cyber Jormungardr",
+            "count": 3
+          },
+          {
+            "name": "Jizukiru, the Star Destroying Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Wurm",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Core",
+            "count": 3
+          },
+          {
+            "name": "Cyber Dragon Nachster",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Chimera",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Herz",
+            "count": 1
+          },
+          {
+            "name": "Power Bond",
+            "count": 1
+          },
+          {
+            "name": "Cyber Emergency",
+            "count": 3
+          },
+          {
+            "name": "Cyber Revsystem",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Realm",
+            "count": 1
+          },
+          {
+            "name": "Cyberload Fusion",
+            "count": 1
+          },
+          {
+            "name": "Cyber Repair Plant",
+            "count": 3
+          },
+          {
+            "name": "Polymerization",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Cyber End Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Rampage Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Megafleet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Heosvarog the Mechanical Dawn",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Infinity",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Nova",
+            "count": 1
+          },
+          {
+            "name": "Chronomaly Vimana",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "buildDifferences": [
+      {
+        "topic": "Deck size and hand traps",
+        "a": "30 main deck cards with Nibiru ×3, Droll & Lock Bird ×3 and Mulcharmy Fuwalos ×2: eight hand traps for the opponent's turn.",
+        "b": "24 main deck cards and no hand traps at all: every card is part of the combo, and the deck draws the engine more often.",
+        "why": "Build 2 is more consistent at starting the combo. Build 1 has answers in hand when the opponent plays first."
+      },
+      {
+        "topic": "Search and engine cards",
+        "a": "Cyber Dragon ×3, Cyber Dragon Core ×2, plus Cyber Emergency ×3, Cyber Repair Plant ×3 and Polymerization.",
+        "b": "Cyber Dragon ×2, Cyber Dragon Core ×3, plus Cyber Emergency ×3, Cyber Repair Plant ×3, Polymerization, Cyberload Fusion and Cyber Revsystem.",
+        "why": "Build 2 trades the hand traps for two extra Fusion/revive Spells and one more Core."
+      },
+      {
+        "topic": "How it plays",
+        "a": "Normal Summon Core, Cyberdark Realm into Chimera for Power Bond, then I:P Masquerena. The hand traps cover turn 2.",
+        "b": "The skill puts a Cyber Dragon in the Graveyard so Cyber Repair Plant always works, then Core, Nachster and Chimera. The creator says it is a standard, simple combo for starters.",
+        "why": "Both reach the same Extra Deck pieces. Build 2 needs fewer decisions on turn one."
+      },
+      {
+        "topic": "Extra Deck",
+        "a": "Cyber End Dragon, Chimeratech Rampage Dragon, Chimeratech Megafleet Dragon, Heosvarog the Mechanical Dawn, Cyber Dragon Infinity, Cyber Dragon Nova, Chronomaly Vimana, I:P Masquerena and S:P Little Knight.",
+        "b": "The same 9 cards.",
+        "why": "You can swap between builds without changing the Extra Deck."
+      }
+    ]
+  },
   "dark-magician": {
     "deck": "Dark Magician",
     "format": "speed",
@@ -6491,7 +7449,8 @@
     "scenarios": [
       {
         "id": "build1-gadget-start",
-        "title": "Build 1 (IgnisterPRC): Dark Magician Girl, Gadget Trio and Dark Magician of Destruction on turn 1",
+        "build": "ignister",
+        "title": "Turn 1 with Dark Magician Girl and Gadget Trio: Dark Magician of Destruction and a Sarcophagus ready",
         "hand": [
           "Dark Magician Girl the Magician's Apprentice",
           "Gadget Trio"
@@ -6667,7 +7626,8 @@
       },
       {
         "id": "build2-gandora-line",
-        "title": "Build 2 (Sorem): Shining Sarcophagus, Dark Magician and Gandora-G on turn 1",
+        "build": "sorem",
+        "title": "Turn 1 with Shining Sarcophagus, Dark Magician and Gandora-G",
         "hand": [
           "Silent Magician Zero",
           "Gandora-G the Dragon of Destruction"
@@ -6830,7 +7790,7 @@
     "videoLists": [
       {
         "id": "ignister",
-        "label": "Build 1: IgnisterPRC, King of Games",
+        "title": "Rei dos Jogos: Aprenda a jogar de Shining Sarcophagus",
         "creator": "IgnisterPRC",
         "url": "https://www.youtube.com/watch?v=fCuEitOx4QI",
         "main": [
@@ -6932,7 +7892,7 @@
       },
       {
         "id": "sorem",
-        "label": "Build 2: Sorem, full course",
+        "title": "Curso completo de Sarcófago Brilhante",
         "creator": "Sorem",
         "url": "https://www.youtube.com/watch?v=-d1xN63HXFg",
         "main": [

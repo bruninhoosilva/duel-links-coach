@@ -3,7 +3,7 @@ import { packPlan } from './packs.js';
 import { MAX_COPIES, listProgress } from './collection.js';
 import { renderOwnTools } from './views-own.js';
 
-const listLabel = (l) => (l.video ? l.label ?? 'From the video' :[l.author, l.event, l.created].filter(Boolean).join(' · ')) + ` · ${l.mainSize} cards`;
+const listLabel = (l) => (l.video ? `From Video - ${l.author}` : [l.author, l.event, l.created].filter(Boolean).join(' · ')) + ` · ${l.mainSize} cards`;
 
 // options.own = false: no copy controls (cards a skill adds to the deck, which nobody owns).
 export function tile(entry, ctx, covered = true, { own: withOwn = true } = {}) {

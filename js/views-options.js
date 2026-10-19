@@ -1,4 +1,4 @@
-import { cardButton, esc } from './dom.js';
+import { buildName, cardButton, esc } from './dom.js';
 
 function optionCard(name, ctx) {
   const card = ctx.cards[name];
@@ -20,13 +20,15 @@ export function renderBuilds(guide) {
   const [a, b] = guide.videoLists ?? [];
   const diffs = guide.buildDifferences ?? [];
   if (!a || !b) return '';
-  const head = (l) => `<strong>${esc(l.label)}</strong>`;
-  const panel = (l) => `<div class="build-card"><h3>${esc(l.label)}</h3><p class="muted small">${l.url ? `<a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">Watch the video</a> by ${esc(l.creator ?? 'the creator')}. ` : ''}${sizeOf(l.main)} main deck and ${sizeOf(l.extra)} Extra Deck cards.</p></div>`;
+  const na = buildName(0, a);
+  const nb = buildName(1, b);
+  const head = (name) => `<strong>${esc(name)}</strong>`;
+  const panel = (l, name) => `<div class="build-card"><h3>${esc(name)}</h3><p class="muted small">${l.url ? `<a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">Watch the video</a> by ${esc(l.creator ?? 'the creator')}. ` : ''}${sizeOf(l.main)} main deck and ${sizeOf(l.extra)} Extra Deck cards.</p></div>`;
   const rows = diffs
     .map((d) => `<tr><th scope="row">${esc(d.topic)}</th><td>${esc(d.a)}</td><td>${esc(d.b)}</td><td>${esc(d.why)}</td></tr>`)
     .join('');
   const table = rows
-    ? `<div class="table-wrap"><table class="builds-table"><thead><tr><th>What changes</th><th>${head(a)}</th><th>${head(b)}</th><th>Why it matters</th></tr></thead><tbody>${rows}</tbody></table></div>`
+    ? `<div class="table-wrap"><table class="builds-table"><thead><tr><th>What changes</th><th>${head(na)}</th><th>${head(nb)}</th><th>Why it matters</th></tr></thead><tbody>${rows}</tbody></table></div>`
     : '';
 
   const ca = countsOf(a);
@@ -38,12 +40,12 @@ export function renderBuilds(guide) {
     .map((n) => `<tr><th scope="row">${cardButton(n)}</th><td>${cell(ca.get(n))}</td><td>${cell(cb.get(n))}</td></tr>`)
     .join('');
   const cardTable = cardRows
-    ? `<h3>Cards that are different</h3><div class="table-wrap"><table class="builds-table"><thead><tr><th>Card</th><th>${head(a)}</th><th>${head(b)}</th></tr></thead><tbody>${cardRows}</tbody></table></div>`
+    ? `<h3>Cards that are different</h3><div class="table-wrap"><table class="builds-table"><thead><tr><th>Card</th><th>${head(na)}</th><th>${head(nb)}</th></tr></thead><tbody>${cardRows}</tbody></table></div>`
     : '<p class="muted">Both builds play the same cards.</p>';
   return `<section class="panel builds">
       <h2>Two builds, two videos</h2>
       <p class="muted">This guide follows two creators who play different lists of the same deck. Here is what changes between them; the Deck lists tab shows both full lists, and the swaps below work for either build.</p>
-      <div class="build-pair">${panel(a)}${panel(b)}</div>
+      <div class="build-pair">${panel(a, na)}${panel(b, nb)}</div>
       ${table}
       ${cardTable}
     </section>`;

@@ -1,4 +1,15 @@
 {
+  "I'll Show You Perfection!": {
+    "name": "I'll Show You Perfection!",
+    "text": "You can only use this Skill's second and third effects once per Duel.\n1: At the start of your first turn, send 1 \"Cyber Dragon\" from your Deck to the Graveyard. During this Duel, any effect damage your cards would inflict to your opponent becomes 0.\n2: Reveal 1 \"Cyber Dragon\" or \"Cyber Jormungardr\" from your hand. Add up to 2 Level 2 or lower \"Cyber Dragon\" monsters from your Deck to your hand. Then, Set 1 \"Cybernetic Overflow\" from outside of your Deck to your field. (This card can be activated the same turn.)\n3: From turn 2 onward, add up to 3 \"Cyber Dragon\" from your Deck and/or Graveyard to your hand. During this Duel, unless you successfully Special Summon \"Cyber End Dragon\", you cannot activate the effects of Spell Cards other than \"Polymerization\" and \"Power Bond\".",
+    "source": null,
+    "characters": [
+      {
+        "name": "Zane Truesdale",
+        "how": "Skill Exchange Trader"
+      }
+    ]
+  },
   "The Eye of the United Dragon": {
     "name": "The Eye of the United Dragon",
     "text": "You can use this Skill's second and third effects once per Duel if your Deck contains a total of 15 or more \"Dark Magician\" and/or cards that mention it.\n1:Activated at the beginning of the Duel. If you are going first, during the first turn, your opponent will take no effect damage from your effects.\n2: Shuffle 1 card from your hand into your Deck. Play 1 \"Timaeus the United Dragon\" from your hand, then add a total of 2 cards among \"Dark Magician\" and/or a card(s) that mentions it from your Deck to your hand.\n3: If you control a \"Dark Magician\", or your opponent controls a monster, play 1 \"Dark Magician\" or \"Dark Magician Girl\" that has a different name than the monsters you control from your Deck in face-down Defense Position (its battle position can be changed), then add 1 \"The Eye of Timaeus\" from outside your Deck to your hand.",

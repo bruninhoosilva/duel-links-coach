@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-10-19T15:08:37.803Z",
+  "generatedAt": "2026-10-19T15:51:53.228Z",
   "dataFetchedAt": "2026-10-13T19:19:55.983Z",
   "decks": [
+    {
+      "slug": "cyber-dragon",
+      "name": "Cyber Dragon",
+      "status": "verified",
+      "updated": "2026-10-19",
+      "skill": "I'll Show You Perfection!",
+      "scenarios": 2,
+      "stats": {
+        "decks": 15,
+        "totalDecks": 830,
+        "share": 0.018072289156626505,
+        "tiers": {},
+        "commonTier": null
+      },
+      "featured": {
+        "name": "Cyber Dragon",
+        "image": "img/cards/cyber-dragon.jpg"
+      }
+    },
     {
       "slug": "dark-magician",
       "name": "Dark Magician",
