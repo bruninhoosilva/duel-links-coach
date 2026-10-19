@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T10:51:05.881Z",
+  "generatedAt": "2026-10-19T13:43:01.459Z",
   "dataFetchedAt": "2026-10-13T19:19:55.983Z",
   "decks": [
     {
@@ -64,6 +64,21 @@
           "1": 37
         },
         "commonTier": 1
+      }
+    },
+    {
+      "slug": "red-eyes",
+      "name": "Red-Eyes",
+      "status": "verified",
+      "updated": "2026-10-19",
+      "skill": "Red-Eyes Armament",
+      "scenarios": 2,
+      "stats": {
+        "decks": 5,
+        "totalDecks": 830,
+        "share": 0.006024096385542169,
+        "tiers": {},
+        "commonTier": null
       }
     }
   ]

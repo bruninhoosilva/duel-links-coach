@@ -2682,5 +2682,613 @@
         "distance": 5
       }
     ]
+  },
+  "red-eyes": {
+    "defaultId": "6aa75fb26142771a12134646",
+    "lists": [
+      {
+        "id": "6aa75fb26142771a12134646",
+        "author": "max.kkxe",
+        "event": "KC Cup DLv. Max",
+        "created": "2026-09-14",
+        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/red-eyes/max.kkxe/AUfwM/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Lord of the Red",
+            "count": 2
+          },
+          {
+            "name": "Red-Eyes Black Meteor Dragon",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Wyvern",
+            "count": 1
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 2
+          },
+          {
+            "name": "The Bystial Lubellion",
+            "count": 1
+          },
+          {
+            "name": "Albion the Shrouded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Bystial Druiswurm",
+            "count": 1
+          },
+          {
+            "name": "Bystial Magnamhut",
+            "count": 1
+          },
+          {
+            "name": "Bystial Saronir",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Black Dragon",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Transmigration",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Fusion",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Insight",
+            "count": 3
+          },
+          {
+            "name": "Branded Regained",
+            "count": 1
+          },
+          {
+            "name": "Branded Beast",
+            "count": 1
+          },
+          {
+            "name": "Branded Banishment",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Khaos Starsource Dragon",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Predaplant Dragostapelia",
+            "count": 1
+          },
+          {
+            "name": "Filia Regis",
+            "count": 1
+          },
+          {
+            "name": "Lubellion the Searing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Dark Armed, the Dragon of Annihilation",
+            "count": 1
+          },
+          {
+            "name": "Hieratic Dragon King of Atum",
+            "count": 1
+          },
+          {
+            "name": "Hieratic Seal of the Heavenly Spheres",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 3.5
+      },
+      {
+        "id": "6aaaff4b3e2ea8a15d472ab3",
+        "author": "hataki99",
+        "event": "KC Cup DLv. Max",
+        "created": "2026-09-16",
+        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/red-eyes/hataki99/IJrm6/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Lord of the Red",
+            "count": 2
+          },
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Darkness Metal Dragon",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Black Meteor Dragon",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Wyvern",
+            "count": 1
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 1
+          },
+          {
+            "name": "The Bystial Lubellion",
+            "count": 1
+          },
+          {
+            "name": "Albion the Shrouded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Bystial Druiswurm",
+            "count": 1
+          },
+          {
+            "name": "Bystial Magnamhut",
+            "count": 1
+          },
+          {
+            "name": "Bystial Saronir",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Black Dragon",
+            "count": 2
+          },
+          {
+            "name": "Red-Eyes Transmigration",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Dragon's Mirror",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Fusion",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Insight",
+            "count": 3
+          },
+          {
+            "name": "Branded Regained",
+            "count": 1
+          },
+          {
+            "name": "Branded Beast",
+            "count": 1
+          },
+          {
+            "name": "Branded Banishment",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Khaos Starsource Dragon",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Starving Venom Fusion Dragon",
+            "count": 1
+          },
+          {
+            "name": "Predaplant Dragostapelia",
+            "count": 1
+          },
+          {
+            "name": "Meteor Black Comet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Filia Regis",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Hieratic Dragon King of Atum",
+            "count": 1
+          },
+          {
+            "name": "Hieratic Seal of the Heavenly Spheres",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 4.5
+      },
+      {
+        "id": "6ab1309a96a2f3acad4edf2a",
+        "author": "Ornicar",
+        "event": "Spicy Win Streaks",
+        "created": "2026-09-20",
+        "url": "https://www.duellinksmeta.com/spicy-win-streaks/september-2026/red-eyes/ornicar/ryvok/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Lord of the Red",
+            "count": 2
+          },
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Darkness Metal Dragon",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Black Meteor Dragon",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Wyvern",
+            "count": 1
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 1
+          },
+          {
+            "name": "The Bystial Lubellion",
+            "count": 1
+          },
+          {
+            "name": "Albion the Shrouded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Bystial Druiswurm",
+            "count": 1
+          },
+          {
+            "name": "Bystial Magnamhut",
+            "count": 1
+          },
+          {
+            "name": "Bystial Saronir",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Black Dragon",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Transmigration",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Red-Eyes Insight",
+            "count": 3
+          },
+          {
+            "name": "Branded Regained",
+            "count": 1
+          },
+          {
+            "name": "Branded Beast",
+            "count": 1
+          },
+          {
+            "name": "Branded Retribution",
+            "count": 1
+          },
+          {
+            "name": "Branded Banishment",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Khaos Starsource Dragon",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Starving Venom Fusion Dragon",
+            "count": 1
+          },
+          {
+            "name": "Predaplant Dragostapelia",
+            "count": 1
+          },
+          {
+            "name": "Meteor Black Comet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Hieratic Dragon King of Atum",
+            "count": 1
+          },
+          {
+            "name": "Hieratic Seal of the Heavenly Spheres",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 6.5
+      },
+      {
+        "id": "6aac1947f12574a18c49273b",
+        "author": "Senpai Friend",
+        "event": "KC Cup DLv. Max",
+        "created": "2026-09-17",
+        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/red-eyes/senpai-friend/Mm37J/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Lord of the Red",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Black Meteor Dragon",
+            "count": 3
+          },
+          {
+            "name": "Aluber the Jester of Despia",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Wyvern",
+            "count": 1
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 2
+          },
+          {
+            "name": "Despian Tragedy",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Black Dragon",
+            "count": 2
+          },
+          {
+            "name": "Red-Eyes Transmigration",
+            "count": 3
+          },
+          {
+            "name": "Branded Fusion",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Insight",
+            "count": 2
+          },
+          {
+            "name": "Branded Opening",
+            "count": 3
+          },
+          {
+            "name": "Branded in Red",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Spirit",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Khaos Starsource Dragon",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Masquerade the Blazing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lubellion the Searing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Alba-Lenatus the Abyss Dragon",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Gravity Controller",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 26.5
+      },
+      {
+        "id": "6acbb622dfe862db8a8f349b",
+        "author": "Zerox",
+        "event": "Spicy Win Streaks",
+        "created": "2026-10-11",
+        "url": "https://www.duellinksmeta.com/spicy-win-streaks/october-2026/red-eyes/zerox/vo4HO/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Lord of the Red",
+            "count": 3
+          },
+          {
+            "name": "Illusion of Chaos",
+            "count": 1
+          },
+          {
+            "name": "Sauravis, the Ancient and Ascended",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Black Meteor Dragon",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician Girl",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Wyvern",
+            "count": 1
+          },
+          {
+            "name": "Magician's Rod",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Black Dragon",
+            "count": 2
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Transmigration",
+            "count": 3
+          },
+          {
+            "name": "Pre-Preparation of Rites",
+            "count": 3
+          },
+          {
+            "name": "Soul Servant",
+            "count": 3
+          },
+          {
+            "name": "Preparation of Rites",
+            "count": 3
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Fusion",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Insight",
+            "count": 3
+          },
+          {
+            "name": "Red-Eyes Spirit",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Dark Paladin",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Dark Armed, the Dragon of Annihilation",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Artemis, the Magistus Moon Maiden",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 34.5
+      }
+    ]
   }
 }

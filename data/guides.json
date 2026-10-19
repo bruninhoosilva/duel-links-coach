@@ -4664,5 +4664,1031 @@
         "weakSpots": "D.D. Crow on Ghattic makes this line one step longer but the creator still finishes it; a hand trap on Angwitch's search or on the first Fusion stops it earlier, so the creator keeps Tatsunootoshigo as the preferred start."
       }
     ]
+  },
+  "red-eyes": {
+    "deck": "Red-Eyes",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-19",
+    "skill": {
+      "name": "Red-Eyes Armament",
+      "enablerCards": [],
+      "trigger": "Needs a total of 15 or more Red-Eyes cards and/or Lord of the Red in your deck. This list has exactly 15, so do not replace a Red-Eyes card with a non-Red-Eyes card or the skill is off. Both effects can be used once per Duel.",
+      "enabler": "Effect 1: reveal Red-Eyes Black Dragon, Lord of the Red or Red-Eyes Transmigration from your hand, add Lord of the Red or Red-Eyes Transmigration from your deck, then add 1 Red-Eyes card. Effect 2: if you control a Red-Eyes monster (or the opponent controls a monster), add 1 of 5 monsters from outside your deck, send the others to the Graveyard, then add Polymerization.",
+      "adds": [
+        {
+          "card": "Dark Magician",
+          "copies": 1,
+          "note": "One of the 5 monsters you can choose with effect 2. The creator always takes Dark Magician, to make Red-Eyes Dark Dragoon."
+        },
+        {
+          "card": "Red-Eyes Black Flare Dragon",
+          "copies": 1,
+          "note": "One of the 5 monsters: the ones you do not choose go to the Graveyard, where this Dragon can be Fusion Material for a second Dragoon."
+        },
+        {
+          "card": "Red-Eyes Archfiend of Lightning",
+          "copies": 1,
+          "note": "One of the 5 monsters (goes to the Graveyard when you take Dark Magician)."
+        },
+        {
+          "card": "Meteor Dragon Red-Eyes Impact",
+          "copies": 1,
+          "note": "One of the 5 monsters (goes to the Graveyard when you take Dark Magician)."
+        },
+        {
+          "card": "Gearfried the Red-Eyes Iron Knight",
+          "copies": 1,
+          "note": "One of the 5 monsters (goes to the Graveyard when you take Dark Magician)."
+        },
+        {
+          "card": "Polymerization",
+          "copies": 1,
+          "note": "Added to your hand by effect 2 after you take 1 of the 5 monsters."
+        }
+      ]
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "Atualizado: Red-Eyes Black Dragon agora com 2 Dragoons (Portuguese deck update and replays)",
+        "creator": "IgnisterPRC",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=oqe4dA51cTA"
+      }
+    ],
+    "gamePlan": "This is Red-Eyes Black Dragon updated to make two Red-Eyes Dark Dragoons on turn one, with a Despia and Bystial engine in the same deck. It needs a skill starter (Red-Eyes Black Dragon, Lord of the Red or Red-Eyes Transmigration) plus Aluber the Jester of Despia: the skill brings the ritual pieces and Meteor Dragon, Polymerization makes the first Dragoon with Dark Magician, and Aluber starts Branded Fusion and Albion, which makes the second Dragoon. You finish by Ritual Summoning Lord of the Red. Without Aluber you fall back on a Hieratic Seal, one Dragoon and Lord of the Red. The result is two omni-negates and a ritual monster that destroys Spells and Traps, about five or six interactions, plus 6 tech cards (Nibiru, Droll & Lock Bird and the Bystials) in the other slots.",
+    "strengths": [
+      "Two Red-Eyes Dark Dragoons cannot be targeted or destroyed by card effects, and each negates once per turn: you are immune to most hand traps.",
+      "Lord of the Red destroys Spells and Traps, so it is very strong against decks with Continuous Spells and Traps, like Sarcophagus and Snake-Eye.",
+      "Even with a bad hand without Aluber you still get a decent board (a Dragoon, Lord of the Red and a Seal).",
+      "The deck keeps cards in hand and draws through Branded Regained and the Bystials."
+    ],
+    "weaknesses": [
+      "The best line is a two-card combo: a skill starter plus Aluber. Without both you play the shorter lines.",
+      "There are only 15 slots outside the Red-Eyes cards, because the skill needs 15 Red-Eyes cards, so the deck has little room for extras.",
+      "Branded Fusion locks you to Fusion Monsters from the Extra Deck for the turn, so make the Dragoon and any other Extra Deck monster first.",
+      "The Dragoon's negate costs a discard, so you cannot spend your whole hand, and a Kaiju or Lava Golem can still remove it (Red-Eyes Spirit helps)."
+    ],
+    "cards": [
+      {
+        "name": "Red-Eyes Black Dragon",
+        "role": "starter",
+        "copies": 3,
+        "note": "The Normal Monster the deck is built around. Reveal it to start the skill, use it as Fusion Material for Red-Eyes Dark Dragoon (with Dark Magician), and send it to the Graveyard as the cost of Red-Eyes Black Meteor Dragon. In the Graveyard it also pays for Red-Eyes Transmigration."
+      },
+      {
+        "name": "Lord of the Red",
+        "role": "starter",
+        "copies": 3,
+        "note": "The Ritual boss (Level 8). Once per turn each, when a card or effect is activated it can destroy a monster on the field, and once per turn each it can destroy a Spell or Trap. The creator says it is extremely good against Continuous Spells and Traps. It is also one of the 3 cards you can reveal for the skill."
+      },
+      {
+        "name": "Red-Eyes Transmigration",
+        "role": "starter",
+        "copies": 3,
+        "note": "Ritual Spell that Ritual Summons Lord of the Red. You Tribute monsters and/or banish Red-Eyes monsters from your Graveyard to reach Level 8, so a Level 4 monster plus a banished Red-Eyes monster is enough."
+      },
+      {
+        "name": "Red-Eyes Insight",
+        "role": "starter",
+        "copies": 2,
+        "note": "Sends a Red-Eyes monster from your hand or deck to the Graveyard and adds a Red-Eyes Spell or Trap (not another Insight). It counts as one of the deck's 11 starters and is how you search Red-Eyes Spirit when your hand is already good. A third copy would fill a Red-Eyes slot, but the creator prefers the Trap because a dead Insight in a full hand does nothing."
+      },
+      {
+        "name": "Red-Eyes Black Meteor Dragon",
+        "role": "extender",
+        "copies": 3,
+        "note": "Special Summons itself from your hand by sending a Level 5 or higher Normal Monster (like Red-Eyes Black Dragon) from your hand or deck to the Graveyard. That enables the second part of the skill, which needs a Red-Eyes monster on your side. From the Graveyard it can banish itself to add Red-Eyes Fusion. Tip from the creator: if you want a Normal Summon in the deck, you can swap one Meteor for a Red-Eyes monster you can Normal Summon that Insight can search; then you can still make Hieratic Seal if you are interrupted before the two Dragoons. He does not play it that way for now."
+      },
+      {
+        "name": "Red-Eyes Spirit",
+        "role": "extender",
+        "copies": 1,
+        "note": "The 15th Red-Eyes card the skill needs, and a Trap that Special Summons a Red-Eyes monster from your Graveyard. If your Dragoon is hit by a Lava Golem or another removal, you bring it back. The creator picked it over a third Red-Eyes Insight because it adds an interaction.",
+        "substitutes": [
+          {
+            "name": "Red-Eyes Insight",
+            "why": "A third Red-Eyes Insight would also reach the 15 Red-Eyes cards. The creator did not use it because with a good hand it has nothing to search, and the Trap gives you an extra answer instead."
+          }
+        ]
+      },
+      {
+        "name": "Aluber the Jester of Despia",
+        "role": "extender",
+        "copies": 3,
+        "note": "The second combo piece with a starter. Normal Summon it to add a Branded Spell/Trap (Branded Fusion). If your Fusion Monster is destroyed or leaves the field by an opponent's effect, it Special Summons itself from the Graveyard and negates a monster, which counts as a hand-trap-style answer. A Level 4 body is also enough for the Ritual."
+      },
+      {
+        "name": "Fallen of Albaz",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fallen of Albaz is the Fusion Material for Albion the Branded Dragon. Branded Fusion sends it from your deck as material, and on its own it can discard a card to Fusion Summon when it is Summoned."
+      },
+      {
+        "name": "Branded Fusion",
+        "role": "extender",
+        "copies": 1,
+        "note": "Branded Fusion Fusion Summons Albion the Branded Dragon from the Extra Deck using Fallen of Albaz and Bystial The Lubellion from your deck. While it is active you can only Special Summon Fusion Monsters from the Extra Deck, so make the Dragoon first."
+      },
+      {
+        "name": "Branded in Red",
+        "role": "extender",
+        "copies": 1,
+        "note": "Quick-Play Spell that returns a Despia monster or Fallen of Albaz from your Graveyard and Fusion Summons a Level 8 or higher Fusion Monster. It works on the opponent's turn: you can make Guardian Chimera, Khaos Starsource Dragon or Despian Quaeritis.",
+        "substitutes": [
+          {
+            "name": "Branded Banishment",
+            "why": "The creator used Branded Banishment first, then swapped it for Branded in Red. Banishment is also an answer to Kaiju: if a Kaiju removes your Fusion Monsters, you activate it and recover them."
+          }
+        ]
+      },
+      {
+        "name": "Branded Regained",
+        "role": "extender",
+        "copies": 1,
+        "note": "Continuous Spell: when a LIGHT or DARK monster is banished, you put it on the bottom of the deck and draw 1, and when the opponent Summons a monster you can bring a Bystial back from the Graveyard. Every Ritual you do with banished Red-Eyes monsters turns into a draw."
+      },
+      {
+        "name": "Branded Beast",
+        "role": "removal",
+        "copies": 1,
+        "note": "Continuous Trap: with a Bystial on your side you Tribute a Dragon to destroy a card the opponent controls. In the End Phase it puts a Branded Continuous Spell or Trap from your Graveyard on the field."
+      },
+      {
+        "name": "The Bystial Lubellion",
+        "role": "extender",
+        "copies": 1,
+        "note": "Special Summon it by Tributing a Level 6 or higher DARK Dragon (Albion works well). It can discard itself to search a Bystial, and it places a Branded Continuous Spell or Trap from your deck on the field. It is also a Level 8 LIGHT monster for Albion."
+      },
+      {
+        "name": "Bystial Magnamhut",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Bystial: banish a LIGHT or DARK monster from a Graveyard to Special Summon it from your hand, as a Quick Effect when the opponent has a monster. At the End Phase it adds any Dragon. The creator counts the Bystials as hand traps, so the deck has 6 tech cards with Nibiru and Droll."
+      },
+      {
+        "name": "Bystial Druiswurm",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Bystial that Special Summons itself the same way. When it is sent to the Graveyard from the field it sends a Special Summoned monster of the opponent to the Graveyard."
+      },
+      {
+        "name": "Nibiru, the Primal Being",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Stops decks that make many Summons in one turn, and is a powerful card in this meta."
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Stops the opponent's search turn. The creator notes that it also stops you from drawing, so with Droll in play he skips the Spell that draws and fetches the Trap directly.",
+        "substitutes": [
+          {
+            "name": "Branded Opening",
+            "why": "The creator says you can take out the tech cards and fill the slots with Branded Opening. It is a Quick-Play Spell that makes sure you have Aluber (you would have 6 Aluber with it), and while it is in the Graveyard it protects your Fusion Monsters from destruction by card effects. It is less flexible against hand-trap decks."
+          }
+        ]
+      },
+      {
+        "name": "Red-Eyes Dark Dragoon",
+        "role": "payoff",
+        "copies": 2,
+        "note": "The two Dragoons are the goal. It cannot be destroyed by card effects and cannot be targeted, it destroys monsters and burns for their ATK, and once per turn it discards a card to negate an activation and destroy that card (it is an omni-negate). Two of them mean two omni-negates that are hard to remove. Made with Dark Magician plus Red-Eyes Black Dragon or a Dragon Effect Monster."
+      },
+      {
+        "name": "Albion the Branded Dragon",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fusion Summoned with Fallen of Albaz and a LIGHT monster (Bystial The Lubellion). It Fusion Summons another Fusion Monster banishing materials from your Graveyard, which is how the second Dragoon appears. In the End Phase, if it was sent to the Graveyard this turn, it sets or adds a Branded Spell/Trap."
+      },
+      {
+        "name": "Alba-Lenatus the Abyss Dragon",
+        "role": "removal",
+        "copies": 1,
+        "note": "The creator calls it the board breaker (his \"Origin dragon\"). Its Fusion Summon can attack several times and, from the Graveyard, it adds a Polymerization-type Spell."
+      },
+      {
+        "name": "Guardian Chimera",
+        "role": "removal",
+        "copies": 1,
+        "note": "Made on the opponent's turn with Branded in Red. It draws cards and destroys cards on the opponent's side, and protects itself while Polymerization is in your Graveyard."
+      },
+      {
+        "name": "Khaos Starsource Dragon",
+        "role": "removal",
+        "copies": 1,
+        "note": "Fusion Monster you can make with Branded in Red or Albion: it destroys a card for each LIGHT or DARK monster used as material."
+      },
+      {
+        "name": "Despian Quaeritis",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fusion made from a Despia monster plus a LIGHT or DARK monster. In its second effect it brings back a Despia or Fallen of Albaz when it leaves the field."
+      },
+      {
+        "name": "Hieratic Seal of the Heavenly Spheres",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link-2 of two Dragons. The creator says you can fall back to it when you do not draw Aluber: Hieratic Seal, a Dragoon and Lord of the Red give you about five interactions. It bounces a card on the opponent's turn and Special Summons a Dragon when it is Tributed."
+      },
+      {
+        "name": "S:P Little Knight",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link-2 the creator made once, only to put Albion into the Graveyard so Albion could set the Trap in the End Phase. It banishes a card or two monsters when it is Link Summoned using an Extra Deck monster, but you cannot attack directly that turn."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Aluber the Jester of Despia",
+        "partners": [
+          {
+            "name": "Branded Fusion",
+            "reason": "Aluber adds Branded Fusion when it is Normal or Special Summoned, which starts the second Dragoon.",
+            "link": "searches"
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "reason": "Aluber lets you Branded Fusion into Albion; Albion then Fusion Summons the second Dragoon.",
+            "link": "leads to"
+          }
+        ]
+      },
+      {
+        "card": "Branded Fusion",
+        "partners": [
+          {
+            "name": "Albion the Branded Dragon",
+            "reason": "Branded Fusion Fusion Summons Albion the Branded Dragon with Fallen of Albaz and The Bystial Lubellion from the deck.",
+            "link": "Fusion Summons"
+          }
+        ]
+      },
+      {
+        "card": "Albion the Branded Dragon",
+        "partners": [
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "reason": "Albion's Fusion effect banishes Dark Magician and a Dragon from your Graveyard to make the second Red-Eyes Dark Dragoon.",
+            "link": "Fusion Summons"
+          },
+          {
+            "name": "The Bystial Lubellion",
+            "reason": "Tribute Albion to Special Summon The Bystial Lubellion from the Graveyard; Albion then sits in the Graveyard and sets a Branded Trap in the End Phase.",
+            "link": "is Tributed for"
+          }
+        ]
+      },
+      {
+        "card": "The Bystial Lubellion",
+        "partners": [
+          {
+            "name": "Branded Regained",
+            "reason": "When Lubellion comes out it places Branded Regained face-up from your deck, so you get the draw engine without using a card from your hand.",
+            "link": "places"
+          }
+        ]
+      },
+      {
+        "card": "Branded Regained",
+        "partners": [
+          {
+            "name": "Red-Eyes Transmigration",
+            "reason": "Red-Eyes Transmigration banishes monsters from your Graveyard to reach Level 8, and each LIGHT or DARK monster banished lets Branded Regained put it back on the deck and draw.",
+            "link": "draws when banished"
+          }
+        ]
+      },
+      {
+        "card": "Red-Eyes Transmigration",
+        "partners": [
+          {
+            "name": "Lord of the Red",
+            "reason": "Red-Eyes Transmigration is the only way to Ritual Summon Lord of the Red.",
+            "link": "Ritual Summons"
+          }
+        ]
+      },
+      {
+        "card": "Red-Eyes Black Meteor Dragon",
+        "partners": [
+          {
+            "name": "Red-Eyes Black Dragon",
+            "reason": "Red-Eyes Black Meteor Dragon sends Red-Eyes Black Dragon from your hand or deck to the Graveyard to Special Summon itself, which enables the second part of the skill.",
+            "link": "sends to the Graveyard"
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "reason": "Red-Eyes Black Meteor Dragon is a Dragon Effect Monster, so it can be the second Fusion Material of Red-Eyes Dark Dragoon with Dark Magician.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Red-Eyes Insight",
+        "partners": [
+          {
+            "name": "Red-Eyes Spirit",
+            "reason": "Red-Eyes Insight searches Red-Eyes Spirit when you already have a good hand, so you have an extra answer for the opponent's turn.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Red-Eyes Spirit",
+        "partners": [
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "reason": "If a Kaiju or Lava Golem removes the Dragoon, Red-Eyes Spirit Special Summons it back from the Graveyard.",
+            "link": "brings back"
+          }
+        ]
+      },
+      {
+        "card": "Bystial Magnamhut",
+        "partners": [
+          {
+            "name": "Hieratic Seal of the Heavenly Spheres",
+            "reason": "Bystial Magnamhut is a Dragon you can Special Summon at once to be Link material for Hieratic Seal when you start without Aluber.",
+            "link": "is material for"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "aluber-two-dragoons",
+        "title": "Turn 1 with Aluber and a skill starter: two Red-Eyes Dark Dragoons, Lord of the Red and a safe field",
+        "hand": [
+          "Aluber the Jester of Despia",
+          "Red-Eyes Transmigration"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Aluber the Jester of Despia"
+          ],
+          "anyOf": [
+            {
+              "label": "A skill starter: Red-Eyes Black Dragon, Lord of the Red or Red-Eyes Transmigration",
+              "cards": [
+                "Red-Eyes Black Dragon",
+                "Lord of the Red",
+                "Red-Eyes Transmigration"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's first effect is step 1: reveal Red-Eyes Transmigration, Red-Eyes Black Dragon or Lord of the Red, add Lord of the Red or Red-Eyes Transmigration, then add 1 more Red-Eyes card. Both effects can be used once per Duel. In the replay he started with Red-Eyes Transmigration and Aluber, the two-card combo."
+        },
+        "start": {
+          "hand": [
+            "Red-Eyes Transmigration",
+            "Aluber the Jester of Despia",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The creator's opening hand: Red-Eyes Transmigration and Aluber the Jester of Despia (the two combo cards) plus two cards that do not matter for this line. Yours will differ: any skill starter plus Aluber works the same way."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Red-Eyes Armament",
+            "when": "Right at the start of your Main Phase (effect 1)",
+            "needs": "Reveal Red-Eyes Transmigration, Red-Eyes Black Dragon or Lord of the Red from your hand. Here he reveals Red-Eyes Transmigration.",
+            "gives": "You add Lord of the Red from your deck (or Transmigration, if you revealed another card), then you add 1 more Red-Eyes card: here Red-Eyes Black Meteor Dragon.",
+            "used": true,
+            "reason": "It brings the three combo pieces (Transmigration, Lord of the Red and Meteor Dragon) into your hand. The creator says to keep one of them in hand so you can fetch the other two.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "8:55"
+            },
+            "moves": [
+              {
+                "card": "Lord of the Red",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Red-Eyes Black Meteor Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Red-Eyes Black Meteor Dragon",
+            "action": "special-summon",
+            "reason": "Special Summon Red-Eyes Black Meteor Dragon from your hand by sending a Red-Eyes Black Dragon from your deck to the Graveyard. A Red-Eyes monster on your side turns on the second effect of the skill.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "10:17"
+            },
+            "moves": [
+              {
+                "card": "Red-Eyes Black Dragon",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Black Meteor Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Red-Eyes Armament",
+            "when": "Right after you control a Red-Eyes monster (effect 2)",
+            "needs": "You control a Red-Eyes monster (or the opponent controls a monster).",
+            "gives": "You choose 1 of 5 monsters from outside the deck (Dark Magician, Red-Eyes Black Flare Dragon, Red-Eyes Archfiend of Lightning, Meteor Dragon Red-Eyes Impact or Gearfried the Red-Eyes Iron Knight) to add to your hand, send the others to the Graveyard, and add Polymerization.",
+            "used": true,
+            "reason": "You always choose Dark Magician, for the Dragoon. The other 4 monsters fill the Graveyard, and two of them are Dragons that can be Fusion Material later. If you start without a Ritual card or Lord of the Red, the creator says you would have to take another route, because you would not get this second effect this way.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "10:25"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Red-Eyes Black Flare Dragon",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Archfiend of Lightning",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Meteor Dragon Red-Eyes Impact",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Gearfried the Red-Eyes Iron Knight",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Polymerization",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Polymerization",
+            "action": "activate",
+            "reason": "Fusion Summon Red-Eyes Dark Dragoon with Dark Magician from your hand and the Red-Eyes monster you control (Meteor Dragon). It cannot be targeted, cannot be destroyed by effects and can negate: it makes you safe against hand traps from the start.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "10:40"
+            },
+            "moves": [
+              {
+                "card": "Polymerization",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Black Meteor Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Dark Dragoon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Aluber the Jester of Despia",
+            "action": "normal-summon",
+            "reason": "Normal Summon Aluber the Jester of Despia and add Branded Fusion from your deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "11:10"
+            },
+            "moves": [
+              {
+                "card": "Aluber the Jester of Despia",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Branded Fusion",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Branded Fusion",
+            "action": "activate",
+            "reason": "Branded Fusion: send Fallen of Albaz and The Bystial Lubellion from your deck as material to Fusion Summon Albion the Branded Dragon. After this you can only Special Summon Fusion Monsters this turn, which is why you made the Dragoon first.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "11:14"
+            },
+            "moves": [
+              {
+                "card": "Branded Fusion",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Fallen of Albaz",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Bystial Lubellion",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Albion the Branded Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Albion the Branded Dragon",
+            "action": "special-summon",
+            "reason": "Albion's effect Fusion Summons the second Red-Eyes Dark Dragoon, banishing Dark Magician and Red-Eyes Black Flare Dragon from your Graveyard. You now have 2 Dragoons: 2 omni-negates that are hard to destroy.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "11:24"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Red-Eyes Black Flare Dragon",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Red-Eyes Dark Dragoon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Bystial Lubellion",
+            "action": "special-summon",
+            "reason": "Tribute Albion (a Level 8 DARK Dragon) to Special Summon The Bystial Lubellion from your Graveyard, then place Branded Regained face-up from your deck. Albion stays in the Graveyard, where it will set a Trap in the End Phase.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "11:36"
+            },
+            "moves": [
+              {
+                "card": "Albion the Branded Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Bystial Lubellion",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Branded Regained",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Red-Eyes Transmigration",
+            "action": "activate",
+            "reason": "Ritual Summon Lord of the Red: Tribute Aluber (Level 4) and banish Red-Eyes Black Dragon from your Graveyard to reach Level 8. Aluber goes to the Graveyard, where it can come back to negate a monster. Branded Regained puts the banished DARK monster on the bottom of the deck and you draw 1.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "11:50"
+            },
+            "moves": [
+              {
+                "card": "Red-Eyes Transmigration",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Aluber the Jester of Despia",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Black Dragon",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Lord of the Red",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Red-Eyes Black Dragon",
+                "from": "banished",
+                "to": "deck"
+              },
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Branded Banishment",
+            "action": "set",
+            "reason": "In the End Phase Albion (in the Graveyard because it was sent there this turn) adds or Sets a Branded Spell/Trap. In the replay it Sets Branded Banishment; the final list the creator shows has Branded Beast and Branded in Red instead.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "12:28"
+            },
+            "moves": [
+              {
+                "card": "Branded Banishment",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Make the Dragoon before Branded Fusion: while Branded Fusion is active you can only Special Summon Fusion Monsters from the Extra Deck. Keep your monster negates for the cards that matter (Dragoon's negate costs a discard, so keep a card in hand for it). The creator also keeps Lord of the Red, Aluber in the Graveyard and a Trap set so he has about six interactions on the opponent's turn.",
+        "endBoard": "Two Red-Eyes Dark Dragoons and Lord of the Red on the field, The Bystial Lubellion and Branded Regained active, a Branded Trap Set and Aluber in the Graveyard: two omni-negates, two destruction effects from the ritual monster, a Trap and the Graveyard monster as extra answers (about 5 or 6 interactions).",
+        "weakSpots": "The deck needs a skill starter plus Aluber: with only one of them you use the shorter lines. A negate on Albion or Branded Fusion loses the second Dragoon, and Spell/Trap removal on Branded Regained or the Trap slows the loop. The creator warns that the Dragoon's negate needs a card in hand to discard."
+      },
+      {
+        "id": "no-aluber",
+        "title": "Turn 1 without Aluber: one Dragoon, Hieratic Seal and Lord of the Red",
+        "hand": [
+          "Red-Eyes Transmigration",
+          "The Bystial Lubellion"
+        ],
+        "requires": {
+          "turn": "first",
+          "anyOf": [
+            {
+              "label": "A skill starter: Red-Eyes Black Dragon, Lord of the Red or Red-Eyes Transmigration",
+              "cards": [
+                "Red-Eyes Black Dragon",
+                "Lord of the Red",
+                "Red-Eyes Transmigration"
+              ]
+            }
+          ],
+          "without": [
+            {
+              "label": "Aluber the Jester of Despia (then use the two-Dragoon line)",
+              "cards": [
+                "Aluber the Jester of Despia"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's first effect is step 1: reveal Red-Eyes Transmigration, Red-Eyes Black Dragon or Lord of the Red, add Lord of the Red or Red-Eyes Transmigration, then add 1 more Red-Eyes card. Both effects can be used once per Duel. In the replay he started with Red-Eyes Transmigration, The Bystial Lubellion and Red-Eyes Black Meteor Dragon."
+        },
+        "start": {
+          "hand": [
+            "Red-Eyes Transmigration",
+            "The Bystial Lubellion",
+            "Red-Eyes Black Meteor Dragon",
+            "Unknown card"
+          ],
+          "note": "The creator's hand against Shaddoll: Red-Eyes Transmigration, The Bystial Lubellion and Red-Eyes Black Meteor Dragon and one more card. It has no Aluber, and it still gives a good board."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Red-Eyes Armament",
+            "when": "Right at the start of your Main Phase (effect 1)",
+            "needs": "Reveal Red-Eyes Transmigration from your hand.",
+            "gives": "You add Lord of the Red, then 1 more Red-Eyes card: here a standard Red-Eyes Black Dragon, because he already had Meteor Dragon in hand.",
+            "used": true,
+            "reason": "You get the combo pieces: a ritual spell, a ritual monster and the Normal Monster that will be a Dragoon Fusion Material.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "16:31"
+            },
+            "moves": [
+              {
+                "card": "Lord of the Red",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Red-Eyes Black Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Bystial Lubellion",
+            "action": "activate",
+            "reason": "Discard The Bystial Lubellion from your hand to add Bystial Magnamhut from your deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "16:37"
+            },
+            "moves": [
+              {
+                "card": "The Bystial Lubellion",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Bystial Magnamhut",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Red-Eyes Black Meteor Dragon",
+            "action": "special-summon",
+            "reason": "Special Summon Red-Eyes Black Meteor Dragon by sending a Red-Eyes Black Dragon from your deck to the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "16:42"
+            },
+            "moves": [
+              {
+                "card": "Red-Eyes Black Dragon",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Black Meteor Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Red-Eyes Armament",
+            "when": "Right after you control a Red-Eyes monster (effect 2)",
+            "needs": "You control a Red-Eyes monster.",
+            "gives": "Dark Magician goes to your hand, the other 4 monsters go to the Graveyard, and you add Polymerization.",
+            "used": true,
+            "reason": "Same as the first line: you always take Dark Magician for the Dragoon.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "16:45"
+            },
+            "moves": [
+              {
+                "card": "Dark Magician",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Red-Eyes Black Flare Dragon",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Archfiend of Lightning",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Meteor Dragon Red-Eyes Impact",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Gearfried the Red-Eyes Iron Knight",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Polymerization",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Polymerization",
+            "action": "activate",
+            "reason": "Fusion Summon Red-Eyes Dark Dragoon with Dark Magician and the Red-Eyes Black Dragon from your hand. He does not use Meteor Dragon here, because Meteor Dragon is needed later to make the Hieratic Seal.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "16:50"
+            },
+            "moves": [
+              {
+                "card": "Polymerization",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dark Magician",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Black Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Dark Dragoon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Bystial Magnamhut",
+            "action": "special-summon",
+            "reason": "Banish a DARK monster from the Graveyard (Red-Eyes Black Dragon) to Special Summon Bystial Magnamhut from your hand. In the End Phase it adds a Dragon from your deck or Graveyard to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "17:07"
+            },
+            "moves": [
+              {
+                "card": "Red-Eyes Black Dragon",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Bystial Magnamhut",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Bystial Lubellion",
+            "action": "special-summon",
+            "reason": "Tribute Red-Eyes Black Meteor Dragon (a Level 7 DARK Dragon) to Special Summon The Bystial Lubellion from your Graveyard, then place Branded Regained face-up from your deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "17:12"
+            },
+            "moves": [
+              {
+                "card": "Red-Eyes Black Meteor Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Bystial Lubellion",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Branded Regained",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Hieratic Seal of the Heavenly Spheres",
+            "action": "special-summon",
+            "reason": "Link Summon Hieratic Seal of the Heavenly Spheres with Bystial Magnamhut and The Bystial Lubellion (two Dragons). It gives you a bounce on the opponent's turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "17:20"
+            },
+            "moves": [
+              {
+                "card": "Hieratic Seal of the Heavenly Spheres",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Bystial Magnamhut",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Bystial Lubellion",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Red-Eyes Transmigration",
+            "action": "activate",
+            "reason": "Ritual Summon Lord of the Red by banishing Red-Eyes monsters from your Graveyard whose Levels total 8 or more (the creator banishes cards from the Graveyard here). Branded Regained puts the banished DARK monsters on the deck and you draw.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "17:26"
+            },
+            "moves": [
+              {
+                "card": "Red-Eyes Transmigration",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Red-Eyes Black Meteor Dragon",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Red-Eyes Black Flare Dragon",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Lord of the Red",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Bystial Magnamhut",
+            "action": "activate",
+            "reason": "In the End Phase Bystial Magnamhut adds a Dragon from your deck or Graveyard to your hand (here Bystial Druiswurm, a Quick Effect answer for the opponent's turn).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=oqe4dA51cTA",
+              "timestamp": "17:34"
+            },
+            "moves": [
+              {
+                "card": "Bystial Druiswurm",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Without Aluber you still finish with a Dragoon, Lord of the Red and a Hieratic Seal. Keep a Bystial in hand as a hand trap, and do not use the Seal's Quick Effect without a monster to Tribute. The creator says a bad hand still gives his standard combo.",
+        "endBoard": "Red-Eyes Dark Dragoon and Lord of the Red on the field, Hieratic Seal of the Heavenly Spheres in the Extra Monster Zone, Branded Regained active and Bystial Druiswurm in your hand: a negate, two destruction effects, a bounce and a Quick-Effect Bystial.",
+        "weakSpots": "There is only one Dragoon, so one negate of the Fusion or a Kaiju on it slows you down (Red-Eyes Spirit brings it back). Without Aluber you do not make the second Dragoon, and the Graveyard monsters need Branded Regained to keep paying for the Ritual."
+      }
+    ]
   }
 }

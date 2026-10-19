@@ -130,5 +130,16 @@
     "text": "You can only use this Skill's second effect once per turn.\n1: At the beginning of the Duel, add 2 \"Primathmech Alembertian\" and 3 \"Mathmech Circular\" from outside your Deck to your Deck or Extra Deck. During this Duel, you cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters, except \"Mathmech\" monsters, any effect damage your cards would inflict to your opponent becomes 0, and if your \"Mathmech\" Synchro Monster attacks a Defense Position monster, and the attacking monster's ATK is higher than the defense of the target, inflict battle damage equal to the difference between the attacking monster's ATK and the target's DEF.\n2: Reveal 1 \"Mathmech\" Tuner from your hand and send 1 card from your hand or field to the Graveyard, then add 2 \"Mathmech\" monsters from your Deck to your hand. If it is turn 2 onward, you can also set 1 \"Mathmech\" Spell/Trap Card from your hand or Deck. (This card can be activated the same turn.)",
     "source": "Skill Trader",
     "characters": []
+  },
+  "Red-Eyes Armament": {
+    "name": "Red-Eyes Armament",
+    "text": "You can use this Skill's first and second effects once per Duel if your Deck contains a total of 15 or more \"Red-Eyes\" cards and/or \"Lord of the Red\".\n1: Reveal 1 \"Red-Eyes Black Dragon\", \"Lord of the Red\", or \"Red-Eyes Transmigration\" from your hand and add 1 \"Lord of the Red\" or \"Red-Eyes Transmigration\" from your Deck to your hand. Then, you can add 1 \"Red-Eyes\" card from your Deck to your hand.\n2: If you control a \"Red-Eyes\" monster, or your opponent controls a monster, add 1 of the 5 monsters from outside your Deck to your hand, send the rest to the Graveyard, then add 1 \"Polymerization\" from outside your Deck to your hand.",
+    "source": null,
+    "characters": [
+      {
+        "name": "Joey Wheeler (Casual)",
+        "how": "Skill Exchange Trader"
+      }
+    ]
   }
 }
