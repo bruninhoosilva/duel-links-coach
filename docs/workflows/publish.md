@@ -4,6 +4,8 @@ The live site is https://bruninhoosilva.github.io/duel-links-coach/ , served by 
 
 **Never push the main project repository** (the folder this project lives in has no remote and sits inside a folder of unrelated personal files). **Publish only when the user asks.**
 
+The same repository also holds the project documentation under `docs/` (viewable and rendered on GitHub; GitHub Pages serves the `.md` files as plain text), linked from the repository README. See "Publishing the docs" below.
+
 ## One-time setup
 Clone the Pages repository somewhere outside this project (any folder):
 ```bash
@@ -38,6 +40,17 @@ Notes:
 - Verify a changed file, not only the page: for example `curl` a new JS file or a new `data/guides.json` entry. The page itself may be cached by the browser: hard refresh (Ctrl+F5).
 - A deploy normally takes under a minute. If the run stays `queued` for many minutes, check https://www.githubstatus.com : GitHub Actions had an incident on 2026-10-19 and the deploy of that day's publish waited a long time. The push itself is safe; the site updates when GitHub runs the job.
 - Commit messages in the Pages repository end with the `Co-Authored-By` line the session asks for.
+
+## Publishing the docs
+Do this in the same publish, after `cp -r ../duel-links-coach/site/. .` and before `git add -A`:
+```bash
+cd ../duel-links-coach
+npm run docs:decks                            # regenerate the deck pages first
+node scripts/publish-docs.js ../duel-links-coach-pages
+```
+It replaces `<clone>/docs` with the current `docs/`. Links to files that are not in the Pages repository (guides, scripts, review notes, the PRD, the project README) become plain text there, so nothing in the published docs is a broken link. The Pages repository README links to `docs/`; keep that section when editing the README.
+
+Before publishing docs, read them once for anything that should not be public (private notes, personal data). They contain no secrets by design; keep it that way.
 
 ## What is public
 Card images are included on purpose (the user chose public hosting with the card pictures; the artwork belongs to Konami and is shown only as a reference, and the Pages README invites rights holders to open an issue). The footer states that the tool is unofficial. Browser data (collection, versions) never leaves the browser.

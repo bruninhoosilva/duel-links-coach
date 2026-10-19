@@ -79,6 +79,7 @@ Every read and write is wrapped in try/catch; the site works with storage blocke
 | `serve-site.js` | Local server on 127.0.0.1:5173 (dies on restart) |
 | `digest-video.js`, `scan-transcript.js`, `evidence.js`, `review-queue.js`, `render-guide.js` | Video and review helpers used when writing guides |
 | `gen-deck-docs.js` | Generate `docs/decks/*.md` |
+| `publish-docs.js` | Copy `docs/` into the Pages clone for publishing (links to project files become plain text) |
 | `ai-eval.js` | Quality test of the stopped AI-verdicts idea |
 
 ## Tests

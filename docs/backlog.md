@@ -3,8 +3,7 @@
 Ordered roughly by value. Nothing here is started unless it says so. Per-deck caveats are in [decks/known-issues.md](decks/known-issues.md).
 
 ## Pending right now
-- **Publish check for Cyber Dragon.** The publish of commit `04f88a8` in the Pages repository was pushed on 2026-10-19 but the GitHub Pages deploy stayed queued during a GitHub incident. The user said they will check it themselves. Verify at https://github.com/bruninhoosilva/duel-links-coach/actions that the run turned green; if it is red or stuck, re-run it.
-- The latest commits of this folder (Cyber Dragon follow-ups, this documentation set, `scripts/gen-deck-docs.js`, `tests/deck-doc.test.js`) are local until the next publish. Documentation files are not part of the published `site/`.
+- Nothing is waiting. Everything up to the documentation set is published (the Cyber Dragon deploy and the first docs deploy both finished green on 2026-10-19). Local-only: any change made after the last publish; check with `git log` against the Pages repository.
 
 ## Content
 - **Mathmech creator list.** The guide merges two creators; to give it a "From Video - Creator" list, re-read the deck screen of its main video (needs the user's yes to download a short section).
