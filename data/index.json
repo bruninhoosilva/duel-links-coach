@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T14:05:11.360Z",
+  "generatedAt": "2026-10-19T14:12:53.334Z",
   "dataFetchedAt": "2026-10-13T19:19:55.983Z",
   "decks": [
     {
@@ -15,6 +15,10 @@
         "share": 0.04096385542168675,
         "tiers": {},
         "commonTier": null
+      },
+      "featured": {
+        "name": "Dark Magician",
+        "image": "img/cards/dark-magician.jpg"
       }
     },
     {
@@ -32,6 +36,10 @@
           "3": 41
         },
         "commonTier": 3
+      },
+      "featured": {
+        "name": "Horus the Black Flame Deity",
+        "image": "img/cards/horus-the-black-flame-deity.jpg"
       }
     },
     {
@@ -47,6 +55,10 @@
         "share": 0.05542168674698795,
         "tiers": {},
         "commonTier": null
+      },
+      "featured": {
+        "name": "Mathmech Circular",
+        "image": "img/cards/mathmech-circular.jpg"
       }
     },
     {
@@ -64,6 +76,10 @@
           "1": 37
         },
         "commonTier": 1
+      },
+      "featured": {
+        "name": "Mementoal Tecuhtlica - Combined Creation",
+        "image": "img/cards/mementoal-tecuhtlica-combined-creation.jpg"
       }
     },
     {
@@ -79,6 +95,10 @@
         "share": 0.006024096385542169,
         "tiers": {},
         "commonTier": null
+      },
+      "featured": {
+        "name": "Red-Eyes Black Dragon",
+        "image": "img/cards/red-eyes-black-dragon.jpg"
       }
     }
   ]

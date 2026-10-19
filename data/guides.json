@@ -4,6 +4,7 @@
     "format": "speed",
     "status": "verified",
     "updated": "2026-10-14",
+    "featuredCard": "Dark Magician",
     "skill": {
       "name": "The Eye of the United Dragon",
       "enablerCards": [
@@ -1191,6 +1192,7 @@
     "format": "speed",
     "status": "verified",
     "updated": "2026-10-16",
+    "featuredCard": "Horus the Black Flame Deity",
     "skill": {
       "name": "Precious Cards of the Dark",
       "enablerCards": [],
@@ -2233,6 +2235,7 @@
     "format": "speed",
     "status": "verified",
     "updated": "2026-10-13",
+    "featuredCard": "Mathmech Circular",
     "skill": {
       "name": "Mathmech Slicer",
       "enablerCards": [
@@ -3337,6 +3340,7 @@
     "format": "speed",
     "status": "verified",
     "updated": "2026-10-14",
+    "featuredCard": "Mementoal Tecuhtlica - Combined Creation",
     "skill": {
       "name": "Precious Cards of the Dark",
       "enablerCards": [],
@@ -4984,6 +4988,7 @@
     "format": "speed",
     "status": "verified",
     "updated": "2026-10-19",
+    "featuredCard": "Red-Eyes Black Dragon",
     "skill": {
       "name": "Red-Eyes Armament",
       "enablerCards": [],

@@ -8,8 +8,12 @@ export function renderDeckList(index) {
   const cards = index.decks
     .map((d) => {
       const tier = d.stats.commonTier ? `Most common tier on Duel Links Meta: ${d.stats.commonTier}` : 'No tier listed on Duel Links Meta';
+      const art = d.featured?.image
+        ? `<a class="deck-art" href="${deckHref(d.slug)}" tabindex="-1" aria-hidden="true"><img src="${esc(d.featured.image)}" alt="" width="118" height="170" loading="lazy"><span class="deck-art-name">${esc(d.featured.name)}</span></a>`
+        : '';
       return `
-    <article class="deck-card">
+    <article class="deck-card${art ? ' has-art' : ''}">
+      ${art}
       <h2><a href="${deckHref(d.slug)}">${esc(d.name)}</a> ${badge(d.status)}</h2>
       <p class="muted">Skill: ${esc(d.skill)}</p>
       <ul class="facts">
