@@ -1809,6 +1809,825 @@
       }
     ]
   },
+  "elemental-hero": {
+    "defaultId": "video",
+    "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "Palladino BR",
+        "event": "Video list",
+        "created": "2026-10-20",
+        "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+        "tier": null,
+        "main": [
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 3
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 2
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Grand Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+            "count": 1
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Marine Dolphin",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "6acb98053b22dd13d8b08193",
+        "author": "Madz🌀",
+        "event": "King of Games",
+        "created": "2026-10-11",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/madz🌀/rHm5o/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Rainbow Dragon",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Solid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 2
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 1
+          },
+          {
+            "name": "Neos Fusion",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Rainbow Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 2
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Core",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          }
+        ],
+        "mainSize": 29,
+        "extraSize": 9,
+        "distance": 6
+      },
+      {
+        "id": "6ac3cc5dc4420970b130eb1f",
+        "author": "Zhuge an",
+        "event": "King of Games",
+        "created": "2026-10-05",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/zhuge-an/CecA_/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Rainbow Dragon",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Solid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 2
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 2
+          },
+          {
+            "name": "Neos Fusion",
+            "count": 1
+          },
+          {
+            "name": "EN - Engage Neo Space",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 2
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Marine Dolphin",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 6.5
+      },
+      {
+        "id": "6abdc27a145794cff7047cb5",
+        "author": "momotaros94",
+        "event": "King of Games",
+        "created": "2026-09-30",
+        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/heros/momotaros94/iZlQP/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Rainbow Dragon",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 2
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 1
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "Neos Fusion",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 2
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Brave Neos",
+            "count": 1
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 3
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 7.5
+      },
+      {
+        "id": "6abed25f1680efd924fa2b30",
+        "author": "Diuan",
+        "event": null,
+        "created": "2026-10-01",
+        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/191/heros/diuan/GyMWZ/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Solid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 2
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "EN - Engage Neo Space",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Grand Neos",
+            "count": 1
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Marine Dolphin",
+            "count": 1
+          }
+        ],
+        "mainSize": 28,
+        "extraSize": 9,
+        "distance": 10
+      },
+      {
+        "id": "6abd97691a3a5aa553fb3179",
+        "author": "nimalabe19",
+        "event": "King of Games",
+        "created": "2026-09-30",
+        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/heros/nimalabe19/IHViG/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 3
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Solid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 1
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "Polymerization",
+            "count": 1
+          },
+          {
+            "name": "EN Wave",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 2
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 2
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Marine Dolphin",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 10
+      },
+      {
+        "id": "6ac3d6c820a3a149602d8a86",
+        "author": "SpacetrumZ",
+        "event": "King of Games",
+        "created": "2026-10-05",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/spacetrumz/DaFxv/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 3
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Solid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 2
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Grand Neos",
+            "count": 1
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Dark Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Marine Dolphin",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 10.5
+      }
+    ]
+  },
   "horus": {
     "defaultId": "video",
     "lists": [

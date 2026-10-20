@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|
 | [Cyber Dragon](cyber-dragon.md) | verified | 2026-10-19 | I'll Show You Perfection! | 2 | 27 |
 | [Dark Magician](dark-magician.md) | verified | 2026-10-14 | The Eye of the United Dragon | 1 | 25 |
+| [Elemental HERO](elemental-hero.md) | verified | 2026-10-20 | Miracle Neos Contact | 1 | 24 |
 | [Horus](horus.md) | verified | 2026-10-16 | Precious Cards of the Dark | 1 | 23 |
 | [Mathmech](mathmech.md) | verified | 2026-10-13 | Mathmech Slicer | 2 | 24 |
 | [Memento](memento.md) | verified | 2026-10-14 | Precious Cards of the Dark | 1 | 26 |

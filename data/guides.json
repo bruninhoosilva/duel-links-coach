@@ -2145,6 +2145,734 @@
       ]
     }
   },
+  "elemental-hero": {
+    "deck": "Elemental HERO",
+    "metaDeck": "HEROs",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-20",
+    "featuredCard": "Elemental HERO Thunder Giant - Voltic Thunder",
+    "skill": {
+      "name": "Miracle Neos Contact",
+      "enablerCards": [],
+      "trigger": "Effects 2 and 3 can be used once per Duel. To use effect 2 you need Elemental HERO Spirit of Neos or Miracle Ejector in your hand, so the deck plays 3 of each and Stratos to find a HERO when you did not draw them. Effect 3 needs you to control Spirit of Neos or the opponent to control a monster.",
+      "enabler": "Effect 2: reveal Spirit of Neos or Miracle Ejector, add an Elemental HERO monster from your deck and Polymerization from outside your deck. Effect 3: Set Super Polymerization and E - Emergency Call from your deck. Effect 1 adds 12 Fusion Monsters to your Extra Deck, limits your Special Summons to Neos, Elemental HERO and Neo-Spacian monsters, and lets you activate Super Polymerization and Favorite Contact the turn they are Set.",
+      "adds": []
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "14 vitórias seguidas: ninguém está preparado para esse novo HERO! (Portuguese deck explanation and replays)",
+        "creator": "Palladino BR",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw"
+      }
+    ],
+    "gamePlan": "This is the Elemental HERO deck updated with the new Elemental HERO Thunder Giant - Voltic Thunder, a fusion made from any 2 HERO with different Attributes that destroys every other card on the field when the opponent has more cards than you. Reveal Spirit of Neos or Miracle Ejector for the skill, take Polymerization, search with E - Emergency Call and Stratos, and fuse Voltic Thunder to wipe the board (a turn two the deck did not have before). Super Polymerization (which the skill lets you use the turn it is Set) protects the play. The old plan is still there: Favorite Contact and Neos fusions (Aqua Neos, Marine Neos) destroy cards in the opponent's hand. The creator reached Legend 5 with 14 wins in a row.",
+    "strengths": [
+      "Thunder Giant - Voltic Thunder is easy to make (any 2 HERO with different Attributes) and clears the opponent's whole board, which fixes the deck's old weak turn two.",
+      "The skill gives Polymerization and sets Super Polymerization, which cannot be responded to and can be used the turn it is Set.",
+      "Many searchers (E - Emergency Call ×3, Stratos ×3, Miracle Ejector, Spirit of Neos) make the combo easy to start.",
+      "The deck is cheap to build and the new card is a reward from the in-game gate, no big boxes needed."
+    ],
+    "weaknesses": [
+      "The wipe also destroys your own Set Spells and Traps, and only works when the opponent controls more cards than you.",
+      "Neos-based fusions made with Instant Contact need Neos on your field or in your Graveyard, or they cannot attack and lose their effects.",
+      "The skill limits you to Neos, Elemental HERO and Neo-Spacian Special Summons, and the first effect needs a Spirit of Neos or Miracle Ejector in hand.",
+      "Hand traps and negates on Polymerization or on Voltic Thunder slow the line (the creator answers with Super Polymerization)."
+    ],
+    "cards": [
+      {
+        "name": "Elemental HERO Spirit of Neos",
+        "role": "starter",
+        "copies": 3,
+        "note": "One of the two cards you reveal for the skill. In your hand it Special Summons itself in Defense Position when the opponent declares an attack (and cannot be destroyed by battle), and then searches Polymerization or a Spell/Trap that mentions an Elemental HERO. It can also shuffle itself into the deck to Special Summon an Elemental HERO Normal Monster (Neos).",
+        "substitutes": [
+          {
+            "name": "Elemental HERO Stratos",
+            "why": "The creator says Spirit of Neos and Miracle Ejector are the cards the skill needs, and that Stratos is in the deck so that, if you did not draw either, you can Normal Summon Stratos and add a HERO that finds them."
+          }
+        ]
+      },
+      {
+        "name": "Miracle Ejector",
+        "role": "starter",
+        "copies": 3,
+        "note": "The other card you reveal for the skill (it is always treated as an Elemental HERO). From the hand it Special Summons itself by sending a Neo-Spacian from your deck to the Graveyard (your Aqua Dolphin, which then fuels Favorite Contact), and when summoned it adds a Spell/Trap that mentions an Elemental HERO. Sent to the Graveyard it banishes a card in the opponent's Graveyard, which can stop their boss from coming back."
+      },
+      {
+        "name": "Elemental HERO Stratos",
+        "role": "starter",
+        "copies": 3,
+        "note": "Normal Summon it to add a HERO from your deck, or to destroy Spells/Traps up to the number of other HERO monsters you control. It is the backup that finds a HERO when you did not draw Spirit of Neos or Miracle Ejector, and it clears a trap after Voltic Thunder wipes the field."
+      },
+      {
+        "name": "Elemental HERO Neos",
+        "role": "extender",
+        "copies": 2,
+        "note": "The Normal Monster the deck is built around: Favorite Contact and the Aqua Neos and Marine Neos fusions are made with it, and Instant Contact needs it on the field or in the Graveyard so the summoned monster can attack and keep its effects."
+      },
+      {
+        "name": "Neo-Spacian Aqua Dolphin",
+        "role": "extender",
+        "copies": 2,
+        "note": "Neo-Spacian that can discard a card to look at the opponent's hand and destroy a monster (500 damage), and the material for Aqua Neos. The creator uses 2 so Miracle Ejector can send one to the Graveyard and Favorite Contact can still use it."
+      },
+      {
+        "name": "Elemental HERO Liquid Soldier",
+        "role": "extender",
+        "copies": 1,
+        "note": "Normal Summon it to bring back a Level 4 or lower HERO from the Graveyard. When it is used as Fusion Material for a HERO it draws 2 cards, then you discard 1, which pays for Polymerization-based plays."
+      },
+      {
+        "name": "Winged Kuriboh LV6",
+        "role": "removal",
+        "copies": 1,
+        "note": "Treated as an Elemental HERO. Special Summon it from the hand or Graveyard by banishing an Elemental HERO Fusion Monster. When the opponent attacks or activates a monster effect, Tribute it to destroy that monster and deal damage equal to half its ATK. The creator uses it as his defense."
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Stops the opponent's search turn. The creator notes the deck has plenty of draw and plays 3 to stop other decks."
+      },
+      {
+        "name": "E - Emergency Call",
+        "role": "starter",
+        "copies": 3,
+        "note": "Adds an Elemental HERO monster from the deck. Three copies are the \"emergency searchers\" that start the combo, and the skill's third effect can Set one for you."
+      },
+      {
+        "name": "Forbidden Droplet",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Quick-Play Spell: send other cards to halve the ATK and negate the effects of as many of the opponent's Effect Monsters. The creator says it helps when the opponent's key monster attacks or when a card he needs would lose its target."
+      },
+      {
+        "name": "Super Polymerization",
+        "role": "extender",
+        "copies": 1,
+        "note": "Quick-Play Fusion: discard 1 card and Fusion Summon with monsters from either field, and neither player can respond. The skill lets you activate it the turn it is Set. The creator uses it to answer an interaction, for example a hand trap on Voltic Thunder."
+      },
+      {
+        "name": "Miracle Fusion",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fusion Summons an Elemental HERO Fusion Monster by banishing the materials from your field or Graveyard."
+      },
+      {
+        "name": "Instant Contact",
+        "role": "extender",
+        "copies": 1,
+        "note": "Pay 1000 Life Points to Special Summon a Level 7 or lower Elemental HERO or Neo-Spacian from the Extra Deck, ignoring its conditions. Only do it while Elemental HERO Neos is on your field or in your Graveyard: otherwise the monster cannot attack, its effects are negated and it returns to the Extra Deck in the End Phase."
+      },
+      {
+        "name": "EN Shuffle",
+        "role": "extender",
+        "copies": 1,
+        "note": "Shuffles an Elemental HERO or Neo-Spacian you control into the deck to Special Summon one with a different name. From the Graveyard it shuffles cards back and draws, and it also puts Neos back into the deck. It is the one that lets Miracle Ejector leave the field and bring Neos out."
+      },
+      {
+        "name": "Protection of the Elements",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Counter Trap: when a Spell/Trap is activated, banish an Elemental HERO you control until the End Phase to negate it and destroy it. The creator calls it the elemental protection of the deck."
+      },
+      {
+        "name": "Favorite Contact",
+        "role": "extender",
+        "copies": 1,
+        "note": "Trap that Special Summons a Fusion Monster that lists a HERO as material, by putting the materials from your hand, field, Graveyard or banished cards on the bottom of the deck (no Polymerization). The skill lets you activate it the turn it is Set. If you put Neos into the deck, neither player can send the summoned monster back to the Extra Deck."
+      },
+      {
+        "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+        "role": "payoff",
+        "copies": 1,
+        "note": "The new card and the reason the deck has a turn two. Made from 2 Elemental HERO with different Attributes (easy to do). When Special Summoned while the opponent controls more cards than you, it destroys all other cards on the field, yours too; it stays on the board. Tribute it (if made with a Normal Monster) to bring a HERO back from the Graveyard."
+      },
+      {
+        "name": "Elemental HERO Flame Wingman - Infernal Rage",
+        "role": "extender",
+        "copies": 1,
+        "note": "Fusion of 2 Elemental HERO with different Attributes. When Special Summoned it adds a card with \"Favorite\" in its name (Favorite Contact). If made with a Normal Monster you can Tribute it to Special Summon a Level 7 or lower HERO that cannot be Normal Summoned."
+      },
+      {
+        "name": "Elemental HERO Grand Neos",
+        "role": "removal",
+        "copies": 1,
+        "note": "Neos plus a Neo-Spacian (Grand Mole) by shuffling them, with no Polymerization. Once per turn it returns a monster the opponent controls to the hand. Favorite Contact can make it."
+      },
+      {
+        "name": "Wake Up Your Elemental HERO",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Big Fusion: 1 Elemental HERO Fusion Monster plus Warrior monsters. It attacks several times and destroys what it fights, dealing half the monster's ATK as damage."
+      },
+      {
+        "name": "Elemental HERO Shining Neos Wingman",
+        "role": "payoff",
+        "copies": 2,
+        "note": "Neos plus a Wingman Fusion Monster: harder to make than Voltic Thunder. It gains ATK for each monster in your Graveyard and cannot be destroyed by card effects. The creator says one copy already fits; he plays two by choice."
+      },
+      {
+        "name": "Elemental HERO Aqua Neos",
+        "role": "removal",
+        "copies": 1,
+        "note": "Neos plus Aqua Dolphin, shuffling them back. Once per turn it discards a card to destroy a random card in the opponent's hand; it returns to the Extra Deck in the End Phase unless Favorite Contact shuffled Neos. One of the three hand-destruction fusions."
+      },
+      {
+        "name": "Elemental HERO Marine Neos",
+        "role": "removal",
+        "copies": 1,
+        "note": "Neos plus Neo-Spacian Marine Dolphin. Once per turn it destroys a random card in the opponent's hand. One of the three hand-destruction fusions."
+      },
+      {
+        "name": "Neo-Spacian Marine Dolphin",
+        "role": "removal",
+        "copies": 1,
+        "note": "Neo-Spacian that can discard a card to look at the opponent's hand and destroy a monster (500 damage). It can only be Special Summoned with \"NEX\"; part of the hand-destruction plan."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Miracle Ejector",
+        "partners": [
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "reason": "Miracle Ejector sends a Neo-Spacian (Aqua Dolphin) from the deck to the Graveyard to Special Summon itself, and Favorite Contact can then use that Dolphin as material.",
+            "link": "sends to the Graveyard"
+          },
+          {
+            "name": "Favorite Contact",
+            "reason": "When Miracle Ejector is summoned it can add a Spell/Trap that mentions an Elemental HERO: Favorite Contact.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Elemental HERO Spirit of Neos",
+        "partners": [
+          {
+            "name": "Polymerization",
+            "reason": "When Spirit of Neos is Special Summoned it adds Polymerization or a Spell/Trap that mentions an Elemental HERO.",
+            "link": "searches"
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "reason": "Spirit of Neos can shuffle itself into the deck to Special Summon an Elemental HERO Normal Monster: Neos.",
+            "link": "brings out"
+          }
+        ]
+      },
+      {
+        "card": "Elemental HERO Liquid Soldier",
+        "partners": [
+          {
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+            "reason": "Liquid Soldier and any HERO with a different Attribute are the two materials of Thunder Giant - Voltic Thunder, and Liquid Soldier draws 2 when it goes to the Graveyard as material.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Elemental HERO Neos",
+        "partners": [
+          {
+            "name": "Favorite Contact",
+            "reason": "Favorite Contact puts Neos and a Neo-Spacian on the bottom of the deck to Special Summon Aqua Neos, Marine Neos or Grand Neos without Polymerization.",
+            "link": "is shuffled for"
+          },
+          {
+            "name": "Instant Contact",
+            "reason": "Instant Contact keeps the summoned Level 7 or lower monster working only while Neos is on the field or in the Graveyard.",
+            "link": "is required by"
+          }
+        ]
+      },
+      {
+        "card": "E - Emergency Call",
+        "partners": [
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "reason": "Elemental HERO Spirit of Neos is one of the cards Emergency Call fetches, so it can start the skill.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Elemental HERO Thunder Giant - Voltic Thunder",
+        "partners": [
+          {
+            "name": "Elemental HERO Stratos",
+            "reason": "After Voltic Thunder clears the field, Stratos can destroy a Spell/Trap for each other HERO you control.",
+            "link": "follows"
+          }
+        ]
+      },
+      {
+        "card": "Super Polymerization",
+        "partners": [
+          {
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+            "reason": "Super Polymerization cannot be responded to, so it protects a Voltic Thunder play against a hand trap, and the skill lets you use it the turn it is Set.",
+            "link": "protects"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "voltic-thunder-wipe",
+        "title": "Going second: Polymerization into Elemental HERO Thunder Giant - Voltic Thunder to wipe the opponent's board",
+        "hand": [
+          "Miracle Ejector",
+          "Elemental HERO Liquid Soldier"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Miracle Ejector"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's second effect is step 1: reveal Elemental HERO Spirit of Neos or Miracle Ejector from your hand, add 1 Elemental HERO monster from your deck and add Polymerization from outside the deck. The third effect (once per Duel) Sets Super Polymerization and E - Emergency Call from your deck if you control Spirit of Neos or your opponent controls a monster. The first effect adds 12 Fusion Monsters to your Extra Deck, limits you to Neos, Elemental HERO and Neo-Spacian Special Summons, and lets you activate Super Polymerization and Favorite Contact the turn they are Set. In the replay he reveals Miracle Ejector and adds Winged Kuriboh LV6."
+        },
+        "start": {
+          "hand": [
+            "Miracle Ejector",
+            "Elemental HERO Liquid Soldier",
+            "E - Emergency Call",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The hand of the creator's first replay (he goes second against Memento and the opponent has a full board): Miracle Ejector, Liquid Soldier, E - Emergency Call and two cards that do not matter. Yours will differ: any hand with Spirit of Neos or Miracle Ejector starts it."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Miracle Neos Contact",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal Elemental HERO Spirit of Neos or Miracle Ejector from your hand. Here Miracle Ejector.",
+            "gives": "Add 1 Elemental HERO monster from your deck (here Winged Kuriboh LV6) and Polymerization from outside your deck.",
+            "used": true,
+            "reason": "The skill gives you Polymerization, which is the key card of this line, and a defensive monster. The creator says it gives you something in hand to start playing.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "11:07"
+            },
+            "moves": [
+              {
+                "card": "Winged Kuriboh LV6",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Polymerization",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Miracle Neos Contact",
+            "when": "Right after, while the opponent controls a monster (effect 3)",
+            "needs": "The opponent controls a monster (or you control Spirit of Neos).",
+            "gives": "Set Super Polymerization and E - Emergency Call from your deck to your field.",
+            "used": true,
+            "reason": "Super Polymerization can be activated the turn it is Set (effect 1), so you have an answer that cannot be responded to.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "12:30"
+            },
+            "moves": [
+              {
+                "card": "Super Polymerization",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "E - Emergency Call",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "E - Emergency Call",
+            "action": "activate",
+            "reason": "Activate E - Emergency Call from your hand and add Elemental HERO Spirit of Neos from your deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "12:40"
+            },
+            "moves": [
+              {
+                "card": "E - Emergency Call",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Elemental HERO Spirit of Neos",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Polymerization",
+            "action": "activate",
+            "reason": "Fusion Summon Elemental HERO Thunder Giant - Voltic Thunder with Elemental HERO Liquid Soldier (WATER) and Miracle Ejector (an Elemental HERO, EARTH): two HERO with different Attributes.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "12:45"
+            },
+            "moves": [
+              {
+                "card": "Polymerization",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Elemental HERO Liquid Soldier",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Miracle Ejector",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Elemental HERO Thunder Giant - Voltic Thunder",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Elemental HERO Liquid Soldier",
+            "action": "activate",
+            "reason": "Liquid Soldier was used as Fusion Material for a HERO, so from the Graveyard it draws 2 cards and you discard 1. Miracle Ejector's own effect (sent to the Graveyard) banishes a card in the opponent's Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "12:50"
+            },
+            "moves": [
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Unknown card",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Unknown card",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Elemental HERO Thunder Giant - Voltic Thunder",
+            "action": "activate",
+            "reason": "The opponent controls more cards than you, so Voltic Thunder destroys all other cards on the field (and stays on the board). Your own Set cards are destroyed too, so use Super Polymerization before this if you need it, for example to answer a Effect Veiler: it cannot be responded to.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "12:54"
+            },
+            "moves": [
+              {
+                "card": "Super Polymerization",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "E - Emergency Call",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator keeps Super Polymerization for the opponent's hand trap (he activated it against Effect Veiler to remove the target) before Voltic Thunder's effect destroys his Set cards, and then attacks. After the wipe he can Normal Summon Elemental HERO Stratos to destroy a remaining Spell/Trap and keep attacking, and Winged Kuriboh LV6 stays in hand to Tribute against an attack.",
+        "endBoard": "Elemental HERO Thunder Giant - Voltic Thunder alone on a cleared field (the opponent's board destroyed), Spirit of Neos, Winged Kuriboh LV6 and Polymerization-based cards left in your hand.",
+        "weakSpots": "The wipe also destroys your own Set Spells and Traps, and it needs the opponent to control more cards than you: with a smaller opponent board only Voltic Thunder itself arrives. The creator once forgot a better play with Winged Kuriboh LV6 (the girl banishes things, he says) and warns not to rush."
+      },
+      {
+        "id": "aqua-neos-hand-destruction",
+        "title": "Turn 1: Miracle Ejector, Favorite Contact and Elemental HERO Aqua Neos to destroy a card in the opponent's hand",
+        "hand": [
+          "Miracle Ejector",
+          "Elemental HERO Neos"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Miracle Ejector",
+            "Elemental HERO Neos"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's second effect is step 1: reveal Elemental HERO Spirit of Neos or Miracle Ejector from your hand, add 1 Elemental HERO monster from your deck and add Polymerization from outside the deck. The third effect (once per Duel) Sets Super Polymerization and E - Emergency Call from your deck if you control Spirit of Neos or your opponent controls a monster. The first effect adds 12 Fusion Monsters to your Extra Deck, limits you to Neos, Elemental HERO and Neo-Spacian Special Summons, and lets you activate Super Polymerization and Favorite Contact the turn they are Set. This line is built from the card texts and the creator's explanation of the hand-destruction plan, not from a replay."
+        },
+        "start": {
+          "hand": [
+            "Miracle Ejector",
+            "Elemental HERO Neos",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "An example hand: Miracle Ejector and Elemental HERO Neos plus two cards that do not matter. This line comes from the creator's explanation (Miracle Ejector sends your Dolphin to the Graveyard to be Favorite Contact's target) and the card texts: he does not show it in a replay, so every step is medium confidence."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Miracle Neos Contact",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal Miracle Ejector from your hand.",
+            "gives": "Add 1 Elemental HERO monster from your deck (here Elemental HERO Stratos) and Polymerization from outside your deck.",
+            "used": true,
+            "reason": "It gives you a backup monster and Polymerization before you start. The skill's first effect also lets you activate Favorite Contact the turn it is Set.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "2:03"
+            },
+            "moves": [
+              {
+                "card": "Elemental HERO Stratos",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Polymerization",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Miracle Ejector",
+            "action": "special-summon",
+            "reason": "Special Summon Miracle Ejector from your hand by sending Neo-Spacian Aqua Dolphin from your deck to the Graveyard. When it is summoned, add Favorite Contact (a Trap that mentions an Elemental HERO).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "4:04"
+            },
+            "moves": [
+              {
+                "card": "Neo-Spacian Aqua Dolphin",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Miracle Ejector",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Favorite Contact",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Favorite Contact",
+            "action": "set",
+            "reason": "Set Favorite Contact. Because of the skill, you can activate it the turn it is Set.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "2:59"
+            },
+            "moves": [
+              {
+                "card": "Favorite Contact",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Favorite Contact",
+            "action": "activate",
+            "reason": "Special Summon Elemental HERO Aqua Neos from the Extra Deck by putting Elemental HERO Neos (from your hand) and Neo-Spacian Aqua Dolphin (from the Graveyard) on the bottom of the deck. Because Neos went into the deck, neither player can send Aqua Neos back to the Extra Deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "8:18"
+            },
+            "moves": [
+              {
+                "card": "Elemental HERO Neos",
+                "from": "hand",
+                "to": "deck"
+              },
+              {
+                "card": "Neo-Spacian Aqua Dolphin",
+                "from": "graveyard",
+                "to": "deck"
+              },
+              {
+                "card": "Elemental HERO Aqua Neos",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Favorite Contact",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Elemental HERO Aqua Neos",
+            "action": "activate",
+            "reason": "Discard 1 card to destroy a random card in the opponent's hand. You can do it once per turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=iFcRYuhRFCw",
+              "timestamp": "9:19"
+            },
+            "moves": [
+              {
+                "card": "Unknown card",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator says the deck used to be built for a turn one that clears the opponent's hand (which he calls oppressive), with three hand-destruction fusions: Neo-Spacian Marine Dolphin (look at the hand and destroy a monster), Elemental HERO Marine Neos and Elemental HERO Aqua Neos (destroy a random card each turn). Now Thunder Giant - Voltic Thunder gives the deck a turn two as well.",
+        "endBoard": "Miracle Ejector and Elemental HERO Aqua Neos on the field, Favorite Contact in the Graveyard, and Stratos and Polymerization in your hand; the opponent has one random card less in hand.",
+        "weakSpots": "The line spends your Neos copy and the Dolphin, and the monsters it makes are not a long-term board. A hand trap on Miracle Ejector or a negate on Favorite Contact stops it. Do not Special Summon Neos-based monsters from the Extra Deck without Neos on your side or in your Graveyard."
+      }
+    ],
+    "videoList": {
+      "main": [
+        {
+          "name": "Elemental HERO Spirit of Neos",
+          "count": 3
+        },
+        {
+          "name": "Elemental HERO Stratos",
+          "count": 3
+        },
+        {
+          "name": "Miracle Ejector",
+          "count": 3
+        },
+        {
+          "name": "Droll & Lock Bird",
+          "count": 3
+        },
+        {
+          "name": "Winged Kuriboh LV6",
+          "count": 1
+        },
+        {
+          "name": "Elemental HERO Liquid Soldier",
+          "count": 1
+        },
+        {
+          "name": "Neo-Spacian Aqua Dolphin",
+          "count": 2
+        },
+        {
+          "name": "Elemental HERO Neos",
+          "count": 2
+        },
+        {
+          "name": "E - Emergency Call",
+          "count": 3
+        },
+        {
+          "name": "Forbidden Droplet",
+          "count": 3
+        },
+        {
+          "name": "Super Polymerization",
+          "count": 1
+        },
+        {
+          "name": "Miracle Fusion",
+          "count": 1
+        },
+        {
+          "name": "Instant Contact",
+          "count": 1
+        },
+        {
+          "name": "EN Shuffle",
+          "count": 1
+        },
+        {
+          "name": "Protection of the Elements",
+          "count": 1
+        },
+        {
+          "name": "Favorite Contact",
+          "count": 1
+        }
+      ],
+      "extra": [
+        {
+          "name": "Elemental HERO Flame Wingman - Infernal Rage",
+          "count": 1
+        },
+        {
+          "name": "Elemental HERO Grand Neos",
+          "count": 1
+        },
+        {
+          "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+          "count": 1
+        },
+        {
+          "name": "Wake Up Your Elemental HERO",
+          "count": 1
+        },
+        {
+          "name": "Elemental HERO Shining Neos Wingman",
+          "count": 2
+        },
+        {
+          "name": "Elemental HERO Aqua Neos",
+          "count": 1
+        },
+        {
+          "name": "Elemental HERO Marine Neos",
+          "count": 1
+        },
+        {
+          "name": "Neo-Spacian Marine Dolphin",
+          "count": 1
+        }
+      ]
+    }
+  },
   "horus": {
     "deck": "Horus",
     "format": "speed",

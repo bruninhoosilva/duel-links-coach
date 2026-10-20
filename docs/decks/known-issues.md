@@ -42,3 +42,11 @@ Confidence labels: **high** = shown clearly on screen or stated by the creator; 
 - **Cyber Revsystem** in Build 2's list was identified from card art and rarity (the only Ultra Rare Spell that fits); check it.
 - The Extra Deck Links on screen were read as I:P Masquerena and S:P Little Knight (both videos use them); Duel Links Meta's own list shows Cyber Dragon Sieger instead of I:P.
 - Both play lines are the creators' explained core lines with example hands, ending at I:P Masquerena and the first extenders; the Extra Deck boss sequences are only described in the chain notes. IgnisterPRC's replay section was downloaded but not read frame by frame.
+
+## Elemental HERO (updated 2026-10-20), one video
+- Source: PALLADINO BR (Portuguese, narrated). Deck list read from the deck screen (30 main / 9 Extra); only the deck-list and first-replay sections of the video were downloaded.
+- **Copy counts** for Elemental HERO Stratos and Miracle Ejector: the screen shows 3 of each, the narration mentions one. The guide follows the screen.
+- **Forbidden Droplet x3**: one copy is probably an alternate art; check.
+- The Duel Links Meta name for this deck is "HEROs" (`metaDeck`), which is why its lists and stats use that name.
+- Line 1 (Voltic Thunder wipe) comes from the first replay, read frame by frame with the duel log; the exact order of some steps is medium confidence, and whether the skill's third effect can Set E - Emergency Call on the same turn is not certain (the replay suggests a hand copy was used).
+- Line 2 (Aqua Neos hand destruction) is built from the creator's explanation and the card texts, not a replay: every step is medium confidence.

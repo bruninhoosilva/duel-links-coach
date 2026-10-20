@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:41:32.506Z",
+  "generatedAt": "2026-10-20T16:03:59.214Z",
   "dataFetchedAt": "2026-10-13T19:19:55.983Z",
   "decks": [
     {
@@ -38,6 +38,25 @@
       "featured": {
         "name": "Dark Magician",
         "image": "img/cards/dark-magician.jpg"
+      }
+    },
+    {
+      "slug": "elemental-hero",
+      "name": "Elemental HERO",
+      "status": "verified",
+      "updated": "2026-10-20",
+      "skill": "Miracle Neos Contact",
+      "scenarios": 2,
+      "stats": {
+        "decks": 16,
+        "totalDecks": 830,
+        "share": 0.01927710843373494,
+        "tiers": {},
+        "commonTier": null
+      },
+      "featured": {
+        "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+        "image": "img/cards/elemental-hero-thunder-giant-voltic-thunder.jpg"
       }
     },
     {

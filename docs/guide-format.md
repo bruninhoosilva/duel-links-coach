@@ -13,6 +13,7 @@ All card names must exist in `data/cards.json` (English names, exact spelling) a
 | `status` | yes | `"draft"` or `"verified"` (only verified guides are published) |
 | `updated` | yes | `YYYY-MM-DD`, shown on the site |
 | `featuredCard` | no | Card shown beside the deck box on the Decks page |
+| `metaDeck` | no | The deck's name on Duel Links Meta when it differs from `deck` (for example `"HEROs"` for Elemental HERO). Used for the Meta deck lists, stats and the "other decks" exclusion |
 | `skill` | yes | See below |
 | `sideSkills` | no | `[{ name, reason }]`: other skills the creator says work. Shown on the Alternatives tab |
 | `sources` | verified: yes | `[{ title, creator, language, url }]`: the videos the guide comes from |

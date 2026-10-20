@@ -2317,6 +2317,1103 @@
       }
     ]
   },
+  "E - Emergency Call": {
+    "name": "E - Emergency Call",
+    "pt": "E - Chamada de Emergência",
+    "image": "img/cards/e-emergency-call.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Add 1 \"Elemental HERO\" monster from your Deck to your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Rainbow Overdrive",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/rainbow-overdrive/"
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
+        "boxType": "Structure Deck",
+        "amount": 2,
+        "url": null
+      }
+    ]
+  },
+  "EN - Engage Neo Space": {
+    "name": "EN - Engage Neo Space",
+    "pt": "EN - Engajar Neo Espaço",
+    "image": "img/cards/en-engage-neo-space.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Send 1 \"Neo-Spacian\" monster and 1 \"Elemental HERO\" monster (1 from your hand and 1 from your Deck) to the GY; Special Summon 1 \"Neo-Spacian\" monster or 1 Level 5 or higher \"Elemental HERO\" monster from your Deck, and if you do, add 1 \"Polymerization\" from your Deck or GY to your hand. If you Special Summoned \"Elemental HERO Neos\" by this effect, it gains 1000 ATK. You cannot Special Summon monsters from the Extra Deck, except Fusion Monsters, the turn you activate this card. You can only activate 1 \"EN - Engage Neo Space\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "EN Shuffle": {
+    "name": "EN Shuffle",
+    "pt": null,
+    "image": "img/cards/en-shuffle.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Shuffle 1 \"Elemental HERO\" or \"Neo-Spacian\" monster you control into the Deck, and if you do, Special Summon 1 \"Elemental HERO\" or \"Neo-Spacian\" monster with a different name from your Deck. You can banish this card from your GY; shuffle from your GY into the Deck, either 1 \"Elemental HERO\" monster and 1 \"Neo-Spacian\" monster, OR 1 \"Elemental HERO Neos\", then draw 1 card. You can only use each effect of \"EN Shuffle\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "EN Wave": {
+    "name": "EN Wave",
+    "pt": "Onda EN",
+    "image": "img/cards/en-wave.jpg",
+    "type": "Spell",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "If your \"Elemental HERO\" monster is used as material for a Fusion Summon, and sent to the GY or banished (except during the Damage Step): You can Special Summon 1 \"Neo-Spacian\" monster or 1 \"Elemental HERO Neos\" from your Deck. If a \"Neo-Spacian\" monster or \"Elemental HERO Neos\" you control or in your GY is shuffled into your Deck or Extra Deck (except during the Damage Step): You can Special Summon 1 \"Elemental HERO\" monster from your GY. You can only use each effect of \"EN Wave\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Effect Veiler": {
+    "name": "Effect Veiler",
+    "pt": "Ocultador de Efeitos",
+    "image": "img/cards/effect-veiler.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect",
+      "Tuner"
+    ],
+    "text": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Deep Emotion",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/deep-emotion/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini: Vol. 06",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Aqua Neos": {
+    "name": "Elemental HERO Aqua Neos",
+    "pt": "Herói do Elementar, Neos da Água",
+    "image": "img/cards/elemental-hero-aqua-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "WATER",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Elemental HERO Neos\" + \"Neo-Spacian Aqua Dolphin\"\nMust first be Special Summoned (from your Extra Deck) by shuffling the above cards you control into the Deck. (You do not use \"Polymerization\".) Once per turn: You can discard 1 card; destroy 1 random card in your opponent's hand. During the End Phase: Shuffle this card into the Extra Deck.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Galactic Origin",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/galactic-origin/"
+      },
+      {
+        "kind": "set",
+        "name": "Neos Fusion",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/neos-fusion/"
+      },
+      {
+        "kind": "set",
+        "name": "Armed Neos Thunder",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/armed-neos-thunder/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.08",
+        "boxType": "Selection Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-08/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Brave Neos": {
+    "name": "Elemental HERO Brave Neos",
+    "pt": "Neos Corajoso, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-brave-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Elemental HERO Neos\" + 1 Level 4 or lower Effect Monster\r\nMust be Fusion Summoned. Gains 100 ATK for each \"Neo-Spacian\" and \"HERO\" monster in your GY. When this card destroys an opponent's monster by battle: You can add 1 Spell/Trap from your Deck to your hand that specifically lists the card \"Elemental HERO Neos\" in its text.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Neos Fusion",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/neos-fusion/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
+        "boxType": "Structure Deck",
+        "amount": 1,
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Core": {
+    "name": "Elemental HERO Core",
+    "pt": "Núcleo, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-core.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "level": 9,
+    "atk": 2700,
+    "def": 2200,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "3 \"Elemental HERO\" monsters\nMust be Fusion Summoned and cannot be Special Summoned by other ways. Once per turn, when this card is targeted for an attack: You can make this card's ATK become double its current ATK until the end of the Damage Step. At the end of the Battle Phase, if this card battled: You can target 1 monster on the field; destroy it. When this card is destroyed by battle or card effect: You can target 1 Level 8 or lower \"Elemental HERO\" Fusion Monster in your Graveyard; Special Summon it, ignoring its Summoning conditions.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Jaden/Yubel",
+        "level": "Drop",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yubel/"
+      },
+      {
+        "kind": "other",
+        "name": "Spunky Jaden Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Duelist Chronicles Gx Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Jaden/Yubel (Bonds Beyond Time)",
+        "level": "Drop",
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Dark Neos": {
+    "name": "Elemental HERO Dark Neos",
+    "pt": "Herói Elementar Neos Negro",
+    "image": "img/cards/elemental-hero-dark-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "DARK",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Elemental HERO Neos\" + \"Neo-Spacian Dark Panther\"\nMust first be Special Summoned (from your Extra Deck) by shuffling the above cards you control into the Deck. (You do not use \"Polymerization\".) If this card is not already targeting a monster with its effect: You can target 1 face-up Effect Monster on the field; while you control this face-up card, that target's effect on the field is negated. During the End Phase: Shuffle this card into the Extra Deck.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Blades of Spirits",
+        "boxType": "Mini Box",
+        "amount": 5,
+        "url": "https://www.duellinksmeta.com/sets/blades-of-spirits/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.08",
+        "boxType": "Selection Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-08/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Flame Wingman - Infernal Rage": {
+    "name": "Elemental HERO Flame Wingman - Infernal Rage",
+    "pt": null,
+    "image": "img/cards/elemental-hero-flame-wingman-infernal-rage.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "WIND",
+    "level": 8,
+    "atk": 2100,
+    "def": 1200,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "2 \"Elemental HERO\" monsters with different Attributes\nMust be Fusion Summoned. If this card is Special Summoned: You can add 1 card with \"Favorite\" in its name from your Deck or GY to your hand. You can Tribute this card that was Fusion Summoned using a Normal Monster(s) as material; Special Summon 1 Level 7 or lower \"Elemental HERO\" monster from your Deck or Extra Deck that cannot be Normal Summoned/Set, ignoring its Summoning conditions. You can only use each effect of \"Elemental HERO Flame Wingman - Infernal Rage\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Wing of Genesis",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/wing-of-genesis/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Elemental HERO Grand Neos": {
+    "name": "Elemental HERO Grand Neos",
+    "pt": "Grande Neos, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-grand-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Elemental HERO Neos\" + \"Neo-Spacian Grand Mole\"\nMust first be Special Summoned (from your Extra Deck) by shuffling the above cards you control into the Deck. (You do not use \"Polymerization\".) Once per turn: You can target 1 monster your opponent controls; return that target to the hand. During the End Phase: Shuffle this card into the Extra Deck.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Darkness Gimmick",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/darkness-gimmick/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.08",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-08/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
+        "boxType": "Structure Deck",
+        "amount": 1,
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Liquid Soldier": {
+    "name": "Elemental HERO Liquid Soldier",
+    "pt": "Soldado Líquido, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-liquid-soldier.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1400,
+    "def": 1300,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When this card is Normal Summoned: You can target 1 Level 4 or lower \"HERO\" monster in your GY, except \"Elemental HERO Liquid Soldier\"; Special Summon it. If this card is used as Fusion Material for a \"HERO\" monster, and sent to the GY or banished: You can draw 2 cards, then discard 1 card. You can only use 1 \"Elemental HERO Liquid Soldier\" effect per turn, and only once that turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Shining Sunrise",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/shining-sunrise/"
+      },
+      {
+        "kind": "set",
+        "name": "Armed Neos Thunder",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/armed-neos-thunder/"
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
+        "boxType": "Structure Deck",
+        "amount": 3,
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Marine Neos": {
+    "name": "Elemental HERO Marine Neos",
+    "pt": "Heroí Elementar Neos Marinho",
+    "image": "img/cards/elemental-hero-marine-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "WATER",
+    "level": 8,
+    "atk": 2800,
+    "def": 2300,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Elemental HERO Neos\" + \"Neo-Spacian Marine Dolphin\"\nMust first be Special Summoned (from your Extra Deck) by shuffling the above cards you control into the Deck. (You do not use \"Polymerization\".) Once per turn: You can destroy 1 random card in your opponent's hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Galactic Origin",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/galactic-origin/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.08",
+        "boxType": "Selection Box",
+        "amount": 10,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-08/"
+      },
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Elemental HERO Neos": {
+    "name": "Elemental HERO Neos",
+    "pt": "Neos, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Normal"
+    ],
+    "text": "A new Elemental HERO has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are unleashed.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Event Special Packs",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      }
+    ]
+  },
+  "Elemental HERO Shining Neos Wingman": {
+    "name": "Elemental HERO Shining Neos Wingman",
+    "pt": "Homem-Alado Neos Brilhante, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-shining-neos-wingman.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 3100,
+    "def": 2500,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Elemental HERO Neos\" + 1 \"Wingman\" Fusion Monster\nMust be Fusion Summoned. Gains 300 ATK for each monster in your GY, also cannot be destroyed by card effects. If this card is Special Summoned: You can destroy cards your opponent controls up to the number of different Attributes among the monsters on the field. You can only use this effect of \"Elemental HERO Shining Neos Wingman\" once per turn. If this card destroys a monster by battle: Inflict damage to your opponent equal to that monster's original ATK.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Elemental HERO Solid Soldier": {
+    "name": "Elemental HERO Solid Soldier",
+    "pt": "Soldado Sólido, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-solid-soldier.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 1300,
+    "def": 1100,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When this card is Normal Summoned: You can Special Summon 1 Level 4 or lower \"HERO\" monster from your hand. If this card is sent from the Monster Zone to the GY by a Spell effect: You can target 1 \"HERO\" monster in your GY, except \"Elemental HERO Solid Soldier\"; Special Summon it in Defense Position. You can only use this effect of \"Elemental HERO Solid Soldier\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Valhalla Calling",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/valhalla-calling/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.02",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-02/"
+      },
+      {
+        "kind": "set",
+        "name": "Evil Domination",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/evil-domination/"
+      }
+    ]
+  },
+  "Elemental HERO Spirit of Neos": {
+    "name": "Elemental HERO Spirit of Neos",
+    "pt": "Espírito de Neos, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-spirit-of-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When an opponent's monster declares an attack: You can Special Summon this card from your hand in Defense Position, and if you do, it cannot be destroyed by battle. If this card is Special Summoned: You can add from your Deck to your hand 1 \"Polymerization\" or 1 Spell/Trap that mentions an \"Elemental HERO\" monster's card name. During your Main Phase: You can shuffle this card into the Deck, and if you do, Special Summon 1 \"Elemental HERO\" Normal Monster from your Deck. You can only use each effect of \"Elemental HERO Spirit of Neos\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Elemental HERO Stratos": {
+    "name": "Elemental HERO Stratos",
+    "pt": "Stratos, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-stratos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 1800,
+    "def": 300,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When this card is Normal or Special Summoned: You can activate 1 of these effects.\r\n● Destroy Spells/Traps on the field, up to the number of \"HERO\" monsters you control, except this card.\r\n● Add 1 \"HERO\" monster from your Deck to your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.03",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-03/"
+      },
+      {
+        "kind": "set",
+        "name": "Armed Neos Thunder",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/armed-neos-thunder/"
+      }
+    ]
+  },
+  "Elemental HERO Sunrise": {
+    "name": "Elemental HERO Sunrise",
+    "pt": "Amanhecer, o HERÓI do Elemento",
+    "image": "img/cards/elemental-hero-sunrise.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 7,
+    "atk": 2500,
+    "def": 1200,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "2 \"HERO\" monsters with different Attributes\r\nMust be Fusion Summoned. Monsters you control gain 200 ATK for each different Attribute you control. You can only use each of the following effects of \"Elemental HERO Sunrise\" once per turn.\r\n● If this card is Special Summoned: You can add 1 \"Miracle Fusion\" from your Deck to your hand.\r\n● When an attack is declared involving another \"HERO\" monster you control: You can target 1 card on the field; destroy it.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Shining Sunrise",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/shining-sunrise/"
+      },
+      {
+        "kind": "set",
+        "name": "Armed Neos Thunder",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/armed-neos-thunder/"
+      }
+    ]
+  },
+  "Elemental HERO Thunder Giant - Voltic Thunder": {
+    "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+    "pt": null,
+    "image": "img/cards/elemental-hero-thunder-giant-voltic-thunder.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 6,
+    "atk": 2400,
+    "def": 1500,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "2 \"Elemental HERO\" monsters with different Attributes\nMust be Fusion Summoned. If this card is Special Summoned and your opponent controls more cards than you do: You can destroy all other cards on the field. You can Tribute this card that was Fusion Summoned using a Normal Monster(s) as material, then target 1 \"Elemental HERO\" monster in your GY; Special Summon it. You can only use each effect of \"Elemental HERO Thunder Giant - Voltic Thunder\" once per turn.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Jaden/Yubel (Bonds Beyond Time)",
+        "level": "Drop",
+        "url": null
+      }
+    ]
+  },
+  "Favorite Contact": {
+    "name": "Favorite Contact",
+    "pt": "Contato Favorito",
+    "image": "img/cards/favorite-contact.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Special Summon 1 Fusion Monster from your Extra Deck that mentions a \"HERO\" monster as material, ignoring its Summoning conditions, by placing the Fusion Materials mentioned on it on the bottom of the Deck in any order, from among cards in your hand, field, GY, and/or your banished cards. If you placed \"Elemental HERO Neos\" into the Deck, neither player can return the monster Special Summoned by this effect to the Extra Deck. You can only activate 1 \"Favorite Contact\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Instant Contact": {
+    "name": "Instant Contact",
+    "pt": "Contato Instantâneo",
+    "image": "img/cards/instant-contact.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Pay 1000 LP; Special Summon 1 Level 7 or lower \"Elemental HERO\" or \"Neo-Spacian\" monster from your Extra Deck, ignoring its Summoning conditions. While \"Elemental HERO Neos\" is neither on your field nor in your GY, the Summoned monster cannot attack, its effects are negated, also it returns to the Extra Deck during the End Phase. You can only activate 1 \"Instant Contact\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Miracle Ejector": {
+    "name": "Miracle Ejector",
+    "pt": null,
+    "image": "img/cards/miracle-ejector.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "EARTH",
+    "level": 3,
+    "atk": 400,
+    "def": 400,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "(This card is always treated as an \"Elemental HERO\" card.)\nIf this card is in your hand: You can send 1 \"Neo-Spacian\" monster from your Deck to the GY; Special Summon this card. If this card is Normal or Special Summoned: You can add 1 Spell/Trap that mentions an \"Elemental HERO\" monster's card name from your Deck to your hand. If this card is sent to the GY: You can target 1 card in your opponent's GY; banish it. You can only use each effect of \"Miracle Ejector\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Miracle Fusion": {
+    "name": "Miracle Fusion",
+    "pt": "Fusão Miraculosa",
+    "image": "img/cards/miracle-fusion.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Fusion Summon 1 \"Elemental HERO\" Fusion Monster from your Extra Deck, by banishing Fusion Materials listed on it from your field or your GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Revolution Beginning",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/revolution-beginning/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Super Mini Vol. 02",
+        "boxType": "Selection Box Super Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      },
+      {
+        "kind": "set",
+        "name": "Armed Neos Thunder",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/armed-neos-thunder/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
+        "boxType": "Structure Deck",
+        "amount": 3,
+        "url": null
+      }
+    ]
+  },
+  "Neo-Spacian Aqua Dolphin": {
+    "name": "Neo-Spacian Aqua Dolphin",
+    "pt": "Golfinho Aqua Neoespacial",
+    "image": "img/cards/neo-spacian-aqua-dolphin.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "WATER",
+    "level": 3,
+    "atk": 600,
+    "def": 800,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Once per turn: You can discard 1 card; look at your opponent's hand and choose 1 monster. If you control a monster with ATK greater than or equal to the ATK of the chosen card, destroy the chosen card, and if you do, inflict 500 damage to your opponent. Otherwise, take 500 damage.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Galactic Origin",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/galactic-origin/"
+      },
+      {
+        "kind": "set",
+        "name": "Neos Fusion",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/neos-fusion/"
+      },
+      {
+        "kind": "set",
+        "name": "Explosion of Meteor",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/explosion-of-meteor/"
+      },
+      {
+        "kind": "set",
+        "name": "Armed Neos Thunder",
+        "boxType": "Structure Deck EX",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/armed-neos-thunder/"
+      },
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Neo-Spacian Marine Dolphin": {
+    "name": "Neo-Spacian Marine Dolphin",
+    "pt": "Neo-Espacial Golfinho Marinho",
+    "image": "img/cards/neo-spacian-marine-dolphin.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 900,
+    "def": 1100,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "This card's name is also treated as \"Neo-Spacian Aqua Dolphin\". This card cannot be Special Summoned except with \"NEX\". Once per turn, you can discard 1 card to look at your opponent's hand and select 1 Monster Card in it. If you control a monster with ATK greater than or equal to the selected monster's, destroy the selected monster and inflict 500 damage to your opponent.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Galactic Origin",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/galactic-origin/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.08",
+        "boxType": "Selection Box",
+        "amount": 10,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-08/"
+      },
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Neos Fusion": {
+    "name": "Neos Fusion",
+    "pt": "Fusão Neos",
+    "image": "img/cards/neos-fusion.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Special Summon 1 Fusion Monster from your Extra Deck that lists exactly 2 monsters as material, including \"Elemental HERO Neos\", by sending those monsters from your hand, Deck, or field, ignoring its Summoning conditions. For the rest of this turn after this card resolves, you cannot Special Summon monsters. If a Fusion Monster(s) you control that lists \"Elemental HERO Neos\" as material would be destroyed by battle or card effect, or shuffled into the Extra Deck by its own effect, you can banish this card from your GY instead.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Neos Fusion",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/neos-fusion/"
+      },
+      {
+        "kind": "set",
+        "name": "Armed Neos Thunder",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/armed-neos-thunder/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign: HERO)",
+        "boxType": "Structure Deck",
+        "amount": 3,
+        "url": null
+      }
+    ]
+  },
+  "Protection of the Elements": {
+    "name": "Protection of the Elements",
+    "pt": null,
+    "image": "img/cards/protection-of-the-elements.jpg",
+    "type": "Trap",
+    "race": "Counter",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "When a Spell/Trap Card is activated: Banish 1 face-up \"Elemental HERO\" monster you control until the End Phase; negate the activation, and if you do, destroy that card. If you control \"Elemental HERO Terra Firma\": You can banish this card from your GY; Special Summon 1 of your \"Elemental HERO\" monsters that is banished, or in your hand or GY, ignoring its Summoning conditions. You can only use this effect of \"Protection of the Elements\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Destruction Geas",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
+      }
+    ]
+  },
+  "Rainbow Dragon": {
+    "name": "Rainbow Dragon",
+    "pt": "Dragão Arco-Íris",
+    "image": "img/cards/rainbow-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 10,
+    "atk": 4000,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "(This card is always treated as an \"Ultimate Crystal\" card.)\r\nCannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 7 \"Crystal Beast\" cards with different names on your field and/or GY. This card cannot activate the following effects the turn it is Special Summoned. (Quick Effect): You can send all face-up \"Crystal Beast\" monsters you control to the GY; this card gains 1000 ATK for each monster sent to the GY. You can banish all \"Crystal Beast\" monsters from your GY; shuffle all cards on the field into the Deck.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Jesse Anderson",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jesse-anderson/"
+      },
+      {
+        "kind": "character",
+        "name": "Jesse Anderson",
+        "level": "Drop",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jesse-anderson/"
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      }
+    ]
+  },
+  "Rainbow Neos": {
+    "name": "Rainbow Neos",
+    "pt": "Neos Arco-Íris",
+    "image": "img/cards/rainbow-neos.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 10,
+    "atk": 4500,
+    "def": 3000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Elemental HERO Neos\" + 1 \"Ultimate Crystal\" monster\nMust be Fusion Summoned with the above Fusion Material Monsters and cannot be Special Summoned by other ways. Once per turn: You can activate 1 of these effects. ● Send 1 monster you control to the Graveyard; shuffle all monsters your opponent controls into the Deck. ● Send 1 Spell/Trap Card you control to the Graveyard; shuffle all Spell and Trap Cards your opponent controls into the Deck. ● Send 1 card from the top of your Deck to the Graveyard; shuffle all cards in your opponent's Graveyard into the Deck.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      }
+    ]
+  },
+  "Super Polymerization": {
+    "name": "Super Polymerization",
+    "pt": "Super Polimerização",
+    "image": "img/cards/super-polymerization.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Discard 1 card; Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from either field as Fusion Material. Neither player can activate cards or effects in response to this card's activation.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "Wake Up Your Elemental HERO": {
+    "name": "Wake Up Your Elemental HERO",
+    "pt": null,
+    "image": "img/cards/wake-up-your-elemental-hero.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 10,
+    "atk": 2500,
+    "def": 2100,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "1 \"Elemental HERO\" Fusion Monster + 1+ Warrior monsters\nMust be Fusion Summoned. Gains 300 ATK for each Fusion Material used for its Summon. This card can make a number of attacks on monsters each Battle Phase, up to the number of Fusion Monsters used as Fusion Material for its Summon. If this card battled a monster, after damage calculation: Destroy that monster, and if you do, inflict damage to your opponent equal to half its original ATK. If this Fusion Summoned card is destroyed: Special Summon 1 Warrior monster from your hand or Deck.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Wing of Genesis",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/wing-of-genesis/"
+      }
+    ]
+  },
+  "Winged Kuriboh LV6": {
+    "name": "Winged Kuriboh LV6",
+    "pt": null,
+    "image": "img/cards/winged-kuriboh-lv6.jpg",
+    "type": "Monster",
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "level": 6,
+    "atk": 300,
+    "def": 200,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "(This card is always treated as an \"Elemental HERO\" and \"Favorite\" card.)\nCannot be Normal Summoned/Set. Must be Special Summoned (from your hand or GY) by banishing 1 \"Elemental HERO\" Fusion Monster or 1 \"Winged Kuriboh\" from your hand, face-up field, or GY. You can only Special Summon \"Winged Kuriboh LV6\" once per turn this way. When an opponent's monster declares an attack, or when your opponent activates a monster effect on the field (Quick Effect): You can Tribute this card; destroy that monster, and if you do, inflict damage to your opponent equal to half its original ATK.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Rainbow Overdrive",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/rainbow-overdrive/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
   "Book of Moon": {
     "name": "Book of Moon",
     "pt": "Livro da Lua",
@@ -2591,50 +3688,6 @@
         "boxType": "Main Box",
         "amount": 8,
         "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
-      }
-    ]
-  },
-  "Effect Veiler": {
-    "name": "Effect Veiler",
-    "pt": "Ocultador de Efeitos",
-    "image": "img/cards/effect-veiler.jpg",
-    "type": "Monster",
-    "race": "Spellcaster",
-    "attribute": "LIGHT",
-    "level": 1,
-    "atk": 0,
-    "def": 0,
-    "monsterType": [
-      "Effect",
-      "Tuner"
-    ],
-    "text": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Deep Emotion",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/deep-emotion/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Mini: Vol. 06",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 02",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
-      },
-      {
-        "kind": "other",
-        "name": "Character Deck Respect Orb Exchange",
-        "url": null
       }
     ]
   },

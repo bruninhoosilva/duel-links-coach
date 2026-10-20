@@ -21,6 +21,17 @@
       }
     ]
   },
+  "Miracle Neos Contact": {
+    "name": "Miracle Neos Contact",
+    "text": "You can only use this Skill's second and third effects once per Duel.\n1: At the beginning of the Duel, add 12 Fusion Monsters to your Extra Deck. During this Duel, you can only Special Summon \"Neos\", \"Elemental HERO\", and \"Neo-Spacian\" monsters, and you can activate \"Super Polymerization\" and \"Favorite Contact\" the turn they are Set.\n2: Reveal 1 \"Elemental HERO Spirit of Neos\" or \"Miracle Ejector\" from your hand. Add 1 \"Elemental HERO\" monster from your Deck and 1 \"Polymerization\" from outside of your Deck to your hand.\n3: If you control \"Elemental HERO Spirit of Neos\" or your opponent controls a monster, Set up to 1 \"Super Polymerization\" and up to 1 \"E - Emergency Call\" from your Deck to your field.",
+    "source": null,
+    "characters": [
+      {
+        "name": "Jaden/Yubel",
+        "how": "Skill Exchange Trader"
+      }
+    ]
+  },
   "Precious Cards of the Dark": {
     "name": "Precious Cards of the Dark",
     "text": "You can use this Skill's first effect once per turn and up to twice per Duel if your Deck contains 6 or more DARK monsters.\n1: During your Main Phase, place 1 card from your hand on the bottom of your Deck or send it to the Graveyard, then draw 2 cards. If it is the first turn of the player going second, draw 1 additional card.",
