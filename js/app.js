@@ -178,14 +178,14 @@ function cardSequence(button) {
   return at < 0 ? { names: [button.dataset.card], index: 0 } : { names, index: at };
 }
 
-function showCard() {
+function showCard({ keepScroll = false } = {}) {
   const name = cardSeq.names[cardSeq.index];
   const nav = cardSeq.names.length > 1 ? { index: cardSeq.index, total: cardSeq.names.length } : null;
   // On a deck page, a card added from the search may exist only in the extra card data: use it once loaded.
   dialog.innerHTML = currentSlug
-    ? renderCardDialog(name, data.guides[currentSlug], extra ? pageCtx() : data, currentSlug, nav)
+    ? renderCardDialog(name, data.guides[currentSlug], extra ? pageCtx() : { ...data, owned }, currentSlug, nav)
     : renderCardDialog(name, null, pageCtx(), undefined, nav);
-  dialog.scrollTop = 0;
+  if (!keepScroll) dialog.scrollTop = 0;
   if (!dialog.open) dialog.showModal();
 }
 
@@ -234,7 +234,9 @@ document.addEventListener('click', (event) => {
     noteChange();
     render({ keepScroll: true });
     ownMsg = '';
-    document.querySelector(`[data-own="${CSS.escape(ownBtn.dataset.own)}"][data-delta="${ownBtn.dataset.delta}"]:not([disabled])`)?.focus({ preventScroll: true });
+    const inDialog = dialog.open && dialog.contains(ownBtn);
+    if (inDialog && cardSeq) showCard({ keepScroll: true });
+    (inDialog ? dialog : document).querySelector(`[data-own="${CSS.escape(ownBtn.dataset.own)}"][data-delta="${ownBtn.dataset.delta}"]:not([disabled])`)?.focus({ preventScroll: true });
     return;
   }
   if (event.target.closest('[data-own-export]') && (currentSlug || onCollectionPage())) {

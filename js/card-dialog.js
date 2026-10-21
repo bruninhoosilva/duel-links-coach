@@ -1,5 +1,6 @@
 import { ROLE_LABELS, cardButton, describeObtain, esc } from './dom.js';
 import { deckHref } from './router.js';
+import { MAX_COPIES } from './collection.js';
 
 const closeForm = '<form method="dialog" class="dialog-close"><button class="button">Close</button></form>';
 
@@ -62,6 +63,12 @@ export function renderCardDialog(name, guide, ctx, slug, nav = null) {
     ? `<h3>Used in</h3><ul>${used.map((u) => `<li><a href="${deckHref(slug, 'play', u.sc.id)}">${esc(u.sc.title)}</a>, step ${u.n}</li>`).join('')}</ul>`
     : '';
 
+  const owned = ctx.owned ?? {};
+  const known = Object.hasOwn(owned, name);
+  const have = Math.min(owned[name] ?? 0, MAX_COPIES);
+  const plays = entry?.copies ? ` The deck plays ${entry.copies}.` : '';
+  const ownHtml = `<div class="own-row"><strong>Copies I own:</strong> <span class="own"><button type="button" class="own-btn" data-own="${esc(name)}" data-delta="-1" aria-label="I own one less ${esc(name)}"${known && have === 0 ? ' disabled' : ''}>−</button><span class="own-n${known ? '' : ' unknown'}" title="? = not marked yet">${known ? have : '?'}</span><button type="button" class="own-btn" data-own="${esc(name)}" data-delta="1" aria-label="I own one more ${esc(name)}"${have >= MAX_COPIES ? ' disabled' : ''}>+</button></span><span class="muted small">${known ? '' : ' Not marked yet.'}${plays}</span></div>`;
+
   return `
     ${topBar(nav)}
     ${card.image ? `<img class="card-art" src="${esc(card.image)}" alt="Artwork of ${esc(card.name)}" width="177" height="254">` : ''}
@@ -69,5 +76,5 @@ export function renderCardDialog(name, guide, ctx, slug, nav = null) {
     ${card.pt ? `<p class="muted">${esc(card.pt)}</p>` : ''}
     <p class="muted">${esc(kind)}${kind && stats ? '<br>' : ''}${esc(stats)}</p>
     ${card.text ? `<blockquote class="skill-text">${esc(card.text)}</blockquote>` : '<p class="muted small">Card text is not loaded for this card.</p>'}
-    ${role}${uncovered}${getIt}${subs}${standsInHtml}${works}${usedHtml}${closeForm}`;
+    ${ownHtml}${role}${uncovered}${getIt}${subs}${standsInHtml}${works}${usedHtml}${closeForm}`;
 }
