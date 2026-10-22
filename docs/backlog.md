@@ -6,7 +6,6 @@ Ordered roughly by value. Nothing here is started unless it says so. Per-deck ca
 - Nothing is waiting. Everything up to the documentation set is published (the Cyber Dragon deploy and the first docs deploy both finished green on 2026-10-19). Local-only: any change made after the last publish; check with `git log` against the Pages repository.
 
 ## Content
-- **Mathmech creator list.** The guide merges two creators; to give it a "From Video - Creator" list, re-read the deck screen of its main video (needs the user's yes to download a short section).
 - **Re-check the derived lists** of Dark Magician and Memento against their video frames (they come from the guide's copy counts).
 - **Cyber Dragon**: read IgnisterPRC's turn-one replay frame by frame (downloaded, not yet read) and extend both play lines to the Extra Deck bosses; confirm Cyber Revsystem and the Extra Deck Links.
 - **Shining Sarcophagus**: extend both lines past the first extenders; confirm Timaeus the United Magical Dragon and Powersink Stone.

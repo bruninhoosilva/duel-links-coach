@@ -5019,6 +5019,110 @@
           "note": "Example board from the Portuguese creator's replay: Number 60: Dugares the Timeless is the monster that gets tributed. Yours will differ."
         }
       }
+    ],
+    "videoLists": [
+      {
+        "id": "ignister",
+        "title": "Mathmech replay guide (Portuguese)",
+        "creator": "Ignister",
+        "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+        "main": [
+          {
+            "name": "Artifact Lancea",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Sigma",
+            "count": 2
+          },
+          {
+            "name": "Mathmech Diameter",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Nabla",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Addition",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Subtraction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Multiplication",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Cynet Mining",
+            "count": 3
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Billionblade Nayuta",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Equation",
+            "count": 1
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Induction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Superfactorial",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Geomathmech Final Sigma",
+            "count": 2
+          },
+          {
+            "name": "Geomathmech Magma",
+            "count": 1
+          },
+          {
+            "name": "Number 60: Dugares the Timeless",
+            "count": 1
+          },
+          {
+            "name": "Primathmech Laplacian",
+            "count": 1
+          },
+          {
+            "name": "Decode Talker Heatsoul",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Splash Mage",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          }
+        ]
+      }
     ]
   },
   "memento": {

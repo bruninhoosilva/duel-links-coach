@@ -13,7 +13,8 @@ Confidence labels: **high** = shown clearly on screen or stated by the creator; 
 - Creator list: derived from the guide's copy counts (single video, 30 main / 7 Extra), **not** re-checked against the video frames.
 
 ## Mathmech (updated 2026-10-13)
-- Sources: an English deck guide and a Portuguese replay guide. The guide merges both, so there is **no single creator list** (its copy counts add up to 31 main cards). The Deck lists tab shows Meta lists only.
+- Sources: an English deck guide (Mekklord) and a Portuguese replay guide (Ignister). The guide text merges both.
+- **Creator list (added 2026-10-21):** "From Video - Ignister", read from his deck screen at the start of the video (30 main / 9 Extra). Mekklord only shows a 20-card core, so he has no list. Medium-confidence identifications: the 3 Forbidden Droplet (icy-art Ultra Rare spells), Underworld Goddess of the Closed World and I:P Masquerena in the Extra Deck (read from art, rarity and Link rating). His list has no Effect Veiler or Droll & Lock Bird and plays 3 Cynet Mining and 2 Mathmech Sigma, unlike the merged guide text.
 - Notes and audit: `guides/mathmech.md`, `guides/mathmech.audit.md`, `guides/mathmech.boards.md`.
 
 ## Memento (updated 2026-10-14)
