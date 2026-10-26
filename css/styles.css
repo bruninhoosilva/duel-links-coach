@@ -337,3 +337,8 @@ main p, main li, main dd { max-width: 78ch; }
 .build-body .scenario { margin: 1rem 0 0; }
 .own-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: .8rem 0; }
 .own-row .own { justify-content: flex-start; }
+.box-row summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem; }
+.box-score { margin-left: auto; padding: .1rem .55rem; border-radius: 999px; background: var(--chip); font-size: .8rem; font-weight: 700; color: var(--gold, inherit); }
+.box-row .coll-list { margin-top: .6rem; }
+.box-where { flex-basis: 100%; }
+.box-row .coll-name { display: flex; flex-direction: column; align-items: flex-start; gap: .15rem; }

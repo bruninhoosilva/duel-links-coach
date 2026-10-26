@@ -40,3 +40,9 @@ What was built, in order, and why. Dates are the days the work was done (the git
 - New standard for decks with two videos: play guide in collapsed **"Build N (video title)"** blocks; deck list chips named **"From Video - Creator"**; the Alternatives tab opens with the build comparison.
 - Fix: card image download used passcodes with leading zeros that YGOPRODeck does not accept.
 - This documentation set was written (and `docs/decks/*.md` made generated from the guide files).
+
+## 2026-10-20 to 2026-10-26: Elemental HERO, owned copies in the pop-up, box ranking
+- **Elemental HERO** guide (Palladino BR), with the new optional `metaDeck` field (Meta's name for the deck).
+- The card pop-up has a **Copies I own** control, same collection as the deck lists.
+- **Mathmech** gets its video list ("From Video - Ignister").
+- **Which box should I open?** (`#/collection/boxes`, linked from My collection): the cards you are short of for the guided decks, grouped by box and ranked; a missing card scores 1 for every deck that needs it. Only video lists count; unmarked cards are listed apart and not counted. Pull rates and prices are not in the data.

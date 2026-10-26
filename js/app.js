@@ -12,6 +12,7 @@ import { renderGlossary } from './views-glossary.js';
 import { renderCardDialog } from './card-dialog.js';
 import { stepIndex, uniqueNames } from './card-nav.js';
 import { renderCollectionPage, renderResults } from './views-collection.js';
+import { renderBoxesPage } from './views-boxes.js';
 import { renderBuildPage } from './views-build.js';
 import { renderOtherDeck } from './views-other-deck.js';
 import { addCard, cleanVersions, createVersion, deleteVersion, duplicateVersion, loadVersions, renameVersion, saveVersions, setCardCount, upsertVersion } from './versions.js';
@@ -46,7 +47,7 @@ const pageCtx = () => ({
   verState: verState.get(currentSlug ?? ''),
 });
 // The pages that wait for the extra card data (search index, other decks, extra cards).
-const needsExtra = (route) => ['collection', 'build', 'other'].includes(route.name) || (route.name === 'deck' && route.tab === 'myversion');
+const needsExtra = (route) => ['collection', 'boxes', 'build', 'other'].includes(route.name) || (route.name === 'deck' && route.tab === 'myversion');
 // A page that uses the extra data. The handlers that test it also accept `currentSlug`, which is set on every
 // deck page, so adding the My version tab here changes nothing for them: off a deck page it still means
 // "a page without a guide context" (collection, build, other deck).
@@ -63,7 +64,7 @@ function notFound() {
 }
 
 // Highlights the sidebar link of the section being shown.
-const NAV_OF = { decks: 'decks', deck: 'decks', other: 'collection', collection: 'collection', build: 'build', glossary: 'glossary' };
+const NAV_OF = { decks: 'decks', deck: 'decks', other: 'collection', collection: 'collection', boxes: 'collection', build: 'build', glossary: 'glossary' };
 function markNav(routeName) {
   for (const a of document.querySelectorAll('.side-nav a')) {
     if (a.dataset.nav === NAV_OF[routeName]) a.setAttribute('aria-current', 'page');
@@ -86,6 +87,28 @@ function restoreBuilds(route) {
     openBuilds.add(`${currentSlug}|${group.dataset.build}`);
   }
 }
+// The boxes page: the boxes the reader opened stay open when marking a card redraws the page. The best box starts open.
+const openBoxes = new Set();
+let boxesSeeded = false;
+function restoreBoxes(route) {
+  if (route.name !== 'boxes') return;
+  const all = [...app.querySelectorAll('details.box-details')];
+  if (!boxesSeeded && all.length) {
+    openBoxes.add(all[0].dataset.box);
+    boxesSeeded = true;
+  }
+  for (const d of all) if (openBoxes.has(d.dataset.box)) d.open = true;
+}
+app.addEventListener(
+  'toggle',
+  (event) => {
+    const d = event.target;
+    if (!d.matches?.('details.box-details')) return;
+    if (d.open) openBoxes.add(d.dataset.box);
+    else openBoxes.delete(d.dataset.box);
+  },
+  true,
+);
 app.addEventListener(
   'toggle',
   (event) => {
@@ -128,6 +151,9 @@ function render({ keepScroll = false } = {}) {
   } else if (route.name === 'collection') {
     app.innerHTML = renderCollectionPage(pageCtx(), collectionQuery);
     title = 'My collection · Duel Links Coach';
+  } else if (route.name === 'boxes') {
+    app.innerHTML = renderBoxesPage(pageCtx());
+    title = 'Which box should I open? · Duel Links Coach';
   } else if (route.name === 'build') {
     app.innerHTML = renderBuildPage(pageCtx());
     title = 'What can I build? · Duel Links Coach';
@@ -145,6 +171,7 @@ function render({ keepScroll = false } = {}) {
   document.title = title;
   markNav(route.name);
   restoreBuilds(route);
+  restoreBoxes(route);
 
   if (keepScroll) window.scrollTo(0, scroll);
   else if (route.anchor && document.getElementById(`sc-${route.anchor}`)) document.getElementById(`sc-${route.anchor}`).scrollIntoView();
@@ -168,7 +195,7 @@ function flyIntoHand(from, slot, delay = 0) {
 
 // The card pop-up can move to the cards beside the one you opened: the other tiles of the same deck list,
 // pack, table, hand pool, board row or synergy pair.
-const CARD_GROUPS = ['.deck-tiles', '.pack-cards', '.pool', '.moves', '.bcells', 'table', '.syn-flow'].join(',');
+const CARD_GROUPS = ['.deck-tiles', '.pack-cards', '.pool', '.moves', '.bcells', 'table', '.syn-flow', '.coll-list'].join(',');
 let cardSeq = null; // { names, index } for the pop-up that is open
 
 function cardSequence(button) {

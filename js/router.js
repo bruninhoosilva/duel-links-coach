@@ -5,6 +5,7 @@ export function parseRoute(hash) {
   const parts = path.split('/').filter(Boolean).map(decodeURIComponent);
   if (parts.length === 0) return { name: 'decks' };
   if (parts[0] === 'glossary') return { name: 'glossary' };
+  if (parts[0] === 'collection' && parts[1] === 'boxes') return { name: 'boxes' };
   if (parts[0] === 'collection') return { name: 'collection' };
   if (parts[0] === 'build') return { name: 'build' };
   if (parts[0] === 'list' && parts[1]) return { name: 'other', slug: parts[1] };

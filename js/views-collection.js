@@ -36,6 +36,7 @@ export function renderCollectionPage(ctx, query = '') {
     <section>
       <h1>My collection</h1>
       <p class="lead">Add the cards you own, a few at a time. You do not need to enter everything: mark cards while you look at a deck, and the "What can I build?" page will say which decks are close. Saved in this browser.</p>
+      <p><a href="#/collection/boxes"><strong>Which box should I open?</strong></a> <span class="muted small">The boxes that hold the most cards you are missing for the decks with a guide.</span></p>
       <label class="coll-search"><span class="sr-only">Search cards</span><input id="collection-search" type="search" value="${esc(query)}" placeholder="Search a card, in English or Portuguese" autocomplete="off"></label>
       <div id="collection-results" aria-live="polite">${renderResults(ctx, query)}</div>
     </section>

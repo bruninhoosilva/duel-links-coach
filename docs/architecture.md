@@ -40,6 +40,7 @@ Only guides with `status: "verified"` are published (drafts need `--include-draf
 | `match-hand.js`, `views-picker.js` | Hand picker: which play lines fit a hand (`requires`) |
 | `collection.js`, `views-collection.js`, `views-own.js` | "My collection": owned cards with quantities, export/import |
 | `packs.js`, `build-rank.js`, `views-build.js` | Pack plan and "What can I build?" |
+| `box-priority.js`, `views-boxes.js` | "Which box should I open?": the cards you are short of for the guided decks (video lists only), grouped by box; each missing card scores 1 per deck that needs it |
 | `versions.js`, `compare.js`, `odds.js`, `views-myversion.js`, `views-compare.js` | "My version": named versions of a deck, comparison with the guide, exact opening-hand odds |
 | `card-search.js` | Name search (English and Portuguese) |
 | `ai-key.js` | Leftover of the stopped AI-verdicts idea (unused by the site) |
@@ -53,7 +54,7 @@ Rule: views do not touch the DOM and do not read global state; `app.js` passes e
 | `#/` | Decks page |
 | `#/deck/<slug>/<tab>[/<scenario id>]` | Deck page. Tabs: `overview`, `lists`, `myversion`, `cards`, `synergies`, `options` (Alternatives), `play`, `picker` |
 | `#/list/<slug>` | A top deck without a guide |
-| `#/collection`, `#/build`, `#/glossary` | My collection, What can I build?, Glossary |
+| `#/collection`, `#/collection/boxes`, `#/build`, `#/glossary` | My collection, Which box should I open?, What can I build?, Glossary |
 
 The sidebar highlights the section (`markNav` in `app.js`).
 
