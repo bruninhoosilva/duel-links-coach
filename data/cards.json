@@ -1,4 +1,812 @@
 {
+  "Bingo Machine, Go!!!": {
+    "name": "Bingo Machine, Go!!!",
+    "pt": "Máquina de Bingo, Vai!!!",
+    "image": "img/cards/bingo-machine-go.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Reveal 3 cards from your Deck that each meets at least 1 of the criteria listed below, your opponent randomly picks 1 for you to add to your hand, and you shuffle the rest into your Deck. You can only activate 1 \"Bingo Machine, Go!!!\" per turn.\n● \"Blue-Eyes\" monster\n● Spell/Trap that specifically lists the card \"Blue-Eyes White Dragon\" or \"Blue-Eyes Ultimate Dragon\", except \"Bingo Machine, Go!!!\"",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The White Dragon of Legend",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-white-dragon-of-legend/"
+      },
+      {
+        "kind": "set",
+        "name": "Deep Emotion",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/deep-emotion/"
+      }
+    ]
+  },
+  "Blue-Eyes Alternative White Dragon": {
+    "name": "Blue-Eyes Alternative White Dragon",
+    "pt": "Dragão Branco Alternativo de Olhos Azuis",
+    "image": "img/cards/blue-eyes-alternative-white-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by revealing \"Blue-Eyes White Dragon\" in your hand. You can only Special Summon \"Blue-Eyes Alternative White Dragon\" once per turn this way. This card's name becomes \"Blue-Eyes White Dragon\" while it is on the field or in the Graveyard. Once per turn: You can target 1 monster your opponent controls; destroy it. This card cannot attack the turn this effect is activated.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Seto Kaiba",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/seto-kaiba/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Blue-Eyes Chaos Dragon": {
+    "name": "Blue-Eyes Chaos Dragon",
+    "pt": "Dragão do Caos de Olhos Azuis",
+    "image": "img/cards/blue-eyes-chaos-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 3000,
+    "def": 0,
+    "monsterType": [
+      "Ritual",
+      "Effect"
+    ],
+    "text": "You can Ritual Summon this card with \"Chaos Form\". Must be Ritual Summoned. Your opponent cannot target this card with card effects, also it cannot be destroyed by your opponent's card effects. If this card was Ritual Summoned using \"Blue-Eyes White Dragon\", when it declares an attack: You can change the battle positions of as many monsters your opponent controls as possible, and if you do, the ATK/DEF of those changed monsters become 0, also, this turn, if this card attacks a Defense Position monster, inflict piercing battle damage.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Shadow Eyes",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/shadow-eyes/"
+      }
+    ]
+  },
+  "Blue-Eyes Jet Dragon": {
+    "name": "Blue-Eyes Jet Dragon",
+    "pt": "Dragão Jato de Olhos Azuis",
+    "image": "img/cards/blue-eyes-jet-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 3000,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Other cards you control cannot be destroyed by your opponent's card effects. You can only use each of the following effects of \"Blue-Eyes Jet Dragon\" once per turn, and can only activate them while \"Blue-Eyes White Dragon\" is on your field or in your GY. If a card(s) on the field is destroyed by battle or card effect: You can Special Summon this card from the GY (if it was there when the card was destroyed) or hand (even if not). At the start of the Damage Step, if this card battles: You can target 1 card your opponent controls; return it to the hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      }
+    ]
+  },
+  "Blue-Eyes Spirit Dragon": {
+    "name": "Blue-Eyes Spirit Dragon",
+    "pt": "Dragão Espírito de Olhos Azuis",
+    "image": "img/cards/blue-eyes-spirit-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 9,
+    "atk": 2500,
+    "def": 3000,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1 or more non-Tuner \"Blue-Eyes\" monsters\r\nNeither player can Special Summon 2 or more monsters at the same time. Once per turn, during either player's turn, when an effect of a card in the Graveyard is activated: You can negate the activation. During either player's turn: You can Tribute this Synchro Summoned card; Special Summon 1 LIGHT Dragon-Type Synchro Monster from your Extra Deck in Defense Position, except \"Blue-Eyes Spirit Dragon\", but destroy it during the End Phase of this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Judgement Force",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/judgement-force/"
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign)",
+        "boxType": "Structure Deck",
+        "amount": 1,
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Seto Kaiba",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/seto-kaiba/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Blue-Eyes Tyrant Dragon": {
+    "name": "Blue-Eyes Tyrant Dragon",
+    "pt": "Dragão Tirano de Olhos Azuis",
+    "image": "img/cards/blue-eyes-tyrant-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 3400,
+    "def": 2900,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Blue-Eyes White Dragon\" + 1 Dragon monster\r\nMust first be either Fusion Summoned, or Special Summoned from your Extra Deck by Tributing 1 \"Blue-Eyes White Dragon\" equipped with a Fusion Monster. Unaffected by Trap Cards or effects. This card can attack all monsters your opponent controls, once each. Once per turn, at the end of the Damage Step, if this card battled: You can target 1 Trap in your GY; Set it to your Spell & Trap Zone.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      }
+    ]
+  },
+  "Blue-Eyes White Dragon": {
+    "name": "Blue-Eyes White Dragon",
+    "pt": "Dragão Branco de Olhos Azuis",
+    "image": "img/cards/blue-eyes-white-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Normal"
+    ],
+    "text": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      }
+    ]
+  },
+  "Crimson Dragon": {
+    "name": "Crimson Dragon",
+    "pt": null,
+    "image": "img/cards/crimson-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 12,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Special Summoned: you can add 1 Spell/Trap that mentions \"Crimson Dragon\" from your Deck to your hand. (Quick Effect): You can target 1 Level 7 or higher Synchro Monster on the field, except \"Crimson Dragon\"; return this card to the Extra Deck, and if you do, Special Summon 1 Dragon Synchro Monster with the same Level from your Extra Deck. (This is treated as a Synchro Summon.) You can only use each effect of \"Crimson Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      }
+    ]
+  },
+  "Dingirsu, the Orcust of the Evening Star": {
+    "name": "Dingirsu, the Orcust of the Evening Star",
+    "pt": "Dingirsu, o Orcust da Estrela da Noite",
+    "image": "img/cards/dingirsu-the-orcust-of-the-evening-star.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2600,
+    "def": 2100,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 8 monsters\r\nYou can only Special Summon \"Dingirsu, the Orcust of the Evening Star(s)\" once per turn. You can also Xyz Summon this card by using an \"Orcust\" Link Monster you control as material. If a card(s) you control would be destroyed by battle or card effect, you can detach 1 material from this card instead. If this card is Special Summoned: You can activate 1 of these effects;\r\n● Send 1 card your opponent controls to the GY.\r\n● Attach 1 of your banished Machine monsters to this card as material.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "set",
+        "name": "Solflare Lightning",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/solflare-lightning/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      }
+    ]
+  },
+  "Dragon Master Knight": {
+    "name": "Dragon Master Knight",
+    "pt": "Supremo Cavaleiro Mestre dos Dragões",
+    "image": "img/cards/dragon-master-knight.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 12,
+    "atk": 5000,
+    "def": 5000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Black Luster Soldier\" + \"Blue-Eyes Ultimate Dragon\"\r\nMust be Fusion Summoned. This card gains 500 ATK for each Dragon monster you control, except this card.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Card Trader",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      }
+    ]
+  },
+  "Droll & Lock Bird": {
+    "name": "Droll & Lock Bird",
+    "pt": "Droll & Pássaro Fechadura",
+    "image": "img/cards/droll-lock-bird.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "WIND",
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
+    "obtain": []
+  },
+  "Gadarla, the Mystery Dust Kaiju": {
+    "name": "Gadarla, the Mystery Dust Kaiju",
+    "pt": "Gadarla, o Kaiju da Poeira Misteriosa",
+    "image": "img/cards/gadarla-the-mystery-dust-kaiju.jpg",
+    "type": "Monster",
+    "race": "Insect",
+    "attribute": "WIND",
+    "level": 8,
+    "atk": 2700,
+    "def": 1600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can Special Summon this card (from your hand) to your opponent's side of the field in Attack Position, by Tributing 1 monster they control. If your opponent controls a \"Kaiju\" monster, you can Special Summon this card (from your hand) in Attack Position. You can only control 1 \"Kaiju\" monster. Once per turn, during either player's turn: You can remove 3 Kaiju Counters from anywhere on the field; the ATK and DEF of all other monsters on the field become halved.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Wave Duel Scramble",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Duel Domination - Get Ready for War! The Enforcers!",
+        "url": null
+      }
+    ]
+  },
+  "Hot Red Dragon Archfiend Abyss": {
+    "name": "Hot Red Dragon Archfiend Abyss",
+    "pt": "Abrasador Dragão Vermelho Arquidemônio do Abismo",
+    "image": "img/cards/hot-red-dragon-archfiend-abyss.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 9,
+    "atk": 3200,
+    "def": 2500,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1 non-Tuner DARK Dragon Synchro Monster\n(Quick Effect): You can target 1 face-up card your opponent controls; negate its effects until the end of this turn. When this card inflicts battle damage to your opponent: You can target 1 Tuner in your GY; Special Summon it in Defense Position. You can only use each effect of \"Hot Red Dragon Archfiend Abyss\" once per turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "Kaibaman the Legend": {
+    "name": "Kaibaman the Legend",
+    "pt": null,
+    "image": "img/cards/kaibaman-the-legend.jpg",
+    "type": "Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 1,
+    "atk": 200,
+    "def": 700,
+    "monsterType": [
+      "Tuner",
+      "Effect"
+    ],
+    "text": "If this card is Normal or Special Summoned: You can show 3 \"Blue-Eyes White Dragon\" in your hand, Deck, face-up field, and/or GY, then Special Summon 1 \"Blue-Eyes White Dragon\" from your hand, Deck, or GY. If you Special Summoned \"Blue-Eyes White Dragon\" while this card is in your GY (except during the Damage Step): You can banish this card; add 1 \"Blue-Eyes\" monster from your Deck to your hand. You can only use each effect of \"Kaibaman the Legend\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      }
+    ]
+  },
+  "Kumongous, the Sticky String Kaiju": {
+    "name": "Kumongous, the Sticky String Kaiju",
+    "pt": "Kumongous, o Kaiju Pegajoso da Corda",
+    "image": "img/cards/kumongous-the-sticky-string-kaiju.jpg",
+    "type": "Monster",
+    "race": "Insect",
+    "attribute": "EARTH",
+    "level": 7,
+    "atk": 2400,
+    "def": 2500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control. If your opponent controls a \"Kaiju\" monster, you can Special Summon this card (from your hand) in Attack Position. You can only control 1 \"Kaiju\" monster. When your opponent Normal or Special Summons a monster(s): You can remove 2 Kaiju Counters from anywhere on the field; until the end of the next turn, that monster(s) cannot attack and it has its effects negated.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Bingo Missions Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Gift Campaign",
+        "url": null
+      }
+    ]
+  },
+  "Lava Golem": {
+    "name": "Lava Golem",
+    "pt": "Golem de Lava",
+    "image": "img/cards/lava-golem.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "FIRE",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) to your opponent's field by Tributing 2 monsters they control. You cannot Normal Summon/Set the turn you Special Summon this card. Once per turn, during your Standby Phase: Take 500 damage.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Yami Marik",
+        "level": "Starter Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-marik/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Marik",
+        "level": "Drop",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-marik/"
+      },
+      {
+        "kind": "other",
+        "name": "Yami Marik Returns Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Acquirable with Tickets",
+        "url": null
+      }
+    ]
+  },
+  "Lightstorm Dragon": {
+    "name": "Lightstorm Dragon",
+    "pt": null,
+    "image": "img/cards/lightstorm-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 9,
+    "atk": 2700,
+    "def": 3000,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Special Summoned: You can target Spells/Traps on the field up to the number of Normal Monsters in your GY +1; destroy them. If this card is destroyed by battle or card effect: You can target 1 Spell/Trap in your GY; Set it, but it cannot be activated unless you control a Normal Monster. You can only use each effect of \"Lightstorm Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      }
+    ]
+  },
+  "Majesty of the White Dragons": {
+    "name": "Majesty of the White Dragons",
+    "pt": null,
+    "image": "img/cards/majesty-of-the-white-dragons.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Show up to 3 of the \"Blue-Eyes White Dragon\" in your hand, face-up Monster Zone, and/or GY, then destroy an equal number of cards your opponent controls. You can banish this card from your GY; Ritual Summon 1 Ritual Monster from your hand, by Tributing \"Blue-Eyes White Dragon(s)\" from your hand or field whose total Levels equal its Level. You can only use each effect of \"Majesty of the White Dragons\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Shadow Eyes",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/shadow-eyes/"
+      }
+    ]
+  },
+  "Mystical Elf - White Lightning": {
+    "name": "Mystical Elf - White Lightning",
+    "pt": "Elfa Mística - Relâmpago Branco",
+    "image": "img/cards/mystical-elf-white-lightning.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 800,
+    "def": 2000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When a monster your opponent controls activates its effect, while you control a Level 5 or higher Normal Monster (Quick Effect): You can Special Summon this card from your hand, and if you do, negate that effect. During your opponent's Battle Phase (Quick Effect): You can target 1 Normal Monster in either GY; Special Summon it to your field, and if you do, all monsters your opponent controls must attack that monster this turn, if able, while you control it. You can only use each effect of \"Mystical Elf - White Lightning\" once per turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Duelist Road: Set Sail for Duelist Kingdom!",
+        "url": null
+      }
+    ]
+  },
+  "Nibiru, the Primal Being": {
+    "name": "Nibiru, the Primal Being",
+    "pt": "Nibiru, o Ser Primitivo",
+    "image": "img/cards/nibiru-the-primal-being.jpg",
+    "type": "Monster",
+    "race": "Rock",
+    "attribute": "LIGHT",
+    "level": 11,
+    "atk": 3000,
+    "def": 600,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini: Vol. 06",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Number 68: Sanaphond the Sky Prison": {
+    "name": "Number 68: Sanaphond the Sky Prison",
+    "pt": "Número 68: Sanaphond, a Prisão Celeste",
+    "image": "img/cards/number-68-sanaphond-the-sky-prison.jpg",
+    "type": "Monster",
+    "race": "Rock",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2100,
+    "def": 2700,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 8 monsters\nGains 100 ATK and DEF for each monster in the GYs. Once per turn: You can detach 1 material from this card; until the end of your opponent's next turn, this card cannot be destroyed by card effects, also neither player can Special Summon monsters from the GYs.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Infinite Ray",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/infinite-ray/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.03",
+        "boxType": "Selection Box Mini",
+        "amount": 7,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-03/"
+      },
+      {
+        "kind": "set",
+        "name": "Fantastic Arc",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/fantastic-arc/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "set",
+        "name": "Wing of Genesis",
+        "boxType": "Mini Box",
+        "amount": 7,
+        "url": "https://www.duellinksmeta.com/sets/wing-of-genesis/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Synchro Rumble": {
+    "name": "Synchro Rumble",
+    "pt": null,
+    "image": "img/cards/synchro-rumble.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 Tuner or 1 Level 7 or 8 Dragon Synchro Monster in your GY; Special Summon it in Defense Position, also for the rest of this turn after this card resolves, you cannot Special Summon from the Extra Deck, except Synchro Monsters. If a Level 7 or 8 Dragon Synchro Monster(s) or \"Crimson Dragon\" you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You can only activate 1 \"Synchro Rumble\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Red Supernova",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/red-supernova/"
+      }
+    ]
+  },
+  "The Melody of Awakening Dragon": {
+    "name": "The Melody of Awakening Dragon",
+    "pt": "A Melodia do Despertar do Dragão",
+    "image": "img/cards/the-melody-of-awakening-dragon.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Discard 1 card; add up to 2 Dragon monsters with 3000 or more ATK and 2500 or less DEF from your Deck to your hand.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Seto Kaiba",
+        "level": "Level 45",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/seto-kaiba/"
+      },
+      {
+        "kind": "character",
+        "name": "Seto Kaiba (DSOD)",
+        "level": "Level 38",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/dsod-kaiba/"
+      },
+      {
+        "kind": "character",
+        "name": "Seto Kaiba (DSOD)",
+        "level": "Level 40",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/dsod-kaiba/"
+      },
+      {
+        "kind": "set",
+        "name": "Starter Deck (Friend Invitation Campaign)",
+        "boxType": "Structure Deck",
+        "amount": 3,
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Seto Kaiba",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/seto-kaiba/"
+      }
+    ]
+  },
+  "Trishula, Dragon of the Ice Barrier": {
+    "name": "Trishula, Dragon of the Ice Barrier",
+    "pt": "Trishula, o Dragão da Barreira de Gelo",
+    "image": "img/cards/trishula-dragon-of-the-ice-barrier.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "WATER",
+    "level": 9,
+    "atk": 2700,
+    "def": 2000,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 2+ non-Tuner monsters\nWhen this card is Synchro Summoned: You can banish up to 1 card each from your opponent's hand, field, and GY. (The card in the hand is chosen at random.)",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "True Light": {
+    "name": "True Light",
+    "pt": "Luz Verdadeira",
+    "image": "img/cards/true-light.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Your opponent cannot target \"Blue-Eyes White Dragon\" in your Monster Zone with card effects. If this face-up card is sent from the Spell & Trap Zone to the GY: Destroy all monsters you control. You can only use the following effect of \"True Light\" once per turn. You can activate 1 of these effects;\r\n● Special Summon 1 \"Blue-Eyes White Dragon\" from your hand or GY.\r\n● Set 1 Spell/Trap directly from your Deck, that specifically lists \"Blue-Eyes White Dragon\" in its text, with a different name from the cards you control and in your GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      }
+    ]
+  },
+  "Ultimate Fusion": {
+    "name": "Ultimate Fusion",
+    "pt": "Fusão Definitiva",
+    "image": "img/cards/ultimate-fusion.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "During the Main Phase: Fusion Summon 1 Fusion Monster from your Extra Deck that mentions \"Blue-Eyes White Dragon\" or \"Blue-Eyes Ultimate Dragon\" as material, by shuffling the Fusion Materials listed on it from your hand, field, and/or GY into the Deck, then, you can destroy face-up cards your opponent controls, up to the number of \"Blue-Eyes White Dragon\" and \"Blue-Eyes Ultimate Dragon\" used from the field as material. You can only activate 1 \"Ultimate Fusion\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Magician's Chronicle",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/magicians-chronicle/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Virtual World Kyubi - Shenshen": {
+    "name": "Virtual World Kyubi - Shenshen",
+    "pt": "Kyubi do Mundo Virtual - Shenshen",
+    "image": "img/cards/virtual-world-kyubi-shenshen.jpg",
+    "type": "Monster",
+    "race": "Psychic",
+    "attribute": "WIND",
+    "level": 9,
+    "atk": 2800,
+    "def": 2400,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\r\nAny card sent from the field to the GY is banished instead. You can only use each of the following effects of \"Virtual World Kyubi - Shenshen\" once per turn. When your monster declares an attack: You can return 1 banished monster to the owner's GY. During your Main Phase, except the turn this card was sent to the GY: You can banish 2 other monsters from your GY with different original Types and Attributes from each other; Special Summon this card from your GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Prime of Stream",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/prime-of-stream/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
   "Book of Eclipse": {
     "name": "Book of Eclipse",
     "pt": "Livro do Eclipse",
@@ -688,22 +1496,6 @@
       }
     ]
   },
-  "Droll & Lock Bird": {
-    "name": "Droll & Lock Bird",
-    "pt": "Droll & Pássaro Fechadura",
-    "image": "img/cards/droll-lock-bird.jpg",
-    "type": "Monster",
-    "race": "Spellcaster",
-    "attribute": "WIND",
-    "level": 1,
-    "atk": 0,
-    "def": 0,
-    "monsterType": [
-      "Effect"
-    ],
-    "text": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
-    "obtain": []
-  },
   "Forbidden Droplet": {
     "name": "Forbidden Droplet",
     "pt": "Gota Proibida",
@@ -927,44 +1719,6 @@
         "boxType": "Main Box",
         "amount": 1,
         "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
-      }
-    ]
-  },
-  "Nibiru, the Primal Being": {
-    "name": "Nibiru, the Primal Being",
-    "pt": "Nibiru, o Ser Primitivo",
-    "image": "img/cards/nibiru-the-primal-being.jpg",
-    "type": "Monster",
-    "race": "Rock",
-    "attribute": "LIGHT",
-    "level": 11,
-    "atk": 3000,
-    "def": 600,
-    "monsterType": [
-      "Effect"
-    ],
-    "text": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Selection Box Mini: Vol. 06",
-        "boxType": "Selection Box Mini",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-06/"
-      },
-      {
-        "kind": "set",
-        "name": "The Ultimate Chaos",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 04",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
       }
     ]
   },
@@ -1584,45 +2338,6 @@
       }
     ]
   },
-  "Lava Golem": {
-    "name": "Lava Golem",
-    "pt": "Golem de Lava",
-    "image": "img/cards/lava-golem.jpg",
-    "type": "Monster",
-    "race": "Fiend",
-    "attribute": "FIRE",
-    "level": 8,
-    "atk": 3000,
-    "def": 2500,
-    "monsterType": [
-      "Effect"
-    ],
-    "text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) to your opponent's field by Tributing 2 monsters they control. You cannot Normal Summon/Set the turn you Special Summon this card. Once per turn, during your Standby Phase: Take 500 damage.",
-    "obtain": [
-      {
-        "kind": "character",
-        "name": "Yami Marik",
-        "level": "Starter Deck",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-marik/"
-      },
-      {
-        "kind": "character",
-        "name": "Yami Marik",
-        "level": "Drop",
-        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-marik/"
-      },
-      {
-        "kind": "other",
-        "name": "Yami Marik Returns Event",
-        "url": null
-      },
-      {
-        "kind": "other",
-        "name": "Acquirable with Tickets",
-        "url": null
-      }
-    ]
-  },
   "Magician Navigation": {
     "name": "Magician Navigation",
     "pt": "Navegação do Mago",
@@ -1839,73 +2554,6 @@
         "name": "Anniversary Box Vol. 04",
         "boxType": "Main Box",
         "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
-      }
-    ]
-  },
-  "Number 68: Sanaphond the Sky Prison": {
-    "name": "Number 68: Sanaphond the Sky Prison",
-    "pt": "Número 68: Sanaphond, a Prisão Celeste",
-    "image": "img/cards/number-68-sanaphond-the-sky-prison.jpg",
-    "type": "Monster",
-    "race": "Rock",
-    "attribute": "DARK",
-    "level": 8,
-    "atk": 2100,
-    "def": 2700,
-    "monsterType": [
-      "Xyz",
-      "Effect"
-    ],
-    "text": "2 Level 8 monsters\nGains 100 ATK and DEF for each monster in the GYs. Once per turn: You can detach 1 material from this card; until the end of your opponent's next turn, this card cannot be destroyed by card effects, also neither player can Special Summon monsters from the GYs.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Infinite Ray",
-        "boxType": "Main Box",
-        "amount": 6,
-        "url": "https://www.duellinksmeta.com/sets/infinite-ray/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Mini Vol.03",
-        "boxType": "Selection Box Mini",
-        "amount": 7,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-03/"
-      },
-      {
-        "kind": "set",
-        "name": "Fantastic Arc",
-        "boxType": "Main Box",
-        "amount": 6,
-        "url": "https://www.duellinksmeta.com/sets/fantastic-arc/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 02",
-        "boxType": "Main Box",
-        "amount": 6,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
-      },
-      {
-        "kind": "set",
-        "name": "Wing of Genesis",
-        "boxType": "Mini Box",
-        "amount": 7,
-        "url": "https://www.duellinksmeta.com/sets/wing-of-genesis/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Mini Vol.07",
-        "boxType": "Selection Box Mini",
-        "amount": 8,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-07/"
-      },
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 04",
-        "boxType": "Main Box",
-        "amount": 6,
         "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
       }
     ]
@@ -3625,45 +4273,6 @@
         "boxType": "Pickup Box",
         "amount": 1,
         "url": "https://www.duellinksmeta.com/sets/pickup-box-ancient-records/"
-      }
-    ]
-  },
-  "Dingirsu, the Orcust of the Evening Star": {
-    "name": "Dingirsu, the Orcust of the Evening Star",
-    "pt": "Dingirsu, o Orcust da Estrela da Noite",
-    "image": "img/cards/dingirsu-the-orcust-of-the-evening-star.jpg",
-    "type": "Monster",
-    "race": "Machine",
-    "attribute": "DARK",
-    "level": 8,
-    "atk": 2600,
-    "def": 2100,
-    "monsterType": [
-      "Xyz",
-      "Effect"
-    ],
-    "text": "2 Level 8 monsters\r\nYou can only Special Summon \"Dingirsu, the Orcust of the Evening Star(s)\" once per turn. You can also Xyz Summon this card by using an \"Orcust\" Link Monster you control as material. If a card(s) you control would be destroyed by battle or card effect, you can detach 1 material from this card instead. If this card is Special Summoned: You can activate 1 of these effects;\r\n● Send 1 card your opponent controls to the GY.\r\n● Attach 1 of your banished Machine monsters to this card as material.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Anniversary Box Vol. 02",
-        "boxType": "Main Box",
-        "amount": 3,
-        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
-      },
-      {
-        "kind": "set",
-        "name": "Solflare Lightning",
-        "boxType": "Main Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/solflare-lightning/"
-      },
-      {
-        "kind": "set",
-        "name": "Selection Box Vol.09",
-        "boxType": "Selection Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
       }
     ]
   },

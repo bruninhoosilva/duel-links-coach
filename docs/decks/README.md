@@ -4,6 +4,7 @@
 
 | Deck | Status | Updated | Skill | Videos | Cards |
 |---|---|---|---|---|---|
+| [Blue-Eyes](blue-eyes.md) | verified | 2026-10-29 | Master of Blue-Eyes | 1 | 24 |
 | [Cyber Dragon](cyber-dragon.md) | verified | 2026-10-19 | I'll Show You Perfection! | 2 | 27 |
 | [Dark Magician](dark-magician.md) | verified | 2026-10-14 | The Eye of the United Dragon | 1 | 25 |
 | [Elemental HERO](elemental-hero.md) | verified | 2026-10-20 | Miracle Neos Contact | 1 | 24 |

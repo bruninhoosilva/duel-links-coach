@@ -1,4 +1,244 @@
 {
+  "blue-eyes": {
+    "defaultId": "video",
+    "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "Yami Ewerton",
+        "event": "Video list",
+        "created": "2026-10-29",
+        "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+        "tier": null,
+        "main": [
+          {
+            "name": "Blue-Eyes White Dragon",
+            "count": 3
+          },
+          {
+            "name": "Blue-Eyes Alternative White Dragon",
+            "count": 2
+          },
+          {
+            "name": "Blue-Eyes Jet Dragon",
+            "count": 2
+          },
+          {
+            "name": "Blue-Eyes Chaos Dragon",
+            "count": 1
+          },
+          {
+            "name": "Kaibaman the Legend",
+            "count": 2
+          },
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Gadarla, the Mystery Dust Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Kumongous, the Sticky String Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Synchro Rumble",
+            "count": 1
+          },
+          {
+            "name": "Ultimate Fusion",
+            "count": 2
+          },
+          {
+            "name": "The Melody of Awakening Dragon",
+            "count": 3
+          },
+          {
+            "name": "Bingo Machine, Go!!!",
+            "count": 1
+          },
+          {
+            "name": "True Light",
+            "count": 1
+          },
+          {
+            "name": "Majesty of the White Dragons",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dragon Master Knight",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes Tyrant Dragon",
+            "count": 1
+          },
+          {
+            "name": "Crimson Dragon",
+            "count": 1
+          },
+          {
+            "name": "Hot Red Dragon Archfiend Abyss",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes Spirit Dragon",
+            "count": 1
+          },
+          {
+            "name": "Virtual World Kyubi - Shenshen",
+            "count": 1
+          },
+          {
+            "name": "Lightstorm Dragon",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          }
+        ],
+        "mainSize": 26,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "6aaf69e0d461fe5da9be2f11",
+        "author": "Yanes",
+        "event": "KC Cup DLv. Max",
+        "created": "2026-09-20",
+        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/blue-eyes/yanes/AMR__/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Blue-Eyes Chaos Dragon",
+            "count": 1
+          },
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 1
+          },
+          {
+            "name": "Gadarla, the Mystery Dust Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes Alternative White Dragon",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 1
+          },
+          {
+            "name": "Kaibaman the Legend",
+            "count": 2
+          },
+          {
+            "name": "Blue-Eyes Jet Dragon",
+            "count": 2
+          },
+          {
+            "name": "Kumongous, the Sticky String Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Mystical Elf - White Lightning",
+            "count": 2
+          },
+          {
+            "name": "Blue-Eyes White Dragon",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes White Dragon",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes White Dragon",
+            "count": 1
+          },
+          {
+            "name": "Synchro Rumble",
+            "count": 1
+          },
+          {
+            "name": "Ultimate Fusion",
+            "count": 2
+          },
+          {
+            "name": "The Melody of Awakening Dragon",
+            "count": 3
+          },
+          {
+            "name": "Bingo Machine, Go!!!",
+            "count": 1
+          },
+          {
+            "name": "True Light",
+            "count": 1
+          },
+          {
+            "name": "Majesty of the White Dragons",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dragon Master Knight",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes Tyrant Dragon",
+            "count": 1
+          },
+          {
+            "name": "Crimson Dragon",
+            "count": 1
+          },
+          {
+            "name": "Hot Red Dragon Archfiend Abyss",
+            "count": 1
+          },
+          {
+            "name": "Trishula, Dragon of the Ice Barrier",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes Spirit Dragon",
+            "count": 1
+          },
+          {
+            "name": "Virtual World Kyubi - Shenshen",
+            "count": 1
+          },
+          {
+            "name": "Lightstorm Dragon",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          }
+        ],
+        "mainSize": 27,
+        "extraSize": 9,
+        "distance": 0
+      }
+    ]
+  },
   "cyber-dragon": {
     "defaultId": "video-yralps",
     "lists": [

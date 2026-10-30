@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-10-26T13:32:07.539Z",
+  "generatedAt": "2026-10-30T02:04:04.294Z",
   "dataFetchedAt": "2026-10-13T19:19:55.983Z",
   "decks": [
+    {
+      "slug": "blue-eyes",
+      "name": "Blue-Eyes",
+      "status": "verified",
+      "updated": "2026-10-29",
+      "skill": "Master of Blue-Eyes",
+      "scenarios": 5,
+      "stats": {
+        "decks": 1,
+        "totalDecks": 830,
+        "share": 0.0012048192771084338,
+        "tiers": {},
+        "commonTier": null
+      },
+      "featured": {
+        "name": "Blue-Eyes White Dragon",
+        "image": "img/cards/blue-eyes-white-dragon.jpg"
+      }
+    },
     {
       "slug": "cyber-dragon",
       "name": "Cyber Dragon",

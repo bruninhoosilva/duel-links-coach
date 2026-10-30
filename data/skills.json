@@ -1,4 +1,15 @@
 {
+  "Master of Blue-Eyes": {
+    "name": "Master of Blue-Eyes",
+    "text": "You can use this Skill's first and second effects once per Duel if your Deck contains a total of 15 or more \"Blue-Eyes White Dragon\" cards or cards that mention it.\n1: Reveal 1 \"Blue-Eyes\" monster from your hand and add 1 \"Blue-Eyes White Dragon\" or another card that mentions it from your Deck to your hand. Then, send 1 \"Blue-Eyes Ultimate Dragon\" and 1 \"Black Luster Soldier\" from outside your Deck to the Graveyard.\n2: If you control a \"Blue-Eyes\" monster or only your opponent controls a monster, Set 1 Spell/Trap card that mentions \"Blue-Eyes White Dragon\". (This card can be activated the same turn.)",
+    "source": null,
+    "characters": [
+      {
+        "name": "Seto Kaiba (Urban)",
+        "how": "Skill Exchange Trader"
+      }
+    ]
+  },
   "I'll Show You Perfection!": {
     "name": "I'll Show You Perfection!",
     "text": "You can only use this Skill's second and third effects once per Duel.\n1: At the start of your first turn, send 1 \"Cyber Dragon\" from your Deck to the Graveyard. During this Duel, any effect damage your cards would inflict to your opponent becomes 0.\n2: Reveal 1 \"Cyber Dragon\" or \"Cyber Jormungardr\" from your hand. Add up to 2 Level 2 or lower \"Cyber Dragon\" monsters from your Deck to your hand. Then, Set 1 \"Cybernetic Overflow\" from outside of your Deck to your field. (This card can be activated the same turn.)\n3: From turn 2 onward, add up to 3 \"Cyber Dragon\" from your Deck and/or Graveyard to your hand. During this Duel, unless you successfully Special Summon \"Cyber End Dragon\", you cannot activate the effects of Spell Cards other than \"Polymerization\" and \"Power Bond\".",

@@ -1,4 +1,1606 @@
 {
+  "blue-eyes": {
+    "deck": "Blue-Eyes",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-10-29",
+    "featuredCard": "Blue-Eyes White Dragon",
+    "skill": {
+      "name": "Master of Blue-Eyes",
+      "enablerCards": [],
+      "trigger": "Both effects can be used once per Duel and need a deck that holds 15 or more Blue-Eyes White Dragon cards or cards that mention it (this list has about 16; I counted from the card texts, so check the number if you change the list).",
+      "enabler": "Effect 1: reveal a Blue-Eyes monster from your hand and add Blue-Eyes White Dragon or another card that mentions it from your deck (usually Kaibaman the Legend), then Blue-Eyes Ultimate Dragon and Black Luster Soldier go to your Graveyard from outside your deck. Effect 2: if you control a Blue-Eyes monster, or only your opponent controls a monster, Set a Spell/Trap that mentions Blue-Eyes White Dragon (you can activate it the same turn).",
+      "adds": []
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "COMO JOGAR COM BLUE-EYES NESSE META? TEM CHANCE? (Portuguese deck explanation, two replays)",
+        "creator": "Yami Ewerton",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=r4HxfOsunuU"
+      }
+    ],
+    "gamePlan": "A turn-one Synchro deck. Kaibaman the Legend brings out Blue-Eyes White Dragon, a Level 1 Tuner and a Level 8 Blue-Eyes make Blue-Eyes Spirit Dragon, which is Tributed into Crimson Dragon. Crimson Dragon searches Synchro Rumble, Synchro Rumble brings Kaibaman back for Shenshen, and Crimson Dragon then turns Shenshen into Hot Red Dragon Archfiend Abyss. You finish with Shenshen (it banishes cards sent from the field) and Abyss (it negates a card), plus True Light and Majesty of the White Dragons Set. The creator's own words: it is not a very strong board, but it is the best Blue-Eyes can do in this format, and the deck is not easy to play today.",
+    "strengths": [
+      "The board has two layers: Shenshen banishes cards sent from the field, and Abyss can negate a card, so a single negate does not stop it.",
+      "Kaibaman the Legend is easy to start with: if you do not have him, the skill finds the other half of the combo.",
+      "Majesty of the White Dragons can destroy up to 3 of the opponent's cards in a turn, and its Graveyard effect brings out Blue-Eyes Chaos Dragon.",
+      "Many tech cards (Nibiru, Droll & Lock Bird, two Kaiju) let it deal with other decks, and Jet Dragon protects your other cards from destruction."
+    ],
+    "weaknesses": [
+      "The creator calls it a complicated format for Blue-Eyes: newer Blue-Eyes cards would help a lot.",
+      "The deck relies on the Extra Deck, so a hand trap on Kaibaman or an effect that stops Special Summons slows it down.",
+      "Synchro Rumble restricts your Extra Deck to Synchro Monsters for the rest of the turn.",
+      "A well-chosen Forbidden Droplet from the opponent can still go through the board.",
+      "Many Blue-Eyes cards need a copy of Blue-Eyes White Dragon in hand, deck or Graveyard; Bystial-style cards that banish it can break Kaibaman and Majesty."
+    ],
+    "cards": [
+      {
+        "name": "Blue-Eyes White Dragon",
+        "role": "payoff",
+        "copies": 3,
+        "note": "The deck's namesake Normal Monster (Level 8, 3000 ATK, no effect). It is what Kaibaman brings out, what the Synchro monsters use as material, and what the skill and many Spells and Traps point at."
+      },
+      {
+        "name": "Blue-Eyes Alternative White Dragon",
+        "role": "starter",
+        "copies": 2,
+        "note": "Cannot be Normal Summoned: reveal Blue-Eyes White Dragon in your hand to Special Summon it (once per turn). On the field its name is \"Blue-Eyes White Dragon\", so it counts for the skill, Kaibaman and the Spells and Traps. Once per turn it can destroy a monster your opponent controls (it cannot attack that turn)."
+      },
+      {
+        "name": "Blue-Eyes Jet Dragon",
+        "role": "extender",
+        "copies": 2,
+        "note": "Other cards you control cannot be destroyed by your opponent's card effects, and while Blue-Eyes White Dragon is on your field or in your Graveyard it comes back when a card is destroyed. The creator likes two: it protects the board and the hand, and Melody of Awakening Dragon can send it to the Graveyard on purpose so it revives itself."
+      },
+      {
+        "name": "Blue-Eyes Chaos Dragon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Ritual Monster (Level 8, DARK). Its target-and-destroy protection holds against the opponent, and when it attacks after being Ritual Summoned with Blue-Eyes White Dragon, it flips the opponent's monsters to Defense with 0 ATK/DEF and gives piercing damage. The creator Ritual Summons it with the effect of Majesty of the White Dragons from the Graveyard."
+      },
+      {
+        "name": "Kaibaman the Legend",
+        "role": "starter",
+        "copies": 2,
+        "note": "The engine. When Normal or Special Summoned: show 3 Blue-Eyes White Dragon (hand, deck, field or Graveyard) and Special Summon 1 from your hand, deck or Graveyard. A Level 1 Tuner, so it also feeds Synchro Summons. The creator only owns two, which is why the list is 26 cards: with three he would go to 30.",
+        "substitutes": [
+          {
+            "name": "Blue-Eyes Alternative White Dragon",
+            "why": "The skill's first effect can also add Alternative White Dragon or True Light, and Alternative White Dragon can be played with a Blue-Eyes White Dragon in hand alone, so you can still start without Kaibaman. The creator notes you often start with Kaibaman and just take the other card with the skill."
+          }
+        ]
+      },
+      {
+        "name": "Nibiru, the Primal Being",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Tech card. Stops a turn where the opponent Special Summons 5 or more monsters."
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Tech card. Stops the opponent's search turn."
+      },
+      {
+        "name": "Gadarla, the Mystery Dust Kaiju",
+        "role": "removal",
+        "copies": 1,
+        "note": "Tech card (WIND Kaiju). Special Summoned to the opponent's side by Tributing a monster they control, and it can halve the ATK and DEF of all other monsters with 3 Kaiju Counters. The creator plays one WIND Kaiju and one EARTH Kaiju."
+      },
+      {
+        "name": "Kumongous, the Sticky String Kaiju",
+        "role": "removal",
+        "copies": 1,
+        "note": "Tech card (EARTH Kaiju). Special Summoned to the opponent's side by Tributing a monster they control. When the opponent summons a monster, 2 Kaiju Counters stop it from attacking and negate its effects until the end of the next turn."
+      },
+      {
+        "name": "Synchro Rumble",
+        "role": "starter",
+        "copies": 1,
+        "note": "Crimson Dragon searches it. Special Summons a Tuner or a Level 7 or 8 Dragon Synchro Monster from your Graveyard in Defense Position, but for the rest of the turn you can only Special Summon Synchro Monsters from the Extra Deck. It is what brings Kaibaman back for a second Synchro Summon."
+      },
+      {
+        "name": "Ultimate Fusion",
+        "role": "extender",
+        "copies": 2,
+        "note": "Fusion Summons a monster that lists Blue-Eyes White Dragon or Blue-Eyes Ultimate Dragon as material by shuffling the materials from your hand, field or Graveyard into the deck; can destroy as many of the opponent's face-up cards as the Blue-Eyes used from the field. The creator plays 2 and calls it one of the quirks of his build."
+      },
+      {
+        "name": "The Melody of Awakening Dragon",
+        "role": "starter",
+        "copies": 3,
+        "note": "Discard 1 card, add up to 2 Dragons with 3000 or more ATK and 2500 or less DEF from your deck (Blue-Eyes White Dragon and Jet Dragon, for example). The creator keeps one Jet Dragon in hand when he can, and uses Melody to send Jet Dragon to the Graveyard so it can revive itself."
+      },
+      {
+        "name": "Bingo Machine, Go!!!",
+        "role": "starter",
+        "copies": 1,
+        "note": "Reveals 3 cards from your deck that are Blue-Eyes monsters or Spells/Traps that list Blue-Eyes White Dragon or Blue-Eyes Ultimate Dragon; your opponent randomly picks 1 for your hand, and the rest are shuffled back."
+      },
+      {
+        "name": "True Light",
+        "role": "removal",
+        "copies": 1,
+        "note": "The trap in the combo. Your opponent cannot target Blue-Eyes White Dragon with card effects. Once per turn: Special Summon Blue-Eyes White Dragon from your hand or Graveyard, or Set a Spell/Trap from your deck that lists it (Majesty of the White Dragons, for example). If it goes from the field to the Graveyard face-up, it destroys all your monsters, but with Shenshen on the field it is banished instead and the penalty never happens."
+      },
+      {
+        "name": "Majesty of the White Dragons",
+        "role": "removal",
+        "copies": 2,
+        "note": "Trap. Show up to 3 Blue-Eyes White Dragon in your hand, field or Graveyard to destroy that many cards your opponent controls (a board wipe in a hand trap shape). From the Graveyard it can Ritual Summon a Ritual Monster by Tributing Blue-Eyes White Dragon, which is how Chaos Dragon comes out."
+      },
+      {
+        "name": "Dragon Master Knight",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion of Black Luster Soldier and Blue-Eyes Ultimate Dragon, Level 12, 5000 ATK; the skill's first effect sends both to the Graveyard from outside your deck. The creator keeps it in the Extra Deck because it is strong in the current meta."
+      },
+      {
+        "name": "Blue-Eyes Tyrant Dragon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Fusion of Blue-Eyes White Dragon and a Dragon monster. Unaffected by Trap cards or effects, attacks all of the opponent's monsters once each, and sets a Trap from the Graveyard."
+      },
+      {
+        "name": "Crimson Dragon",
+        "role": "extender",
+        "copies": 1,
+        "note": "Level 12 Synchro. When Special Summoned it adds a Spell/Trap that mentions it (Synchro Rumble). Quick Effect: target a Level 7 or higher Synchro Monster, return Crimson Dragon to the Extra Deck and Special Summon a Dragon Synchro Monster of the same Level. The creator uses it to turn Shenshen into Hot Red Dragon Archfiend Abyss."
+      },
+      {
+        "name": "Hot Red Dragon Archfiend Abyss",
+        "role": "removal",
+        "copies": 1,
+        "note": "Level 9 DARK Dragon Synchro. Quick Effect: negate the effects of 1 face-up card your opponent controls until the end of the turn. The creator calls it the interaction that makes the board hard to pass."
+      },
+      {
+        "name": "Blue-Eyes Spirit Dragon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Level 9 Synchro made from a Tuner and a Blue-Eyes monster. Neither player can Special Summon 2 or more monsters at the same time, and it negates effects in the Graveyard. The combo Tributes it to Special Summon Crimson Dragon."
+      },
+      {
+        "name": "Virtual World Kyubi - Shenshen",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Level 9 Synchro. Any card sent from the field to the Graveyard is banished instead: it stops the opponent's Graveyard effects and also removes the downside of True Light. The creator says it is what makes the board annoying for many decks."
+      },
+      {
+        "name": "Lightstorm Dragon",
+        "role": "extender",
+        "copies": 1,
+        "note": "Level 9 Synchro that can destroy Spells and Traps when Special Summoned, and Set a Spell/Trap from the Graveyard when destroyed. The creator does not talk about this card in the video; it was identified from the deck screen."
+      },
+      {
+        "name": "Dingirsu, the Orcust of the Evening Star",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Xyz (rank 8) made from two Level 8 monsters. The creator calls it a turn-two, more offensive monster, and not a turn-one choice."
+      },
+      {
+        "name": "Number 68: Sanaphond the Sky Prison",
+        "role": "removal",
+        "copies": 1,
+        "note": "Xyz (rank 8). Gains ATK and DEF for each monster in the Graveyards and can stop Special Summons from the Graveyard. The creator calls it a real option for turn one."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Kaibaman the Legend",
+        "partners": [
+          {
+            "name": "Blue-Eyes White Dragon",
+            "reason": "Kaibaman shows 3 Blue-Eyes White Dragon and Special Summons one from your deck, hand or Graveyard, so every turn one has two Blue-Eyes on the field.",
+            "link": "brings out"
+          },
+          {
+            "name": "Blue-Eyes Spirit Dragon",
+            "reason": "Kaibaman is the Level 1 Tuner and the Blue-Eyes White Dragon the non-Tuner: together they make Level 9 Blue-Eyes Spirit Dragon.",
+            "link": "is material for"
+          },
+          {
+            "name": "Synchro Rumble",
+            "reason": "Synchro Rumble brings Kaibaman back from the Graveyard as a Tuner, for a second Synchro Summon.",
+            "link": "comes back with"
+          }
+        ]
+      },
+      {
+        "card": "Blue-Eyes Spirit Dragon",
+        "partners": [
+          {
+            "name": "Crimson Dragon",
+            "reason": "Spirit Dragon can be Tributed to Special Summon a LIGHT Dragon Synchro Monster from the Extra Deck: Crimson Dragon.",
+            "link": "tributes into"
+          }
+        ]
+      },
+      {
+        "card": "Crimson Dragon",
+        "partners": [
+          {
+            "name": "Synchro Rumble",
+            "reason": "When Crimson Dragon is Special Summoned it searches Synchro Rumble, which mentions it.",
+            "link": "searches"
+          },
+          {
+            "name": "Hot Red Dragon Archfiend Abyss",
+            "reason": "Crimson Dragon's Quick Effect swaps Shenshen (Level 9) for another Level 9 Dragon Synchro: Hot Red Dragon Archfiend Abyss.",
+            "link": "turns Shenshen into"
+          }
+        ]
+      },
+      {
+        "card": "Virtual World Kyubi - Shenshen",
+        "partners": [
+          {
+            "name": "True Light",
+            "reason": "With Shenshen on the field, True Light is banished instead of going to the Graveyard, so it never destroys your monsters.",
+            "link": "protects"
+          }
+        ]
+      },
+      {
+        "card": "Blue-Eyes Alternative White Dragon",
+        "partners": [
+          {
+            "name": "Blue-Eyes White Dragon",
+            "reason": "Alternative White Dragon is Special Summoned by revealing Blue-Eyes White Dragon in your hand, and counts as Blue-Eyes White Dragon on the field.",
+            "link": "is summoned by revealing"
+          }
+        ]
+      },
+      {
+        "card": "The Melody of Awakening Dragon",
+        "partners": [
+          {
+            "name": "Blue-Eyes Jet Dragon",
+            "reason": "Melody of Awakening Dragon adds Jet Dragon, or discards it so it revives itself later.",
+            "link": "adds"
+          }
+        ]
+      },
+      {
+        "card": "Majesty of the White Dragons",
+        "partners": [
+          {
+            "name": "Blue-Eyes Chaos Dragon",
+            "reason": "Majesty of the White Dragons, from the Graveyard, Ritual Summons Chaos Dragon by Tributing Blue-Eyes White Dragon.",
+            "link": "Ritual Summons"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "spirit-crimson-shenshen",
+        "title": "Turn 1: Spirit Dragon into Crimson Dragon, Synchro Rumble, Shenshen and Hot Red Dragon Archfiend Abyss",
+        "hand": [
+          "Kaibaman the Legend",
+          "Blue-Eyes White Dragon",
+          "Blue-Eyes Alternative White Dragon"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Kaibaman the Legend",
+            "Blue-Eyes White Dragon",
+            "Blue-Eyes Alternative White Dragon"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "The skill's first effect: reveal a Blue-Eyes monster from your hand, add 1 Blue-Eyes White Dragon or a card that mentions it from your deck (usually Kaibaman the Legend, or True Light), then Blue-Eyes Ultimate Dragon and Black Luster Soldier from outside your deck are sent to the Graveyard. The second effect Sets a Spell/Trap that mentions Blue-Eyes White Dragon if you control a Blue-Eyes monster, and it can be activated the same turn. In the video the first effect adds True Light. The creator says he usually takes Kaibaman with it, and that this hand was a very good one."
+        },
+        "start": {
+          "hand": [
+            "Kaibaman the Legend",
+            "Blue-Eyes White Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "An example hand for the line the creator explains against the machine: Kaibaman the Legend, Blue-Eyes White Dragon and Alternative White Dragon plus two cards that do not matter (the rest of his hand is not readable on screen). Yours will differ. This is the creator's explained core line, not a replay of one duel; the order of some steps is medium confidence."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Master of Blue-Eyes",
+            "when": "In your Main Phase (effect 1)",
+            "needs": "Reveal a Blue-Eyes monster from your hand. Here Alternative White Dragon.",
+            "gives": "Add a card that mentions Blue-Eyes White Dragon from your deck (here True Light). Blue-Eyes Ultimate Dragon and Black Luster Soldier go to your Graveyard from outside the deck.",
+            "used": true,
+            "reason": "True Light becomes the trap you Set and use at the end of the combo. The creator says the first effect usually adds Kaibaman instead.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "3:50"
+            },
+            "moves": [
+              {
+                "card": "True Light",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Kaibaman the Legend",
+            "action": "normal-summon",
+            "reason": "Normal Summon Kaibaman the Legend, a Level 1 Tuner.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "3:55"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Kaibaman the Legend",
+            "action": "activate",
+            "reason": "Show 3 Blue-Eyes White Dragon and Special Summon 1 from your deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "4:00"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Spirit Dragon",
+            "action": "special-summon",
+            "reason": "Synchro Summon Blue-Eyes Spirit Dragon (Level 9) with Kaibaman (Tuner, Level 1) and Blue-Eyes White Dragon (Level 8).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "4:10"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Spirit Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Spirit Dragon",
+            "action": "activate",
+            "reason": "Tribute Spirit Dragon to Special Summon Crimson Dragon (a LIGHT Dragon Synchro Monster) from the Extra Deck in Defense Position. Crimson Dragon then searches Synchro Rumble, because it was Special Summoned.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "4:15"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Spirit Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Crimson Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Synchro Rumble",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Alternative White Dragon",
+            "action": "special-summon",
+            "reason": "Special Summon Alternative White Dragon by revealing Blue-Eyes White Dragon in your hand. Do not use Kaibaman's Graveyard effect: it would banish him, and you need him back.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "4:55"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Synchro Rumble",
+            "action": "activate",
+            "reason": "Synchro Rumble: Special Summon Kaibaman (the Tuner in your Graveyard) in Defense Position. For the rest of the turn you can only Special Summon Synchro Monsters from the Extra Deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "5:02"
+            },
+            "moves": [
+              {
+                "card": "Synchro Rumble",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Kaibaman the Legend",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Virtual World Kyubi - Shenshen",
+            "action": "special-summon",
+            "reason": "Synchro Summon Virtual World Kyubi - Shenshen (Level 9) with Kaibaman (Level 1) and Alternative White Dragon (Level 8). With Shenshen on the field, cards sent from the field to the Graveyard are banished.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "5:13"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Virtual World Kyubi - Shenshen",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Crimson Dragon",
+            "action": "activate",
+            "reason": "Crimson Dragon's Quick Effect: target Shenshen (Level 9), return Crimson Dragon to the Extra Deck and Special Summon Hot Red Dragon Archfiend Abyss (a Level 9 Dragon Synchro). You keep Shenshen and gain Abyss, which can negate 1 of the opponent's cards.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "5:23"
+            },
+            "moves": [
+              {
+                "card": "Crimson Dragon",
+                "from": "monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Hot Red Dragon Archfiend Abyss",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "True Light",
+            "action": "set",
+            "reason": "Set True Light, the trap you added with the skill.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "5:30"
+            },
+            "moves": [
+              {
+                "card": "True Light",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "True Light",
+            "action": "activate",
+            "reason": "Use True Light's second effect to Set a Spell/Trap that lists Blue-Eyes White Dragon directly from your deck: here Majesty of the White Dragons. (The skill lets you activate a card it Sets on the same turn; whether True Light itself can be used the turn it is Set is not clear from the video, so check this step.)",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "6:00"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator says this is not a very strong board, but it is what Blue-Eyes can do today: Shenshen banishes cards sent from the field, and Hot Red Dragon Archfiend Abyss negates a card, so the opponent cannot simply negate Shenshen. To go through it you need a tech card such as Forbidden Droplet, and he warns the Droplet must be the right one, because he can chain True Light, Majesty and Abyss in response. A second turn-one option he describes: Normal Summon Kaibaman, Special Summon Blue-Eyes White Dragon, then Alternative White Dragon, activate True Light in response to the Alternative's effect to bring a Blue-Eyes back, and make Shenshen with Kaibaman and the Blue-Eyes.",
+        "endBoard": "Virtual World Kyubi - Shenshen and Hot Red Dragon Archfiend Abyss on the field, a Set Majesty of the White Dragons, True Light on the field and Synchro Rumble in the Graveyard.",
+        "weakSpots": "You cannot Special Summon from the Extra Deck except Synchro Monsters after Synchro Rumble. A Forbidden Droplet from the opponent can break the board, and if True Light leaves the field face-up while Shenshen is not on the field, it destroys your monsters. Do not Normal Summon Kaibaman into an opponent that holds Bystial-style hand traps (in his third replay he Normal Summoned Kaibaman while the opponent held two Bystial monsters and called it a mistake)."
+      },
+      {
+        "id": "sanaphond-true-light-shenshen",
+        "title": "Turn 1, second option: Sanaphond, True Light revives, then Shenshen",
+        "hand": [
+          "Kaibaman the Legend",
+          "Blue-Eyes White Dragon",
+          "Blue-Eyes Alternative White Dragon"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Kaibaman the Legend",
+            "Blue-Eyes White Dragon",
+            "Blue-Eyes Alternative White Dragon"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Only the skill's second effect is needed here: once you control a Blue-Eyes monster, Set True Light (a Spell/Trap that mentions Blue-Eyes White Dragon). The skill lets you activate a card it Sets the same turn, which fits the creator's \"activate True Light in response\". The creator does not say which way he gets True Light in this line, so this is medium confidence."
+        },
+        "start": {
+          "hand": [
+            "Kaibaman the Legend",
+            "Blue-Eyes White Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The same kind of hand as the first line: Kaibaman the Legend, Blue-Eyes White Dragon and Alternative White Dragon plus two cards that do not matter. The creator only describes this line out loud (he shows no replay of it), so every step is medium confidence."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Kaibaman the Legend",
+            "action": "normal-summon",
+            "reason": "Normal Summon Kaibaman the Legend.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:20"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Kaibaman the Legend",
+            "action": "activate",
+            "reason": "Show 3 Blue-Eyes White Dragon and Special Summon 1 from your deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:21"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Master of Blue-Eyes",
+            "when": "Once you control a Blue-Eyes monster (effect 2)",
+            "needs": "You control a Blue-Eyes monster (the Blue-Eyes White Dragon you just summoned).",
+            "gives": "Set True Light directly from the deck.",
+            "used": true,
+            "reason": "True Light has to be on the field to be used in response to Sanaphond. The creator does not say where it comes from, so this is our reading of the skill.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:30"
+            },
+            "moves": [
+              {
+                "card": "True Light",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Alternative White Dragon",
+            "action": "special-summon",
+            "reason": "Special Summon Alternative White Dragon by revealing the Blue-Eyes White Dragon in your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:23"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 68: Sanaphond the Sky Prison",
+            "action": "special-summon",
+            "reason": "Xyz Summon Number 68: Sanaphond the Sky Prison (2 Level 8 monsters) with Blue-Eyes White Dragon and Alternative White Dragon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:27"
+            },
+            "moves": [
+              {
+                "card": "Number 68: Sanaphond the Sky Prison",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 68: Sanaphond the Sky Prison"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 68: Sanaphond the Sky Prison"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 68: Sanaphond the Sky Prison",
+            "action": "activate",
+            "reason": "Activate Sanaphond: detach 1 material (the Alternative White Dragon goes to the Graveyard). Sanaphond cannot be destroyed by card effects until the end of the opponent's next turn, and neither player can Special Summon from the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:29"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 68: Sanaphond the Sky Prison"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "True Light",
+            "action": "activate",
+            "reason": "In response, activate True Light: Special Summon Blue-Eyes White Dragon from the Graveyard (the Alternative White Dragon counts, because its name is Blue-Eyes White Dragon there).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:31"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Virtual World Kyubi - Shenshen",
+            "action": "special-summon",
+            "reason": "Synchro Summon Shenshen (Level 9) with Kaibaman (Level 1) and the revived Blue-Eyes (Level 8).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "7:39"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Virtual World Kyubi - Shenshen",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator says this line locks the opponent's Graveyard: Sanaphond stops Special Summons from the Graveyard, and even if they remove Sanaphond the Shenshen on the field still banishes cards sent to the Graveyard. He prefers it to plays that need a card limited to 1. It ends with Shenshen, a Level 8 Xyz left on the field and True Light, but no Hot Red Dragon Archfiend Abyss.",
+        "endBoard": "Virtual World Kyubi - Shenshen and Number 68: Sanaphond the Sky Prison (one material) on the field, True Light on the field.",
+        "weakSpots": "True Light destroys all your monsters if it leaves the field face-up. The creator describes this line in a few sentences, so check each step against the card texts before using it. One order question: the video says the Xyz is made with Blue-Eyes White Dragon and Alternative, but not which copy is revived or which material is detached."
+      },
+      {
+        "id": "replay-vs-elemental-hero",
+        "title": "Replay vs Elemental HERO: hand destruction, then Majesty brings Chaos Dragon and Jet Dragon finishes",
+        "hand": [
+          "Blue-Eyes White Dragon",
+          "The Melody of Awakening Dragon"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Blue-Eyes White Dragon",
+            "The Melody of Awakening Dragon"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Both effects are used: effect 1 reveals Blue-Eyes White Dragon and adds Jet Dragon (a card that mentions it), and effect 2 Sets Majesty of the White Dragons so it can be activated the same turn."
+        },
+        "start": {
+          "hand": [
+            "Blue-Eyes White Dragon",
+            "The Melody of Awakening Dragon"
+          ],
+          "note": "After the opponent's hand-destruction combo the creator is left with Blue-Eyes White Dragon and the Melody he draws (the opponent had already discarded Kaibaman and another Melody). A rare, strongly worse start than normal, but the creator says he still wins. This is a ranked replay and the opponent made mistakes, so treat it as an example, not a model line."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Master of Blue-Eyes",
+            "when": "In your Main Phase (effect 1)",
+            "needs": "Reveal Blue-Eyes White Dragon from your hand.",
+            "gives": "Add Blue-Eyes Jet Dragon (it mentions Blue-Eyes White Dragon).",
+            "used": true,
+            "reason": "The creator wants Jet Dragon in the Graveyard, where it comes back when a card on the field is destroyed. He expected to destroy cards with Majesty later.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "10:06"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Melody of Awakening Dragon",
+            "action": "activate",
+            "reason": "The Melody of Awakening Dragon: discard Jet Dragon and add Alternative White Dragon and Chaos Dragon from the deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "10:28"
+            },
+            "moves": [
+              {
+                "card": "The Melody of Awakening Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Blue-Eyes Chaos Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Master of Blue-Eyes",
+            "when": "Once only your opponent controls a monster (effect 2)",
+            "needs": "Your opponent controls a monster and you control none.",
+            "gives": "Set Majesty of the White Dragons.",
+            "used": true,
+            "reason": "Majesty can be activated the same turn it is Set, and from the Graveyard it brings out Chaos Dragon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "10:40"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Alternative White Dragon",
+            "action": "special-summon",
+            "reason": "Special Summon Alternative White Dragon by revealing Blue-Eyes White Dragon. The opponent answers with Forbidden Droplet and Miracle Ejector banishes it: the creator says forcing the Droplet early was the point.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "10:48"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "monster-zone",
+                "to": "banished"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Majesty of the White Dragons",
+            "action": "activate",
+            "reason": "Activate Majesty of the White Dragons. The opponent's counter trap negates it, so it does almost nothing on the field, but it goes to the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "11:07"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Majesty of the White Dragons",
+            "action": "activate",
+            "reason": "Banish Majesty from the Graveyard to Ritual Summon Chaos Dragon, Tributing Blue-Eyes White Dragon from your hand (Level 8 = Level 8).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "11:23"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Chaos Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Jet Dragon",
+            "action": "special-summon",
+            "reason": "The opponent's fusion takes Chaos Dragon off the field and a card is destroyed, so Jet Dragon Special Summons itself from the Graveyard (Blue-Eyes White Dragon is in the Graveyard) and wins the game by attacking.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:07"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Chaos Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Why this works, in the creator's words: sending Jet Dragon to the Graveyard instead of playing Kaibaman was right, because the opponent held a Forbidden Droplet and would have stopped Kaibaman and won. The opponent also made mistakes: he Set Super Polymerization (so it can be used later) and then used it badly, which let Jet Dragon come back. The creator says he does not understand the fusion the opponent made and asks HERO players to comment.",
+        "endBoard": "Blue-Eyes Jet Dragon on the field, Majesty of the White Dragons banished. Win by attack.",
+        "weakSpots": "The ranked opponent played this poorly, so do not expect the same result. The result steps (fusion, Jet Dragon destruction trigger) are read from the creator's commentary, so they are medium confidence. Hand destruction can take Kaibaman and the Melodies from you; Jet Dragon in the Graveyard is the plan B."
+      },
+      {
+        "id": "replay-vs-dragon-maid",
+        "title": "Replay vs Dragon Maid: the basic turn-one board, then Majesty clears the opponent's board",
+        "hand": [
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes White Dragon",
+          "Blue-Eyes Jet Dragon",
+          "The Melody of Awakening Dragon"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes White Dragon",
+            "Blue-Eyes Jet Dragon",
+            "The Melody of Awakening Dragon"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 reveals a Blue-Eyes monster and adds Kaibaman the Legend (what the creator usually takes). Effect 2 Sets Majesty of the White Dragons once you control Blue-Eyes White Dragon, so you can activate it on the opponent's turn."
+        },
+        "start": {
+          "hand": [
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes White Dragon",
+            "Blue-Eyes Jet Dragon",
+            "The Melody of Awakening Dragon",
+            "Unknown card"
+          ],
+          "note": "The creator's hand in this replay: Alternative White Dragon, Blue-Eyes White Dragon, Jet Dragon and The Melody of Awakening Dragon plus a fifth card that does not matter. He says he likes keeping Jet Dragon in hand when he has the Melody."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Master of Blue-Eyes",
+            "when": "In your Main Phase (effect 1)",
+            "needs": "Reveal a Blue-Eyes monster from your hand.",
+            "gives": "Add Kaibaman the Legend.",
+            "used": true,
+            "reason": "Kaibaman starts the Synchro line.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:38"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Kaibaman the Legend",
+            "action": "normal-summon",
+            "reason": "Normal Summon Kaibaman the Legend.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:41"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Kaibaman the Legend",
+            "action": "activate",
+            "reason": "Show 3 Blue-Eyes White Dragon and Special Summon 1 from the deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:42"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Master of Blue-Eyes",
+            "when": "Once you control a Blue-Eyes monster (effect 2)",
+            "needs": "You control Blue-Eyes White Dragon.",
+            "gives": "Set Majesty of the White Dragons.",
+            "used": true,
+            "reason": "This Majesty is the card that clears the opponent's board later.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:47"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Spirit Dragon",
+            "action": "special-summon",
+            "reason": "Synchro Summon Blue-Eyes Spirit Dragon with Kaibaman and Blue-Eyes White Dragon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:50"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Spirit Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Spirit Dragon",
+            "action": "activate",
+            "reason": "Tribute Spirit Dragon to Special Summon Crimson Dragon, which searches Synchro Rumble.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:55"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Spirit Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Crimson Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Synchro Rumble",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Alternative White Dragon",
+            "action": "special-summon",
+            "reason": "Special Summon Alternative White Dragon by revealing Blue-Eyes White Dragon in your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "12:58"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Synchro Rumble",
+            "action": "activate",
+            "reason": "Synchro Rumble: bring Kaibaman back from the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "13:02"
+            },
+            "moves": [
+              {
+                "card": "Synchro Rumble",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Kaibaman the Legend",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Virtual World Kyubi - Shenshen",
+            "action": "special-summon",
+            "reason": "Synchro Summon Shenshen with Kaibaman and Alternative White Dragon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "13:05"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Virtual World Kyubi - Shenshen",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Crimson Dragon",
+            "action": "activate",
+            "reason": "Crimson Dragon's Quick Effect turns Shenshen into Hot Red Dragon Archfiend Abyss.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "13:07"
+            },
+            "moves": [
+              {
+                "card": "Crimson Dragon",
+                "from": "monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Hot Red Dragon Archfiend Abyss",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Majesty of the White Dragons",
+            "action": "activate",
+            "reason": "On the opponent's turn, when he activates the Dragon Maid Continuous effect, activate Majesty: show up to 3 Blue-Eyes White Dragon (in hand, field or Graveyard) and destroy that many cards he controls, clearing his board.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "13:55"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Jet Dragon",
+            "action": "special-summon",
+            "reason": "A card was destroyed on the field, so Jet Dragon Special Summons itself from the hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "14:03"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator calls this the basic board: it is what the deck can make without anything extra. The opponent used a Kaiju on one of his monsters, negated one of his effects with Forbidden Droplet and negated another monster, and kept a Lava Golem unused. The creator chose to hold Majesty until the opponent activated the Dragon Maid Continuous effect, then cleared the board and won easily.",
+        "endBoard": "Hot Red Dragon Archfiend Abyss, Shenshen and Jet Dragon on the field; Majesty in the Graveyard. The opponent is left with one card.",
+        "weakSpots": "The creator says he misclicked and made Chaos Dragon at the end (he says not to copy that). He took a Kaiju and lost an effect to a Droplet in this game. The same shape of line shows up in every guided replay, which is why the deck wants Droplet-style answers kept in mind."
+      },
+      {
+        "id": "replay-vs-horus-bystial",
+        "title": "Replay vs Horus and Bystial: Melodies fill the Graveyard, Majesty and Chaos Dragon win",
+        "hand": [
+          "The Melody of Awakening Dragon",
+          "Blue-Eyes White Dragon",
+          "Kaibaman the Legend",
+          "Blue-Eyes Chaos Dragon"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "The Melody of Awakening Dragon",
+            "Blue-Eyes White Dragon",
+            "Kaibaman the Legend",
+            "Blue-Eyes Chaos Dragon"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 2 has Majesty of the White Dragons Set before the Kaibaman mistake. The creator does not describe how Majesty got Set, so this is reconstructed from the replay."
+        },
+        "start": {
+          "hand": [
+            "The Melody of Awakening Dragon",
+            "The Melody of Awakening Dragon",
+            "Blue-Eyes White Dragon",
+            "Kaibaman the Legend",
+            "Blue-Eyes Chaos Dragon",
+            "Unknown card"
+          ],
+          "note": "The creator says his hand has a Kaiju, some Melodies and the Ritual monster. The Kaiju and the exact Melody count are not clear from the video, so those cards are listed as the pieces he names. The opponent had already used Sarcophagus of the king effect, so nobody could Special Summon from the Graveyard that turn."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "The Melody of Awakening Dragon",
+            "action": "activate",
+            "reason": "Melody: discard Blue-Eyes White Dragon and add Alternative White Dragon and Jet Dragon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "15:27"
+            },
+            "moves": [
+              {
+                "card": "The Melody of Awakening Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Melody of Awakening Dragon",
+            "action": "activate",
+            "reason": "A second Melody: send Jet Dragon to the Graveyard (so it can revive itself) and add another Alternative White Dragon and a Blue-Eyes White Dragon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "15:33"
+            },
+            "moves": [
+              {
+                "card": "The Melody of Awakening Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Blue-Eyes White Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Master of Blue-Eyes",
+            "when": "Once only your opponent controls a monster (effect 2)",
+            "needs": "The opponent controls a monster.",
+            "gives": "Set Majesty of the White Dragons.",
+            "used": true,
+            "reason": "The creator says the trap was already Set when he made his Kaibaman mistake. Which skill effect Set it is not said, so this is our reading.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "15:47"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Kaibaman the Legend",
+            "action": "normal-summon",
+            "reason": "The creator's mistake: he Normal Summoned Kaibaman while the opponent held two Bystial monsters. A Bystial comes in and banishes his Blue-Eyes. Kaibaman's effect is negated.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "15:52"
+            },
+            "moves": [
+              {
+                "card": "Kaibaman the Legend",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Kaibaman the Legend",
+                "from": "monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Majesty of the White Dragons",
+            "action": "activate",
+            "reason": "Activate Majesty to destroy the Sarcophagus and its stone, the two cards that would negate all his effects.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "16:05"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Alternative White Dragon",
+            "action": "special-summon",
+            "reason": "Special Summon Alternative White Dragon (it becomes Blue-Eyes White Dragon on the field). Kaibaman's Graveyard effect now adds a Jet Dragon to the hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "16:40"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Kaibaman the Legend",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blue-Eyes Jet Dragon",
+            "action": "special-summon",
+            "reason": "The Kaiju is destroyed, so Jet Dragon enters from the hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "16:56"
+            },
+            "moves": [
+              {
+                "card": "Blue-Eyes Jet Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Majesty of the White Dragons",
+            "action": "activate",
+            "reason": "Banish Majesty from the Graveyard: Ritual Summon Chaos Dragon, Tributing the Alternative White Dragon (its name is Blue-Eyes White Dragon on the field).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=r4HxfOsunuU",
+              "timestamp": "17:00"
+            },
+            "moves": [
+              {
+                "card": "Majesty of the White Dragons",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Blue-Eyes Alternative White Dragon",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Blue-Eyes Chaos Dragon",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator calls the Normal Summon of Kaibaman \"the nonsense I did\": the opponent had two Bystial in hand and one banished Blue-Eyes. Majesty still cleared the key cards, and Chaos Dragon's attack puts monsters in Defense with 0 DEF, so attacking in the right order won the game. He gets a lot out of this trap, because it destroys cards and later brings out the Ritual monster.",
+        "endBoard": "Chaos Dragon and Jet Dragon on the field, the opponent with two monsters in Defense Position. Win by attack.",
+        "weakSpots": "Do not Normal Summon Kaibaman into a hand that can have Bystial monsters. In this replay several cards (which Kaiju, how many Melodies, the exact Sarcophagus cards) are not clearly named by the creator, so the order of steps is medium confidence."
+      }
+    ],
+    "videoList": {
+      "main": [
+        {
+          "name": "Blue-Eyes White Dragon",
+          "count": 3
+        },
+        {
+          "name": "Blue-Eyes Alternative White Dragon",
+          "count": 2
+        },
+        {
+          "name": "Blue-Eyes Jet Dragon",
+          "count": 2
+        },
+        {
+          "name": "Blue-Eyes Chaos Dragon",
+          "count": 1
+        },
+        {
+          "name": "Kaibaman the Legend",
+          "count": 2
+        },
+        {
+          "name": "Nibiru, the Primal Being",
+          "count": 2
+        },
+        {
+          "name": "Droll & Lock Bird",
+          "count": 2
+        },
+        {
+          "name": "Gadarla, the Mystery Dust Kaiju",
+          "count": 1
+        },
+        {
+          "name": "Kumongous, the Sticky String Kaiju",
+          "count": 1
+        },
+        {
+          "name": "Synchro Rumble",
+          "count": 1
+        },
+        {
+          "name": "Ultimate Fusion",
+          "count": 2
+        },
+        {
+          "name": "The Melody of Awakening Dragon",
+          "count": 3
+        },
+        {
+          "name": "Bingo Machine, Go!!!",
+          "count": 1
+        },
+        {
+          "name": "True Light",
+          "count": 1
+        },
+        {
+          "name": "Majesty of the White Dragons",
+          "count": 2
+        }
+      ],
+      "extra": [
+        {
+          "name": "Dragon Master Knight",
+          "count": 1
+        },
+        {
+          "name": "Blue-Eyes Tyrant Dragon",
+          "count": 1
+        },
+        {
+          "name": "Crimson Dragon",
+          "count": 1
+        },
+        {
+          "name": "Hot Red Dragon Archfiend Abyss",
+          "count": 1
+        },
+        {
+          "name": "Blue-Eyes Spirit Dragon",
+          "count": 1
+        },
+        {
+          "name": "Virtual World Kyubi - Shenshen",
+          "count": 1
+        },
+        {
+          "name": "Lightstorm Dragon",
+          "count": 1
+        },
+        {
+          "name": "Dingirsu, the Orcust of the Evening Star",
+          "count": 1
+        },
+        {
+          "name": "Number 68: Sanaphond the Sky Prison",
+          "count": 1
+        }
+      ]
+    }
+  },
   "cyber-dragon": {
     "deck": "Cyber Dragon",
     "format": "speed",
