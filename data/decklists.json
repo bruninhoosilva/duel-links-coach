@@ -115,11 +115,11 @@
         "distance": 0
       },
       {
-        "id": "6aaf69e0d461fe5da9be2f11",
-        "author": "Yanes",
-        "event": "KC Cup DLv. Max",
-        "created": "2026-09-20",
-        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/blue-eyes/yanes/AMR__/",
+        "id": "6ae55bae683d4c4fef30f922",
+        "author": "MASTERof.D",
+        "event": "King of Games",
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/blue-eyes/masterof.d/l0Elg/",
         "tier": null,
         "main": [
           {
@@ -127,36 +127,24 @@
             "count": 1
           },
           {
-            "name": "Nibiru, the Primal Being",
-            "count": 1
-          },
-          {
-            "name": "Gadarla, the Mystery Dust Kaiju",
-            "count": 1
-          },
-          {
             "name": "Blue-Eyes Alternative White Dragon",
             "count": 2
-          },
-          {
-            "name": "Lava Golem",
-            "count": 1
           },
           {
             "name": "Kaibaman the Legend",
             "count": 2
           },
           {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
             "name": "Blue-Eyes Jet Dragon",
-            "count": 2
-          },
-          {
-            "name": "Kumongous, the Sticky String Kaiju",
             "count": 1
-          },
-          {
-            "name": "Mystical Elf - White Lightning",
-            "count": 2
           },
           {
             "name": "Blue-Eyes White Dragon",
@@ -169,14 +157,26 @@
           {
             "name": "Blue-Eyes White Dragon",
             "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
           },
           {
             "name": "Synchro Rumble",
             "count": 1
           },
           {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
             "name": "Ultimate Fusion",
-            "count": 2
+            "count": 1
           },
           {
             "name": "The Melody of Awakening Dragon",
@@ -187,19 +187,134 @@
             "count": 1
           },
           {
+            "name": "Destined Rivals",
+            "count": 1
+          },
+          {
             "name": "True Light",
             "count": 1
           },
           {
             "name": "Majesty of the White Dragons",
-            "count": 3
+            "count": 2
           }
         ],
         "extra": [
           {
-            "name": "Dragon Master Knight",
+            "name": "Dark Magician of Destruction",
             "count": 1
           },
+          {
+            "name": "Blue-Eyes Tyrant Dragon",
+            "count": 1
+          },
+          {
+            "name": "Crimson Dragon",
+            "count": 1
+          },
+          {
+            "name": "Hot Red Dragon Archfiend Abyss",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes Spirit Dragon",
+            "count": 1
+          },
+          {
+            "name": "Virtual World Kyubi - Shenshen",
+            "count": 1
+          },
+          {
+            "name": "Lightstorm Dragon",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 16
+      },
+      {
+        "id": "6ada3d9bbe8eb0595be9aa74",
+        "author": "MorthMade",
+        "event": "King of Games",
+        "created": "2026-10-22",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/blue-eyes/morthmade/S_5-b/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Blue-Eyes Chaos Dragon",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes Alternative White Dragon",
+            "count": 2
+          },
+          {
+            "name": "Chaos Dragon Levianeer",
+            "count": 1
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Kaibaman the Legend",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Blue-Eyes Jet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Blue-Eyes White Dragon",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Synchro Rumble",
+            "count": 1
+          },
+          {
+            "name": "Ultimate Fusion",
+            "count": 1
+          },
+          {
+            "name": "The Melody of Awakening Dragon",
+            "count": 3
+          },
+          {
+            "name": "Bingo Machine, Go!!!",
+            "count": 1
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 3
+          },
+          {
+            "name": "True Light",
+            "count": 1
+          },
+          {
+            "name": "Majesty of the White Dragons",
+            "count": 2
+          }
+        ],
+        "extra": [
           {
             "name": "Blue-Eyes Tyrant Dragon",
             "count": 1
@@ -218,24 +333,24 @@
           },
           {
             "name": "Blue-Eyes Spirit Dragon",
+            "count": 2
+          },
+          {
+            "name": "Azure-Eyes Silver Dragon",
             "count": 1
           },
           {
-            "name": "Virtual World Kyubi - Shenshen",
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
             "count": 1
           },
           {
-            "name": "Lightstorm Dragon",
-            "count": 1
-          },
-          {
-            "name": "Dingirsu, the Orcust of the Evening Star",
+            "name": "Number 68: Sanaphond the Sky Prison",
             "count": 1
           }
         ],
-        "mainSize": 27,
+        "mainSize": 30,
         "extraSize": 9,
-        "distance": 0
+        "distance": 16
       }
     ]
   },
@@ -471,363 +586,6 @@
         "distance": 0
       },
       {
-        "id": "6ac95e9e6bffa6a01b8cf4cf",
-        "author": "Markel",
-        "event": "King of Games",
-        "created": "2026-10-09",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/cyber-dragon/markel/vXrTi/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Cyber Jormungardr",
-            "count": 3
-          },
-          {
-            "name": "Cyber Dragon",
-            "count": 3
-          },
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 2
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 2
-          },
-          {
-            "name": "Jizukiru, the Star Destroying Kaiju",
-            "count": 1
-          },
-          {
-            "name": "Cyberdark Wurm",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Core",
-            "count": 2
-          },
-          {
-            "name": "Cyber Dragon Nachster",
-            "count": 1
-          },
-          {
-            "name": "Cyberdark Chimera",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Herz",
-            "count": 1
-          },
-          {
-            "name": "Power Bond",
-            "count": 1
-          },
-          {
-            "name": "Cyber Emergency",
-            "count": 3
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Cyberdark Realm",
-            "count": 1
-          },
-          {
-            "name": "Polymerization",
-            "count": 1
-          },
-          {
-            "name": "Cyber Repair Plant",
-            "count": 3
-          },
-          {
-            "name": "Infinite Impermanence",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Cyber End Dragon",
-            "count": 1
-          },
-          {
-            "name": "Chimeratech Rampage Dragon",
-            "count": 1
-          },
-          {
-            "name": "Chimeratech Megafleet Dragon",
-            "count": 1
-          },
-          {
-            "name": "Heosvarog the Mechanical Dawn",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Infinity",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Nova",
-            "count": 1
-          },
-          {
-            "name": "Chronomaly Vimana",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Sieger",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 2.5
-      },
-      {
-        "id": "6abe732a7cb39da641a5b13e",
-        "author": "안달쮸지",
-        "event": "King of Games",
-        "created": "2026-10-01",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/cyber-dragon/안달쮸지/uf_vO/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Cyber Jormungardr",
-            "count": 2
-          },
-          {
-            "name": "Cyber Dragon",
-            "count": 3
-          },
-          {
-            "name": "Ghost Ogre & Snow Rabbit",
-            "count": 1
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 3
-          },
-          {
-            "name": "Jizukiru, the Star Destroying Kaiju",
-            "count": 1
-          },
-          {
-            "name": "Cyberdark Wurm",
-            "count": 1
-          },
-          {
-            "name": "Galaxy Soldier",
-            "count": 2
-          },
-          {
-            "name": "Cyber Dragon Core",
-            "count": 2
-          },
-          {
-            "name": "Cyber Dragon Nachster",
-            "count": 1
-          },
-          {
-            "name": "Cyberdark Chimera",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Herz",
-            "count": 1
-          },
-          {
-            "name": "Power Bond",
-            "count": 1
-          },
-          {
-            "name": "Cyber Emergency",
-            "count": 3
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Cyberdark Realm",
-            "count": 1
-          },
-          {
-            "name": "Cyber Repair Plant",
-            "count": 3
-          },
-          {
-            "name": "Polymerization",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Cyber End Dragon",
-            "count": 1
-          },
-          {
-            "name": "Chimeratech Rampage Dragon",
-            "count": 1
-          },
-          {
-            "name": "Chimeratech Megafleet Dragon",
-            "count": 1
-          },
-          {
-            "name": "Heosvarog the Mechanical Dawn",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Infinity",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Nova",
-            "count": 1
-          },
-          {
-            "name": "Chronomaly Vimana",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Sieger",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 2.5
-      },
-      {
-        "id": "6ac4afb892bd145b48681dc9",
-        "author": "alexmedina000",
-        "event": "King of Games",
-        "created": "2026-10-06",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/cyber-dragon/alexmedina000/XQnuj/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Therion \"King\" Regulus",
-            "count": 1
-          },
-          {
-            "name": "Cyber Jormungardr",
-            "count": 2
-          },
-          {
-            "name": "Cyber Dragon",
-            "count": 3
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 3
-          },
-          {
-            "name": "Jizukiru, the Star Destroying Kaiju",
-            "count": 1
-          },
-          {
-            "name": "Cyberdark Wurm",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Core",
-            "count": 2
-          },
-          {
-            "name": "Cyber Dragon Nachster",
-            "count": 1
-          },
-          {
-            "name": "Cyberdark Chimera",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Herz",
-            "count": 1
-          },
-          {
-            "name": "Power Bond",
-            "count": 1
-          },
-          {
-            "name": "Cyber Emergency",
-            "count": 3
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Cyberdark Realm",
-            "count": 1
-          },
-          {
-            "name": "Polymerization",
-            "count": 1
-          },
-          {
-            "name": "Cyber Repair Plant",
-            "count": 3
-          },
-          {
-            "name": "Infinite Impermanence",
-            "count": 2
-          }
-        ],
-        "extra": [
-          {
-            "name": "Cyber End Dragon",
-            "count": 1
-          },
-          {
-            "name": "Chimeratech Rampage Dragon",
-            "count": 1
-          },
-          {
-            "name": "Chimeratech Megafleet Dragon",
-            "count": 1
-          },
-          {
-            "name": "Chimeratech Fortress Dragon",
-            "count": 1
-          },
-          {
-            "name": "Heosvarog the Mechanical Dawn",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Infinity",
-            "count": 1
-          },
-          {
-            "name": "Cyber Dragon Nova",
-            "count": 1
-          },
-          {
-            "name": "Chronomaly Vimana",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 4
-      },
-      {
         "id": "6accf9f7fffdecaab02b19e4",
         "author": "Ketamine Overdoser",
         "event": "King of Games",
@@ -940,7 +698,237 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 4.5
+        "distance": 3
+      },
+      {
+        "id": "6ae347ac6436e1771b133499",
+        "author": "A-LEVEL",
+        "event": "King of Games",
+        "created": "2026-10-29",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/cyber-dragon/a-level/atZjk/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Cyber Jormungardr",
+            "count": 2
+          },
+          {
+            "name": "Cyber Dragon",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Jizukiru, the Star Destroying Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Wurm",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Core",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Nachster",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Chimera",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Herz",
+            "count": 1
+          },
+          {
+            "name": "Power Bond",
+            "count": 2
+          },
+          {
+            "name": "Cyber Emergency",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Cyberdark Realm",
+            "count": 1
+          },
+          {
+            "name": "Cyber Repair Plant",
+            "count": 3
+          },
+          {
+            "name": "Polymerization",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Cyber End Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Rampage Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Megafleet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Heosvarog the Mechanical Dawn",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Infinity",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Nova",
+            "count": 1
+          },
+          {
+            "name": "Chronomaly Vimana",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Sieger",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 3.5
+      },
+      {
+        "id": "6ae0a5f470a37ea9a319ce59",
+        "author": "SkyHigh",
+        "event": "King of Games",
+        "created": "2026-10-27",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/cyber-dragon/skyhigh/VP7xG/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Cyber Jormungardr",
+            "count": 2
+          },
+          {
+            "name": "Cyber Dragon",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Jizukiru, the Star Destroying Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Wurm",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Core",
+            "count": 2
+          },
+          {
+            "name": "Cyber Dragon Nachster",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Chimera",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Herz",
+            "count": 1
+          },
+          {
+            "name": "Power Bond",
+            "count": 3
+          },
+          {
+            "name": "Cyber Emergency",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Cyberdark Realm",
+            "count": 1
+          },
+          {
+            "name": "Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Cyber Repair Plant",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Cyber End Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Rampage Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Megafleet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Heosvarog the Mechanical Dawn",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Infinity",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Nova",
+            "count": 1
+          },
+          {
+            "name": "Chronomaly Vimana",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 3.5
       },
       {
         "id": "6ac5aca71235d936d91f9825",
@@ -1063,7 +1051,126 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 5
+        "distance": 4
+      },
+      {
+        "id": "6ac4afb892bd145b48681dc9",
+        "author": "alexmedina000",
+        "event": "King of Games",
+        "created": "2026-10-06",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/cyber-dragon/alexmedina000/XQnuj/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Therion \"King\" Regulus",
+            "count": 1
+          },
+          {
+            "name": "Cyber Jormungardr",
+            "count": 2
+          },
+          {
+            "name": "Cyber Dragon",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Jizukiru, the Star Destroying Kaiju",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Wurm",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Core",
+            "count": 2
+          },
+          {
+            "name": "Cyber Dragon Nachster",
+            "count": 1
+          },
+          {
+            "name": "Cyberdark Chimera",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Herz",
+            "count": 1
+          },
+          {
+            "name": "Power Bond",
+            "count": 1
+          },
+          {
+            "name": "Cyber Emergency",
+            "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Cyberdark Realm",
+            "count": 1
+          },
+          {
+            "name": "Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Cyber Repair Plant",
+            "count": 3
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Cyber End Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Rampage Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Megafleet Dragon",
+            "count": 1
+          },
+          {
+            "name": "Chimeratech Fortress Dragon",
+            "count": 1
+          },
+          {
+            "name": "Heosvarog the Mechanical Dawn",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Infinity",
+            "count": 1
+          },
+          {
+            "name": "Cyber Dragon Nova",
+            "count": 1
+          },
+          {
+            "name": "Chronomaly Vimana",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 4
       },
       {
         "id": "6ac92f6f86f81b18a45e241e",
@@ -1182,7 +1289,7 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 6
+        "distance": 5
       }
     ]
   },
@@ -1306,12 +1413,139 @@
         "distance": 0
       },
       {
-        "id": "6acd6365a5fefa0d3314121d",
+        "id": "6ae0df7f53ccdd25327ab380",
+        "author": "Lukhan_RB",
+        "event": "King of Games",
+        "created": "2026-10-27",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/dark-magician/lukhan_rb/kWot8/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Illusion of Chaos",
+            "count": 3
+          },
+          {
+            "name": "Timaeus the United Dragon",
+            "count": 3
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Magician's Rod",
+            "count": 1
+          },
+          {
+            "name": "Magicians' Souls",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 3
+          },
+          {
+            "name": "Magician's Salvation",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 2
+          },
+          {
+            "name": "Secrets of Dark Magic",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Circle",
+            "count": 1
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Dark Magic Attack",
+            "count": 1
+          },
+          {
+            "name": "Magicians' Combination",
+            "count": 1
+          },
+          {
+            "name": "Eternal Soul",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician the Dragon Knight",
+            "count": 1
+          },
+          {
+            "name": "Master of Chaos",
+            "count": 1
+          },
+          {
+            "name": "The Dark Magicians",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 5.5
+      },
+      {
+        "id": "6acfe0d9d920f45f820d0b6d",
         "author": "Camus ",
         "event": null,
-        "created": "2026-10-12",
-        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/197/dark-magician/camus-/Udmw4/",
-        "tier": null,
+        "created": "2026-10-14",
+        "url": "https://www.duellinksmeta.com/community-tournaments/quantum-dailies/573/dark-magician/camus-/NzsU5/",
+        "tier": 3,
         "main": [
           {
             "name": "Illusion of Chaos",
@@ -1414,26 +1648,26 @@
         ],
         "mainSize": 24,
         "extraSize": 9,
-        "distance": 6.5
+        "distance": 6
       },
       {
-        "id": "6acdcd47b1a367c6e969d648",
-        "author": "Starcker",
+        "id": "6ae60dfde31606decbafa84d",
+        "author": "Asas",
         "event": "King of Games",
-        "created": "2026-10-13",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/dark-magician/starcker/VcPb6/",
-        "tier": null,
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/dark-magician/asas/zdy2-/",
+        "tier": 3,
         "main": [
           {
             "name": "Illusion of Chaos",
             "count": 3
           },
           {
-            "name": "Timaeus the United Dragon",
-            "count": 3
+            "name": "The Winged Dragon of Ra - Sphere Mode",
+            "count": 2
           },
           {
-            "name": "Lava Golem",
+            "name": "Timaeus the United Dragon",
             "count": 3
           },
           {
@@ -1441,35 +1675,31 @@
             "count": 1
           },
           {
-            "name": "Droll & Lock Bird",
-            "count": 3
-          },
-          {
             "name": "Magician's Rod",
-            "count": 2
+            "count": 1
           },
           {
             "name": "Magicians' Souls",
             "count": 1
           },
           {
-            "name": "Dark Magician",
+            "name": "Photon Jumper",
             "count": 1
           },
           {
             "name": "Dark Magician",
-            "count": 1
-          },
-          {
-            "name": "Dark Magical Curtain",
             "count": 3
           },
           {
-            "name": "Magician's Salvation",
-            "count": 1
+            "name": "Dark Magical Curtain",
+            "count": 2
           },
           {
             "name": "Soul Servant",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
             "count": 2
           },
           {
@@ -1486,10 +1716,6 @@
           },
           {
             "name": "Dark Magic Attack",
-            "count": 1
-          },
-          {
-            "name": "Magicians' Combination",
             "count": 1
           },
           {
@@ -1516,6 +1742,10 @@
           },
           {
             "name": "The Dark Magicians",
+            "count": 1
+          },
+          {
+            "name": "Guardian Chimera",
             "count": 1
           },
           {
@@ -1529,157 +1759,22 @@
           {
             "name": "S:P Little Knight",
             "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
           }
         ],
-        "mainSize": 30,
+        "mainSize": 26,
         "extraSize": 9,
-        "distance": 7.5
+        "distance": 6.5
       },
       {
-        "id": "6acb93834767b4353379bae7",
-        "author": "pepesilvia",
-        "event": "King of Games",
-        "created": "2026-10-11",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/dark-magician/pepesilvia/btonw/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Illusion of Chaos",
-            "count": 3
-          },
-          {
-            "name": "Timaeus the United Dragon",
-            "count": 3
-          },
-          {
-            "name": "Lava Golem",
-            "count": 2
-          },
-          {
-            "name": "Dark Magician Girl",
-            "count": 1
-          },
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 1
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 3
-          },
-          {
-            "name": "Magician's Rod",
-            "count": 1
-          },
-          {
-            "name": "Magicians' Souls",
-            "count": 1
-          },
-          {
-            "name": "Bystial Magnamhut",
-            "count": 1
-          },
-          {
-            "name": "Dark Magician",
-            "count": 2
-          },
-          {
-            "name": "Dark Magical Curtain",
-            "count": 3
-          },
-          {
-            "name": "Magician's Salvation",
-            "count": 1
-          },
-          {
-            "name": "Soul Servant",
-            "count": 1
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
-            "name": "Dark Magical Circle",
-            "count": 1
-          },
-          {
-            "name": "The Gaze of Timaeus",
-            "count": 1
-          },
-          {
-            "name": "Dark Magic Attack",
-            "count": 1
-          },
-          {
-            "name": "Magicians' Combination",
-            "count": 1
-          },
-          {
-            "name": "Eternal Soul",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Dark Magician the Dragon Knight",
-            "count": 1
-          },
-          {
-            "name": "Master of Chaos",
-            "count": 1
-          },
-          {
-            "name": "Dark Paladin",
-            "count": 1
-          },
-          {
-            "name": "The Dark Magicians",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 8.5
-      },
-      {
-        "id": "6ac1c63c5b28875e83c9bfac",
-        "author": "Zaine tros",
+        "id": "6ae64fdeccc59b11efb9f9c3",
+        "author": "Ramon R.",
         "event": null,
-        "created": "2026-10-04",
-        "url": "https://www.duellinksmeta.com/community-tournaments/speed-duel-dynasty/63/dark-magician/zaine-tros/Igw5A/",
-        "tier": null,
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/community-tournaments/quantum-dailies/578/dark-magician/ramon-r./3JkYG/",
+        "tier": 3,
         "main": [
           {
             "name": "Illusion of Chaos",
-            "count": 3
-          },
-          {
-            "name": "Nibiru, the Primal Being",
             "count": 3
           },
           {
@@ -1696,10 +1791,14 @@
           },
           {
             "name": "Magician's Rod",
-            "count": 3
+            "count": 1
           },
           {
             "name": "Magicians' Souls",
+            "count": 2
+          },
+          {
+            "name": "Photon Jumper",
             "count": 1
           },
           {
@@ -1713,137 +1812,10 @@
           {
             "name": "Soul Servant",
             "count": 2
-          },
-          {
-            "name": "Dark Magical Circle",
-            "count": 1
-          },
-          {
-            "name": "The Gaze of Timaeus",
-            "count": 1
-          },
-          {
-            "name": "Dark Magic Attack",
-            "count": 1
-          },
-          {
-            "name": "Magicians' Combination",
-            "count": 1
-          },
-          {
-            "name": "Eternal Soul",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Dark Magician the Dragon Knight",
-            "count": 1
-          },
-          {
-            "name": "Master of Chaos",
-            "count": 1
-          },
-          {
-            "name": "The Dark Magicians",
-            "count": 1
-          },
-          {
-            "name": "Super Starslayer TY-PHON - Sky Crisis",
-            "count": 1
-          },
-          {
-            "name": "Number 90: Galaxy-Eyes Photon Lord",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 8.5
-      },
-      {
-        "id": "6ac99fc8b174c7f8034a333f",
-        "author": "aly",
-        "event": "King of Games",
-        "created": "2026-10-10",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/dark-magician/aly/zzvzC/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Illusion of Chaos",
-            "count": 3
-          },
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 1
-          },
-          {
-            "name": "Timaeus the United Dragon",
-            "count": 3
-          },
-          {
-            "name": "Dark Magician Girl",
-            "count": 1
-          },
-          {
-            "name": "Witch of the Black Forest",
-            "count": 1
-          },
-          {
-            "name": "Ghost Ogre & Snow Rabbit",
-            "count": 2
-          },
-          {
-            "name": "Ghost Belle & Haunted Mansion",
-            "count": 2
-          },
-          {
-            "name": "Magicians' Souls",
-            "count": 1
-          },
-          {
-            "name": "Angel O7",
-            "count": 1
-          },
-          {
-            "name": "Dark Magician",
-            "count": 2
-          },
-          {
-            "name": "Dark Magician",
-            "count": 1
-          },
-          {
-            "name": "Dark Magical Curtain",
-            "count": 3
-          },
-          {
-            "name": "Magician's Salvation",
-            "count": 1
-          },
-          {
-            "name": "Soul Servant",
-            "count": 1
           },
           {
             "name": "Forbidden Droplet",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Secrets of Dark Magic",
@@ -1888,65 +1860,49 @@
             "count": 1
           },
           {
-            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "name": "Guardian Chimera",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
             "count": 1
           },
           {
             "name": "S:P Little Knight",
             "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
           }
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 9
+        "distance": 7.5
       },
       {
-        "id": "6ac7185a235c0f5675a6a899",
-        "author": "Rened",
-        "event": "King of Games",
-        "created": "2026-10-08",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/dark-magician/rened/tzIqK/",
-        "tier": null,
+        "id": "6ae64fdeccc59b11efb9f9c6",
+        "author": "Zaine",
+        "event": null,
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/community-tournaments/quantum-dailies/578/dark-magician/zaine/aFYqX/",
+        "tier": 3,
         "main": [
           {
             "name": "Illusion of Chaos",
-            "count": 2
+            "count": 3
           },
           {
-            "name": "Nibiru, the Primal Being",
-            "count": 2
+            "name": "The Winged Dragon of Ra - Sphere Mode",
+            "count": 3
           },
           {
             "name": "Timaeus the United Dragon",
             "count": 3
           },
           {
-            "name": "Lava Golem",
-            "count": 2
-          },
-          {
             "name": "Dark Magician Girl",
             "count": 1
-          },
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 1
-          },
-          {
-            "name": "Ghost Ogre & Snow Rabbit",
-            "count": 1
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 2
           },
           {
             "name": "Magician's Rod",
@@ -1954,27 +1910,19 @@
           },
           {
             "name": "Magicians' Souls",
-            "count": 1
-          },
-          {
-            "name": "Dark Magician",
-            "count": 1
-          },
-          {
-            "name": "Dark Magician",
-            "count": 1
-          },
-          {
-            "name": "Dark Magician",
-            "count": 1
-          },
-          {
-            "name": "Dark Magical Curtain",
             "count": 2
           },
           {
-            "name": "Magician's Salvation",
+            "name": "Photon Jumper",
             "count": 1
+          },
+          {
+            "name": "Dark Magician",
+            "count": 3
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 3
           },
           {
             "name": "Soul Servant",
@@ -1982,6 +1930,10 @@
           },
           {
             "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Secrets of Dark Magic",
             "count": 1
           },
           {
@@ -1994,10 +1946,6 @@
           },
           {
             "name": "Dark Magic Attack",
-            "count": 1
-          },
-          {
-            "name": "Magicians' Combination",
             "count": 1
           },
           {
@@ -2027,7 +1975,7 @@
             "count": 1
           },
           {
-            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "name": "Guardian Chimera",
             "count": 1
           },
           {
@@ -2035,17 +1983,136 @@
             "count": 1
           },
           {
-            "name": "Underworld Goddess of the Closed World",
+            "name": "Number 68: Sanaphond the Sky Prison",
             "count": 1
           },
           {
-            "name": "I:P Masquerena",
+            "name": "S:P Little Knight",
             "count": 1
           }
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 9
+        "distance": 7.5
+      },
+      {
+        "id": "6ada03f16322ceb909fcf737",
+        "author": "N7aster",
+        "event": "King of Games",
+        "created": "2026-10-22",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/dark-magician/n7aster/SsF7P/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Illusion of Chaos",
+            "count": 3
+          },
+          {
+            "name": "Timaeus the United Dragon",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl",
+            "count": 1
+          },
+          {
+            "name": "Chronicle Sorceress",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Magician's Rod",
+            "count": 2
+          },
+          {
+            "name": "Magicians' Souls",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician",
+            "count": 3
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 3
+          },
+          {
+            "name": "Magician's Salvation",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 2
+          },
+          {
+            "name": "Dark Magical Circle",
+            "count": 1
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Dark Magic Attack",
+            "count": 1
+          },
+          {
+            "name": "Illusion Magic",
+            "count": 1
+          },
+          {
+            "name": "Magician Navigation",
+            "count": 2
+          },
+          {
+            "name": "Eternal Soul",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Dark Magician the Dragon Knight",
+            "count": 1
+          },
+          {
+            "name": "Master of Chaos",
+            "count": 1
+          },
+          {
+            "name": "The Dark Magicians",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Proxy F Magician",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 7.5
       }
     ]
   },
@@ -2165,17 +2232,13 @@
         "distance": 0
       },
       {
-        "id": "6acb98053b22dd13d8b08193",
-        "author": "Madz🌀",
+        "id": "6ac6b634625ca8fb751ea86c",
+        "author": "Diuan",
         "event": "King of Games",
-        "created": "2026-10-11",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/madz🌀/rHm5o/",
+        "created": "2026-10-07",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/diuan/nOX13/",
         "tier": null,
         "main": [
-          {
-            "name": "Rainbow Dragon",
-            "count": 1
-          },
           {
             "name": "Elemental HERO Spirit of Neos",
             "count": 2
@@ -2186,14 +2249,14 @@
           },
           {
             "name": "Miracle Ejector",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Droll & Lock Bird",
             "count": 2
           },
           {
-            "name": "Elemental HERO Liquid Soldier",
+            "name": "Winged Kuriboh LV6",
             "count": 1
           },
           {
@@ -2213,10 +2276,6 @@
             "count": 3
           },
           {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
             "name": "Super Polymerization",
             "count": 1
           },
@@ -2226,11 +2285,7 @@
           },
           {
             "name": "Book of Eclipse",
-            "count": 1
-          },
-          {
-            "name": "Neos Fusion",
-            "count": 1
+            "count": 3
           },
           {
             "name": "EN Shuffle",
@@ -2251,16 +2306,16 @@
         ],
         "extra": [
           {
-            "name": "Rainbow Neos",
-            "count": 1
-          },
-          {
             "name": "Elemental HERO Flame Wingman - Infernal Rage",
             "count": 1
           },
           {
             "name": "Elemental HERO Sunrise",
-            "count": 2
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Grand Neos",
+            "count": 1
           },
           {
             "name": "Wake Up Your Elemental HERO",
@@ -2281,137 +2336,22 @@
           {
             "name": "Elemental HERO Marine Neos",
             "count": 1
-          }
-        ],
-        "mainSize": 29,
-        "extraSize": 9,
-        "distance": 6
-      },
-      {
-        "id": "6ac3cc5dc4420970b130eb1f",
-        "author": "Zhuge an",
-        "event": "King of Games",
-        "created": "2026-10-05",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/zhuge-an/CecA_/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Rainbow Dragon",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Spirit of Neos",
-            "count": 2
-          },
-          {
-            "name": "Elemental HERO Stratos",
-            "count": 3
-          },
-          {
-            "name": "Miracle Ejector",
-            "count": 3
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 2
-          },
-          {
-            "name": "Winged Kuriboh LV6",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Liquid Soldier",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Solid Soldier",
-            "count": 1
-          },
-          {
-            "name": "Neo-Spacian Aqua Dolphin",
-            "count": 2
-          },
-          {
-            "name": "Elemental HERO Neos",
-            "count": 2
-          },
-          {
-            "name": "E - Emergency Call",
-            "count": 3
-          },
-          {
-            "name": "Super Polymerization",
-            "count": 1
-          },
-          {
-            "name": "Miracle Fusion",
-            "count": 2
-          },
-          {
-            "name": "Neos Fusion",
-            "count": 1
-          },
-          {
-            "name": "EN - Engage Neo Space",
-            "count": 1
-          },
-          {
-            "name": "EN Shuffle",
-            "count": 1
-          },
-          {
-            "name": "Instant Contact",
-            "count": 1
-          },
-          {
-            "name": "Protection of the Elements",
-            "count": 1
-          },
-          {
-            "name": "Favorite Contact",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Elemental HERO Flame Wingman - Infernal Rage",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Sunrise",
-            "count": 2
-          },
-          {
-            "name": "Wake Up Your Elemental HERO",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Shining Neos Wingman",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Aqua Neos",
-            "count": 2
-          },
-          {
-            "name": "Elemental HERO Marine Neos",
-            "count": 1
           },
           {
             "name": "Neo-Spacian Marine Dolphin",
             "count": 1
           }
         ],
-        "mainSize": 30,
+        "mainSize": 28,
         "extraSize": 9,
-        "distance": 6.5
+        "distance": 4
       },
       {
-        "id": "6abdc27a145794cff7047cb5",
-        "author": "momotaros94",
+        "id": "6adf674c401d8d4d04227aa8",
+        "author": "Revolver16",
         "event": "King of Games",
-        "created": "2026-09-30",
-        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/heros/momotaros94/iZlQP/",
+        "created": "2026-10-26",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/revolver16/R8Wmg/",
         "tier": null,
         "main": [
           {
@@ -2423,126 +2363,15 @@
             "count": 2
           },
           {
-            "name": "Mulcharmy Fuwalos",
-            "count": 2
-          },
-          {
             "name": "Elemental HERO Stratos",
             "count": 3
           },
           {
             "name": "Miracle Ejector",
-            "count": 2
-          },
-          {
-            "name": "Effect Veiler",
-            "count": 3
+            "count": 1
           },
           {
             "name": "Droll & Lock Bird",
-            "count": 2
-          },
-          {
-            "name": "Winged Kuriboh LV6",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Liquid Soldier",
-            "count": 1
-          },
-          {
-            "name": "Neo-Spacian Aqua Dolphin",
-            "count": 2
-          },
-          {
-            "name": "Elemental HERO Neos",
-            "count": 1
-          },
-          {
-            "name": "E - Emergency Call",
-            "count": 3
-          },
-          {
-            "name": "Super Polymerization",
-            "count": 1
-          },
-          {
-            "name": "Miracle Fusion",
-            "count": 1
-          },
-          {
-            "name": "Neos Fusion",
-            "count": 1
-          },
-          {
-            "name": "EN Shuffle",
-            "count": 2
-          },
-          {
-            "name": "Protection of the Elements",
-            "count": 1
-          },
-          {
-            "name": "Favorite Contact",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Elemental HERO Flame Wingman - Infernal Rage",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Sunrise",
-            "count": 2
-          },
-          {
-            "name": "Elemental HERO Brave Neos",
-            "count": 1
-          },
-          {
-            "name": "Wake Up Your Elemental HERO",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Shining Neos Wingman",
-            "count": 3
-          },
-          {
-            "name": "Elemental HERO Aqua Neos",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 7.5
-      },
-      {
-        "id": "6abed25f1680efd924fa2b30",
-        "author": "Diuan",
-        "event": null,
-        "created": "2026-10-01",
-        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/191/heros/diuan/GyMWZ/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Elemental HERO Spirit of Neos",
-            "count": 2
-          },
-          {
-            "name": "Elemental HERO Stratos",
-            "count": 3
-          },
-          {
-            "name": "Miracle Ejector",
-            "count": 3
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 3
-          },
-          {
-            "name": "Winged Kuriboh LV6",
             "count": 1
           },
           {
@@ -2566,6 +2395,10 @@
             "count": 3
           },
           {
+            "name": "Forbidden Droplet",
+            "count": 1
+          },
+          {
             "name": "Super Polymerization",
             "count": 1
           },
@@ -2574,7 +2407,11 @@
             "count": 1
           },
           {
-            "name": "EN - Engage Neo Space",
+            "name": "Book of Eclipse",
+            "count": 3
+          },
+          {
+            "name": "Neos Fusion",
             "count": 1
           },
           {
@@ -2604,11 +2441,15 @@
             "count": 1
           },
           {
-            "name": "Elemental HERO Grand Neos",
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
             "count": 1
           },
           {
             "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Core",
             "count": 1
           },
           {
@@ -2617,7 +2458,7 @@
           },
           {
             "name": "Elemental HERO Aqua Neos",
-            "count": 2
+            "count": 1
           },
           {
             "name": "Elemental HERO Marine Neos",
@@ -2630,14 +2471,14 @@
         ],
         "mainSize": 28,
         "extraSize": 9,
-        "distance": 10
+        "distance": 5
       },
       {
-        "id": "6abd97691a3a5aa553fb3179",
-        "author": "nimalabe19",
+        "id": "6ad0d49613cd30f23bb1cb98",
+        "author": "ryo",
         "event": "King of Games",
-        "created": "2026-09-30",
-        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/heros/nimalabe19/IHViG/",
+        "created": "2026-10-15",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/acey/ugEUG/",
         "tier": null,
         "main": [
           {
@@ -2674,7 +2515,122 @@
           },
           {
             "name": "Elemental HERO Neos",
+            "count": 2
+          },
+          {
+            "name": "E - Emergency Call",
+            "count": 3
+          },
+          {
+            "name": "Super Polymerization",
             "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 2
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Protection of the Elements",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+            "count": 1
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Marine Dolphin",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 5
+      },
+      {
+        "id": "6ae0a5f470a37ea9a319ce5b",
+        "author": "hdmorto",
+        "event": "King of Games",
+        "created": "2026-10-27",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/hdmorto/yRdm3/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 3
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 3
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 2
+          },
+          {
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Solid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 2
           },
           {
             "name": "E - Emergency Call",
@@ -2693,15 +2649,19 @@
             "count": 1
           },
           {
-            "name": "EN Wave",
-            "count": 1
-          },
-          {
-            "name": "EN Shuffle",
+            "name": "Book of Eclipse",
             "count": 2
           },
           {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
             "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Infinite Impermanence",
             "count": 1
           },
           {
@@ -2720,15 +2680,23 @@
           },
           {
             "name": "Elemental HERO Sunrise",
-            "count": 2
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+            "count": 1
           },
           {
             "name": "Wake Up Your Elemental HERO",
             "count": 1
           },
           {
+            "name": "Elemental HERO Core",
+            "count": 1
+          },
+          {
             "name": "Elemental HERO Shining Neos Wingman",
-            "count": 2
+            "count": 1
           },
           {
             "name": "Elemental HERO Aqua Neos",
@@ -2745,14 +2713,14 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 10
+        "distance": 6.5
       },
       {
-        "id": "6ac3d6c820a3a149602d8a86",
-        "author": "SpacetrumZ",
+        "id": "6ad908ce780b36135ef19bed",
+        "author": "porta se abrindo",
         "event": "King of Games",
-        "created": "2026-10-05",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/spacetrumz/DaFxv/",
+        "created": "2026-10-21",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/porta-se-abrindo/FE_Qu/",
         "tier": null,
         "main": [
           {
@@ -2761,15 +2729,150 @@
           },
           {
             "name": "Elemental HERO Stratos",
-            "count": 3
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 1
           },
           {
             "name": "Miracle Ejector",
             "count": 2
           },
           {
-            "name": "Droll & Lock Bird",
+            "name": "Winged Kuriboh LV6",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Liquid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Solid Soldier",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Aqua Dolphin",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Neos",
+            "count": 1
+          },
+          {
+            "name": "E - Emergency Call",
             "count": 3
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          },
+          {
+            "name": "Miracle Fusion",
+            "count": 1
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 3
+          },
+          {
+            "name": "Fusion Substitute",
+            "count": 1
+          },
+          {
+            "name": "EN - Engage Neo Space",
+            "count": 1
+          },
+          {
+            "name": "EN Shuffle",
+            "count": 1
+          },
+          {
+            "name": "Instant Contact",
+            "count": 1
+          },
+          {
+            "name": "Favorite Contact",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Elemental HERO Flame Wingman - Infernal Rage",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Sunrise",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
+            "count": 1
+          },
+          {
+            "name": "Wake Up Your Elemental HERO",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Core",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Shining Neos Wingman",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Aqua Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Marine Neos",
+            "count": 1
+          },
+          {
+            "name": "Neo-Spacian Marine Dolphin",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 6.5
+      },
+      {
+        "id": "6ad69f4ddaca15892382023d",
+        "author": "Alejandrojfyr227",
+        "event": "King of Games",
+        "created": "2026-10-19",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/heros/alejandrojfyr227/QyNhn/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Elemental HERO Spirit of Neos",
+            "count": 2
+          },
+          {
+            "name": "Elemental HERO Stratos",
+            "count": 2
+          },
+          {
+            "name": "Miracle Ejector",
+            "count": 2
+          },
+          {
+            "name": "Cross Keeper",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
           },
           {
             "name": "Winged Kuriboh LV6",
@@ -2805,6 +2908,10 @@
           },
           {
             "name": "Miracle Fusion",
+            "count": 2
+          },
+          {
+            "name": "Book of Eclipse",
             "count": 1
           },
           {
@@ -2834,7 +2941,11 @@
             "count": 1
           },
           {
-            "name": "Elemental HERO Grand Neos",
+            "name": "Elemental HERO Brave Neos",
+            "count": 1
+          },
+          {
+            "name": "Elemental HERO Thunder Giant - Voltic Thunder",
             "count": 1
           },
           {
@@ -2843,10 +2954,6 @@
           },
           {
             "name": "Elemental HERO Shining Neos Wingman",
-            "count": 1
-          },
-          {
-            "name": "Elemental HERO Dark Neos",
             "count": 1
           },
           {
@@ -2864,7 +2971,7 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 10.5
+        "distance": 6.5
       }
     ]
   },
@@ -2980,117 +3087,6 @@
         "distance": 0
       },
       {
-        "id": "6ac58de29b9b03b503967ed6",
-        "author": "Ani",
-        "event": "King of Games",
-        "created": "2026-10-07",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/ani/IoXGQ/",
-        "tier": 3,
-        "main": [
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 2
-          },
-          {
-            "name": "Lava Golem",
-            "count": 3
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 2
-          },
-          {
-            "name": "D.D. Crow",
-            "count": 3
-          },
-          {
-            "name": "Horus the Black Flame Deity",
-            "count": 1
-          },
-          {
-            "name": "Hapi, Guidance of Horus",
-            "count": 1
-          },
-          {
-            "name": "Imsety, Glory of Horus",
-            "count": 3
-          },
-          {
-            "name": "Qebehsenuef, Protection of Horus",
-            "count": 1
-          },
-          {
-            "name": "Photon Jumper",
-            "count": 1
-          },
-          {
-            "name": "Duamutef, Blessing of Horus",
-            "count": 1
-          },
-          {
-            "name": "Soul Servant",
-            "count": 1
-          },
-          {
-            "name": "Walls of the Imperial Tomb",
-            "count": 2
-          },
-          {
-            "name": "King's Sarcophagus",
-            "count": 3
-          },
-          {
-            "name": "Powersink Stone",
-            "count": 2
-          },
-          {
-            "name": "Canopic Protector",
-            "count": 3
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Super Starslayer TY-PHON - Sky Crisis",
-            "count": 1
-          },
-          {
-            "name": "Number 90: Galaxy-Eyes Photon Lord",
-            "count": 1
-          },
-          {
-            "name": "Dingirsu, the Orcust of the Evening Star",
-            "count": 1
-          },
-          {
-            "name": "Coach King Giantrainer",
-            "count": 1
-          },
-          {
-            "name": "Number 68: Sanaphond the Sky Prison",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 29,
-        "extraSize": 9,
-        "distance": 4.5
-      },
-      {
         "id": "6ac6c5b9fd11240585454aff",
         "author": "Mk_masry123",
         "event": "King of Games",
@@ -3199,14 +3195,14 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 5
+        "distance": 3
       },
       {
-        "id": "6ac44410576d303d94839dc9",
-        "author": "SHUSHU",
-        "event": null,
-        "created": "2026-10-06",
-        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/193/horus/shushu/BoN_X/",
+        "id": "6acfbf7c4b071ee2667d1592",
+        "author": "whiskey",
+        "event": "King of Games",
+        "created": "2026-10-14",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/whiskey/qBWTo/",
         "tier": 3,
         "main": [
           {
@@ -3216,6 +3212,125 @@
           {
             "name": "Lava Golem",
             "count": 3
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 2
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 3
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 4
+      },
+      {
+        "id": "6ae228e4e071e92e03fa2f10",
+        "author": "Micky",
+        "event": "King of Games",
+        "created": "2026-10-28",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/micky/Demt7/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl",
+            "count": 1
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 1
           },
           {
             "name": "Droll & Lock Bird",
@@ -3250,114 +3365,7 @@
             "count": 1
           },
           {
-            "name": "Soul Servant",
-            "count": 1
-          },
-          {
-            "name": "Walls of the Imperial Tomb",
-            "count": 3
-          },
-          {
-            "name": "King's Sarcophagus",
-            "count": 3
-          },
-          {
-            "name": "Powersink Stone",
-            "count": 2
-          },
-          {
-            "name": "Canopic Protector",
-            "count": 3
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Number 90: Galaxy-Eyes Photon Lord",
-            "count": 1
-          },
-          {
-            "name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
-            "count": 1
-          },
-          {
-            "name": "Dingirsu, the Orcust of the Evening Star",
-            "count": 1
-          },
-          {
-            "name": "Coach King Giantrainer",
-            "count": 1
-          },
-          {
-            "name": "Number 68: Sanaphond the Sky Prison",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 5
-      },
-      {
-        "id": "6ac32c47e088628c328cbf14",
-        "author": "Broskue",
-        "event": "King of Games",
-        "created": "2026-10-05",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/broskue/2Vbb9/",
-        "tier": 3,
-        "main": [
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 3
-          },
-          {
-            "name": "Lava Golem",
-            "count": 2
-          },
-          {
-            "name": "Effect Veiler",
-            "count": 3
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 2
-          },
-          {
-            "name": "D.D. Crow",
-            "count": 2
-          },
-          {
-            "name": "Horus the Black Flame Deity",
-            "count": 1
-          },
-          {
-            "name": "Hapi, Guidance of Horus",
-            "count": 2
-          },
-          {
-            "name": "Imsety, Glory of Horus",
-            "count": 3
-          },
-          {
-            "name": "Qebehsenuef, Protection of Horus",
-            "count": 1
-          },
-          {
-            "name": "Duamutef, Blessing of Horus",
+            "name": "Dark Magical Curtain",
             "count": 1
           },
           {
@@ -3366,7 +3374,7 @@
           },
           {
             "name": "Walls of the Imperial Tomb",
-            "count": 3
+            "count": 2
           },
           {
             "name": "King's Sarcophagus",
@@ -3411,7 +3419,7 @@
             "count": 1
           },
           {
-            "name": "World Gears of Theurlogical Demiurgy",
+            "name": "I:P Masquerena",
             "count": 1
           }
         ],
@@ -3420,31 +3428,27 @@
         "distance": 5
       },
       {
-        "id": "6acd6365a5fefa0d3314121b",
-        "author": "MTB8",
+        "id": "6ae5262cad5d82ec98d886c9",
+        "author": "Mesugi",
         "event": null,
-        "created": "2026-10-12",
-        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/197/horus/mtb8/a-cJn/",
+        "created": "2026-10-30",
+        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/207/horus/mesugi/Pni0t/",
         "tier": 3,
         "main": [
           {
             "name": "Nibiru, the Primal Being",
-            "count": 3
+            "count": 1
           },
           {
             "name": "Lava Golem",
-            "count": 2
-          },
-          {
-            "name": "Dark Magician Girl",
-            "count": 1
+            "count": 3
           },
           {
             "name": "Mulcharmy Fuwalos",
             "count": 3
           },
           {
-            "name": "D.D. Crow",
+            "name": "Droll & Lock Bird",
             "count": 2
           },
           {
@@ -3468,11 +3472,126 @@
             "count": 1
           },
           {
+            "name": "Wightprincess",
+            "count": 3
+          },
+          {
             "name": "Duamutef, Blessing of Horus",
             "count": 1
           },
           {
-            "name": "Dark Magical Curtain",
+            "name": "The Golden Swordsoul",
+            "count": 1
+          },
+          {
+            "name": "Soul Servant",
+            "count": 1
+          },
+          {
+            "name": "Walls of the Imperial Tomb",
+            "count": 3
+          },
+          {
+            "name": "King's Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "Canopic Protector",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Dingirsu, the Orcust of the Evening Star",
+            "count": 1
+          },
+          {
+            "name": "Coach King Giantrainer",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 5.5
+      },
+      {
+        "id": "6ac54f2994179cd17342ce1f",
+        "author": "sam",
+        "event": "King of Games",
+        "created": "2026-10-06",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/sam/L_qPY/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Ghost Ogre & Snow Rabbit",
+            "count": 1
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Horus the Black Flame Deity",
+            "count": 1
+          },
+          {
+            "name": "Hapi, Guidance of Horus",
+            "count": 1
+          },
+          {
+            "name": "Imsety, Glory of Horus",
+            "count": 3
+          },
+          {
+            "name": "Qebehsenuef, Protection of Horus",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Duamutef, Blessing of Horus",
             "count": 1
           },
           {
@@ -3532,35 +3651,31 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 6
+        "distance": 5.5
       },
       {
-        "id": "6acaf976212f27819bc64304",
-        "author": "Stoic Revanchist",
+        "id": "6add47ca3e2d3ba2168ea5a9",
+        "author": "hhHammerr",
         "event": "King of Games",
-        "created": "2026-10-11",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/stoic-revanchist/8PnW8/",
+        "created": "2026-10-25",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/horus/hhhammerr/WPm-q/",
         "tier": 3,
         "main": [
           {
             "name": "Nibiru, the Primal Being",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Lava Golem",
-            "count": 2
+            "count": 3
           },
           {
-            "name": "Ghost Belle & Haunted Mansion",
-            "count": 1
+            "name": "Effect Veiler",
+            "count": 2
           },
           {
             "name": "Droll & Lock Bird",
             "count": 3
-          },
-          {
-            "name": "D.D. Crow",
-            "count": 2
           },
           {
             "name": "Horus the Black Flame Deity",
@@ -3603,12 +3718,8 @@
             "count": 3
           },
           {
-            "name": "Infinite Impermanence",
-            "count": 2
-          },
-          {
             "name": "Canopic Protector",
-            "count": 2
+            "count": 3
           }
         ],
         "extra": [
@@ -3651,7 +3762,710 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 6.5
+        "distance": 6
+      }
+    ]
+  },
+  "icejade": {
+    "defaultId": "video",
+    "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "YRalps",
+        "event": "Video list",
+        "created": "2026-11-02",
+        "url": "https://www.youtube.com/watch?v=kRHL-dwVf30",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 1
+          },
+          {
+            "name": "Icejade Tinola",
+            "count": 1
+          },
+          {
+            "name": "Lightning Storm",
+            "count": 2
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Critical",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Ruddy Rose Dragon",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Exagard",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Worldsea Dragon Zealantis",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 27,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "6ae204e30ecaad599ea90287",
+        "author": "Renzer",
+        "event": "King of Games",
+        "created": "2026-10-28",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/icejade/renzer/Nb7Wt/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Lava Golem",
+            "count": 2
+          },
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 2
+          },
+          {
+            "name": "Icejade Creation Kingfisher",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Egyptian God Slime",
+            "count": 1
+          },
+          {
+            "name": "Ruddy Rose Dragon",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 1
+          }
+        ],
+        "mainSize": 24,
+        "extraSize": 9,
+        "distance": 7
+      },
+      {
+        "id": "6ae204e40ecaad599ea9028a",
+        "author": "Kieran Cole",
+        "event": "King of Games",
+        "created": "2026-10-28",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/icejade/kieran-cole/eALMD/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 3
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Fog King",
+            "count": 3
+          },
+          {
+            "name": "Mulcharmy Purulia",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Kingfisher",
+            "count": 1
+          },
+          {
+            "name": "Icejade Tinola",
+            "count": 1
+          },
+          {
+            "name": "Lightning Storm",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cenote Enion Cradle",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Egyptian God Slime",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Worldsea Dragon Zealantis",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 8
+      },
+      {
+        "id": "6ae527e6a692329e98773eea",
+        "author": "ゆのきち@P'x",
+        "event": null,
+        "created": "2026-10-30",
+        "url": "https://www.duellinksmeta.com/community-tournaments/sky-striker-cup/105/icejade/ゆのきちp'x/8axKL/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 2
+          },
+          {
+            "name": "Icejade Creation Kingfisher",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Hey, Trunade!",
+            "count": 2
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cenote Enion Cradle",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Critical",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Egyptian God Slime",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Exagard",
+            "count": 1
+          },
+          {
+            "name": "Crusadia Equimax",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 1
+          }
+        ],
+        "mainSize": 25,
+        "extraSize": 9,
+        "distance": 9
+      },
+      {
+        "id": "6ae239cb59fe2b0918aa26d1",
+        "author": "蓝与白",
+        "event": null,
+        "created": "2026-10-28",
+        "url": "https://www.duellinksmeta.com/community-tournaments/suisen-weekly/225/icejade/蓝与白/N-9Zx/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 2
+          },
+          {
+            "name": "Icejade Creation Kingfisher",
+            "count": 1
+          },
+          {
+            "name": "Lightning Storm",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cenote Enion Cradle",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Critical",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Exagard",
+            "count": 1
+          },
+          {
+            "name": "Crusadia Equimax",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 2
+          }
+        ],
+        "mainSize": 26,
+        "extraSize": 9,
+        "distance": 9
+      },
+      {
+        "id": "6ae206a4929d38ae5ee733ab",
+        "author": "Ser Yoran",
+        "event": "King of Games",
+        "created": "2026-10-28",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/icejade/ser-yoran/-BmMS/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Lava Golem",
+            "count": 2
+          },
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 2
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Egyptian God Slime",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 2
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Worldsea Dragon Zealantis",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 1
+          }
+        ],
+        "mainSize": 22,
+        "extraSize": 9,
+        "distance": 9
+      },
+      {
+        "id": "6ae66a89b4953b5ae2fd804e",
+        "author": "Sylus_7",
+        "event": "King of Games",
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/icejade/sylus_7/khgg7/",
+        "tier": 3,
+        "main": [
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 2
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 1
+          },
+          {
+            "name": "Icejade Tinola",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 2
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cenote Enion Cradle",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 2
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 1
+          }
+        ],
+        "mainSize": 20,
+        "extraSize": 9,
+        "distance": 12
       }
     ]
   },
@@ -3767,19 +4581,19 @@
         "distance": 0
       },
       {
-        "id": "6abbd062ae6bd9f8b1fd016e",
+        "id": "6ac51621d269322b00cbcb2c",
         "author": "Kumquat",
         "event": "King of Games",
-        "created": "2026-09-29",
-        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/mathmech/kumquat/-yjm4/",
+        "created": "2026-10-06",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/mathmech/kumquat/CmwXF/",
         "tier": null,
         "main": [
           {
-            "name": "Artifact Lancea",
+            "name": "Mathmech Sigma",
             "count": 3
           },
           {
-            "name": "Mathmech Sigma",
+            "name": "Droll & Lock Bird",
             "count": 3
           },
           {
@@ -3859,20 +4673,16 @@
         ],
         "mainSize": 26,
         "extraSize": 9,
-        "distance": 2
+        "distance": 3
       },
       {
-        "id": "6ab1b9fb260ce294501cc439",
-        "author": "Seby",
+        "id": "6ae624f8b3559faa7f679dba",
+        "author": "urgentW",
         "event": "King of Games",
-        "created": "2026-09-21",
-        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/mathmech/seby/Qmq1u/",
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/mathmech/urgentw/TxGva/",
         "tier": null,
         "main": [
-          {
-            "name": "Artifact Lancea",
-            "count": 2
-          },
           {
             "name": "Mathmech Sigma",
             "count": 3
@@ -3887,6 +4697,14 @@
           },
           {
             "name": "Mathmech Nabla",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Subtraction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Division",
             "count": 1
           },
           {
@@ -3899,6 +4717,97 @@
           },
           {
             "name": "Book of Eclipse",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Equation",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Induction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Superfactorial",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Geomathmech Final Sigma",
+            "count": 2
+          },
+          {
+            "name": "Primathmech Laplacian",
+            "count": 2
+          },
+          {
+            "name": "Decode Talker Heatsoul",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "S-Force Justify",
+            "count": 1
+          },
+          {
+            "name": "Splash Mage",
+            "count": 1
+          }
+        ],
+        "mainSize": 22,
+        "extraSize": 9,
+        "distance": 4.5
+      },
+      {
+        "id": "6ad36fa2eab3c872638cf556",
+        "author": "GinkgoEZ",
+        "event": "King of Games",
+        "created": "2026-10-17",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/mathmech/ginkgoez/a-Q0W/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Sigma",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Mathmech Diameter",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Addition",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Nabla",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Subtraction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Multiplication",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
             "count": 3
           },
           {
@@ -3944,21 +4853,37 @@
             "count": 1
           }
         ],
-        "mainSize": 20,
+        "mainSize": 22,
         "extraSize": 9,
-        "distance": 4.5
+        "distance": 6
       },
       {
-        "id": "6abb3f99a00ee1251eb67db8",
-        "author": "Karinshikari",
+        "id": "6ac4cac692bd145b48685fa1",
+        "author": "Jremi",
         "event": "King of Games",
-        "created": "2026-09-29",
-        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/mathmech/karinshikari/hneuU/",
+        "created": "2026-10-06",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/mathmech/jremi/ITakQ/",
         "tier": null,
         "main": [
           {
+            "name": "Mulcharmy Fuwalos",
+            "count": 1
+          },
+          {
             "name": "Mathmech Sigma",
             "count": 3
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 1
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 1
           },
           {
             "name": "Mathmech Diameter",
@@ -3970,10 +4895,10 @@
           },
           {
             "name": "Mathmech Nabla",
-            "count": 2
+            "count": 3
           },
           {
-            "name": "Mathmech Subtraction",
+            "name": "Wightprincess",
             "count": 1
           },
           {
@@ -3982,22 +4907,14 @@
           },
           {
             "name": "Forbidden Droplet",
-            "count": 3
+            "count": 1
           },
           {
             "name": "Book of Eclipse",
             "count": 3
           },
           {
-            "name": "Mathmech Billionblade Nayuta",
-            "count": 1
-          },
-          {
             "name": "Mathmech Equation",
-            "count": 1
-          },
-          {
-            "name": "Mathmech Induction",
             "count": 1
           },
           {
@@ -4016,11 +4933,7 @@
           },
           {
             "name": "Primathmech Laplacian",
-            "count": 2
-          },
-          {
-            "name": "Firewall Dragon Darkfluid",
-            "count": 1
+            "count": 3
           },
           {
             "name": "Decode Talker Heatsoul",
@@ -4035,20 +4948,24 @@
             "count": 1
           }
         ],
-        "mainSize": 21,
+        "mainSize": 22,
         "extraSize": 9,
-        "distance": 5
+        "distance": 8
       },
       {
-        "id": "6abb3f99a00ee1251eb67db7",
-        "author": "Nawaf",
+        "id": "6ad4027c3eb37a2182e67db0",
+        "author": "Iscruzxx",
         "event": "King of Games",
-        "created": "2026-09-29",
-        "url": "https://www.duellinksmeta.com/king-of-games/september-2026/mathmech/nawaf/Qfl1J/",
+        "created": "2026-10-17",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/mathmech/iscruzxx/IGlci/",
         "tier": null,
         "main": [
           {
             "name": "Mathmech Sigma",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
             "count": 3
           },
           {
@@ -4060,98 +4977,7 @@
             "count": 1
           },
           {
-            "name": "Mathmech Nabla",
-            "count": 3
-          },
-          {
-            "name": "Mathmech Subtraction",
-            "count": 1
-          },
-          {
-            "name": "Mathmech Multiplication",
-            "count": 1
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Book of Eclipse",
-            "count": 3
-          },
-          {
-            "name": "Mathmech Billionblade Nayuta",
-            "count": 1
-          },
-          {
-            "name": "Mathmech Equation",
-            "count": 1
-          },
-          {
-            "name": "Mathmech Induction",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Geomathmech Final Sigma",
-            "count": 2
-          },
-          {
-            "name": "Geomathmech Magma",
-            "count": 1
-          },
-          {
-            "name": "Primathmech Laplacian",
-            "count": 2
-          },
-          {
-            "name": "Decode Talker Heatsoul",
-            "count": 1
-          },
-          {
-            "name": "S-Force Justify",
-            "count": 1
-          },
-          {
-            "name": "Splash Mage",
-            "count": 1
-          },
-          {
-            "name": "Cyberse Wicckid",
-            "count": 1
-          }
-        ],
-        "mainSize": 21,
-        "extraSize": 9,
-        "distance": 5
-      },
-      {
-        "id": "6ab06b300c23e35d2fd700d7",
-        "author": "OHMA",
-        "event": "KC Cup DLv. Max",
-        "created": "2026-09-20",
-        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/mathmech/ohma/zAi3G/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Artifact Lancea",
-            "count": 2
-          },
-          {
-            "name": "Mathmech Sigma",
-            "count": 3
-          },
-          {
-            "name": "Mathmech Diameter",
-            "count": 3
-          },
-          {
-            "name": "Mathmech Addition",
-            "count": 1
-          },
-          {
-            "name": "Skull Meister",
+            "name": "Kiteroid",
             "count": 2
           },
           {
@@ -4159,24 +4985,16 @@
             "count": 3
           },
           {
-            "name": "Mathmech Subtraction",
-            "count": 1
+            "name": "Wightprincess",
+            "count": 3
           },
           {
             "name": "Mathmech Multiplication",
             "count": 1
           },
           {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
             "name": "Book of Eclipse",
-            "count": 2
-          },
-          {
-            "name": "Mathmech Billionblade Nayuta",
-            "count": 1
+            "count": 3
           },
           {
             "name": "Mathmech Equation",
@@ -4194,7 +5012,7 @@
         "extra": [
           {
             "name": "Geomathmech Final Sigma",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Geomathmech Magma",
@@ -4203,10 +5021,6 @@
           {
             "name": "Primathmech Laplacian",
             "count": 2
-          },
-          {
-            "name": "Firewall Dragon Darkfluid",
-            "count": 1
           },
           {
             "name": "Decode Talker Heatsoul",
@@ -4223,26 +5037,26 @@
         ],
         "mainSize": 24,
         "extraSize": 9,
-        "distance": 5
+        "distance": 9.5
       },
       {
-        "id": "6ab6754cddef0b796fb15878",
-        "author": "yobromikehoe",
-        "event": null,
-        "created": "2026-09-25",
-        "url": "https://www.duellinksmeta.com/kc-cup/43/mathmech/yobromikehoe/astMj/",
+        "id": "6ae01b328fb9672123fa095f",
+        "author": "murphywvu",
+        "event": "King of Games",
+        "created": "2026-10-27",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/mathmech/murphywvu/55zEa/",
         "tier": null,
         "main": [
           {
             "name": "Artifact Lancea",
-            "count": 3
+            "count": 1
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
           },
           {
             "name": "Mathmech Sigma",
-            "count": 3
-          },
-          {
-            "name": "Ghost Belle & Haunted Mansion",
             "count": 3
           },
           {
@@ -4255,11 +5069,7 @@
           },
           {
             "name": "Mathmech Nabla",
-            "count": 3
-          },
-          {
-            "name": "Mathmech Subtraction",
-            "count": 1
+            "count": 2
           },
           {
             "name": "Mathmech Multiplication",
@@ -4267,10 +5077,6 @@
           },
           {
             "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Cynet Mining",
             "count": 2
           },
           {
@@ -4280,6 +5086,10 @@
           {
             "name": "Mathmech Equation",
             "count": 1
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 2
           },
           {
             "name": "Mathmech Induction",
@@ -4296,23 +5106,19 @@
             "count": 2
           },
           {
-            "name": "Geomathmech Magma",
-            "count": 1
-          },
-          {
             "name": "Number 60: Dugares the Timeless",
             "count": 1
           },
           {
-            "name": "Evilswarm Exciton Knight",
-            "count": 1
-          },
-          {
             "name": "Primathmech Laplacian",
-            "count": 1
+            "count": 2
           },
           {
             "name": "Decode Talker Heatsoul",
+            "count": 1
+          },
+          {
+            "name": "Topologic Trisbaena",
             "count": 1
           },
           {
@@ -4324,9 +5130,9 @@
             "count": 1
           }
         ],
-        "mainSize": 30,
+        "mainSize": 24,
         "extraSize": 9,
-        "distance": 5.5
+        "distance": 10.5
       }
     ]
   },
@@ -4454,11 +5260,126 @@
         "distance": 0
       },
       {
-        "id": "6acd8e9894ed23074264ef1c",
-        "author": "whattheheal",
+        "id": "6ad63bd8bba045ee48976d56",
+        "author": "REDZIN11",
+        "event": null,
+        "created": "2026-10-19",
+        "url": "https://www.duellinksmeta.com/community-tournaments/pro-arab-tournament/19/memento/redzin11/yjJvy/",
+        "tier": 1,
+        "main": [
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Angwitch",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Tatsunootoshigo",
+            "count": 3
+          },
+          {
+            "name": "Mementoal Tecuhtlica - Combined Creation",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Dark Blade",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Shleepy",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan-Horned Dragon",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Akihiron",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Ghattic",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Goblin",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Mace",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Bone Party",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Fusion",
+            "count": 3
+          },
+          {
+            "name": "Mementomictlan",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Fracture Dance",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Guardian Chimera",
+            "count": 1
+          },
+          {
+            "name": "Mementomictlan Tecuhtlica - Creation King",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Twin Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lyrilusc - Assembled Nightingale",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 2
+      },
+      {
+        "id": "6ae0cc127a6aff3c06d284b0",
+        "author": "Luster",
         "event": "King of Games",
-        "created": "2026-10-13",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/memento/whattheheal/QB5LX/",
+        "created": "2026-10-27",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/memento/luster/-9IQ5/",
         "tier": 1,
         "main": [
           {
@@ -4475,11 +5396,11 @@
           },
           {
             "name": "Mementotlan Dark Blade",
-            "count": 3
+            "count": 2
           },
           {
             "name": "Mementotlan Shleepy",
-            "count": 1
+            "count": 2
           },
           {
             "name": "Mementotlan-Horned Dragon",
@@ -4537,6 +5458,113 @@
           },
           {
             "name": "Mementomictlan Tecuhtlica - Creation King",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Twin Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lyrilusc - Assembled Nightingale",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 2.5
+      },
+      {
+        "id": "6acea2ddde14d7d2a77679a6",
+        "author": "Sleiven",
+        "event": "King of Games",
+        "created": "2026-10-13",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/memento/sleiven/D3WPz/",
+        "tier": 1,
+        "main": [
+          {
+            "name": "Mementotlan Angwitch",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Tatsunootoshigo",
+            "count": 3
+          },
+          {
+            "name": "Mementoal Tecuhtlica - Combined Creation",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Dark Blade",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Shleepy",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan-Horned Dragon",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Akihiron",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Ghattic",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Goblin",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Mace",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Bone Party",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Fusion",
+            "count": 3
+          },
+          {
+            "name": "Mementomictlan",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Cranium Burst",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Guardian Chimera",
+            "count": 1
+          },
+          {
+            "name": "Mementomictlan Tecuhtlica - Creation King",
             "count": 2
           },
           {
@@ -4560,7 +5588,118 @@
             "count": 1
           },
           {
-            "name": "Artemis, the Magistus Moon Maiden",
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 2.5
+      },
+      {
+        "id": "6ae3992c7208ae3d2661af85",
+        "author": "mathfort",
+        "event": null,
+        "created": "2026-10-29",
+        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/206/memento/mathfort/P8sMC/",
+        "tier": 1,
+        "main": [
+          {
+            "name": "Mementotlan Angwitch",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Tatsunootoshigo",
+            "count": 3
+          },
+          {
+            "name": "Mementoal Tecuhtlica - Combined Creation",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Dark Blade",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Shleepy",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan-Horned Dragon",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Akihiron",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Ghattic",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Goblin",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Mace",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Bone Party",
+            "count": 3
+          },
+          {
+            "name": "Mementotlan Fusion",
+            "count": 3
+          },
+          {
+            "name": "Mementomictlan",
+            "count": 1
+          },
+          {
+            "name": "Mementotlan Fracture Dance",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Guardian Chimera",
+            "count": 1
+          },
+          {
+            "name": "Mementomictlan Tecuhtlica - Creation King",
+            "count": 2
+          },
+          {
+            "name": "Mementotlan Twin Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lyrilusc - Assembled Nightingale",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
             "count": 1
           }
         ],
@@ -4569,20 +5708,16 @@
         "distance": 3
       },
       {
-        "id": "6acda013a5fefa0d3314c889",
-        "author": "DoctorMaxis",
+        "id": "6ad995c2486e8be71e78af1b",
+        "author": "Gustavop",
         "event": "King of Games",
-        "created": "2026-10-13",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/memento/doctormaxis/5t1op/",
+        "created": "2026-10-22",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/memento/gustavop/1p4kJ/",
         "tier": 1,
         "main": [
           {
             "name": "Mementotlan Angwitch",
-            "count": 2
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Mementotlan Tatsunootoshigo",
@@ -4594,11 +5729,11 @@
           },
           {
             "name": "Mementotlan Dark Blade",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Mementotlan Shleepy",
-            "count": 2
+            "count": 1
           },
           {
             "name": "Mementotlan-Horned Dragon",
@@ -4626,7 +5761,7 @@
           },
           {
             "name": "Book of Eclipse",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Mementotlan Bone Party",
@@ -4641,7 +5776,7 @@
             "count": 1
           },
           {
-            "name": "Mementotlan Cranium Burst",
+            "name": "Mementotlan Fracture Dance",
             "count": 1
           }
         ],
@@ -4681,20 +5816,16 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 4
+        "distance": 3
       },
       {
-        "id": "6acd6787e22f4283116fd307",
-        "author": "Hilfiger",
+        "id": "6ad033b502465138f8f8bc41",
+        "author": "中國貓",
         "event": null,
-        "created": "2026-10-12",
-        "url": "https://www.duellinksmeta.com/meta-weekly/445/memento/tomori/VjeZI/",
+        "created": "2026-10-15",
+        "url": "https://www.duellinksmeta.com/community-tournaments/starry-cup/199/memento/darku/RsKNL/",
         "tier": 1,
         "main": [
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 3
-          },
           {
             "name": "Mementotlan Angwitch",
             "count": 2
@@ -4709,7 +5840,7 @@
           },
           {
             "name": "Mementotlan Dark Blade",
-            "count": 2
+            "count": 1
           },
           {
             "name": "Mementotlan Shleepy",
@@ -4737,7 +5868,7 @@
           },
           {
             "name": "Forbidden Droplet",
-            "count": 2
+            "count": 3
           },
           {
             "name": "Book of Eclipse",
@@ -4753,10 +5884,6 @@
           },
           {
             "name": "Mementomictlan",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Fracture Dance",
             "count": 1
           }
         ],
@@ -4794,350 +5921,9 @@
             "count": 1
           }
         ],
-        "mainSize": 30,
+        "mainSize": 26,
         "extraSize": 9,
-        "distance": 4
-      },
-      {
-        "id": "6ac6970282b067f11c10c036",
-        "author": "Ree Last",
-        "event": null,
-        "created": "2026-10-07",
-        "url": "https://www.duellinksmeta.com/community-tournaments/suisen-weekly/222/memento/ree-last/urJOO/",
-        "tier": 1,
-        "main": [
-          {
-            "name": "Mementotlan Angwitch",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Tatsunootoshigo",
-            "count": 3
-          },
-          {
-            "name": "Mementoal Tecuhtlica - Combined Creation",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Dark Blade",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Shleepy",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan-Horned Dragon",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Akihiron",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Ghattic",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Goblin",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Mace",
-            "count": 1
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Book of Eclipse",
-            "count": 2
-          },
-          {
-            "name": "Hey, Trunade!",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Bone Party",
-            "count": 3
-          },
-          {
-            "name": "Mementotlan Fusion",
-            "count": 3
-          },
-          {
-            "name": "Mementomictlan",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Fracture Dance",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Guardian Chimera",
-            "count": 1
-          },
-          {
-            "name": "Mementomictlan Tecuhtlica - Creation King",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Twin Dragon",
-            "count": 1
-          },
-          {
-            "name": "Lyrilusc - Assembled Nightingale",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Unicorn",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 4
-      },
-      {
-        "id": "6ac8284c96768b7b3f43d3f1",
-        "author": "happydanny159087",
-        "event": null,
-        "created": "2026-10-08",
-        "url": "https://www.duellinksmeta.com/community-tournaments/sky-striker-cup/102/memento/happydanny159087/EBxoZ/",
-        "tier": 1,
-        "main": [
-          {
-            "name": "Mementotlan Angwitch",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Tatsunootoshigo",
-            "count": 3
-          },
-          {
-            "name": "Mementoal Tecuhtlica - Combined Creation",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Dark Blade",
-            "count": 3
-          },
-          {
-            "name": "Mementotlan Shleepy",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan-Horned Dragon",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Akihiron",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Ghattic",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Goblin",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Mace",
-            "count": 1
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Book of Eclipse",
-            "count": 2
-          },
-          {
-            "name": "Hey, Trunade!",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Bone Party",
-            "count": 3
-          },
-          {
-            "name": "Mementotlan Fusion",
-            "count": 3
-          },
-          {
-            "name": "Mementomictlan",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Fracture Dance",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Guardian Chimera",
-            "count": 1
-          },
-          {
-            "name": "Mementomictlan Tecuhtlica - Creation King",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Twin Dragon",
-            "count": 1
-          },
-          {
-            "name": "Lyrilusc - Assembled Nightingale",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 4.5
-      },
-      {
-        "id": "6acba5ce287514d88fca345b",
-        "author": "MHX-",
-        "event": "King of Games",
-        "created": "2026-10-11",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/memento/mhx-/15RVk/",
-        "tier": 1,
-        "main": [
-          {
-            "name": "Mementotlan Angwitch",
-            "count": 3
-          },
-          {
-            "name": "Mementotlan Tatsunootoshigo",
-            "count": 3
-          },
-          {
-            "name": "Mementoal Tecuhtlica - Combined Creation",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Dark Blade",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Shleepy",
-            "count": 3
-          },
-          {
-            "name": "Mementotlan-Horned Dragon",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Akihiron",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Ghattic",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Goblin",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Mace",
-            "count": 1
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Book of Eclipse",
-            "count": 3
-          },
-          {
-            "name": "Mementotlan Bone Party",
-            "count": 3
-          },
-          {
-            "name": "Mementotlan Fusion",
-            "count": 3
-          },
-          {
-            "name": "Mementomictlan",
-            "count": 1
-          },
-          {
-            "name": "Mementotlan Fracture Dance",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Predaplant Dragostapelia",
-            "count": 1
-          },
-          {
-            "name": "Guardian Chimera",
-            "count": 1
-          },
-          {
-            "name": "Mementomictlan Tecuhtlica - Creation King",
-            "count": 2
-          },
-          {
-            "name": "Mementotlan Twin Dragon",
-            "count": 1
-          },
-          {
-            "name": "Lyrilusc - Assembled Nightingale",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 5
+        "distance": 3
       }
     ]
   },
@@ -5261,393 +6047,20 @@
         "distance": 0
       },
       {
-        "id": "6aa75fb26142771a12134646",
-        "author": "max.kkxe",
-        "event": "KC Cup DLv. Max",
-        "created": "2026-09-14",
-        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/red-eyes/max.kkxe/AUfwM/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Lord of the Red",
-            "count": 2
-          },
-          {
-            "name": "Red-Eyes Black Meteor Dragon",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Wyvern",
-            "count": 1
-          },
-          {
-            "name": "D.D. Crow",
-            "count": 2
-          },
-          {
-            "name": "The Bystial Lubellion",
-            "count": 1
-          },
-          {
-            "name": "Albion the Shrouded Dragon",
-            "count": 1
-          },
-          {
-            "name": "Bystial Druiswurm",
-            "count": 1
-          },
-          {
-            "name": "Bystial Magnamhut",
-            "count": 1
-          },
-          {
-            "name": "Bystial Saronir",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Black Dragon",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Transmigration",
-            "count": 2
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Fusion",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Insight",
-            "count": 3
-          },
-          {
-            "name": "Branded Regained",
-            "count": 1
-          },
-          {
-            "name": "Branded Beast",
-            "count": 1
-          },
-          {
-            "name": "Branded Banishment",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Khaos Starsource Dragon",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Predaplant Dragostapelia",
-            "count": 1
-          },
-          {
-            "name": "Filia Regis",
-            "count": 1
-          },
-          {
-            "name": "Lubellion the Searing Dragon",
-            "count": 1
-          },
-          {
-            "name": "Albion the Branded Dragon",
-            "count": 1
-          },
-          {
-            "name": "Dark Armed, the Dragon of Annihilation",
-            "count": 1
-          },
-          {
-            "name": "Hieratic Dragon King of Atum",
-            "count": 1
-          },
-          {
-            "name": "Hieratic Seal of the Heavenly Spheres",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 3.5
-      },
-      {
-        "id": "6aaaff4b3e2ea8a15d472ab3",
-        "author": "hataki99",
-        "event": "KC Cup DLv. Max",
-        "created": "2026-09-16",
-        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/red-eyes/hataki99/IJrm6/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Lord of the Red",
-            "count": 2
-          },
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Darkness Metal Dragon",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Black Meteor Dragon",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Wyvern",
-            "count": 1
-          },
-          {
-            "name": "Effect Veiler",
-            "count": 1
-          },
-          {
-            "name": "The Bystial Lubellion",
-            "count": 1
-          },
-          {
-            "name": "Albion the Shrouded Dragon",
-            "count": 1
-          },
-          {
-            "name": "Bystial Druiswurm",
-            "count": 1
-          },
-          {
-            "name": "Bystial Magnamhut",
-            "count": 1
-          },
-          {
-            "name": "Bystial Saronir",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Black Dragon",
-            "count": 2
-          },
-          {
-            "name": "Red-Eyes Transmigration",
-            "count": 2
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
-            "name": "Dragon's Mirror",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Fusion",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Insight",
-            "count": 3
-          },
-          {
-            "name": "Branded Regained",
-            "count": 1
-          },
-          {
-            "name": "Branded Beast",
-            "count": 1
-          },
-          {
-            "name": "Branded Banishment",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Khaos Starsource Dragon",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Starving Venom Fusion Dragon",
-            "count": 1
-          },
-          {
-            "name": "Predaplant Dragostapelia",
-            "count": 1
-          },
-          {
-            "name": "Meteor Black Comet Dragon",
-            "count": 1
-          },
-          {
-            "name": "Filia Regis",
-            "count": 1
-          },
-          {
-            "name": "Albion the Branded Dragon",
-            "count": 1
-          },
-          {
-            "name": "Hieratic Dragon King of Atum",
-            "count": 1
-          },
-          {
-            "name": "Hieratic Seal of the Heavenly Spheres",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 4.5
-      },
-      {
-        "id": "6ab1309a96a2f3acad4edf2a",
-        "author": "Ornicar",
-        "event": "Spicy Win Streaks",
-        "created": "2026-09-20",
-        "url": "https://www.duellinksmeta.com/spicy-win-streaks/september-2026/red-eyes/ornicar/ryvok/",
-        "tier": null,
-        "main": [
-          {
-            "name": "Lord of the Red",
-            "count": 2
-          },
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Darkness Metal Dragon",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Black Meteor Dragon",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Wyvern",
-            "count": 1
-          },
-          {
-            "name": "Effect Veiler",
-            "count": 1
-          },
-          {
-            "name": "The Bystial Lubellion",
-            "count": 1
-          },
-          {
-            "name": "Albion the Shrouded Dragon",
-            "count": 1
-          },
-          {
-            "name": "Bystial Druiswurm",
-            "count": 1
-          },
-          {
-            "name": "Bystial Magnamhut",
-            "count": 1
-          },
-          {
-            "name": "Bystial Saronir",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Black Dragon",
-            "count": 3
-          },
-          {
-            "name": "Red-Eyes Transmigration",
-            "count": 2
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
-            "name": "Red-Eyes Insight",
-            "count": 3
-          },
-          {
-            "name": "Branded Regained",
-            "count": 1
-          },
-          {
-            "name": "Branded Beast",
-            "count": 1
-          },
-          {
-            "name": "Branded Retribution",
-            "count": 1
-          },
-          {
-            "name": "Branded Banishment",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Khaos Starsource Dragon",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Starving Venom Fusion Dragon",
-            "count": 1
-          },
-          {
-            "name": "Predaplant Dragostapelia",
-            "count": 1
-          },
-          {
-            "name": "Meteor Black Comet Dragon",
-            "count": 1
-          },
-          {
-            "name": "Albion the Branded Dragon",
-            "count": 1
-          },
-          {
-            "name": "Hieratic Dragon King of Atum",
-            "count": 1
-          },
-          {
-            "name": "Hieratic Seal of the Heavenly Spheres",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 6.5
-      },
-      {
-        "id": "6aac1947f12574a18c49273b",
-        "author": "Senpai Friend",
-        "event": "KC Cup DLv. Max",
-        "created": "2026-09-17",
-        "url": "https://www.duellinksmeta.com/kc-cup-dlv.-max/september-2026/red-eyes/senpai-friend/Mm37J/",
+        "id": "6ade0804d34002d70c58a389",
+        "author": "Aviation",
+        "event": "King of Games",
+        "created": "2026-10-25",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/red-eyes/rocket-wolf/xG_CW/",
         "tier": null,
         "main": [
           {
             "name": "Lord of the Red",
             "count": 3
+          },
+          {
+            "name": "Lava Golem",
+            "count": 1
           },
           {
             "name": "Red-Eyes Black Meteor Dragon",
@@ -5662,8 +6075,16 @@
             "count": 1
           },
           {
-            "name": "Fallen of Albaz",
+            "name": "Droll & Lock Bird",
             "count": 2
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 1
+          },
+          {
+            "name": "The Light - Hex-Sealed Fusion",
+            "count": 1
           },
           {
             "name": "Despian Tragedy",
@@ -5682,45 +6103,37 @@
             "count": 2
           },
           {
-            "name": "Forbidden Droplet",
-            "count": 3
-          },
-          {
             "name": "Red-Eyes Insight",
             "count": 2
           },
           {
-            "name": "Branded Opening",
+            "name": "The Beginning of the End",
             "count": 3
           },
           {
-            "name": "Branded in Red",
+            "name": "Red-Eyes Burn",
             "count": 1
           },
           {
-            "name": "Red-Eyes Spirit",
+            "name": "Branded Banishment",
             "count": 1
           }
         ],
         "extra": [
           {
-            "name": "Khaos Starsource Dragon",
-            "count": 1
-          },
-          {
             "name": "Red-Eyes Dark Dragoon",
             "count": 1
           },
           {
-            "name": "Mirrorjade the Iceblade Dragon",
+            "name": "Dark Paladin",
             "count": 1
           },
           {
-            "name": "Masquerade the Blazing Dragon",
+            "name": "Buster Blader, the Dragon Destroyer Swordsman",
             "count": 1
           },
           {
-            "name": "Lubellion the Searing Dragon",
+            "name": "Predaplant Triphyoverutum",
             "count": 1
           },
           {
@@ -5728,21 +6141,25 @@
             "count": 1
           },
           {
-            "name": "Alba-Lenatus the Abyss Dragon",
+            "name": "Invoked Caliga",
             "count": 1
           },
           {
-            "name": "Dingirsu, the Orcust of the Evening Star",
+            "name": "Despian Proskenion",
             "count": 1
           },
           {
-            "name": "Gravity Controller",
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
             "count": 1
           }
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 26.5
+        "distance": 23
       },
       {
         "id": "6acbb622dfe862db8a8f349b",
@@ -5861,7 +6278,7 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 34.5
+        "distance": 23
       }
     ]
   },
@@ -6097,12 +6514,476 @@
         "distance": 0
       },
       {
+        "id": "6aca0dc41b220e25c410f71a",
+        "author": "Nawaf",
+        "event": "King of Games",
+        "created": "2026-10-10",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/nawaf/RGKpe/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 3
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 2
+      },
+      {
+        "id": "6adbeef76fd49a58987e8b5b",
+        "author": "MarkustheD",
+        "event": "King of Games",
+        "created": "2026-10-23",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/markusthed/BskW-/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ],
+        "mainSize": 29,
+        "extraSize": 9,
+        "distance": 3.5
+      },
+      {
+        "id": "6ae0df7f53ccdd25327ab37f",
+        "author": "alv",
+        "event": "King of Games",
+        "created": "2026-10-27",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/alv/5ppg2/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 3
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 2
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 2
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 2
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 2
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 4.5
+      },
+      {
+        "id": "6ad7e0654a3b324a5c2b6f16",
+        "author": "Kyru",
+        "event": "King of Games",
+        "created": "2026-10-20",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/kyru/rTrQM/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 2
+          },
+          {
+            "name": "Gandora-G the Dragon of Destruction",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician the Magician of Black Magic",
+            "count": 2
+          },
+          {
+            "name": "Dark Magician Girl the Magician's Apprentice",
+            "count": 2
+          },
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 1
+          },
+          {
+            "name": "Witch of the Black Forest",
+            "count": 1
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Silent Magician Zero",
+            "count": 3
+          },
+          {
+            "name": "Gadget Trio",
+            "count": 1
+          },
+          {
+            "name": "Silent Swordsman Zero",
+            "count": 1
+          },
+          {
+            "name": "Photon Jumper",
+            "count": 1
+          },
+          {
+            "name": "Dark Magical Curtain",
+            "count": 1
+          },
+          {
+            "name": "Shining Sarcophagus",
+            "count": 2
+          },
+          {
+            "name": "The Gaze of Timaeus",
+            "count": 1
+          },
+          {
+            "name": "Future Silence",
+            "count": 3
+          },
+          {
+            "name": "Turn Silence",
+            "count": 2
+          },
+          {
+            "name": "Ties That Bind",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Dark Magician of Destruction",
+            "count": 1
+          },
+          {
+            "name": "Red-Eyes Dark Dragoon",
+            "count": 1
+          },
+          {
+            "name": "Chaos Angel",
+            "count": 1
+          },
+          {
+            "name": "Number 90: Galaxy-Eyes Photon Lord",
+            "count": 1
+          },
+          {
+            "name": "Number 68: Sanaphond the Sky Prison",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          }
+        ],
+        "mainSize": 28,
+        "extraSize": 8,
+        "distance": 4.5
+      },
+      {
         "id": "6acd24428ed6b767e01624a0",
         "author": "espeon685",
         "event": "King of Games",
         "created": "2026-10-12",
         "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/espeon685/IoW0F/",
-        "tier": 3,
+        "tier": null,
         "main": [
           {
             "name": "Nibiru, the Primal Being",
@@ -6171,121 +7052,6 @@
           {
             "name": "Future Silence",
             "count": 2
-          },
-          {
-            "name": "Turn Silence",
-            "count": 2
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Chaos Angel",
-            "count": 1
-          },
-          {
-            "name": "Number 90: Galaxy-Eyes Photon Lord",
-            "count": 1
-          },
-          {
-            "name": "Number 68: Sanaphond the Sky Prison",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 4
-      },
-      {
-        "id": "6aca0dc41b220e25c410f71a",
-        "author": "Nawaf",
-        "event": "King of Games",
-        "created": "2026-10-10",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/nawaf/RGKpe/",
-        "tier": 3,
-        "main": [
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 2
-          },
-          {
-            "name": "Gandora-G the Dragon of Destruction",
-            "count": 2
-          },
-          {
-            "name": "Dark Magician the Magician of Black Magic",
-            "count": 3
-          },
-          {
-            "name": "Dark Magician Girl the Magician's Apprentice",
-            "count": 2
-          },
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 2
-          },
-          {
-            "name": "Witch of the Black Forest",
-            "count": 1
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 3
-          },
-          {
-            "name": "Silent Magician Zero",
-            "count": 2
-          },
-          {
-            "name": "Gadget Trio",
-            "count": 1
-          },
-          {
-            "name": "Silent Swordsman Zero",
-            "count": 1
-          },
-          {
-            "name": "Photon Jumper",
-            "count": 1
-          },
-          {
-            "name": "Dark Magical Curtain",
-            "count": 1
-          },
-          {
-            "name": "Shining Sarcophagus",
-            "count": 3
-          },
-          {
-            "name": "The Gaze of Timaeus",
-            "count": 1
-          },
-          {
-            "name": "Future Silence",
-            "count": 3
           },
           {
             "name": "Turn Silence",
@@ -6335,373 +7101,12 @@
         "distance": 4.5
       },
       {
-        "id": "6acd3df1fecc8defae8b595d",
-        "author": "Seby",
-        "event": "King of Games",
-        "created": "2026-10-12",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/seby/WdAgQ/",
-        "tier": 3,
-        "main": [
-          {
-            "name": "Gandora-G the Dragon of Destruction",
-            "count": 2
-          },
-          {
-            "name": "Dark Magician the Magician of Black Magic",
-            "count": 3
-          },
-          {
-            "name": "Dark Magician Girl the Magician's Apprentice",
-            "count": 3
-          },
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 2
-          },
-          {
-            "name": "Witch of the Black Forest",
-            "count": 1
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 3
-          },
-          {
-            "name": "Silent Magician Zero",
-            "count": 1
-          },
-          {
-            "name": "Gadget Trio",
-            "count": 1
-          },
-          {
-            "name": "Silent Swordsman Zero",
-            "count": 1
-          },
-          {
-            "name": "Photon Jumper",
-            "count": 1
-          },
-          {
-            "name": "Dark Magical Curtain",
-            "count": 1
-          },
-          {
-            "name": "Shining Sarcophagus",
-            "count": 3
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
-            "name": "The Gaze of Timaeus",
-            "count": 1
-          },
-          {
-            "name": "Future Silence",
-            "count": 3
-          },
-          {
-            "name": "Turn Silence",
-            "count": 2
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Super Starslayer TY-PHON - Sky Crisis",
-            "count": 1
-          },
-          {
-            "name": "Number 90: Galaxy-Eyes Photon Lord",
-            "count": 1
-          },
-          {
-            "name": "Number 68: Sanaphond the Sky Prison",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 6.5
-      },
-      {
-        "id": "6abdca78260d78087e4724be",
-        "author": "macopin",
-        "event": null,
-        "created": "2026-09-30",
-        "url": "https://www.duellinksmeta.com/duel-links-grand-prix/156/shining-sarcophagus/macopin/dXliz/",
-        "tier": 3,
-        "main": [
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 2
-          },
-          {
-            "name": "Gandora-G the Dragon of Destruction",
-            "count": 2
-          },
-          {
-            "name": "Dark Magician the Magician of Black Magic",
-            "count": 3
-          },
-          {
-            "name": "Dark Magician Girl the Magician's Apprentice",
-            "count": 2
-          },
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 2
-          },
-          {
-            "name": "Witch of the Black Forest",
-            "count": 1
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 2
-          },
-          {
-            "name": "Archfiend's Advent",
-            "count": 1
-          },
-          {
-            "name": "Silent Magician Zero",
-            "count": 1
-          },
-          {
-            "name": "Retaliating \"C\"",
-            "count": 1
-          },
-          {
-            "name": "Gadget Trio",
-            "count": 1
-          },
-          {
-            "name": "Silent Swordsman Zero",
-            "count": 1
-          },
-          {
-            "name": "Dark Magical Curtain",
-            "count": 1
-          },
-          {
-            "name": "Shining Sarcophagus",
-            "count": 3
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
-            "name": "The Gaze of Timaeus",
-            "count": 1
-          },
-          {
-            "name": "Future Silence",
-            "count": 3
-          },
-          {
-            "name": "Turn Silence",
-            "count": 1
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Super Starslayer TY-PHON - Sky Crisis",
-            "count": 1
-          },
-          {
-            "name": "Divine Dragon Knight Felgrand",
-            "count": 1
-          },
-          {
-            "name": "Number 68: Sanaphond the Sky Prison",
-            "count": 1
-          },
-          {
-            "name": "S:P Little Knight",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 7
-      },
-      {
-        "id": "6aca7773c419fe4c41f8a3e2",
-        "author": "🌆⥉⥉ 𝕻𝖊𝖙𝖊𝖗 𝖀𝖈𝖍𝖎𝖍𝖆",
-        "event": "King of Games",
-        "created": "2026-10-10",
-        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/🌆⥉⥉-𝕻𝖊𝖙𝖊𝖗-𝖀𝖈𝖍𝖎𝖍𝖆/0y4g0/",
-        "tier": 3,
-        "main": [
-          {
-            "name": "Nibiru, the Primal Being",
-            "count": 2
-          },
-          {
-            "name": "Gandora-G the Dragon of Destruction",
-            "count": 2
-          },
-          {
-            "name": "Dark Magician the Magician of Black Magic",
-            "count": 3
-          },
-          {
-            "name": "Dark Magician Girl the Magician's Apprentice",
-            "count": 2
-          },
-          {
-            "name": "Mulcharmy Fuwalos",
-            "count": 1
-          },
-          {
-            "name": "Witch of the Black Forest",
-            "count": 1
-          },
-          {
-            "name": "Moremarshmallon",
-            "count": 1
-          },
-          {
-            "name": "Droll & Lock Bird",
-            "count": 1
-          },
-          {
-            "name": "Silent Magician Zero",
-            "count": 2
-          },
-          {
-            "name": "Gadget Trio",
-            "count": 1
-          },
-          {
-            "name": "Silent Swordsman Zero",
-            "count": 2
-          },
-          {
-            "name": "Photon Jumper",
-            "count": 1
-          },
-          {
-            "name": "Dark Magical Curtain",
-            "count": 2
-          },
-          {
-            "name": "Shining Sarcophagus",
-            "count": 2
-          },
-          {
-            "name": "Forbidden Droplet",
-            "count": 2
-          },
-          {
-            "name": "The Gaze of Timaeus",
-            "count": 1
-          },
-          {
-            "name": "Future Silence",
-            "count": 2
-          },
-          {
-            "name": "Turn Silence",
-            "count": 2
-          }
-        ],
-        "extra": [
-          {
-            "name": "Dark Magician of Destruction",
-            "count": 1
-          },
-          {
-            "name": "Red-Eyes Dark Dragoon",
-            "count": 1
-          },
-          {
-            "name": "Chaos Angel",
-            "count": 1
-          },
-          {
-            "name": "Super Starslayer TY-PHON - Sky Crisis",
-            "count": 1
-          },
-          {
-            "name": "Number 90: Galaxy-Eyes Photon Lord",
-            "count": 1
-          },
-          {
-            "name": "Number 68: Sanaphond the Sky Prison",
-            "count": 1
-          },
-          {
-            "name": "Underworld Goddess of the Closed World",
-            "count": 1
-          },
-          {
-            "name": "I:P Masquerena",
-            "count": 1
-          },
-          {
-            "name": "Knightmare Phoenix",
-            "count": 1
-          }
-        ],
-        "mainSize": 30,
-        "extraSize": 9,
-        "distance": 7.5
-      },
-      {
         "id": "6ac67bfac2a0254f0fc275fc",
         "author": "Reversi",
         "event": "King of Games",
         "created": "2026-10-07",
         "url": "https://www.duellinksmeta.com/king-of-games/october-2026/shining-sarcophagus/reversi/0oHVf/",
-        "tier": 3,
+        "tier": null,
         "main": [
           {
             "name": "Nibiru, the Primal Being",
@@ -6812,7 +7217,7 @@
         ],
         "mainSize": 30,
         "extraSize": 9,
-        "distance": 7.5
+        "distance": 5
       }
     ]
   }

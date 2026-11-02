@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T02:04:04.294Z",
-  "dataFetchedAt": "2026-10-13T19:19:55.983Z",
+  "generatedAt": "2026-11-02T14:40:28.410Z",
+  "dataFetchedAt": "2026-11-02T14:02:14.478Z",
   "decks": [
     {
       "slug": "blue-eyes",
@@ -10,9 +10,9 @@
       "skill": "Master of Blue-Eyes",
       "scenarios": 5,
       "stats": {
-        "decks": 1,
-        "totalDecks": 830,
-        "share": 0.0012048192771084338,
+        "decks": 2,
+        "totalDecks": 612,
+        "share": 0.0032679738562091504,
         "tiers": {},
         "commonTier": null
       },
@@ -29,9 +29,9 @@
       "skill": "I'll Show You Perfection!",
       "scenarios": 2,
       "stats": {
-        "decks": 15,
-        "totalDecks": 830,
-        "share": 0.018072289156626505,
+        "decks": 26,
+        "totalDecks": 612,
+        "share": 0.042483660130718956,
         "tiers": {},
         "commonTier": null
       },
@@ -48,11 +48,13 @@
       "skill": "The Eye of the United Dragon",
       "scenarios": 2,
       "stats": {
-        "decks": 34,
-        "totalDecks": 830,
-        "share": 0.04096385542168675,
-        "tiers": {},
-        "commonTier": null
+        "decks": 47,
+        "totalDecks": 612,
+        "share": 0.07679738562091504,
+        "tiers": {
+          "3": 47
+        },
+        "commonTier": 3
       },
       "featured": {
         "name": "Dark Magician",
@@ -67,9 +69,9 @@
       "skill": "Miracle Neos Contact",
       "scenarios": 2,
       "stats": {
-        "decks": 16,
-        "totalDecks": 830,
-        "share": 0.01927710843373494,
+        "decks": 28,
+        "totalDecks": 612,
+        "share": 0.0457516339869281,
         "tiers": {},
         "commonTier": null
       },
@@ -86,17 +88,38 @@
       "skill": "Precious Cards of the Dark",
       "scenarios": 2,
       "stats": {
-        "decks": 41,
-        "totalDecks": 830,
-        "share": 0.04939759036144578,
+        "decks": 89,
+        "totalDecks": 612,
+        "share": 0.1454248366013072,
         "tiers": {
-          "3": 41
+          "3": 89
         },
         "commonTier": 3
       },
       "featured": {
         "name": "Horus the Black Flame Deity",
         "image": "img/cards/horus-the-black-flame-deity.jpg"
+      }
+    },
+    {
+      "slug": "icejade",
+      "name": "Icejade",
+      "status": "verified",
+      "updated": "2026-11-02",
+      "skill": "A World of Ice and Water",
+      "scenarios": 3,
+      "stats": {
+        "decks": 10,
+        "totalDecks": 612,
+        "share": 0.016339869281045753,
+        "tiers": {
+          "3": 10
+        },
+        "commonTier": 3
+      },
+      "featured": {
+        "name": "Icejade Gymir Aegirine",
+        "image": "img/cards/icejade-gymir-aegirine.jpg"
       }
     },
     {
@@ -107,9 +130,9 @@
       "skill": "Mathmech Slicer",
       "scenarios": 3,
       "stats": {
-        "decks": 46,
-        "totalDecks": 830,
-        "share": 0.05542168674698795,
+        "decks": 9,
+        "totalDecks": 612,
+        "share": 0.014705882352941176,
         "tiers": {},
         "commonTier": null
       },
@@ -126,11 +149,11 @@
       "skill": "Precious Cards of the Dark",
       "scenarios": 2,
       "stats": {
-        "decks": 37,
-        "totalDecks": 830,
-        "share": 0.04457831325301205,
+        "decks": 92,
+        "totalDecks": 612,
+        "share": 0.1503267973856209,
         "tiers": {
-          "1": 37
+          "1": 92
         },
         "commonTier": 1
       },
@@ -147,9 +170,9 @@
       "skill": "Red-Eyes Armament",
       "scenarios": 2,
       "stats": {
-        "decks": 5,
-        "totalDecks": 830,
-        "share": 0.006024096385542169,
+        "decks": 2,
+        "totalDecks": 612,
+        "share": 0.0032679738562091504,
         "tiers": {},
         "commonTier": null
       },
@@ -166,13 +189,11 @@
       "skill": "Light the Way to the Future",
       "scenarios": 2,
       "stats": {
-        "decks": 26,
-        "totalDecks": 830,
-        "share": 0.03132530120481928,
-        "tiers": {
-          "3": 26
-        },
-        "commonTier": 3
+        "decks": 33,
+        "totalDecks": 612,
+        "share": 0.05392156862745098,
+        "tiers": {},
+        "commonTier": null
       },
       "featured": {
         "name": "Silent Magician Zero",

@@ -158,6 +158,12 @@
       }
     ]
   },
+  "A World of Ice and Water": {
+    "name": "A World of Ice and Water",
+    "text": "You can only use this Skill's second and third effects once per Duel.\n1: Any effect damage your cards would inflict to your opponent becomes 0, except for effect damage from \"Icejade Curse\".\n2: Reveal 1 Level 7 WATER Tuner in your hand and send 1 card from your hand to the Graveyard. Add up to 2 \"Icejade\" cards from your Deck to your hand. Then, Set 1 \"Icejade Cenote Enion Cradle\" from outside your Deck to your field.\n3: If there is a Level 10 Synchro Monster on the field or your opponent controls a monster, choose 1 \"Icejade\" monster from your Deck that does not have the same name as any monster you control, and play it in face-down Defense Position. (Its battle position can be changed.) Then, Set 1 \"Icejade\" Spell/Trap Card from your hand or Deck to your field. (This card can be activated the same turn.)\n",
+    "source": "Skill Trader Exchange",
+    "characters": []
+  },
   "Mathmech Slicer": {
     "name": "Mathmech Slicer",
     "text": "You can only use this Skill's second effect once per turn.\n1: At the beginning of the Duel, add 2 \"Primathmech Alembertian\" and 3 \"Mathmech Circular\" from outside your Deck to your Deck or Extra Deck. During this Duel, you cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters, except \"Mathmech\" monsters, any effect damage your cards would inflict to your opponent becomes 0, and if your \"Mathmech\" Synchro Monster attacks a Defense Position monster, and the attacking monster's ATK is higher than the defense of the target, inflict battle damage equal to the difference between the attacking monster's ATK and the target's DEF.\n2: Reveal 1 \"Mathmech\" Tuner from your hand and send 1 card from your hand or field to the Graveyard, then add 2 \"Mathmech\" monsters from your Deck to your hand. If it is turn 2 onward, you can also set 1 \"Mathmech\" Spell/Trap Card from your hand or Deck. (This card can be activated the same turn.)",
