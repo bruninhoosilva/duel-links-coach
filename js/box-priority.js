@@ -1,18 +1,21 @@
 import { MAX_COPIES } from './collection.js';
+import { listAuthor, listsOn } from './box-lists.js';
 
 // Which boxes are worth opening: the cards you are short of, counted for every guided deck that needs them,
-// grouped by the packs that contain them. Only the creators' video lists count (the Meta lists are not
-// the lists the guides teach). Cards you have not marked yet are left out, and reported per deck.
+// grouped by the packs that contain them. The lists that count are the ones the reader switched on (by default the
+// creators' video lists, see box-lists.js); a deck with two lists on counts as one deck, with the most copies of
+// each card across them. Cards you have not marked yet are left out, and reported per deck.
 //
-// ctx: { index, decklists, cards, owned }
+// ctx: { index, decklists, cards, owned, listChoices }
 export function boxPriority(ctx) {
   const owned = ctx.owned ?? {};
-  const wanted = new Map(); // card name -> Map(deck name -> copies the deck plays, the most across its video lists)
+  const wanted = new Map(); // card name -> Map(deck name -> copies the deck plays, the most across the lists that count)
   const unmarked = [];
   for (const d of ctx.index?.decks ?? []) {
     const data = ctx.decklists?.[d.slug];
-    const lists = (data?.lists ?? []).filter((l) => l.video);
-    const use = lists.length ? lists : (data?.lists ?? []).slice(0, 1);
+    const use = listsOn(ctx.listChoices, d.slug, data);
+    if (use.length === 0) continue;
+    const labels = use.map(listAuthor);
     const plays = new Map();
     for (const l of use) for (const e of [...l.main, ...l.extra]) plays.set(e.name, Math.max(plays.get(e.name) ?? 0, e.count));
     const missingNames = [];
@@ -24,16 +27,16 @@ export function boxPriority(ctx) {
       const short = count - Math.min(owned[name], MAX_COPIES, count);
       if (short <= 0) continue;
       if (!wanted.has(name)) wanted.set(name, new Map());
-      wanted.get(name).set(d.name, { short, slug: d.slug });
+      wanted.get(name).set(d.name, { short, slug: d.slug, lists: labels });
     }
-    if (missingNames.length) unmarked.push({ deck: d.name, slug: d.slug, names: missingNames.sort((a, b) => a.localeCompare(b)) });
+    if (missingNames.length) unmarked.push({ deck: d.name, slug: d.slug, lists: labels, names: missingNames.sort((a, b) => a.localeCompare(b)) });
   }
 
   const cardsShort = [...wanted].map(([name, decks]) => {
     const obtain = ctx.cards?.[name]?.obtain ?? [];
     return {
       name,
-      decks: [...decks].map(([deck, v]) => ({ deck, slug: v.slug, short: v.short })),
+      decks: [...decks].map(([deck, v]) => ({ deck, slug: v.slug, short: v.short, lists: v.lists })),
       nDecks: decks.size,
       copies: [...decks.values()].reduce((n, v) => n + v.short, 0),
       obtain,

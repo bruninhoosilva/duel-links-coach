@@ -46,3 +46,7 @@ What was built, in order, and why. Dates are the days the work was done (the git
 - The card pop-up has a **Copies I own** control, same collection as the deck lists.
 - **Mathmech** gets its video list ("From Video - Ignister").
 - **Which box should I open?** (`#/collection/boxes`, linked from My collection): the cards you are short of for the guided decks, grouped by box and ranked; a missing card scores 1 for every deck that needs it. Only video lists count; unmarked cards are listed apart and not counted. Pull rates and prices are not in the data.
+
+## 2026-10-29 to 2026-11-04: more decks, and a deck filter on the box page
+- Guides: **Blue-Eyes** (Yami Ewerton, five play lines), **Icejade** (YRalps, three replays; the card and skill data were refreshed on 2026-11-02 for its new skill), **Swordsoul** (Sorem), and a **YRalps list plus a turn-one replay** for Mathmech.
+- **Which box should I open?** now has **Lists to count**: every deck is a row, and opening it shows one chip per deck list (the creators' video lists first, then the Meta tournament lists), so the reader can pick "Mathmech from YRalps" or "Shining Sarcophagus from Sorem". Only the lists that are on count; a deck with two lists on counts once with the most copies of each card. By default the video lists count, as before; presets: Creators' lists only / Every list / No lists. The choice is saved in this browser as what differs from the default (`box-lists.js`, key `duel-links-coach-box-lists-v1`).

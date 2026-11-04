@@ -13,6 +13,7 @@ import { renderCardDialog } from './card-dialog.js';
 import { stepIndex, uniqueNames } from './card-nav.js';
 import { renderCollectionPage, renderResults } from './views-collection.js';
 import { renderBoxesPage } from './views-boxes.js';
+import { defaultChoices, loadListChoices, saveListChoices, setAllLists, toggleList } from './box-lists.js';
 import { renderBuildPage } from './views-build.js';
 import { renderOtherDeck } from './views-other-deck.js';
 import { addCard, cleanVersions, createVersion, deleteVersion, duplicateVersion, loadVersions, renameVersion, saveVersions, setCardCount, upsertVersion } from './versions.js';
@@ -22,6 +23,7 @@ const app = document.getElementById('app');
 const dialog = document.getElementById('card-dialog');
 const hands = new Map(); // deck slug -> card names the user picked in the hand picker
 let owned = loadCollection();
+let listChoices = loadListChoices(); // deck lists switched on or off on the boxes page, { "slug|listId": boolean }
 let versions = loadVersions(); // { deckSlug: [version, ...] }, saved in this browser
 const verState = new Map(); // deck slug -> { id: active version id, query: search text }
 requestPersistence(); // ask the browser to keep this site's storage; harmless if it says no
@@ -40,6 +42,7 @@ const pageCtx = () => ({
   ...(extra ?? {}),
   cards: { ...(extra?.extracards ?? {}), ...data.cards },
   owned,
+  listChoices,
   ownMsg,
   ownMsgKind,
   backupNote: backupNudge(loadBackupMeta()),
@@ -98,7 +101,20 @@ function restoreBoxes(route) {
     boxesSeeded = true;
   }
   for (const d of all) if (openBoxes.has(d.dataset.box)) d.open = true;
+  for (const f of app.querySelectorAll('details.deck-filter')) if (openFilters.has(f.dataset.fdeck)) f.open = true;
 }
+// The decks of the list filter the reader opened stay open when a chip redraws the page.
+const openFilters = new Set();
+app.addEventListener(
+  'toggle',
+  (event) => {
+    const d = event.target;
+    if (!d.matches?.('details.deck-filter')) return;
+    if (d.open) openFilters.add(d.dataset.fdeck);
+    else openFilters.delete(d.dataset.fdeck);
+  },
+  true,
+);
 app.addEventListener(
   'toggle',
   (event) => {
@@ -252,6 +268,24 @@ document.addEventListener('click', (event) => {
     render({ keepScroll: true });
     flyIntoHand(from, hand.length - 1);
     document.querySelector(`[data-pick="${CSS.escape(name)}"]`)?.focus({ preventScroll: true });
+    return;
+  }
+  const listChip = event.target.closest('[data-box-list]');
+  const listPreset = event.target.closest('[data-box-lists]');
+  if ((listChip || listPreset) && onCollectionPage()) {
+    if (listChip) {
+      const [slug, ...rest] = listChip.dataset.boxList.split('|');
+      const deckData = data.decklists?.[slug];
+      const list = deckData?.lists.find((l) => l.id === rest.join('|'));
+      if (list) listChoices = toggleList(listChoices, slug, deckData, list);
+    } else {
+      const mode = listPreset.dataset.boxLists;
+      listChoices = mode === 'default' ? defaultChoices() : setAllLists(data.index, data.decklists, mode === 'all');
+    }
+    saveListChoices(listChoices);
+    render({ keepScroll: true });
+    const again = listChip ? `[data-box-list="${CSS.escape(listChip.dataset.boxList)}"]` : `[data-box-lists="${listPreset.dataset.boxLists}"]`;
+    document.querySelector(again)?.focus({ preventScroll: true });
     return;
   }
   const ownBtn = event.target.closest('[data-own]');

@@ -339,6 +339,14 @@ main p, main li, main dd { max-width: 78ch; }
 .own-row .own { justify-content: flex-start; }
 .box-row summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem; }
 .box-score { margin-left: auto; padding: .1rem .55rem; border-radius: 999px; background: var(--chip); font-size: .8rem; font-weight: 700; color: var(--gold, inherit); }
+.box-filter { margin: 1.2rem 0 .4rem; }
+.box-filter h2 { margin-bottom: .2rem; }
+.deck-filters { display: grid; gap: .4rem; margin-top: .6rem; }
+.deck-filter { border: 1px solid var(--line); border-radius: 10px; padding: .45rem .8rem; background: rgba(255, 255, 255, .03); }
+.deck-filter summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .6rem; }
+.deck-filter-on { color: var(--accent); font-size: .85rem; }
+.deck-filter-on.off { color: var(--muted, #9aa3b5); font-style: italic; }
+.deck-filter .chips { margin: .6rem 0 .1rem; }
 .box-row .coll-list { margin-top: .6rem; }
 .box-where { flex-basis: 100%; }
 .box-row .coll-name { display: flex; flex-direction: column; align-items: flex-start; gap: .15rem; }
