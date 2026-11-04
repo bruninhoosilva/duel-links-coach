@@ -6901,7 +6901,7 @@
     "deck": "Mathmech",
     "format": "speed",
     "status": "verified",
-    "updated": "2026-10-13",
+    "updated": "2026-11-03",
     "featuredCard": "Mathmech Circular",
     "skill": {
       "name": "Mathmech Slicer",
@@ -6939,6 +6939,12 @@
         "creator": "Ignister",
         "language": "Portuguese",
         "url": "https://www.youtube.com/watch?v=zkuwtZa28YY"
+      },
+      {
+        "title": "MATHMECH ESTÁ SIMPLESMENTE INCRÍVEL! [DUEL LINKS] (Portuguese deck explanation and replays)",
+        "creator": "YRalps",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4"
       }
     ],
     "gamePlan": "Open with a Level 4 Mathmech Tuner (a small monster that lets you Synchro Summon) and use the skill to put the key monsters in your hand. Chain extra summons (an extender is a card that lets you summon more monsters) into Xyz and Link monsters (Xyz and Link are special monsters that live in the Extra Deck) that search, remove the opponent's cards, and draw. Finish with Geomathmech Final Sigma, a Level 12 monster that hits for double damage. When you search with the skill, take Circular and Diameter first, then Sigma, then Addition and Subtraction: keeping Sigma in your hand is safer than leaving it in the Graveyard, because a hand trap (a card the opponent plays from their hand) can stop it coming back, and Addition and Subtraction summon themselves from your hand, so they keep your follow-up going if you get interrupted. Because the skill gets you to your combo pieces, the rest of your deck goes to tech cards: hand traps and board breakers (cards that clear the opponent's board). Always check this guide's sources: the creators disagree on small details, and both mention a banlist change was coming when they recorded.",
@@ -7096,7 +7102,8 @@
       {
         "name": "Droll & Lock Bird",
         "role": "hand-trap",
-        "copies": 2
+        "copies": 2,
+        "note": "YRalps plays 3 Droll & Lock Bird and 3 D.D. Crow as his staples."
       },
       {
         "name": "Infinite Impermanence",
@@ -7108,6 +7115,42 @@
         "role": "extender",
         "copies": 1,
         "note": "An Xyz monster whose effect can draw 2 cards (it skips your next Draw Phase)."
+      },
+      {
+        "name": "Centur-Ion Primera Primus",
+        "role": "extender",
+        "copies": 1,
+        "note": "YRalps' Extra Deck extra. Level 8 Synchro Tuner (a Tuner plus 1 or more non-Tuners). When Synchro Summoned it adds an \"Emblema\" card from your deck or Graveyard (Emblema Oath), and you can then destroy 1 card on each field. The creator makes it from Nabla and Multiplication on turn one, before Sigma locks him to Cyberse monsters, and then uses it as the Tuner of Final Sigma. It is a Spellcaster, so it has to come out before the cards that lock you to Cyberse (Sigma, Addition, Subtraction)."
+      },
+      {
+        "name": "Emblema Oath",
+        "role": "extender",
+        "copies": 1,
+        "note": "YRalps' turn-one tool. Quick-Play Spell: either place a Centur-Ion monster from your deck in your Spell & Trap Zone as a Continuous Trap (you then cannot Special Summon from the Extra Deck except Centur-Ion for the rest of the turn), or Set a Centur-Ion Spell/Trap directly from your deck. He uses the second: it Sets Centur-Ion Phalanx."
+      },
+      {
+        "name": "Centur-Ion Phalanx",
+        "role": "removal",
+        "copies": 1,
+        "note": "YRalps' turn-one interaction. Trap: target a face-up monster on the field and banish it; in the next Standby Phase it comes back to its owner's field. From the Graveyard it can bring back a Centur-Ion Synchro Monster with 1500 less ATK. He uses it to banish a monster as it is Normal Summoned, so the opponent cannot Synchro Summon with it."
+      },
+      {
+        "name": "D.D. Crow",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "Staple. Quick Effect: discard it to banish a card in the opponent's Graveyard. The creator says he would rather play Ghost Belle & Haunted Mansion (the captions say \"Belle\"), but it is hard to get, so he used 3 D.D. Crow because they are cheaper.",
+        "substitutes": [
+          {
+            "name": "Ghost Belle & Haunted Mansion",
+            "why": "The creator says he would prefer the \"Belle\" instead of D.D. Crow, but he cannot get it easily because it comes from a selection box. The captions only say \"Belle\", so this is read as Ghost Belle & Haunted Mansion."
+          }
+        ]
+      },
+      {
+        "name": "Hey, Trunade!",
+        "role": "removal",
+        "copies": 2,
+        "note": "Staple for turn two. Returns every Set Spell and Trap on the field to the hand: it helps against back row. The creator plays 2 and says Trunade and Forbidden Droplet are the cards that improve this deck's turn two."
       }
     ],
     "synergies": [
@@ -7188,6 +7231,41 @@
             "name": "Mathmech Sigma",
             "reason": "Cynet Mining fetches a Level 4 Tuner such as Sigma, which is how you switch the skill on when your hand has no Tuner.",
             "link": "searches your Deck"
+          }
+        ]
+      },
+      {
+        "card": "Mathmech Nabla",
+        "partners": [
+          {
+            "name": "Centur-Ion Primera Primus",
+            "reason": "Nabla (Level 4 Tuner) plus Multiplication (Level 4) make Level 8 Primera Primus, before you are locked to Cyberse monsters.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Centur-Ion Primera Primus",
+        "partners": [
+          {
+            "name": "Emblema Oath",
+            "reason": "When Primera Primus is Synchro Summoned it adds Emblema Oath from your deck.",
+            "link": "searches"
+          },
+          {
+            "name": "Geomathmech Final Sigma",
+            "reason": "Primera Primus is a Tuner, and Sigma can be treated as a non-Tuner, so the two make Final Sigma in the Extra Monster Zone.",
+            "link": "with Sigma makes"
+          }
+        ]
+      },
+      {
+        "card": "Emblema Oath",
+        "partners": [
+          {
+            "name": "Centur-Ion Phalanx",
+            "reason": "Emblema Oath Sets Centur-Ion Phalanx straight from your deck, one more piece of turn-one interaction.",
+            "link": "Sets"
           }
         ]
       }
@@ -7999,6 +8077,512 @@
           ],
           "note": "Example board from the Portuguese creator's replay: Number 60: Dugares the Timeless is the monster that gets tributed. Yours will differ."
         }
+      },
+      {
+        "id": "yralps-turn-1-sigma-circular",
+        "build": "yralps",
+        "title": "Turn 1 with Sigma and Circular: Primera Primus, Final Sigma and Laplacian on the opponent's turn (YRalps replay)",
+        "hand": [
+          "Mathmech Sigma",
+          "Mathmech Circular",
+          "Forbidden Droplet",
+          "Mathmech Addition"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Mathmech Sigma",
+            "Mathmech Circular"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 2, once per turn: reveal a Level 4 Mathmech Tuner and send 1 card from your hand to the Graveyard, then add 2 Mathmech monsters from your deck. On turn 1 you cannot also Set a Spell/Trap (that part starts on turn 2)."
+        },
+        "start": {
+          "hand": [
+            "Mathmech Sigma",
+            "Mathmech Circular",
+            "Forbidden Droplet",
+            "Mathmech Addition",
+            "Unknown card"
+          ],
+          "note": "The creator's hand in his first replay: Mathmech Sigma, Mathmech Circular, Forbidden Droplet and a fourth card that looks like Mathmech Addition on screen, plus a fifth card that is not clear. He says the hand is very good because it has a Mathmech Tuner. Circular and Alembertian come from the skill and are not in the deck list."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "First thing in your turn (effect 2)",
+            "needs": "Reveal Mathmech Sigma and send 1 card from your hand to the Graveyard (here the same Sigma: it does not matter if it is in hand or Graveyard).",
+            "gives": "Add Mathmech Diameter and Mathmech Subtraction to your hand.",
+            "used": true,
+            "reason": "The creator reveals and discards the same Sigma, because Sigma can come back from the Graveyard later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:08"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Nabla from your deck to the Graveyard to Special Summon Circular from your hand (Sigma is already in the Graveyard, so he sends Nabla).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:19"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "Normal Summon Diameter: it Special Summons Nabla from the Graveyard (its effects are negated).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:22"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "A Mathmech monster was Summoned while you control Circular, so Circular adds a Mathmech Spell/Trap: Mathmech Superfactorial.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:28"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "special-summon",
+            "reason": "Xyz Summon Primathmech Alembertian (2 or more Level 4 monsters) with Diameter and Nabla.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:33"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Detach 2 materials to add a Mathmech card to your hand: Mathmech Induction, the Continuous Trap. Diameter and Nabla go to the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:37"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Induction",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute Alembertian to Special Summon a Level 4 Mathmech monster from the Graveyard: Nabla.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:40"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Tribute Circular to Special Summon a Mathmech monster from your deck: Multiplication. The creator also wants Multiplication to end up in the Graveyard, so it can double the ATK of Final Sigma later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:44"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Centur-Ion Primera Primus",
+            "action": "special-summon",
+            "reason": "Synchro Summon Centur-Ion Primera Primus (Level 8) with Nabla (Tuner) and Multiplication (4 + 4). He is not locked to Cyberse monsters yet, so he can do it: the lock comes from Sigma.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:55"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Centur-Ion Primera Primus",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Centur-Ion Primera Primus",
+            "action": "activate",
+            "reason": "When Synchro Summoned, add an Emblema card from your deck or Graveyard to your hand: Emblema Oath.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "15:59"
+            },
+            "moves": [
+              {
+                "card": "Emblema Oath",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Emblema Oath",
+            "action": "activate",
+            "reason": "Activate Emblema Oath to Set Centur-Ion Phalanx directly from your deck: the turn-one interaction that can banish a monster.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "16:02"
+            },
+            "moves": [
+              {
+                "card": "Emblema Oath",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Centur-Ion Phalanx",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Sigma",
+            "action": "special-summon",
+            "reason": "Special Summon Sigma from the Graveyard (you control no monster in the Extra Monster Zone). It will be banished when it leaves the field, and from now on you can only Special Summon Cyberse monsters from the Extra Deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "16:06"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon Geomathmech Final Sigma (Level 12) in the Extra Monster Zone with Primera Primus (Tuner, 8) and Sigma, which counts as a non-Tuner for a Mathmech Synchro (4): 8 + 4 = 12. In the Extra Monster Zone it is unaffected by card effects except Mathmech cards.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "16:20"
+            },
+            "moves": [
+              {
+                "card": "Centur-Ion Primera Primus",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "monster-zone",
+                "to": "banished"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Superfactorial",
+            "action": "set",
+            "reason": "Set Mathmech Superfactorial.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "16:28"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Induction",
+            "action": "set",
+            "reason": "Set Mathmech Induction. With Phalanx and Superfactorial that makes three Set cards of interaction.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "16:28"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Induction",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Superfactorial",
+            "action": "activate",
+            "reason": "In the opponent's turn (the opponent Summoned monsters): activate Superfactorial and choose 3 Mathmech monsters with different names in your Graveyard (Multiplication, Diameter and Nabla): they come back with their effects negated, then Xyz Summon Primathmech Laplacian with them. The creator says it is important to keep Multiplication in the Graveyard for this.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "17:14"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Primathmech Laplacian",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Laplacian",
+            "action": "activate",
+            "reason": "Laplacian, Xyz Summoned: detach 2 materials and choose 2 effects (in the video: send 1 monster of the opponent to the Graveyard and send 1 random card from the opponent's hand to the Graveyard). Multiplication, detached, goes to the Graveyard and doubles Final Sigma's ATK to 6000. Because Diameter was a material, Laplacian can also negate an activation this turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "17:22"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Multiplication",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Centur-Ion Phalanx",
+            "action": "activate",
+            "reason": "When the opponent Normal Summons a monster (the captions call it \"Long\"), activate Phalanx to banish it: it cannot Synchro Summon with it and comes back in the next Standby Phase.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "17:58"
+            },
+            "moves": [
+              {
+                "card": "Centur-Ion Phalanx",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Induction",
+            "action": "activate",
+            "reason": "Send Induction to the Graveyard to destroy a card the opponent controls (in the video the target is a monster the opponent just Summoned) while you control a Mathmech monster. The video does not show when Induction was turned face-up.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "18:04"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Induction",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The same turn is shown against Valmonica: after the skill he searches Diameter and Addition, Circular's effect, Diameter, Alembertian, then Primera Primus, Emblema Oath, Sigma and Final Sigma, and he sets the Traps. In the Valmonica game the opponent used Forbidden Droplet on Laplacian: it loses its effect and the Diameter negation, which the creator calls the card that hurts this Xyz the most. His turn 2 in that replay: use the skill again (it is once per turn), Set a Mathmech Spell from the deck (turn 2 or later), Circular and Diameter (the opponent negates some effects), a Mathmech Spell that brings Multiplication back from the Graveyard (it fits Mathmech Equation), and he makes Final Sigma with the Diameter negation and doubled ATK (6000) and wins on the next attack with piercing double damage. These later steps are told in the video and not simulated.",
+        "endBoard": "Geomathmech Final Sigma in the Extra Monster Zone (unaffected by card effects except Mathmech), and Set: Centur-Ion Phalanx, Mathmech Superfactorial and Mathmech Induction. In the opponent's turn Superfactorial makes Primathmech Laplacian, which sends 2 cards of the opponent to the Graveyard.",
+        "weakSpots": "Sigma (and Addition, Subtraction) lock you to Cyberse monsters for the rest of the turn, so make Primera Primus before them. A Forbidden Droplet on Laplacian cancels its effect. On turn 1, Final Sigma can be removed by Kaiju or Lava Golem or in battle. The creator says Final Sigma is stronger from turn 2, because the opponent has to deal with your monsters before you make it."
       }
     ],
     "videoLists": [
@@ -8100,6 +8684,104 @@
           },
           {
             "name": "I:P Masquerena",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "yralps",
+        "title": "MATHMECH ESTÁ SIMPLESMENTE INCRÍVEL! [DUEL LINKS]",
+        "creator": "YRalps",
+        "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+        "main": [
+          {
+            "name": "Mathmech Sigma",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Diameter",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Nabla",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Addition",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Subtraction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Multiplication",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Equation",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Induction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Superfactorial",
+            "count": 1
+          },
+          {
+            "name": "Centur-Ion Phalanx",
+            "count": 1
+          },
+          {
+            "name": "Emblema Oath",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Hey, Trunade!",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Geomathmech Final Sigma",
+            "count": 2
+          },
+          {
+            "name": "Centur-Ion Primera Primus",
+            "count": 1
+          },
+          {
+            "name": "Geomathmech Magma",
+            "count": 1
+          },
+          {
+            "name": "Primathmech Laplacian",
+            "count": 2
+          },
+          {
+            "name": "Decode Talker Heatsoul",
+            "count": 1
+          },
+          {
+            "name": "S-Force Justify",
+            "count": 1
+          },
+          {
+            "name": "Splash Mage",
             "count": 1
           }
         ]

@@ -5462,6 +5462,54 @@
       }
     ]
   },
+  "Centur-Ion Phalanx": {
+    "name": "Centur-Ion Phalanx",
+    "pt": null,
+    "image": "img/cards/centur-ion-phalanx.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 face-up Monster Card on the field; banish it, and if you do, during the Standby Phase of the next turn, Special Summon that banished monster to its owner's field. You can banish this card from your GY, then target 1 \"Centur-Ion\" Synchro Monster in your GY; Special Summon it, but it loses 1500 ATK. You can only use 1 \"Centur-Ion Phalanx\" effect per turn, and only once that turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Red Supernova",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/red-supernova/"
+      }
+    ]
+  },
+  "Centur-Ion Primera Primus": {
+    "name": "Centur-Ion Primera Primus",
+    "pt": null,
+    "image": "img/cards/centur-ion-primera-primus.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2600,
+    "def": 2600,
+    "monsterType": [
+      "Synchro",
+      "Tuner",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\nCannot be destroyed by battle, unless it was Special Summoned from the Extra Deck. You can only use each of the following effects of \"Centur-Ion Primera Primus\" once per turn. If this card is Synchro Summoned: You can add 1 \"Emblema\" card from your Deck or GY to your hand, then you can destroy 2 cards (1 on each field). If a face-up \"Centur-Ion\" card(s) you control leaves the field by an opponent's card effect, while this card is in your GY (except during the Damage Step): You can Special Summon this card.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Red Supernova",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/red-supernova/"
+      }
+    ]
+  },
   "Cynet Mining": {
     "name": "Cynet Mining",
     "pt": "Mineração Cinet",
@@ -5530,6 +5578,28 @@
       }
     ]
   },
+  "Emblema Oath": {
+    "name": "Emblema Oath",
+    "pt": null,
+    "image": "img/cards/emblema-oath.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Activate 1 of these effects;\n●Place 1 \"Centur-Ion\" monster from your Deck in your Spell & Trap Zone as a face-up Continuous Trap. For the rest of this turn, while you control that card, or any card with that same original name, you cannot Special Summon from the Extra Deck, except \"Centur-Ion\" monsters.\n●Set 1 \"Centur-Ion\" Spell/Trap directly from your Deck.\nYou can only activate 1 \"Emblema Oath\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Red Supernova",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/red-supernova/"
+      }
+    ]
+  },
   "Geomathmech Final Sigma": {
     "name": "Geomathmech Final Sigma",
     "pt": "Geomechamático Sigma Final",
@@ -5585,6 +5655,31 @@
         "boxType": "Selection Box Super Mini",
         "amount": 1,
         "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-02/"
+      }
+    ]
+  },
+  "Ghost Belle & Haunted Mansion": {
+    "name": "Ghost Belle & Haunted Mansion",
+    "pt": "Fantasma Belle & Mansão Assombrada",
+    "image": "img/cards/ghost-belle-haunted-mansion.jpg",
+    "type": "Monster",
+    "race": "Zombie",
+    "attribute": "EARTH",
+    "level": 3,
+    "atk": 0,
+    "def": 1800,
+    "monsterType": [
+      "Effect",
+      "Tuner"
+    ],
+    "text": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that activation.\r\n● Add a card(s) from the GY to the hand, Deck, and/or Extra Deck.\r\n● Special Summon a Monster Card(s) from the GY.\r\n● Banish a card(s) from the GY.\r\nYou can only use this effect of \"Ghost Belle & Haunted Mansion\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
       }
     ]
   },
@@ -6147,31 +6242,6 @@
         "boxType": "Selection Box Mini",
         "amount": 1,
         "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-03/"
-      }
-    ]
-  },
-  "Ghost Belle & Haunted Mansion": {
-    "name": "Ghost Belle & Haunted Mansion",
-    "pt": "Fantasma Belle & Mansão Assombrada",
-    "image": "img/cards/ghost-belle-haunted-mansion.jpg",
-    "type": "Monster",
-    "race": "Zombie",
-    "attribute": "EARTH",
-    "level": 3,
-    "atk": 0,
-    "def": 1800,
-    "monsterType": [
-      "Effect",
-      "Tuner"
-    ],
-    "text": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that activation.\r\n● Add a card(s) from the GY to the hand, Deck, and/or Extra Deck.\r\n● Special Summon a Monster Card(s) from the GY.\r\n● Banish a card(s) from the GY.\r\nYou can only use this effect of \"Ghost Belle & Haunted Mansion\" once per turn.",
-    "obtain": [
-      {
-        "kind": "set",
-        "name": "Selection Box Vol.09",
-        "boxType": "Selection Box",
-        "amount": 1,
-        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
       }
     ]
   },

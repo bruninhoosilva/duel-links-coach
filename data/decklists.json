@@ -4477,7 +4477,7 @@
         "video": true,
         "author": "Ignister",
         "event": "Video list",
-        "created": "2026-10-13",
+        "created": "2026-11-03",
         "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
         "tier": null,
         "main": [
@@ -4577,6 +4577,110 @@
           }
         ],
         "mainSize": 30,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "video-yralps",
+        "video": true,
+        "author": "YRalps",
+        "event": "Video list",
+        "created": "2026-11-03",
+        "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+        "tier": null,
+        "main": [
+          {
+            "name": "Mathmech Sigma",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Diameter",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Nabla",
+            "count": 3
+          },
+          {
+            "name": "Mathmech Addition",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Subtraction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Multiplication",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Equation",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Induction",
+            "count": 1
+          },
+          {
+            "name": "Mathmech Superfactorial",
+            "count": 1
+          },
+          {
+            "name": "Centur-Ion Phalanx",
+            "count": 1
+          },
+          {
+            "name": "Emblema Oath",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Hey, Trunade!",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 3
+          }
+        ],
+        "extra": [
+          {
+            "name": "Geomathmech Final Sigma",
+            "count": 2
+          },
+          {
+            "name": "Centur-Ion Primera Primus",
+            "count": 1
+          },
+          {
+            "name": "Geomathmech Magma",
+            "count": 1
+          },
+          {
+            "name": "Primathmech Laplacian",
+            "count": 2
+          },
+          {
+            "name": "Decode Talker Heatsoul",
+            "count": 1
+          },
+          {
+            "name": "S-Force Justify",
+            "count": 1
+          },
+          {
+            "name": "Splash Mage",
+            "count": 1
+          }
+        ],
+        "mainSize": 28,
         "extraSize": 9,
         "distance": 0
       },
