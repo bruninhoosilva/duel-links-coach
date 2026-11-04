@@ -7324,5 +7324,780 @@
         "distance": 5
       }
     ]
+  },
+  "swordsoul": {
+    "defaultId": "video",
+    "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "Sorem",
+        "event": "Video list",
+        "created": "2026-11-03",
+        "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+        "tier": null,
+        "main": [
+          {
+            "name": "Incredible Ecclesia, the Virtuous",
+            "count": 3
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 1
+          },
+          {
+            "name": "The Golden Swordsoul",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Strategist Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Taia",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul of Mo Ye",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Emergence",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Sacred Summit",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Blackout",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Super Polymerization",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Khaos Starsource Dragon",
+            "count": 1
+          },
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Starving Venom Fusion Dragon",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "count": 1
+          }
+        ],
+        "mainSize": 20,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "6ae7f8aacf362d8ad9f72468",
+        "author": "⚡ThunderSan117⚡",
+        "event": "Spicy Win Streaks",
+        "created": "2026-11-02",
+        "url": "https://www.duellinksmeta.com/spicy-win-streaks/november-2026/swordsoul/⚡thundersan117⚡/NCSgT/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Incredible Ecclesia, the Virtuous",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Strategist Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Taia",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Auspice Chunjun",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Mo Ye",
+            "count": 1
+          },
+          {
+            "name": "The Golden Swordsoul",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Emergence",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Sacred Summit",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Blackout",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lubellion the Searing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Alba-Lenatus the Abyss Dragon",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Draco Berserker of the Tenyi",
+            "count": 1
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "count": 1
+          }
+        ],
+        "mainSize": 24,
+        "extraSize": 9,
+        "distance": 2.5
+      },
+      {
+        "id": "6ad1daf7c5d0e297ee948967",
+        "author": "cmorquecho",
+        "event": "King of Games",
+        "created": "2026-10-16",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/swordsoul/cmorquecho/jI13r/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Incredible Ecclesia, the Virtuous",
+            "count": 3
+          },
+          {
+            "name": "Ghost Ogre & Snow Rabbit",
+            "count": 1
+          },
+          {
+            "name": "Ghost Belle & Haunted Mansion",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Albion the Shrouded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Strategist Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Taia",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Auspice Chunjun",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Mo Ye",
+            "count": 2
+          },
+          {
+            "name": "The Golden Swordsoul",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Emergence",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Sacred Summit",
+            "count": 2
+          },
+          {
+            "name": "Branded Sword",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Blackout",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lubellion the Searing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Trishula, Zero Dragon of the Ice Barrier",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 6.5
+      },
+      {
+        "id": "6acfacc83017ee07bdf0f2eb",
+        "author": "JukaYGO'-'",
+        "event": "Spicy Win Streaks",
+        "created": "2026-10-14",
+        "url": "https://www.duellinksmeta.com/spicy-win-streaks/october-2026/swordsoul/jukaygo'-'/-trA3/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Incredible Ecclesia, the Virtuous",
+            "count": 3
+          },
+          {
+            "name": "Effect Veiler",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Albion the Shrouded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Strategist Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Tri-Brigade Mercourier",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul of Taia",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Auspice Chunjun",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Mo Ye",
+            "count": 1
+          },
+          {
+            "name": "The Golden Swordsoul",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 3
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Emergence",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Sacred Summit",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Blackout",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lubellion the Searing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Alba-Lenatus the Abyss Dragon",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Draco Berserker of the Tenyi",
+            "count": 1
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 7
+      },
+      {
+        "id": "6adfbcb7d4c2a49645adc14d",
+        "author": "Gargole",
+        "event": "King of Games",
+        "created": "2026-10-26",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/swordsoul/gargole/PeD83/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Incredible Ecclesia, the Virtuous",
+            "count": 3
+          },
+          {
+            "name": "Ghost Belle & Haunted Mansion",
+            "count": 2
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Albion the Shrouded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Strategist Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Taia",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Auspice Chunjun",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Mo Ye",
+            "count": 1
+          },
+          {
+            "name": "The Golden Swordsoul",
+            "count": 2
+          },
+          {
+            "name": "Forbidden Droplet",
+            "count": 2
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Emergence",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Sacred Summit",
+            "count": 2
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Blackout",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lubellion the Searing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "count": 1
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 9
+      },
+      {
+        "id": "6ae6907d293efb40926a8f3f",
+        "author": "Lelouch",
+        "event": "King of Games",
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/king-of-games/october-2026/swordsoul/lelouch/Xm-50/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Incredible Ecclesia, the Virtuous",
+            "count": 3
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Strategist Longyuan",
+            "count": 2
+          },
+          {
+            "name": "Tri-Brigade Mercourier",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Taia",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul of Mo Ye",
+            "count": 2
+          },
+          {
+            "name": "The Golden Swordsoul",
+            "count": 2
+          },
+          {
+            "name": "Dark Ruler No More",
+            "count": 1
+          },
+          {
+            "name": "Mystical Space Typhoon",
+            "count": 1
+          },
+          {
+            "name": "Forbidden Chalice",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Emergence",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Sacred Summit",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Blackout",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Titaniklad the Ash Dragon",
+            "count": 1
+          },
+          {
+            "name": "Alba-Lenatus the Abyss Dragon",
+            "count": 1
+          },
+          {
+            "name": "Brigrand the Glory Dragon",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "count": 1
+          }
+        ],
+        "mainSize": 24,
+        "extraSize": 9,
+        "distance": 13
+      },
+      {
+        "id": "6ae633f4fd3cfaedf8efcf98",
+        "author": "Communism",
+        "event": "Spicy Win Streaks",
+        "created": "2026-10-31",
+        "url": "https://www.duellinksmeta.com/spicy-win-streaks/october-2026/swordsoul/communism/VI703/",
+        "tier": null,
+        "main": [
+          {
+            "name": "Mulcharmy Fuwalos",
+            "count": 3
+          },
+          {
+            "name": "Incredible Ecclesia, the Virtuous",
+            "count": 3
+          },
+          {
+            "name": "Ghost Ogre & Snow Rabbit",
+            "count": 1
+          },
+          {
+            "name": "Ghost Belle & Haunted Mansion",
+            "count": 1
+          },
+          {
+            "name": "Ghost Mourner & Moonlit Chill",
+            "count": 1
+          },
+          {
+            "name": "Mulcharmy Purulia",
+            "count": 3
+          },
+          {
+            "name": "Fallen of Albaz",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Strategist Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Taia",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Auspice Chunjun",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul of Mo Ye",
+            "count": 2
+          },
+          {
+            "name": "The Golden Swordsoul",
+            "count": 2
+          },
+          {
+            "name": "Book of Eclipse",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Emergence",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sacred Summit",
+            "count": 2
+          },
+          {
+            "name": "Infinite Impermanence",
+            "count": 3
+          },
+          {
+            "name": "Swordsoul Blackout",
+            "count": 1
+          },
+          {
+            "name": "Mutually Affured Destruction",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "count": 1
+          },
+          {
+            "name": "Lubellion the Searing Dragon",
+            "count": 1
+          },
+          {
+            "name": "Albion the Branded Dragon",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "count": 1
+          },
+          {
+            "name": "Draco Berserker of the Tenyi",
+            "count": 1
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "count": 1
+          }
+        ],
+        "mainSize": 30,
+        "extraSize": 9,
+        "distance": 17
+      }
+    ]
   }
 }

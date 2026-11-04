@@ -14,4 +14,5 @@
 | [Memento](memento.md) | verified | 2026-10-14 | Precious Cards of the Dark | 1 | 26 |
 | [Red-Eyes](red-eyes.md) | verified | 2026-10-19 | Red-Eyes Armament | 1 | 25 |
 | [Shining Sarcophagus](shining-sarcophagus.md) | verified | 2026-10-19 | Light the Way to the Future | 2 | 31 |
+| [Swordsoul](swordsoul.md) | verified | 2026-11-03 | Intertwining Memories | 1 | 20 |
 

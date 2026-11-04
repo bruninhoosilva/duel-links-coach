@@ -12532,5 +12532,1015 @@
         "why": "Check which cards you already own before you choose: the Alternatives below show the cards each creator says you can swap."
       }
     ]
+  },
+  "swordsoul": {
+    "deck": "Swordsoul",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-11-03",
+    "featuredCard": "Swordsoul Supreme Sovereign - Chengying",
+    "skill": {
+      "name": "Intertwining Memories",
+      "enablerCards": [
+        "Incredible Ecclesia, the Virtuous",
+        "Fallen of Albaz",
+        "The Golden Swordsoul",
+        "Swordsoul Emergence"
+      ],
+      "trigger": "Effect 2 can be used once per turn and twice per Duel. Effect 1 is always on: you can only Summon Swordsoul, Ecclesia, Tri-Brigade, Springans and Icejade monsters and Fallen of Albaz or cards that mention it (Extra Deck Special Summons are not restricted).",
+      "enabler": "Effect 1: you cannot Normal or Special Summon any monster (except from the Extra Deck) that is not a card that mentions Fallen of Albaz, Fallen of Albaz itself, or an Ecclesia, Tri-Brigade, Springans, Swordsoul or Icejade monster. If the opponent has a card on the field or in the Graveyard you can Normal Summon an extra monster in your Main Phase. Effect 2 (once per turn, twice per Duel): reveal Fallen of Albaz or a monster that mentions it, then add 2 cards from Ecclesia, Tri-Brigade, Springans, Swordsoul, Icejade cards and/or Branded in High Spirits from your deck to your hand.",
+      "adds": []
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "CURSO COMPLETO DE SWORDSOUL! VOLUME DE JOGO INSANO! Yu-Gi-Oh! Duel Links (Portuguese deck explanation, four replays)",
+        "creator": "Sorem",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk"
+      }
+    ],
+    "gamePlan": "A 20-card Synchro deck. On turn one you use the skill (revealing Incredible Ecclesia, Golden Swordsoul, Fallen of Albaz or a card that finds them) to add Swordsoul Strategist Longyuan and Swordsoul Emergence, then make Chengying with Longyuan and a Token, Chixiao with Mo Ye and a Token (Chixiao finds Blackout, Mo Ye draws), and Adamancipator Risen - Dragite with Taia (brought back with Sacred Summit) and a Token. You finish with three Synchro Monsters (negate a monster, negate a Spell/Trap, and banish cards from the field and Graveyard), plus Blackout Set. On turn two you use Fallen of Albaz with Super Polymerization in response, then the same Synchros, and Baxia sends two cards back to the deck. The creator calls it a fair deck: it suffers against Lava Golem, but it passes with three monsters and returns to games.",
+    "strengths": [
+      "A very strong turn one: three Synchro Monsters (a monster negate, a Spell/Trap negate and a banish engine) with Blackout Set.",
+      "Turn two is also strong: Ecclesia is a free Special Summon when the opponent has monsters, and Fallen of Albaz with Super Polymerization in response beats a single negate.",
+      "The deck draws a lot (Mo Ye, Qixing Longyuan) and the Synchros banish cards, which keeps Chengying growing and triggers its banish effect.",
+      "Very stable: the creator says the 20-card list gives a skill that is easy to activate (9 of 20 cards reveal or find it), and that even without the skill you still get a decent turn."
+    ],
+    "weaknesses": [
+      "It suffers against Lava Golem (like most decks), though passing with three monsters makes the opponent choose.",
+      "Every Token you summon blocks Extra Deck Special Summons except Synchro Monsters until it leaves, so you cannot Link, Xyz or Fusion Summon after it.",
+      "Two Level 10 Synchros are hard to get in one turn, so the Qixing Longyuan line is not the recommended one.",
+      "The deck is a rogue deck, not top tier, according to the creator; it needs experience to play well against different decks.",
+      "The skill only lets you Summon Swordsoul, Ecclesia, Tri-Brigade, Springans, Icejade monsters and Fallen of Albaz or cards that mention it, so the list is closed: the creator says there is almost no room for other cards."
+    ],
+    "cards": [
+      {
+        "name": "Incredible Ecclesia, the Virtuous",
+        "role": "starter",
+        "copies": 3,
+        "note": "LIGHT Level 4 Tuner and Spellcaster. If the opponent controls more monsters than you, Special Summon it from your hand (once per turn). In the Main Phase (Quick Effect, not in the Battle Phase) Tribute it to Special Summon a Swordsoul monster or Fallen of Albaz from your hand or deck. In the End Phase, if a Fusion Monster went to your Graveyard this turn, it returns to your hand. It is the card the skill reveals because it mentions Albaz, and on turn two it is a free Special Summon. The creator says two copies run fine, but he needs three.",
+        "substitutes": [
+          {
+            "name": "Fallen of Albaz",
+            "why": "The skill can also be revealed with Fallen of Albaz or a card that mentions it, so Ecclesia is not the only way to start (the creator names Ecclesia, Golden Swordsoul and Swordsoul Emergence as the other revealers)."
+          }
+        ]
+      },
+      {
+        "name": "Fallen of Albaz",
+        "role": "extender",
+        "copies": 1,
+        "note": "A Super Polymerization in monster form. When Normal or Special Summoned, discard 1 card to Fusion Summon using monsters from either field, including itself. The opponent can answer it, but that makes them spend a card. The creator plays 1 because it is a card that holds the game, and Super Polymerization in response beats a negate: they use a card on Albaz and still lose a monster."
+      },
+      {
+        "name": "The Golden Swordsoul",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "LIGHT Level 4 Tuner and Spellcaster. When a monster declares an attack, Special Summon it from your hand and negate the attack (with a Fusion Monster that lists Albaz, you can also destroy the attacker). When a monster is banished face-up, banish it to Special Summon a LIGHT Spellcaster whose ATK equals its DEF from your hand or Graveyard (Ecclesia, 1500/1500). Counts as a way to reveal the skill and protects the turn. Limited to 2."
+      },
+      {
+        "name": "Swordsoul Strategist Longyuan",
+        "role": "starter",
+        "copies": 1,
+        "note": "Level 6 FIRE. Discard another Swordsoul card or a Wyrm monster to Special Summon it from your hand, then Special Summon a Swordsoul Token (Level 4 WATER Tuner). With the Token you make Level 10 Chengying. If it is sent to the Graveyard as Synchro material, 600 damage. The creator says one copy is right and two is fine if you like. The skill and Emergence are what find it."
+      },
+      {
+        "name": "Swordsoul of Taia",
+        "role": "extender",
+        "copies": 3,
+        "note": "Level 4 WIND. Banish a Swordsoul card or Wyrm monster from your Graveyard to Special Summon a Swordsoul Token (until the Token leaves you can only Special Summon Synchro Monsters from the Extra Deck). If it is sent to the Graveyard as Synchro material, send a Swordsoul card or Wyrm monster from your deck to the Graveyard. The creator wants 3 because you want to see it in your hand: it is your discard for Longyuan and the second Tuner for Dragite or Baxia. Its WIND Attribute matters for Baxia."
+      },
+      {
+        "name": "Swordsoul of Mo Ye",
+        "role": "extender",
+        "copies": 1,
+        "note": "Level 4 WATER. When Normal or Special Summoned, reveal a Swordsoul card or Wyrm monster in your hand to Special Summon a Token. If it is sent to the Graveyard as Synchro material, draw 1. The creator wants it in the deck, not the hand, so one copy is enough: Ecclesia brings it from the deck. Dragite needs a WATER monster in the Graveyard to negate: Mo Ye is the monster he uses."
+      },
+      {
+        "name": "Swordsoul Emergence",
+        "role": "starter",
+        "copies": 3,
+        "note": "Spell. Add a Swordsoul monster from your deck to your hand, or a Wyrm monster instead if you control a Synchro Monster. If banished, it changes the Level of a Swordsoul or Wyrm monster by 1. With Ecclesia, Golden Swordsoul, Albaz and the skill, it is one of the 9 cards of 20 that start the skill."
+      },
+      {
+        "name": "Swordsoul Sacred Summit",
+        "role": "extender",
+        "copies": 2,
+        "note": "Spell. Special Summon a Swordsoul monster from your Graveyard (or a Wyrm monster if you control a Synchro Monster). It brings back the Taia you discarded for Longyuan, which then makes another Token. If banished, it changes a monster's Level by 1: with Taia's banish effect and Chixiao, that is how the alternative Qixing Longyuan line gets its Level 6."
+      },
+      {
+        "name": "Swordsoul Blackout",
+        "role": "removal",
+        "copies": 1,
+        "note": "Trap, one of the cards you want on the board on turn one. Target 1 Wyrm monster you control and 2 cards your opponent controls; destroy them (without targeting for the opponent's cards). Chengying protects itself by banishing a card and then banishes another card from each of the opponent's field and Graveyard, so the combo costs you nothing. If banished, Special Summon a Token."
+      },
+      {
+        "name": "Forbidden Droplet",
+        "role": "removal",
+        "copies": 2,
+        "note": "The creator puts two Forbidden Droplet in \"because it was what the slot had\". The deck has only 20 cards, so it is not an automatic choice. Use it to negate effects at a key moment, or discard it for Super Polymerization or Longyuan."
+      },
+      {
+        "name": "Super Polymerization",
+        "role": "extender",
+        "copies": 1,
+        "note": "Limited to 1. Discard 1 card, Fusion Summon from your Extra Deck using monsters from either field, and the opponent cannot respond. The creator says it often wins games with this deck: if the opponent has 2 DARK monsters, Starving Venom Fusion Dragon takes both and gives you a body. With Albaz it answers a negate on Albaz, and Albion, Mirrorjade and Khaos Starsource Dragon are generic enough to fuse with any monster."
+      },
+      {
+        "name": "Swordsoul Supreme Sovereign - Chengying",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Level 10 WATER Synchro: Longyuan (Level 6) and the Token (Level 4). Gains 100 ATK and DEF for each banished card and the opponent's monsters lose the same. If it would be destroyed by a card effect, banish a card from your Graveyard instead. When any card is banished, banish 1 card from the opponent's field and 1 from their Graveyard (once per turn). The creator calls it one of the best Level 10 Synchros in the game, and says it saved him in a replay."
+      },
+      {
+        "name": "Swordsoul Grandmaster - Chixiao",
+        "role": "extender",
+        "copies": 1,
+        "note": "Level 8 LIGHT Synchro made from Mo Ye and a Token. When Synchro Summoned, add or banish a Swordsoul card from your deck (usually to find Blackout). Quick Effect: banish a Swordsoul card or Wyrm monster from your hand or Graveyard and negate an Effect Monster on the field until the end of the turn. He used to play two, but now one is enough for the tight deck."
+      },
+      {
+        "name": "Adamancipator Risen - Dragite",
+        "role": "removal",
+        "copies": 1,
+        "note": "Level 8 WATER Synchro from any Tuner and non-Tuner (Taia and the Token). It is in the list only for its negate: when the opponent activates a Spell/Trap while a WATER monster is in your Graveyard (Mo Ye), negate and destroy it. Its other effect excavates 5 cards and returns opponent's cards to the hand."
+      },
+      {
+        "name": "Baxia, Brightness of the Yang Zing",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Level 8 LIGHT Synchro Wyrm. When Synchro Summoned, shuffle cards on the field back into the deck, up to the number of different original Attributes among the Wyrm monsters used. The creator makes it with Taia (WIND) and the Token (WATER), not Mo Ye (WATER), so that it counts 2 Attributes and sends 2 cards back. Once per turn it can destroy a card you control to Special Summon a Level 4 or lower monster from your Graveyard (such as Albaz or Ecclesia)."
+      },
+      {
+        "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+        "role": "extender",
+        "copies": 1,
+        "note": "Level 10 FIRE Synchro. Draws a card when you Synchro Summon another Wyrm Synchro Monster, and can banish a monster the opponent Special Summons (600 damage) or banish a Spell/Trap they activate (600 damage). The creator says it is good on turn one but that a second Level 10 Synchro is hard to make, so he prefers the three-Synchro line (Chengying, Dragite and Chixiao). Making it needs Taia to banish Emergence or Sacred Summit and Chixiao to banish the other."
+      },
+      {
+        "name": "Mirrorjade the Iceblade Dragon",
+        "role": "removal",
+        "copies": 1,
+        "note": "DARK Level 8 Fusion: Fallen of Albaz + a Fusion, Synchro, Xyz or Link Monster. Only 1 on the field. Once per turn (Quick Effect) send a Fusion Monster that lists Albaz as material from your Extra Deck to the Graveyard (usually Albion) to banish a monster on the field. If it leaves the field by the opponent's effect, destroy all of their monsters in the End Phase. The creator makes it straight away because Albaz plus the opponent's Synchro, Xyz or Link is easy."
+      },
+      {
+        "name": "Albion the Branded Dragon",
+        "role": "extender",
+        "copies": 1,
+        "note": "DARK Level 8 Fusion: Fallen of Albaz + a LIGHT monster. When Fusion Summoned, Fusion Summon another Level 8 or lower Fusion Monster by banishing its materials from your hand, field or Graveyard (that makes Mirrorjade). It is the play when the opponent has only LIGHT monsters or nothing else works, and it can be sent as the Mirrorjade cost."
+      },
+      {
+        "name": "Khaos Starsource Dragon",
+        "role": "removal",
+        "copies": 1,
+        "note": "DARK Level 8 Fusion: a LIGHT or DARK Dragon + another Dragon (Albaz counts as DARK Dragon). When Fusion Summoned, destroy up to as many opponent cards as the LIGHT and DARK monsters used. The creator makes it with Super Polymerization and Albaz. The captions call it \"Origin Chaos Dragon\"; it was matched by its description and the list."
+      },
+      {
+        "name": "Starving Venom Fusion Dragon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "DARK Level 8 Fusion: 2 DARK monsters on the field (not Tokens). Gains the ATK of one of the opponent's Special Summoned monsters, can take the name and effects of a Level 5 or higher monster they control, and destroys all of their Special Summoned monsters if it is destroyed. The creator says Super Polymerization plus 2 DARK monsters of the opponent is very strong. He says \"except Fish\" but the data says \"except Tokens\"; the data text is used.",
+        "substitutes": [
+          {
+            "name": "Starving Venom Predapower Fusion Dragon",
+            "why": "The creator mentions that some players use Starving Venom Predapower Fusion Dragon here (a Level 10 Fusion: a DARK Fusion Monster + another Fusion Monster). He does not recommend it in his list."
+          }
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Incredible Ecclesia, the Virtuous",
+        "partners": [
+          {
+            "name": "Swordsoul of Mo Ye",
+            "reason": "Ecclesia Tributes herself to Special Summon Mo Ye from the deck; Mo Ye then Special Summons a Token, so you have a Tuner and a non-Tuner for Chixiao.",
+            "link": "brings out"
+          },
+          {
+            "name": "Fallen of Albaz",
+            "reason": "Ecclesia can Special Summon Fallen of Albaz from the hand or deck, and Albaz then Fusion Summons by discarding 1 card.",
+            "link": "brings out"
+          }
+        ]
+      },
+      {
+        "card": "Swordsoul Strategist Longyuan",
+        "partners": [
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "reason": "Longyuan (Level 6) and the Token it summons (Level 4) make Level 10 Chengying on their own, and Longyuan deals 600 damage as material.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Swordsoul of Taia",
+        "partners": [
+          {
+            "name": "Swordsoul Sacred Summit",
+            "reason": "Sacred Summit brings Taia back from the Graveyard (it was discarded for Longyuan), and Taia then makes another Token.",
+            "link": "comes back with"
+          },
+          {
+            "name": "Baxia, Brightness of the Yang Zing",
+            "reason": "Taia (WIND) and the Token (WATER) as materials give Baxia 2 different Attributes, so it sends 2 cards back to the deck.",
+            "link": "is material for"
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "reason": "Taia and the Token are the Tuner and non-Tuner for Adamancipator Risen - Dragite.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Swordsoul of Mo Ye",
+        "partners": [
+          {
+            "name": "Swordsoul Grandmaster - Chixiao",
+            "reason": "Mo Ye and the Token it summons make Chixiao; when Mo Ye goes to the Graveyard as material it draws a card.",
+            "link": "is material for"
+          },
+          {
+            "name": "Adamancipator Risen - Dragite",
+            "reason": "A WATER monster in your Graveyard (Mo Ye) is what Dragite needs to negate a Spell/Trap.",
+            "link": "turns on"
+          }
+        ]
+      },
+      {
+        "card": "Swordsoul Supreme Sovereign - Chengying",
+        "partners": [
+          {
+            "name": "Swordsoul Blackout",
+            "reason": "Blackout destroys your own Wyrm monster, but Chengying banishes a card from your Graveyard instead of being destroyed, so you destroy 2 of their cards for free and Chengying banishes more.",
+            "link": "protects itself from"
+          },
+          {
+            "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+            "reason": "Both react to banished cards: Chengying banishes another card for each banish and gains ATK.",
+            "link": "works with"
+          }
+        ]
+      },
+      {
+        "card": "Fallen of Albaz",
+        "partners": [
+          {
+            "name": "Super Polymerization",
+            "reason": "If the opponent answers Albaz's effect with a negate, Super Polymerization in response fuses Albaz with a monster of theirs and they cannot respond.",
+            "link": "is protected by"
+          },
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "reason": "Albaz plus a Synchro, Xyz, Link or Fusion Monster of the opponent is Mirrorjade.",
+            "link": "is material for"
+          },
+          {
+            "name": "Khaos Starsource Dragon",
+            "reason": "Albaz counts as a DARK Dragon, so with another Dragon it makes Khaos Starsource Dragon.",
+            "link": "is material for"
+          }
+        ]
+      },
+      {
+        "card": "Albion the Branded Dragon",
+        "partners": [
+          {
+            "name": "Mirrorjade the Iceblade Dragon",
+            "reason": "Albion is the Fusion Monster you send from the Extra Deck as Mirrorjade's cost, so it can banish a monster at no card cost.",
+            "link": "pays for"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "turn-1-three-synchros",
+        "title": "Turn 1 (replay vs a Brazilian duelist): Chengying, Chixiao and Dragite with Blackout Set",
+        "hand": [
+          "Incredible Ecclesia, the Virtuous",
+          "Swordsoul of Taia",
+          "Swordsoul Sacred Summit"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Incredible Ecclesia, the Virtuous",
+            "Swordsoul of Taia"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1: you cannot Normal or Special Summon any monster (except from the Extra Deck) that is not a card that mentions Fallen of Albaz, Fallen of Albaz itself, or an Ecclesia, Tri-Brigade, Springans, Swordsoul or Icejade monster. If the opponent has a card on the field or in the Graveyard you can Normal Summon an extra monster in your Main Phase. Effect 2 (once per turn, twice per Duel): reveal Fallen of Albaz or a monster that mentions it, then add 2 cards from Ecclesia, Tri-Brigade, Springans, Swordsoul, Icejade cards and/or Branded in High Spirits from your deck to your hand. In the replay he reveals Incredible Ecclesia and adds Swordsoul Strategist Longyuan and Swordsoul Emergence. The creator says to add Longyuan and Taia, and Sacred Summit if you already have one of them."
+        },
+        "start": {
+          "hand": [
+            "Incredible Ecclesia, the Virtuous",
+            "Swordsoul of Taia",
+            "Swordsoul Sacred Summit",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The hand of the creator's turn-one replay is not shown clearly; the cards named in the narration are Incredible Ecclesia, Swordsoul of Taia (discarded for Longyuan) and Swordsoul Sacred Summit (used later), plus two cards that are not named. He says this is the same turn-one almost every time, and it depends on what is in your hand."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Intertwining Memories",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal Incredible Ecclesia (it mentions Fallen of Albaz).",
+            "gives": "Add Swordsoul Strategist Longyuan and Swordsoul Emergence from your deck.",
+            "used": true,
+            "reason": "The skill finds the Longyuan that makes the first Synchro.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "28:51"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Swordsoul Emergence",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Strategist Longyuan",
+            "action": "special-summon",
+            "reason": "Discard Swordsoul of Taia to Special Summon Longyuan from your hand, then a Swordsoul Token (Level 4 Tuner). Taia in the Graveyard comes back later with Sacred Summit.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "28:58"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul of Taia",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Supreme Sovereign - Chengying",
+            "action": "special-summon",
+            "reason": "Synchro Summon Chengying (Level 10) with Longyuan (6) and the Token (4). Longyuan, sent to the Graveyard as material, deals 600 damage to the opponent.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:02"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul Supreme Sovereign - Chengying",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Incredible Ecclesia, the Virtuous",
+            "action": "normal-summon",
+            "reason": "Normal Summon Incredible Ecclesia.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:08"
+            },
+            "moves": [
+              {
+                "card": "Incredible Ecclesia, the Virtuous",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Incredible Ecclesia, the Virtuous",
+            "action": "activate",
+            "reason": "Quick Effect (Main Phase): Tribute Ecclesia to Special Summon Swordsoul of Mo Ye from your deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:09"
+            },
+            "moves": [
+              {
+                "card": "Incredible Ecclesia, the Virtuous",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul of Mo Ye",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul of Mo Ye",
+            "action": "activate",
+            "reason": "Reveal a Swordsoul card in your hand (for example Swordsoul Emergence) to Special Summon a Swordsoul Token. With Mo Ye and the Token you make the next Synchro.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:13"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Grandmaster - Chixiao",
+            "action": "special-summon",
+            "reason": "Synchro Summon Chixiao (Level 8) with the Token (Tuner) and Mo Ye (4 + 4). Use Chixiao's effect first and Mo Ye's after: Mo Ye resolves first in the chain, so order matters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:15"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul of Mo Ye",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul Grandmaster - Chixiao",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Grandmaster - Chixiao",
+            "action": "activate",
+            "reason": "When Synchro Summoned, add a Swordsoul card from your deck to your hand: Swordsoul Blackout. (It could also be a Forbidden Droplet or Super Polymerization.)",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:23"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Blackout",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul of Mo Ye",
+            "action": "activate",
+            "reason": "Mo Ye was sent to the Graveyard as Synchro material: draw 1 card (The Golden Swordsoul in the video).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:21"
+            },
+            "moves": [
+              {
+                "card": "The Golden Swordsoul",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Sacred Summit",
+            "action": "activate",
+            "reason": "Swordsoul Sacred Summit: Special Summon the Swordsoul of Taia you discarded from the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:30"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Sacred Summit",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul of Taia",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul of Taia",
+            "action": "activate",
+            "reason": "Banish a Swordsoul card or Wyrm monster from your Graveyard (Longyuan) to Special Summon a Swordsoul Token.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:35"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "graveyard",
+                "to": "banished"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Adamancipator Risen - Dragite",
+            "action": "special-summon",
+            "reason": "Synchro Summon Adamancipator Risen - Dragite (Level 8) with Taia and the Token. You now have three Synchro Monsters: Chengying, Chixiao and Dragite.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:40"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul of Taia",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Adamancipator Risen - Dragite",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Blackout",
+            "action": "set",
+            "reason": "Set Swordsoul Blackout and pass (the creator also Sets another card and keeps a protection card in his hand, such as Forbidden Droplet or Super Polymerization).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "29:42"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Blackout",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Blackout",
+            "action": "activate",
+            "reason": "On the opponent's turn, activate Blackout: choose Chengying and 2 cards of the opponent. Chengying banishes a card from your Graveyard instead of being destroyed, so you destroy 2 cards for free, and because a card was banished it banishes 1 card from their field and 1 from their Graveyard. The creator says this was a combo he had not described in the video.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "30:21"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Blackout",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The opponent (a deck the creator calls weak) tried to Summon Mo Ye, and Chixiao negated it by banishing a card. The creator says this board has a monster effect negate (Chixiao), a Spell/Trap negate (Dragite), a banish of the field and Graveyard (Chengying), and Blackout to destroy 2 cards, plus a protection card in hand. The replay is a simple one: it exists to show the turn-one combo.",
+        "endBoard": "Chengying, Chixiao and Adamancipator Risen - Dragite on the field, Swordsoul Blackout Set (and another Set card in the video) with Golden Swordsoul and a protection card in your hand.",
+        "weakSpots": "The creator says the deck suffers against Lava Golem, but that you pass with three monsters, so the opponent has to choose what to remove (unless they have a Nibiru or Lava Golem plus something else). While a Token is on the field you can only Special Summon Synchro Monsters from your Extra Deck, so no Link, Xyz or Fusion until it leaves. Chixiao's search order matters: use its effect before Mo Ye's draw."
+      },
+      {
+        "id": "turn-2-vs-galaxy-photon",
+        "title": "Turn 2 (replay vs Galaxy-Eyes Photon): Albaz with Super Polymerization in response, then Baxia returns 2 cards",
+        "hand": [
+          "Incredible Ecclesia, the Virtuous",
+          "Fallen of Albaz",
+          "Super Polymerization",
+          "Forbidden Droplet"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Incredible Ecclesia, the Virtuous",
+            "Fallen of Albaz"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1: you cannot Normal or Special Summon any monster (except from the Extra Deck) that is not a card that mentions Fallen of Albaz, Fallen of Albaz itself, or an Ecclesia, Tri-Brigade, Springans, Swordsoul or Icejade monster. If the opponent has a card on the field or in the Graveyard you can Normal Summon an extra monster in your Main Phase. Effect 2 (once per turn, twice per Duel): reveal Fallen of Albaz or a monster that mentions it, then add 2 cards from Ecclesia, Tri-Brigade, Springans, Swordsoul, Icejade cards and/or Branded in High Spirits from your deck to your hand. Here he reveals Incredible Ecclesia and adds Longyuan and Swordsoul Emergence; Emergence then adds Taia."
+        },
+        "start": {
+          "hand": [
+            "Incredible Ecclesia, the Virtuous",
+            "Fallen of Albaz",
+            "Super Polymerization",
+            "Forbidden Droplet",
+            "Unknown card"
+          ],
+          "note": "The creator's hand is not shown clearly: from the narration he has Incredible Ecclesia, Fallen of Albaz, Super Polymerization and a Forbidden Droplet (discarded) plus a card that is not named. The opponent (Galaxy-Eyes Photon) went first and has Number 90 with two Set cards. This line is told by the creator at speed, so the order is medium confidence."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Intertwining Memories",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal Incredible Ecclesia.",
+            "gives": "Add Swordsoul Strategist Longyuan and Swordsoul Emergence.",
+            "used": true,
+            "reason": "The skill again finds Longyuan, plus the spell that finds Taia.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "38:03"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Swordsoul Emergence",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Emergence",
+            "action": "activate",
+            "reason": "Swordsoul Emergence: add Swordsoul of Taia from your deck to your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "38:08"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Emergence",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul of Taia",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Fallen of Albaz",
+            "action": "normal-summon",
+            "reason": "Normal Summon Fallen of Albaz (you get an extra Normal Summon because the opponent has cards) and discard a Swordsoul card to start the Fusion Summon. The opponent answers with Number 90, negating Albaz's effect: that is what the creator wanted.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "38:12"
+            },
+            "moves": [
+              {
+                "card": "Fallen of Albaz",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Super Polymerization",
+            "action": "activate",
+            "reason": "In response, Super Polymerization (discard Forbidden Droplet, a card you no longer need): Fusion Summon Khaos Starsource Dragon with Albaz and a monster of the opponent. Neither player can respond. Even though Albaz's effect is negated, you still get the Fusion Monster.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "38:27"
+            },
+            "moves": [
+              {
+                "card": "Super Polymerization",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Forbidden Droplet",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Fallen of Albaz",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Khaos Starsource Dragon",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Khaos Starsource Dragon",
+            "action": "activate",
+            "reason": "Khaos Starsource Dragon destroys a card of the opponent (it hit Tachyon Transmigration). The opponent then negates Khaos and it goes back to the Extra Deck: \"it is negated, fine, it came back\".",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "38:38"
+            },
+            "moves": [
+              {
+                "card": "Khaos Starsource Dragon",
+                "from": "monster-zone",
+                "to": "extra-deck"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Incredible Ecclesia, the Virtuous",
+            "action": "special-summon",
+            "reason": "Special Summon Ecclesia from your hand (the opponent controls more monsters), then Tribute her to Special Summon Swordsoul of Mo Ye from your deck. The creator says Mo Ye's effect might be negated and that is fine.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "38:55"
+            },
+            "moves": [
+              {
+                "card": "Incredible Ecclesia, the Virtuous",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Incredible Ecclesia, the Virtuous",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul of Mo Ye",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Grandmaster - Chixiao",
+            "action": "special-summon",
+            "reason": "Mo Ye summons a Token; Synchro Summon Chixiao with the Token and Mo Ye. Chixiao searches the card you are missing (probably Sacred Summit, which he uses later; the video does not name it) and Mo Ye draws 1 card.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "39:05"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul of Mo Ye",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul Grandmaster - Chixiao",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Swordsoul Sacred Summit",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Strategist Longyuan",
+            "action": "special-summon",
+            "reason": "Discard Swordsoul of Taia to Special Summon Longyuan from your hand with a Token.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "39:12"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul of Taia",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Supreme Sovereign - Chengying",
+            "action": "special-summon",
+            "reason": "Synchro Summon Chengying with Longyuan and the Token (Longyuan deals 600 damage). Chengying banishes the opponent's Photon Dragon from the field and another monster from their Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "39:16"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul Supreme Sovereign - Chengying",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul Sacred Summit",
+            "action": "activate",
+            "reason": "Swordsoul Sacred Summit: bring Taia back from the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "39:22"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Sacred Summit",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Swordsoul of Taia",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Swordsoul of Taia",
+            "action": "activate",
+            "reason": "Banish Longyuan from the Graveyard to Special Summon a Token. A card was banished, so Chengying banishes a card of the opponent again.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "39:27"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul Strategist Longyuan",
+                "from": "graveyard",
+                "to": "banished"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Baxia, Brightness of the Yang Zing",
+            "action": "special-summon",
+            "reason": "Synchro Summon Baxia with Taia (WIND) and the Token (WATER): 2 different Attributes, so it shuffles 2 cards of the opponent back into their deck. The creator says it is over after this.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=HWLEhA9aYzk",
+              "timestamp": "39:42"
+            },
+            "moves": [
+              {
+                "card": "Swordsoul of Taia",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Baxia, Brightness of the Yang Zing",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The opponent had Rebellion Dragon, Number 90 and 2 Set cards. The creator says the Albaz plus Super Polymerization play is the strongest tool of this deck: a negate on Albaz still costs them a card, and the Fusion Monster destroys a card. Afterwards the deck makes Chixiao, Chengying and Baxia from Ecclesia, Mo Ye, Longyuan and Taia. He adds that with Super Polymerization in hand he wins many games on turn two.",
+        "endBoard": "Chixiao, Chengying and Baxia on the field. The opponent lost Photon Dragon, a monster from their Graveyard and 2 cards shuffled back into their deck.",
+        "weakSpots": "If Albaz resolves unanswered, you still pay a card. The creator says Super Polymerization is best when the opponent has 2 DARK monsters (it takes both for Starving Venom Fusion Dragon). Order of the replay at speed is medium confidence, and Khaos going back to the Extra Deck is read from \"it was negated, it came back\"."
+      }
+    ],
+    "videoList": {
+      "main": [
+        {
+          "name": "Incredible Ecclesia, the Virtuous",
+          "count": 3
+        },
+        {
+          "name": "Fallen of Albaz",
+          "count": 1
+        },
+        {
+          "name": "The Golden Swordsoul",
+          "count": 2
+        },
+        {
+          "name": "Swordsoul Strategist Longyuan",
+          "count": 1
+        },
+        {
+          "name": "Swordsoul of Taia",
+          "count": 3
+        },
+        {
+          "name": "Swordsoul of Mo Ye",
+          "count": 1
+        },
+        {
+          "name": "Swordsoul Emergence",
+          "count": 3
+        },
+        {
+          "name": "Swordsoul Sacred Summit",
+          "count": 2
+        },
+        {
+          "name": "Swordsoul Blackout",
+          "count": 1
+        },
+        {
+          "name": "Forbidden Droplet",
+          "count": 2
+        },
+        {
+          "name": "Super Polymerization",
+          "count": 1
+        }
+      ],
+      "extra": [
+        {
+          "name": "Khaos Starsource Dragon",
+          "count": 1
+        },
+        {
+          "name": "Mirrorjade the Iceblade Dragon",
+          "count": 1
+        },
+        {
+          "name": "Starving Venom Fusion Dragon",
+          "count": 1
+        },
+        {
+          "name": "Albion the Branded Dragon",
+          "count": 1
+        },
+        {
+          "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+          "count": 1
+        },
+        {
+          "name": "Baxia, Brightness of the Yang Zing",
+          "count": 1
+        },
+        {
+          "name": "Swordsoul Supreme Sovereign - Chengying",
+          "count": 1
+        },
+        {
+          "name": "Adamancipator Risen - Dragite",
+          "count": 1
+        },
+        {
+          "name": "Swordsoul Grandmaster - Chixiao",
+          "count": 1
+        }
+      ]
+    }
   }
 }

@@ -8264,5 +8264,944 @@
         "url": "https://www.duellinksmeta.com/sets/destruction-geas/"
       }
     ]
+  },
+  "Adamancipator Risen - Dragite": {
+    "name": "Adamancipator Risen - Dragite",
+    "pt": "Ressurgido Adamancipador - Dragita",
+    "image": "img/cards/adamancipator-risen-dragite.jpg",
+    "type": "Monster",
+    "race": "Rock",
+    "attribute": "WATER",
+    "level": 8,
+    "atk": 3000,
+    "def": 2200,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\nDuring your Main Phase: You can excavate the top 5 cards of your Deck, and if you do, you can return cards your opponent controls to the hand, up to the number of excavated Rock monsters, also place the excavated cards on the bottom of your Deck in any order. When your opponent activates a Spell/Trap Card or effect, while a WATER monster is in your GY (Quick Effect): You can negate the activation, and if you do, destroy it. You can only use each effect of \"Adamancipator Risen - Dragite\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Millennium Duel",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/millennium-duel/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Albion the Shrouded Dragon": {
+    "name": "Albion the Shrouded Dragon",
+    "pt": "Albion, o Dragão Encoberto",
+    "image": "img/cards/albion-the-shrouded-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "This card's name becomes \"Fallen of Albaz\" while on the field or in the GY. If this card is in your hand or GY: You can send 1 \"Fallen of Albaz\" or 1 \"Branded\" Spell/Trap from your hand or Deck to the GY; apply the following effect, depending on where that card was sent from.\n● Hand: Special Summon this card.\n● Deck: Place this card on the bottom of the Deck, then, if it was placed from the hand, draw 1 card.\nYou can only use this effect of \"Albion the Shrouded Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      },
+      {
+        "kind": "set",
+        "name": "Chaos Voltage",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/chaos-voltage/"
+      }
+    ]
+  },
+  "Baxia, Brightness of the Yang Zing": {
+    "name": "Baxia, Brightness of the Yang Zing",
+    "pt": "Baxia, Brilho de Yang Zing",
+    "image": "img/cards/baxia-brightness-of-the-yang-zing.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2300,
+    "def": 2600,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1 or more non-Tuner Wyrm-Type monsters\nWhen this card is Synchro Summoned: You can target cards on the field, up to the number of different original Attributes of the Wyrm-Type monsters used for the Synchro Summon of this card; shuffle them into the Deck. Once per turn: You can target 1 card you control and 1 Level 4 or lower monster in your Graveyard; destroy that card on the field, and if you do, Special Summon that other monster from the Graveyard.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Fantastic Arc",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/fantastic-arc/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 04",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-04/"
+      }
+    ]
+  },
+  "Branded Sword": {
+    "name": "Branded Sword",
+    "pt": "Espada do Marcado",
+    "image": "img/cards/branded-sword.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Banish any number of \"Branded\" Spells/Traps from your GY; Special Summon that many \"Iceblade Tokens\" (Dragon/DARK/Level 8/ATK 2500/DEF 2000). You can banish this card from your GY, then target 1 of your banished monsters that is \"Fallen of Albaz\" or mentions it; add that monster to your hand. You can only use 1 \"Branded Sword\" effect per turn, and only once that turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Zodiac Destiny",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/zodiac-shot/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Brigrand the Glory Dragon": {
+    "name": "Brigrand the Glory Dragon",
+    "pt": "Brigrand, o Dragão da Glória",
+    "image": "img/cards/brigrand-the-glory-dragon.jpg",
+    "type": "Monster",
+    "race": "Beast",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Fallen of Albaz\" + 1 Level 8 or higher monster\r\nCannot be destroyed by battle. While you control this Fusion Summoned card, your opponent cannot target other monsters you control with monster effects. During the End Phase, if this card is in the GY because it was sent there this turn: You can add to your hand, or Special Summon, 1 \"Tri-Brigade\" monster or 1 \"Fallen of Albaz\" from your Deck. You can only use this effect of \"Brigrand the Glory Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Rainbow Overdrive",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/rainbow-overdrive/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.09",
+        "boxType": "Selection Box",
+        "amount": 10,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-09/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Dark Ruler No More": {
+    "name": "Dark Ruler No More",
+    "pt": "Governante Sombrio, Não Mais!",
+    "image": "img/cards/dark-ruler-no-more.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Negate the effects of all face-up monsters your opponent currently controls, until the end of this turn, also, for the rest of this turn after this card resolves, your opponent takes no damage. Neither player can activate monster effects in response to this card's activation.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Eternal Stream",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/eternal-stream/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.06",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-super-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Draco Berserker of the Tenyi": {
+    "name": "Draco Berserker of the Tenyi",
+    "pt": "Draco Enfurecido dos Tenyi",
+    "image": "img/cards/draco-berserker-of-the-tenyi.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 3000,
+    "def": 0,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner monsters\r\nWhen your opponent activates a monster's effect (Quick Effect): You can banish it. If this attacking card destroys an Effect Monster by battle and sends it to the GY: This card gains ATK equal to the destroyed monster's original ATK, also it can make a second attack on a monster during this Battle Phase. You can only use each effect of \"Draco Berserker of the Tenyi\" once per turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "Forbidden Chalice": {
+    "name": "Forbidden Chalice",
+    "pt": "Cálice Proibido",
+    "image": "img/cards/forbidden-chalice.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 face-up monster on the field; until the end of this turn, that target gains 400 ATK, but its effects are negated.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.01",
+        "boxType": "Selection Box Mini",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-01/"
+      },
+      {
+        "kind": "set",
+        "name": "Servants of Kings",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/servants-of-kings/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "other",
+        "name": "Character Deck Respect Orb Exchange",
+        "url": null
+      }
+    ]
+  },
+  "Ghost Mourner & Moonlit Chill": {
+    "name": "Ghost Mourner & Moonlit Chill",
+    "pt": "Fantasma Chorão & Calafrio da Meia-noite",
+    "image": "img/cards/ghost-mourner-moonlit-chill.jpg",
+    "type": "Monster",
+    "race": "Zombie",
+    "attribute": "WIND",
+    "level": 3,
+    "atk": 0,
+    "def": 1800,
+    "monsterType": [
+      "Effect",
+      "Tuner"
+    ],
+    "text": "If your opponent Special Summons a monster(s) face-up (except during the Damage Step): You can discard this card, then target 1 of those face-up monsters; negate its effects until the end of this turn, also if that face-up monster leaves the field this turn, its controller takes damage equal to half its original ATK. You can only use this effect of \"Ghost Mourner & Moonlit Chill\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Striker Expansion",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/striker-expansion/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.08",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-vol-08/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 03",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-3/"
+      }
+    ]
+  },
+  "Incredible Ecclesia, the Virtuous": {
+    "name": "Incredible Ecclesia, the Virtuous",
+    "pt": "Incrível Ecclesia, a Virtuosa",
+    "image": "img/cards/incredible-ecclesia-the-virtuous.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1500,
+    "def": 1500,
+    "monsterType": [
+      "Tuner",
+      "Effect"
+    ],
+    "text": "If your opponent controls more monsters than you do, you can Special Summon this card (from your hand). You can only Special Summon \"Incredible Ecclesia, the Virtuous\" once per turn this way. You can only use each of the following effects of \"Incredible Ecclesia, the Virtuous\" once per turn. During the Main Phase (Quick Effect): You can Tribute this card; Special Summon 1 \"Swordsoul\" monster or 1 \"Fallen of Albaz\" from your hand or Deck. During the End Phase, if a Fusion Monster(s) was sent to your GY this turn: Add this card from the GY to your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Lubellion the Searing Dragon": {
+    "name": "Lubellion the Searing Dragon",
+    "pt": "Lubellion, o Dragão Ardente",
+    "image": "img/cards/lubellion-the-searing-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2500,
+    "def": 3000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "1 DARK monster + \"Fallen of Albaz\"\r\nIf this card is Fusion Summoned: You can discard 1 card; Fusion Summon 1 Level 8 or lower Fusion Monster from your Extra Deck, except \"Lubellion the Searing Dragon\", by shuffling Fusion Materials listed on it into the Deck, from among your cards on the field, in your GY, and/or your face-up banished cards, but for the rest of this turn, this card cannot attack, also you cannot Special Summon monsters from the Extra Deck, except Fusion Monsters. You can only use this effect of \"Lubellion the Searing Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Zodiac Destiny",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/sets/zodiac-shot/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Mirrorjade the Iceblade Dragon": {
+    "name": "Mirrorjade the Iceblade Dragon",
+    "pt": "Jadespelho, o Dragão da Lâmina Gélida",
+    "image": "img/cards/mirrorjade-the-iceblade-dragon.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Fallen of Albaz\" + 1 Fusion, Synchro, Xyz, or Link Monster\r\nYou can only control 1 \"Mirrorjade the Iceblade Dragon\". Once per turn (Quick Effect): You can send 1 Fusion Monster that lists \"Fallen of Albaz\" as material from your Extra Deck to the GY; banish 1 monster on the field, but this effect cannot be used again next turn. If this Fusion Summoned card in its owner's control leaves the field by your opponent: You can activate this effect; destroy all monsters your opponent controls during the End Phase of this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Zodiac Destiny",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/zodiac-shot/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Mutually Affured Destruction": {
+    "name": "Mutually Affured Destruction",
+    "pt": "Destruição Mútua Pelegurada",
+    "image": "img/cards/mutually-affured-destruction.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Both players must keep their hands revealed this turn. While their hands are revealed by this effect, if they both have a card with the same name in their hands, neither player can activate cards with that name, or their effects.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Blair Flannigan",
+        "level": "Level 10",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/blair-flannigan/"
+      },
+      {
+        "kind": "character",
+        "name": "Blair Flannigan",
+        "level": "Level 21",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/blair-flannigan/"
+      },
+      {
+        "kind": "character",
+        "name": "Blair Flannigan",
+        "level": "Level 35",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/blair-flannigan/"
+      }
+    ]
+  },
+  "Mystical Space Typhoon": {
+    "name": "Mystical Space Typhoon",
+    "pt": "Tufão Espacial Místico",
+    "image": "img/cards/mystical-space-typhoon.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 Spell/Trap on the field; destroy that target.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Antinomic Theory",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/antinomic-theory/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.03",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-03/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "character",
+        "name": "Yami Yugi",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yami-yugi/"
+      },
+      {
+        "kind": "character",
+        "name": "Joey Wheeler",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/joey-wheeler/"
+      },
+      {
+        "kind": "character",
+        "name": "Jaden Yuki",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jaden-yuki/"
+      },
+      {
+        "kind": "character",
+        "name": "Yusei Fudo",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yusei-fudo/"
+      },
+      {
+        "kind": "character",
+        "name": "Jack Atlas",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/jack-atlas/"
+      },
+      {
+        "kind": "character",
+        "name": "Yuma and Astral",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/yuma-and-astral/"
+      },
+      {
+        "kind": "character",
+        "name": "Crow Hogan",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/crow-hogan/"
+      },
+      {
+        "kind": "character",
+        "name": "Kite Tenjo",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/kite-tenjo/"
+      },
+      {
+        "kind": "character",
+        "name": "Aster Phoenix",
+        "level": "Character Deck",
+        "url": "https://www.duellinksmeta.com/farming/all-characters/aster-phoenix/"
+      }
+    ]
+  },
+  "Starving Venom Fusion Dragon": {
+    "name": "Starving Venom Fusion Dragon",
+    "pt": "Dragão Fusão de Peçonha Insaciável",
+    "image": "img/cards/starving-venom-fusion-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2800,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "2 DARK monsters on the field, except Tokens\nIf this card is Fusion Summoned: You can make this card gain ATK equal to 1 opponent's Special Summoned monster, until the end of this turn. Once per turn: You can target 1 Level 5 or higher monster your opponent controls; until the End Phase, this card's name becomes that monster's original name, and replace this effect with that monster's original effects. If this Fusion Summoned card is destroyed: You can destroy all your opponent's Special Summoned monsters.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Starving Venom",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/starving-venom/"
+      }
+    ]
+  },
+  "Starving Venom Predapower Fusion Dragon": {
+    "name": "Starving Venom Predapower Fusion Dragon",
+    "pt": "Dragão Fusão Predapoder de Peçonha Insaciável",
+    "image": "img/cards/starving-venom-predapower-fusion-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 10,
+    "atk": 3600,
+    "def": 2500,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "1 DARK Fusion Monster + 1 Fusion Monster\r\n(This card is always treated as a \"Predaplant\" card.)\r\nOnce per turn, when a card or effect is activated (Quick Effect): You can Tribute 1 monster on either field with a Predator Counter, and if you do, negate the activation. If this Fusion Summoned card you control is sent to your GY by an opponent's card: You can target 1 DARK monster in your GY; Special Summon it. You can only use this effect of \"Starving Venom Predapower Fusion Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Predator of the Abyss",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/predator-of-the-abyss/"
+      }
+    ]
+  },
+  "Swordsoul Auspice Chunjun": {
+    "name": "Swordsoul Auspice Chunjun",
+    "pt": "Espadalma Áugure Chunjun",
+    "image": "img/cards/swordsoul-auspice-chunjun.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "EARTH",
+    "level": 6,
+    "atk": 2400,
+    "def": 1800,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Before damage calculation, if your Wyrm monster battles an opponent's monster that was Special Summoned from the Extra Deck: You can destroy both that opponent's monster and this card. You can only use each of the following effects of \"Swordsoul Auspice Chunjun\" once per turn. During the Main Phase (Quick Effect): You can Tribute 1 monster; Special Summon this card from your hand. If this card is sent to the GY as Synchro Material: You can target 1 card on the field or in either GY; banish it.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 12,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul Blackout": {
+    "name": "Swordsoul Blackout",
+    "pt": "Apagão Espadalma",
+    "image": "img/cards/swordsoul-blackout.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 Wyrm monster you control and 2 cards your opponent controls; destroy them. If this card is banished: You can Special Summon 1 \"Swordsoul Token\" (Wyrm/Tuner/WATER/Level 4/ATK 0/DEF 0). While that Token is in the Monster Zone, the player who Summoned it cannot Special Summon monsters from the Extra Deck, except Synchro Monsters. You can only use each effect of \"Swordsoul Blackout\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul Emergence": {
+    "name": "Swordsoul Emergence",
+    "pt": "Emergência Espadalma",
+    "image": "img/cards/swordsoul-emergence.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Add 1 \"Swordsoul\" monster from your Deck to your hand, or if you control a Synchro Monster, you can add 1 Wyrm monster instead. If this card is banished: You can target 1 \"Swordsoul\" monster, or Wyrm monster, you control; increase or decrease its Level by 1 until the end of this turn. You can only use each effect of \"Swordsoul Emergence\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul Grandmaster - Chixiao": {
+    "name": "Swordsoul Grandmaster - Chixiao",
+    "pt": "Espadalma Grão-mestre - Chixiao",
+    "image": "img/cards/swordsoul-grandmaster-chixiao.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2800,
+    "def": 1000,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner Wyrm monsters\r\nIf this card is Synchro Summoned: You can add to your hand or banish 1 \"Swordsoul\" card from your Deck. (Quick Effect): You can banish 1 \"Swordsoul\" card or 1 Wyrm monster from your hand or GY, then target 1 other Effect Monster on the field; negate its effects until the end of this turn. You can only use 1 \"Swordsoul Grandmaster - Chixiao\" effect per turn, and only once that turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul Sacred Summit": {
+    "name": "Swordsoul Sacred Summit",
+    "pt": "Cume Sagrado Espadalma",
+    "image": "img/cards/swordsoul-sacred-summit.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 \"Swordsoul\" monster in your GY, or if you control a Synchro Monster, you can target 1 Wyrm monster instead; Special Summon it. If this card is banished: You can target 1 \"Swordsoul\" monster, or Wyrm monster, you control; increase or decrease its Level by 1 until the end of this turn. You can only use each effect of \"Swordsoul Sacred Summit\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 12,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul Sinister Sovereign - Qixing Longyuan": {
+    "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+    "pt": "Espadalma Soberano Sinistro - Qixing Longyuan",
+    "image": "img/cards/swordsoul-sinister-sovereign-qixing-longyuan.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "FIRE",
+    "level": 10,
+    "atk": 2900,
+    "def": 2300,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 1+ non-Tuner Wyrm monsters\nIf you Synchro Summon another Wyrm Synchro Monster: You can draw 1 card. If your opponent Special Summons a monster(s) (except during the Damage Step): You can banish 1 of them, and if you do, inflict 600 damage to your opponent. When your opponent activates a Spell/Trap Card or effect (Quick Effect): You can banish that card, and if you do, inflict 600 damage to your opponent. You can only use each effect of \"Swordsoul Sinister Sovereign - Qixing Longyuan\" once per turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul Strategist Longyuan": {
+    "name": "Swordsoul Strategist Longyuan",
+    "pt": "Espadalma Estrategista Longyuan",
+    "image": "img/cards/swordsoul-strategist-longyuan.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "FIRE",
+    "level": 6,
+    "atk": 1200,
+    "def": 2300,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can discard 1 other \"Swordsoul\" card or 1 other Wyrm monster; Special Summon this card from your hand, then you can Special Summon 1 \"Swordsoul Token\" (Wyrm/Tuner/WATER/Level 4/ATK 0/DEF 0). While that Token is in the Monster Zone, the player who Summoned it cannot Special Summon monsters from the Extra Deck, except Synchro Monsters. If this card is sent to the GY as Synchro Material: You can inflict 600 damage to your opponent. You can only use each effect of \"Swordsoul Strategist Longyuan\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul of Mo Ye": {
+    "name": "Swordsoul of Mo Ye",
+    "pt": "Espadalma de Mo Ye",
+    "image": "img/cards/swordsoul-of-mo-ye.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1700,
+    "def": 1800,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If this card is Normal or Special Summoned: You can reveal 1 \"Swordsoul\" card or 1 Wyrm monster in your hand; Special Summon 1 \"Swordsoul Token\" (Wyrm/Tuner/WATER/Level 4/ATK 0/DEF 0). While that Token is in the Monster Zone, the player who Summoned it cannot Special Summon monsters from the Extra Deck, except Synchro Monsters. If this card is sent to the GY as Synchro Material: You can draw 1 card. You can only use each effect of \"Swordsoul of Mo Ye\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 12,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Swordsoul of Taia": {
+    "name": "Swordsoul of Taia",
+    "pt": "Espadalma de Taia",
+    "image": "img/cards/swordsoul-of-taia.jpg",
+    "type": "Monster",
+    "race": "Wyrm",
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 1800,
+    "def": 1500,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "You can banish 1 \"Swordsoul\" card or 1 Wyrm monster from your GY; Special Summon 1 \"Swordsoul Token\" (Wyrm/Tuner/WATER/Level 4/ATK 0/DEF 0). While that Token is in the Monster Zone, the player who Summoned it cannot Special Summon monsters from the Extra Deck, except Synchro Monsters. If this card is sent to the GY as Synchro Material: You can send 1 \"Swordsoul\" card or 1 Wyrm monster from your Deck to the GY. You can only use each effect of \"Swordsoul of Taia\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "The Ultimate Chaos",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/the-ultimate-chaos/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 8",
+        "boxType": "Selection Box Mini",
+        "amount": 7,
+        "url": "https://www.duellinksmeta.com/sets/selection-box-mini-vol-08/"
+      }
+    ]
+  },
+  "Titaniklad the Ash Dragon": {
+    "name": "Titaniklad the Ash Dragon",
+    "pt": "Titaniklad, o Dragão das Cinzas",
+    "image": "img/cards/titaniklad-the-ash-dragon.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 8,
+    "atk": 2500,
+    "def": 2000,
+    "monsterType": [
+      "Fusion",
+      "Effect"
+    ],
+    "text": "\"Fallen of Albaz\" + 1 monster with 2500 or more ATK\r\nGains ATK equal to the combined original Levels of the monsters used for its Fusion Summon x 100. After this card is Fusion Summoned, for the rest of this turn, it is unaffected by the activated effects of any other monsters Special Summoned from the Extra Deck. During the End Phase, if this card is in the GY because it was sent there this turn: You can add to your hand, or Special Summon, 1 \"Fallen of Albaz\" or \"Dogmatika\" monster from your Deck. You can only use this effect of \"Titaniklad the Ash Dragon\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Majestic Magic",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/majestic-magic/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Tri-Brigade Mercourier": {
+    "name": "Tri-Brigade Mercourier",
+    "pt": "Mercourier da Tri-Brigada",
+    "image": "img/cards/tri-brigade-mercourier.jpg",
+    "type": "Monster",
+    "race": "Winged Beast",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 800,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "When your opponent activates a monster effect while you control a Fusion Monster that lists \"Fallen of Albaz\" as material (Quick Effect): You can send this card from your hand or field to the GY; negate that effect. If this card is banished: You can add 1 \"Fallen of Albaz\", or 1 monster that mentions it, from your Deck to your hand, except \"Tri-Brigade Mercourier\". You can only use each effect of \"Tri-Brigade Mercourier\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Zodiac Destiny",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/zodiac-shot/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Trishula, Zero Dragon of the Ice Barrier": {
+    "name": "Trishula, Zero Dragon of the Ice Barrier",
+    "pt": "Trishula, o Dragão Zero da Barreira de Gelo",
+    "image": "img/cards/trishula-zero-dragon-of-the-ice-barrier.jpg",
+    "type": "Monster",
+    "race": "Dragon",
+    "attribute": "WATER",
+    "level": 11,
+    "atk": 2700,
+    "def": 2000,
+    "monsterType": [
+      "Synchro",
+      "Effect"
+    ],
+    "text": "1 Tuner + 2+ non-Tuner monsters\r\nWhen this card is Synchro Summoned: You can banish up to 3 cards your opponent controls. If this Synchro Summoned card in its owner's control is destroyed by an opponent's card: You can Special Summon 1 \"Trishula, Dragon of the Ice Barrier\" from your Extra Deck or GY, its ATK becomes 3300, then halve the ATK of any face-up monsters your opponent currently controls, also negate their effects. You can only use this effect of \"Trishula, Zero Dragon of the Ice Barrier\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Stars of Synchro",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/sets/stars-of-synchro/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/sets/anniversary-box-vol4/"
+      }
+    ]
   }
 }
