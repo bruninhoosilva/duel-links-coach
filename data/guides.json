@@ -2423,7 +2423,8 @@
             "name": "S:P Little Knight",
             "count": 1
           }
-        ]
+        ],
+        "playName": "YRalps · Cyberdark Realm build"
       },
       {
         "id": "ignister",
@@ -2529,7 +2530,8 @@
             "name": "S:P Little Knight",
             "count": 1
           }
-        ]
+        ],
+        "playName": "IgnisterPRC · Cyber Repair Plant build"
       }
     ],
     "buildDifferences": [
@@ -6901,7 +6903,7 @@
     "deck": "Mathmech",
     "format": "speed",
     "status": "verified",
-    "updated": "2026-11-03",
+    "updated": "2026-11-09",
     "featuredCard": "Mathmech Circular",
     "skill": {
       "name": "Mathmech Slicer",
@@ -7272,12 +7274,1129 @@
     ],
     "scenarios": [
       {
+        "id": "ignister-turn-1-standard",
+        "build": "ignister",
+        "choice": "Going first",
+        "title": "Going first: the standard line with Nabla and Circular, from Alembertian and Dugares to a doubled Final Sigma",
+        "hand": [
+          "Mathmech Nabla",
+          "Mathmech Circular",
+          "Cynet Mining"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Mathmech Nabla",
+            "Mathmech Circular"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 2 of the skill: reveal a Level 4 Mathmech Tuner (Nabla) and send 1 card from your hand to the Graveyard (Cynet Mining here, because he does not need its search). The creator's priority when adding cards: Circular and Diameter first, then Sigma, then Addition and Subtraction. Going first you cannot Set a Mathmech Spell/Trap with the skill: that part starts on turn 2."
+        },
+        "start": {
+          "hand": [
+            "Mathmech Nabla",
+            "Mathmech Circular",
+            "Cynet Mining",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The creator's example hand: Mathmech Nabla, Mathmech Circular and Cynet Mining plus two cards the video does not name. In his video the HUD says \"Turn 2\" and the opponent has no cards, because he plays it against an NPC to show the line; he says he does not use the Set part of the skill. Checked against the screen: Nabla is the revealed Tuner, Cynet Mining is discarded, he sends Subtraction with Circular, and he makes Alembertian, Dugares, Final Sigma. Yours will differ."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "First thing in your turn (effect 2)",
+            "needs": "Reveal Mathmech Nabla and send 1 card from your hand to the Graveyard: Cynet Mining.",
+            "gives": "Add Mathmech Diameter and a second Mathmech card (the screen does not show it clearly: Sigma is the most likely, since the creator says he wants Sigmas in his hand).",
+            "used": true,
+            "reason": "Nabla is shown as the revealed Tuner and Cynet Mining is the card that goes to the Graveyard. He takes Diameter first because he already holds Circular.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "5:39"
+            },
+            "moves": [
+              {
+                "card": "Cynet Mining",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Subtraction from your deck to the Graveyard to Special Summon Circular from your hand. He chooses a FIRE monster (Subtraction) because it is not banished by the cards that come later, and he wants Nabla to stay in the deck for the end of the combo.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "6:21"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Subtraction",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "Normal Summon Diameter and target Subtraction in the Graveyard to bring it back (its effects are negated). Circular could search now, but you do not use it yet: the order matters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "6:25"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "special-summon",
+            "reason": "Xyz Summon Primathmech Alembertian with Diameter and Subtraction, and do not use Circular as material. Because Diameter was a material, Alembertian gets Diameter's negate this turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "6:38"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Detach 2 materials to add a Mathmech card: Mathmech Equation. Use Alembertian's search first and Circular's straight after, so a Droll & Lock Bird cannot stop both.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "7:02"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Equation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "Circular's search: add Mathmech Superfactorial, the Trap that makes Laplacian on the opponent's turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "7:36"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Equation",
+            "action": "activate",
+            "reason": "Mathmech Equation: bring Subtraction back from the Graveyard, again a FIRE monster so it is not banished (+1000 ATK until the end of the turn).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "7:41"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Equation",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "special-summon",
+            "reason": "Xyz Summon Number 60: Dugares the Timeless with Circular and Subtraction (two Level 4 monsters). This is the \"same effect as Heatsoul, but you pay no life points\", and it is immune to what the opponent could do in response, the creator says.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:01"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "activate",
+            "reason": "Detach 2 materials and use the first effect (the screen shows \"skip your next Draw Phase, draw 2 cards, then discard 1\"). The captions say he draws two cards (a Book of Eclipse and another card he calls \"Eclipse\"/the Impermanence), then discards Nabla so that it can come back from the Graveyard and you do not lose the Sigmas that trigger the skill.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:24"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Circular",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Book of Eclipse",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Infinite Impermanence",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute a monster to Special Summon a Level 4 Mathmech monster from your hand or Graveyard: bring Mathmech Nabla back from the Graveyard. The creator tributes Number 60: Dugares the Timeless here.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:38"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Tribute Alembertian (a Cyberse monster) to Special Summon Mathmech Multiplication from your deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:45"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Multiplication",
+            "action": "activate",
+            "reason": "Target Multiplication itself (a Level 4 Cyberse monster you control): its Level becomes 8 until the end of the turn. Nabla (Level 4, a Tuner) plus a Level 8 monster make Level 12.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:05"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon it with Nabla (Tuner) and Multiplication (non-Tuner, Level 8). In the Extra Monster Zone it is unaffected by effects other than Mathmech cards and deals double battle damage.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:12"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Nabla was sent to the Graveyard as Synchro material: target Final Sigma in the Extra Monster Zone, and it can make up to 2 attacks on monsters this turn. These Graveyard effects only work because a Cyberse monster is in the Extra Monster Zone.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:20"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Multiplication",
+            "action": "activate",
+            "reason": "Multiplication was also sent to the Graveyard: target Final Sigma in the Extra Monster Zone and its ATK is doubled until the end of the turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:37"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "attack",
+            "reason": "Attack with the doubled ATK. Nabla's extra attack is for attacks on monsters (up to 2), and the double battle damage applies when Final Sigma battles a monster. If you used Circular's Special Summon this turn you can only attack with 1 monster, which is fine here because Final Sigma is the only one that matters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:47"
+            },
+            "moves": []
+          }
+        ],
+        "chainNotes": "The opponent can chain to Circular, Alembertian and Dugares, so the creator makes the searches first and the draw second. At the end he has Book of Eclipse and Infinite Impermanence in hand (cards he says he could do without) and Superfactorial, which makes Laplacian on the opponent's turn with Diameter as a material (that gives Laplacian a negate and takes up to 3 cards from the opponent). Activate Nabla's and Multiplication's Graveyard effects once Final Sigma is in the Extra Monster Zone, because they need a Cyberse monster there. Activate Alembertian's search and Circular's search together on the same chain (the screen shows the chain with the two effects).",
+        "endBoard": "Geomathmech Final Sigma with doubled ATK, able to attack monsters up to twice and deal double battle damage, often enough to win on its own.",
+        "weakSpots": "The creator says this is \"very tech\" and trusts the hand traps he drew to hold the board: the line is built for turn 2, and on turn 1 he only shows it for completeness. A negate or removal on Alembertian's tribute effect, or Bystial banishing Nabla or Multiplication from the Graveyard, breaks the line. Keep one more Multiplication in the deck if you can: Nabla only brings monsters from the deck, so if one is already in your hand or Graveyard the second one is what you need."
+      },
+      {
+        "id": "ignister-turn-2-standard",
+        "build": "ignister",
+        "choice": "Going second",
+        "title": "Going second (turn 2): the standard line with Nabla and Circular, from Alembertian and Dugares to a doubled Final Sigma",
+        "hand": [
+          "Mathmech Nabla",
+          "Mathmech Circular",
+          "Cynet Mining"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Mathmech Nabla",
+            "Mathmech Circular"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 2 of the skill: reveal a Level 4 Mathmech Tuner (Nabla here) and send 1 card to the Graveyard (Cynet Mining, because he does not need its search). From turn 2 the skill can also Set a Mathmech Spell/Trap, but the creator does not Set one in this example. The creator's priority when adding cards: Circular and Diameter first, then Sigma, then Addition and Subtraction."
+        },
+        "start": {
+          "hand": [
+            "Mathmech Nabla",
+            "Mathmech Circular",
+            "Cynet Mining",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The creator's example hand for going second against an NPC: Mathmech Nabla, Mathmech Circular and Cynet Mining plus two cards the video does not name. Yours will differ. This line is read from his narration, so every step before the finish is medium confidence."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "First thing in your turn (effect 2)",
+            "needs": "Reveal Mathmech Nabla and send 1 card from your hand to the Graveyard: Cynet Mining.",
+            "gives": "Add Mathmech Diameter and a second Mathmech card (read as Mathmech Sigma: the video is not clear).",
+            "used": true,
+            "reason": "The skill brings the cards you want. He says to take Diameter first because you already hold Circular, and that the next picks are Sigma, then Addition and Subtraction.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "5:39"
+            },
+            "moves": [
+              {
+                "card": "Cynet Mining",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Subtraction from your deck to the Graveyard to Special Summon Circular from your hand. He chooses a FIRE monster (Subtraction) because it is not banished by the cards that come later, and he wants Nabla to stay in the deck for the end of the combo.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "6:21"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Subtraction",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "Normal Summon Diameter and target Subtraction in the Graveyard to bring it back (its effects are negated). Circular could search now, but you do not use it yet: the order matters.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "6:25"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "special-summon",
+            "reason": "Xyz Summon Primathmech Alembertian with Diameter and Subtraction, and do not use Circular as material. Because Diameter was a material, Alembertian gets Diameter's negate this turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "6:38"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Detach 2 materials to add a Mathmech card: Mathmech Equation. Use Alembertian's search first and Circular's straight after, so a Droll & Lock Bird cannot stop both.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "7:02"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Equation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "Circular's search: add Mathmech Superfactorial, the Trap that makes Laplacian on the opponent's turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "7:36"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Equation",
+            "action": "activate",
+            "reason": "Mathmech Equation: bring Subtraction back from the Graveyard, again a FIRE monster so it is not banished (+1000 ATK until the end of the turn).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "7:41"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Equation",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "special-summon",
+            "reason": "Xyz Summon Number 60: Dugares the Timeless with Circular and Subtraction (two Level 4 monsters). This is the \"same effect as Heatsoul, but you pay no life points\", and it is immune to what the opponent could do in response, the creator says.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:01"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "activate",
+            "reason": "Detach 2 materials to draw 2 cards (Book of Eclipse and Infinite Impermanence), then discard 1: Nabla, so that it can come back from the Graveyard and you do not lose the Sigmas that trigger the skill.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:24"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Circular",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Book of Eclipse",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Infinite Impermanence",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute a monster to Special Summon a Level 4 Mathmech monster from your hand or Graveyard: bring Mathmech Nabla back from the Graveyard. The creator tributes Number 60: Dugares the Timeless here.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:38"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Tribute Alembertian (a Cyberse monster) to Special Summon Mathmech Multiplication from your deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "8:45"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Multiplication",
+            "action": "activate",
+            "reason": "Target Multiplication itself (a Level 4 Cyberse monster you control): its Level becomes 8 until the end of the turn. Nabla (Level 4, a Tuner) plus a Level 8 monster make Level 12.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:05"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon it with Nabla (Tuner) and Multiplication (non-Tuner, Level 8). In the Extra Monster Zone it is unaffected by effects other than Mathmech cards and deals double battle damage.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:12"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Nabla was sent to the Graveyard as Synchro material: target Final Sigma in the Extra Monster Zone, and it can make up to 2 attacks on monsters this turn. These Graveyard effects only work because a Cyberse monster is in the Extra Monster Zone.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:20"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Multiplication",
+            "action": "activate",
+            "reason": "Multiplication was also sent to the Graveyard: target Final Sigma in the Extra Monster Zone and its ATK is doubled until the end of the turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:37"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "attack",
+            "reason": "Attack with the doubled ATK. Nabla's extra attack is for attacks on monsters (up to 2), and the double battle damage applies when Final Sigma battles a monster. If you used Circular's Special Summon this turn you can only attack with 1 monster, which is fine here because Final Sigma is the only one that matters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "9:47"
+            },
+            "moves": []
+          }
+        ],
+        "chainNotes": "The opponent can chain to Circular, Alembertian and Dugares, so the creator makes the searches first and the draw second. At the end he has Book of Eclipse and Infinite Impermanence in hand (cards he says he could do without) and Superfactorial, which makes Laplacian on the opponent's turn with Diameter as a material (that gives Laplacian a negate and takes up to 3 cards from the opponent). Activate Nabla's and Multiplication's Graveyard effects once Final Sigma is in the Extra Monster Zone, because they need a Cyberse monster there.",
+        "endBoard": "Geomathmech Final Sigma with doubled ATK, able to attack monsters up to twice and deal double battle damage, often enough to win on its own.",
+        "weakSpots": "The creator says this is \"very tech\" and trusts the hand traps he drew to hold the board: the line is built for turn 2, and on turn 1 he only shows it for completeness. A negate or removal on Alembertian's tribute effect, or Bystial banishing Nabla or Multiplication from the Graveyard, breaks the line. Keep one more Multiplication in the deck if you can: Nabla only brings monsters from the deck, so if one is already in your hand or Graveyard the second one is what you need."
+      },
+      {
+        "id": "circular-no-tuner",
+        "title": "Going first, bricked hand: you hold Circular but no Tuner (the skill is off until you find one)",
+        "hand": [
+          "Cynet Mining",
+          "Book of Eclipse",
+          "Forbidden Droplet"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Cynet Mining"
+          ],
+          "without": [
+            {
+              "label": "a Level 4 Mathmech Tuner",
+              "cards": [
+                "Mathmech Sigma",
+                "Mathmech Diameter",
+                "Mathmech Nabla"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "You cannot use the skill at the start, because you hold no Level 4 Mathmech Tuner. You find a Tuner first (Alembertian's search), then use the skill in the middle of the turn. The creator plays this hand as if it were turn 1 and says that if he started with Cynet Mining and no Tuner he would simply search a Tuner with it, so he uses Mining to fetch Circular on purpose to show the bricked case."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Cynet Mining",
+            "action": "activate",
+            "reason": "Discard 1 card (Book of Eclipse on screen) and add a Level 4 or lower Cyberse monster: Mathmech Circular. This only sets up the example. If you really held Cynet Mining and no Tuner you would fetch a Tuner and use the skill.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "12:25"
+            },
+            "moves": [
+              {
+                "card": "Cynet Mining",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Book of Eclipse",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Sigma from your deck to the Graveyard to Special Summon Circular from your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "12:42"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Sigma",
+            "action": "special-summon",
+            "reason": "You control nothing in the Extra Monster Zone, so Sigma can Special Summon itself from the Graveyard (it will be banished when it leaves the field). This summon also triggers Circular.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "12:50"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "Circular's trigger adds a Mathmech Spell/Trap from your deck: take Mathmech Superfactorial.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:02"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Superfactorial",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "special-summon",
+            "reason": "Xyz Summon it with two Level 4 monsters, Sigma included (Circular is the other one). Both creators say Sigma is not banished when it is used as Xyz material.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:14"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Detach 2 materials to add 1 Mathmech card. Take Mathmech Diameter, a Tuner, so that you can finally switch the skill on.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:25"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Circular",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "Right after Alembertian's search, before you Normal Summon",
+            "needs": "Reveal Mathmech Diameter and send 1 card from your hand to the Graveyard (the creator discards Forbidden Droplet, since this line does not need it).",
+            "gives": "Adds 2 Mathmech monsters to your hand. The creator takes Mathmech Nabla and a monster that summons itself, such as Addition.",
+            "used": true,
+            "reason": "Now that you have a Tuner, the skill refills your hand with extra monsters.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "13:36"
+            },
+            "moves": [
+              {
+                "card": "Forbidden Droplet",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Addition",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "Normal Summon Diameter to revive a Level 4 Cyberse monster from the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "14:19"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute Alembertian to Special Summon Mathmech Sigma back from the Graveyard (Sigma went there when it was detached in step 5). Now Diameter, Circular and Sigma are all on the field.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "14:32"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon it with Diameter (the Tuner) plus Circular and Sigma as the non-Tuners: Level 4 + 4 + 4 = 12. Sigma's own text lets it count as a non-Tuner when it is used for a Mathmech Synchro Summon.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
+              "timestamp": "14:38"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "Use Circular's search as soon as Sigma is summoned (step 3), before you make Alembertian. Keep Nabla in your hand instead of summoning it: it is your Tuner for next turn's skill, and the creator says to leave it there. In the video you can see the chain with Alembertian's and Circular's effects together, and the skill's prompt listing the cards that it adds. The captions say the second card the skill added is a Nabla and \"someone who Special Summons itself\" (Addition).",
+        "endBoard": "Geomathmech Final Sigma (Level 12) in the Extra Monster Zone, with Nabla still in your hand to switch the skill on next turn and Superfactorial in your hand.",
+        "weakSpots": "The line spends your Tuner-free start on Circular, so one hand trap against Circular's Special Summon or against Alembertian slows the whole combo; and you cannot use the skill until step 6.",
+        "start": {
+          "hand": [
+            "Cynet Mining",
+            "Book of Eclipse",
+            "Forbidden Droplet",
+            "Unknown card"
+          ],
+          "note": "The creator simulates a hand with four cards and no Tuner: the screen shows Cynet Mining and Book of Eclipse (the card he discards) in his hand, and the captions say he sends a Forbidden Droplet to the skill later. The fourth card is not readable. He uses Cynet Mining to fetch Circular, to play a hand that \"starts without a Tuner but with Circular\". Yours will differ."
+        },
+        "build": "ignister",
+        "choice": "Bricked hand (no Tuner)"
+      },
+      {
         "id": "opening-tuner",
-        "title": "Turn 1: you open with a Level 4 Tuner (example: Nabla)",
+        "title": "Going first with a Tuner (Mekklord's English guide): you open with a Level 4 Tuner (example: Nabla)",
         "hand": [
           "Mathmech Nabla"
         ],
         "requires": {
+          "turn": "first",
           "anyOf": [
             {
               "label": "a Level 4 Mathmech Tuner (Sigma, Diameter or Nabla)",
@@ -7657,426 +8776,10 @@
             "Droll & Lock Bird",
             "Forbidden Droplet"
           ],
-          "note": "Example hand. Yours will differ: any Level 4 Mathmech Tuner works as the first card, and the card you send to the Graveyard is your choice (the creator suggests a Mathmech monster you want to bring back later)."
-        }
-      },
-      {
-        "id": "circular-no-tuner",
-        "title": "Turn 1: you hold Circular but no Tuner (the skill is off until you find one)",
-        "hand": [
-          "Mathmech Circular"
-        ],
-        "requires": {
-          "hand": [
-            "Mathmech Circular"
-          ],
-          "without": [
-            {
-              "label": "a Level 4 Mathmech Tuner",
-              "cards": [
-                "Mathmech Sigma",
-                "Mathmech Diameter",
-                "Mathmech Nabla"
-              ]
-            }
-          ]
+          "note": "Example hand. Yours will differ: any Level 4 Mathmech Tuner works as the first card, and the card you send to the Graveyard is your choice (the creator suggests a Mathmech monster you want to bring back later). This line comes from Mekklord's English guide (the video links on its steps): Ignister's pure Mathmech list plays the same engine, but his video does not show a turn-one hand that starts with a Tuner."
         },
-        "skillPlan": {
-          "uses": true,
-          "note": "You cannot use the skill at the start. You find a Tuner first, then use it midway (step 6)."
-        },
-        "steps": [
-          {
-            "type": "card",
-            "card": "Mathmech Circular",
-            "action": "special-summon",
-            "reason": "Send Mathmech Sigma from your deck to the Graveyard to Special Summon Circular from your hand.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "12:42"
-            },
-            "moves": [
-              {
-                "card": "Mathmech Sigma",
-                "from": "deck",
-                "to": "graveyard"
-              },
-              {
-                "card": "Mathmech Circular",
-                "from": "hand",
-                "to": "monster-zone"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Mathmech Sigma",
-            "action": "special-summon",
-            "reason": "You control nothing in the Extra Monster Zone, so Sigma can Special Summon itself from the Graveyard (it will be banished when it leaves the field). This summon also triggers Circular.",
-            "confidence": "medium",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "12:50"
-            },
-            "moves": [
-              {
-                "card": "Mathmech Sigma",
-                "from": "graveyard",
-                "to": "monster-zone"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Mathmech Circular",
-            "action": "activate",
-            "reason": "Circular's trigger adds a Mathmech Spell/Trap from your deck: take Mathmech Superfactorial.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "13:02"
-            },
-            "moves": [
-              {
-                "card": "Mathmech Superfactorial",
-                "from": "deck",
-                "to": "hand"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Primathmech Alembertian",
-            "action": "special-summon",
-            "reason": "Xyz Summon it with two Level 4 monsters, Sigma included (Circular is the other one). Both creators say Sigma is not banished when it is used as Xyz material.",
-            "confidence": "medium",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "13:14"
-            },
-            "moves": [
-              {
-                "card": "Primathmech Alembertian",
-                "from": "extra-deck",
-                "to": "extra-monster-zone"
-              },
-              {
-                "card": "Mathmech Circular",
-                "from": "monster-zone",
-                "to": "overlay",
-                "under": "Primathmech Alembertian"
-              },
-              {
-                "card": "Mathmech Sigma",
-                "from": "monster-zone",
-                "to": "overlay",
-                "under": "Primathmech Alembertian"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Primathmech Alembertian",
-            "action": "activate",
-            "reason": "Detach 2 materials to add 1 Mathmech card. Take Mathmech Diameter, a Tuner, so that you can finally switch the skill on.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "13:25"
-            },
-            "moves": [
-              {
-                "card": "Mathmech Circular",
-                "from": "overlay",
-                "to": "graveyard",
-                "under": "Primathmech Alembertian"
-              },
-              {
-                "card": "Mathmech Sigma",
-                "from": "overlay",
-                "to": "graveyard",
-                "under": "Primathmech Alembertian"
-              },
-              {
-                "card": "Mathmech Diameter",
-                "from": "deck",
-                "to": "hand"
-              }
-            ]
-          },
-          {
-            "type": "skill",
-            "skill": "Mathmech Slicer",
-            "when": "Right after Alembertian's search, before you Normal Summon",
-            "needs": "Reveal Mathmech Diameter and send 1 card from your hand to the Graveyard (the creator discards Forbidden Droplet, since this line does not need it).",
-            "gives": "Adds 2 Mathmech monsters to your hand. The creator takes Mathmech Nabla and a monster that summons itself, such as Addition.",
-            "used": true,
-            "reason": "Now that you have a Tuner, the skill refills your hand with extra monsters.",
-            "confidence": "medium",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "13:36"
-            },
-            "moves": [
-              {
-                "card": "Forbidden Droplet",
-                "from": "hand",
-                "to": "graveyard"
-              },
-              {
-                "card": "Mathmech Nabla",
-                "from": "deck",
-                "to": "hand"
-              },
-              {
-                "card": "Mathmech Addition",
-                "from": "deck",
-                "to": "hand"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Mathmech Diameter",
-            "action": "normal-summon",
-            "reason": "Normal Summon Diameter to revive a Level 4 Cyberse monster from the Graveyard.",
-            "confidence": "medium",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "14:19"
-            },
-            "moves": [
-              {
-                "card": "Mathmech Diameter",
-                "from": "hand",
-                "to": "monster-zone"
-              },
-              {
-                "card": "Mathmech Circular",
-                "from": "graveyard",
-                "to": "monster-zone"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Primathmech Alembertian",
-            "action": "activate",
-            "reason": "Tribute Alembertian to Special Summon Mathmech Sigma back from the Graveyard (Sigma went there when it was detached in step 5). Now Diameter, Circular and Sigma are all on the field.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "14:32"
-            },
-            "moves": [
-              {
-                "card": "Primathmech Alembertian",
-                "from": "extra-monster-zone",
-                "to": "extra-deck"
-              },
-              {
-                "card": "Mathmech Sigma",
-                "from": "graveyard",
-                "to": "monster-zone"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Geomathmech Final Sigma",
-            "action": "special-summon",
-            "reason": "Synchro Summon it with Diameter (the Tuner) plus Circular and Sigma as the non-Tuners: Level 4 + 4 + 4 = 12. Sigma's own text lets it count as a non-Tuner when it is used for a Mathmech Synchro Summon.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "14:38"
-            },
-            "moves": [
-              {
-                "card": "Mathmech Diameter",
-                "from": "monster-zone",
-                "to": "graveyard"
-              },
-              {
-                "card": "Mathmech Circular",
-                "from": "monster-zone",
-                "to": "graveyard"
-              },
-              {
-                "card": "Mathmech Sigma",
-                "from": "monster-zone",
-                "to": "graveyard"
-              },
-              {
-                "card": "Geomathmech Final Sigma",
-                "from": "extra-deck",
-                "to": "extra-monster-zone"
-              }
-            ]
-          }
-        ],
-        "chainNotes": "Use Circular's search as soon as Sigma is summoned (step 3), before you make Alembertian. Keep Nabla in your hand instead of summoning it: it is your Tuner for next turn's skill, and the creator says to leave it there.",
-        "endBoard": "Geomathmech Final Sigma (Level 12) in the Extra Monster Zone, with Nabla still in your hand to switch the skill on next turn and Superfactorial in your hand.",
-        "weakSpots": "The line spends your Tuner-free start on Circular, so one hand trap against Circular's Special Summon or against Alembertian slows the whole combo; and you cannot use the skill until step 6.",
-        "start": {
-          "hand": [
-            "Mathmech Circular",
-            "Forbidden Droplet",
-            "Effect Veiler",
-            "Artifact Lancea"
-          ],
-          "note": "Example hand. Yours will differ: the creator sends Forbidden Droplet to the skill because this line does not need it."
-        }
-      },
-      {
-        "id": "finish-final-sigma",
-        "title": "Finish: with Alembertian and one other monster on your field and Nabla in your Graveyard, build Final Sigma and attack with it",
-        "hand": [],
-        "requires": {
-          "board": "Primathmech Alembertian and one other monster (the creator uses Number 60: Dugares the Timeless) on your field, and Mathmech Nabla in your Graveyard"
-        },
-        "skillPlan": {
-          "uses": false,
-          "note": "This finish does not use the skill. If you still hold a Tuner on turn 2 or later, use the skill first to set Superfactorial."
-        },
-        "steps": [
-          {
-            "type": "card",
-            "card": "Primathmech Alembertian",
-            "action": "activate",
-            "reason": "Tribute a monster to Special Summon a Level 4 Mathmech monster from your hand or Graveyard: bring Mathmech Nabla back from the Graveyard. The creator tributes Number 60: Dugares the Timeless here.",
-            "confidence": "medium",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "8:38"
-            },
-            "moves": [
-              {
-                "card": "Number 60: Dugares the Timeless",
-                "from": "extra-monster-zone",
-                "to": "extra-deck"
-              },
-              {
-                "card": "Mathmech Nabla",
-                "from": "graveyard",
-                "to": "monster-zone"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Mathmech Nabla",
-            "action": "activate",
-            "reason": "Tribute Alembertian (a Cyberse monster) to Special Summon Mathmech Multiplication from your deck.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "8:45"
-            },
-            "moves": [
-              {
-                "card": "Primathmech Alembertian",
-                "from": "extra-monster-zone",
-                "to": "extra-deck"
-              },
-              {
-                "card": "Mathmech Multiplication",
-                "from": "deck",
-                "to": "monster-zone"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Mathmech Multiplication",
-            "action": "activate",
-            "reason": "Target Multiplication itself (a Level 4 Cyberse monster you control): its Level becomes 8 until the end of the turn. Nabla (Level 4, a Tuner) plus a Level 8 monster make Level 12.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "9:05"
-            },
-            "moves": []
-          },
-          {
-            "type": "card",
-            "card": "Geomathmech Final Sigma",
-            "action": "special-summon",
-            "reason": "Synchro Summon it with Nabla (Tuner) and Multiplication (non-Tuner, Level 8). In the Extra Monster Zone it is unaffected by effects other than Mathmech cards and deals double battle damage.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "9:12"
-            },
-            "moves": [
-              {
-                "card": "Mathmech Nabla",
-                "from": "monster-zone",
-                "to": "graveyard"
-              },
-              {
-                "card": "Mathmech Multiplication",
-                "from": "monster-zone",
-                "to": "graveyard"
-              },
-              {
-                "card": "Geomathmech Final Sigma",
-                "from": "extra-deck",
-                "to": "extra-monster-zone"
-              }
-            ]
-          },
-          {
-            "type": "card",
-            "card": "Mathmech Nabla",
-            "action": "activate",
-            "reason": "Nabla was sent to the Graveyard as Synchro material: target Final Sigma in the Extra Monster Zone, and it can make up to 2 attacks on monsters this turn. These Graveyard effects only work because a Cyberse monster is in the Extra Monster Zone.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "9:20"
-            },
-            "moves": []
-          },
-          {
-            "type": "card",
-            "card": "Mathmech Multiplication",
-            "action": "activate",
-            "reason": "Multiplication was also sent to the Graveyard: target Final Sigma in the Extra Monster Zone and its ATK is doubled until the end of the turn.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "9:37"
-            },
-            "moves": []
-          },
-          {
-            "type": "card",
-            "card": "Geomathmech Final Sigma",
-            "action": "attack",
-            "reason": "Attack with the doubled ATK. Nabla's extra attack is for attacks on monsters (up to 2), and the double battle damage applies when Final Sigma battles a monster. If you used Circular's Special Summon this turn you can only attack with 1 monster, which is fine here because Final Sigma is the only one that matters.",
-            "confidence": "high",
-            "source": {
-              "url": "https://www.youtube.com/watch?v=zkuwtZa28YY",
-              "timestamp": "9:47"
-            },
-            "moves": []
-          }
-        ],
-        "chainNotes": "Activate Nabla's and Multiplication's Graveyard effects once Final Sigma is in the Extra Monster Zone, because they need a Cyberse monster there.",
-        "endBoard": "Geomathmech Final Sigma with doubled ATK, able to attack monsters up to twice and deal double battle damage, often enough to win on its own.",
-        "weakSpots": "A negate or removal on Alembertian's tribute effect, or Bystial banishing Nabla or Multiplication from the Graveyard, breaks the line.",
-        "start": {
-          "extra-monster-zone": [
-            "Primathmech Alembertian",
-            "Number 60: Dugares the Timeless"
-          ],
-          "graveyard": [
-            "Mathmech Nabla"
-          ],
-          "note": "Example board from the Portuguese creator's replay: Number 60: Dugares the Timeless is the monster that gets tributed. Yours will differ."
-        }
+        "build": "ignister",
+        "choice": "Going first, Mekklord's line"
       },
       {
         "id": "yralps-turn-1-sigma-circular",
@@ -8582,7 +9285,713 @@
         ],
         "chainNotes": "The same turn is shown against Valmonica: after the skill he searches Diameter and Addition, Circular's effect, Diameter, Alembertian, then Primera Primus, Emblema Oath, Sigma and Final Sigma, and he sets the Traps. In the Valmonica game the opponent used Forbidden Droplet on Laplacian: it loses its effect and the Diameter negation, which the creator calls the card that hurts this Xyz the most. His turn 2 in that replay: use the skill again (it is once per turn), Set a Mathmech Spell from the deck (turn 2 or later), Circular and Diameter (the opponent negates some effects), a Mathmech Spell that brings Multiplication back from the Graveyard (it fits Mathmech Equation), and he makes Final Sigma with the Diameter negation and doubled ATK (6000) and wins on the next attack with piercing double damage. These later steps are told in the video and not simulated.",
         "endBoard": "Geomathmech Final Sigma in the Extra Monster Zone (unaffected by card effects except Mathmech), and Set: Centur-Ion Phalanx, Mathmech Superfactorial and Mathmech Induction. In the opponent's turn Superfactorial makes Primathmech Laplacian, which sends 2 cards of the opponent to the Graveyard.",
-        "weakSpots": "Sigma (and Addition, Subtraction) lock you to Cyberse monsters for the rest of the turn, so make Primera Primus before them. A Forbidden Droplet on Laplacian cancels its effect. On turn 1, Final Sigma can be removed by Kaiju or Lava Golem or in battle. The creator says Final Sigma is stronger from turn 2, because the opponent has to deal with your monsters before you make it."
+        "weakSpots": "Sigma (and Addition, Subtraction) lock you to Cyberse monsters for the rest of the turn, so make Primera Primus before them. A Forbidden Droplet on Laplacian cancels its effect. On turn 1, Final Sigma can be removed by Kaiju or Lava Golem or in battle. The creator says Final Sigma is stronger from turn 2, because the opponent has to deal with your monsters before you make it.",
+        "choice": "Going first"
+      },
+      {
+        "id": "yralps-turn-2-dark-magician",
+        "build": "yralps",
+        "choice": "Going second",
+        "title": "Going second (turn 2, replay vs Dark Magician): Laplacian first, then Equation, Multiplication and a doubled Final Sigma",
+        "hand": [
+          "Mathmech Nabla",
+          "Mathmech Diameter",
+          "Hey, Trunade!",
+          "D.D. Crow"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Mathmech Nabla"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 2 of the skill: reveal a Level 4 Mathmech Tuner (Nabla here, and he sends that same Nabla to the Graveyard), add 2 Mathmech monsters, and because it is turn 2 or later also Set a Mathmech Spell/Trap from your deck or hand (Induction here)."
+        },
+        "start": {
+          "hand": [
+            "Mathmech Nabla",
+            "Mathmech Diameter",
+            "Hey, Trunade!",
+            "D.D. Crow",
+            "Unknown card"
+          ],
+          "note": "The creator's hand in his replay against Dark Magician: Hey, Trunade! and D.D. Crow (the cards he likes for turn two), Nabla, a Diameter (it is the card he Normal Summons, so it is read as in his hand) and a card the video does not name. The opponent goes first and ends with a Dark Magician board with Set cards. The line was checked against the screen (the opponent's Dark Magicians fusion, Eternal Soul, Circular, Laplacian, Multiplication and Final Sigma are all visible, and the game ends with a direct attack), but the middle steps are still read from quick animations, so most steps stay medium confidence."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "First thing in your turn (effect 2)",
+            "needs": "Reveal Mathmech Nabla and send 1 card from your hand to the Graveyard (read as the same Nabla, so Diameter can bring it back).",
+            "gives": "Add Mathmech Circular and a monster that Special Summons itself from the hand (the captions say Addition and Subtraction, and the line later uses Subtraction), and Set Mathmech Induction because it is turn 2.",
+            "used": true,
+            "reason": "The skill gives the combo pieces and a Set Trap on the same turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "24:38"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Subtraction",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Induction",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Hey, Trunade!",
+            "action": "activate",
+            "reason": "Hey, Trunade! returns the Set cards on the field to the hand: it sends the opponent's Set card back, and it only touches the cards the opponent Set.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "24:43"
+            },
+            "moves": [
+              {
+                "card": "Hey, Trunade!",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Sigma from your deck to the Graveyard to Special Summon Circular from your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "24:47"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "Normal Summon Diameter, which Special Summons Nabla from the Graveyard (its effects are negated).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "24:49"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "Circular's search: add Mathmech Equation, the \"Monster Reborn\" of the deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "24:52"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Equation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Laplacian",
+            "action": "special-summon",
+            "reason": "Xyz Summon Primathmech Laplacian with Circular, Diameter and Nabla (3 Level 4 monsters). It gets Diameter's negate for this turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "24:58"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Laplacian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Laplacian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Induction",
+            "action": "activate",
+            "reason": "The opponent uses his Navigation card to negate your Trap, so you activate Mathmech Induction in response \"so as not to waste it\": it destroys a card and forces him to answer.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:12"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Induction",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Laplacian",
+            "action": "activate",
+            "reason": "Detach 3 materials and choose all three effects: send a random card of the opponent's hand, a monster and a Spell/Trap of his (his Eternal Soul) to the Graveyard, without targeting. His I:P Masquerena then Link Summons a Goddess using your Laplacian, but Eternal Soul in the Graveyard destroys that Goddess.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:20"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Circular",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Laplacian"
+              },
+              {
+                "card": "Primathmech Laplacian",
+                "from": "extra-monster-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Equation",
+            "action": "activate",
+            "reason": "Mathmech Equation: bring Nabla back from the Graveyard (+1000 ATK until the end of the turn).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:31"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Equation",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Subtraction",
+            "action": "special-summon",
+            "reason": "Special Summon Mathmech Subtraction from your hand (it limits your Extra Deck to Cyberse monsters for the rest of the turn).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:34"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Subtraction",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Tribute Subtraction to Special Summon Mathmech Multiplication from your deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:36"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Subtraction",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Multiplication",
+            "action": "activate",
+            "reason": "Target Nabla (a Level 4 Cyberse monster): its Level becomes 8, so Nabla (Tuner) and Multiplication make a Level 12 Synchro.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:39"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon Geomathmech Final Sigma (Level 12) in the Extra Monster Zone with Nabla (Level 8 Tuner) and Multiplication (Level 4). Multiplication, sent to the Graveyard as material, doubles Final Sigma's ATK to 6000, and Nabla in the Graveyard lets it attack twice.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:44"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "attack",
+            "reason": "Attack directly with 6000 ATK and double battle damage: the opponent has no monster left, and the replay ends with the opponent at 0 life points (\"Direct attack\" on screen).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "25:50"
+            },
+            "moves": []
+          }
+        ],
+        "chainNotes": "The opponent used his Navigation trap to negate the creator's Trap, then Link Summoned a Goddess with I:P Masquerena using the creator's Laplacian as material. Laplacian's effect had already resolved, and Eternal Soul in the Graveyard destroyed the Goddess. On screen you can see his Navigation card and Eternal Soul, and Laplacian's effect clearing his side so that the attack is direct. The opponent's side is not simulated.",
+        "endBoard": "Geomathmech Final Sigma (6000 ATK) in the Extra Monster Zone, Nabla and Multiplication in the Graveyard. In the replay the attack wins the game.",
+        "weakSpots": "The replay is told at speed and I could not read the cards on screen, so the middle steps (which Level 4 monster goes where, and what the skill added) are medium confidence. If you hold a Droll & Lock Bird or D.D. Crow, make Circular's search and the skill's Set in an order that does not let one card stop both. Final Sigma can still be stopped by Kaiju or Lava Golem."
+      },
+      {
+        "id": "yralps-turn-2-no-tuner-centurion",
+        "build": "yralps",
+        "choice": "Bricked hand (no Tuner)",
+        "title": "Going second, bricked hand: Circular but no Tuner (replay vs Centurion): Alembertian first, then the skill",
+        "hand": [
+          "Mathmech Circular"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Mathmech Circular"
+          ],
+          "without": [
+            {
+              "label": "a Level 4 Mathmech Tuner",
+              "cards": [
+                "Mathmech Sigma",
+                "Mathmech Diameter",
+                "Mathmech Nabla"
+              ]
+            }
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "You cannot reveal a Tuner at the start, so the skill is off. You find one (Alembertian's search), then use the skill in the middle of the turn (it is Set-a-Trap time because it is turn 2)."
+        },
+        "start": {
+          "hand": [
+            "Mathmech Circular",
+            "Unknown card",
+            "Unknown card",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The creator's turn in his replay against Centurion: he holds Circular and no Level 4 Mathmech Tuner, so he says \"I cannot activate my skill, but I can play Circular\". The opponent had already used his turn and Summoned Bystial-style cards. Checked against the screen: the opponent (Centur-Ion) has Emblema Oath, Droll & Lock Bird, Centur-Ion Trudea and Gargoyle II and Legatia on the field and goes first; a Trap Hole-style card (\"Comporta\") flips the Diameter you Summon face-down; Induction destroys his Set card; the line ends with Final Sigma and a lethal direct attack. The middle steps are read from quick animations, so most stay medium confidence."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "special-summon",
+            "reason": "Send Mathmech Sigma from your deck to the Graveyard to Special Summon Circular from your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:11"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Sigma",
+            "action": "special-summon",
+            "reason": "Sigma Special Summons itself from the Graveyard (you control nothing in the Extra Monster Zone). It will be banished if it leaves the field.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:13"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Sigma",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Circular",
+            "action": "activate",
+            "reason": "A Mathmech monster was Summoned while you control Circular, so Circular adds a Mathmech Spell/Trap: Mathmech Induction.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:15"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Induction",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "special-summon",
+            "reason": "Xyz Summon Primathmech Alembertian with Circular and Sigma (two Level 4 monsters).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:17"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              },
+              {
+                "card": "Mathmech Circular",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Primathmech Alembertian"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Detach 2 materials to add Mathmech Diameter. It is a Tuner, so you can use the skill now.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:21"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Circular",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Sigma",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Primathmech Alembertian"
+              },
+              {
+                "card": "Mathmech Diameter",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Mathmech Slicer",
+            "when": "In the middle of the turn (effect 2)",
+            "needs": "Reveal Mathmech Diameter and send 1 card from your hand to the Graveyard (the captions say Circular, not clear).",
+            "gives": "Add Mathmech Addition and Mathmech Nabla, and Set a Mathmech Trap because it is turn 2: Mathmech Induction.",
+            "used": true,
+            "reason": "The Tuner you just found switches the skill on.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:23"
+            },
+            "moves": [
+              {
+                "card": "Unknown card",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Addition",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Mathmech Induction",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Diameter",
+            "action": "normal-summon",
+            "reason": "Normal Summon Diameter (the opponent answers with a card that stops it from using its effect, and the creator says he should have used his Trap first to force a back-row card).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:35"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Induction",
+            "action": "activate",
+            "reason": "Send Induction to the Graveyard to destroy a card the opponent controls: the Emblema Salvation that was behind his monster.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:47"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Induction",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Primathmech Alembertian",
+            "action": "activate",
+            "reason": "Tribute Diameter (the monster the opponent's card turned face-down) to Special Summon Nabla from your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "22:57"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Diameter",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Nabla",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Nabla",
+            "action": "activate",
+            "reason": "Tribute Alembertian to Special Summon Mathmech Multiplication from your deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "23:01"
+            },
+            "moves": [
+              {
+                "card": "Primathmech Alembertian",
+                "from": "extra-monster-zone",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Mathmech Addition",
+            "action": "special-summon",
+            "reason": "Special Summon Mathmech Addition from your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "23:03"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Addition",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "special-summon",
+            "reason": "Synchro Summon Geomathmech Final Sigma (Level 12) with Nabla (Tuner), Multiplication and Addition (4 + 4 + 4). Multiplication, sent to the Graveyard as material, doubles its ATK.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "23:07"
+            },
+            "moves": [
+              {
+                "card": "Mathmech Nabla",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Multiplication",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Mathmech Addition",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Geomathmech Final Sigma",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Geomathmech Final Sigma",
+            "action": "attack",
+            "reason": "Attack a monster in Defense Position for 6000 piercing damage and win.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=4cFYWn7ooZ4",
+              "timestamp": "23:15"
+            },
+            "moves": []
+          }
+        ],
+        "chainNotes": "The creator says he made a mistake here: he should have activated his Trap earlier to force a card, and the opponent should have banished the Xyz instead of waiting. The captions name the opponent's cards \"Comporta\" and \"Trudea\" (the opponent Summons Centur-Ion Trudea): this part is hard to read, so the opponent's side is not simulated. The opponent's trap (\"Comporta Buraco Armadilha\" on screen) puts the Summoned monster face-down in Defense Position, which is why Diameter's effect does not go off.",
+        "endBoard": "Geomathmech Final Sigma (doubled ATK) in the Extra Monster Zone and a Set card of the opponent destroyed. In the replay it ends the game.",
+        "weakSpots": "The line only works if the opponent does not stop Alembertian's search, because it is what finds the Tuner. Keep Multiplication in the deck so that Nabla can bring it, and keep one Sigma for the first step. The replay is told at speed, so the order of the opponent's answers is not certain."
       }
     ],
     "videoLists": [
@@ -8686,7 +10095,9 @@
             "name": "I:P Masquerena",
             "count": 1
           }
-        ]
+        ],
+        "playName": "Ignister · pure Mathmech",
+        "playNote": "Only Mathmech cards and no extra engine: the simplest way to play the deck. The creator says it is for the player who wants to relax and win by attacking with Geomathmech Final Sigma."
       },
       {
         "id": "yralps",
@@ -8784,7 +10195,9 @@
             "name": "Splash Mage",
             "count": 1
           }
-        ]
+        ],
+        "playName": "YRalps · Centur-Ion engine + Mathmech",
+        "playNote": "Mathmech with a small Centur-Ion engine (Primera Primus, Emblema Oath and Centur-Ion Phalanx) for interaction on turn one, and Hey, Trunade! and Forbidden Droplet to help on turn two."
       }
     ]
   },
@@ -12383,7 +13796,8 @@
             "name": "S:P Little Knight",
             "count": 1
           }
-        ]
+        ],
+        "playName": "IgnisterPRC · Dark Magician Girl and Gadget Trio"
       },
       {
         "id": "sorem",
@@ -12497,7 +13911,8 @@
             "name": "S:P Little Knight",
             "count": 1
           }
-        ]
+        ],
+        "playName": "Sorem · Shining Sarcophagus and Gandora-G"
       }
     ],
     "buildDifferences": [

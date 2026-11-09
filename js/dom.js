@@ -11,6 +11,8 @@ export const slugify = (text) =>
 
 // "Build 2 (Name of the video)": how a guide built from several videos names each build (index counts from 0).
 export const buildName = (index, video) => `Build ${index + 1} (${video.title ?? video.creator ?? 'video'})`;
+// The name of a deck version on the play guide chips: the guide's own short name when it has one.
+export const versionName = (index, video) => video.playName ?? buildName(index, video);
 
 export function parseTimestamp(text) {
   const parts = String(text).trim().split(':').map(Number);

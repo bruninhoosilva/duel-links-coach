@@ -328,13 +328,7 @@ main p, main li, main dd { max-width: 78ch; }
 .builds-table thead th { color: var(--gold-hi); text-transform: none; letter-spacing: 0; font-size: .9rem; }
 .builds-table tbody th { color: var(--text); font-size: .95rem; text-transform: none; letter-spacing: 0; text-align: left; white-space: nowrap; }
 
-/* Play guide of a deck with several videos: one collapsed block per build */
-.build-group { margin: 1rem 0; border: 1px solid var(--line-gold); border-radius: var(--radius); background: linear-gradient(180deg, var(--surface-hi), var(--surface)); box-shadow: 0 6px 18px rgba(0, 0, 0, .3); }
-.build-group > summary { padding: .85rem 1.1rem; cursor: pointer; font-family: "Cinzel", Georgia, serif; font-size: 1.1rem; font-weight: 700; color: var(--gold-hi); }
-.build-group > summary:hover { color: var(--text); }
-.build-group[open] > summary { border-bottom: 1px solid var(--line-gold); }
-.build-body { padding: 0 1rem 1rem; }
-.build-body .scenario { margin: 1rem 0 0; }
+/* Play guide of a deck with several videos: pick the deck version, then the situation */
 .own-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: .8rem 0; }
 .own-row .own { justify-content: flex-start; }
 .box-row summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem; }
@@ -350,3 +344,7 @@ main p, main li, main dd { max-width: 78ch; }
 .box-row .coll-list { margin-top: .6rem; }
 .box-where { flex-basis: 100%; }
 .box-row .coll-name { display: flex; flex-direction: column; align-items: flex-start; gap: .15rem; }
+
+.play-pick { margin: 1rem 0 1.2rem; padding: .9rem 1.1rem .5rem; border: 1px solid var(--line-gold); border-radius: var(--radius); background: linear-gradient(180deg, var(--surface-2, rgba(255, 255, 255, .04)), transparent); }
+.play-pick .blabel { margin: .2rem 0 .3rem; font-weight: 700; }
+.play-pick .chips { margin: .2rem 0 .7rem; }

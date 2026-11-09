@@ -48,6 +48,7 @@ const pageCtx = () => ({
   backupNote: backupNudge(loadBackupMeta()),
   versions,
   verState: verState.get(currentSlug ?? ''),
+  playPick: playPick.get(currentSlug ?? ''),
 });
 // The pages that wait for the extra card data (search index, other decks, extra cards).
 const needsExtra = (route) => ['collection', 'boxes', 'build', 'other'].includes(route.name) || (route.name === 'deck' && route.tab === 'myversion');
@@ -75,20 +76,15 @@ function markNav(routeName) {
   }
 }
 
-// The play guide of a deck built from several videos has one collapsed block per build. The ones the reader opened stay
-// open when the page is drawn again, and a link to one play line opens the build that holds it.
-const openBuilds = new Set(); // "slug|build id"
-function restoreBuilds(route) {
-  if (!currentSlug) return;
-  for (const d of app.querySelectorAll('details.build-group')) {
-    if (openBuilds.has(`${currentSlug}|${d.dataset.build}`)) d.open = true;
-  }
-  const target = route.anchor ? document.getElementById(`sc-${route.anchor}`) : null;
-  const group = target?.closest('details.build-group');
-  if (group) {
-    group.open = true;
-    openBuilds.add(`${currentSlug}|${group.dataset.build}`);
-  }
+// The play guide of a deck built from several videos lets the reader pick the deck version, then the situation.
+// What was picked is kept per deck while the page is open, and a link to one play line picks the version that holds it.
+const playPick = new Map(); // deck slug -> { build, scenario }
+let anchorSeen = null; // the address whose play-line link was already applied, so a chip the reader clicks later is not undone
+function pickFromAnchor(slug, route) {
+  if (anchorSeen === location.hash) return;
+  anchorSeen = location.hash;
+  const sc = route.anchor ? data.guides[slug]?.scenarios?.find((x) => x.id === route.anchor && x.build) : null;
+  if (sc) playPick.set(slug, { build: sc.build, scenario: sc.id });
 }
 // The boxes page: the boxes the reader opened stay open when marking a card redraws the page. The best box starts open.
 const openBoxes = new Set();
@@ -125,18 +121,6 @@ app.addEventListener(
   },
   true,
 );
-app.addEventListener(
-  'toggle',
-  (event) => {
-    const d = event.target;
-    if (!currentSlug || !d.matches?.('details.build-group')) return;
-    const key = `${currentSlug}|${d.dataset.build}`;
-    if (d.open) openBuilds.add(key);
-    else openBuilds.delete(key);
-  },
-  true,
-);
-
 function render({ keepScroll = false } = {}) {
   const route = parseRoute(location.hash);
   const scroll = window.scrollY;
@@ -179,6 +163,7 @@ function render({ keepScroll = false } = {}) {
   } else if (route.name === 'deck' && Object.hasOwn(data.guides, route.slug)) {
     const guide = data.guides[route.slug];
     currentSlug = route.slug;
+    pickFromAnchor(route.slug, route);
     app.innerHTML = renderDeckPage(guide, pageCtx(), route, handFor(route.slug), chosenLists.get(route.slug), turns.get(route.slug) ?? 'first');
     title = `${guide.deck} · Duel Links Coach`;
   } else {
@@ -186,7 +171,6 @@ function render({ keepScroll = false } = {}) {
   }
   document.title = title;
   markNav(route.name);
-  restoreBuilds(route);
   restoreBoxes(route);
 
   if (keepScroll) window.scrollTo(0, scroll);
@@ -268,6 +252,15 @@ document.addEventListener('click', (event) => {
     render({ keepScroll: true });
     flyIntoHand(from, hand.length - 1);
     document.querySelector(`[data-pick="${CSS.escape(name)}"]`)?.focus({ preventScroll: true });
+    return;
+  }
+  const playBuild = event.target.closest('[data-play-build]');
+  const playLine = event.target.closest('[data-play-line]');
+  if ((playBuild || playLine) && currentSlug) {
+    playPick.set(currentSlug, playBuild ? { build: playBuild.dataset.playBuild } : { build: playLine.dataset.playOf, scenario: playLine.dataset.playLine });
+    render({ keepScroll: true });
+    const again = playBuild ? `[data-play-build="${CSS.escape(playBuild.dataset.playBuild)}"]` : `[data-play-line="${CSS.escape(playLine.dataset.playLine)}"]`;
+    document.querySelector(again)?.focus({ preventScroll: true });
     return;
   }
   const listChip = event.target.closest('[data-box-list]');

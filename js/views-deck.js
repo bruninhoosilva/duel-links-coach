@@ -22,7 +22,7 @@ export function renderDeckPage(guide, ctx, route, hand, listId, turn = 'first') 
     cards: () => renderCards(guide, ctx),
     synergies: () => renderSynergies(guide, ctx),
     options: () => renderOptions(guide, ctx),
-    play: () => renderPlay(guide, ctx),
+    play: () => renderPlay(guide, ctx, ctx.playPick),
     picker: () => renderPicker(guide, hand, route.slug, ctx, turn),
   };
   const body = (builders[route.tab] ?? builders.overview)(guide, ctx, route, hand);

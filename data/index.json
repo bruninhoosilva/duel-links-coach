@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T15:56:31.317Z",
+  "generatedAt": "2026-11-09T11:46:22.224Z",
   "dataFetchedAt": "2026-11-02T14:02:14.478Z",
   "decks": [
     {
@@ -126,9 +126,9 @@
       "slug": "mathmech",
       "name": "Mathmech",
       "status": "verified",
-      "updated": "2026-11-03",
+      "updated": "2026-11-09",
       "skill": "Mathmech Slicer",
-      "scenarios": 4,
+      "scenarios": 7,
       "stats": {
         "decks": 9,
         "totalDecks": 612,

@@ -1,5 +1,5 @@
 import { renderMoveStrip, renderScenarioBoard } from './views-board.js';
-import { ACTION_LABELS, ROLE_HELP, ROLE_LABELS, ROLE_ORDER, buildName, cardButton, describeSkillSource, esc, timeLink } from './dom.js';
+import { ACTION_LABELS, ROLE_HELP, ROLE_LABELS, ROLE_ORDER, buildName, versionName, cardButton, describeSkillSource, esc, timeLink } from './dom.js';
 
 const list = (items) => `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>`;
 
@@ -125,7 +125,8 @@ function renderStep(step, number, hasBoard, ctx) {
     </li>`;
 }
 
-export function renderPlay(guide, ctx = { cards: {} }) {
+// Which deck version and which situation the reader picked in the play guide: { build, scenario } (both optional).
+export function renderPlay(guide, ctx = { cards: {} }, pick = {}) {
   const scenarioHtml = (sc) => {
       const hasBoard = Boolean(sc.start);
       return `
@@ -143,17 +144,26 @@ export function renderPlay(guide, ctx = { cards: {} }) {
   const scenarios = guide.scenarios ?? [];
   const intro = '<p class="muted">Follow the steps in order. A "check in game" tag means the step relies on what the creator says, so try it once before you depend on it.</p>';
 
-  // A guide built from several videos groups its play lines by build: one collapsed block per build, opened by the reader.
+  // A guide built from several videos has one deck version per video. The reader picks the version first, then the
+  // situation (going first, going second, a hand with no Tuner...), and only that play line is shown.
   const videos = guide.videoLists ?? [];
-  const grouped = videos.length >= 2 && scenarios.some((sc) => videos.some((v) => v.id === sc.build));
-  if (!grouped) return `${intro}${scenarios.map(scenarioHtml).join('')}`;
-  const ungrouped = scenarios.filter((sc) => !videos.some((v) => v.id === sc.build));
-  const groups = videos
-    .map((v, i) => {
-      const own = scenarios.filter((sc) => sc.build === v.id);
-      if (own.length === 0) return '';
-      return `<details class="build-group" data-build="${esc(v.id)}"><summary>${esc(buildName(i, v))}</summary><div class="build-body">${own.map(scenarioHtml).join('')}</div></details>`;
-    })
+  const versions = videos.filter((v) => scenarios.some((sc) => sc.build === v.id));
+  if (videos.length < 2 || versions.length === 0) return `${intro}${scenarios.map(scenarioHtml).join('')}`;
+  const shared = scenarios.filter((sc) => !videos.some((v) => v.id === sc.build));
+  const version = versions.find((v) => v.id === pick.build) ?? versions[0];
+  const lines = scenarios.filter((sc) => sc.build === version.id);
+  const line = lines.find((sc) => sc.id === pick.scenario) ?? lines[0];
+  const versionChips = versions
+    .map((v) => `<button type="button" class="chip" data-play-build="${esc(v.id)}" aria-pressed="${v.id === version.id}">${esc(versionName(videos.indexOf(v), v))}</button>`)
     .join('');
-  return `${intro}<p class="muted">This guide follows ${videos.length} videos. Open the build you want to play.</p>${ungrouped.map(scenarioHtml).join('')}${groups}`;
+  const lineChips = lines
+    .map((sc) => `<button type="button" class="chip" data-play-line="${esc(sc.id)}" data-play-of="${esc(version.id)}" aria-pressed="${sc.id === line.id}">${esc(sc.choice ?? sc.title)}</button>`)
+    .join('');
+  const chooser = `<div class="play-pick">
+    <p class="blabel">1. Which deck do you want to play?</p>
+    <div class="chips" role="group" aria-label="Deck version">${versionChips}</div>
+    ${version.playNote ? `<p class="muted small">${esc(version.playNote)}</p>` : ''}
+    ${lines.length > 1 ? `<p class="blabel">2. Which situation?</p><div class="chips" role="group" aria-label="Situation">${lineChips}</div>` : ''}
+  </div>`;
+  return `${chooser}${intro}${scenarioHtml(line)}${shared.map(scenarioHtml).join('')}`;
 }

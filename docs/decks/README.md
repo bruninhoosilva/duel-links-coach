@@ -10,7 +10,7 @@
 | [Elemental HERO](elemental-hero.md) | verified | 2026-10-20 | Miracle Neos Contact | 1 | 24 |
 | [Horus](horus.md) | verified | 2026-10-16 | Precious Cards of the Dark | 1 | 23 |
 | [Icejade](icejade.md) | verified | 2026-11-02 | A World of Ice and Water | 1 | 22 |
-| [Mathmech](mathmech.md) | verified | 2026-11-03 | Mathmech Slicer | 2 | 29 |
+| [Mathmech](mathmech.md) | verified | 2026-11-09 | Mathmech Slicer | 2 | 29 |
 | [Memento](memento.md) | verified | 2026-10-14 | Precious Cards of the Dark | 1 | 26 |
 | [Red-Eyes](red-eyes.md) | verified | 2026-10-19 | Red-Eyes Armament | 1 | 25 |
 | [Shining Sarcophagus](shining-sarcophagus.md) | verified | 2026-10-19 | Light the Way to the Future | 2 | 31 |

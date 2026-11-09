@@ -28,7 +28,7 @@ There is one theme (dark). The page declares `color-scheme: dark`.
 - Panels: `.panel`, `.deck-card`, `.scenario`: gradient background, gold top edge, soft shadow.
 - Card tiles (`.dtile`, `.pool-card`, `.hand-card`): framed like cards in a binder, lift with a gold glow on hover; the copy count is a gold badge (`.qty`).
 - Decks page: `.deck-card.has-art` puts the deck's featured card (`.deck-art`, 118px) beside its box.
-- Collapsible build blocks in the play guide: `details.build-group` (see [guide-format.md](guide-format.md)).
+- The play guide chooser for decks with several videos: `.play-pick` with two rows of `.chip` buttons, deck version then situation (see [guide-format.md](guide-format.md)).
 
 ## Rules
 - Text must stay easy to read: keep contrast, do not shrink body text, keep long paragraphs narrow.

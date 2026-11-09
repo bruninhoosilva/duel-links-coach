@@ -42,14 +42,15 @@ All card names must exist in `data/cards.json` (English names, exact spelling) a
 
 ### `scenarios[]` (play lines)
 ```json
-{ "id": "unique-id", "title": "Plain-language title", "build": "<videoLists id>",
+{ "id": "unique-id", "title": "Plain-language title", "build": "<videoLists id>", "choice": "Going second",
   "hand": ["cards shown in the hand picker"],
   "requires": { "turn": "first", "hand": ["Card"], "anyOf": [{ "label": "Text", "cards": ["A","B"] }], "without": [{ "label": "Text", "cards": ["C"] }], "board": "text for a line that continues an earlier board" },
   "skillPlan": { "uses": true, "note": "..." },
   "start": { "hand": [], "graveyard": [], "banished": [], "monster-zone": [], "extra-monster-zone": [], "spell-trap-zone": [], "note": "..." },
   "steps": [ ... ], "chainNotes": "...", "endBoard": "...", "weakSpots": "..." }
 ```
-- `build` (optional): the `id` of a `videoLists` entry. With two or more videos, play lines are grouped into collapsed "Build N (video title)" blocks; a line without `build` stays above the blocks.
+- `build` (optional): the `id` of a `videoLists` entry. With two or more videos, the play guide opens with a chooser: **1. Which deck do you want to play?** (one chip per video) and **2. Which situation?** (one chip per play line of that deck), and only the picked line is shown. A line without `build` is shown after the picked one.
+- `choice` (optional): the short name of the play line on the second chip row ("Going first", "Going second", "Bricked hand (no Tuner)"); without it the title is used.
 - `requires` drives the hand picker (`turn` is `first` or `second`). `board` makes the line "needs an earlier board" and never matches a hand.
 - `start` is the table before the first step. Use `"Unknown card"` for a card we cannot name (a draw, a card that does not matter).
 - Verified guides need `requires`, `start`, `moves` on every step, a `source` and a `confidence` of `high` or `medium` on every step.
@@ -79,7 +80,7 @@ Skill step: `{ "type": "skill", "skill": "Name", "when": "...", "needs": "...", 
 "buildDifferences": [{ "topic": "How it opens", "a": "Build 1 does...", "b": "Build 2 does...", "why": "Why it matters" }]
 ```
 - Each entry needs `id` (unique), `title` (the video's name, used in "Build N (title)") and the lists. Counts are 1 to 3; at most 30 main and 9 Extra Deck cards.
-- Effects on the site: the Deck lists tab opens with one chip per video, named **"From Video - Creator"**; the play guide groups scenarios per build; the Alternatives tab opens with "Two builds, two videos" (written comparison from `buildDifferences` plus an automatic table of every card whose count differs).
+- Effects on the site: the Deck lists tab opens with one chip per video, named **"From Video - Creator"**; the play guide starts with the deck-version and situation chooser (`playName` and `playNote` on each `videoLists` entry give the chip its short name, for example "Ignister · pure Mathmech", and a one-line description; without `playName` the chip reads "Build N (video title)"); the Alternatives tab opens with "Two builds, two videos" (written comparison from `buildDifferences` plus an automatic table of every card whose count differs).
 - A guide built from one video uses `videoList` (same shape without `id`/`title`); it shows as one "From Video - Creator" chip.
 
 ## Checking a guide

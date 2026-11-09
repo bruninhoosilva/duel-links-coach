@@ -2,7 +2,7 @@
 
 > Generated from the guide file by `npm run docs:decks`. Do not edit by hand: change `guides/mathmech.json` and regenerate. Caveats that are not in the data live in [known-issues.md](known-issues.md).
 
-- Status: **verified**, last updated 2026-11-03
+- Status: **verified**, last updated 2026-11-09
 - Format: speed
 - Guide file: `guides/mathmech.json`
 - Skill: **Mathmech Slicer**
@@ -43,8 +43,11 @@
 
 | Title | Build | Steps | Medium-confidence steps |
 |---|---|---|---|
-| Turn 1: you open with a Level 4 Tuner (example: Nabla) |  | 13 | 3 of 13 |
-| Turn 1: you hold Circular but no Tuner (the skill is off until you find one) |  | 9 | 4 of 9 |
-| Finish: with Alembertian and one other monster on your field and Nabla in your Graveyard, build Final Sigma and attack with it |  | 7 | 1 of 7 |
+| Going first: the standard line with Nabla and Circular, from Alembertian and Dugares to a doubled Final Sigma | Build 1 | 16 | 0 of 16 |
+| Going second (turn 2): the standard line with Nabla and Circular, from Alembertian and Dugares to a doubled Final Sigma | Build 1 | 16 | 10 of 16 |
+| Going first, bricked hand: you hold Circular but no Tuner (the skill is off until you find one) | Build 1 | 10 | 4 of 10 |
+| Going first with a Tuner (Mekklord's English guide): you open with a Level 4 Tuner (example: Nabla) | Build 1 | 13 | 3 of 13 |
 | Turn 1 with Sigma and Circular: Primera Primus, Final Sigma and Laplacian on the opponent's turn (YRalps replay) | Build 2 | 19 | 4 of 19 |
+| Going second (turn 2, replay vs Dark Magician): Laplacian first, then Equation, Multiplication and a doubled Final Sigma | Build 2 | 14 | 13 of 14 |
+| Going second, bricked hand: Circular but no Tuner (replay vs Centurion): Alembertian first, then the skill | Build 2 | 13 | 13 of 13 |
 
