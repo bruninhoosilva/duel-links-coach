@@ -8099,5 +8099,110 @@
         "distance": 17
       }
     ]
+  },
+  "winged-dragon-of-ra": {
+    "defaultId": "video",
+    "lists": [
+      {
+        "id": "video",
+        "video": true,
+        "author": "Yami Ewerton",
+        "event": "Video list",
+        "created": "2026-11-10",
+        "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+        "tier": null,
+        "main": [
+          {
+            "name": "Guardian Slime",
+            "count": 2
+          },
+          {
+            "name": "The Winged Dragon of Ra - Immortal Phoenix",
+            "count": 2
+          },
+          {
+            "name": "The Winged Dragon of Ra - Sphere Mode",
+            "count": 2
+          },
+          {
+            "name": "The Winged Dragon of Ra",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 2
+          },
+          {
+            "name": "Wightprincess",
+            "count": 3
+          },
+          {
+            "name": "Ancient Chant",
+            "count": 3
+          },
+          {
+            "name": "Millennium Revelation",
+            "count": 1
+          },
+          {
+            "name": "Monster Reborn",
+            "count": 1
+          },
+          {
+            "name": "Mystical Space Typhoon",
+            "count": 2
+          },
+          {
+            "name": "Blaze Cannon",
+            "count": 1
+          },
+          {
+            "name": "The True Sun God",
+            "count": 3
+          },
+          {
+            "name": "Sun God Unification",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Egyptian God Slime",
+            "count": 2
+          },
+          {
+            "name": "Superdreadnought Rail Cannon Juggernaut Liebe",
+            "count": 1
+          },
+          {
+            "name": "Number 81: Superdreadnought Rail Cannon Super Dora",
+            "count": 1
+          },
+          {
+            "name": "Skypalace Gangaridai",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Unicorn",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Pentestag",
+            "count": 1
+          }
+        ],
+        "mainSize": 26,
+        "extraSize": 9,
+        "distance": 0
+      }
+    ]
   }
 }

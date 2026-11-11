@@ -9203,5 +9203,383 @@
         "url": "https://www.duellinksmeta.com/articles/sets/anniversary-box-vol4/"
       }
     ]
+  },
+  "Ancient Chant": {
+    "name": "Ancient Chant",
+    "pt": "Cântico Antigo",
+    "image": "img/cards/ancient-chant.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Add 1 \"The Winged Dragon of Ra\" from your Deck or GY to your hand, and if you do, during your Main Phase this turn, you can Tribute Summon 1 monster, in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) You can banish this card from your GY; if you Tribute Summon \"The Winged Dragon of Ra\" this turn after you resolved this effect, its original ATK/DEF become the combined original ATK/DEF of the monsters Tributed for its Tribute Summon. You can only activate 1 \"Ancient Chant\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Millennium Duel",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/millennium-duel/"
+      }
+    ]
+  },
+  "Blaze Cannon": {
+    "name": "Blaze Cannon",
+    "pt": "Canhão de Explosão",
+    "image": "img/cards/blaze-cannon.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "(This card is also always treated as a \"Blaze Accelerator\" card.)\r\nOne \"The Winged Dragon of Ra\" you control gains the following effects until the end of this turn. This card's activation and effect cannot be negated.\r\n● This card is unaffected by your opponent's card effects.\r\n● When an attack is declared involving this card: You can Tribute any number of other monsters that did not declare an attack this turn; this card gains ATK equal to the Tributed monsters' combined original ATK, until the end of this turn.\r\n● After damage calculation, if this card attacked: You can send all monsters your opponent controls to the GY.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Millennium Duel",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/articles/sets/millennium-duel/"
+      }
+    ]
+  },
+  "Guardian Slime": {
+    "name": "Guardian Slime",
+    "pt": "Guardião Limo",
+    "image": "img/cards/guardian-slime.jpg",
+    "type": "Monster",
+    "race": "Aqua",
+    "attribute": "WATER",
+    "level": 10,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "If you take battle or effect damage: You can Special Summon this card from your hand. During damage calculation, if this card battles an opponent's monster (Quick Effect): You can make this card gain DEF equal to that opponent's monster's ATK during that damage calculation only. If this card is sent from the hand or field to the GY: You can add 1 Spell/Trap from your Deck to your hand that specifically lists the card \"The Winged Dragon of Ra\" in its text. You can only use each effect of \"Guardian Slime\" once per turn.",
+    "obtain": [
+      {
+        "kind": "character",
+        "name": "Marik Ishtar",
+        "level": "Level 14",
+        "url": "https://www.duellinksmeta.com/articles/farming/all-characters/marik-ishtar/"
+      },
+      {
+        "kind": "character",
+        "name": "Marik Ishtar",
+        "level": "Level 30",
+        "url": "https://www.duellinksmeta.com/articles/farming/all-characters/marik-ishtar/"
+      },
+      {
+        "kind": "character",
+        "name": "Marik Ishtar",
+        "level": "Level 45",
+        "url": "https://www.duellinksmeta.com/articles/farming/all-characters/marik-ishtar/"
+      }
+    ]
+  },
+  "Millennium Revelation": {
+    "name": "Millennium Revelation",
+    "pt": "Revelação do Milênio",
+    "image": "img/cards/millennium-revelation.jpg",
+    "type": "Spell",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "You can send 1 Divine-Beast monster from your hand to the GY; add 1 \"Monster Reborn\" from your Deck or GY to your hand. You can send this face-up card to the GY; this turn, you can Special Summon \"The Winged Dragon of Ra\" from your GY with \"Monster Reborn\", ignoring its Summoning conditions. During the End Phase of the turn this effect was activated, you must send \"The Winged Dragon of Ra\" you control that was Special Summoned with \"Monster Reborn\" to the GY. You can only use each effect of \"Millennium Revelation\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Phoenix Blaze",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/phoenix-blaze/"
+      }
+    ]
+  },
+  "Monster Reborn": {
+    "name": "Monster Reborn",
+    "pt": "Reviver Monstro",
+    "image": "img/cards/monster-reborn.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Target 1 monster in either GY; Special Summon it.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Campaigns",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Lifetime Missions",
+        "url": null
+      }
+    ]
+  },
+  "Number 81: Superdreadnought Rail Cannon Super Dora": {
+    "name": "Number 81: Superdreadnought Rail Cannon Super Dora",
+    "pt": "Número 81: Supercouraçado Canhão de Trilho Super Dora",
+    "image": "img/cards/number-81-superdreadnought-rail-cannon-super-dora.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "EARTH",
+    "level": 10,
+    "atk": 3200,
+    "def": 4000,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 10 monsters\r\nOnce per turn (Quick Effect): You can detach 1 material from this card, then target 1 face-up monster on the field; that target is unaffected by card effects, except its own, until the end of this turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Special Set",
+        "url": null
+      }
+    ]
+  },
+  "Pentestag": {
+    "name": "Pentestag",
+    "pt": "Lucanintrusteste",
+    "image": "img/cards/pentestag.jpg",
+    "type": "Monster",
+    "race": "Cyberse",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 1600,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 Effect Monsters\r\nIf your linked monster attacks a Defense Position monster, inflict piercing battle damage to your opponent.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Link Revolution",
+        "boxType": "Main Box",
+        "amount": 8,
+        "url": "https://www.duellinksmeta.com/articles/sets/link-revolution/"
+      },
+      {
+        "kind": "set",
+        "name": "Cynet Raging",
+        "boxType": "Structure Deck EX",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/cynet-raging/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/articles/sets/anniversary-box-2/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol.07",
+        "boxType": "Selection Box Mini",
+        "amount": 12,
+        "url": "https://www.duellinksmeta.com/articles/sets/selection-box-mini-vol-07/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box: WCS 2026",
+        "boxType": "Main Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/articles/sets/anniversary-box-wcs2026/"
+      },
+      {
+        "kind": "set",
+        "name": "Princess of Aqua",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/articles/sets/princess-of-aqua/"
+      }
+    ]
+  },
+  "Skypalace Gangaridai": {
+    "name": "Skypalace Gangaridai",
+    "pt": "Palácio Celeste Gangaridai",
+    "image": "img/cards/skypalace-gangaridai.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "WIND",
+    "level": 10,
+    "atk": 3400,
+    "def": 3000,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 10 monsters\nYou can detach 1 Xyz Material from this card, then target 1 card your opponent controls; destroy that target, and if you do, inflict 500 damage to your opponent. You can only use the effect of \"Skypalace Gangaridai\" once per turn. This card cannot attack the turn you activate this effect.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Heart of Xyz",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/heart-of-xyz/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.06",
+        "boxType": "Selection Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/selection-box-super-mini-vol-06/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/selection-box-vol-07/"
+      }
+    ]
+  },
+  "Sun God Unification": {
+    "name": "Sun God Unification",
+    "pt": "Unificação do Deus Sol",
+    "image": "img/cards/sun-god-unification.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "If you control a monster whose original name is \"The Winged Dragon of Ra\", you can activate this card the turn it was Set. During the Main Phase: You can pay LP so that you only have 100 left; 1 Special Summoned \"The Winged Dragon of Ra\" you control gains ATK/DEF equal to the amount of LP paid (even if this card leaves the field). Once per turn: You can Tribute 1 \"The Winged Dragon of Ra\"; gain LP equal to its ATK on the field. You cannot activate both of this card's effects in the same Chain.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Phoenix Blaze",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/phoenix-blaze/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 04",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/anniversary-box-vol4/"
+      }
+    ]
+  },
+  "Superdreadnought Rail Cannon Juggernaut Liebe": {
+    "name": "Superdreadnought Rail Cannon Juggernaut Liebe",
+    "pt": "Supercouraçado Canhão de Trilho Juggernaut Liebe",
+    "image": "img/cards/superdreadnought-rail-cannon-juggernaut-liebe.jpg",
+    "type": "Monster",
+    "race": "Machine",
+    "attribute": "EARTH",
+    "level": 11,
+    "atk": 4000,
+    "def": 4000,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "3 Level 11 monsters\r\nOnce per turn, you can also Xyz Summon \"Superdreadnought Rail Cannon Juggernaut Liebe\" by using 1 Rank 10 Machine Xyz Monster you control as material. (Transfer its materials to this card.) Once per turn: You can detach 1 material from this card; it gains 2000 ATK/DEF, also for the rest of this turn, you can only declare an attack with this card. During each Battle Phase, this card can make attacks on monsters up to the number of materials it has +1.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Heart of Xyz",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/heart-of-xyz/"
+      },
+      {
+        "kind": "set",
+        "name": "Selection Box Vol.07",
+        "boxType": "Selection Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/selection-box-vol-07/"
+      }
+    ]
+  },
+  "The True Sun God": {
+    "name": "The True Sun God",
+    "pt": null,
+    "image": "img/cards/the-true-sun-god.jpg",
+    "type": "Spell",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "When this card is activated: Add 1 \"The Winged Dragon of Ra\" or 1 card that mentions it from your Deck to your hand, except \"The True Sun God\". Monsters, except \"The Winged Dragon of Ra\", cannot attack the turn they are Special Summoned. Once per turn, during your Main Phase: You can send this card from the field, or 1 \"The Winged Dragon of Ra - Immortal Phoenix\" from your Deck, to the GY, then send 1 \"The Winged Dragon of Ra\" from your Monster Zone to the GY. You can only activate 1 \"The True Sun God\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Phoenix Blaze",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/phoenix-blaze/"
+      },
+      {
+        "kind": "set",
+        "name": "Millennium Duel",
+        "boxType": "Main Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/millennium-duel/"
+      }
+    ]
+  },
+  "The Winged Dragon of Ra": {
+    "name": "The Winged Dragon of Ra",
+    "pt": "O Dragão Alado de Rá",
+    "image": "img/cards/the-winged-dragon-of-ra.jpg",
+    "type": "Monster",
+    "race": "Divine-Beast",
+    "attribute": "DIVINE",
+    "level": 10,
+    "atk": 0,
+    "def": 0,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Cannot be Special Summoned. Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, other cards and effects cannot be activated. When this card is Normal Summoned: You can pay LP so that you only have 100 left; this card gains ATK/DEF equal to the amount of LP paid. You can pay 1000 LP, then target 1 monster on the field; destroy that target.",
+    "obtain": []
+  },
+  "The Winged Dragon of Ra - Immortal Phoenix": {
+    "name": "The Winged Dragon of Ra - Immortal Phoenix",
+    "pt": "Dragão Alado de Rá - Fênix",
+    "image": "img/cards/the-winged-dragon-of-ra-immortal-phoenix.jpg",
+    "type": "Monster",
+    "race": "Divine-Beast",
+    "attribute": "DIVINE",
+    "level": 10,
+    "atk": 4000,
+    "def": 4000,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. If \"The Winged Dragon of Ra\" is sent from the field to your GY while this card is in your GY: Special Summon this card. Cards and effects cannot be activated in response to this effect's activation. This card is unaffected by other cards' effects. You can pay 1000 LP; send 1 monster on the field to the GY. Once per turn, during the End Phase: Send this card to the GY, and if you do, Special Summon 1 \"The Winged Dragon of Ra - Sphere Mode\" from your hand, Deck, or GY, ignoring its Summoning conditions.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Phoenix Blaze",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/phoenix-blaze/"
+      }
+    ]
   }
 }

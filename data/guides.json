@@ -14957,5 +14957,984 @@
         }
       ]
     }
+  },
+  "winged-dragon-of-ra": {
+    "deck": "Winged Dragon of Ra",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-11-10",
+    "featuredCard": "The Winged Dragon of Ra",
+    "skill": {
+      "name": "Sun God's Flare",
+      "enablerCards": [
+        "Ancient Chant",
+        "The Winged Dragon of Ra",
+        "The True Sun God"
+      ],
+      "trigger": "Effect 1 is always on. Effect 2 can be used once per turn and needs a Ra in your hand to reveal. Effect 3 can be used once per Duel and needs a Divine-Beast on your side or a monster on the opponent's side (before 2026-04-09 it only worked if the opponent controlled a monster and you did not).",
+      "enabler": "Effect 1: during your turn you cannot Normal or Special Summon (except from the Extra Deck) any monster except Divine-Beast and Aqua monsters. Effect 2 (once per turn): reveal a Ra from your hand and play a Guardian Slime from your hand, deck or Graveyard (its effects are negated). Effect 3 (once per Duel): if you control a Divine-Beast, or your opponent controls a monster, set your LP to 4100 and add Monster Reborn from outside the deck to your hand; if you control no cards you can also add Ra or a card that mentions it from your deck.",
+      "adds": []
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "COMO JOGAR COM O DECK DRAGÃO ALADO DE RÁ? COMBO INSANO E IMORTAL! - YU-GI-OH! DUEL LINKS #256 (Portuguese deck explanation and replays)",
+        "creator": "Yami Ewerton",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ"
+      }
+    ],
+    "gamePlan": "A turn-one deck built on Ra. Open with Ancient Chant to add Ra and get an extra Tribute Summon. The skill puts Guardian Slime on the field for free, Egyptian God Slime is Special Summoned from the Extra Deck by Tributing it (it counts as 3 Tributes), and Guardian Slime searches The True Sun God. Banish Ancient Chant, Tribute Summon Ra for 6900 ATK (pay life down to 100), and let the skill put you back to 4100 life points and add Monster Reborn. With The True Sun God and Sun God Unification you end with Ra, a Phoenix and Sphere Mode and up to 11,000 life points. The creator says the duels are fast, even if they are not decided on turn two or three, and the deck is not hard to play.",
+    "strengths": [
+      "Turn one makes Ra with 6900 ATK, and the better line leaves an unaffected Phoenix, Sphere Mode (cannot be targeted or attacked) and 11,000 life points.",
+      "The skill gives you a free Guardian Slime and Monster Reborn, so the combo costs few cards.",
+      "Going second the opponent's own monsters are Tributes: Sphere Mode goes onto his side and Ra attacks it for the win.",
+      "Wightprincess and a lot of life points make it very hard to lose even when the combo is stopped.",
+      "The creator says the deck won a $100 tournament, beating Chimera and Shaddoll and Chardol along the way."
+    ],
+    "weaknesses": [
+      "The creator warns the deck is not cheap: it needs 3 Ancient Chant and 3 Ra for maximum consistency, or it bricks like Utopia.",
+      "While you control Divine-Beast and Aqua monsters only, you cannot Summon anything else on your turn (the skill's first effect).",
+      "Mystical Space Typhoon-type answers in response to Sun God Unification are the only thing that stops the life gain.",
+      "Many players use only 1 Phoenix and 1 Sphere Mode; the creator thinks that is why the deck performs worse for them: you want 2 of each.",
+      "The deck screen and the tournament list were made before 2026; since then Guardian Slime became Unlimited (2025-09-26), Droll & Lock Bird went to Limited 3 and back to Unlimited, and the skill was changed (2026-03-26), so no card of the list is banned but the skill text may differ slightly from his explanation."
+    ],
+    "cards": [
+      {
+        "name": "Ancient Chant",
+        "role": "starter",
+        "copies": 3,
+        "note": "The best card of the deck, in the creator's words (\"really, really, really strong\"). Adds The Winged Dragon of Ra from your deck or Graveyard to your hand and gives you an extra Tribute Summon this turn. Later you can banish it from the Graveyard: if you Tribute Summon Ra afterwards, its ATK/DEF become the combined ATK/DEF of the monsters you Tributed. He takes Ra from the Graveyard when he can, so there are more Ra left in the deck for the skill. He needs 3: with fewer the deck bricks more."
+      },
+      {
+        "name": "The Winged Dragon of Ra",
+        "role": "payoff",
+        "copies": 3,
+        "note": "The Winged Dragon of Ra. Needs 3 Tributes (Egyptian God Slime counts as 3), cannot be Special Summoned and its Normal Summon cannot be negated. When Normal Summoned you can pay Life Points down to 100 and it gains that much ATK/DEF (6900 in the replay: 3000 from the Tribute and 3900 from the life paid), and you can pay 1000 LP to destroy a monster. The creator plays 3 and says it is not worth using fewer."
+      },
+      {
+        "name": "Guardian Slime",
+        "role": "starter",
+        "copies": 2,
+        "note": "Aqua monster that the skill puts on the field for free (its effects are negated). It is Tributed for Egyptian God Slime, and when it goes to the Graveyard from the field it adds a Spell/Trap that lists Ra (True Sun God first). The creator always plays 2. When he made the video it was Limited to 2; since 2025-09-26 it is Unlimited, so you could play a third."
+      },
+      {
+        "name": "Egyptian God Slime",
+        "role": "payoff",
+        "copies": 2,
+        "note": "Extra Deck Fusion (Level 10, 3000 ATK). With Guardian Slime Tributed (a Level 10 Aqua with 0 ATK) you can Special Summon it from the Extra Deck for free. It counts as 1 or 3 Tributes, so by itself it pays for Ra, it cannot be destroyed by battle and nothing else you control can be targeted. The creator says 2 is OK and 3 would be ideal for long games; the 2 are the only ones he plays."
+      },
+      {
+        "name": "The Winged Dragon of Ra - Immortal Phoenix",
+        "role": "extender",
+        "copies": 2,
+        "note": "Ra's phoenix. Comes back by itself whenever Ra is sent from the field to the Graveyard, it is unaffected by other cards' effects, and for 1000 LP it can send a monster on the field to the Graveyard without targeting. In your End Phase it goes to the Graveyard and Special Summons Sphere Mode. The creator wants 2: you send the phoenix to the Graveyard more than once."
+      },
+      {
+        "name": "The Winged Dragon of Ra - Sphere Mode",
+        "role": "extender",
+        "copies": 2,
+        "note": "Sphere Mode: it cannot be targeted for attacks or by card effects, it cannot attack, and it can be Tributed to Special Summon Ra from hand or deck (4000 ATK/DEF). He wants 2 as well, especially for turn three and later. Trick of the replay: put it on the opponent's side with the Tributes, and attack it with Ra, because the protection only works for the player who controls it."
+      },
+      {
+        "name": "The True Sun God",
+        "role": "starter",
+        "copies": 3,
+        "note": "Continuous Spell. When activated, adds Ra or a card that mentions Ra (usually Sun God Unification or Millennium Revelation). Once per turn you can send it from the field (or an Immortal Phoenix from the deck) to the Graveyard, then send a Ra from your Monster Zone to the Graveyard: that is what brings the phoenix back. The creator calls it one of the main cards of the deck, and it is an Ra starter together with Ancient Chant and Ra."
+      },
+      {
+        "name": "Sun God Unification",
+        "role": "extender",
+        "copies": 1,
+        "note": "Continuous Trap. If you control Ra you can activate it the turn it is Set. In your Main Phase you can pay LP down to 100 to give a Special Summoned Ra that ATK/DEF. Once per turn you can Tribute Ra to gain LP equal to its ATK: that is how the creator ends turn one with 11,000 life points. It is also his protection against being hit (the opponent needs a Mystical Space Typhoon-like answer in response)."
+      },
+      {
+        "name": "Monster Reborn",
+        "role": "extender",
+        "copies": 1,
+        "note": "Limited to 1. The skill also adds a free copy from outside the deck, so you can have two uses. The creator uses it to bring Egyptian God Slime back and Tribute it again for a second Ra (without paying life). With Millennium Revelation it can bring Ra back from the Graveyard."
+      },
+      {
+        "name": "Millennium Revelation",
+        "role": "extender",
+        "copies": 1,
+        "note": "Continuous Spell. Send a Divine-Beast from your hand to the Graveyard to add Monster Reborn from your deck or Graveyard. You can also send it to the Graveyard so this turn you can Special Summon Ra from the Graveyard with Monster Reborn. The creator did not use it in the replays, but says it will be useful at some point, so he plays 1."
+      },
+      {
+        "name": "Blaze Cannon",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Quick-Play Spell the deck can find. A Ra you control gets: its activation and effect cannot be negated, it is unaffected by your opponent's card effects, it can Tribute other monsters that did not attack to gain their ATK, and after damage calculation it sends all the opponent's monsters to the Graveyard. In the turn-two replay it makes Ra 7000 ATK and finishes the game."
+      },
+      {
+        "name": "Wightprincess",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "The tech card the creator likes the most: Level 3 Zombie that you can send from the hand or field to the Graveyard to make every monster on the field lose ATK and DEF equal to its Level or Rank x 300 for the turn. With the life points the deck gains it is almost impossible to lose with it; the creator calls it a good bait (the delay it causes can look like a D.D. Crow). He says the winner of the tournament played 3, and so does he. The captions call it \"Princesa Inumana\"."
+      },
+      {
+        "name": "Droll & Lock Bird",
+        "role": "hand-trap",
+        "copies": 2,
+        "note": "Tech: if a card is added to the opponent's hand from the Main Deck outside the Draw Phase, send it to the Graveyard so neither player can add cards from the Main Deck this turn. The creator calls it \"draw\" and says it is gaining importance because it hits almost every deck."
+      },
+      {
+        "name": "Mystical Space Typhoon",
+        "role": "removal",
+        "copies": 2,
+        "note": "Tech: destroys a Spell/Trap. The tournament winner played 2 and so does the creator. In the replays he uses it to remove a Set card of the opponent (a Super Polymerization in one game)."
+      },
+      {
+        "name": "Superdreadnought Rail Cannon Juggernaut Liebe",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Rank 11 Xyz made from 3 Level 11 monsters. The creator does not explain it in the video; it is read from the deck screen (medium confidence). It is a Machine, so it does not use the Aqua and Divine-Beast cards of the deck."
+      },
+      {
+        "name": "Number 81: Superdreadnought Rail Cannon Super Dora",
+        "role": "extender",
+        "copies": 1,
+        "note": "Rank 10 Xyz made from 2 Level 10 monsters; it protects a monster from the opponent's card effects. Medium confidence: the deck screen shows a Level 10 UR Xyz with orange-red art, and with the pictures side by side it matches Number 81 Super Dora (red 81 on the art), not Gustav Max (sand-coloured). The creator does not explain it in the video."
+      },
+      {
+        "name": "Skypalace Gangaridai",
+        "role": "extender",
+        "copies": 1,
+        "note": "Rank 10 Xyz made from 2 Level 10 monsters. Detach a material to destroy a card the opponent controls and deal 500 damage. Not explained in the video."
+      },
+      {
+        "name": "Knightmare Unicorn",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-3 that is the \"only difference\" with the tournament winner's deck, in the creator's words (\"he did not use this unicorn\"). Medium confidence on the name: the video says \"unicórnio\" and the deck screen shows a Link-3 UR. Be careful, he says, because these cards can rarely attack."
+      },
+      {
+        "name": "Underworld Goddess of the Closed World",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link-5. The creator says Masquerena combined with this goddess is relevant: Masquerena Link Summons it on the opponent's turn, the monsters you control (Phoenix to Sphere Mode, Guardian Slime from the skill) and a monster of the opponent are the materials. He warns not to do it for nothing, because it can be expensive."
+      },
+      {
+        "name": "I:P Masquerena",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 that can Link Summon during the opponent's Main Phase. Used with the Goddess (see Underworld Goddess of the Closed World)."
+      },
+      {
+        "name": "Pentestag",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Link-2 that gives piercing damage to Defense Position monsters when a linked monster attacks. The creator says Ra's ATK can get very large, so Pentestag helps finish games. The captions call it \"Pentag\"; the preview in the deck screen shows a Link-2 with 1600 ATK."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Ancient Chant",
+        "partners": [
+          {
+            "name": "The Winged Dragon of Ra",
+            "reason": "Ancient Chant adds Ra from the deck or Graveyard and gives an extra Tribute Summon; when banished later it makes Ra gain the combined ATK of the Tributed monsters.",
+            "link": "adds"
+          }
+        ]
+      },
+      {
+        "card": "Guardian Slime",
+        "partners": [
+          {
+            "name": "Egyptian God Slime",
+            "reason": "Guardian Slime (Level 10 Aqua with 0 ATK) is Tributed to Special Summon Egyptian God Slime from the Extra Deck, and it searches a Ra Spell/Trap when it goes to the Graveyard.",
+            "link": "is Tributed for"
+          },
+          {
+            "name": "The True Sun God",
+            "reason": "When Guardian Slime goes to the Graveyard from the field it adds The True Sun God in the replay.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Egyptian God Slime",
+        "partners": [
+          {
+            "name": "The Winged Dragon of Ra",
+            "reason": "Egyptian God Slime counts as 3 Tributes, so it pays for Ra by itself.",
+            "link": "pays 3 Tributes for"
+          }
+        ]
+      },
+      {
+        "card": "The True Sun God",
+        "partners": [
+          {
+            "name": "Sun God Unification",
+            "reason": "When activated it adds Sun God Unification, the Trap that gains life and protects the board.",
+            "link": "adds"
+          },
+          {
+            "name": "The Winged Dragon of Ra - Immortal Phoenix",
+            "reason": "Its effect sends an Immortal Phoenix from the deck to the Graveyard and then a Ra from the Monster Zone, so the phoenix comes back.",
+            "link": "revives"
+          }
+        ]
+      },
+      {
+        "card": "The Winged Dragon of Ra - Immortal Phoenix",
+        "partners": [
+          {
+            "name": "The Winged Dragon of Ra - Sphere Mode",
+            "reason": "In the End Phase the phoenix goes to the Graveyard and Special Summons Sphere Mode, which cannot be targeted or attacked.",
+            "link": "brings out"
+          }
+        ]
+      },
+      {
+        "card": "Sun God Unification",
+        "partners": [
+          {
+            "name": "The Winged Dragon of Ra",
+            "reason": "Tribute Ra to gain LP equal to its ATK (6900 in the replay), which puts you at 11,000 life points.",
+            "link": "turns Ra into life"
+          }
+        ]
+      },
+      {
+        "card": "Wightprincess",
+        "partners": [
+          {
+            "name": "Sun God Unification",
+            "reason": "Wightprincess makes the opponent's monsters weak and the deck has a lot of life points, so the opponent cannot kill you.",
+            "link": "protects together with"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "turn-1-ra-6900",
+        "title": "Turn 1 (creator's example): Ra with 6900 ATK, Sun God Unification Set and Monster Reborn in hand",
+        "hand": [
+          "Ancient Chant",
+          "The Winged Dragon of Ra - Sphere Mode",
+          "The Winged Dragon of Ra"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Ancient Chant"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1: during your turn you cannot Normal or Special Summon (except from the Extra Deck) any monster except Divine-Beast and Aqua monsters. Effect 2 (once per turn): reveal a Ra from your hand and play a Guardian Slime from your hand, deck or Graveyard (its effects are negated). Effect 3 (once per Duel): if you control a Divine-Beast, or your opponent controls a monster, set your LP to 4100 and add Monster Reborn from outside the deck to your hand; if you control no cards you can also add Ra or a card that mentions it from your deck. In this line you use effect 2 right after Ancient Chant and effect 3 after Ra is Summoned."
+        },
+        "start": {
+          "hand": [
+            "Ancient Chant",
+            "The Winged Dragon of Ra - Sphere Mode",
+            "Unknown card",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The creator's example hand for the first-turn combo: Ancient Chant, a Sphere Mode and three cards the video does not name (the hand strip is small). He says he wants to start with Ancient Chant, and that the rest depends on what you hold. In this demo the opponent has nothing, so no interaction is shown."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Ancient Chant",
+            "action": "activate",
+            "reason": "Ancient Chant: add one Ra from the deck (or the Graveyard, if one is there) to your hand. You also get an extra Tribute Summon this turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "0:40"
+            },
+            "moves": [
+              {
+                "card": "Ancient Chant",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Sun God's Flare",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal The Winged Dragon of Ra in your hand.",
+            "gives": "Play Guardian Slime from your hand, deck or Graveyard with its effects negated.",
+            "used": true,
+            "reason": "The skill gives you a free Level 10 Aqua monster with 0 ATK, which is what Egyptian God Slime wants.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "1:15"
+            },
+            "moves": [
+              {
+                "card": "Guardian Slime",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Egyptian God Slime",
+            "action": "special-summon",
+            "reason": "Special Summon Egyptian God Slime from the Extra Deck by Tributing Guardian Slime (a Level 10 Aqua monster with 0 ATK). Egyptian God Slime counts as 3 Tributes for Ra.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "1:32"
+            },
+            "moves": [
+              {
+                "card": "Guardian Slime",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Egyptian God Slime",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Guardian Slime",
+            "action": "activate",
+            "reason": "Guardian Slime went to the Graveyard from the field, so add a Spell/Trap that lists Ra: The True Sun God, which the creator says usually makes the difference for the combo.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "1:49"
+            },
+            "moves": [
+              {
+                "card": "The True Sun God",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Ancient Chant",
+            "action": "activate",
+            "reason": "Before Tributing for Ra, banish Ancient Chant from the Graveyard: if you Tribute Summon Ra afterwards, its ATK/DEF become the combined ATK/DEF of the Tributed monsters (3000 from Egyptian God Slime).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "2:09"
+            },
+            "moves": [
+              {
+                "card": "Ancient Chant",
+                "from": "graveyard",
+                "to": "banished"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Winged Dragon of Ra",
+            "action": "normal-summon",
+            "reason": "Tribute Summon The Winged Dragon of Ra by Tributing Egyptian God Slime (it counts as 3 Tributes). Egyptian God Slime goes to the Graveyard.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "2:27"
+            },
+            "moves": [
+              {
+                "card": "Egyptian God Slime",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Winged Dragon of Ra",
+            "action": "activate",
+            "reason": "When Normal Summoned, pay your Life Points down to 100: Ra gains that much ATK. With 3000 from the Slime and 3900 from the life paid it has 6900 ATK. The creator says not to worry about having only 100 LP.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "2:36"
+            },
+            "moves": []
+          },
+          {
+            "type": "skill",
+            "skill": "Sun God's Flare",
+            "when": "You control a Divine-Beast (effect 3)",
+            "needs": "You control The Winged Dragon of Ra (or your opponent controls a monster).",
+            "gives": "Set your LP to 4100 and add Monster Reborn from outside your deck. If you control no cards you can also add Ra or a card that mentions it; here you control Ra, so only the LP and Monster Reborn.",
+            "used": true,
+            "reason": "This puts you back to 4100 life points right after paying them for Ra.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "2:53"
+            },
+            "moves": [
+              {
+                "card": "Monster Reborn",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The True Sun God",
+            "action": "activate",
+            "reason": "Activate The True Sun God: add Sun God Unification (a card that mentions Ra) from the deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "3:19"
+            },
+            "moves": [
+              {
+                "card": "The True Sun God",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Sun God Unification",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Sun God Unification",
+            "action": "set",
+            "reason": "Set Sun God Unification. With a hand of Ra Traps the combo would end here: Ra on the field and the Trap Set (the creator would keep the Trap to Tribute Ra and get 11,000 life points).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "3:32"
+            },
+            "moves": [
+              {
+                "card": "Sun God Unification",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator says that if he faced a deck that can hurt Ra he would use Sun God Unification at once: Tribute Ra to gain life and an Immortal Phoenix comes back. Egyptian God Slime protects your other monsters from being targeted and cannot be destroyed in battle, while Guardian Slime stays on the field if you want a monster that gains DEF in battle. The skill's first effect means you cannot Summon anything else this turn except Divine-Beast and Aqua monsters.",
+        "endBoard": "The Winged Dragon of Ra (6900 ATK) on the field, The True Sun God (face-up) and Sun God Unification Set, Monster Reborn and the other cards in your hand, 4100 life points.",
+        "weakSpots": "A Mystical Space Typhoon in response to Unification, or an answer to Ra's Tribute Summon, can cost you the board (the creator says only a response like that can stop Unification). You must keep a Tribute source: with fewer than 3 Ancient Chant the deck bricks more often. Ra cannot be Special Summoned, so you cannot rebuy it with a normal Special Summon."
+      },
+      {
+        "id": "turn-1-phoenix-sphere",
+        "title": "Turn 1, stronger finish with two Ra: Phoenix and Sphere Mode on the field, 11,000 life points",
+        "hand": [
+          "The Winged Dragon of Ra",
+          "Monster Reborn"
+        ],
+        "requires": {
+          "board": "the board of the turn-1 line above: Ra (6900) on the field, The True Sun God face-up, Sun God Unification Set, Monster Reborn and a second Ra in your hand, with Egyptian God Slime and Guardian Slime in your Graveyard"
+        },
+        "skillPlan": {
+          "uses": false,
+          "note": "Both uses of the skill are already spent in the line above (effect 2 and effect 3). Effect 1: during your turn you cannot Normal or Special Summon (except from the Extra Deck) any monster except Divine-Beast and Aqua monsters. Effect 2 (once per turn): reveal a Ra from your hand and play a Guardian Slime from your hand, deck or Graveyard (its effects are negated). Effect 3 (once per Duel): if you control a Divine-Beast, or your opponent controls a monster, set your LP to 4100 and add Monster Reborn from outside the deck to your hand; if you control no cards you can also add Ra or a card that mentions it from your deck."
+        },
+        "start": {
+          "hand": [
+            "The Winged Dragon of Ra",
+            "Monster Reborn",
+            "Unknown card"
+          ],
+          "graveyard": [
+            "Guardian Slime",
+            "Egyptian God Slime"
+          ],
+          "banished": [
+            "Ancient Chant"
+          ],
+          "monster-zone": [
+            "The Winged Dragon of Ra"
+          ],
+          "spell-trap-zone": [
+            "The True Sun God",
+            "Sun God Unification"
+          ],
+          "note": "The creator's second branch: you need two Ra in hand, The True Sun God and the Trap, and Monster Reborn. He says this is what made the tournament winner win. Medium confidence on the start board: it is the board the first line ends with, which is how the creator tells it."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Monster Reborn",
+            "action": "activate",
+            "reason": "Monster Reborn: Special Summon Egyptian God Slime from the Graveyard again, so it can pay for a second Ra.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "5:16"
+            },
+            "moves": [
+              {
+                "card": "Monster Reborn",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Egyptian God Slime",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Winged Dragon of Ra",
+            "action": "normal-summon",
+            "reason": "Tribute Summon the second Ra by Tributing Egyptian God Slime (3 Tributes). Do NOT use its life-payment effect: you would lose life for nothing.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "5:26"
+            },
+            "moves": [
+              {
+                "card": "Egyptian God Slime",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The True Sun God",
+            "action": "activate",
+            "reason": "The True Sun God's effect: send an Immortal Phoenix from your deck to the Graveyard, then send the new Ra (3000 ATK) from your Monster Zone to the Graveyard. The phoenix comes back right away, because a Ra was sent from the field while it is in the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "5:36"
+            },
+            "moves": [
+              {
+                "card": "The Winged Dragon of Ra - Immortal Phoenix",
+                "from": "deck",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra - Immortal Phoenix",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Winged Dragon of Ra - Immortal Phoenix",
+            "action": "activate",
+            "reason": "In the End Phase the phoenix goes to the Graveyard and Special Summons Sphere Mode from your deck: a monster that cannot be targeted or attacked, plus Ra with 6900 ATK, protects you from most attacks.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "6:01"
+            },
+            "moves": [
+              {
+                "card": "The Winged Dragon of Ra - Immortal Phoenix",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra - Sphere Mode",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Sun God Unification",
+            "action": "activate",
+            "reason": "Option against a deck that can attack: Tribute Ra with Sun God Unification to gain 6900 life (11,000 in total). Ra goes to the Graveyard and the phoenix comes back from the Graveyard, unaffected by cards and with 4000 ATK.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "6:36"
+            },
+            "moves": [
+              {
+                "card": "The Winged Dragon of Ra",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra - Immortal Phoenix",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The creator says that on the opponent's turn the phoenix leaves the field and Sphere Mode returns, and that on your turn you can use Sphere Mode's effect (Tribute it to Special Summon Ra with 4000 ATK) and bring back a Phoenix with the True Sun God. The phoenix can also pay 1000 life to send a monster on the field to the Graveyard without targeting, which beats cards that cannot be destroyed or targeted.",
+        "endBoard": "Immortal Phoenix (4000 ATK, unaffected) and Sphere Mode (cannot be targeted or attacked) on the field, 11,000 life points.",
+        "weakSpots": "Without two Ra in hand you cannot do this: it needs Ancient Chant, the skill and The True Sun God all to line up. If the opponent has an answer to The True Sun God the phoenix does not come back by that route. The replay is told by the creator and not played against an opponent."
+      },
+      {
+        "id": "turn-2-vs-utopia",
+        "title": "Turn 2 (replay vs Utopia): Sphere Mode on the opponent's side, then Ra with Blaze Cannon attacks it for 7000",
+        "hand": [
+          "Ancient Chant",
+          "The True Sun God",
+          "Blaze Cannon"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Ancient Chant"
+          ],
+          "board": "your opponent controls monsters and you control no cards"
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1: during your turn you cannot Normal or Special Summon (except from the Extra Deck) any monster except Divine-Beast and Aqua monsters. Effect 2 (once per turn): reveal a Ra from your hand and play a Guardian Slime from your hand, deck or Graveyard (its effects are negated). Effect 3 (once per Duel): if you control a Divine-Beast, or your opponent controls a monster, set your LP to 4100 and add Monster Reborn from outside the deck to your hand; if you control no cards you can also add Ra or a card that mentions it from your deck. Going second the opponent usually controls a monster, so effect 3 works at once. If you control no cards you also add a card that mentions Ra, which is why you open with Ancient Chant before using the skill."
+        },
+        "start": {
+          "hand": [
+            "Ancient Chant",
+            "The True Sun God",
+            "Blaze Cannon",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "The creator's turn-two replay against a Utopia deck: the opponent controls three monsters and has a Set Trap that does nothing without Utopia. From his narration the hand has Ancient Chant, The True Sun God (he activates it later) and Blaze Cannon (\"since I had this card here\"), plus two cards that are not named. Because several steps put cards on the opponent's side, the board here only shows your own cards."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Ancient Chant",
+            "action": "activate",
+            "reason": "Ancient Chant: add Ra and get the extra Tribute Summon. The creator always opens with Ancient Chant \"to guarantee the extra Summon\".",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "9:59"
+            },
+            "moves": [
+              {
+                "card": "Ancient Chant",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Sun God's Flare",
+            "when": "The opponent controls a monster and you control no cards (effect 3)",
+            "needs": "Your opponent controls a monster. You control no cards, so you also add a card that mentions Ra.",
+            "gives": "Set your LP to 4100 (you gain only 100), add Monster Reborn from outside the deck, and add the Sphere Mode (a card that mentions Ra).",
+            "used": true,
+            "reason": "Going second this skill adds two extra cards with almost no cost.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "10:11"
+            },
+            "moves": [
+              {
+                "card": "Monster Reborn",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "The Winged Dragon of Ra - Sphere Mode",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Winged Dragon of Ra - Sphere Mode",
+            "action": "normal-summon",
+            "reason": "With the extra Tribute Summon from Ancient Chant, Tribute Summon Sphere Mode by Tributing the opponent's three monsters, so it is Summoned to the opponent's side (it shifts back to you at the end of the next turn). The creator says Utopia made a mistake by passing with three monsters against a Ra deck.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "10:41"
+            },
+            "moves": []
+          },
+          {
+            "type": "skill",
+            "skill": "Sun God's Flare",
+            "when": "In your Main Phase (effect 2)",
+            "needs": "Reveal The Winged Dragon of Ra in your hand.",
+            "gives": "Play Guardian Slime from your deck with its effects negated.",
+            "used": true,
+            "reason": "The same Guardian Slime and Egyptian God Slime sequence as on turn 1.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "11:08"
+            },
+            "moves": [
+              {
+                "card": "Guardian Slime",
+                "from": "deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Egyptian God Slime",
+            "action": "special-summon",
+            "reason": "Special Summon Egyptian God Slime from the Extra Deck by Tributing Guardian Slime. Guardian Slime goes to the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "11:18"
+            },
+            "moves": [
+              {
+                "card": "Guardian Slime",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Egyptian God Slime",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Guardian Slime",
+            "action": "activate",
+            "reason": "Guardian Slime was sent to the Graveyard: add Sun God Unification (the creator says \"we took the unification\").",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "11:20"
+            },
+            "moves": [
+              {
+                "card": "Sun God Unification",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Winged Dragon of Ra",
+            "action": "normal-summon",
+            "reason": "Tribute Summon Ra by Tributing Egyptian God Slime (3 Tributes). Ancient Chant was banished first so Ra gains the Slime's ATK, and the creator paid 1000 LP for the destroy effect: he ends with 100 LP.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "11:21"
+            },
+            "moves": [
+              {
+                "card": "Ancient Chant",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Egyptian God Slime",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "The Winged Dragon of Ra",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The True Sun God",
+            "action": "activate",
+            "reason": "The True Sun God: add a card that mentions Ra, in this replay Millennium Revelation (the creator says it was there for the Blaze Cannon).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "11:30"
+            },
+            "moves": [
+              {
+                "card": "The True Sun God",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Millennium Revelation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Blaze Cannon",
+            "action": "activate",
+            "reason": "Blaze Cannon: Ra's activation and effects cannot be negated, Ra is unaffected by the opponent's card effects, it can Tribute other monsters that did not attack to gain their ATK, and after damage calculation it sends all the opponent's monsters to the Graveyard.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "11:36"
+            },
+            "moves": [
+              {
+                "card": "Blaze Cannon",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "The Winged Dragon of Ra",
+            "action": "attack",
+            "reason": "Ra (7000 ATK) attacks the Sphere Mode that is on the opponent's side: Sphere Mode cannot be attacked by \"your opponent\", but it is the opponent who controls it now, so the attack is legal. Ra deals 7000 damage and wins the game.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=hG7Utq_xRYQ",
+              "timestamp": "12:50"
+            },
+            "moves": []
+          }
+        ],
+        "chainNotes": "The creator says Ra with Blaze Cannon is the safest attacker (he uses Ra rather than the phoenix in case the opponent has a D.D. Crow-type answer), but the phoenix is also unaffected and could do the same. The replay is told in his own words: the opponent's answers (Droplet, negating Sphere Mode) are not what stops this line, because the attack goes through Sphere Mode. Another way to win is to Tribute 2 monsters with Blaze Cannon: a Monster Reborn-summoned Egyptian God Slime would give Ra 6000.",
+        "endBoard": "The opponent has lost all his life points to a 7000 ATK Ra hit on Sphere Mode; if it had not ended the game, Ra is unaffected by the opponent's card effects until the end of the turn and The True Sun God and Sun God Unification are on your side.",
+        "weakSpots": "This needs the opponent to have monsters to Tribute and a hand that gives you Ancient Chant. It leaves you with 100 life points until the Trap or your next turn gives them back, so a burn or an attack you cannot stop is a risk. The creator says Utopia \"gave him the opening\": a deck that does not pass with three monsters makes this much harder. Sphere Mode on the opponent's side does not show on the board above, because the board only tracks your cards."
+      }
+    ],
+    "videoList": {
+      "main": [
+        {
+          "name": "Guardian Slime",
+          "count": 2
+        },
+        {
+          "name": "The Winged Dragon of Ra - Immortal Phoenix",
+          "count": 2
+        },
+        {
+          "name": "The Winged Dragon of Ra - Sphere Mode",
+          "count": 2
+        },
+        {
+          "name": "The Winged Dragon of Ra",
+          "count": 3
+        },
+        {
+          "name": "Droll & Lock Bird",
+          "count": 2
+        },
+        {
+          "name": "Wightprincess",
+          "count": 3
+        },
+        {
+          "name": "Ancient Chant",
+          "count": 3
+        },
+        {
+          "name": "Millennium Revelation",
+          "count": 1
+        },
+        {
+          "name": "Monster Reborn",
+          "count": 1
+        },
+        {
+          "name": "Mystical Space Typhoon",
+          "count": 2
+        },
+        {
+          "name": "Blaze Cannon",
+          "count": 1
+        },
+        {
+          "name": "The True Sun God",
+          "count": 3
+        },
+        {
+          "name": "Sun God Unification",
+          "count": 1
+        }
+      ],
+      "extra": [
+        {
+          "name": "Egyptian God Slime",
+          "count": 2
+        },
+        {
+          "name": "Superdreadnought Rail Cannon Juggernaut Liebe",
+          "count": 1
+        },
+        {
+          "name": "Number 81: Superdreadnought Rail Cannon Super Dora",
+          "count": 1
+        },
+        {
+          "name": "Skypalace Gangaridai",
+          "count": 1
+        },
+        {
+          "name": "Knightmare Unicorn",
+          "count": 1
+        },
+        {
+          "name": "Underworld Goddess of the Closed World",
+          "count": 1
+        },
+        {
+          "name": "I:P Masquerena",
+          "count": 1
+        },
+        {
+          "name": "Pentestag",
+          "count": 1
+        }
+      ]
+    }
   }
 }

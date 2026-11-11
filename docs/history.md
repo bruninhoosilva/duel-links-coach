@@ -54,3 +54,7 @@ What was built, in order, and why. Dates are the days the work was done (the git
 ## 2026-11-09: a clearer play guide for decks with two versions
 - **Play guide chooser**: for a deck with several videos (Mathmech, Cyber Dragon, Shining Sarcophagus) the play guide starts with **1. Which deck do you want to play?** (for example "Ignister · pure Mathmech" or "YRalps · Centur-Ion engine + Mathmech") and **2. Which situation?** (going first, going second, bricked hand). Only the picked play line is shown; it replaces the collapsed "Build N" blocks. New optional fields: `playName`, `playNote` on `videoLists`, `choice` on scenarios.
 - **Mathmech**: both versions now have three lines. Ignister: going first (Mekklord's Tuner line), going second (his standard line, now complete from the skill to the doubled Final Sigma) and the bricked hand. YRalps: going first, going second (Dark Magician replay) and a bricked hand (Centurion replay).
+
+## 2026-11-10: Winged Dragon of Ra, and a banlist history tool
+- **Winged Dragon of Ra** guide (Yami Ewerton, a video from 2025-09-08).
+- `scripts/banlist-history.js <since-date> [card names]`: lists the Forbidden/Limited changes Duel Links Meta announced since a date (one request to its public articles API, balance-update articles only). Card data only has the *current* status, so this is how to tell whether a card was banned or limited after a video was released. Use it for every guide made from an older video.

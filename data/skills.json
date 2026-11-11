@@ -197,5 +197,20 @@
     "text": "You can use this Skill's second effect once per turn and twice per Duel.\n1: You cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters except for cards that mention \"Fallen of Albaz\" or \"Fallen of Albaz\", or \"Ecclesia\", \"Tri-Brigade\", \"Springans\", \"Swordsoul\", or \"Icejade\" monsters. If your opponent has a card on their field or in their Graveyard, you can Normal Summon 1 monster during your Main Phase in addition to your Normal Summon/Set.\n2: Reveal 1 \"Fallen of Albaz\" or 1 monster that mentions it, then add a total of 2 cards among \"Ecclesia\", \"Tri-Brigade\", \"Springans\", \"Swordsoul\", \"Icejade\" cards, and/or \"Branded in High Spirits\" from your Deck to your hand.",
     "source": "Skill Trader",
     "characters": []
+  },
+  "Sun God's Flare": {
+    "name": "Sun God's Flare",
+    "text": "You can only use this Skill's second effect once per turn, and the third effect once per Duel.\n1: During your turn, you cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters, except Divine-Beast and Aqua monsters.\n2: Reveal 1 \"The Winged Dragon of Ra\" in your hand, then play 1 \"Guardian Slime\" from your hand, Deck, or Graveyard, but negate its effects.\n3: If you control a Divine-Beast monster or if your opponent controls a monster, make your LP 4100, then add 1 \"Monster Reborn\" from outside of your Deck to your hand. If you control no cards, you can also add 1 \"The Winged Dragon of Ra\" or 1 card that mentions it from your Deck to your hand.",
+    "source": null,
+    "characters": [
+      {
+        "name": "Yami Marik",
+        "how": "Skill Exchange Trader"
+      },
+      {
+        "name": "Marik Ishtar",
+        "how": "Level 20"
+      }
+    ]
   }
 }

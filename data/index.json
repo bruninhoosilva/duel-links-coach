@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T11:46:22.224Z",
+  "generatedAt": "2026-11-11T00:33:25.189Z",
   "dataFetchedAt": "2026-11-02T14:02:14.478Z",
   "decks": [
     {
@@ -217,6 +217,25 @@
       "featured": {
         "name": "Swordsoul Supreme Sovereign - Chengying",
         "image": "img/cards/swordsoul-supreme-sovereign-chengying.jpg"
+      }
+    },
+    {
+      "slug": "winged-dragon-of-ra",
+      "name": "Winged Dragon of Ra",
+      "status": "verified",
+      "updated": "2026-11-10",
+      "skill": "Sun God's Flare",
+      "scenarios": 3,
+      "stats": {
+        "decks": 0,
+        "totalDecks": 612,
+        "share": 0,
+        "tiers": {},
+        "commonTier": null
+      },
+      "featured": {
+        "name": "The Winged Dragon of Ra",
+        "image": "img/cards/the-winged-dragon-of-ra.jpg"
       }
     }
   ]
