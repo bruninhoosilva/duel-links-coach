@@ -58,3 +58,6 @@ What was built, in order, and why. Dates are the days the work was done (the git
 ## 2026-11-10: Winged Dragon of Ra, and a banlist history tool
 - **Winged Dragon of Ra** guide (Yami Ewerton, a video from 2025-09-08).
 - `scripts/banlist-history.js <since-date> [card names]`: lists the Forbidden/Limited changes Duel Links Meta announced since a date (one request to its public articles API, balance-update articles only). Card data only has the *current* status, so this is how to tell whether a card was banned or limited after a video was released. Use it for every guide made from an older video.
+
+## 2026-11-14: Vaalmonica, two builds in one guide
+- **Vaalmonica** guide with two deck versions chosen in the play guide: YRalps (26 cards, Lava Golem and D.D. Crow) and IgnisterPRC (20 cards, Dimensional Fissure and Mulcharmy Purulia). Each has three lines (going first, going second, and a variation). Uses the deck version chooser added on 2026-11-09 and `scripts/banlist-history.js` for the banned/limited check.

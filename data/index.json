@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T00:33:25.189Z",
+  "generatedAt": "2026-11-15T14:21:54.918Z",
   "dataFetchedAt": "2026-11-02T14:02:14.478Z",
   "decks": [
     {
@@ -217,6 +217,27 @@
       "featured": {
         "name": "Swordsoul Supreme Sovereign - Chengying",
         "image": "img/cards/swordsoul-supreme-sovereign-chengying.jpg"
+      }
+    },
+    {
+      "slug": "vaalmonica",
+      "name": "Vaalmonica",
+      "status": "verified",
+      "updated": "2026-11-14",
+      "skill": "Whispers of Good and Evil",
+      "scenarios": 6,
+      "stats": {
+        "decks": 20,
+        "totalDecks": 612,
+        "share": 0.032679738562091505,
+        "tiers": {
+          "2": 20
+        },
+        "commonTier": 2
+      },
+      "featured": {
+        "name": "Angello Vaalmonica",
+        "image": "img/cards/angello-vaalmonica.jpg"
       }
     },
     {

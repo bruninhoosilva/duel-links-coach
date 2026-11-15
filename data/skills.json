@@ -198,6 +198,12 @@
     "source": "Skill Trader",
     "characters": []
   },
+  "Whispers of Good and Evil": {
+    "name": "Whispers of Good and Evil",
+    "text": "You can only use this Skill's second and third effects once per Duel.\n1: At the beginning of the Duel, add Pendulum Zones to your field. During this Duel, your opponent cannot target \"Vaalmonica\" in your Pendulum Zone with card effects.\n2: Reveal 1 \"Vaalmonica\" monster from your hand and add 1 \"Vaalmonica\" card from your Deck to your hand.\n3: If your opponent controls a card, Set 1 \"Vaalmonica\" Spell/Trap Card from your hand or Deck to your field. (This card can be activated the same turn.) If you Set the card from your hand, draw two cards and shuffle 1 card from your hand into your Deck.",
+    "source": "Skill Exchange Trader",
+    "characters": []
+  },
   "Sun God's Flare": {
     "name": "Sun God's Flare",
     "text": "You can only use this Skill's second effect once per turn, and the third effect once per Duel.\n1: During your turn, you cannot Normal or Special Summon (excluding Special Summons from the Extra Deck) any monsters, except Divine-Beast and Aqua monsters.\n2: Reveal 1 \"The Winged Dragon of Ra\" in your hand, then play 1 \"Guardian Slime\" from your hand, Deck, or Graveyard, but negate its effects.\n3: If you control a Divine-Beast monster or if your opponent controls a monster, make your LP 4100, then add 1 \"Monster Reborn\" from outside of your Deck to your hand. If you control no cards, you can also add 1 \"The Winged Dragon of Ra\" or 1 card that mentions it from your Deck to your hand.",

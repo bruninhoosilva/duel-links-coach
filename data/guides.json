@@ -14958,6 +14958,2308 @@
       ]
     }
   },
+  "vaalmonica": {
+    "deck": "Vaalmonica",
+    "format": "speed",
+    "status": "verified",
+    "updated": "2026-11-14",
+    "featuredCard": "Angello Vaalmonica",
+    "skill": {
+      "name": "Whispers of Good and Evil",
+      "enablerCards": [
+        "Angello Vaalmonica",
+        "Dimonno Vaalmonica",
+        "Selettrice Vaalmonica"
+      ],
+      "trigger": "Effect 1 is always on. Effects 2 and 3 can be used once per Duel each. Effect 2 needs a Vaalmonica monster in your hand to reveal (any of Angello, Dimonno or Selettrice). Effect 3 needs the opponent to control a card, so it is a turn-two effect (or when the opponent has a card on the field).",
+      "enabler": "Effect 1 (always): at the start of the Duel you get Pendulum Zones, and your opponent cannot target a Vaalmonica monster in your Pendulum Zone with card effects. Effect 2 (once per Duel): reveal a Vaalmonica monster in your hand and add 1 Vaalmonica card from your deck. Effect 3 (once per Duel): if your opponent controls a card, Set a Vaalmonica Spell/Trap from your hand or deck to your field (it can be activated this turn); if you Set it from your hand, you draw 2 cards and shuffle 1 card of your hand into the Deck.",
+      "adds": []
+    },
+    "sideSkills": [],
+    "sources": [
+      {
+        "title": "REI DOS JOGOS: VAALMONICA - MELHOR DO QUE VOCÊ PENSA! [DUEL LINKS] (Portuguese deck explanation and replays)",
+        "creator": "YRalps",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ"
+      },
+      {
+        "title": "VAALMONICA EXPLICADO! Tudo que você precisa saber para jogar (Portuguese deck explanation and replays)",
+        "creator": "IgnisterPRC",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw"
+      }
+    ],
+    "gamePlan": "A Pendulum control deck with a very small engine. The skill adds Pendulum Zones, and almost every Vaalmonica Spell/Trap has two effects: one gains LP (a Resonance Counter on Angello, the Fairy Scale) and one costs LP (a counter on Dimonno, the Fiend Scale). With 3 counters on a Scale you can Link Summon the Link-1 of that type, the Field Spell steals a monster on the 3rd counter, and the monsters of the opponent lose 100 ATK per counter. The idea of both lists is to pass turn one with only one monster on the field (so Lava Golem and Mothsphere cannot hit you), with the interaction in the traps, the Scales and the Link-1, and to use Lava Golem and the skill's draw to break the opponent's board on turn two.",
+    "strengths": [
+      "Turn one passes with a single monster: Lava Golem and Mothsphere do nothing, and an opponent who holds Lava Golem has a dead card.",
+      "The interaction is spread out: a counter trap, traps that destroy a Spell/Trap, return a monster or negate a monster, the Scales' effects, Zebufera copying a trap on the opponent's turn and the Field Spell stealing a monster.",
+      "The skill gives consistency and draw power: it finds the missing card, and Set from the hand draws 2.",
+      "It is a cheap deck: all the cards are in one mini box, and the Extra Deck only needs a few cards from outside (I:P Masquerena, Gallant Granite or an Xyz, Goddess, Phoenix).",
+      "Turn two is strong: with a Continuous Trap and a Scale you have 3 counters at once and steal a monster, and Duralume destroys monsters and attacks three times."
+    ],
+    "weaknesses": [
+      "Both creators say the same: the deck takes every hand trap (D.D. Crow on Selettrice, Effect Veiler on her Summon, Ghost Belle, even Droll & Lock Bird). YRalps says 80% of his losses were to Droll & Lock Bird.",
+      "Every card has two effects and the order matters (Scelta, Invitare, Versare, Disarmonia): it takes practice, and several Spells need a different card in the deck to work.",
+      "Kaiju still hit you, which is why Creation is in the list (it Link Summons on top of the Kaiju). Nibiru also hurts, because the Token is not an Effect Monster.",
+      "Both creators expected a Forbidden/Limited list update: after the videos Dimonno became Limited 3 (2026-06-22) and Followed Rhythm and Dimensional Fissure became Limited 1 (2026-09-28).",
+      "The deck is very small and has little room: YRalps says the engine is \"very small\", so he needs tech cards (Lava Golem, D.D. Crow) to fill the list."
+    ],
+    "cards": [
+      {
+        "name": "Angello Vaalmonica",
+        "role": "starter",
+        "copies": 3,
+        "note": "Fairy Pendulum, Scale 3. Pendulum Effect: it gets a Resonance Counter each time you gain LP while a Fiend Monster Card is in your other Pendulum Zone, and once per turn, when the opponent's monster declares an attack, you can Link Summon a Vaalmonica Link Monster right after. In the hand: discard 1 card, take Dimonno from your deck and put both in your Pendulum Zones. When Normal or Special Summoned in your Main Phase: banish a Vaalmonica Normal Spell/Trap from your Graveyard and apply the part that gains LP. Both lists play 3."
+      },
+      {
+        "name": "Dimonno Vaalmonica",
+        "role": "starter",
+        "copies": 3,
+        "note": "Fiend Pendulum, Scale 5, the counterpart of Angello for taking damage: a counter for each time you take effect damage while a Fairy is in your other zone, and the opponent's monsters lose 100 ATK for each Resonance Counter. Same hand and summon effects as Angello, but it applies the part that takes damage. YRalps plays 3 and IgnisterPRC 2; it became Limited 3 on 2026-06-22, so 3 is still allowed."
+      },
+      {
+        "name": "Selettrice Vaalmonica",
+        "role": "starter",
+        "copies": 3,
+        "note": "The only non-Pendulum Vaalmonica monster. While you control another monster the opponent cannot attack it. When Normal or Pendulum Summoned it adds a Vaalmonica card from your deck. If it is sent to the Graveyard while you have 2 Vaalmonica cards in your Pendulum Zones it returns to your hand, so Angello and Dimonno can discard it for free. YRalps plays 3, IgnisterPRC only 1."
+      },
+      {
+        "name": "Vaalmonica, the Agathokakological Voice",
+        "role": "starter",
+        "copies": 2,
+        "note": "The Field Spell. When activated it adds a Vaalmonica monster. When a card in your Pendulum Zone gets its 3rd Resonance Counter, you take control of one of the opponent's monsters until the End Phase (it cannot attack). That works on the opponent's turn too. YRalps plays 2, IgnisterPRC plays 1."
+      },
+      {
+        "name": "Vaalmonica Scelta",
+        "role": "starter",
+        "copies": 1,
+        "note": "Spell that works as a bridge: apply one of two effects (you choose only if you have a Vaalmonica in a Pendulum Zone). Gain 500 LP, put a card from your hand at the bottom of the Deck and draw 2, or take 250 damage and add another Vaalmonica Spell/Trap. YRalps says that to find a Spell/Trap you first search Scelta and let it search the rest, because that makes one more Spell activation and one more counter. Every Vaalmonica Spell/Trap is played as 1 copy: they are recycled, so more copies get in the way."
+      },
+      {
+        "name": "Vaalmonica Invitare",
+        "role": "extender",
+        "copies": 1,
+        "note": "Quick-Play Spell with no LP cost. Either Special Summon a Vaalmonica monster from your deck (then only Vaalmonica monsters can use effects this turn), or, if you control a non-Pendulum Vaalmonica monster (Selettrice), take 2 Pendulum Monsters with different names: 1 to your hand and 1 face-up to your Extra Deck. That makes two more monsters to Pendulum Summon. Careful: if the deck has no Pendulum with a different name left, you are forced into the first effect."
+      },
+      {
+        "name": "Vaalmonica Versare",
+        "role": "extender",
+        "copies": 1,
+        "note": "Spell with two effects: gain 500 LP and dig until you excavate a Vaalmonica card (it goes to your hand), or take 250 damage and send a Vaalmonica card to the Graveyard (usually the counter trap, so it can come back with Disarmonia). It is the card that closes the Spell chain of turn one."
+      },
+      {
+        "name": "Vaalmonica Disarmonia",
+        "role": "extender",
+        "copies": 1,
+        "note": "The only card that puts a counter itself: it places 1 Resonance Counter on a Pendulum Zone card, and then its effect adds another, so one activation gives 2. Gain 500 LP and add a banished Vaalmonica card to your hand, or take 250 damage and add one from the Graveyard. YRalps uses it to put the last counters on Angello on turn two and steal a monster."
+      },
+      {
+        "name": "Vaalmonica Followed Rhythm",
+        "role": "removal",
+        "copies": 1,
+        "note": "Trap. Needs a Vaalmonica monster to activate and resolve. Gain 500 LP and destroy a Spell/Trap, or take 250 damage and return a monster to the hand: both without targeting. With a Vaalmonica Link Monster you apply both, and you put a counter on both Pendulum Zones. It became Limited 1 on 2026-09-28, after IgnisterPRC's video; both lists already played 1."
+      },
+      {
+        "name": "Vaalmonica Chosen Melody",
+        "role": "removal",
+        "copies": 1,
+        "note": "Trap, same rules as Followed Rhythm: gain 500 LP so the opponent cannot target your Vaalmonica monsters, or take 250 damage to negate an Effect Monster until the end of the turn. With a Link Monster you apply both. YRalps plays it, and often sends it to the Graveyard on purpose so Zebufera can copy it on the opponent's turn. IgnisterPRC does not play it."
+      },
+      {
+        "name": "Vaalmonica Ereditare",
+        "role": "removal",
+        "copies": 1,
+        "note": "Counter Trap. You can only activate it while you control a Vaalmonica Link Monster (not any monster): it negates a Spell/Trap or monster effect and destroys it. In the Graveyard it can be banished to shuffle Vaalmonica cards back (from your face-up Extra Deck, Graveyard and banished pile, up to the number of counters on your field) and draw 1 card for every 3 shuffled. Both lists play 1."
+      },
+      {
+        "name": "Vaalmonica Creation",
+        "role": "extender",
+        "copies": 1,
+        "note": "Continuous Trap and a key card. With 6 or more counters, your Link Monsters gain ATK (YRalps says 1000; the current card says 1200). If the opponent Special Summons, Link Summon a Vaalmonica Link Monster right after: that is how you answer Kaiju. Sent to the Graveyard it puts counters on a Pendulum Zone card until it has 3: discard it with Angello or Dimonno and you start with 3 counters, which is also the turn-two steal with the Field Spell."
+      },
+      {
+        "name": "Lava Golem",
+        "role": "removal",
+        "copies": 3,
+        "note": "Tech. It is your main way to break a strong turn-two board. YRalps plays 3, IgnisterPRC 2. The deck passes turn one with one monster, so the opponent's Lava Golem and Mothsphere cannot hurt it, and an opponent Lava Golem would only be a dead card in his hand."
+      },
+      {
+        "name": "D.D. Crow",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "YRalps' hand trap against Graveyard effects. He says they are easy to remove: without them you can play a 23-card version. Remember Selettrice returning from the Graveyard is a target for the opponent's own D.D. Crow."
+      },
+      {
+        "name": "Nibiru, the Primal Being",
+        "role": "hand-trap",
+        "copies": 1,
+        "note": "Tech. YRalps finds it with Gallant Granite and uses it to make the Link-1 so only one monster stays on the field. It is also his answer to a Summon-heavy opponent. It went from Limited 3 to Unlimited on 2026-06-22."
+      },
+      {
+        "name": "Mulcharmy Purulia",
+        "role": "hand-trap",
+        "copies": 3,
+        "note": "IgnisterPRC's tech: if you control no cards, discard it (Quick Effect) to draw a card each time the opponent Summons from the hand. On turn two it draws as the opponent plays; on turn one he uses it as a Level 4 body for a second Xyz (Dugares or Abyss Dweller). Be careful not to use it at the start of the Draw Phase if you want to keep it as a body."
+      },
+      {
+        "name": "Dimensional Fissure",
+        "role": "removal",
+        "copies": 1,
+        "note": "IgnisterPRC's protection against hand traps: with it face-up, anything sent to the Graveyard is banished, so D.D. Crow, Effect Veiler and Droll & Lock Bird (which are sent to the GY as cost) cannot be activated. He says it is the biggest counter of the deck against Droll & Lock Bird, and that you should activate it first. It also stops Selettrice returning, Creation, and the Spell recycling, so you discard other cards. Limited to 1 since 2026-09-28."
+      },
+      {
+        "name": "Duralume, Vaalmonican Heathen Hallow",
+        "role": "payoff",
+        "copies": 2,
+        "note": "Link-1 Fairy. It needs 3 Resonance Counters on a Fairy Pendulum Zone card (Angello) and any Effect Monster. When Link Summoned it destroys opponent monsters up to the number of counters, and for 3 counters it can attack up to three times. YRalps says it is his main win condition, and added the second copy after a game he lost for lacking it. IgnisterPRC plays 1."
+      },
+      {
+        "name": "Zebufera, Vaalmonican Hallow Heathen",
+        "role": "removal",
+        "copies": 2,
+        "note": "Link-1 Fiend. It needs 3 counters on a Fiend Pendulum Zone card (Dimonno) and any Effect Monster. It protects your Spells/Traps: instead of being destroyed you remove 3 counters, and on the opponent's turn it copies a Normal Spell or Trap of yours from the Graveyard or banished pile. It is the Link you want to pass with on turn one. YRalps says Lava Golem and Mothsphere cannot hurt a one-monster board. The 2nd copy of IgnisterPRC's list is partly cut off on his deck screen (medium confidence)."
+      },
+      {
+        "name": "Varar, Vaalmonican Concord",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Link-2, 3000 ATK. It needs a Vaalmonica Link Monster as material, so you pass through Duralume or Zebufera first. With 6 or more counters it is unaffected by non-Vaalmonica cards, it attacks once more for each Level 4 Vaalmonica monster you control, and it can negate a Special Summon. YRalps says it is \"sometimes left over\" but a good option; IgnisterPRC uses it for a turn-two attack."
+      },
+      {
+        "name": "I:P Masquerena",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 generic. YRalps and IgnisterPRC make it with 2 monsters so the Link-1 made on top is protected from destruction; it can also Link Summon on the opponent's turn."
+      },
+      {
+        "name": "Gallant Granite",
+        "role": "extender",
+        "copies": 1,
+        "note": "YRalps' Rank 4 Xyz (Level 4 x2). It adds a Rock monster to your hand, and that is how he fetches Nibiru: it keeps only one monster on the field and makes a second Xyz or Link possible. It is Limited 1."
+      },
+      {
+        "name": "Knightmare Phoenix",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 Fiend. YRalps uses it in his second Extra Deck slot as a generic Link: with 2 monsters it destroys a Spell/Trap (discard 1) and its co-linked monsters cannot be destroyed in battle. Not explained in detail; identified from the screen (medium confidence)."
+      },
+      {
+        "name": "Underworld Goddess of the Closed World",
+        "role": "removal",
+        "copies": 1,
+        "note": "Link-5. YRalps plays it \"to remove annoying monsters from the field\": it can use an opponent's monster as material, negates the effects of their monsters when Link Summoned and negates a Graveyard Special Summon."
+      },
+      {
+        "name": "Number 60: Dugares the Timeless",
+        "role": "extender",
+        "copies": 1,
+        "note": "IgnisterPRC's Rank 4 Xyz, made with 2 Level 4 Vaalmonica monsters. Detach 2 materials: draw 2 and discard 1 (Selettrice does not need to be kept: it comes back). It is the card he calls \"Duares\" in the captions. Because the Xyz materials go to the Graveyard they skip Dimensional Fissure."
+      },
+      {
+        "name": "Abyss Dweller",
+        "role": "extender",
+        "copies": 1,
+        "note": "IgnisterPRC's Rank 4 Xyz (medium confidence on the name: the deck screen shows a Limited 1 UR Rank 4 with dark blue art, which matches Abyss Dweller). It stops the opponent from activating effects in their Graveyard for a turn. He does not use it in the replays."
+      },
+      {
+        "name": "Number 80: Rhapsody in Berserk",
+        "role": "extender",
+        "copies": 1,
+        "note": "IgnisterPRC's Rank 4 Xyz (medium confidence: the screen shows an SR DARK Rank 4 with a cloaked figure, which matches Number 80: Rhapsody in Berserk). Not used in the replays and not explained."
+      },
+      {
+        "name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+        "role": "removal",
+        "copies": 1,
+        "note": "IgnisterPRC's Rank 12 Xyz (needs two Level 8 monsters, which in this deck means Lava Golem). Medium confidence, identified from the screen. Not used in the replays."
+      }
+    ],
+    "synergies": [
+      {
+        "card": "Angello Vaalmonica",
+        "partners": [
+          {
+            "name": "Dimonno Vaalmonica",
+            "reason": "Angello takes Dimonno from the deck to the Pendulum Zones, so you get both scales with one card (discard a card as cost).",
+            "link": "brings"
+          },
+          {
+            "name": "Selettrice Vaalmonica",
+            "reason": "Discard Selettrice to the Angello cost: with 2 Vaalmonica cards in the Pendulum Zones it returns to your hand.",
+            "link": "recycles"
+          }
+        ]
+      },
+      {
+        "card": "Selettrice Vaalmonica",
+        "partners": [
+          {
+            "name": "Vaalmonica Scelta",
+            "reason": "Selettrice adds a Vaalmonica card on Summon: add Scelta first and let Scelta search the Spell/Trap you need, which activates one more Spell and gives one more counter.",
+            "link": "searches"
+          }
+        ]
+      },
+      {
+        "card": "Vaalmonica Invitare",
+        "partners": [
+          {
+            "name": "Selettrice Vaalmonica",
+            "reason": "Invitare's Pendulum effect needs a non-Pendulum Vaalmonica monster: Selettrice is the only one.",
+            "link": "needs"
+          },
+          {
+            "name": "Dimonno Vaalmonica",
+            "reason": "It adds a Pendulum to your hand and one face-up to the Extra Deck, so you Pendulum Summon two more monsters.",
+            "link": "adds"
+          }
+        ]
+      },
+      {
+        "card": "Vaalmonica Creation",
+        "partners": [
+          {
+            "name": "Angello Vaalmonica",
+            "reason": "Discard Creation with Angello or Dimonno: it goes to the Graveyard and puts counters on a Pendulum Zone card until it has 3.",
+            "link": "is discarded by"
+          },
+          {
+            "name": "Vaalmonica, the Agathokakological Voice",
+            "reason": "The 3rd counter on a Pendulum Zone card triggers the Field Spell, which takes control of an opponent's monster.",
+            "link": "triggers"
+          }
+        ]
+      },
+      {
+        "card": "Vaalmonica Disarmonia",
+        "partners": [
+          {
+            "name": "Vaalmonica, the Agathokakological Voice",
+            "reason": "Disarmonia puts 2 counters in one activation (it is the only card that places one directly), so it can give the 3rd counter and trigger the Field Spell.",
+            "link": "can trigger"
+          }
+        ]
+      },
+      {
+        "card": "Zebufera, Vaalmonican Hallow Heathen",
+        "partners": [
+          {
+            "name": "Vaalmonica Chosen Melody",
+            "reason": "On the opponent's turn Zebufera applies the effect of a Normal Spell/Trap in your Graveyard or banished pile: Chosen Melody or Followed Rhythm negate or bounce a monster.",
+            "link": "copies"
+          }
+        ]
+      },
+      {
+        "card": "Duralume, Vaalmonican Heathen Hallow",
+        "partners": [
+          {
+            "name": "Angello Vaalmonica",
+            "reason": "Duralume needs 3 counters on the Fairy Pendulum Zone card (Angello) and destroys monsters up to the counters.",
+            "link": "needs counters on"
+          }
+        ]
+      },
+      {
+        "card": "Varar, Vaalmonican Concord",
+        "partners": [
+          {
+            "name": "Zebufera, Vaalmonican Hallow Heathen",
+            "reason": "Varar needs a Vaalmonica Link Monster as material: you pass through Zebufera or Duralume first.",
+            "link": "is made from"
+          }
+        ]
+      }
+    ],
+    "buildDifferences": [
+      {
+        "topic": "How many cards and what fills the list",
+        "a": "YRalps plays 26 cards: 3 Angello, 3 Dimonno, 3 Selettrice, 2 Field Spell, one copy of each Spell/Trap, 3 Lava Golem, 3 D.D. Crow and 1 Nibiru.",
+        "b": "IgnisterPRC plays 20 cards: 3 Angello, 2 Dimonno, 1 Selettrice, 3 Mulcharmy Purulia, 2 Lava Golem, 1 Field Spell, one copy of every Spell/Trap, and Dimensional Fissure.",
+        "why": "The 20-card list draws the key cards more often and has no room for hand traps; YRalps' list has more tech but a bigger deck to find the combo in."
+      },
+      {
+        "topic": "Protection against hand traps",
+        "a": "YRalps uses D.D. Crow and a second Selettrice from the skill so that a hand trap on her does not end the turn. He says the D.D. Crow can be cut for a 23-card version.",
+        "b": "IgnisterPRC uses Dimensional Fissure (activate it first) and Mulcharmy Purulia: with Fissure the opponent cannot discard D.D. Crow, Effect Veiler or Droll & Lock Bird.",
+        "why": "Fissure stops the hand traps that the deck fears the most, but it also banishes your own Selettrice and Creation, so the line is different."
+      },
+      {
+        "topic": "Extra Deck",
+        "a": "YRalps: 2 Duralume, 2 Zebufera, Varar, I:P Masquerena, Phoenix, Goddess and Gallant Granite (it fetches Nibiru).",
+        "b": "IgnisterPRC: Number 38, Dugares, Abyss Dweller, Number 80 (medium confidence), Varar, I:P Masquerena, Duralume and 2 Zebufera (the 9th card is cut off on his screen).",
+        "why": "Granite and Nibiru let YRalps keep one monster on the field; Dugares gives IgnisterPRC draw power from a second Xyz."
+      },
+      {
+        "topic": "Banlist after the videos",
+        "a": "YRalps (2026-05) plays 3 Dimonno (still allowed: Limited 3 since 2026-06-22) and 1 Followed Rhythm (Limited 1 since 2026-09-28, already 1).",
+        "b": "IgnisterPRC (2026-09-10) plays 1 Fissure and 1 Followed Rhythm (both Limited 1 since 2026-09-28, already 1) and 2 Dimonno.",
+        "why": "Both lists are legal today. Nibiru and Droll & Lock Bird went to Unlimited on 2026-06-22, so you could play more of them."
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "yralps-t1-destiny-hero",
+        "build": "yralps",
+        "choice": "Going first (vs Destiny HERO)",
+        "title": "Going first (replay vs Destiny HERO): Granite, I:P Masquerena and one Link-1, with the counter trap and Followed Rhythm Set",
+        "hand": [
+          "Vaalmonica, the Agathokakological Voice",
+          "Angello Vaalmonica",
+          "Vaalmonica Versare"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Vaalmonica, the Agathokakological Voice",
+            "Angello Vaalmonica"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): at the start of the Duel you get Pendulum Zones, and your opponent cannot target a Vaalmonica monster in your Pendulum Zone with card effects. Effect 2 (once per Duel): reveal a Vaalmonica monster in your hand and add 1 Vaalmonica card from your deck. Effect 3 (once per Duel): if your opponent controls a card, Set a Vaalmonica Spell/Trap from your hand or deck to your field (it can be activated this turn); if you Set it from your hand, you draw 2 cards and shuffle 1 card of your hand into the Deck. On turn one you only need effect 2 (reveal a Level 4 Vaalmonica monster from your hand): effect 3 needs an opponent's card on the field. The deck runs on Resonance Counters: a Spell/Trap that gains you LP puts a counter on Angello, and one that costs you LP puts one on Dimonno. The board here does not show counters, so each step says how many counters the Pendulum Zones hold."
+        },
+        "start": {
+          "hand": [
+            "Vaalmonica, the Agathokakological Voice",
+            "Angello Vaalmonica",
+            "Vaalmonica Versare",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "YRalps' opening hand in this replay: the Field Spell, a Pendulum monster (the Scale) and Versare, plus two cards the video does not name. He says the hand is easy if it has a Level 4 monster: with a Scale you can reveal it for the skill, and with Selettrice you reveal her and fetch the Scale. The Scales are the first two cards he puts in the Pendulum Zones; counters are tracked in the notes."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Vaalmonica, the Agathokakological Voice",
+            "action": "activate",
+            "reason": "Activate the Field Spell and add Selettrice Vaalmonica to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "19:01"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica, the Agathokakological Voice",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "Reveal a Vaalmonica monster (effect 2)",
+            "needs": "Reveal a Vaalmonica monster in your hand (the Scale or Selettrice).",
+            "gives": "Add a Vaalmonica card: here Vaalmonica Ereditare (the counter trap).",
+            "used": true,
+            "reason": "He says it was maybe not the safest choice: against an opponent with hand traps he would take a second Selettrice, so that a D.D. Crow on Selettrice does not stop the line.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "19:04"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Ereditare",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Angello Vaalmonica",
+            "action": "activate",
+            "reason": "In your hand: discard Selettrice, take Dimonno from the deck and put both Scales in the Pendulum Zones. Selettrice goes to the Graveyard with your two Scales on the field, so she returns to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "19:38"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Selettrice Vaalmonica",
+            "action": "normal-summon",
+            "reason": "Normal Summon Selettrice: she adds a Vaalmonica card. Add Scelta, the bridge card.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "20:24"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Scelta",
+            "action": "activate",
+            "reason": "Scelta, taking 250 damage (a counter on Dimonno): add Vaalmonica Invitare, the Quick-Play Spell the turn needs. Always search Scelta first when you do not have it.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "20:41"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Vaalmonica Invitare",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Invitare",
+            "action": "activate",
+            "reason": "Invitare, second effect (you control Selettrice): take Angello and Dimonno from the deck, add Angello to your hand and put Dimonno face-up in your Extra Deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "20:54"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Invitare",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "extra-deck"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dimonno Vaalmonica",
+            "action": "special-summon",
+            "reason": "Pendulum Summon Dimonno (from the Extra Deck) and the Angello in your hand. With both on the field you can use both monster effects.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "21:02"
+            },
+            "moves": [
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dimonno Vaalmonica",
+            "action": "activate",
+            "reason": "Dimonno: banish Scelta from the Graveyard and apply its effect that takes damage: add Vaalmonica Followed Rhythm (Versare closes the combo, but he already held it). Counter on Dimonno.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "21:10"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Vaalmonica Followed Rhythm",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Versare",
+            "action": "activate",
+            "reason": "Versare, taking 250 damage: send Vaalmonica Chosen Melody from the deck to the Graveyard (it can be copied by Zebufera later). Counter on Dimonno.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "21:24"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Versare",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Vaalmonica Chosen Melody",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Angello Vaalmonica",
+            "action": "activate",
+            "reason": "Angello: banish Versare from the Graveyard and apply the effect that gains LP: dig until a Vaalmonica card (a Dimonno here) and add it to your hand. Counter on Angello.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "21:33"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Versare",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Gallant Granite",
+            "action": "special-summon",
+            "reason": "Xyz Summon Gallant Granite with two Level 4 monsters (Dimonno and Angello). It adds Nibiru to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "21:46"
+            },
+            "moves": [
+              {
+                "card": "Gallant Granite",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Nibiru, the Primal Being",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "I:P Masquerena",
+            "action": "special-summon",
+            "reason": "Link Summon I:P Masquerena with Gallant Granite and Selettrice. This keeps only one monster on the field and protects the Link-1 on top of it.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "21:51"
+            },
+            "moves": [
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Gallant Granite",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "I:P Masquerena",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Zebufera, Vaalmonican Hallow Heathen",
+            "action": "special-summon",
+            "reason": "Link Summon Zebufera with I:P Masquerena. Dimonno has 3 counters, so you may Link Summon a Fiend Link-1. A Link that used I:P Masquerena cannot be destroyed by the opponent's card effects.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "22:05"
+            },
+            "moves": [
+              {
+                "card": "I:P Masquerena",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Zebufera, Vaalmonican Hallow Heathen",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Ereditare",
+            "action": "set",
+            "reason": "Set Vaalmonica Ereditare and Followed Rhythm and pass. Selettrice came back to your hand again.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "22:10"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Ereditare",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Vaalmonica Followed Rhythm",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "What stays: Zebufera (protected), Ereditare (counter trap), Followed Rhythm (it can apply both effects because you control a Link), Chosen Melody in the Graveyard (Zebufera copies it on the opponent's turn), Nibiru in hand and the Pendulum effect of Angello. The opponent (Destiny HERO) used Doom Lord, then Forbidden Droplet on the Link-1, and the replay shows the line holding. YRalps says the weak point is a fifth Summon, because Nibiru would hit you too.",
+        "endBoard": "Zebufera on the field, the Field Spell and both Scales (Angello and Dimonno) in the Pendulum Zones with 3 and 2 counters, Ereditare and Followed Rhythm Set, Chosen Melody in the Graveyard and Nibiru in your hand.",
+        "weakSpots": "The deck takes every hand trap: D.D. Crow on Selettrice's return, Effect Veiler on her Normal Summon, Droll & Lock Bird on the whole thing, Ghost Belle on a Pendulum Summon. YRalps says 80% of his losses were to Droll & Lock Bird, and takes a second Selettrice with the skill to be able to continue. Counters are not simulated on the board."
+      },
+      {
+        "id": "yralps-t2-therion-lava-golem",
+        "build": "yralps",
+        "choice": "Going second (vs Therion, Lava Golem)",
+        "title": "Going second (replay vs Therion): Lava Golem to clear the board, then Creation gives 3 counters and Zebufera/Duralume finish",
+        "hand": [
+          "Lava Golem",
+          "Vaalmonica Creation",
+          "Dimonno Vaalmonica",
+          "Vaalmonica Ereditare"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Lava Golem"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): at the start of the Duel you get Pendulum Zones, and your opponent cannot target a Vaalmonica monster in your Pendulum Zone with card effects. Effect 2 (once per Duel): reveal a Vaalmonica monster in your hand and add 1 Vaalmonica card from your deck. Effect 3 (once per Duel): if your opponent controls a card, Set a Vaalmonica Spell/Trap from your hand or deck to your field (it can be activated this turn); if you Set it from your hand, you draw 2 cards and shuffle 1 card of your hand into the Deck. Going second the opponent controls cards, so effect 3 works: Set a Spell/Trap from your hand and draw 2 (YRalps does that with the counter trap). The deck runs on Resonance Counters: a Spell/Trap that gains you LP puts a counter on Angello, and one that costs you LP puts one on Dimonno. The board here does not show counters, so each step says how many counters the Pendulum Zones hold."
+        },
+        "start": {
+          "hand": [
+            "Lava Golem",
+            "Vaalmonica Creation",
+            "Dimonno Vaalmonica",
+            "Dimonno Vaalmonica",
+            "Vaalmonica Ereditare"
+          ],
+          "note": "YRalps' hand in the second Therion replay as far as the captions tell: Lava Golem, traps (the Continuous Trap Creation and the counter trap are the ones he uses) and a Dimonno that he draws into a second one. The opponent goes first and ends with a strong Therion board (Number 38, Regulus with a Duke equipped, Set Spells)."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Lava Golem",
+            "action": "special-summon",
+            "reason": "Special Summon Lava Golem to the opponent's field by Tributing 2 of his monsters (here the Number 90 and the Duke). He keeps Number 38. It is not on your side, so the board does not track it. After it you cannot Normal Summon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "31:00"
+            },
+            "moves": []
+          },
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "Reveal a Vaalmonica monster (effect 2)",
+            "needs": "Reveal Dimonno (a Vaalmonica monster) from your hand.",
+            "gives": "Add Selettrice Vaalmonica to your hand.",
+            "used": true,
+            "reason": "The skill finds Selettrice, the card you need for the next step.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "31:26"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dimonno Vaalmonica",
+            "action": "activate",
+            "reason": "Dimonno in the hand: discard the Continuous Trap Creation, take Angello from the deck and put both in the Pendulum Zones. Creation goes to the Graveyard from the hand and puts counters on a Pendulum Zone card until it has 3: you start the turn with 3 counters.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "31:33"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Creation",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "The opponent controls a card (effect 3)",
+            "needs": "Your opponent controls a card.",
+            "gives": "Set a Vaalmonica Spell/Trap from your hand (the counter trap): you draw 2 cards and shuffle 1 card from your hand into the Deck.",
+            "used": true,
+            "reason": "The creator draws to find more Lava Golem and staples, and says the skill gives this deck a lot of draw power.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "31:45"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Ereditare",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Selettrice Vaalmonica",
+            "action": "special-summon",
+            "reason": "Pendulum Summon Selettrice and the second Dimonno (you cannot Normal Summon after Lava Golem): Selettrice adds a Vaalmonica card, here Scelta.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "31:55"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Scelta",
+            "action": "activate",
+            "reason": "Scelta: you take effect damage (or gain LP) and add a Spell/Trap. In the replay the opponent's Number 38 negates it, which the creator calls a mistake of his own. Still a counter if it resolves.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "31:59"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Gallant Granite",
+            "action": "special-summon",
+            "reason": "Xyz Summon Gallant Granite with Selettrice and Dimonno (a Pendulum Summoned monster). It adds Nibiru to your hand. The Selettrice that falls to the Graveyard returns to your hand (you have 2 Scales).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "32:08"
+            },
+            "moves": [
+              {
+                "card": "Gallant Granite",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Nibiru, the Primal Being",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Gallant Granite"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Duralume, Vaalmonican Heathen Hallow",
+            "action": "special-summon",
+            "reason": "Link Summon Duralume with Gallant Granite: Angello holds 3 counters from Creation, so it enters destroying monsters, and the creator uses it on Lava Golem. He cannot pass through Number 38 this turn, because the opponent Set a trap that protects it, so he stops here.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "32:15"
+            },
+            "moves": [
+              {
+                "card": "Gallant Granite",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Duralume, Vaalmonican Heathen Hallow",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "On his own turn he Normal Summons Selettrice again (she returned), uses Dimonno to copy the trap that pays life and negate Number 38, uses the counter trap's Graveyard effect to shuffle cards and draw, and makes Phoenix to destroy a Spell and Duralume that enters destroying Number 38 and attacks three times. These later steps are told by the creator and not simulated. He says that going second, Lava Golem is the essential tool to break strong boards and that the skill's draw is how you find it.",
+        "endBoard": "Duralume on the field with the Scales and the counter trap Set, and the opponent's Number 38 still in the way until the next turn: the creator wins the next turn.",
+        "weakSpots": "The replay is told at speed and the opponent's Number 38 changes the order (it negated Scelta and he forgot it). Several of these steps are read from the captions (medium confidence). Lava Golem stops you from Normal Summoning that turn, and the Therion opponent can still use Kaiju."
+      },
+      {
+        "id": "yralps-t2-abc-steal",
+        "build": "yralps",
+        "choice": "Going second (vs ABC, steal a monster)",
+        "title": "Going second (replay vs ABC): two Lava Golem, then Disarmonia gives the 3rd counter and the Field Spell steals a monster, and Duralume wins",
+        "hand": [
+          "Lava Golem",
+          "D.D. Crow",
+          "Selettrice Vaalmonica",
+          "Vaalmonica Followed Rhythm"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Lava Golem"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): at the start of the Duel you get Pendulum Zones, and your opponent cannot target a Vaalmonica monster in your Pendulum Zone with card effects. Effect 2 (once per Duel): reveal a Vaalmonica monster in your hand and add 1 Vaalmonica card from your deck. Effect 3 (once per Duel): if your opponent controls a card, Set a Vaalmonica Spell/Trap from your hand or deck to your field (it can be activated this turn); if you Set it from your hand, you draw 2 cards and shuffle 1 card of your hand into the Deck. Here you use effect 2 (reveal Selettrice, add the Continuous Trap) and effect 3 (Set it). The deck runs on Resonance Counters: a Spell/Trap that gains you LP puts a counter on Angello, and one that costs you LP puts one on Dimonno. The board here does not show counters, so each step says how many counters the Pendulum Zones hold."
+        },
+        "start": {
+          "hand": [
+            "Lava Golem",
+            "Lava Golem",
+            "D.D. Crow",
+            "Selettrice Vaalmonica",
+            "Vaalmonica Followed Rhythm"
+          ],
+          "note": "YRalps' hand in the ABC replay: two Lava Golem (he draws the second), D.D. Crow, Selettrice and Followed Rhythm; the Field Spell, the Scale and the Spells of the ladder come from the skill and the searches. The opponent (ABC) goes first and makes a huge board with Infinity and Buster Dragon; the creator says he should have used D.D. Crow earlier."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Lava Golem",
+            "action": "special-summon",
+            "reason": "Lava Golem on the opponent's field: it removes Infinity and Buster Dragon. The second Lava Golem removes the FA monster too: \"I take away all the opponent's interaction\". Neither Lava Golem stays on your side, so they are not tracked.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "35:18"
+            },
+            "moves": []
+          },
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "Reveal a Vaalmonica monster (effect 2)",
+            "needs": "Reveal Selettrice.",
+            "gives": "Add the Field Spell (the captions say \"a Continuous Spell\" and then \"the field finds the Scale\").",
+            "used": true,
+            "reason": "Reveal Selettrice to fetch the Field Spell, which finds the Scale.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "35:27"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica, the Agathokakological Voice",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica, the Agathokakological Voice",
+            "action": "activate",
+            "reason": "Activate the Field Spell and add a Scale.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "35:30"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica, the Agathokakological Voice",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Angello Vaalmonica",
+            "action": "activate",
+            "reason": "Angello in the hand: discard Selettrice and put both Scales in the zones; Selettrice returns to your hand. After Lava Golem you cannot Normal Summon.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "35:33"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "The opponent controls a card (effect 3)",
+            "needs": "Your opponent controls a card.",
+            "gives": "Set Followed Rhythm from your hand and activate it the same turn: it destroys one of his Set cards. Set from the hand: draw 2 and shuffle 1 (the draw finds Scelta).",
+            "used": true,
+            "reason": "He says he should have activated the trap earlier to force a back-row card. The opponent answers with the Voice of the Union and special summons: you destroy his other trap.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "35:41"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Followed Rhythm",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Vaalmonica Followed Rhythm",
+                "from": "spell-trap-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Selettrice Vaalmonica",
+            "action": "special-summon",
+            "reason": "Pendulum Summon Selettrice: she would add a card, but the opponent's Mordel stops it; you already have Scelta in your hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "35:52"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Scelta",
+            "action": "activate",
+            "reason": "Scelta taking 250 damage: add Disarmonia, the card that puts 2 counters in one activation.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "35:59"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Vaalmonica Disarmonia",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Disarmonia",
+            "action": "activate",
+            "reason": "Disarmonia: it puts a counter on Angello and then its effect (gain 500 LP) puts the second: Angello now has 3 counters and the Field Spell triggers.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "36:10"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Disarmonia",
+                "from": "hand",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica, the Agathokakological Voice",
+            "action": "activate",
+            "reason": "The Field Spell takes control of one of the opponent's monsters until the End Phase: YRalps steals the C monster, because if it went to the Graveyard it would Summon another monster from his hand and protect him. The monster cannot attack.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "36:19"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Duralume, Vaalmonican Heathen Hallow",
+            "action": "special-summon",
+            "reason": "Link Summon Duralume (Angello has 3 counters): it enters destroying the opponent's monsters. Remove 3 counters so it can attack 3 times, and win the game in one turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+              "timestamp": "36:27"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Duralume, Vaalmonican Heathen Hallow",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The A monster protects itself by destroying Dragonete, but Duralume attacks three times and the game ends with an OTK. The creator calls Duralume his win condition and says he added the second copy for games like this one.",
+        "endBoard": "Duralume (three attacks) with the opponent's board gone; the game ends on that turn.",
+        "weakSpots": "The opponent starts with a huge board: this only works because two Lava Golem are in the hand. He says he made mistakes (he should have used D.D. Crow earlier and activated the trap first). The steps are read from the captions with the screen as a check."
+      },
+      {
+        "id": "ignister-t1-vs-npc",
+        "build": "ignister",
+        "choice": "Going first (strong hand)",
+        "title": "Going first (strong hand, vs an NPC): Dugares, a second Xyz and one Link-1, with the counter trap and Disarmonia on the table",
+        "hand": [
+          "Vaalmonica, the Agathokakological Voice",
+          "Vaalmonica Scelta",
+          "Angello Vaalmonica"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Vaalmonica, the Agathokakological Voice",
+            "Angello Vaalmonica"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): at the start of the Duel you get Pendulum Zones, and your opponent cannot target a Vaalmonica monster in your Pendulum Zone with card effects. Effect 2 (once per Duel): reveal a Vaalmonica monster in your hand and add 1 Vaalmonica card from your deck. Effect 3 (once per Duel): if your opponent controls a card, Set a Vaalmonica Spell/Trap from your hand or deck to your field (it can be activated this turn); if you Set it from your hand, you draw 2 cards and shuffle 1 card of your hand into the Deck. On turn one he uses effect 2 only. The order of the Spells is a ladder: Scelta, then Invitare, then Versare, and Disarmonia if you reach it. The deck runs on Resonance Counters: a Spell/Trap that gains you LP puts a counter on Angello, and one that costs you LP puts one on Dimonno. The board here does not show counters, so each step says how many counters the Pendulum Zones hold."
+        },
+        "start": {
+          "hand": [
+            "Vaalmonica, the Agathokakological Voice",
+            "Vaalmonica Scelta",
+            "Angello Vaalmonica",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "IgnisterPRC's example hand: the Field Spell, Scelta and a Pendulum monster (he says \"campo, trap e Shelta\"), plus two cards the video does not name. He says the hand is already very good. The opponent is an NPC, so no interaction is shown."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "Reveal a Vaalmonica monster (effect 2)",
+            "needs": "Reveal the Pendulum monster in your hand.",
+            "gives": "Add the Continuous Trap (Creation): the captions say \"ritmo\", but the card he discards later and that gives 3 counters is Creation.",
+            "used": true,
+            "reason": "He brings a trap on purpose: you want to pass with as many traps as possible, and the rest are found by milling the deck. Medium confidence on which trap it is.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "5:13"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Creation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica, the Agathokakological Voice",
+            "action": "activate",
+            "reason": "Field Spell: add Selettrice.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "6:07"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica, the Agathokakological Voice",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Angello Vaalmonica",
+            "action": "activate",
+            "reason": "Angello in the hand: discard the Continuous Trap Creation (not Selettrice) and put both Scales in the zones. Creation goes to the Graveyard and places 3 counters on a Scale: he puts them on Dimonno, because the Field Spell steals on the 3rd counter on the opponent's turn and Angello should still be at 2 at the end.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "6:41"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Creation",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Selettrice Vaalmonica",
+            "action": "normal-summon",
+            "reason": "Normal Summon Selettrice: she adds Invitare to the ladder (Scelta, Invitare, Versare).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "7:54"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Vaalmonica Invitare",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Scelta",
+            "action": "activate",
+            "reason": "Scelta taking damage (a counter on Dimonno): add Versare.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "8:17"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Vaalmonica Versare",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Invitare",
+            "action": "activate",
+            "reason": "Invitare, second effect: add a Pendulum to the hand and one different to the Extra Deck. Be careful: with too many Pendulums in your hand you cannot, and you have to use the first effect.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "9:03"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Invitare",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "extra-deck"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dimonno Vaalmonica",
+            "action": "special-summon",
+            "reason": "Pendulum Summon two monsters: Dimonno from the Extra Deck and Angello from the hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "9:53"
+            },
+            "moves": [
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dimonno Vaalmonica",
+            "action": "activate",
+            "reason": "Dimonno: banish Scelta from the Graveyard and apply the damage effect: add Disarmonia (the fourth Spell of the ladder, found here because the hand was lucky).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "10:34"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Vaalmonica Disarmonia",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Versare",
+            "action": "activate",
+            "reason": "Versare, taking damage: send the counter trap (Ereditare) from the deck to the Graveyard, so it can come back later and shuffle cards.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "11:02"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Versare",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Vaalmonica Ereditare",
+                "from": "deck",
+                "to": "graveyard"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Angello Vaalmonica",
+            "action": "activate",
+            "reason": "Angello: banish Versare from the Graveyard and apply its LP effect: dig until a Vaalmonica card (a Lava Golem and an Angello were skipped; in the end a card is added). Counter on Angello.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "11:14"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Versare",
+                "from": "graveyard",
+                "to": "banished"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "special-summon",
+            "reason": "Xyz Summon Number 60: Dugares the Timeless with the Pendulum Summoned monster and Selettrice (two Level 4 monsters; he keeps Selettrice because she has not used her Graveyard effect).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "12:05"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "activate",
+            "reason": "Dugares: detach 2 materials to draw 2 cards and discard 1. Selettrice goes to the Graveyard as material and returns to your hand (2 Scales).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "12:14"
+            },
+            "moves": [
+              {
+                "card": "Angello Vaalmonica",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Ereditare",
+            "action": "activate",
+            "reason": "Counter trap in the Graveyard: banish it to shuffle Vaalmonica cards back (up to the counters on your field); with 4 counters he shuffles only 4 and draws 1. A Dimensional Fissure Spell is drawn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "12:44"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Ereditare",
+                "from": "graveyard",
+                "to": "banished"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Disarmonia",
+            "action": "activate",
+            "reason": "Disarmonia: place 1 counter on a Scale and apply the LP effect: recover Ereditare from the banished pile (the cost is a counter on Dimonno, and the effect gives one on Angello).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "13:36"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Disarmonia",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Vaalmonica Ereditare",
+                "from": "banished",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Zebufera, Vaalmonican Hallow Heathen",
+            "action": "special-summon",
+            "reason": "Link Summon Zebufera with Dugares and a second monster (here the Pendulum Summoned one): you pass with one Link-1. He chooses to Set 2 cards.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "14:25"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Zebufera, Vaalmonican Hallow Heathen",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Ereditare",
+            "action": "set",
+            "reason": "Set the counter trap and a second card (Followed Rhythm or the Spell he drew) and pass.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "14:35"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Ereditare",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "In this replay Zebufera protects the Spells and Traps, Followed Rhythm applies both effects because you control a Link, and the Scales keep their Pendulum effects. At the end he says Angello has 2 counters so that the 3rd on the opponent's turn triggers the Field Spell and steals a monster. He also shows Varar: with a Link-1 you can Link Summon Varar and it is unaffected with 6 or more counters.",
+        "endBoard": "Zebufera, the counter trap and one more card Set, the Field Spell and the Scales with 3 and 2 counters.",
+        "weakSpots": "This line needs a Level 4 monster or a Scale in the opening hand, and it takes every hand trap. The captions of the middle steps are hard to follow (\"the Scale\", \"ritmo\"), so several steps are medium confidence. Counters are not simulated."
+      },
+      {
+        "id": "ignister-t1-fissure-hand",
+        "build": "ignister",
+        "choice": "Going first (Fissure in hand)",
+        "title": "Going first with Dimensional Fissure in your opening hand: activate it first so no hand trap can be used",
+        "hand": [
+          "Dimensional Fissure",
+          "Selettrice Vaalmonica",
+          "Angello Vaalmonica",
+          "Mulcharmy Purulia",
+          "Vaalmonica Versare"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Dimensional Fissure",
+            "Selettrice Vaalmonica"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): at the start of the Duel you get Pendulum Zones, and your opponent cannot target a Vaalmonica monster in your Pendulum Zone with card effects. Effect 2 (once per Duel): reveal a Vaalmonica monster in your hand and add 1 Vaalmonica card from your deck. Effect 3 (once per Duel): if your opponent controls a card, Set a Vaalmonica Spell/Trap from your hand or deck to your field (it can be activated this turn); if you Set it from your hand, you draw 2 cards and shuffle 1 card of your hand into the Deck. You reveal Selettrice for the skill and take the Field Spell. The deck runs on Resonance Counters: a Spell/Trap that gains you LP puts a counter on Angello, and one that costs you LP puts one on Dimonno. The board here does not show counters, so each step says how many counters the Pendulum Zones hold."
+        },
+        "start": {
+          "hand": [
+            "Dimensional Fissure",
+            "Selettrice Vaalmonica",
+            "Angello Vaalmonica",
+            "Mulcharmy Purulia",
+            "Vaalmonica Versare"
+          ],
+          "note": "IgnisterPRC's example of a hand that starts with Dimensional Fissure (his protection against D.D. Crow, Effect Veiler and Droll & Lock Bird): Fissure, Selettrice, a Scale, a Purulia and Versare. He says that if you hold Fissure you should activate it first, before anything is sent to the Graveyard."
+        },
+        "steps": [
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "Reveal a Vaalmonica monster (effect 2)",
+            "needs": "Reveal Selettrice.",
+            "gives": "Add the Field Spell (Voice): you need a Pendulum monster to use the next effect.",
+            "used": true,
+            "reason": "The first thing is to have Fissure face-up, but you also need the Field Spell for the rest of the turn.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "29:57"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica, the Agathokakological Voice",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dimensional Fissure",
+            "action": "activate",
+            "reason": "Activate Dimensional Fissure first: from now on anything sent to the Graveyard is banished, so the opponent cannot use D.D. Crow, Effect Veiler or Droll & Lock Bird (they are sent to the GY as cost). You also cannot discard Selettrice and bring her back, so you discard something else.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "30:03"
+            },
+            "moves": [
+              {
+                "card": "Dimensional Fissure",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica, the Agathokakological Voice",
+            "action": "activate",
+            "reason": "Field Spell: add a card (the Scale).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "30:05"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica, the Agathokakological Voice",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Angello Vaalmonica",
+            "action": "activate",
+            "reason": "Angello in the hand: discard a Spell (not Selettrice: with Fissure she would be banished) and put both Scales in the zones.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "30:13"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Versare",
+                "from": "hand",
+                "to": "banished"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Selettrice Vaalmonica",
+            "action": "normal-summon",
+            "reason": "Normal Summon Selettrice: add Scelta (the first card of the ladder).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "30:38"
+            },
+            "moves": [
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "hand",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Scelta",
+            "action": "activate",
+            "reason": "Scelta taking damage: add Invitare. Because of Fissure Scelta is banished and not sent to the Graveyard: Dimonno and Angello can still banish from the Graveyard what is there.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "30:45"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Scelta",
+                "from": "hand",
+                "to": "banished"
+              },
+              {
+                "card": "Vaalmonica Invitare",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica Invitare",
+            "action": "activate",
+            "reason": "Invitare, second effect: add a Pendulum and put another face-up in your Extra Deck.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "30:50"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Invitare",
+                "from": "hand",
+                "to": "banished"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "extra-deck"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Dimonno Vaalmonica",
+            "action": "special-summon",
+            "reason": "Pendulum Summon: the Purulia in your hand and the Pendulum from the Extra Deck. Purulia is the Level 4 body for the second Xyz.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "30:59"
+            },
+            "moves": [
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Mulcharmy Purulia",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "special-summon",
+            "reason": "Xyz Summon Dugares with the two Level 4 monsters.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "31:20"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Mulcharmy Purulia",
+                "from": "monster-zone",
+                "to": "overlay",
+                "under": "Number 60: Dugares the Timeless"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Number 60: Dugares the Timeless",
+            "action": "activate",
+            "reason": "Dugares: detach 2 materials to draw 2 cards. The creator says the materials \"dodge\" Fissure (they are Xyz materials, not on the field), so the cards still reach the Graveyard and Selettrice's effect still works. That is his claim and I could not check it in the card text.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "31:26"
+            },
+            "moves": [
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              },
+              {
+                "card": "Mulcharmy Purulia",
+                "from": "overlay",
+                "to": "graveyard",
+                "under": "Number 60: Dugares the Timeless"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Zebufera, Vaalmonican Hallow Heathen",
+            "action": "special-summon",
+            "reason": "Link Summon Zebufera and set 2 cards: it is the example of how you start with Fissure in hand.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "32:21"
+            },
+            "moves": [
+              {
+                "card": "Number 60: Dugares the Timeless",
+                "from": "monster-zone",
+                "to": "banished"
+              },
+              {
+                "card": "Zebufera, Vaalmonican Hallow Heathen",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "He says Fissure's job in this deck is to protect against hand traps: the maximum counter of Vaalmonica is Droll & Lock Bird, and with Fissure the opponent cannot discard it. The cost: Selettrice and Creation do not come back, and you must not send cards to the Graveyard first.",
+        "endBoard": "Zebufera, Dimensional Fissure and two Set cards, with the Scales in the Pendulum Zones.",
+        "weakSpots": "If you use Selettrice's discard before Fissure you take a hand trap. Fissure also banishes your own Spells and Traps used as materials, so you lose the Graveyard recursion. Dimensional Fissure became Limited 1 on 2026-09-28. The line is told by the creator and read from the captions."
+      },
+      {
+        "id": "ignister-t2-steal",
+        "build": "ignister",
+        "choice": "Going second (Creation steal)",
+        "title": "Going second: Creation gives the 3rd counter at once and the Field Spell steals a monster before you attack",
+        "hand": [
+          "Angello Vaalmonica",
+          "Vaalmonica Creation",
+          "Vaalmonica, the Agathokakological Voice"
+        ],
+        "requires": {
+          "turn": "second",
+          "hand": [
+            "Angello Vaalmonica",
+            "Vaalmonica Creation"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): at the start of the Duel you get Pendulum Zones, and your opponent cannot target a Vaalmonica monster in your Pendulum Zone with card effects. Effect 2 (once per Duel): reveal a Vaalmonica monster in your hand and add 1 Vaalmonica card from your deck. Effect 3 (once per Duel): if your opponent controls a card, Set a Vaalmonica Spell/Trap from your hand or deck to your field (it can be activated this turn); if you Set it from your hand, you draw 2 cards and shuffle 1 card of your hand into the Deck. Going second you can use effect 3 right away because the opponent controls cards. The deck runs on Resonance Counters: a Spell/Trap that gains you LP puts a counter on Angello, and one that costs you LP puts one on Dimonno. The board here does not show counters, so each step says how many counters the Pendulum Zones hold."
+        },
+        "start": {
+          "hand": [
+            "Angello Vaalmonica",
+            "Vaalmonica Creation",
+            "Vaalmonica, the Agathokakological Voice",
+            "Selettrice Vaalmonica",
+            "Unknown card"
+          ],
+          "note": "IgnisterPRC's turn-two example: the opponent has monsters on the field, he has two Scales in his hand and the Field Spell, and he does not care about winning this game: he wants to show the classic turn-two play for the Field Spell."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Vaalmonica, the Agathokakological Voice",
+            "action": "activate",
+            "reason": "Activate the Field Spell and add Selettrice (or a Scale).",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "33:08"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica, the Agathokakological Voice",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Selettrice Vaalmonica",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "Whispers of Good and Evil",
+            "when": "Reveal a Vaalmonica monster (effect 2)",
+            "needs": "Reveal Selettrice (or a Scale).",
+            "gives": "Add the Continuous Trap (Creation).",
+            "used": true,
+            "reason": "You do not need Creation on the board: it is a discard for the Scale. It is the heart of the turn-two play.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "34:23"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Creation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Angello Vaalmonica",
+            "action": "activate",
+            "reason": "Angello in the hand: discard Creation and put both Scales in the zones. Creation goes to the Graveyard from the hand and places counters on a Scale until it has 3: the Field Spell triggers at once.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "34:36"
+            },
+            "moves": [
+              {
+                "card": "Vaalmonica Creation",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Angello Vaalmonica",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              },
+              {
+                "card": "Dimonno Vaalmonica",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Vaalmonica, the Agathokakological Voice",
+            "action": "activate",
+            "reason": "The Field Spell takes control of an opponent's monster until the End Phase (it cannot attack): he steals the opponent's I:P Masquerena. He says that way you do not have to face it.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "35:01"
+            },
+            "moves": []
+          },
+          {
+            "type": "card",
+            "card": "Duralume, Vaalmonican Heathen Hallow",
+            "action": "special-summon",
+            "reason": "Link Summon Duralume: with 3 counters on the Fairy Scale it enters destroying the opponent's monsters up to the number of counters, and he says it can attack 3 times if you remove 3 counters.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+              "timestamp": "35:37"
+            },
+            "moves": [
+              {
+                "card": "Duralume, Vaalmonican Heathen Hallow",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "In the replay he destroys two monsters with Duralume but the opponent protects one with a card. He also shows Duralume's destruction effect (up to 3 monsters), then makes Varar with the Duralume. The line needs the opponent to control a card (for the skill's third effect) but works without a Lava Golem.",
+        "endBoard": "Duralume on the field after destroying the opponent's monsters, the Scales with 3 and 2 counters and the stolen monster gone at the End Phase.",
+        "weakSpots": "It depends on the 3rd counter being placed at once. If the opponent has a monster that cannot be taken (an unaffected one), the steal does not work: IgnisterPRC shows a separate line with 6 counters and Varar for that case. The steps are read from the captions (medium confidence for the middle ones)."
+      }
+    ],
+    "videoLists": [
+      {
+        "id": "yralps",
+        "title": "REI DOS JOGOS: VAALMONICA - MELHOR DO QUE VOCÊ PENSA! [DUEL LINKS]",
+        "creator": "YRalps",
+        "url": "https://www.youtube.com/watch?v=YRm3PrwxWMQ",
+        "playName": "YRalps · 26 cards with Lava Golem and D.D. Crow",
+        "playNote": "The King of Games list of May 2026. It passes turn one with a single monster, so Lava Golem and Mothsphere do nothing against it, and it uses Lava Golem itself on turn two.",
+        "main": [
+          {
+            "name": "Angello Vaalmonica",
+            "count": 3
+          },
+          {
+            "name": "Dimonno Vaalmonica",
+            "count": 3
+          },
+          {
+            "name": "Selettrice Vaalmonica",
+            "count": 3
+          },
+          {
+            "name": "Vaalmonica, the Agathokakological Voice",
+            "count": 2
+          },
+          {
+            "name": "Vaalmonica Scelta",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Versare",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Invitare",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Disarmonia",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Followed Rhythm",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Chosen Melody",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Ereditare",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Creation",
+            "count": 1
+          },
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "D.D. Crow",
+            "count": 3
+          },
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Duralume, Vaalmonican Heathen Hallow",
+            "count": 2
+          },
+          {
+            "name": "Zebufera, Vaalmonican Hallow Heathen",
+            "count": 2
+          },
+          {
+            "name": "Varar, Vaalmonican Concord",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Gallant Granite",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "ignister",
+        "title": "VAALMONICA EXPLICADO! Tudo que você precisa saber para jogar",
+        "creator": "IgnisterPRC",
+        "url": "https://www.youtube.com/watch?v=fVOyz1DIUcw",
+        "playName": "IgnisterPRC · 20 cards with Dimensional Fissure and Mulcharmy Purulia",
+        "playNote": "The September 2026 tournament-style list: a closed 20-card deck where every Spell and Trap is a single copy, plus Dimensional Fissure to stop hand traps and Purulia as a free draw.",
+        "main": [
+          {
+            "name": "Angello Vaalmonica",
+            "count": 3
+          },
+          {
+            "name": "Dimonno Vaalmonica",
+            "count": 2
+          },
+          {
+            "name": "Selettrice Vaalmonica",
+            "count": 1
+          },
+          {
+            "name": "Mulcharmy Purulia",
+            "count": 3
+          },
+          {
+            "name": "Lava Golem",
+            "count": 2
+          },
+          {
+            "name": "Vaalmonica, the Agathokakological Voice",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Scelta",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Versare",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Invitare",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Disarmonia",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Ereditare",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Creation",
+            "count": 1
+          },
+          {
+            "name": "Vaalmonica Followed Rhythm",
+            "count": 1
+          },
+          {
+            "name": "Dimensional Fissure",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Number 38: Hope Harbinger Dragon Titanic Galaxy",
+            "count": 1
+          },
+          {
+            "name": "Number 60: Dugares the Timeless",
+            "count": 1
+          },
+          {
+            "name": "Abyss Dweller",
+            "count": 1
+          },
+          {
+            "name": "Number 80: Rhapsody in Berserk",
+            "count": 1
+          },
+          {
+            "name": "Varar, Vaalmonican Concord",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Duralume, Vaalmonican Heathen Hallow",
+            "count": 1
+          },
+          {
+            "name": "Zebufera, Vaalmonican Hallow Heathen",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
   "winged-dragon-of-ra": {
     "deck": "Winged Dragon of Ra",
     "format": "speed",

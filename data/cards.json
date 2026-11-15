@@ -9204,6 +9204,509 @@
       }
     ]
   },
+  "Angello Vaalmonica": {
+    "name": "Angello Vaalmonica",
+    "pt": null,
+    "image": "img/cards/angello-vaalmonica.jpg",
+    "type": "Monster",
+    "race": "Fairy",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1200,
+    "def": 2100,
+    "monsterType": [
+      "Pendulum",
+      "Effect"
+    ],
+    "text": "[Pendulum Effect]\nEach time you gain LP while you control a Fiend Monster Card in your other Pendulum Zone, place 1 Resonance Counter on this card. Once per turn, when an opponent's monster declares an attack, you can: Immediately after this effect resolves, Link Summon 1 \"Vaalmonica\" Link Monster.\n[Monster Effect]\nIf this card is in your hand: You can discard 1 other card; take 1 \"Dimonno Vaalmonica\" from your Deck, and place this card and that card in your Pendulum Zones. During your Main Phase, if this card was Normal or Special Summoned this turn: You can banish 1 \"Vaalmonica\" Normal Spell/Trap from your GY; apply whichever effect on that card includes gaining LP. You can only use each effect of \"Angello Vaalmonica\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Dark Hole": {
+    "name": "Dark Hole",
+    "pt": "Buraco Negro",
+    "image": "img/cards/dark-hole.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Destroy all monsters on the field.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Future Circuit",
+        "boxType": "Main Box",
+        "amount": 2,
+        "url": "https://www.duellinksmeta.com/articles/sets/future-circuit/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 01",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/articles/sets/anniversary-box-1/"
+      },
+      {
+        "kind": "set",
+        "name": "Progressive Fusion",
+        "boxType": "Pickup Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/progressive-fusion/"
+      },
+      {
+        "kind": "set",
+        "name": "Anniversary Box Vol. 02",
+        "boxType": "Main Box",
+        "amount": 3,
+        "url": "https://www.duellinksmeta.com/articles/sets/anniversary-box-2/"
+      }
+    ]
+  },
+  "Dimensional Fissure": {
+    "name": "Dimensional Fissure",
+    "pt": "Fissura Dimensional",
+    "image": "img/cards/dimensional-fissure.jpg",
+    "type": "Spell",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Any monster sent to the Graveyard is banished instead.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Selection Box Mini Vol. 04",
+        "boxType": "Selection Box Mini",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/selection-box-mini-vol-04/"
+      },
+      {
+        "kind": "set",
+        "name": "Raider's Requiem",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/raiders-requiem/"
+      }
+    ]
+  },
+  "Dimonno Vaalmonica": {
+    "name": "Dimonno Vaalmonica",
+    "pt": null,
+    "image": "img/cards/dimonno-vaalmonica.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1200,
+    "def": 2100,
+    "monsterType": [
+      "Pendulum",
+      "Effect"
+    ],
+    "text": "[Pendulum Effect]\nEach time you take effect damage while you control a Fairy Monster Card in your other Pendulum Zone, place 1 Resonance Counter on this card. Monsters your opponent controls lose 100 ATK for each Resonance Counter on your field.\n[Monster Effect]\nIf this card is in your hand: You can discard 1 other card; take 1 \"Angello Vaalmonica\" from your Deck, and place this card and that card in your Pendulum Zones. During your Main Phase, if this card was Normal or Special Summoned this turn: You can banish 1 \"Vaalmonica\" Normal Spell/Trap from your GY; apply whichever effect on that card includes taking damage. You can only use each effect of \"Dimonno Vaalmonica\" once per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Duralume, Vaalmonican Heathen Hallow": {
+    "name": "Duralume, Vaalmonican Heathen Hallow",
+    "pt": null,
+    "image": "img/cards/duralume-vaalmonican-heathen-hallow.jpg",
+    "type": "Monster",
+    "race": "Fairy",
+    "attribute": "DARK",
+    "level": null,
+    "atk": 2500,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "1 Effect Monster\nCannot be Link Summoned unless you have 3 or more Resonance Counters on Fairy Monster Card(s) in your Pendulum Zone. You can only Special Summon \"Duralume, Vaalmonican Heathen Hallow\" once per turn. If this card is Link Summoned: You can target monsters your opponent controls, up to the number of Resonance Counters in your Pendulum Zone; destroy them. You can remove 3 Resonance Counters from your Pendulum Zone; this card can make up to 3 attacks during each Battle Phase this turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Gallant Granite": {
+    "name": "Gallant Granite",
+    "pt": "Valente de Granito",
+    "image": "img/cards/gallant-granite.jpg",
+    "type": "Monster",
+    "race": "Rock",
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 2300,
+    "def": 1800,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 4 monsters\r\nYou can detach 1 material from this card, then activate 1 of these effects;\r\n● Add 1 Rock monster from your Deck to your hand.\r\n● Special Summon 1 Rock monster from your hand in face-down Defense Position.\r\nYou can only use this effect of \"Gallant Granite\" once per turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Card Flipper Campaign",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Duel Quest Event",
+        "url": null
+      },
+      {
+        "kind": "other",
+        "name": "Ranked Duels Ticket",
+        "url": null
+      }
+    ]
+  },
+  "Number 80: Rhapsody in Berserk": {
+    "name": "Number 80: Rhapsody in Berserk",
+    "pt": "Número 80: Rapsódia Enfurecido",
+    "image": "img/cards/number-80-rhapsody-in-berserk.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 0,
+    "def": 1200,
+    "monsterType": [
+      "Xyz",
+      "Effect"
+    ],
+    "text": "2 Level 4 monsters\nYou can target 1 face-up Xyz Monster you control; equip this monster you control to that target. It gains 1200 ATK. You can detach 1 Xyz Material from this card, then target 1 card in your opponent's Graveyard; banish that target. You can use this effect of \"Number 80: Rhapsody in Berserk\" up to twice per turn.",
+    "obtain": [
+      {
+        "kind": "other",
+        "name": "Alito Event",
+        "url": null
+      },
+      {
+        "kind": "character",
+        "name": "Alito",
+        "level": "Drop",
+        "url": "https://www.duellinksmeta.com/articles/farming/all-characters/alito/"
+      }
+    ]
+  },
+  "Selettrice Vaalmonica": {
+    "name": "Selettrice Vaalmonica",
+    "pt": null,
+    "image": "img/cards/selettrice-vaalmonica.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1200,
+    "def": 1200,
+    "monsterType": [
+      "Effect"
+    ],
+    "text": "While you control a monster other than \"Selettrice Vaalmonica\", your opponent's monsters cannot target this card for attacks. You can only use each of the following effects of \"Selettrice Vaalmonica\" once per turn. If this card is Normal or Pendulum Summoned: You can add 1 \"Vaalmonica\" card from your Deck to your hand, except \"Selettrice Vaalmonica\". If this card is sent to the GY and you have 2 \"Vaalmonica\" cards in your Pendulum Zones: You can add this card to your hand.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Triple Tactics Thrust": {
+    "name": "Triple Tactics Thrust",
+    "pt": null,
+    "image": "img/cards/triple-tactics-thrust.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "If your opponent has activated a monster effect during this turn: Set 1 Normal Spell/Trap from your Deck, except \"Triple Tactics Thrust\", or if your opponent controls a monster, you can add it to your hand instead. That Set card cannot be activated this turn. You can only activate 1 \"Triple Tactics Thrust\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "Shadow Eyes",
+        "boxType": "Main Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/shadow-eyes/"
+      }
+    ]
+  },
+  "Vaalmonica Chosen Melody": {
+    "name": "Vaalmonica Chosen Melody",
+    "pt": null,
+    "image": "img/cards/vaalmonica-chosen-melody.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Apply 1 of these effects. You must control a \"Vaalmonica\" Monster Card to activate and to resolve this effect. If you control a \"Vaalmonica\" Link Monster, you can apply both effects in sequence.\n●Gain 500 LP, also for the rest of this turn, your opponent cannot target \"Vaalmonica\" Monster Cards you control with card effects.\n●Take 250 damage, then you can negate the effects of 1 Effect Monster your opponent controls, until the end of this turn.\nYou can only activate 1 \"Vaalmonica Chosen Melody\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica Creation": {
+    "name": "Vaalmonica Creation",
+    "pt": null,
+    "image": "img/cards/vaalmonica-creation.jpg",
+    "type": "Trap",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "While you have 6 or more Resonance Counters on your field, \"Vaalmonica\" Link Monsters you control gain 1200 ATK. You can only use each of the following effects of \"Vaalmonica Creation\" once per turn. If your opponent Special Summons a monster(s), you can: Immediately after this effect resolves, Link Summon 1 \"Vaalmonica\" Link Monster. If this card is sent from the hand or field to the GY: You can place Resonance Counters on 1 card in your Pendulum Zone that you can place a Resonance Counter on, until it has 3.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica Disarmonia": {
+    "name": "Vaalmonica Disarmonia",
+    "pt": null,
+    "image": "img/cards/vaalmonica-disarmonia.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Place 1 Resonance Counter on 1 card in your Pendulum Zone that you can place a Resonance Counter on, then apply 1 of these effects.\n● Gain 500 LP, then you can add 1 of your banished \"Vaalmonica\" cards to your hand, except \"Vaalmonica Disarmonia\".\n● Take 250 damage, then you can add 1 \"Vaalmonica\" card from your GY to your hand, except \"Vaalmonica Disarmonia\".\nYou can only activate 1 \"Vaalmonica Disarmonia\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica Ereditare": {
+    "name": "Vaalmonica Ereditare",
+    "pt": null,
+    "image": "img/cards/vaalmonica-ereditare.jpg",
+    "type": "Trap",
+    "race": "Counter",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "When a Spell/Trap Card, or monster effect, is activated while you control a \"Vaalmonica\" Link Monster: Negate the activation, and if you do, destroy that card. You can banish this card from your GY; shuffle into the Deck, \"Vaalmonica\" cards from your face-up Extra Deck, GY, and/or banishment, except \"Vaalmonica Ereditare\", up to the number of Resonance Counters on your field, then you can draw 1 card for every 3 cards shuffled. You can only use 1 \"Vaalmonica Ereditare\" effect per turn, and only once that turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica Followed Rhythm": {
+    "name": "Vaalmonica Followed Rhythm",
+    "pt": null,
+    "image": "img/cards/vaalmonica-followed-rhythm.jpg",
+    "type": "Trap",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Apply 1 of these effects. You must control a \"Vaalmonica\" Monster Card to activate and to resolve this effect. If you control a \"Vaalmonica\" Link Monster, you can apply both effects in sequence.\n●Gain 500 LP, then you can destroy 1 Spell/Trap on the field.\n●Take 250 damage, then you can return 1 monster from the field to the hand.\nYou can only activate 1 \"Vaalmonica Followed Rhythm\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 9,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica Invitare": {
+    "name": "Vaalmonica Invitare",
+    "pt": null,
+    "image": "img/cards/vaalmonica-invitare.jpg",
+    "type": "Spell",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Apply 1 of these effects.\n● Special Summon 1 \"Vaalmonica\" monster from your Deck, also for the rest of this turn after this card resolves, you cannot activate the effects of monsters on the field, except \"Vaalmonica\" monsters.\n● If you control a non-Pendulum \"Vaalmonica\" monster, take 2 \"Vaalmonica\" Pendulum Monsters with different names from your Deck, add 1 of them to your hand, and add the other to your face-up Extra Deck.\nYou can only activate 1 \"Vaalmonica Invitare\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica Scelta": {
+    "name": "Vaalmonica Scelta",
+    "pt": null,
+    "image": "img/cards/vaalmonica-scelta.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Apply 1 of these effects. Unless you have a \"Vaalmonica\" card in your Pendulum Zone, your opponent chooses the effect.\n●Gain 500 LP, then you can place 1 card from your hand on the bottom of the Deck, then draw 2 cards.\n●Take 250 damage, then you can add 1 \"Vaalmonica\" Spell/Trap from your Deck to your hand, except \"Vaalmonica Scelta\".\nYou can only activate 1 \"Vaalmonica Scelta\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica Versare": {
+    "name": "Vaalmonica Versare",
+    "pt": null,
+    "image": "img/cards/vaalmonica-versare.jpg",
+    "type": "Spell",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "Apply 1 of these effects. Unless you have a \"Vaalmonica\" card in your Pendulum Zone, your opponent chooses the effect.\n●Gain 500 LP, then you can excavate cards from the top of your Deck until you excavate a \"Vaalmonica\" card, then add that card to your hand, also shuffle the rest into the Deck.\n●Take 250 damage, then you can send 1 \"Vaalmonica\" card from your Deck to the GY, except \"Vaalmonica Versare\".\nYou can only activate 1 \"Vaalmonica Versare\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Vaalmonica, the Agathokakological Voice": {
+    "name": "Vaalmonica, the Agathokakological Voice",
+    "pt": null,
+    "image": "img/cards/vaalmonica-the-agathokakological-voice.jpg",
+    "type": "Spell",
+    "race": "Field",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "monsterType": [],
+    "text": "When this card is activated: You can add 1 \"Vaalmonica\" monster from your Deck to your hand. If a card in your Pendulum Zone has a 3rd Resonance Counter placed on it: You can target 1 monster your opponent controls; take control of it until the End Phase, but it cannot declare an attack. You can only use this effect of \"Vaalmonica, the Agathokakological Voice\" once per turn. You can only activate 1 \"Vaalmonica, the Agathokakological Voice\" per turn.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Varar, Vaalmonican Concord": {
+    "name": "Varar, Vaalmonican Concord",
+    "pt": null,
+    "image": "img/cards/varar-vaalmonican-concord.jpg",
+    "type": "Monster",
+    "race": "Spellcaster",
+    "attribute": "WATER",
+    "level": null,
+    "atk": 3000,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "2 monsters, including a \"Vaalmonica\" Link Monster\n\nUnaffected by non-\"Vaalmonica\" cards' effects while 6 or more Resonance Counters are on your field. This card gains 1 additional attack each Battle Phase for each Level 4 \"Vaalmonica\" monster you control. Once per turn, when your opponent would Special Summon a monster(s) (Quick Effect): You can negate the Summon, and if you do, destroy that monster(s), then remove 3 Resonance Counters from your field.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 1,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
+  "Zebufera, Vaalmonican Hallow Heathen": {
+    "name": "Zebufera, Vaalmonican Hallow Heathen",
+    "pt": null,
+    "image": "img/cards/zebufera-vaalmonican-hallow-heathen.jpg",
+    "type": "Monster",
+    "race": "Fiend",
+    "attribute": "LIGHT",
+    "level": null,
+    "atk": 2500,
+    "def": null,
+    "monsterType": [
+      "Link",
+      "Effect"
+    ],
+    "text": "1 Effect Monster\nCannot be Link Summoned unless you have 3 or more Resonance Counters on Fiend Monster Card(s) in your Pendulum Zone. You can only Special Summon \"Zebufera, Vaalmonican Hallow Heathen\" once per turn. If a card(s) you control would be destroyed by battle or card effect, you can remove 3 Resonance Counters from your Pendulum Zone instead. Once per opponent's turn (Quick Effect): You can target 1 of your \"Vaalmonica\" Normal Spells/Traps that is banished or in your GY; apply that card's activation effect.",
+    "obtain": [
+      {
+        "kind": "set",
+        "name": "President of Machinex",
+        "boxType": "Mini Box",
+        "amount": 6,
+        "url": "https://www.duellinksmeta.com/articles/sets/president-of-machinex/"
+      }
+    ]
+  },
   "Ancient Chant": {
     "name": "Ancient Chant",
     "pt": "Cântico Antigo",
