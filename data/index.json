@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T14:21:54.918Z",
+  "generatedAt": "2026-11-23T18:02:06.527Z",
   "dataFetchedAt": "2026-11-02T14:02:14.478Z",
   "decks": [
     {
@@ -105,9 +105,9 @@
       "slug": "icejade",
       "name": "Icejade",
       "status": "verified",
-      "updated": "2026-11-02",
+      "updated": "2026-11-23",
       "skill": "A World of Ice and Water",
-      "scenarios": 3,
+      "scenarios": 6,
       "stats": {
         "decks": 10,
         "totalDecks": 612,

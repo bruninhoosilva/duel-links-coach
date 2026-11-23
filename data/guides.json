@@ -5524,7 +5524,7 @@
     "deck": "Icejade",
     "format": "speed",
     "status": "verified",
-    "updated": "2026-11-02",
+    "updated": "2026-11-23",
     "featuredCard": "Icejade Gymir Aegirine",
     "skill": {
       "name": "A World of Ice and Water",
@@ -5546,155 +5546,211 @@
         "creator": "YRalps",
         "language": "Portuguese",
         "url": "https://www.youtube.com/watch?v=kRHL-dwVf30"
+      },
+      {
+        "title": "O ICEJADE MAIS BARATO DO DUEL LINKS! DECKLIST E COMBOS (Portuguese deck explanation, a practice combo and two replays)",
+        "creator": "Palladino BR",
+        "language": "Portuguese",
+        "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI"
       }
     ],
-    "gamePlan": "A Synchro stall deck. On turn one: find a Level 7 WATER Tuner (Cradle, the skill), use Ran Aegirine to Special Summon itself with an Icejade Token, Synchro Summon a Level 10 (Gymir Aegirine), use the skill's third effect to play a second Icejade monster and Set Icejade Erosion, and finish with Materiactor Exagard (counter trap), the Field Spell, Icejade Curse and Kosmochlor. The result is a board where the opponent cannot activate any monster effect (Icejade Curse for the ones Summoned this turn, Kosmochlor for the rest), with a counter trap, Erosion and Gymir Aegirine to answer anything else. On turn two the skill plays an Icejade monster the moment the opponent controls a monster, and Kosmochlor and Curse do the rest. The creator's words: the deck is a stall that wins through floodgates and negation, it is easy to play and \"should not exist\".",
+    "gamePlan": "A Synchro stall deck. On turn one: find a Level 7 WATER Tuner (Cradle, the skill), use Ran Aegirine to Special Summon itself with an Icejade Token, Synchro Summon a Level 10 (Gymir Aegirine), use the skill's third effect to play a second Icejade monster and Set Icejade Erosion, and finish with Materiactor Exagard (counter trap), the Field Spell, Icejade Curse and Kosmochlor. The result is a board where the opponent cannot activate any monster effect (Icejade Curse for the ones Summoned this turn, Kosmochlor for the rest), with a counter trap, Erosion and Gymir Aegirine to answer anything else. On turn two the skill plays an Icejade monster the moment the opponent controls a monster, and Kosmochlor and Curse do the rest. The creator's words: the deck is a stall that wins through floodgates and negation, it is easy to play and \"should not exist\". Palladino BR's budget version plays the same stall with one Ran Aegirine: the Cradle and Aegirine find it, the skill discards Lava Golem or Kosmochlor, Ran and its Token make Gymir Aegirine, the skill's third effect plays a face-down Level 10 or Level 5 Icejade and Sets Icejade Erosion, and then Marincess Coral Anemone brings Ran back so the Field Spell can return Kosmochlor and Creation Aegirocassis can equip to Ran. He says it is a control deck, so going first is better.",
     "strengths": [
       "A floodgate that cannot be chained: with Icejade Curse and Kosmochlor, monsters cannot activate their effects at all, which is stronger than negating them.",
       "Lots of protection: a counter trap (Speed 3), Icejade Erosion with Tremora and Tinola behind it, and Gymir Aegirine's Quick Effect.",
       "The skill gives consistency (12 cards that find the key cards, says the creator) and works on turn one and turn two.",
       "A Lava Golem, Nibiru or Kaiju on your monsters triggers Icejade Erosion's search, so those cards do little against it, and Forbidden Droplet is the one the creator worries about.",
-      "Good against hand traps, and the creator says there is room in the list for staples."
+      "Good against hand traps, and the creator says there is room in the list for staples.",
+      "The budget list (Palladino BR) needs only 1 Ran Aegirine: any 2 Aegirine and 2 Cradle can find it, so the deck is playable before you own the new box."
     ],
     "weaknesses": [
       "The Field Spell and a Level 7 Tuner matter: without them the turn is slower. A Level 3 start has no Xyz line.",
       "While the Icejade Token is on the field, only WATER monsters can come from your Extra Deck.",
       "The creator is still testing Nibiru, Droll & Lock Bird and Lightning Storm, and says they are less efficient than the Icejade cards.",
       "A Forbidden Droplet is the card he worries about. He also says a ranked opponent who plays around it is rare.",
-      "The deck is unpopular to play against (\"chatíssimo\") according to the creator, which means opponents may hold more answers over time."
+      "The deck is unpopular to play against (\"chatíssimo\") according to the creator, which means opponents may hold more answers over time.",
+      "With 1 Ran Aegirine and 2 Aegirine, the budget list depends on drawing Cradle or Aegirine; Creation Aegirocassis is only a Tuner for the skill, not a searcher, and there are no hand traps in the list."
     ],
     "cards": [
       {
         "name": "Icejade Cradle",
         "role": "starter",
         "copies": 3,
-        "note": "Spell. Adds 1 Icejade monster from your deck to your hand, with a name different from the Icejade cards you control or have in the Graveyard. It finds Ran Aegirine or Creation Aegirocassis so the skill can be used, and later in the turn it finds Kosmochlor."
+        "note": "Spell. Adds 1 Icejade monster from your deck to your hand, with a name different from the Icejade cards you control or have in the Graveyard. It finds Ran Aegirine or Creation Aegirocassis so the skill can be used, and later in the turn it finds Kosmochlor. Copies: YRalps plays 3, Palladino BR plays 3."
       },
       {
         "name": "Icejade Ran Aegirine",
         "role": "starter",
         "copies": 3,
-        "note": "Level 7 WATER Tuner and the star of the deck. Discard another Icejade card or WATER monster to Special Summon it from your hand, then you can Special Summon an Icejade Token (Level 3, 0/0, not a Tuner). With the Level 7 Tuner and the Level 3 Token you Synchro Summon a Level 10 Synchro on your own. While the Token is on the field only WATER monsters can come from your Extra Deck. It counts as a card the skill can reveal, and while it is equipped it takes the name of the Field Spell."
+        "note": "Level 7 WATER Tuner and the star of the deck. Discard another Icejade card or WATER monster to Special Summon it from your hand, then you can Special Summon an Icejade Token (Level 3, 0/0, not a Tuner). With the Level 7 Tuner and the Level 3 Token you Synchro Summon a Level 10 Synchro on your own. While the Token is on the field only WATER monsters can come from your Extra Deck. It counts as a card the skill can reveal, and while it is equipped it takes the name of the Field Spell. Copies: YRalps plays 3, Palladino BR plays 1. Palladino BR says he has only one copy, and that Icejade still works as long as you have 2 Aegirine and 2 Cradle to find it."
       },
       {
         "name": "Icejade Aegirine",
         "role": "starter",
         "copies": 3,
-        "note": "Level 3 WATER. When Normal or Special Summoned, it adds 1 Icejade Spell/Trap from your deck to your hand (usually Icejade Cradle or Icejade Curse). When the opponent targets it with an effect or an attack it can save itself and Special Summon a WATER monster from your hand or Graveyard until the End Phase. Two of them make Materiactor Exagard. The skill can also play one face-down from your deck."
+        "note": "Level 3 WATER. When Normal or Special Summoned, it adds 1 Icejade Spell/Trap from your deck to your hand (usually Icejade Cradle or Icejade Curse). When the opponent targets it with an effect or an attack it can save itself and Special Summon a WATER monster from your hand or Graveyard until the End Phase. Two of them make Materiactor Exagard. The skill can also play one face-down from your deck. Copies: YRalps plays 3, Palladino BR plays 2."
       },
       {
         "name": "Icejade Creation Aegirocassis",
         "role": "extender",
         "copies": 3,
-        "note": "The other Level 7 WATER Tuner. Its useful part is the equip effect: from your hand or Graveyard you can equip it to an Icejade monster, which then gains 400 ATK and DEF for each banished monster. While it is equipped you can Special Summon it. The creator says its effect is not as interesting as Ran Aegirine, but it counts as a Level 7 Tuner for the skill and the Synchro Summon."
+        "note": "The other Level 7 WATER Tuner. Its useful part is the equip effect: from your hand or Graveyard you can equip it to an Icejade monster, which then gains 400 ATK and DEF for each banished monster. While it is equipped you can Special Summon it. The creator says its effect is not as interesting as Ran Aegirine, but it counts as a Level 7 Tuner for the skill and the Synchro Summon. Copies: YRalps plays 3, Palladino BR plays 3."
       },
       {
         "name": "Icejade Kosmochlor",
         "role": "payoff",
-        "copies": 1,
-        "note": "Level 10 WATER. You can Special Summon it from your hand while any face-up card is in a Field Zone (once per turn this way). While the Field Spell is on the field, monsters the opponent controls can only activate their effects the turn they are Summoned, and your Icejade monsters make the monsters they battle lose 1000 ATK in damage calculation. The creator uses it as the second half of the stall, especially on turn two."
+        "copies": 2,
+        "note": "Level 10 WATER. You can Special Summon it from your hand while any face-up card is in a Field Zone (once per turn this way). While the Field Spell is on the field, monsters the opponent controls can only activate their effects the turn they are Summoned, and your Icejade monsters make the monsters they battle lose 1000 ATK in damage calculation. The creator uses it as the second half of the stall, especially on turn two. Copies: YRalps plays 1, Palladino BR plays 2. Palladino BR plays 2 so that if one leaves the field, Icejade Erosion or the Field Spell can bring the other back and the lock stays."
       },
       {
         "name": "Icejade Tremora",
         "role": "extender",
         "copies": 1,
-        "note": "Level 5 WATER. From the hand: send it to the Graveyard to Special Summon a WATER monster from your hand, a free discard for the skill. In the Graveyard, if a face-up WATER monster of yours is destroyed, banish it to Special Summon an Icejade monster from your hand or Graveyard."
+        "note": "Level 5 WATER. From the hand: send it to the Graveyard to Special Summon a WATER monster from your hand, a free discard for the skill. In the Graveyard, if a face-up WATER monster of yours is destroyed, banish it to Special Summon an Icejade monster from your hand or Graveyard. Copies: YRalps plays 1, Palladino BR plays 1."
       },
       {
         "name": "Icejade Tinola",
         "role": "extender",
         "copies": 1,
-        "note": "Level 4 WATER. On the field it can send itself to the Graveyard to Special Summon a WATER monster from your Graveyard (you discard 1 card). In the Graveyard it has the same effect as Tremora: banish it to bring back an Icejade monster after a WATER monster of yours is destroyed. The creator calls it Tinola."
+        "note": "Level 4 WATER. On the field it can send itself to the Graveyard to Special Summon a WATER monster from your Graveyard (you discard 1 card). In the Graveyard it has the same effect as Tremora: banish it to bring back an Icejade monster after a WATER monster of yours is destroyed. The creator calls it Tinola. Copies: YRalps plays 1, Palladino BR plays 0."
       },
       {
         "name": "Icejade Curse",
         "role": "removal",
         "copies": 1,
-        "note": "The main stall card, limited to 1. While you control an Icejade monster and the Field Spell, the opponent cannot activate the effects of monsters that were Summoned that turn: they cannot even chain, which is stronger than a negate. It also burns for half the ATK of monsters destroyed in battle involving your Icejade monster. The skill makes all your other effect damage 0, but not this one."
+        "note": "The main stall card, limited to 1. While you control an Icejade monster and the Field Spell, the opponent cannot activate the effects of monsters that were Summoned that turn: they cannot even chain, which is stronger than a negate. It also burns for half the ATK of monsters destroyed in battle involving your Icejade monster. The skill makes all your other effect damage 0, but not this one. Copies: YRalps plays 1, Palladino BR plays 1."
       },
       {
         "name": "Icejade Manifestation",
         "role": "extender",
         "copies": 1,
-        "note": "Spell. If you control a WATER monster and your opponent has a monster in the field or a card in their Graveyard: take 1 Icejade monster from your deck and send it to the Graveyard or Special Summon it. From the Graveyard, if an Icejade monster of yours leaves the field by an opponent's card (not destruction), banish it to banish a card the opponent controls. In the replay it sends the other Level 7 Tuner to the Graveyard to equip it."
+        "note": "Spell. If you control a WATER monster and your opponent has a monster in the field or a card in their Graveyard: take 1 Icejade monster from your deck and send it to the Graveyard or Special Summon it. From the Graveyard, if an Icejade monster of yours leaves the field by an opponent's card (not destruction), banish it to banish a card the opponent controls. In the replay it sends the other Level 7 Tuner to the Graveyard to equip it. Copies: YRalps plays 1, Palladino BR plays 1."
       },
       {
         "name": "Icejade Erosion",
         "role": "removal",
         "copies": 1,
-        "note": "Trap that the skill usually Sets for you (the creator calls it his continuous trap). Destroy 1 Icejade monster you control to negate the effects of a face-up card the opponent controls this turn. If a face-up WATER monster of yours leaves the field because of the opponent (not by destruction), you can add or Special Summon an Icejade monster from your deck. With Tremora or Tinola in the Graveyard, the destroyed monster comes straight back. The creator says it also reacts when the opponent uses Nibiru, Kaiju or Lava Golem, so the deck plays well around them."
+        "note": "Trap that the skill usually Sets for you (the creator calls it his continuous trap). Destroy 1 Icejade monster you control to negate the effects of a face-up card the opponent controls this turn. If a face-up WATER monster of yours leaves the field because of the opponent (not by destruction), you can add or Special Summon an Icejade monster from your deck. With Tremora or Tinola in the Graveyard, the destroyed monster comes straight back. The creator says it also reacts when the opponent uses Nibiru, Kaiju or Lava Golem, so the deck plays well around them. Copies: YRalps plays 1, Palladino BR plays 1."
       },
       {
         "name": "Materiactor Critical",
         "role": "removal",
         "copies": 1,
-        "note": "Counter Trap. When the opponent activates a Spell/Trap or monster effect: add 1 of your materials from a Materiactor Xyz Monster to your hand and negate the activation, then a monster put in your hand makes you put a card from your hand at the bottom of the deck, a Spell raises your Materiactor Xyz Monsters by 1000 ATK, and a Trap can be Set. Materiactor Exagard finds it. The creator uses it first because it is Speed 3: the opponent cannot answer it."
+        "note": "Counter Trap. When the opponent activates a Spell/Trap or monster effect: add 1 of your materials from a Materiactor Xyz Monster to your hand and negate the activation, then a monster put in your hand makes you put a card from your hand at the bottom of the deck, a Spell raises your Materiactor Xyz Monsters by 1000 ATK, and a Trap can be Set. Materiactor Exagard finds it. The creator uses it first because it is Speed 3: the opponent cannot answer it. Copies: YRalps plays 1, Palladino BR plays 0."
       },
       {
         "name": "Nibiru, the Primal Being",
         "role": "hand-trap",
         "copies": 3,
-        "note": "Tech card. The creator says in the video he plays two Nibiru, while his deck screen shows three: the screen is what the guide follows. He says he is still testing Nibiru and Droll & Lock Bird and that they are not as efficient as the Icejade cards, so you can swap them for whatever is best in your meta."
+        "note": "Tech card. The creator says in the video he plays two Nibiru, while his deck screen shows three: the screen is what the guide follows. He says he is still testing Nibiru and Droll & Lock Bird and that they are not as efficient as the Icejade cards, so you can swap them for whatever is best in your meta. Copies: YRalps plays 3, Palladino BR plays 0."
       },
       {
         "name": "Droll & Lock Bird",
         "role": "hand-trap",
         "copies": 3,
-        "note": "Tech card that stops the opponent's search turn. The creator says in the video he plays two, while his deck screen shows three (the guide follows the screen). He is still testing it, and says you can swap it for whatever you prefer for the current meta."
+        "note": "Tech card that stops the opponent's search turn. The creator says in the video he plays two, while his deck screen shows three (the guide follows the screen). He is still testing it, and says you can swap it for whatever you prefer for the current meta. Copies: YRalps plays 3, Palladino BR plays 0."
       },
       {
         "name": "Lightning Storm",
         "role": "removal",
         "copies": 2,
-        "note": "New card from the latest box, tested by the creator in 2 copies. If you control no face-up cards: destroy all of the opponent's Attack Position monsters or all their Spells and Traps. He likes it because it clears the opponent's back row. In his second-turn replay the opponent had a protection effect, so it did nothing, which he expected."
+        "note": "New card from the latest box, tested by the creator in 2 copies. If you control no face-up cards: destroy all of the opponent's Attack Position monsters or all their Spells and Traps. He likes it because it clears the opponent's back row. In his second-turn replay the opponent had a protection effect, so it did nothing, which he expected. Copies: YRalps plays 2, Palladino BR plays 0."
       },
       {
         "name": "Ruddy Rose Dragon",
         "role": "payoff",
         "copies": 1,
-        "note": "Level 10 FIRE Synchro Dragon. Banishes all cards in both Graveyards when Synchro Summoned (banished cards make Chengying, Creation Aegirocassis and Gymir Aegirine stronger). When the opponent activates something that would destroy a card, Tribute it to negate that activation. In the second-turn replay it is made with the Level 7 Tuner and Aegirine."
+        "note": "Level 10 FIRE Synchro Dragon. Banishes all cards in both Graveyards when Synchro Summoned (banished cards make Chengying, Creation Aegirocassis and Gymir Aegirine stronger). When the opponent activates something that would destroy a card, Tribute it to negate that activation. In the second-turn replay it is made with the Level 7 Tuner and Aegirine. Copies: YRalps plays 1, Palladino BR plays 0."
       },
       {
         "name": "Icejade Gymir Aegirine",
         "role": "payoff",
         "copies": 2,
-        "note": "Level 10 WATER Synchro: 1 WATER Tuner + non-Tuner monsters. The creator's main Synchro: a Quick Effect makes your face-up monsters safe from destruction and banishing by effects this turn. If you use it in response to a card or effect of the opponent that is on their field or in their Graveyard, you can banish it and every copy. It is very good against Continuous Spells and Fields. If one of your cards is banished by the opponent while it is in your Graveyard, it comes back. The deck screen shows two copies."
+        "note": "Level 10 WATER Synchro: 1 WATER Tuner + non-Tuner monsters. The creator's main Synchro: a Quick Effect makes your face-up monsters safe from destruction and banishing by effects this turn. If you use it in response to a card or effect of the opponent that is on their field or in their Graveyard, you can banish it and every copy. It is very good against Continuous Spells and Fields. If one of your cards is banished by the opponent while it is in your Graveyard, it comes back. The deck screen shows two copies. Copies: YRalps plays 2, Palladino BR plays 1."
       },
       {
         "name": "Swordsoul Supreme Sovereign - Chengying",
         "role": "payoff",
-        "copies": 1,
-        "note": "Level 10 WATER Synchro Wyrm. Gains 100 ATK/DEF for each banished card and your opponent's monsters lose the same. If a card is banished, you can banish 1 card from the opponent's field and 1 from their Graveyard. The creator says it works beautifully with Gymir Aegirine, because Gymir banishes a card and Chengying triggers."
+        "copies": 2,
+        "note": "Level 10 WATER Synchro Wyrm. Gains 100 ATK/DEF for each banished card and your opponent's monsters lose the same. If a card is banished, you can banish 1 card from the opponent's field and 1 from their Graveyard. The creator says it works beautifully with Gymir Aegirine, because Gymir banishes a card and Chengying triggers. Copies: YRalps plays 1, Palladino BR plays 2. Palladino BR only got his copies the day before the video, so most of his replays do not use them."
       },
       {
         "name": "Materiactor Exagard",
         "role": "removal",
         "copies": 1,
-        "note": "Rank 3 WATER Xyz made from two Level 3 Icejade Aegirine. Detach 1 material to add a Materiactor card (here the counter trap Materiactor Critical). Another effect adds materials to your hand when the opponent Summons a monster."
+        "note": "Rank 3 WATER Xyz made from two Level 3 Icejade Aegirine. Detach 1 material to add a Materiactor card (here the counter trap Materiactor Critical). Another effect adds materials to your hand when the opponent Summons a monster. Copies: YRalps plays 1, Palladino BR plays 0."
       },
       {
         "name": "Knightmare Phoenix",
         "role": "extender",
         "copies": 1,
-        "note": "Link-2 Fiend. Not discussed by the creator. When Link Summoned you can discard 1 card to destroy 1 Spell/Trap the opponent controls. Co-linked monsters cannot be destroyed in battle."
+        "note": "Link-2 Fiend. Not discussed by the creator. When Link Summoned you can discard 1 card to destroy 1 Spell/Trap the opponent controls. Co-linked monsters cannot be destroyed in battle. Copies: YRalps plays 1, Palladino BR plays 0."
       },
       {
         "name": "I:P Masquerena",
         "role": "extender",
         "copies": 1,
-        "note": "Link-2. Not discussed by the creator (identified from the deck screen, medium confidence). Quick Effect during the opponent's Main Phase to Link Summon using your own materials."
+        "note": "Link-2. Not discussed by the creator (identified from the deck screen, medium confidence). Quick Effect during the opponent's Main Phase to Link Summon using your own materials. Copies: YRalps plays 1, Palladino BR plays 1."
       },
       {
         "name": "Underworld Goddess of the Closed World",
         "role": "removal",
         "copies": 1,
-        "note": "Link-5. Not discussed by the creator. Can use an opponent's monster as material. Negates the effects of the opponent's monsters when Link Summoned and the activation of a Graveyard Special Summon."
+        "note": "Link-5. Not discussed by the creator. Can use an opponent's monster as material. Negates the effects of the opponent's monsters when Link Summoned and the activation of a Graveyard Special Summon. Copies: YRalps plays 1, Palladino BR plays 0."
       },
       {
         "name": "Worldsea Dragon Zealantis",
         "role": "extender",
         "copies": 1,
-        "note": "Link-4 WATER. Not discussed by the creator. Banishes all monsters on the field, then Special Summons them back, or destroys cards on the field up to the number of co-linked monsters."
+        "note": "Link-4 WATER. Not discussed by the creator. Banishes all monsters on the field, then Special Summons them back, or destroys cards on the field up to the number of co-linked monsters. Copies: YRalps plays 1, Palladino BR plays 0."
+      },
+      {
+        "name": "Lava Golem",
+        "role": "payoff",
+        "copies": 3,
+        "note": "Level 8 FIRE Fiend. Cannot be Normal Summoned: you Special Summon it from your hand to your opponent's field by Tributing 2 monsters they control, and you take 500 damage in each of your Standby Phases (the skill makes that damage 0). Palladino BR plays 3 because it does not lock you to one Attribute and it is a free discard for the skill. In his replays he also gives it to the opponent and attacks it, so Icejade Curse burns for half its ATK (1500). YRalps does not play it."
+      },
+      {
+        "name": "Icejade Creation Kingfisher",
+        "role": "extender",
+        "copies": 1,
+        "note": "Level 9 WATER Aqua (Palladino BR says \"Pescador\"). You can equip it from your hand or field to a WATER monster you control. An Icejade monster with it equipped can attack in Defense Position and uses its DEF for damage, and the card can come back as a monster to return an opponent's monster with ATK at most the equipped monster's DEF to the hand. He likes it on Kosmochlor (3000 DEF)."
+      },
+      {
+        "name": "Icejade Cenote Enion Cradle",
+        "role": "payoff",
+        "copies": 1,
+        "note": "The Field Spell. The skill already Sets one from outside the deck, and Palladino BR also plays one in the main deck in case the opponent removes the first. When activated you can add an Icejade monster from your Graveyard or banishment to your hand (this is how Kosmochlor comes back). Once per turn, when a monster is Summoned, the targeted WATER monster and all the opponent's monsters lose ATK equal to its original ATK. Some players remove this copy and play with only the skill's one."
+      },
+      {
+        "name": "Egyptian God Slime",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Level 10 WATER Aqua Fusion. Not used in the replays. It can be Special Summoned from your Extra Deck by Tributing a Level 10 Aqua monster with 0 ATK (the Field Spell can take a monster to 0 ATK). Cannot be destroyed in battle, and the opponent cannot target your other monsters with attacks or card effects. Palladino BR says it is an extra, not needed to play the deck."
+      },
+      {
+        "name": "Super Starslayer TY-PHON - Sky Crisis",
+        "role": "payoff",
+        "copies": 1,
+        "note": "Rank 12 DARK Xyz. Not used in the replays. He says he does not use it much but it fits in the Extra Deck. While it is on the field neither player can activate the effects of monsters with 3000 or more ATK."
+      },
+      {
+        "name": "Marincess Great Bubble Reef",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-4 WATER. Not used in the replays; he says it is strong and that many players play Worldsea Dragon Zealantis, which he does not own."
+      },
+      {
+        "name": "Marincess Coral Anemone",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 WATER, the card he uses most after the Synchros. Made from 2 WATER monsters (Aegirine and a Level 10 or Level 5 monster). Special Summon a WATER monster with 1500 or less ATK from your Graveyard to the zone it points to, which is how Ran Aegirine comes back. After that you can only Special Summon WATER monsters this turn, and he says that does not matter because nearly all his cards are WATER."
+      },
+      {
+        "name": "S:P Little Knight",
+        "role": "extender",
+        "copies": 1,
+        "note": "Link-2 DARK. Not discussed beyond \"a standard card nowadays\", with I:P Masquerena. He says if you do not own them it does not matter, he does not use them in his replays."
       }
     ],
     "synergies": [
@@ -6160,7 +6216,9 @@
         ],
         "chainNotes": "What you finish with: Gymir Aegirine, Materiactor Exagard and Kosmochlor on the field, the Field Spell, Icejade Curse, Icejade Erosion and Materiactor Critical (Set), and Droll & Lock Bird in your hand. The creator calls it a Skill Drain-like floodgate: the opponent cannot activate monster effects at all (Curse for monsters Summoned this turn, Kosmochlor for the rest), plus a counter trap, Erosion and Gymir for protection. In the replay the opponent (Dark Magician) tried Dark Magic Attack and the creator negated it with the counter trap, not Erosion, because a Forbidden Droplet could have made Erosion miss and the counter trap is Speed 3, so the opponent cannot answer it. Critical added an Aegirine material to his hand and he put a card from his hand at the bottom of the deck. When the opponent used Soul Servant to put the Spell on top of his deck, he answered with Gymir Aegirine's Quick Effect, which protected his monsters and banished that card. When the opponent Summoned a Dragon, he used the Field Spell's effect on his Synchro: it and all the opponent's monsters lost 3000 ATK. The opponent's attack with Dark Magician of Destruction and a Miasma-made monster did not get through, because Kosmochlor made his monsters lose 1000 ATK. On his own turn the creator attacked, and when the opponent tried to activate Eternal Soul he used Gymir again, which banished it and wiped the field, then finished the game.",
         "endBoard": "Icejade Gymir Aegirine, Materiactor Exagard and Icejade Kosmochlor, the Field Spell, Icejade Curse, Icejade Erosion and Materiactor Critical Set.",
-        "weakSpots": "If you start with the Level 3 monster and no Level 7 Tuner, you cannot do the Xyz line the skill allows (see the Valmonica line). A Lava Golem or Kaiju on your monsters triggers Erosion's search, so you keep a monster; a Forbidden Droplet is the card the creator worries about. If the opponent uses Nibiru, Kaiju or Lava Golem, the Field Spell stays, but the Level 10 Synchro can leave."
+        "weakSpots": "If you start with the Level 3 monster and no Level 7 Tuner, you cannot do the Xyz line the skill allows (see the Valmonica line). A Lava Golem or Kaiju on your monsters triggers Erosion's search, so you keep a monster; a Forbidden Droplet is the card the creator worries about. If the opponent uses Nibiru, Kaiju or Lava Golem, the Field Spell stays, but the Level 10 Synchro can leave.",
+        "build": "yralps",
+        "choice": "Going first (vs Dark Magician)"
       },
       {
         "id": "turn-1-vs-valmonica-two-synchros",
@@ -6448,7 +6506,9 @@
         ],
         "chainNotes": "The opponent (Valmonica) activated his Field Spell and the creator answered with Gymir's Quick Effect to banish it. A card was banished, so Chengying banished a Scale and a Spell from the opponent's Graveyard. When the opponent used Shelter, he negated it with Icejade Erosion, destroying Kosmochlor, and brought it back with Tinola in the Graveyard. In the End Phase he equipped Creation Aegirocassis from the Graveyard to a monster, so on his turn he attacked and won. The creator calls it an easy win. These opponent-turn actions are told in the video and not simulated here.",
         "endBoard": "Icejade Gymir Aegirine, Chengying and Icejade Kosmochlor on the field, the Field Spell, Icejade Erosion Set.",
-        "weakSpots": "Without a counter trap you have no negate: the creator accepts that because Gymir and Chengying can banish and protect. The steps of this line are read from the video narration and a few frames, so some names (which Level 7 Tuner is which, which card Cradle searches) are medium confidence."
+        "weakSpots": "Without a counter trap you have no negate: the creator accepts that because Gymir and Chengying can banish and protect. The steps of this line are read from the video narration and a few frames, so some names (which Level 7 Tuner is which, which card Cradle searches) are medium confidence.",
+        "build": "yralps",
+        "choice": "Going first, Level 3 start (vs Valmonica)"
       },
       {
         "id": "turn-2-vs-dark-magician",
@@ -6801,103 +6861,1165 @@
         ],
         "chainNotes": "The creator then attacks Dark Magician the Dragon Knight with the 6200 ATK Gymir and wins. His comment on the opponent's play: Dark Magician Dragon Knight is \"a strange Dark Magician, but fine\". The skill's third effect is what makes turn two work: with the opponent's monster on the field you can play an Icejade monster face-down and Set Erosion in the same turn.",
         "endBoard": "Icejade Gymir Aegirine (equipped with Creation Aegirocassis, 6200 ATK), Icejade Kosmochlor and Icejade Tremora (returns to the hand), the Field Spell, Icejade Erosion.",
-        "weakSpots": "The ATK of 6200 needs 8 banished monsters, thanks to Ruddy Rose and the opponent's Graveyard, so it depends on the matchup. The opponent can have an Effect Veiler or a Forbidden Droplet. The sequence of this line is reconstructed from the narration and screen, medium confidence."
+        "weakSpots": "The ATK of 6200 needs 8 banished monsters, thanks to Ruddy Rose and the opponent's Graveyard, so it depends on the matchup. The opponent can have an Effect Veiler or a Forbidden Droplet. The sequence of this line is reconstructed from the narration and screen, medium confidence.",
+        "build": "yralps",
+        "choice": "Going second (vs Dark Magician)"
+      },
+      {
+        "id": "palladino-t1-practice-combo",
+        "build": "palladino",
+        "choice": "Going first (the combo, against the computer)",
+        "title": "Going first (practice duel): Cradle finds Ran Aegirine, Gymir Aegirine, then Coral Anemone, Kosmochlor and Creation Aegirocassis equipped",
+        "hand": [
+          "Lava Golem",
+          "Icejade Cradle",
+          "Icejade Aegirine"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Icejade Cradle",
+            "Icejade Aegirine"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): effect damage your cards would cause becomes 0, except Icejade Curse. Effect 2 (once per Duel): reveal a Level 7 WATER Tuner in your hand, send 1 card from your hand to the Graveyard, add up to 2 Icejade cards from your deck, then Set Icejade Cenote Enion Cradle from outside your deck. Effect 3 (once per Duel): with a Level 10 Synchro on the field, or an opponent who controls a monster, play 1 Icejade monster from your deck face-down in Defense Position, then Set an Icejade Spell/Trap from your hand or deck (it can be activated this turn). In these lines both effects are used on turn one."
+        },
+        "start": {
+          "hand": [
+            "Lava Golem",
+            "Icejade Cradle",
+            "Icejade Cradle",
+            "Icejade Aegirine",
+            "Unknown card"
+          ],
+          "note": "The hand Palladino BR shows when he starts the practice duel: Lava Golem, two Icejade Cradle and Icejade Aegirine, plus a card that is cut off at the bottom of the screen. He says to start the combo with Cradle to find the Level 7 Tuner, and that Lava Golem is a good card to discard to the skill because it does not lock you out of anything."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Icejade Cradle",
+            "action": "activate",
+            "reason": "Add Icejade Ran Aegirine from your deck to your hand. He says he is looking for the Tuner to turn on the skill.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "17:44"
+            },
+            "moves": [
+              {
+                "card": "Icejade Cradle",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "A World of Ice and Water",
+            "when": "Main Phase (effect 2)",
+            "needs": "Reveal the Level 7 Tuner in your hand and send 1 card from your hand to the Graveyard (here Lava Golem).",
+            "gives": "Add Icejade Creation Aegirocassis and Icejade Curse, then Set Icejade Cenote Enion Cradle from outside your deck.",
+            "used": true,
+            "reason": "He reveals Ran Aegirine, discards a card (he suggests Lava Golem) and adds a Spell and Creation Aegirocassis. The captions do not say clearly which Spell he adds, so Icejade Curse is medium confidence: it matches the Curse he activates later.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "17:55"
+            },
+            "moves": [
+              {
+                "card": "Lava Golem",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Icejade Curse",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Icejade Cenote Enion Cradle",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Ran Aegirine",
+            "action": "special-summon",
+            "reason": "Discard Icejade Creation Aegirocassis to Special Summon Ran Aegirine from your hand. It adds an Icejade Token (Level 3), so the Level 7 Tuner and the Level 3 Token are ready for a Synchro. You can only Special Summon WATER monsters from your Extra Deck now, which is fine because the line is nearly all WATER.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "18:20"
+            },
+            "moves": [
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Gymir Aegirine",
+            "action": "special-summon",
+            "reason": "Synchro Summon the Level 10 with Ran Aegirine and the Token. Gymir Aegirine is the protection card: its Quick Effect keeps your monsters safe from destruction and banishing. This also turns on effect 3 of the skill.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "18:42"
+            },
+            "moves": [
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Gymir Aegirine",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "A World of Ice and Water",
+            "when": "Main Phase, after the Synchro (effect 3)",
+            "needs": "A Level 10 Synchro on the field (Gymir Aegirine).",
+            "gives": "Play Icejade Kosmochlor face-down in Defense Position, then Set Icejade Erosion from your deck (you can activate it this turn).",
+            "used": true,
+            "reason": "He says to play a card you do not control yet: here Kosmochlor, face-down in Defense Position. He flips it later and activates Erosion as a continuous trap.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "18:52"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Icejade Erosion",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Aegirine",
+            "action": "normal-summon",
+            "reason": "Normal Summon Icejade Aegirine. It will be a material for Coral Anemone together with Kosmochlor.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "19:15"
+            },
+            "moves": [
+              {
+                "card": "Icejade Aegirine",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Aegirine",
+            "action": "activate",
+            "reason": "Aegirine adds an Icejade Spell/Trap from your deck to your hand. He says \"this Spell\" and the captions name Icejade Manifestation, so this is medium confidence.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "19:25"
+            },
+            "moves": [
+              {
+                "card": "Icejade Manifestation",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Curse",
+            "action": "activate",
+            "reason": "Activate Icejade Curse. Together with Kosmochlor and the Field Spell the opponent cannot use monster effects, whether the monster was Summoned this turn or not.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "19:34"
+            },
+            "moves": [
+              {
+                "card": "Icejade Curse",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Marincess Coral Anemone",
+            "action": "special-summon",
+            "reason": "Link Summon Marincess Coral Anemone with Icejade Aegirine and Icejade Kosmochlor. He says he usually makes Coral here. The captions do not name the two materials, so it is medium confidence: Aegirine and the flipped Kosmochlor are the two WATER monsters on the field besides Gymir Aegirine.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "19:41"
+            },
+            "moves": [
+              {
+                "card": "Icejade Aegirine",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Marincess Coral Anemone",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Marincess Coral Anemone",
+            "action": "activate",
+            "reason": "Special Summon Ran Aegirine (1500 ATK) from the Graveyard to the zone Coral points to. Ran Aegirine is back as a Level 7 Tuner for later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "19:49"
+            },
+            "moves": [
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Cenote Enion Cradle",
+            "action": "activate",
+            "reason": "Activate the Field Spell that the skill Set, and add Kosmochlor from the Graveyard to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "19:57"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Kosmochlor",
+            "action": "special-summon",
+            "reason": "Special Summon Kosmochlor from your hand in Defense Position (there is a face-up card in a Field Zone). With the Field Spell it stops the opponent's monsters from using effects after the turn they were Summoned.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "20:05"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Creation Aegirocassis",
+            "action": "activate",
+            "reason": "Equip Creation Aegirocassis from your Graveyard to Ran Aegirine. Ran Aegirine then takes the name of the Field Spell, so Kosmochlor keeps working if the Field Spell is removed. This is the second lock Palladino BR talks about.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "20:12"
+            },
+            "moves": [
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "graveyard",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The practice combo ends with Gymir Aegirine, Kosmochlor (Defense, 3000 DEF), Ran Aegirine with Creation Aegirocassis equipped, and Marincess Coral Anemone, with the Field Spell, Icejade Curse and Icejade Erosion on the back row. He says the opponent can now do almost nothing: monsters that are Summoned cannot use effects (Curse) and the others cannot either (Kosmochlor), Erosion negates one effect and the Quick Effect of Gymir Aegirine protects the monsters.",
+        "endBoard": "Gymir Aegirine, Kosmochlor (Defense Position), Ran Aegirine with Creation Aegirocassis equipped, Marincess Coral Anemone, the Field Spell, Icejade Curse and Icejade Erosion; Icejade Manifestation and Icejade Cradle left in hand.",
+        "weakSpots": "The captions are Palladino BR's explanation, not a game against a real opponent. Some of the cards he adds and the materials of Coral Anemone are medium confidence. Kosmochlor needs the Field Spell, and Curse needs the Field Spell too, so an opponent who removes it breaks both: that is why this list plays a second Field Spell and equips Creation Aegirocassis to Ran Aegirine."
+      },
+      {
+        "id": "palladino-t1-vs-horus",
+        "build": "palladino",
+        "choice": "Going first (replay vs Horus)",
+        "title": "Going first (replay vs Horus): Aegirine opens, Tremora is the face-down Level 5, Coral Anemone and Kosmochlor with Creation Aegirocassis",
+        "hand": [
+          "Icejade Aegirine",
+          "Icejade Kosmochlor"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Icejade Aegirine",
+            "Icejade Kosmochlor"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): effect damage your cards would cause becomes 0, except Icejade Curse. Effect 2 (once per Duel): reveal a Level 7 WATER Tuner in your hand, send 1 card from your hand to the Graveyard, add up to 2 Icejade cards from your deck, then Set Icejade Cenote Enion Cradle from outside your deck. Effect 3 (once per Duel): with a Level 10 Synchro on the field, or an opponent who controls a monster, play 1 Icejade monster from your deck face-down in Defense Position, then Set an Icejade Spell/Trap from your hand or deck (it can be activated this turn). In these lines both effects are used on turn one."
+        },
+        "start": {
+          "hand": [
+            "Icejade Aegirine",
+            "Icejade Kosmochlor",
+            "Unknown card",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "Palladino BR's first replay (he was on a 6-win streak). The captions say he starts with Icejade Aegirine and discards Kosmochlor to the skill. The other cards in the hand are not clear on screen, so they are Unknown here. This is the same plan as the practice combo with a different order."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Icejade Aegirine",
+            "action": "normal-summon",
+            "reason": "Normal Summon Icejade Aegirine first.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "20:45"
+            },
+            "moves": [
+              {
+                "card": "Icejade Aegirine",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Aegirine",
+            "action": "activate",
+            "reason": "Add Icejade Cradle (the Spell he says he takes and then activates).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "20:47"
+            },
+            "moves": [
+              {
+                "card": "Icejade Cradle",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Cradle",
+            "action": "activate",
+            "reason": "Add Icejade Ran Aegirine to your hand so the skill can reveal it.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "20:50"
+            },
+            "moves": [
+              {
+                "card": "Icejade Cradle",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "A World of Ice and Water",
+            "when": "Main Phase (effect 2)",
+            "needs": "Reveal the Level 7 Tuner in your hand and send 1 card from your hand to the Graveyard (here Icejade Kosmochlor).",
+            "gives": "Add Icejade Creation Aegirocassis and Icejade Curse, then Set Icejade Cenote Enion Cradle from outside your deck.",
+            "used": true,
+            "reason": "He reveals Ran Aegirine and sends Kosmochlor to the Graveyard (he says so in the replay). The two cards he adds are medium confidence: he mentions the Field Spell and Icejade Curse, and Creation Aegirocassis is what Ran Aegirine discards next.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "20:54"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Icejade Curse",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Icejade Cenote Enion Cradle",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Curse",
+            "action": "activate",
+            "reason": "Activate Icejade Curse. Together with Kosmochlor and the Field Spell the opponent cannot use monster effects, whether the monster was Summoned this turn or not.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:02"
+            },
+            "moves": [
+              {
+                "card": "Icejade Curse",
+                "from": "hand",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Ran Aegirine",
+            "action": "special-summon",
+            "reason": "Discard Icejade Creation Aegirocassis to Special Summon Ran Aegirine from your hand. It adds an Icejade Token (Level 3), so the Level 7 Tuner and the Level 3 Token are ready for a Synchro. You can only Special Summon WATER monsters from your Extra Deck now, which is fine because the line is nearly all WATER.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:04"
+            },
+            "moves": [
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Gymir Aegirine",
+            "action": "special-summon",
+            "reason": "Synchro Summon the Level 10 with Ran Aegirine and the Token. Gymir Aegirine is the protection card: its Quick Effect keeps your monsters safe from destruction and banishing. This also turns on effect 3 of the skill.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:07"
+            },
+            "moves": [
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Gymir Aegirine",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "A World of Ice and Water",
+            "when": "Main Phase, after the Synchro (effect 3)",
+            "needs": "A Level 10 Synchro on the field (Gymir Aegirine).",
+            "gives": "Play Icejade Tremora face-down in Defense Position, then Set Icejade Erosion from your deck (you can activate it this turn).",
+            "used": true,
+            "reason": "He says he plays his Level 5 face-down: that is Icejade Tremora, which he then flips and uses as a material.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:12"
+            },
+            "moves": [
+              {
+                "card": "Icejade Tremora",
+                "from": "deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Icejade Erosion",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Marincess Coral Anemone",
+            "action": "special-summon",
+            "reason": "Link Summon Marincess Coral Anemone with Icejade Aegirine and Icejade Tremora. He makes \"the Coral\" next. The materials are not named in the captions: Aegirine and the face-down Level 5 are the two WATER monsters other than Gymir Aegirine.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:18"
+            },
+            "moves": [
+              {
+                "card": "Icejade Aegirine",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Tremora",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Marincess Coral Anemone",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Marincess Coral Anemone",
+            "action": "activate",
+            "reason": "Special Summon Ran Aegirine (1500 ATK) from the Graveyard to the zone Coral points to. Ran Aegirine is back as a Level 7 Tuner for later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:24"
+            },
+            "moves": [
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Cenote Enion Cradle",
+            "action": "activate",
+            "reason": "Activate the Field Spell that the skill Set, and add Kosmochlor from the Graveyard to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:28"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Kosmochlor",
+            "action": "special-summon",
+            "reason": "Special Summon Kosmochlor from your hand in Defense Position (there is a face-up card in a Field Zone). With the Field Spell it stops the opponent's monsters from using effects after the turn they were Summoned.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:30"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Creation Aegirocassis",
+            "action": "activate",
+            "reason": "Equip Creation Aegirocassis from your Graveyard to Ran Aegirine. Ran Aegirine then takes the name of the Field Spell, so Kosmochlor keeps working if the Field Spell is removed. This is the second lock Palladino BR talks about.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "21:36"
+            },
+            "moves": [
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "graveyard",
+                "to": "spell-trap-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The opponent used Horus monsters (the captions spell it \"Orcust\", which looks like a mishearing of Horus; one of the opponent's monsters did a Special Summon and the captions mention a Goddess). Everything was locked: \"only strong monsters\", he says. On his next turn he put a Lava Golem on the opponent's side, attacked it, and Icejade Curse burned for half its ATK. When the opponent negated Kosmochlor and his trap in the same column he was stuck for a turn, which is one reason he plays 2 Kosmochlor. These lines come from the captions and a few frames only, so treat the details as medium confidence.",
+        "endBoard": "Gymir Aegirine, Kosmochlor (Defense Position), Ran Aegirine with Creation Aegirocassis equipped, Marincess Coral Anemone, the Field Spell, Icejade Curse and Icejade Erosion.",
+        "weakSpots": "He says the opponent can negate Kosmochlor and a trap in the same column, which takes away the lock for a turn: that is why Kosmochlor is played twice, so Erosion can bring the second one in. Hand traps are not covered in this list."
+      },
+      {
+        "id": "palladino-t1-vs-dark-magician",
+        "build": "palladino",
+        "choice": "Going first (replay vs Dark Magician)",
+        "title": "Going first (replay vs Dark Magician): the same opening with Lava Golem, and Erosion bringing Kosmochlor back",
+        "hand": [
+          "Icejade Aegirine",
+          "Lava Golem"
+        ],
+        "requires": {
+          "turn": "first",
+          "hand": [
+            "Icejade Aegirine",
+            "Lava Golem"
+          ]
+        },
+        "skillPlan": {
+          "uses": true,
+          "note": "Effect 1 (always): effect damage your cards would cause becomes 0, except Icejade Curse. Effect 2 (once per Duel): reveal a Level 7 WATER Tuner in your hand, send 1 card from your hand to the Graveyard, add up to 2 Icejade cards from your deck, then Set Icejade Cenote Enion Cradle from outside your deck. Effect 3 (once per Duel): with a Level 10 Synchro on the field, or an opponent who controls a monster, play 1 Icejade monster from your deck face-down in Defense Position, then Set an Icejade Spell/Trap from your hand or deck (it can be activated this turn). In these lines both effects are used on turn one."
+        },
+        "start": {
+          "hand": [
+            "Icejade Aegirine",
+            "Lava Golem",
+            "Unknown card",
+            "Unknown card",
+            "Unknown card"
+          ],
+          "note": "Palladino BR's second replay (a 4-win streak, played before the first one). The hand includes Icejade Aegirine and Lava Golem; the other cards are not readable on screen. The opening is the one from the practice combo, so only the differences are explained."
+        },
+        "steps": [
+          {
+            "type": "card",
+            "card": "Icejade Aegirine",
+            "action": "normal-summon",
+            "reason": "Normal Summon Icejade Aegirine first.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "23:31"
+            },
+            "moves": [
+              {
+                "card": "Icejade Aegirine",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Aegirine",
+            "action": "activate",
+            "reason": "Add Icejade Cradle (the Spell he takes and activates).",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "23:32"
+            },
+            "moves": [
+              {
+                "card": "Icejade Cradle",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Cradle",
+            "action": "activate",
+            "reason": "Add Icejade Ran Aegirine to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "23:34"
+            },
+            "moves": [
+              {
+                "card": "Icejade Cradle",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "deck",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "A World of Ice and Water",
+            "when": "Main Phase (effect 2)",
+            "needs": "Reveal the Level 7 Tuner in your hand and send 1 card from your hand to the Graveyard (here Lava Golem).",
+            "gives": "Add Icejade Creation Aegirocassis and Icejade Curse, then Set Icejade Cenote Enion Cradle from outside your deck.",
+            "used": true,
+            "reason": "He reveals Ran Aegirine, discards a card and adds Creation Aegirocassis plus another card. Lava Golem is a good discard: the replay shows him using it again later. The second card is medium confidence.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "23:38"
+            },
+            "moves": [
+              {
+                "card": "Lava Golem",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Icejade Curse",
+                "from": "deck",
+                "to": "hand"
+              },
+              {
+                "card": "Icejade Cenote Enion Cradle",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Ran Aegirine",
+            "action": "special-summon",
+            "reason": "Discard Icejade Creation Aegirocassis to Special Summon Ran Aegirine from your hand. It adds an Icejade Token (Level 3), so the Level 7 Tuner and the Level 3 Token are ready for a Synchro. You can only Special Summon WATER monsters from your Extra Deck now, which is fine because the line is nearly all WATER.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "23:46"
+            },
+            "moves": [
+              {
+                "card": "Icejade Creation Aegirocassis",
+                "from": "hand",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Gymir Aegirine",
+            "action": "special-summon",
+            "reason": "Synchro Summon the Level 10 with Ran Aegirine and the Token. Gymir Aegirine is the protection card: its Quick Effect keeps your monsters safe from destruction and banishing. This also turns on effect 3 of the skill.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "23:50"
+            },
+            "moves": [
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Gymir Aegirine",
+                "from": "extra-deck",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "skill",
+            "skill": "A World of Ice and Water",
+            "when": "Main Phase, after the Synchro (effect 3)",
+            "needs": "A Level 10 Synchro on the field (Gymir Aegirine).",
+            "gives": "Play Icejade Kosmochlor face-down in Defense Position, then Set Icejade Erosion from your deck (you can activate it this turn).",
+            "used": true,
+            "reason": "He plays Kosmochlor face-down and Sets Icejade Erosion, activated this turn.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "23:55"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "deck",
+                "to": "monster-zone"
+              },
+              {
+                "card": "Icejade Erosion",
+                "from": "deck",
+                "to": "spell-trap-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Marincess Coral Anemone",
+            "action": "special-summon",
+            "reason": "Link Summon Marincess Coral Anemone with Icejade Aegirine and Icejade Kosmochlor. He flips Kosmochlor and makes the Coral. The captions do not name the materials, so it is medium confidence.",
+            "confidence": "medium",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "24:04"
+            },
+            "moves": [
+              {
+                "card": "Icejade Aegirine",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "monster-zone",
+                "to": "graveyard"
+              },
+              {
+                "card": "Marincess Coral Anemone",
+                "from": "extra-deck",
+                "to": "extra-monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Marincess Coral Anemone",
+            "action": "activate",
+            "reason": "Special Summon Ran Aegirine (1500 ATK) from the Graveyard to the zone Coral points to. Ran Aegirine is back as a Level 7 Tuner for later.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "24:07"
+            },
+            "moves": [
+              {
+                "card": "Icejade Ran Aegirine",
+                "from": "graveyard",
+                "to": "monster-zone"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Cenote Enion Cradle",
+            "action": "activate",
+            "reason": "Activate the Field Spell that the skill Set, and add Kosmochlor from the Graveyard to your hand.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "24:11"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "graveyard",
+                "to": "hand"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "card": "Icejade Kosmochlor",
+            "action": "special-summon",
+            "reason": "Special Summon Kosmochlor from your hand in Defense Position (there is a face-up card in a Field Zone). With the Field Spell it stops the opponent's monsters from using effects after the turn they were Summoned.",
+            "confidence": "high",
+            "source": {
+              "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+              "timestamp": "24:13"
+            },
+            "moves": [
+              {
+                "card": "Icejade Kosmochlor",
+                "from": "hand",
+                "to": "monster-zone"
+              }
+            ]
+          }
+        ],
+        "chainNotes": "The opponent played a Dark Magician deck with Necro Valley and a Ritual: it brought out Dark Magician, then gave him a Lava Golem. When Lava Golem was Summoned to his side, he chained Icejade Erosion and brought Kosmochlor back as another copy (\"that is why more copies of Kosmochlor are worth it\"). Later he negated the opponent's Necro Valley (the captions do not say with which card) so that Creation Aegirocassis could come back from the Graveyard. He finished with a direct attack from Lava Golem plus the burn from Icejade Curse. He says he made one mistake: he put a monster in Attack Position when Defense Position would have dealt much more damage, because an Icejade monster with Creation Kingfisher equipped can attack in Defense Position and uses its DEF.",
+        "endBoard": "After turn one: Gymir Aegirine, Kosmochlor (Defense Position), Ran Aegirine and Marincess Coral Anemone, with the Field Spell and Icejade Erosion.",
+        "weakSpots": "This line was rebuilt from captions with only the opening hand seen on screen, so the later turns are medium confidence. A Lava Golem on your own field is a risk if the opponent has an answer; Icejade Erosion and a second Kosmochlor are how the video recovers."
       }
     ],
-    "videoList": {
-      "main": [
-        {
-          "name": "Nibiru, the Primal Being",
-          "count": 3
-        },
-        {
-          "name": "Droll & Lock Bird",
-          "count": 3
-        },
-        {
-          "name": "Icejade Ran Aegirine",
-          "count": 3
-        },
-        {
-          "name": "Icejade Kosmochlor",
-          "count": 1
-        },
-        {
-          "name": "Icejade Aegirine",
-          "count": 3
-        },
-        {
-          "name": "Icejade Creation Aegirocassis",
-          "count": 3
-        },
-        {
-          "name": "Icejade Tremora",
-          "count": 1
-        },
-        {
-          "name": "Icejade Tinola",
-          "count": 1
-        },
-        {
-          "name": "Lightning Storm",
-          "count": 2
-        },
-        {
-          "name": "Icejade Cradle",
-          "count": 3
-        },
-        {
-          "name": "Icejade Curse",
-          "count": 1
-        },
-        {
-          "name": "Icejade Manifestation",
-          "count": 1
-        },
-        {
-          "name": "Icejade Erosion",
-          "count": 1
-        },
-        {
-          "name": "Materiactor Critical",
-          "count": 1
-        }
-      ],
-      "extra": [
-        {
-          "name": "Ruddy Rose Dragon",
-          "count": 1
-        },
-        {
-          "name": "Icejade Gymir Aegirine",
-          "count": 2
-        },
-        {
-          "name": "Swordsoul Supreme Sovereign - Chengying",
-          "count": 1
-        },
-        {
-          "name": "Materiactor Exagard",
-          "count": 1
-        },
-        {
-          "name": "I:P Masquerena",
-          "count": 1
-        },
-        {
-          "name": "Underworld Goddess of the Closed World",
-          "count": 1
-        },
-        {
-          "name": "Worldsea Dragon Zealantis",
-          "count": 1
-        },
-        {
-          "name": "Knightmare Phoenix",
-          "count": 1
-        }
-      ]
-    }
+    "videoLists": [
+      {
+        "id": "yralps",
+        "title": "ICEJADE NÃO DEVERIA EXISTIR... [DUEL LINKS]",
+        "creator": "YRalps",
+        "url": "https://www.youtube.com/watch?v=kRHL-dwVf30",
+        "playName": "YRalps · 27 cards with Nibiru, Droll & Lock Bird and Materiactor",
+        "playNote": "The full list with 3 Ran Aegirine and a counter trap. It builds Gymir Aegirine and Materiactor Exagard on turn one.",
+        "main": [
+          {
+            "name": "Nibiru, the Primal Being",
+            "count": 3
+          },
+          {
+            "name": "Droll & Lock Bird",
+            "count": 3
+          },
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 1
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 3
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 1
+          },
+          {
+            "name": "Icejade Tinola",
+            "count": 1
+          },
+          {
+            "name": "Lightning Storm",
+            "count": 2
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Critical",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Ruddy Rose Dragon",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 1
+          },
+          {
+            "name": "Materiactor Exagard",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "Underworld Goddess of the Closed World",
+            "count": 1
+          },
+          {
+            "name": "Worldsea Dragon Zealantis",
+            "count": 1
+          },
+          {
+            "name": "Knightmare Phoenix",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "palladino",
+        "title": "O ICEJADE MAIS BARATO DO DUEL LINKS! DECKLIST E COMBOS",
+        "creator": "Palladino BR",
+        "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+        "playName": "Palladino BR · budget list with 1 Ran Aegirine",
+        "playNote": "The cheap list: one Ran Aegirine, 3 Lava Golem and no hand traps. It builds Gymir Aegirine, then Marincess Coral Anemone, and equips Creation Aegirocassis. All three of his lines are going first.",
+        "main": [
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 1
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 2
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 1
+          },
+          {
+            "name": "Icejade Creation Kingfisher",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cenote Enion Cradle",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Egyptian God Slime",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 2
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Marincess Great Bubble Reef",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "buildDifferences": [
+      {
+        "topic": "Cost and core",
+        "a": "YRalps plays 3 Ran Aegirine, 3 Aegirine, 3 Cradle, 3 Creation Aegirocassis and only 1 Kosmochlor, with the counter trap Materiactor Critical (found by Exagard).",
+        "b": "Palladino BR plays 1 Ran Aegirine, 2 Aegirine, 3 Cradle, 3 Creation Aegirocassis and 2 Kosmochlor, and no Materiactor package. He built it because he owns only one Ran Aegirine.",
+        "why": "If you own few copies of the new Ran Aegirine, the budget list shows the cards you can start with. The full list finds Ran Aegirine more often and has more protection."
+      },
+      {
+        "topic": "The list around the Icejade cards",
+        "a": "YRalps adds 3 Nibiru, 3 Droll & Lock Bird and 2 Lightning Storm, and says he is still testing them.",
+        "b": "Palladino BR adds 3 Lava Golem, 1 Icejade Creation Kingfisher and a second copy of the Field Spell, and no hand traps.",
+        "why": "YRalps' extra cards stop the opponent's turn. Palladino BR's cards add damage with Icejade Curse and flexibility, since Lava Golem does not lock you to WATER."
+      },
+      {
+        "topic": "Turn one",
+        "a": "Gymir Aegirine, Materiactor Exagard (a counter trap), the Field Spell, Icejade Curse and Kosmochlor, with Erosion Set.",
+        "b": "Gymir Aegirine, then Marincess Coral Anemone using Aegirine and the face-down Level 5 or Level 10 monster, which brings Ran Aegirine back, then Kosmochlor and Creation Aegirocassis equipped to Ran, with Erosion and Curse.",
+        "why": "Exagard gives a Speed 3 counter trap. Coral gives an extra Level 7 body and lets the Field Spell return Kosmochlor, so the lock is rebuilt even if the opponent removes it."
+      },
+      {
+        "topic": "Extra Deck",
+        "a": "YRalps: Ruddy Rose Dragon, 2 Gymir Aegirine, Chengying, Materiactor Exagard, Masquerena, Underworld Goddess, Zealantis and Knightmare Phoenix.",
+        "b": "Palladino BR: Egyptian God Slime, 1 Gymir Aegirine, 2 Chengying, TY-PHON, Marincess Great Bubble Reef, Masquerena, S:P Little Knight and Marincess Coral Anemone (9 cards).",
+        "why": "The Coral Anemone line is only in the budget list. Both lists lean on Gymir Aegirine as the protection Synchro."
+      },
+      {
+        "topic": "Replays in the videos",
+        "a": "YRalps shows two going-first lines and one going-second line with the same Synchro plan.",
+        "b": "Palladino BR shows a practice combo against the computer and two replays, all of them going first.",
+        "why": "This guide has no going-second line for the budget list. He says the deck is control and that going first is better."
+      }
+    ]
   },
   "mathmech": {
     "deck": "Mathmech",

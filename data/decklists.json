@@ -3767,14 +3767,14 @@
     ]
   },
   "icejade": {
-    "defaultId": "video",
+    "defaultId": "video-yralps",
     "lists": [
       {
-        "id": "video",
+        "id": "video-yralps",
         "video": true,
         "author": "YRalps",
         "event": "Video list",
-        "created": "2026-11-02",
+        "created": "2026-11-23",
         "url": "https://www.youtube.com/watch?v=kRHL-dwVf30",
         "tier": null,
         "main": [
@@ -3870,6 +3870,102 @@
           }
         ],
         "mainSize": 27,
+        "extraSize": 9,
+        "distance": 0
+      },
+      {
+        "id": "video-palladino",
+        "video": true,
+        "author": "Palladino BR",
+        "event": "Video list",
+        "created": "2026-11-23",
+        "url": "https://www.youtube.com/watch?v=0EQrlGkQMOI",
+        "tier": null,
+        "main": [
+          {
+            "name": "Lava Golem",
+            "count": 3
+          },
+          {
+            "name": "Icejade Ran Aegirine",
+            "count": 1
+          },
+          {
+            "name": "Icejade Kosmochlor",
+            "count": 2
+          },
+          {
+            "name": "Icejade Aegirine",
+            "count": 2
+          },
+          {
+            "name": "Icejade Creation Aegirocassis",
+            "count": 3
+          },
+          {
+            "name": "Icejade Tremora",
+            "count": 1
+          },
+          {
+            "name": "Icejade Creation Kingfisher",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cradle",
+            "count": 3
+          },
+          {
+            "name": "Icejade Curse",
+            "count": 1
+          },
+          {
+            "name": "Icejade Manifestation",
+            "count": 1
+          },
+          {
+            "name": "Icejade Cenote Enion Cradle",
+            "count": 1
+          },
+          {
+            "name": "Icejade Erosion",
+            "count": 1
+          }
+        ],
+        "extra": [
+          {
+            "name": "Egyptian God Slime",
+            "count": 1
+          },
+          {
+            "name": "Icejade Gymir Aegirine",
+            "count": 1
+          },
+          {
+            "name": "Swordsoul Supreme Sovereign - Chengying",
+            "count": 2
+          },
+          {
+            "name": "Super Starslayer TY-PHON - Sky Crisis",
+            "count": 1
+          },
+          {
+            "name": "Marincess Great Bubble Reef",
+            "count": 1
+          },
+          {
+            "name": "I:P Masquerena",
+            "count": 1
+          },
+          {
+            "name": "S:P Little Knight",
+            "count": 1
+          },
+          {
+            "name": "Marincess Coral Anemone",
+            "count": 1
+          }
+        ],
+        "mainSize": 20,
         "extraSize": 9,
         "distance": 0
       },

@@ -61,3 +61,6 @@ What was built, in order, and why. Dates are the days the work was done (the git
 
 ## 2026-11-14: Vaalmonica, two builds in one guide
 - **Vaalmonica** guide with two deck versions chosen in the play guide: YRalps (26 cards, Lava Golem and D.D. Crow) and IgnisterPRC (20 cards, Dimensional Fissure and Mulcharmy Purulia). Each has three lines (going first, going second, and a variation). Uses the deck version chooser added on 2026-11-09 and `scripts/banlist-history.js` for the banned/limited check.
+
+## 2026-11-23: Icejade, a second build (Palladino BR)
+- **Icejade** now has two deck versions chosen in the play guide: YRalps (27 cards, full list) and Palladino BR (20 cards, the budget list with a single Ran Aegirine, 3 Lava Golem, 2 Kosmochlor and the Marincess Coral Anemone line). The guide's single `videoList` became two `videoLists`, the three old lines got `build: "yralps"`, and the new build has three lines (practice combo, replay vs Horus, replay vs Dark Magician), all going first. Four comparison topics were added to the Alternatives tab. Eight new card notes, banned/limited check done with `scripts/banlist-history.js`.
